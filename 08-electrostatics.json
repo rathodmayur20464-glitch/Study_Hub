@@ -1,0 +1,298 @@
+{
+  "title": "Electrostatics",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Gauss' Law & Electric Flux",
+      "tag": "concept",
+      "points": [
+        "Electric flux Φ = ∮ E · dA = E A cosθ represents the total number of electric field lines passing normally through a surface. SI unit: N·m²/C or V·m.",
+        "Gauss' Law: Total electric flux through any closed Gaussian surface equals 1/ε₀ times the net charge enclosed: Φ = ∮ E · dA = q_enc / ε₀.",
+        "Permittivity of free space: ε₀ = 8.854 × 10⁻¹² C²/(N·m²). Dimensions: [M⁻¹L⁻³T⁴I²].",
+        "Electric field lines originate from positive charges and terminate at negative charges; they never intersect.",
+        "Gauss' law is most useful when the charge distribution possesses high symmetry (spherical, cylindrical, or planar)."
+      ],
+      "formulas": [
+        {
+          "label": "Electric flux",
+          "expr": "Φ = ∮ E · dA = EA cosθ"
+        },
+        {
+          "label": "Gauss' law",
+          "expr": "Φ = q_enc / ε₀"
+        },
+        {
+          "label": "Permittivity ε₀",
+          "expr": "ε₀ = 8.854 × 10⁻¹² C²/(N·m²)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Applications of Gauss' Law",
+      "tag": "formula",
+      "points": [
+        "Infinitely Long Straight Charged Wire (linear charge density λ = q/L): E = λ / (2πε₀r). Field is radial and E ∝ 1/r.",
+        "Uniformly Charged Infinite Plane Sheet (surface charge density σ = q/A): E = σ / (2ε₀). Field is uniform, perpendicular to sheet, and independent of distance r.",
+        "Conducting Charged Plate: E = σ / ε₀ (twice that of an isolated thin sheet).",
+        "Uniformly Charged Thin Spherical Shell (radius R, total charge q): Outside (r > R): E = q / (4πε₀r²); On surface (r = R): E = σ / ε₀ = q / (4πε₀R²); Inside (r < R): E = 0 (charge resides solely on outer surface)."
+      ],
+      "formulas": [
+        {
+          "label": "Long straight wire field",
+          "expr": "E = λ / (2πε₀r)"
+        },
+        {
+          "label": "Infinite plane sheet field",
+          "expr": "E = σ / (2ε₀)"
+        },
+        {
+          "label": "Shell (outside)",
+          "expr": "E = q / (4πε₀r²)"
+        },
+        {
+          "label": "Shell (inside)",
+          "expr": "E = 0"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Electric Potential & Potential Gradient",
+      "tag": "formula",
+      "points": [
+        "Electric potential V is the work done per unit positive charge in bringing it from infinity to that point against electrostatic forces: V = W / q₀. SI unit: Volt (V = J/C).",
+        "Potential due to point charge q: V = q / (4πε₀r). Notice V ∝ 1/r (scalar quantity).",
+        "Relation between electric field and potential: E = −dV/dr (Electric field is the negative potential gradient). E points in the direction of steepest potential decrease.",
+        "Equipotential surface: A surface on which potential is everywhere equal. Work done in moving a charge on an equipotential surface is ZERO (W = q ΔV = 0). Electric field lines are always normal to equipotential surfaces.",
+        "Electrostatic potential energy of two point charges: U = q₁q₂ / (4πε₀r)."
+      ],
+      "formulas": [
+        {
+          "label": "Potential of point charge",
+          "expr": "V = q / (4πε₀r)"
+        },
+        {
+          "label": "Field-potential relation",
+          "expr": "E = −dV/dr"
+        },
+        {
+          "label": "Potential energy of 2 charges",
+          "expr": "U = q₁q₂ / (4πε₀r)"
+        },
+        {
+          "label": "Work done",
+          "expr": "W = q ΔV = q(V_final − V_initial)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Electric Dipole & Dipole Interactions",
+      "tag": "formula",
+      "points": [
+        "Electric dipole moment p = q(2a) directed from −q to +q. SI unit: C·m. Dimensions: [M⁰L¹T¹I¹].",
+        "Axial electric field (r ≫ a): E_axis = 2p / (4πε₀r³) (along dipole axis, same direction as p).",
+        "Equatorial electric field (r ≫ a): E_eq = p / (4πε₀r³) (anti-parallel to p). Notice E_axis = 2 × E_eq.",
+        "Torque on dipole in uniform field: τ = p × E ⟹ τ = pE sinθ. Stable equilibrium at θ = 0°; Unstable at θ = 180°.",
+        "Potential energy of dipole in uniform field: U = −p · E = −pE cosθ. Work done in rotating dipole from θ₁ to θ₂: W = pE(cosθ₁ − cosθ₂)."
+      ],
+      "formulas": [
+        {
+          "label": "Dipole moment",
+          "expr": "p = q(2a)"
+        },
+        {
+          "label": "Axial field",
+          "expr": "E_axis = 2p / (4πε₀r³)"
+        },
+        {
+          "label": "Equatorial field",
+          "expr": "E_eq = p / (4πε₀r³)"
+        },
+        {
+          "label": "Torque on dipole",
+          "expr": "τ = pE sinθ"
+        },
+        {
+          "label": "Potential energy",
+          "expr": "U = −p · E = −pE cosθ"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Capacitance & Parallel Plate Capacitor",
+      "tag": "formula",
+      "points": [
+        "Capacitance C = Q/V: ability of a conductor to store electric charge and potential energy. SI unit: Farad (F = C/V). Dimensions: [M⁻¹L⁻²T⁴I²].",
+        "Parallel plate capacitor in vacuum: C₀ = ε₀A / d, where A is plate area and d is separation.",
+        "With uniform dielectric of dielectric constant k (or ε_r): C = k C₀ = k ε₀A / d.",
+        "With conducting slab of thickness t (t < d): C = ε₀A / (d − t).",
+        "With dielectric slab of thickness t and constant k: C = ε₀A / [d − t(1 − 1/k)]."
+      ],
+      "formulas": [
+        {
+          "label": "Capacitance definition",
+          "expr": "C = Q / V"
+        },
+        {
+          "label": "Parallel plate (air)",
+          "expr": "C₀ = ε₀A / d"
+        },
+        {
+          "label": "With dielectric medium",
+          "expr": "C = k ε₀A / d"
+        },
+        {
+          "label": "With dielectric slab (t)",
+          "expr": "C = ε₀A / [d − t(1 − 1/k)]"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Dielectrics, Polarization & Bound Charges",
+      "tag": "concept",
+      "points": [
+        "Dielectrics are non-conducting insulating materials that transmit electrostatic effects without conducting charge.",
+        "Polar dielectrics (e.g., HCl, H₂O): Centres of positive and negative charges do not coincide; possess permanent dipole moment.",
+        "Non-polar dielectrics (e.g., H₂, O₂, CO₂): Centres of positive and negative charges coincide; dipole moment is zero in the absence of external field.",
+        "Polarization P: Induced electric dipole moment per unit volume of the dielectric: P = χ_e ε₀ E, where χ_e is electric susceptibility.",
+        "Dielectric constant (relative permittivity): k = ε_r = 1 + χ_e = E₀ / E_net = C / C₀.",
+        "Reduced electric field inside dielectric: E = E₀ − E_p = E₀ / k, where E_p = σ_p / ε₀ is induced bound charge field."
+      ],
+      "formulas": [
+        {
+          "label": "Polarization",
+          "expr": "P = χ_e ε₀ E"
+        },
+        {
+          "label": "Dielectric constant",
+          "expr": "k = 1 + χ_e = E₀ / E"
+        },
+        {
+          "label": "Induced charge density",
+          "expr": "σ_p = σ(1 − 1/k)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Combinations of Capacitors (Series & Parallel)",
+      "tag": "formula",
+      "points": [
+        "Series Combination: Same charge Q on all capacitors; potential divides: V = V₁ + V₂ + V₃.",
+        "Equivalent series capacitance: 1/C_s = 1/C₁ + 1/C₂ + 1/C₃. For two capacitors: C_s = C₁C₂ / (C₁ + C₂). C_s is always less than the smallest individual capacitance.",
+        "Parallel Combination: Same potential difference V across all capacitors; charge divides: Q = Q₁ + Q₂ + Q₃.",
+        "Equivalent parallel capacitance: C_p = C₁ + C₂ + C₃. C_p is always greater than the largest individual capacitance.",
+        "For n identical capacitors of capacitance C: C_p / C_s = n²."
+      ],
+      "formulas": [
+        {
+          "label": "Series capacitance",
+          "expr": "1/C_s = 1/C₁ + 1/C₂ + 1/C₃"
+        },
+        {
+          "label": "Two capacitors series",
+          "expr": "C_s = C₁C₂ / (C₁ + C₂)"
+        },
+        {
+          "label": "Parallel capacitance",
+          "expr": "C_p = C₁ + C₂ + C₃"
+        },
+        {
+          "label": "Ratio for n identical",
+          "expr": "C_p / C_s = n²"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Energy Stored in Capacitor & Van de Graaff",
+      "tag": "formula",
+      "points": [
+        "Electrostatic energy stored in a capacitor: U = ½ CV² = ½ Q²/C = ½ QV.",
+        "Energy density (energy stored per unit volume of electric field): u = ½ ε₀ E² (in vacuum) or u = ½ k ε₀ E² (in dielectric).",
+        "Sharing of charge between two capacitors: Common potential V_c = (C₁V₁ + C₂V₂) / (C₁ + C₂).",
+        "Loss of electrostatic energy during sharing (dissipated as heat/spark): ΔU = [C₁C₂(V₁ − V₂)²] / [2(C₁ + C₂)].",
+        "Van de Graaff Generator: Electrostatic machine capable of generating millions of volts (several MV) based on (1) Corona discharge (action of sharp points) and (2) Charge given to a hollow conductor transfers entirely to its outer surface."
+      ],
+      "formulas": [
+        {
+          "label": "Stored energy",
+          "expr": "U = ½ CV² = ½ Q²/C = ½ QV"
+        },
+        {
+          "label": "Energy density",
+          "expr": "u = ½ ε₀ E²"
+        },
+        {
+          "label": "Common potential",
+          "expr": "V_c = (C₁V₁ + C₂V₂) / (C₁ + C₂)"
+        },
+        {
+          "label": "Energy loss on sharing",
+          "expr": "ΔU = [C₁C₂(V₁ − V₂)²] / [2(C₁ + C₂)]"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Dielectric Slab Formulas",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for electric field intensity due to an infinitely long charged wire using Gauss' theorem: E = λ/(2πε₀r).",
+        "Board Favourite #2: Derive expression for electric field intensity due to a uniformly charged infinite plane sheet: E = σ/(2ε₀).",
+        "Board Favourite #3: Derive expression for capacitance of a parallel plate capacitor with a dielectric slab of thickness t: C = ε₀A / [d − t(1 − 1/k)].",
+        "Board Favourite #4: Derive expression for energy stored in a charged capacitor U = ½ CV².",
+        "Must-Know Definition: Principle of a capacitor (increasing capacitance by bringing an earthed conductor close to an insulated charged conductor)."
+      ],
+      "formulas": [
+        {
+          "label": "Wire field proof",
+          "expr": "E = λ / (2πε₀r)"
+        },
+        {
+          "label": "Sheet field proof",
+          "expr": "E = σ / (2ε₀)"
+        },
+        {
+          "label": "Capacitor with slab",
+          "expr": "C = ε₀A / [d − t(1 − 1/k)]"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Battery Reconnection Traps & Droplet Hacks",
+      "tag": "imp",
+      "points": [
+        "Dielectric Inserted with BATTERY CONNECTED: Voltage V remains constant; C increases by factor k (C = kC₀); Charge increases by factor k (Q = kQ₀); Electric field E = V/d remains constant; Stored energy increases by factor k (U = kU₀).",
+        "Dielectric Inserted with BATTERY DISCONNECTED: Charge Q remains constant; C increases by factor k (C = kC₀); Voltage decreases by factor k (V = V₀/k); Electric field decreases by factor k (E = E₀/k); Stored energy decreases by factor k (U = U₀/k).",
+        "Coalescence of n Identical Charged Droplets: Radius R = n^(1/3) r; Potential V_big = n^(2/3) V_small; Capacitance C_big = n^(1/3) C_small; Total charge Q_big = n Q_small; Stored energy U_big = n^(5/3) U_small.",
+        "Plate Separation Trap: If plate distance d is doubled with battery connected, C halves and energy halves; if disconnected, C halves and energy DOUBLES (external work done against attraction)."
+      ],
+      "formulas": [
+        {
+          "label": "Droplet radius shortcut",
+          "expr": "R = n^(1/3) r"
+        },
+        {
+          "label": "Droplet potential shortcut",
+          "expr": "V_big = n^(2/3) V_small"
+        },
+        {
+          "label": "Droplet energy shortcut",
+          "expr": "U_big = n^(5/3) U_small"
+        },
+        {
+          "label": "Capacitance ratio",
+          "expr": "C_p / C_s = n²"
+        }
+      ]
+    }
+  ]
+}

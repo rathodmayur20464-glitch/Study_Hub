@@ -1,0 +1,279 @@
+{
+  "title": "Kinetic Theory of Gases and Radiation",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Ideal Gas Laws & Kinetic Postulates",
+      "tag": "concept",
+      "points": [
+        "Gas laws: Boyle's law (P ∝ 1/V at const T), Charles' law (V ∝ T at const P), Gay-Lussac's law (P ∝ T at const V).",
+        "Ideal gas equation of state: PV = nRT = N k_B T, where k_B = R/N_A = 1.38 × 10⁻²³ J/K is Boltzmann's constant.",
+        "Assumptions of kinetic theory: gas consists of tiny identical point particles in random continuous motion.",
+        "Intermolecular forces are negligible except during collisions; collisions are perfectly elastic.",
+        "Time of collision is negligible compared to time between successive collisions; volume of gas molecules is negligible compared to container volume."
+      ],
+      "formulas": [
+        {
+          "label": "Ideal gas equation",
+          "expr": "PV = nRT = N k_B T"
+        },
+        {
+          "label": "Boltzmann constant",
+          "expr": "k_B = R/N_A = 1.38 × 10⁻²³ J/K"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Pressure of an Ideal Gas & Kinetic Interpretation of T",
+      "tag": "formula",
+      "points": [
+        "Derivation of gas pressure: P = ⅓ ρ v_rms² = ⅓ (Nm/V) v_rms².",
+        "Kinetic interpretation of temperature: Absolute temperature T is directly proportional to the average translational KE of molecules.",
+        "Average translational KE per molecule: E_mol = 3/2 k_B T (independent of the nature of the gas, depends only on T).",
+        "Average translational KE per mole: E_mole = 3/2 RT.",
+        "At absolute zero (T = 0 K), molecular motion completely ceases and v_rms = 0."
+      ],
+      "formulas": [
+        {
+          "label": "Pressure formula",
+          "expr": "P = ⅓ ρ v_rms² = ⅓ (Nm/V) v_rms²"
+        },
+        {
+          "label": "KE per molecule",
+          "expr": "E = 3/2 k_B T"
+        },
+        {
+          "label": "KE per mole",
+          "expr": "E = 3/2 RT"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Molecular Speeds: RMS, Average & Most Probable",
+      "tag": "formula",
+      "points": [
+        "RMS speed: v_rms = √(3RT / M₀) = √(3k_B T / m) = √(3P / ρ).",
+        "Average speed: v_avg = √(8RT / πM₀) ≈ 0.92 v_rms.",
+        "Most probable speed: v_mp = √(2RT / M₀) ≈ 0.816 v_rms.",
+        "Order of speeds: v_rms > v_avg > v_mp (Remember: 'RAM' ⟹ RMS > Average > Most Probable).",
+        "Ratio of speeds: v_mp : v_avg : v_rms = √2 : √(8/π) : √3 ≈ 1 : 1.128 : 1.224.",
+        "Speed is directly proportional to √T and inversely proportional to √M₀."
+      ],
+      "formulas": [
+        {
+          "label": "RMS speed",
+          "expr": "v_rms = √(3RT/M₀) = √(3P/ρ)"
+        },
+        {
+          "label": "Average speed",
+          "expr": "v_avg = √(8RT / πM₀)"
+        },
+        {
+          "label": "Most probable speed",
+          "expr": "v_mp = √(2RT/M₀)"
+        },
+        {
+          "label": "Speed ratio",
+          "expr": "v_mp : v_avg : v_rms = √2 : √(8/π) : √3"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Degrees of Freedom & Law of Equipartition",
+      "tag": "concept",
+      "points": [
+        "Degree of freedom (f): number of independent coordinates or quadratic terms required to specify the dynamical state of a molecule.",
+        "Law of equipartition of energy: Energy associated with each degree of freedom per molecule is ½ k_B T.",
+        "Monoatomic gas (He, Ne, Ar): f = 3 (all translational), total internal energy U = 3/2 N k_B T.",
+        "Diatomic gas rigid rotator (O₂, N₂, H₂ at normal T): f = 5 (3 translational + 2 rotational), U = 5/2 N k_B T.",
+        "Diatomic gas with vibration (at high T): f = 7 (3 trans + 2 rot + 2 vibrational modes: 1 KE + 1 PE), U = 7/2 N k_B T."
+      ],
+      "formulas": [
+        {
+          "label": "Equipartition per DOF",
+          "expr": "E_dof = ½ k_B T"
+        },
+        {
+          "label": "Monoatomic energy",
+          "expr": "U = 3/2 nRT"
+        },
+        {
+          "label": "Diatomic rigid energy",
+          "expr": "U = 5/2 nRT"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Molar Specific Heats & Mayer's Relation",
+      "tag": "formula",
+      "points": [
+        "Molar specific heat at constant volume C_v = dU/dT = (f/2)R; at constant pressure C_p = C_v + R = (f/2 + 1)R.",
+        "Mayer's Relation: C_p − C_v = R (in molar units) or C_p − C_v = R/J (in heat units, cal/mol·K).",
+        "For principal specific heats (per gram): S_p − S_v = R/(M₀ J).",
+        "Adiabatic ratio γ = C_p / C_v = 1 + 2/f.",
+        "Monoatomic: C_v = 3/2 R, C_p = 5/2 R, γ = 5/3 = 1.67.",
+        "Diatomic (rigid): C_v = 5/2 R, C_p = 7/2 R, γ = 7/5 = 1.40.",
+        "Diatomic (vibrating): C_v = 7/2 R, C_p = 9/2 R, γ = 9/7 = 1.28."
+      ],
+      "formulas": [
+        {
+          "label": "Mayer's relation",
+          "expr": "C_p − C_v = R"
+        },
+        {
+          "label": "Molar C_v",
+          "expr": "C_v = (f/2) R"
+        },
+        {
+          "label": "Molar C_p",
+          "expr": "C_p = (f/2 + 1) R"
+        },
+        {
+          "label": "Adiabatic ratio γ",
+          "expr": "γ = C_p/C_v = 1 + 2/f"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Mean Free Path & Molecular Collisions",
+      "tag": "formula",
+      "points": [
+        "Mean free path λ is the average distance traversed by a gas molecule between two successive collisions.",
+        "Formula: λ = 1 / (√2 π n d²), where n = N/V is number density and d is molecular diameter.",
+        "In terms of P and T: λ = k_B T / (√2 π d² P).",
+        "Dependence: λ ∝ T (at constant P); λ ∝ 1/P (at constant T); λ ∝ 1/ρ (independent of T at constant V).",
+        "Collision frequency = v_avg / λ."
+      ],
+      "formulas": [
+        {
+          "label": "Mean free path",
+          "expr": "λ = 1 / (√2 π n d²)"
+        },
+        {
+          "label": "λ in terms of P & T",
+          "expr": "λ = k_B T / (√2 π d² P)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Thermal Radiation & Ferry's Blackbody",
+      "tag": "concept",
+      "points": [
+        "Radiant energy incident on a surface: Q = Q_a + Q_r + Q_t ⟹ a + r + t = 1.",
+        "Coefficients: absorptive power a = Q_a/Q, reflective power r = Q_r/Q, transmissive power t = Q_t/Q.",
+        "Athermanous body (t = 0 ⟹ a + r = 1, e.g., wood, iron); Diathermanous body (t ≠ 0, e.g., glass, quartz).",
+        "Perfect blackbody absorbs all incident radiant energy (a = 1, r = 0, t = 0).",
+        "Ferry's Blackbody: Double-walled evacuated hollow sphere coated with lampblack inside, with a small aperture and conical projection opposite the hole to ensure multiple internal reflections."
+      ],
+      "formulas": [
+        {
+          "label": "Coefficients sum",
+          "expr": "a + r + t = 1"
+        },
+        {
+          "label": "Emissive power",
+          "expr": "R = Q / (A × t)"
+        },
+        {
+          "label": "Emissivity",
+          "expr": "e = R / R_b"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Kirchhoff's, Wien's & Stefan-Boltzmann Laws",
+      "tag": "formula",
+      "points": [
+        "Kirchhoff's Law of Radiation: At thermal equilibrium, the emissivity of a body equals its absorptive power (e = a). Good absorbers are good emitters.",
+        "Wien's Displacement Law: Wavelength corresponding to maximum radiant intensity is inversely proportional to absolute temperature: λ_max × T = b (Wien's constant b = 2.898 × 10⁻³ m·K).",
+        "Stefan-Boltzmann Law: Total radiant power emitted per unit area of a blackbody is directly proportional to fourth power of absolute temperature: R_b = σT⁴.",
+        "Stefan's constant: σ = 5.67 × 10⁻⁸ W/(m²·K⁴). Dimensions: [M¹L⁰T⁻³K⁻⁴].",
+        "For an ordinary body of emissivity e in surroundings at temperature T₀: Net radiant power loss R_net = e σ (T⁴ − T₀⁴)."
+      ],
+      "formulas": [
+        {
+          "label": "Kirchhoff's law",
+          "expr": "e = a"
+        },
+        {
+          "label": "Wien's law",
+          "expr": "λ_max × T = b = 2.898 × 10⁻³ m·K"
+        },
+        {
+          "label": "Stefan's law (blackbody)",
+          "expr": "R_b = σT⁴"
+        },
+        {
+          "label": "Net rate of loss",
+          "expr": "R_net = e σ A (T⁴ − T₀⁴)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Definitions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive gas pressure P = ⅓ ρ v_rms² from kinetic theory assumptions.",
+        "Board Favourite #2: Prove Mayer's relation C_p − C_v = R using First Law of Thermodynamics.",
+        "Board Favourite #3: Draw and explain Ferry's perfectly blackbody with neat labeled diagram.",
+        "Board Favourite #4: State and prove Kirchhoff's law of radiation theoretically.",
+        "Definitions to Master: Mean free path, Emissive power, Emissivity, Coefficient of absorption, Wien's displacement law."
+      ],
+      "formulas": [
+        {
+          "label": "Pressure derivation",
+          "expr": "P = ⅓ (Nm/V) v_rms²"
+        },
+        {
+          "label": "Mayer's proof",
+          "expr": "C_p − C_v = dQ_p/dT − dQ_v/dT = R"
+        },
+        {
+          "label": "Wien's law",
+          "expr": "λ_max T = b"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Traps, Shortcuts & Speed Formulas",
+      "tag": "imp",
+      "points": [
+        "Stefan's Law Ratio Trap: Radiant power ratio E₁/E₂ = (T₁/T₂)⁴. Always convert temperatures to KELVIN (K = °C + 273)!",
+        "Small Temperature Rise Shortcut: If T increases by x% (where x < 5%), radiant power E increases by ≈ 4x%.",
+        "Wien's Law Shortcut: λ₁ T₁ = λ₂ T₂. If temperature doubles, peak wavelength is halved (shifts towards blue/UV).",
+        "RMS Speed Shortcut: v₁/v₂ = √(T₁/T₂) × √(M₂/M₁). When temperature quadruples, RMS speed doubles.",
+        "Mixture of Non-Reacting Gases: n_total = n₁ + n₂; C_v(mix) = (n₁C_v1 + n₂C_v2)/(n₁ + n₂); γ(mix) = C_p(mix)/C_v(mix).",
+        "Trap: Energy per mole depends only on temperature (E = 3/2 RT for monoatomic), NOT on pressure or volume."
+      ],
+      "formulas": [
+        {
+          "label": "Stefan's ratio",
+          "expr": "E₁/E₂ = (T₁/T₂)⁴"
+        },
+        {
+          "label": "Wien's ratio",
+          "expr": "λ₁/λ₂ = T₂/T₁"
+        },
+        {
+          "label": "RMS speed ratio",
+          "expr": "v₁/v₂ = √(T₁/T₂ × M₂/M₁)"
+        },
+        {
+          "label": "Mixture C_v",
+          "expr": "C_v(mix) = (n₁C_v1 + n₂C_v2) / (n₁ + n₂)"
+        }
+      ]
+    }
+  ]
+}

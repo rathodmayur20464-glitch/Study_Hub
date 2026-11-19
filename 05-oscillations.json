@@ -1,0 +1,285 @@
+{
+  "title": "Oscillations",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Linear SHM & Differential Equation",
+      "tag": "concept",
+      "points": [
+        "Periodic motion repeats at equal intervals of time. Oscillatory motion is to-and-fro periodic motion about a mean position.",
+        "Linear Simple Harmonic Motion (SHM): Restoring force is directly proportional to displacement from mean position and oppositely directed: F = −kx.",
+        "Differential equation of linear SHM: d²x/dt² + ω²x = 0, where ω² = k/m.",
+        "Angular frequency: ω = √(k/m). Time period T = 2π/ω = 2π√(m/k). Frequency n = 1/T = (1/2π)√(k/m).",
+        "Force constant k = mω² (SI unit: N/m, dimensions [M¹L⁰T⁻²])."
+      ],
+      "formulas": [
+        {
+          "label": "Restoring force",
+          "expr": "F = −kx"
+        },
+        {
+          "label": "Differential equation",
+          "expr": "d²x/dt² + ω²x = 0"
+        },
+        {
+          "label": "Angular frequency",
+          "expr": "ω = √(k/m)"
+        },
+        {
+          "label": "Time period",
+          "expr": "T = 2π/ω = 2π√(m/k)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Kinematics of Linear SHM",
+      "tag": "formula",
+      "points": [
+        "Acceleration: a = −ω²x. It is maximum at extreme positions (a_max = ω²A) and zero at mean position (x = 0).",
+        "Velocity: v = ±ω√(A² − x²). It is maximum at mean position (v_max = ωA) and zero at extreme positions (x = ±A).",
+        "Displacement starting from mean position: x = A sin(ωt).",
+        "Displacement starting from positive extreme position: x = A cos(ωt).",
+        "General displacement: x = A sin(ωt + α), where α is initial phase (epoch)."
+      ],
+      "formulas": [
+        {
+          "label": "Acceleration",
+          "expr": "a = −ω²x"
+        },
+        {
+          "label": "Velocity",
+          "expr": "v = ±ω√(A² − x²)"
+        },
+        {
+          "label": "Max velocity",
+          "expr": "v_max = ωA"
+        },
+        {
+          "label": "Max acceleration",
+          "expr": "a_max = ω²A"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Phase, Epoch & Phase Relations",
+      "tag": "concept",
+      "points": [
+        "Phase (θ = ωt + α) describes the instantaneous state of motion (magnitude and direction of displacement).",
+        "Epoch α is the phase at t = 0 (initial phase).",
+        "Phase difference between displacement and velocity is π/2 rad (90°): Velocity leads displacement by π/2.",
+        "Phase difference between velocity and acceleration is π/2 rad (90°): Acceleration leads velocity by π/2.",
+        "Phase difference between displacement and acceleration is π rad (180°): Acceleration is in opposite phase to displacement."
+      ],
+      "formulas": [
+        {
+          "label": "Phase equation",
+          "expr": "Phase = ωt + α"
+        },
+        {
+          "label": "Phase difference x & v",
+          "expr": "Δϕ = π/2 rad"
+        },
+        {
+          "label": "Phase difference x & a",
+          "expr": "Δϕ = π rad"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Energy in SHM & Conservation",
+      "tag": "formula",
+      "points": [
+        "Potential Energy: PE = ½ kx² = ½ mω²x² = ½ mω²A² sin²(ωt + α). PE is minimum (0) at mean position and maximum (½ kA²) at extremes.",
+        "Kinetic Energy: KE = ½ mv² = ½ k(A² − x²) = ½ mω²A² cos²(ωt + α). KE is maximum (½ kA²) at mean position and zero at extremes.",
+        "Total Energy: TE = KE + PE = ½ kA² = ½ mω²A² = 2π² m n² A² = constant (conserved throughout).",
+        "Total energy is directly proportional to mass (m), square of amplitude (A²), and square of frequency (n²).",
+        "At x = ±A/√2: KE = PE = ½ TE. Average KE over one period = ¼ kA²; Average PE = ¼ kA²."
+      ],
+      "formulas": [
+        {
+          "label": "Kinetic energy",
+          "expr": "KE = ½ k(A² − x²)"
+        },
+        {
+          "label": "Potential energy",
+          "expr": "PE = ½ kx²"
+        },
+        {
+          "label": "Total energy",
+          "expr": "TE = ½ kA² = 2π²mn²A²"
+        },
+        {
+          "label": "KE = PE condition",
+          "expr": "x = ±A / √2"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Simple Pendulum & Laws",
+      "tag": "formula",
+      "points": [
+        "An ideal simple pendulum consists of a heavy point mass suspended by a weightless, inextensible, perfectly flexible string.",
+        "Restoring torque: τ = −(mg sinθ)L ≈ −mgLθ (for small angular amplitude θ < 10°).",
+        "Time period: T = 2π√(L/g). Frequency n = (1/2π)√(g/L).",
+        "Laws of simple pendulum: Law of length (T ∝ √L), Law of gravity (T ∝ 1/√g), Law of mass (independent of mass), Law of isochronism (independent of amplitude for small θ).",
+        "Seconds pendulum: A pendulum whose period is exactly 2 seconds (T = 2 s). Length on Earth L ≈ 0.993 m ≈ 1 m."
+      ],
+      "formulas": [
+        {
+          "label": "Period of simple pendulum",
+          "expr": "T = 2π√(L/g)"
+        },
+        {
+          "label": "Frequency",
+          "expr": "n = (1/2π)√(g/L)"
+        },
+        {
+          "label": "Seconds pendulum length",
+          "expr": "L = g / π² ≈ 1 m (for T = 2 s)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Angular SHM & Magnet in B-Field",
+      "tag": "formula",
+      "points": [
+        "Angular SHM: Oscillatory motion where restoring torque is directly proportional to angular displacement: τ = −cθ.",
+        "Differential equation of angular SHM: I d²θ/dt² + cθ = 0, where I is moment of inertia and c is restoring torque per unit twist.",
+        "Period of angular SHM: T = 2π√(I/c).",
+        "Bar magnet vibrating in uniform magnetic field B: Restoring torque τ = −MB sinθ ≈ −MBθ.",
+        "Time period of vibrating magnet: T = 2π√(I / MB), where M is magnetic dipole moment and B is magnetic induction."
+      ],
+      "formulas": [
+        {
+          "label": "Angular SHM equation",
+          "expr": "I d²θ/dt² + cθ = 0"
+        },
+        {
+          "label": "Period of angular SHM",
+          "expr": "T = 2π√(I/c)"
+        },
+        {
+          "label": "Magnet in B-field period",
+          "expr": "T = 2π√(I / MB)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Composition of Two SHMs",
+      "tag": "formula",
+      "points": [
+        "Superposition of two SHMs of same period along the same straight line: x₁ = A₁ sin(ωt + α₁), x₂ = A₂ sin(ωt + α₂).",
+        "Resultant motion is also an SHM of the same period: R sin(ωt + δ).",
+        "Resultant amplitude: R = √(A₁² + A₂² + 2A₁A₂ cos(α₁ − α₂)).",
+        "Initial phase of resultant: tanδ = (A₁ sinα₁ + A₂ sinα₂) / (A₁ cosα₁ + A₂ cosα₂).",
+        "Special Cases: (1) If phase difference Δα = 0, R = A₁ + A₂; (2) If Δα = π, R = |A₁ − A₂|; (3) If Δα = π/2 and A₁ = A₂, R = A√2."
+      ],
+      "formulas": [
+        {
+          "label": "Resultant amplitude",
+          "expr": "R = √(A₁² + A₂² + 2A₁A₂ cos(α₁ − α₂))"
+        },
+        {
+          "label": "Resultant phase",
+          "expr": "tanδ = (A₁ sinα₁ + A₂ sinα₂) / (A₁ cosα₁ + A₂ cosα₂)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Damped, Free & Forced Oscillations, Resonance",
+      "tag": "concept",
+      "points": [
+        "Free oscillations: System oscillates with its natural frequency when displaced and released, with no external force.",
+        "Damped oscillations: Oscillations whose amplitude decreases exponentially with time due to dissipative forces (friction, viscosity).",
+        "Damping force: F_d = −b v = −b(dx/dt), where b is damping constant.",
+        "Damped amplitude: A(t) = A₀ e^(−bt / 2m). Mechanical energy is dissipated as heat.",
+        "Forced oscillations: Oscillations under an external periodic driving force F = F₀ sin(ω_d t).",
+        "Resonance: When driving frequency equals natural frequency (ω_d = ω₀), amplitude of oscillation becomes maximum."
+      ],
+      "formulas": [
+        {
+          "label": "Damping force",
+          "expr": "F_d = −bv"
+        },
+        {
+          "label": "Damped amplitude",
+          "expr": "A(t) = A₀ e^(−bt / 2m)"
+        },
+        {
+          "label": "Resonance condition",
+          "expr": "ω_driving = ω_natural"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Graph Essentials",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive differential equation of linear SHM and obtain expressions for acceleration, velocity, and displacement.",
+        "Board Favourite #2: Show that total energy in linear SHM is conserved at all positions and proportional to A² and n².",
+        "Board Favourite #3: Derive expression for the period of a simple pendulum T = 2π√(L/g) and state its laws.",
+        "Board Favourite #4: Derive expression for resultant amplitude of composition of two parallel SHMs.",
+        "Graphs to Master: (1) x, v, a vs time graphs showing phase shifts; (2) KE and PE vs displacement parabola showing TE = constant."
+      ],
+      "formulas": [
+        {
+          "label": "Differential equation",
+          "expr": "d²x/dt² + ω²x = 0"
+        },
+        {
+          "label": "Total energy",
+          "expr": "TE = ½ mω²A²"
+        },
+        {
+          "label": "Pendulum period",
+          "expr": "T = 2π√(L/g)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Spring Hacks & Speed Tricks",
+      "tag": "imp",
+      "points": [
+        "Spring Combinations: Series ⟹ 1/k_s = 1/k₁ + 1/k₂ (so T = 2π√[m(k₁+k₂)/(k₁k₂)]); Parallel ⟹ k_p = k₁ + k₂ (so T = 2π√[m/(k₁+k₂)]).",
+        "Cutting a Spring: When a spring of constant k is cut into n equal parts, each part has spring constant k' = n k (stiffer).",
+        "Special Positions of Energy: (1) KE = PE at x = A/√2; (2) KE = 3 PE at x = A/2; (3) PE = 3 KE at x = A√3/2.",
+        "Time Taken Shortcuts: Time to travel from mean to A/2 is t = T/12; Time to travel from A/2 to extreme A is t = T/6.",
+        "Relation between v_max and a_max: a_max / v_max = ω; v_max² / a_max = A.",
+        "Effective g in Elevator: Accelerating up ⟹ g_eff = g + a (T decreases); Accelerating down ⟹ g_eff = g − a (T increases); Free fall ⟹ g_eff = 0 (T = ∞, pendulum stops)."
+      ],
+      "formulas": [
+        {
+          "label": "Spring in series",
+          "expr": "1/k_s = 1/k₁ + 1/k₂"
+        },
+        {
+          "label": "Spring in parallel",
+          "expr": "k_p = k₁ + k₂"
+        },
+        {
+          "label": "Cut spring constant",
+          "expr": "k' = n × k"
+        },
+        {
+          "label": "Time mean to A/2",
+          "expr": "t = T / 12"
+        },
+        {
+          "label": "a_max and v_max link",
+          "expr": "a_max / v_max = ω"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "title": "Electromagnetic Induction",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Magnetic Flux & Faraday's Laws",
+      "tag": "formula",
+      "points": [
+        "Magnetic flux Φ through an area A: Φ = B · A = BA cosθ, where θ is angle between magnetic field B and area normal. SI unit: Weber (Wb = T·m² = V·s). Dimensions: [M¹L²T⁻²I⁻¹].",
+        "Faraday's First Law: Whenever magnetic flux linked with a closed circuit changes, an induced EMF is produced in the circuit.",
+        "Faraday's Second Law: The magnitude of induced EMF is directly proportional to the time rate of change of magnetic flux linked with the circuit: e ∝ dΦ/dt.",
+        "For a coil of N turns: e = −N (dΦ/dt). The negative sign is given by Lenz's law."
+      ],
+      "formulas": [
+        {
+          "label": "Magnetic flux",
+          "expr": "Φ = B · A = BA cosθ"
+        },
+        {
+          "label": "Faraday's law",
+          "expr": "e = −dΦ/dt = −N (dΦ/dt)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Lenz's Law & Energy Conservation",
+      "tag": "concept",
+      "points": [
+        "Lenz's Law: The direction of induced current is always such that it OPPOSES the change in magnetic flux that produces it.",
+        "Lenz's law is a consequence of the Law of Conservation of Energy: Mechanical work done against the opposing magnetic force is converted into electrical energy.",
+        "When North pole of magnet approaches a coil: Near face develops NORTH polarity (repels magnet, work done against repulsion).",
+        "When North pole of magnet recedes from a coil: Near face develops SOUTH polarity (attracts magnet, work done against attraction).",
+        "Fleming's Right-Hand Rule (Generator Rule): Thumb = Motion, Forefinger = Magnetic Field, Central Finger = Induced Current."
+      ],
+      "formulas": [
+        {
+          "label": "Lenz's law statement",
+          "expr": "e = −dΦ/dt"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Motional EMF in Straight Conductors",
+      "tag": "formula",
+      "points": [
+        "Motional EMF: EMF induced across ends of a conductor of length L moving with velocity v perpendicular to magnetic field B: e = BLv.",
+        "If velocity v makes angle θ with magnetic field B: e = BLv sinθ.",
+        "Induced current in closed circuit of resistance R: I = e / R = BLv / R.",
+        "Magnetic braking force opposing motion: F = I L B = B² L² v / R.",
+        "Mechanical power required to pull conductor: P_mech = F v = B² L² v² / R.",
+        "Joule heat dissipated in circuit: P_elect = I² R = B² L² v² / R = P_mech (demonstrates energy conservation)."
+      ],
+      "formulas": [
+        {
+          "label": "Motional EMF",
+          "expr": "e = BLv"
+        },
+        {
+          "label": "Induced current",
+          "expr": "I = BLv / R"
+        },
+        {
+          "label": "Opposing magnetic force",
+          "expr": "F = B²L²v / R"
+        },
+        {
+          "label": "Power dissipated",
+          "expr": "P = B²L²v² / R"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Induced EMF in Rotating Conductors",
+      "tag": "formula",
+      "points": [
+        "A conducting rod of length L rotating with angular speed ω about one end in a perpendicular magnetic field B sweeps area at rate dA/dt = ½ L² ω.",
+        "Induced EMF across ends of rotating rod: e = dΦ/dt = B (dA/dt) = ½ B ω L² = B π L² n (where n is frequency of rotation).",
+        "A conducting disc of radius R rotating in perpendicular magnetic field B: EMF between center and rim: e = ½ B ω R².",
+        "Earth's magnetic field component: Vertical component B_v induces EMF across axle of moving train or wingspan of flying airplane: e = B_v L v."
+      ],
+      "formulas": [
+        {
+          "label": "Rotating rod EMF",
+          "expr": "e = ½ B ω L² = B π L² n"
+        },
+        {
+          "label": "Rotating disc EMF",
+          "expr": "e = ½ B ω R²"
+        },
+        {
+          "label": "Train axle / Airplane wings EMF",
+          "expr": "e = B_v L v"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Eddy Currents (Foucault Currents)",
+      "tag": "concept",
+      "points": [
+        "Eddy currents are closed circulating currents induced in bulk metallic pieces when subjected to changing magnetic flux.",
+        "Discovered by Leon Foucault. Produce significant Joule heating (I²R loss) in cores of transformers and motors.",
+        "Minimizing Eddy Currents: Use laminated magnetic cores made of thin insulated sheets (laminations) perpendicular to current paths.",
+        "Useful Applications: (1) Electromagnetic damping in dead-beat galvanometers; (2) Induction furnaces for melting metals; (3) Magnetic brakes in high-speed trains; (4) Electric power meters (rotating aluminium disc)."
+      ],
+      "formulas": [
+        {
+          "label": "Eddy current heat loss",
+          "expr": "P = I²R ∝ f² B_max²"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Self-Inductance & Solenoid Inductor",
+      "tag": "formula",
+      "points": [
+        "Self-induction: Phenomenon in which changing current in a coil induces a back EMF in the SAME coil opposing the change.",
+        "Magnetic flux linkage: N Φ = L I ⟹ Back EMF e = −L (dI/dt).",
+        "Coefficient of self-inductance L: Ratio of back EMF to rate of change of current: L = |e| / (dI/dt). SI unit: Henry (H = V·s/A = Wb/A). Dimensions: [M¹L²T⁻²I⁻²].",
+        "Self-inductance of long solenoid: L = μ₀ n² A l = μ₀ (N² / l) A, where n = N/l is turns per unit length.",
+        "Energy stored in an inductor: U = ½ L I² (stored in the form of magnetic field inside core).",
+        "Magnetic energy density: u_B = B² / (2μ₀) (energy per unit volume of magnetic field)."
+      ],
+      "formulas": [
+        {
+          "label": "Self-induced EMF",
+          "expr": "e = −L (dI/dt)"
+        },
+        {
+          "label": "Self-inductance of solenoid",
+          "expr": "L = μ₀ n² A l = μ₀ (N² A / l)"
+        },
+        {
+          "label": "Energy stored in inductor",
+          "expr": "U = ½ L I²"
+        },
+        {
+          "label": "Magnetic energy density",
+          "expr": "u_B = B² / (2μ₀)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Mutual Inductance & Coupling Coefficient",
+      "tag": "formula",
+      "points": [
+        "Mutual induction: Phenomenon in which changing current in primary coil induces an EMF in neighbouring secondary coil.",
+        "Flux linkage in secondary: N₂ Φ₂ = M I₁ ⟹ Induced EMF in secondary: e₂ = −M (dI₁/dt).",
+        "Coefficient of mutual inductance M: M = |e₂| / (dI₁/dt). SI unit: Henry (H). Reciprocity theorem: M₁₂ = M₂₁ = M.",
+        "Mutual inductance of two coaxial solenoids: M = μ₀ n₁ n₂ A l = μ₀ N₁ N₂ A / l.",
+        "Coupling Coefficient k: Indicates extent of magnetic flux linkage between coils: k = M / √(L₁ L₂), where 0 ≤ k ≤ 1.",
+        "k = 1 for tight coupling (100% flux linkage); k = 0 for perpendicular/distant coils (no coupling)."
+      ],
+      "formulas": [
+        {
+          "label": "Mutual induced EMF",
+          "expr": "e₂ = −M (dI₁/dt)"
+        },
+        {
+          "label": "Mutual inductance solenoids",
+          "expr": "M = μ₀ n₁ n₂ A l"
+        },
+        {
+          "label": "Coupling coefficient",
+          "expr": "k = M / √(L₁ L₂)"
+        },
+        {
+          "label": "Coils in series (aiding/opposing)",
+          "expr": "L_eq = L₁ + L₂ ± 2M"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "AC Generator (Alternator) Working & Principle",
+      "tag": "concept",
+      "points": [
+        "Principle: Converts mechanical energy into alternating electrical energy based on electromagnetic induction.",
+        "A rectangular coil of N turns and area A rotates with constant angular speed ω in uniform magnetic field B.",
+        "Magnetic flux at time t: Φ(t) = N B A cos(ωt).",
+        "Induced EMF: e = −dΦ/dt = N B A ω sin(ωt) = e₀ sin(ωt), where peak EMF e₀ = N B A ω = 2π n N B A.",
+        "Essential Components: (1) Armature coil, (2) Strong field magnet, (3) Slip rings, (4) Carbon brushes.",
+        "EMF is zero when coil plane is perpendicular to B (flux is maximum); EMF is maximum when coil plane is parallel to B (flux is zero)."
+      ],
+      "formulas": [
+        {
+          "label": "Flux variation",
+          "expr": "Φ(t) = NBA cos(ωt)"
+        },
+        {
+          "label": "Instantaneous EMF",
+          "expr": "e(t) = e₀ sin(ωt)"
+        },
+        {
+          "label": "Peak EMF",
+          "expr": "e₀ = NBAω = 2π n NBA"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Circuit Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for motional EMF induced in a conductor moving perpendicular to uniform magnetic field: e = BLv.",
+        "Board Favourite #2: Derive expression for induced EMF in a rotating rod about one end: e = ½ B ω L².",
+        "Board Favourite #3: Derive expression for self-inductance of a long solenoid L = μ₀ n² A l and magnetic energy stored U = ½ LI².",
+        "Board Favourite #4: Derive expression for mutual inductance between two long coaxial solenoids: M = μ₀ n₁ n₂ A l.",
+        "Board Favourite #5: Explain AC Generator principle, construction, working, and derive e = e₀ sin(ωt) with waveform graph."
+      ],
+      "formulas": [
+        {
+          "label": "Motional EMF derivation",
+          "expr": "e = BLv"
+        },
+        {
+          "label": "Rotating rod derivation",
+          "expr": "e = ½ B ω L²"
+        },
+        {
+          "label": "Solenoid L derivation",
+          "expr": "L = μ₀ n² A l"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Flux-Charge Hacks & Traps",
+      "tag": "imp",
+      "points": [
+        "Induced Charge Shortcut: Total charge q flowing through a circuit during flux change ΔΦ depends ONLY on net flux change and resistance: q = ΔΦ / R (completely INDEPENDENT of time taken!).",
+        "Induced Electric Field: A time-varying magnetic field creates a NON-CONSERVATIVE electric field: ∮ E_ind · dl = −dΦ/dt. Electric field lines form closed loops!",
+        "Growth & Decay of Current in LR Circuit: Growth: I(t) = I₀ [1 − e^(−t / τ)]; Decay: I(t) = I₀ e^(−t / τ), where inductive time constant τ = L / R.",
+        "Dimensions Trap: L/R and CR have the dimension of TIME: [M⁰L⁰T¹]. √(LC) also has dimension of TIME.",
+        "Coil Turnover Trap: When a coil of N turns and area A in field B is rotated by 180°: Flux change ΔΦ = 2 NBA ⟹ Charge flown q = 2 NBA / R."
+      ],
+      "formulas": [
+        {
+          "label": "Induced charge hack",
+          "expr": "q = ΔΦ / R (independent of time)"
+        },
+        {
+          "label": "180° rotation charge",
+          "expr": "q = 2 NBA / R"
+        },
+        {
+          "label": "Inductive time constant",
+          "expr": "τ = L / R"
+        },
+        {
+          "label": "Growth of current",
+          "expr": "I = I₀ [1 − e^(−Rt/L)]"
+        }
+      ]
+    }
+  ]
+}

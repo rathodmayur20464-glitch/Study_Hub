@@ -1,0 +1,240 @@
+{
+  "title": "Magnetic Materials",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Origin of Magnetism & Atomic Dipole Moments",
+      "tag": "concept",
+      "points": [
+        "Magnetism in materials originates from atomic electron motion: (1) Orbital motion around the nucleus, (2) Spin motion about its own axis, (3) Nuclear spin (very small, negligible).",
+        "Total magnetic dipole moment of an atom is the vector sum of orbital and spin magnetic dipole moments: M_net = M_orbital + M_spin.",
+        "In paired electrons, magnetic moments cancel out due to opposite spins (basis of diamagnetism).",
+        "In atoms with unpaired electrons, net permanent magnetic dipole moment exists (basis of paramagnetism and ferromagnetism)."
+      ],
+      "formulas": [
+        {
+          "label": "Net dipole moment",
+          "expr": "M_net = M_orbital + M_spin"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Magnetization, Magnetic Intensity & Permeability",
+      "tag": "formula",
+      "points": [
+        "Magnetization M_z (or M): Net magnetic dipole moment per unit volume of the material: M_z = M_net / V. SI unit: A/m. Dimensions: [M⁰L⁻¹T⁰I¹].",
+        "Magnetic Intensity (H): External magnetizing field: H = B₀ / μ₀. SI unit: A/m. Dimensions: [M⁰L⁻¹T⁰I¹] (same unit as Magnetization).",
+        "Total Magnetic Induction inside a material: B = μ₀ (H + M_z) = μ H.",
+        "Magnetic Susceptibility χ_m: Ratio of magnetization to magnetic intensity: χ_m = M_z / H (dimensionless scalar).",
+        "Relative Permeability μ_r: μ_r = μ / μ₀ = 1 + χ_m."
+      ],
+      "formulas": [
+        {
+          "label": "Magnetization",
+          "expr": "M_z = M_net / V"
+        },
+        {
+          "label": "Total field in material",
+          "expr": "B = μ₀ (H + M_z)"
+        },
+        {
+          "label": "Magnetic susceptibility",
+          "expr": "χ_m = M_z / H"
+        },
+        {
+          "label": "Relative permeability",
+          "expr": "μ_r = μ / μ₀ = 1 + χ_m"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Diamagnetism & Properties of Diamagnetic Materials",
+      "tag": "concept",
+      "points": [
+        "Origin: Paired electrons; net atomic dipole moment is zero. External magnetic field induces an opposing dipole moment according to Lenz's law.",
+        "Key Properties: (1) Weakly repelled by magnets; (2) Move from stronger to weaker parts of a non-uniform magnetic field; (3) A thin rod suspended in uniform field aligns PERPENDICULAR to field lines.",
+        "Susceptibility: χ_m is small, negative (−10⁻⁵ to −10⁻⁹), and INDEPENDENT of temperature.",
+        "Relative permeability: μ_r is slightly less than 1 (0 ≤ μ_r < 1).",
+        "Examples: Bismuth (most diamagnetic), Copper, Lead, Gold, Water, Nitrogen, Diamond.",
+        "Superconductors & Meissner Effect: Superconductors expel magnetic fields completely (B_inside = 0 ⟹ χ_m = −1, μ_r = 0, perfect diamagnetism)."
+      ],
+      "formulas": [
+        {
+          "label": "Diamagnetic χ",
+          "expr": "χ_m < 0 (small, negative, temp independent)"
+        },
+        {
+          "label": "Diamagnetic μ_r",
+          "expr": "0 ≤ μ_r < 1"
+        },
+        {
+          "label": "Meissner effect",
+          "expr": "χ_m = −1 , μ_r = 0 (perfect diamagnet)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Paramagnetism & Curie's Law",
+      "tag": "formula",
+      "points": [
+        "Origin: Unpaired electrons; each atom has a permanent magnetic dipole moment, but thermal agitation keeps them randomly oriented in zero external field (net M = 0).",
+        "Key Properties: (1) Weakly attracted by magnets; (2) Move from weaker to stronger parts of a non-uniform field; (3) Suspended rod aligns PARALLEL to magnetic field lines.",
+        "Susceptibility: χ_m is small and positive (+10⁻³ to +10⁻⁵).",
+        "Relative permeability: μ_r is slightly greater than 1 (μ_r > 1).",
+        "Curie's Law: Magnetic susceptibility of paramagnetic substances is inversely proportional to absolute temperature: χ_m = C / T, where C is Curie's constant.",
+        "Saturation magnetization occurs at very low temperatures and very high magnetic fields.",
+        "Examples: Aluminium, Platinum, Chromium, Manganese, Oxygen gas, Liquid oxygen."
+      ],
+      "formulas": [
+        {
+          "label": "Paramagnetic χ",
+          "expr": "χ_m > 0 (small, positive)"
+        },
+        {
+          "label": "Paramagnetic μ_r",
+          "expr": "μ_r > 1"
+        },
+        {
+          "label": "Curie's law",
+          "expr": "χ_m = C / T"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Ferromagnetism & Domain Theory",
+      "tag": "concept",
+      "points": [
+        "Origin: Unpaired electrons with strong quantum mechanical exchange interaction aligning atomic dipoles spontaneously into microscopic regions called Domains (~10¹¹ to 10¹⁵ atoms).",
+        "Within each domain, all atomic dipoles are parallel and saturated. In an unmagnetized substance, domains are randomly oriented, giving zero net magnetization.",
+        "Magnetization Process: (1) Weak external field causes domain wall displacement (favourably oriented domains expand); (2) Strong external field causes domain rotation into field direction.",
+        "Key Properties: (1) Strongly attracted by magnets; (2) Move rapidly from weaker to stronger parts of non-uniform field; (3) Strongly align parallel to field lines.",
+        "Susceptibility and Permeability: χ_m ≫ 1 (very large, positive, ~10³ to 10⁵); μ_r ≫ 1.",
+        "Examples: Iron (Fe), Cobalt (Co), Nickel (Ni), Gadolinium (Gd), Alnico."
+      ],
+      "formulas": [
+        {
+          "label": "Ferromagnetic χ",
+          "expr": "χ_m ≫ 1 (large, positive)"
+        },
+        {
+          "label": "Ferromagnetic μ_r",
+          "expr": "μ_r ≫ 1"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Curie Temperature & Curie-Weiss Law",
+      "tag": "formula",
+      "points": [
+        "Curie Temperature (T_c): The critical temperature above which a ferromagnetic material loses its spontaneous domain magnetization and transforms into a paramagnetic material.",
+        "Curie Temperature values: Iron T_c ≈ 1043 K (770 °C); Cobalt T_c ≈ 1394 K; Nickel T_c ≈ 631 K (358 °C).",
+        "Curie-Weiss Law (for T > T_c): Susceptibility in paramagnetic phase above T_c: χ_m = C / (T − T_c).",
+        "Thermal agitation above T_c breaks domain exchange coupling, randomizing atomic dipole orientations."
+      ],
+      "formulas": [
+        {
+          "label": "Curie-Weiss law",
+          "expr": "χ_m = C / (T − T_c) (for T > T_c)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Magnetic Hysteresis Loop (B–H Curve)",
+      "tag": "concept",
+      "points": [
+        "Hysteresis: Phenomenon of lagging of magnetic induction B (or magnetization M) behind magnetizing intensity H in a ferromagnetic substance during a cycle of magnetization.",
+        "Retentivity (Remanence / Residual Magnetism): The magnetic induction B remaining in the specimen when external magnetizing field H is reduced to zero.",
+        "Coercivity: The magnitude of reverse magnetizing field H required to completely demagnetize the material (reduce B to zero).",
+        "Hysteresis Loss: The area enclosed by the B–H hysteresis loop represents the energy lost per unit volume per cycle as heat in the core.",
+        "Work done per cycle per unit volume: W = ∮ B dH."
+      ],
+      "formulas": [
+        {
+          "label": "Hysteresis energy loss",
+          "expr": "Energy Loss / (Volume × Cycle) = Area of B–H loop"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Permanent Magnets vs Electromagnets",
+      "tag": "concept",
+      "points": [
+        "Permanent Magnets (e.g., Steel, Alnico, Ticonal): Require high retentivity (to retain magnetism), high coercivity (so stray fields do not demagnetize it), and large hysteresis loop.",
+        "Electromagnets & Transformer Cores (e.g., Soft Iron): Require high retentivity, LOW coercivity (easily demagnetized), high permeability μ_r (large field with small current), and narrow hysteresis loop (low energy loss).",
+        "Magnetic Shielding: A high-permeability ferromagnetic material (like soft iron) redirects magnetic field lines through itself, shielding the inner enclosed space from external magnetic fields."
+      ],
+      "formulas": [
+        {
+          "label": "Soft iron properties",
+          "expr": "High μ_r , Low Coercivity , Narrow B-H Loop"
+        },
+        {
+          "label": "Steel/Alnico properties",
+          "expr": "High Retentivity , High Coercivity , Broad B-H Loop"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Topics & Comparison Table",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Explain origin of ferromagnetism on the basis of Domain Theory.",
+        "Board Favourite #2: Compare Diamagnetic, Paramagnetic, and Ferromagnetic substances on the basis of: (1) Origin, (2) Behaviour in non-uniform field, (3) Susceptibility χ, (4) Permeability μ_r, (5) Temperature dependence.",
+        "Board Favourite #3: Define and explain the terms: (1) Magnetization, (2) Magnetic intensity, (3) Magnetic susceptibility, (4) Retentivity, (5) Coercivity.",
+        "Board Favourite #4: Draw and label B–H hysteresis curve and explain hysteresis loss.",
+        "Board Favourite #5: State Curie's law and Curie-Weiss law with temperature graphs."
+      ],
+      "formulas": [
+        {
+          "label": "Curie's law",
+          "expr": "χ = C / T"
+        },
+        {
+          "label": "Curie-Weiss law",
+          "expr": "χ = C / (T − T_c)"
+        },
+        {
+          "label": "Permeability link",
+          "expr": "μ_r = 1 + χ"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Meissner Effect & Unit Traps",
+      "tag": "imp",
+      "points": [
+        "Identical Units Trap: Magnetization M and Magnetic Intensity H have the EXACT SAME unit: A/m (or A·m⁻¹). Dimensions: [M⁰L⁻¹T⁰I¹].",
+        "Susceptibility Trap: Magnetic susceptibility χ_m is a DIMENSIONLESS quantity (pure number).",
+        "Meissner Effect Shortcut: Superconductor has B = 0 inside, χ_m = −1, μ_r = 0 (perfect diamagnet).",
+        "Temperature Dependency Trap: Diamagnetic susceptibility χ_dia is completely independent of temperature. Paramagnetic follows χ ∝ 1/T. Ferromagnetic follows χ ∝ 1/(T − T_c).",
+        "Soft Iron vs Steel Trap: Soft iron has higher retentivity than steel, but steel has much higher coercivity. Hence, soft iron makes better electromagnets; steel makes better permanent magnets.",
+        "Liquid / Gas Behaviour: Diamagnetic liquid in U-tube depresses in magnetic field; paramagnetic liquid rises."
+      ],
+      "formulas": [
+        {
+          "label": "Unit check M & H",
+          "expr": "Unit = A/m , Dim = [L⁻¹I¹]"
+        },
+        {
+          "label": "Susceptibility check",
+          "expr": "χ_m is dimensionless"
+        },
+        {
+          "label": "Superconductor",
+          "expr": "χ = −1 , μ_r = 0"
+        }
+      ]
+    }
+  ]
+}

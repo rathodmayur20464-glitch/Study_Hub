@@ -1,0 +1,281 @@
+{
+  "title": "Magnetic Fields due to Electric Current",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Magnetic Lorentz Force & Cyclotron Motion",
+      "tag": "formula",
+      "points": [
+        "Lorentz force on a charge q moving with velocity v in electric and magnetic fields: F = q(E + v × B).",
+        "Magnetic Lorentz Force: F_m = q(v × B) = qvB sinθ. SI unit of B: Tesla (T = N/(A·m) = Wb/m²). Dimensions: [M¹L⁰T⁻²I⁻¹].",
+        "Work done by magnetic force on a charged particle is ALWAYS ZERO (F_m ⊥ v ⟹ dW = F · ds = 0). Hence KE and speed remain CONSTANT.",
+        "Circular Trajectory (v ⊥ B, θ = 90°): Magnetic force provides centripetal force: qvB = mv²/r ⟹ Radius r = mv / (qB) = p / (qB) = √(2mE) / (qB).",
+        "Time period: T = 2πm / (qB) (independent of speed and radius).",
+        "Cyclotron frequency: ν_c = qB / (2πm); Angular cyclotron frequency: ω = qB / m."
+      ],
+      "formulas": [
+        {
+          "label": "Lorentz force",
+          "expr": "F = q(E + v × B)"
+        },
+        {
+          "label": "Orbit radius",
+          "expr": "r = mv / (qB) = √(2mE) / (qB)"
+        },
+        {
+          "label": "Time period",
+          "expr": "T = 2πm / (qB)"
+        },
+        {
+          "label": "Cyclotron frequency",
+          "expr": "ν_c = qB / (2πm)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Force on Current Conductor & Parallel Wires",
+      "tag": "formula",
+      "points": [
+        "Force on a straight current-carrying conductor in uniform magnetic field: F = I (L × B) = ILB sinθ.",
+        "Direction given by Fleming's Left-Hand Rule or Right-Hand Palm Rule.",
+        "Force between two long, straight parallel conductors separated by distance d carrying currents I₁ and I₂: F / L = (μ₀ I₁ I₂) / (2πd).",
+        "Attractive vs Repulsive Rule: Parallel currents in the SAME direction ATTRACT each other; currents in OPPOSITE directions REPEL each other.",
+        "Standard Definition of Ampere: 1 Ampere is that steady current which, when flowing through two infinitely long straight parallel conductors 1 metre apart in vacuum, produces a force of 2 × 10⁻⁷ N per metre of length."
+      ],
+      "formulas": [
+        {
+          "label": "Conductor force",
+          "expr": "F = ILB sinθ"
+        },
+        {
+          "label": "Parallel wires force/length",
+          "expr": "F / L = (μ₀ I₁ I₂) / (2πd)"
+        },
+        {
+          "label": "Permeability μ₀",
+          "expr": "μ₀ = 4π × 10⁻⁷ T·m/A"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Biot-Savart Law & Magnetic Field of Elements",
+      "tag": "formula",
+      "points": [
+        "Biot-Savart Law gives the magnetic field dB produced by an infinitesimal current element I dl at distance r: dB = (μ₀ / 4π) [I (dl × r̂) / r²] = (μ₀ / 4π) (I dl sinθ / r²).",
+        "Constant μ₀ / 4π = 10⁻⁷ T·m/A (or Wb/A·m).",
+        "Magnetic field of an infinitely long straight conductor carrying current I at perpendicular distance R: B = μ₀ I / (2πR).",
+        "Magnetic field of a semi-infinite straight conductor (at one end): B = μ₀ I / (4πR).",
+        "Direction of magnetic field is given by Right-Hand Thumb Rule (thumb points in current direction, curled fingers give direction of B field lines)."
+      ],
+      "formulas": [
+        {
+          "label": "Biot-Savart law",
+          "expr": "dB = (μ₀ / 4π) (I dl sinθ / r²)"
+        },
+        {
+          "label": "Long straight wire field",
+          "expr": "B = μ₀ I / (2πR)"
+        },
+        {
+          "label": "Semi-infinite wire field",
+          "expr": "B = μ₀ I / (4πR)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Magnetic Field of Circular Coil & Dipole Moment",
+      "tag": "formula",
+      "points": [
+        "Magnetic field at the CENTRE of a circular coil of N turns and radius R: B_centre = μ₀ N I / (2R).",
+        "Magnetic field of an arc of circle subtending angle θ (in radians) at centre: B = (μ₀ I / 4πR) θ.",
+        "Magnetic field on the AXIS of a circular coil at distance x from centre: B_axis = (μ₀ N I R²) / [2(R² + x²)³/²].",
+        "For points far along axis (x ≫ R): B_axis = μ₀ (N I πR²) / (2π x³) = μ₀ M / (2π x³), where M = NIA is magnetic dipole moment.",
+        "Magnetic dipole moment of current loop: M = N I A (SI unit: A·m² or J/T). Vector M points along normal given by right-hand rule."
+      ],
+      "formulas": [
+        {
+          "label": "Coil centre field",
+          "expr": "B_centre = μ₀ N I / (2R)"
+        },
+        {
+          "label": "Circular arc field",
+          "expr": "B_arc = (μ₀ I / 4πR) θ (rad)"
+        },
+        {
+          "label": "Coil axis field",
+          "expr": "B_axis = (μ₀ N I R²) / [2(R² + x²)³/²]"
+        },
+        {
+          "label": "Magnetic dipole moment",
+          "expr": "M = N I A"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Ampere's Circuital Law, Solenoid & Toroid",
+      "tag": "formula",
+      "points": [
+        "Ampere's Circuital Law: Line integral of magnetic induction B around any closed path equals μ₀ times the net enclosed current: ∮ B · dl = μ₀ I_enc.",
+        "Long Ideal Solenoid: Magnetic field INSIDE is uniform and parallel to axis: B = μ₀ n I = μ₀ (N/L) I, where n = N/L is turns per unit length.",
+        "Magnetic field at the ENDS of a long solenoid: B_end = ½ μ₀ n I = ½ B_inside.",
+        "Toroid (endless solenoid bent into a ring of mean radius r): B = μ₀ n I = μ₀ N I / (2πr). Field outside toroid and in central empty space is zero."
+      ],
+      "formulas": [
+        {
+          "label": "Ampere's circuital law",
+          "expr": "∮ B · dl = μ₀ I_enc"
+        },
+        {
+          "label": "Solenoid inside field",
+          "expr": "B = μ₀ n I = μ₀ (N/L) I"
+        },
+        {
+          "label": "Solenoid ends field",
+          "expr": "B_end = ½ μ₀ n I"
+        },
+        {
+          "label": "Toroid field",
+          "expr": "B = μ₀ N I / (2πr)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Torque on Current Loop & Potential Energy",
+      "tag": "formula",
+      "points": [
+        "Torque on a planar current loop of area A and N turns placed in magnetic field B: τ = M × B ⟹ τ = NIAB sinθ, where θ is angle between M (normal to area) and B.",
+        "If α is the angle between plane of the coil and B: τ = NIAB cosα (since θ + α = 90°).",
+        "Maximum torque occurs when plane of coil is parallel to B (θ = 90°, α = 0°): τ_max = NIAB.",
+        "Potential Energy of magnetic dipole: U = −M · B = −MB cosθ.",
+        "Stable equilibrium when θ = 0° (U_min = −MB, τ = 0); Unstable equilibrium when θ = 180° (U_max = +MB, τ = 0)."
+      ],
+      "formulas": [
+        {
+          "label": "Torque on coil",
+          "expr": "τ = M × B = NIAB sinθ"
+        },
+        {
+          "label": "Torque with coil plane",
+          "expr": "τ = NIAB cosα"
+        },
+        {
+          "label": "Potential energy",
+          "expr": "U = −M · B = −MB cosθ"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Moving Coil Galvanometer (MCG) & Radial Field",
+      "tag": "concept",
+      "points": [
+        "Principle: A current-carrying coil suspended in a magnetic field experiences a deflecting torque.",
+        "Deflecting torque: τ_def = NIAB (in radial field, plane of coil is always parallel to B, sinθ = 1).",
+        "Restoring torque of phosphor-bronze suspension fibre: τ_rest = c θ, where c is restoring torque per unit twist.",
+        "At equilibrium: NIAB = c θ ⟹ I = (c / NAB) θ = K θ (where K is galvanometer constant). Hence I ∝ θ (linear scale).",
+        "Role of Radial Magnetic Field: Created using concave cylindrical pole pieces and a soft iron cylinder core. Ensures the deflecting torque is always MAXIMUM (NIAB) and independent of deflection θ, making the scale strictly linear.",
+        "Role of Soft Iron Core: Increases magnetic field strength B and makes the magnetic lines strictly radial."
+      ],
+      "formulas": [
+        {
+          "label": "MCG equilibrium",
+          "expr": "NIAB = c θ"
+        },
+        {
+          "label": "Current equation",
+          "expr": "I = (c / NAB) θ"
+        },
+        {
+          "label": "Galvanometer constant",
+          "expr": "K = c / (NAB)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Orbital Magnetic Moment & Bohr Magneton",
+      "tag": "formula",
+      "points": [
+        "An electron revolving in a circular orbit of radius r with speed v constitutes an electric current: I = e / T = ev / (2πr).",
+        "Orbital magnetic dipole moment: M_o = I A = [ev / (2πr)] × πr² = ½ e v r.",
+        "In terms of orbital angular momentum L = m_e v r: M_o = [e / (2m_e)] L.",
+        "Gyromagnetic Ratio: Ratio of orbital magnetic moment to orbital angular momentum: M_o / L = e / (2m_e) = 8.8 × 10¹⁰ C/kg (constant for all electrons).",
+        "Bohr's quantization condition: L = n h / (2π).",
+        "Bohr Magneton μ_B: Minimum orbital magnetic moment corresponding to n = 1: μ_B = e h / (4π m_e) = 9.274 × 10⁻²⁴ A·m² (or J/T)."
+      ],
+      "formulas": [
+        {
+          "label": "Orbital magnetic moment",
+          "expr": "M_o = ½ e v r = [e / (2m_e)] L"
+        },
+        {
+          "label": "Gyromagnetic ratio",
+          "expr": "M_o / L = e / (2m_e) = 8.8 × 10¹⁰ C/kg"
+        },
+        {
+          "label": "Bohr Magneton",
+          "expr": "μ_B = e h / (4π m_e) = 9.274 × 10⁻²⁴ A·m²"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Magnetic Formulas",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for magnetic induction at a point on the axis of a circular coil carrying current using Biot-Savart law.",
+        "Board Favourite #2: State Ampere's circuital law and use it to derive magnetic field inside a long ideal solenoid: B = μ₀ n I.",
+        "Board Favourite #3: Derive expression for the force per unit length between two infinitely long straight parallel conductors: F/L = (μ₀ I₁ I₂)/(2πd).",
+        "Board Favourite #4: Explain the construction and working of a Moving Coil Galvanometer and explain the function of the radial magnetic field.",
+        "Board Favourite #5: Derive expression for orbital magnetic moment of an electron and obtain the formula for Bohr Magneton."
+      ],
+      "formulas": [
+        {
+          "label": "Coil axis derivation",
+          "expr": "B = (μ₀ N I R²) / [2(R² + x²)³/²]"
+        },
+        {
+          "label": "Solenoid derivation",
+          "expr": "B = μ₀ n I"
+        },
+        {
+          "label": "Bohr magneton derivation",
+          "expr": "μ_B = e h / (4π m_e)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Traps, Helical Path Shortcuts & Arc Tricks",
+      "tag": "imp",
+      "points": [
+        "Helical Path of Charged Particle: When v enters B at angle θ (0 < θ < 90°), parallel velocity v_|| = v cosθ causes forward translation; perpendicular velocity v_⊥ = v sinθ causes circular motion.",
+        "Radius of helix: r = m v_⊥ / (qB) = m v sinθ / (qB). Pitch of helix: p = v_|| × T = (v cosθ) × [2πm / (qB)].",
+        "Magnetic Field Ratio: Ratio of field at centre to field on axis at distance x = R: B_centre / B_axis = [1 + (x/R)²]³/² = [1 + 1]³/² = 2√2 ≈ 2.828.",
+        "Biot-Savart Element Trap: Magnetic field along the axis of a current element (θ = 0° or 180°) is strictly ZERO (since sinθ = 0).",
+        "Kinetic Energy Trap: In a magnetic field, kinetic energy of a charged particle NEVER changes because F ⊥ v, though momentum vector continuously changes direction."
+      ],
+      "formulas": [
+        {
+          "label": "Helix radius",
+          "expr": "r = m v sinθ / (qB)"
+        },
+        {
+          "label": "Helix pitch",
+          "expr": "p = (v cosθ) (2πm / qB)"
+        },
+        {
+          "label": "B_centre to B_axis ratio",
+          "expr": "B_c / B_axis = [1 + (x/R)²]³/²"
+        }
+      ]
+    }
+  ]
+}

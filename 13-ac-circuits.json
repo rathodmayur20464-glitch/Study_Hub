@@ -1,0 +1,290 @@
+{
+  "title": "AC Circuits",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Alternating Quantities: Peak, RMS & Mean Values",
+      "tag": "formula",
+      "points": [
+        "Alternating voltage: e = e₀ sin(ωt); Alternating current: i = i₀ sin(ωt ± ϕ).",
+        "Peak value (e₀, i₀): Maximum amplitude of alternating waveform.",
+        "Average (Mean) Value over half cycle: e_avg = (2/π) e₀ ≈ 0.637 e₀; i_avg = (2/π) i₀ ≈ 0.637 i₀. (Average over full cycle is strictly zero).",
+        "Root Mean Square (RMS / Virtual / Effective) Value: e_rms = e₀ / √2 ≈ 0.707 e₀; i_rms = i₀ / √2 ≈ 0.707 i₀.",
+        "AC meters (hot-wire meters) measure RMS values based on heating effect (H ∝ i²).",
+        "Household supply 230 V AC means V_rms = 230 V ⟹ Peak voltage V₀ = 230 × √2 ≈ 325 V (hence AC is more dangerous than DC of same voltage).",
+        "Form Factor: Ratio of RMS value to average value = V_rms / V_avg = π / (2√2) ≈ 1.11."
+      ],
+      "formulas": [
+        {
+          "label": "RMS voltage",
+          "expr": "e_rms = e₀ / √2 ≈ 0.707 e₀"
+        },
+        {
+          "label": "RMS current",
+          "expr": "i_rms = i₀ / √2 ≈ 0.707 i₀"
+        },
+        {
+          "label": "Average value (half cycle)",
+          "expr": "e_avg = 2e₀ / π ≈ 0.637 e₀"
+        },
+        {
+          "label": "Form factor",
+          "expr": "Form Factor = e_rms / e_avg ≈ 1.11"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "AC through Pure Resistor (R), Inductor (L) & Capacitor (C)",
+      "tag": "concept",
+      "points": [
+        "Pure Resistor: e = e₀ sin(ωt) ⟹ i = (e₀/R) sin(ωt). Current and voltage are IN PHASE (ϕ = 0°). Resistance R is independent of frequency.",
+        "Pure Inductor: e = e₀ sin(ωt) ⟹ i = (e₀/X_L) sin(ωt − π/2). Voltage LEADS current by π/2 rad (90°), or current lags voltage by π/2.",
+        "Pure Capacitor: e = e₀ sin(ωt) ⟹ i = (e₀/X_C) sin(ωt + π/2). Current LEADS voltage by π/2 rad (90°), or voltage lags current by π/2.",
+        "Phasor: A vector rotating anti-clockwise about origin with angular frequency ω representing an alternating quantity."
+      ],
+      "formulas": [
+        {
+          "label": "Resistor phase",
+          "expr": "Δϕ = 0 (in phase)"
+        },
+        {
+          "label": "Inductor phase",
+          "expr": "e leads i by π/2"
+        },
+        {
+          "label": "Capacitor phase",
+          "expr": "i leads e by π/2"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Inductive & Capacitive Reactance",
+      "tag": "formula",
+      "points": [
+        "Inductive Reactance (X_L): Opposition offered by pure inductor to AC flow: X_L = ω L = 2π f L. SI unit: Ohm (Ω).",
+        "Frequency dependence of X_L: X_L ∝ f. For direct current (DC, f = 0): X_L = 0 (inductor offers zero resistance to DC). Blocks high frequency AC.",
+        "Capacitive Reactance (X_C): Opposition offered by pure capacitor to AC flow: X_C = 1 / (ω C) = 1 / (2π f C). SI unit: Ohm (Ω).",
+        "Frequency dependence of X_C: X_C ∝ 1/f. For direct current (DC, f = 0): X_C = ∞ (capacitor completely BLOCKS DC). Passes high frequency AC."
+      ],
+      "formulas": [
+        {
+          "label": "Inductive reactance",
+          "expr": "X_L = ωL = 2π f L"
+        },
+        {
+          "label": "Capacitive reactance",
+          "expr": "X_C = 1 / (ωC) = 1 / (2π f C)"
+        },
+        {
+          "label": "DC behaviour",
+          "expr": "X_L(DC) = 0 , X_C(DC) = ∞"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Series LCR Circuit & Impedance",
+      "tag": "formula",
+      "points": [
+        "When R, L, and C are connected in series across alternating source e = e₀ sin(ωt): Current i is common to all components.",
+        "Total voltage phasor: e₀ = √[V_R² + (V_L − V_C)²] = i₀ √[R² + (X_L − X_C)²].",
+        "Impedance (Z): Total opposition of LCR circuit: Z = √[R² + (X_L − X_C)²] = √[R² + (ωL − 1/ωC)²]. SI unit: Ohm (Ω).",
+        "Phase angle ϕ: tanϕ = (X_L − X_C) / R.",
+        "Case 1: X_L > X_C (Inductive circuit): ϕ > 0, voltage leads current by ϕ.",
+        "Case 2: X_C > X_L (Capacitive circuit): ϕ < 0, current leads voltage by ϕ.",
+        "Case 3: X_L = X_C (Resistive resonance): ϕ = 0, voltage and current are in phase."
+      ],
+      "formulas": [
+        {
+          "label": "LCR impedance",
+          "expr": "Z = √[R² + (X_L − X_C)²]"
+        },
+        {
+          "label": "Phase angle",
+          "expr": "tanϕ = (X_L − X_C) / R"
+        },
+        {
+          "label": "Peak current",
+          "expr": "i₀ = e₀ / Z"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Series Resonance & Acceptor Circuit",
+      "tag": "formula",
+      "points": [
+        "Condition for Series Resonance: Inductive reactance equals capacitive reactance: X_L = X_C ⟹ ω_r L = 1 / (ω_r C).",
+        "Resonant angular frequency: ω_r = 1 / √(LC); Resonant linear frequency: f_r = 1 / [2π √(LC)].",
+        "Characteristics of Series Resonance:",
+        "(1) Impedance is MINIMUM and purely resistive: Z_min = R.",
+        "(2) Current is MAXIMUM: i_max = e₀ / R.",
+        "(3) Phase difference ϕ = 0; Power factor cosϕ = 1.",
+        "(4) Voltage across L and C cancel each other (V_L = V_C, but 180° out of phase).",
+        "Called an Acceptor Circuit because it admits maximum current at resonant frequency; used in radio tuning."
+      ],
+      "formulas": [
+        {
+          "label": "Resonance condition",
+          "expr": "X_L = X_C"
+        },
+        {
+          "label": "Resonant frequency",
+          "expr": "f_r = 1 / [2π √(LC)]"
+        },
+        {
+          "label": "Minimum impedance",
+          "expr": "Z_min = R"
+        },
+        {
+          "label": "Maximum current",
+          "expr": "i_max = e₀ / R"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Parallel Resonance & Rejector Circuit",
+      "tag": "concept",
+      "points": [
+        "A parallel resonant circuit consists of an inductor L (with coil resistance R) in parallel with capacitor C across an AC source.",
+        "Resonant frequency (for small R): f_r = (1 / 2π) √[1/(LC) − R²/L²] ≈ 1 / [2π √(LC)].",
+        "Characteristics of Parallel Resonance:",
+        "(1) Admittance is minimum ⟹ Impedance is MAXIMUM: Z_max = L / (CR).",
+        "(2) Current drawn from the source is MINIMUM: i_min = e₀ / Z_max.",
+        "(3) Circuit is purely resistive at resonance (cosϕ = 1).",
+        "Called a Rejector Circuit because it chokes/rejects current at resonant frequency; used in filter networks."
+      ],
+      "formulas": [
+        {
+          "label": "Parallel resonance f_r",
+          "expr": "f_r ≈ 1 / [2π √(LC)] (for small R)"
+        },
+        {
+          "label": "Maximum dynamic impedance",
+          "expr": "Z_max = L / (CR)"
+        },
+        {
+          "label": "Minimum line current",
+          "expr": "i_min = e / Z_max"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Power in AC Circuit, Power Factor & Wattless Current",
+      "tag": "formula",
+      "points": [
+        "Instantaneous power: p = e × i.",
+        "Average Power (True Power): P_avg = e_rms × i_rms × cosϕ. SI unit: Watt (W).",
+        "Apparent Power (Virtual Power): P_app = e_rms × i_rms. SI unit: Volt-Ampere (VA).",
+        "Power Factor: cosϕ = True Power / Apparent Power = R / Z.",
+        "In Pure Resistor: ϕ = 0 ⟹ cosϕ = 1 ⟹ P_avg = e_rms i_rms (maximum power dissipation).",
+        "In Pure Inductor or Capacitor: ϕ = π/2 ⟹ cosϕ = 0 ⟹ P_avg = 0 (no power consumed).",
+        "Wattless Current (Idle Current): Component of current that consumes zero power: i_w = i_rms sinϕ."
+      ],
+      "formulas": [
+        {
+          "label": "Average true power",
+          "expr": "P_avg = e_rms i_rms cosϕ"
+        },
+        {
+          "label": "Power factor",
+          "expr": "cosϕ = R / Z"
+        },
+        {
+          "label": "Wattless current",
+          "expr": "i_w = i_rms sinϕ"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Sharpness of Resonance & Quality Factor (Q-Factor)",
+      "tag": "formula",
+      "points": [
+        "Sharpness of resonance indicates how rapidly current falls off on either side of resonant frequency f_r.",
+        "Bandwidth: Δf = f₂ − f₁ = R / (2π L), where f₁ and f₂ are half-power frequencies (where power is half max and current is i_max / √2).",
+        "Quality Factor (Q-Factor): Measure of sharpness and voltage magnification: Q = f_r / Δf = ω_r L / R = 1 / (ω_r C R) = (1/R) √(L/C).",
+        "Higher Q-factor means sharper resonance, smaller bandwidth, and better tuning selectivity (desirable in receivers).",
+        "Smaller resistance R gives higher Q-factor and sharper peak."
+      ],
+      "formulas": [
+        {
+          "label": "Bandwidth",
+          "expr": "Bandwidth Δf = R / (2π L)"
+        },
+        {
+          "label": "Quality factor",
+          "expr": "Q = ω_r L / R = (1/R) √(L/C)"
+        },
+        {
+          "label": "Selectivity ratio",
+          "expr": "Q = f_r / Δf"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Transformers",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for impedance Z and phase angle ϕ of a series LCR AC circuit using phasor diagram.",
+        "Board Favourite #2: Obtain expression for resonant frequency of series LCR circuit and state conditions for resonance.",
+        "Board Favourite #3: Derive average power dissipated in AC circuit P_avg = e_rms i_rms cosϕ and explain wattless current.",
+        "Board Favourite #4: Explain principle, construction, and working of a Transformer with neat diagram.",
+        "Transformer Formula: Transformation ratio K = N_s / N_p = e_s / e_p = i_p / i_s.",
+        "Step-up Transformer: K > 1 (N_s > N_p, e_s > e_p, i_s < i_p); Step-down Transformer: K < 1 (N_s < N_p, e_s < e_p, i_s > i_p).",
+        "Efficiency of transformer: η = (Power output / Power input) × 100% = (e_s i_s / e_p i_p) × 100%."
+      ],
+      "formulas": [
+        {
+          "label": "Impedance derivation",
+          "expr": "Z = √[R² + (ωL − 1/ωC)²]"
+        },
+        {
+          "label": "Series resonance",
+          "expr": "f_r = 1 / [2π √(LC)]"
+        },
+        {
+          "label": "Transformer equation",
+          "expr": "K = N_s/N_p = e_s/e_p = i_p/i_s"
+        },
+        {
+          "label": "Efficiency",
+          "expr": "η = (e_s i_s) / (e_p i_p) × 100%"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, 'CIVIL' Mnemonic & Traps",
+      "tag": "imp",
+      "points": [
+        "Memory Mnemonic 'CIVIL': In Capacitor C, current I leads voltage V; In Inductor L, voltage V leads current I.",
+        "Choke Coil Shortcut: An inductor of high inductance L and negligible resistance R used to control AC current with minimum power wastage (P_avg ≈ 0 since cosϕ ≈ 0). Iron core choke used for low audio frequencies; air core for high radio frequencies.",
+        "Resonance Shift Trap: If both L and C are doubled, resonant frequency f_r is HALVED (f_r ∝ 1/√(LC)). If L is doubled and C is halved, f_r remains UNCHANGED.",
+        "Voltage across L and C Trap: At series resonance, V_L and V_C can individually be MUCH GREATER than the source voltage V_S by factor Q (Voltage Magnification = Q × V_S).",
+        "Transformer Trap: Transformers work ONLY on AC. On steady DC, flux change is zero (dΦ/dt = 0), so secondary voltage is strictly ZERO."
+      ],
+      "formulas": [
+        {
+          "label": "CIVIL phase rule",
+          "expr": "C: I leads V | L: V leads I"
+        },
+        {
+          "label": "Voltage magnification",
+          "expr": "V_L = V_C = Q × V_source"
+        },
+        {
+          "label": "Resonance frequency scaling",
+          "expr": "f_r ∝ 1 / √(LC)"
+        }
+      ]
+    }
+  ]
+}

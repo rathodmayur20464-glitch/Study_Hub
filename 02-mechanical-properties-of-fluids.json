@@ -1,0 +1,266 @@
+{
+  "title": "Mechanical Properties of Fluids",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Fluid Statics & Hydrostatic Pressure",
+      "tag": "concept",
+      "points": [
+        "A fluid is a substance that can flow and cannot withstand shear stress under static conditions.",
+        "Hydrostatic pressure P = F/A acts normal to the surface in contact. SI unit: N/m² (Pa). Dimensions: [M¹L⁻¹T⁻²].",
+        "Pressure at depth h in an open fluid: P = P₀ + hρg, where P₀ is atmospheric pressure and ρ is fluid density.",
+        "Gauge pressure = P − P₀ = hρg (excess pressure over atmospheric pressure).",
+        "Hydrostatic Paradox: Liquid pressure depends only on depth h, density ρ, and g; it is independent of the shape of the vessel.",
+        "Atmospheric pressure at sea level: 1 atm = 1.013 × 10⁵ N/m² (Pa) = 76 cm of Hg."
+      ],
+      "formulas": [
+        {
+          "label": "Hydrostatic pressure",
+          "expr": "P = P₀ + hρg"
+        },
+        {
+          "label": "Gauge pressure",
+          "expr": "P_gauge = hρg"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Pascal's Law & Hydraulic Machines",
+      "tag": "formula",
+      "points": [
+        "Pascal's Law: Pressure applied to an enclosed incompressible fluid is transmitted undiminished to every portion of the fluid and container walls.",
+        "Hydraulic lift operates on Pascal's law: P₁ = P₂ ⟹ F₁/A₁ = F₂/A₂.",
+        "Mechanical advantage = F₂/F₁ = A₂/A₁ > 1 when A₂ > A₁ (force multiplier).",
+        "Work done is conserved in an ideal machine: W₁ = W₂ ⟹ F₁ × d₁ = F₂ × d₂ (greater force, smaller displacement).",
+        "Hydraulic brakes in automobiles also use Pascal's law for uniform braking force on all wheels."
+      ],
+      "formulas": [
+        {
+          "label": "Pascal's principle",
+          "expr": "F₁/A₁ = F₂/A₂"
+        },
+        {
+          "label": "Mechanical advantage",
+          "expr": "MA = F₂/F₁ = A₂/A₁"
+        },
+        {
+          "label": "Work conservation",
+          "expr": "F₁d₁ = F₂d₂"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Surface Tension & Surface Energy",
+      "tag": "concept",
+      "points": [
+        "Cohesive force: attraction between molecules of the same substance. Adhesive force: attraction between molecules of different substances.",
+        "Sphere of influence: sphere around a molecule having radius equal to molecular range (~10⁻⁹ m).",
+        "Surface tension T is the tangential force per unit length acting perpendicular to an imaginary line drawn on the liquid surface.",
+        "SI unit of T is N/m or J/m². Dimensions: [M¹L⁰T⁻²].",
+        "Surface energy is the potential energy stored in the surface layer due to work done against inward cohesive pull.",
+        "Work done in increasing surface area: W = T × ΔA."
+      ],
+      "formulas": [
+        {
+          "label": "Surface tension",
+          "expr": "T = F/L"
+        },
+        {
+          "label": "Surface energy relation",
+          "expr": "W = T × ΔA"
+        },
+        {
+          "label": "Dimensions of T",
+          "expr": "[M¹L⁰T⁻²]"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Angle of Contact & Meniscus Shapes",
+      "tag": "concept",
+      "points": [
+        "Angle of contact θ is the angle between the tangent to liquid surface and the solid surface inside the liquid.",
+        "For pure water and clean glass, θ = 0° (completely wetting, concave meniscus, adhesive > cohesive/√2).",
+        "For normal water and glass, θ is acute (θ < 90°), liquid wets the solid.",
+        "For mercury and glass, θ is obtuse (θ ≈ 140°), liquid does not wet solid, convex meniscus (cohesive > adhesive).",
+        "For completely non-wetting liquid on solid, θ = 180°.",
+        "Addition of highly soluble solute (like NaCl) increases T; sparingly soluble solute (detergent/soap) decreases T; insoluble impurities decrease T.",
+        "Surface tension decreases with increase in temperature and becomes zero at critical temperature."
+      ],
+      "formulas": [
+        {
+          "label": "Angle of contact",
+          "expr": "cosθ = (T_sa − T_sl) / T_la"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Excess Pressure (Laplace's Law)",
+      "tag": "formula",
+      "points": [
+        "Curved liquid surface has excess pressure on the concave side compared to the convex side.",
+        "For a liquid drop (1 free surface): ΔP = P_in − P_out = 2T/R.",
+        "For a soap bubble in air (2 free surfaces): ΔP = P_in − P_out = 4T/R.",
+        "For an air bubble inside a liquid (1 free surface): ΔP = 2T/R.",
+        "Smaller drops have larger internal excess pressure (ΔP ∝ 1/R). Hence, air flows from smaller bubble to larger bubble when connected."
+      ],
+      "formulas": [
+        {
+          "label": "Liquid drop excess P",
+          "expr": "ΔP = 2T/R"
+        },
+        {
+          "label": "Soap bubble excess P",
+          "expr": "ΔP = 4T/R"
+        },
+        {
+          "label": "Air bubble inside liquid",
+          "expr": "ΔP = 2T/R"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Capillarity & Capillary Ascent",
+      "tag": "formula",
+      "points": [
+        "Capillarity: The phenomenon of rise or fall of a liquid in a narrow tube (capillary) dipped in it.",
+        "Liquid rises if θ < 90° (water in glass); liquid falls if θ > 90° (mercury in glass).",
+        "Height of liquid column h = (2T cosθ)/(rρg), where r is tube radius, ρ is liquid density.",
+        "Jurin's Law: h × r = constant (liquid rises higher in a narrower tube).",
+        "If capillary tube is of insufficient length l < h, liquid rises to the top, adjusts radius of curvature R' such that h·R = l·R', but does not overflow.",
+        "Examples: sap rising in trees, ink absorption by blotting paper, oil rising in lamp wicks."
+      ],
+      "formulas": [
+        {
+          "label": "Capillary ascent formula",
+          "expr": "h = (2T cosθ) / (rρg)"
+        },
+        {
+          "label": "Jurin's law",
+          "expr": "h × r = constant"
+        },
+        {
+          "label": "Insufficient length",
+          "expr": "h × R = l × R'"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Fluid Dynamics & Bernoulli's Principle",
+      "tag": "formula",
+      "points": [
+        "Equation of continuity (conservation of mass): A₁v₁ = A₂v₂ = constant (volume flow rate dV/dt). Where tube narrows, flow speed increases.",
+        "Reynolds number Rₑ = ρvd/η: Rₑ < 1000 (streamline), Rₑ > 2000 (turbulent), 1000–2000 (unsteady).",
+        "Bernoulli's Theorem expresses conservation of energy for an ideal fluid: P + ½ρv² + ρgh = constant.",
+        "Torricelli's Law of Efflux: speed of efflux through an orifice at depth h is v = √(2gh).",
+        "Venturimeter measures flow rate of fluid through a pipe: v₁ = √[2gh / ((A₁/A₂)² − 1)].",
+        "Aerodynamic lift on an aeroplane wing: faster airflow above causes lower pressure, generating upward lift."
+      ],
+      "formulas": [
+        {
+          "label": "Equation of continuity",
+          "expr": "A₁v₁ = A₂v₂"
+        },
+        {
+          "label": "Bernoulli's equation",
+          "expr": "P + ½ρv² + ρgh = constant"
+        },
+        {
+          "label": "Torricelli's efflux speed",
+          "expr": "v = √(2gh)"
+        },
+        {
+          "label": "Reynolds number",
+          "expr": "Rₑ = ρvd / η"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Viscosity, Stokes' Law & Terminal Velocity",
+      "tag": "formula",
+      "points": [
+        "Viscosity is internal fluid friction opposing relative motion between adjacent layers.",
+        "Newton's law of viscosity: Viscous drag F = −ηA(dv/dx). SI unit of η: Pa·s (poiseuille). 1 Pa·s = 10 poise. Dimensions: [M¹L⁻¹T⁻¹].",
+        "Stokes' Law: Viscous force on a sphere of radius r moving at speed v is F_v = 6πηrv.",
+        "Terminal velocity v_t is the constant maximum velocity achieved when net downward gravity equals upward viscous drag plus buoyancy.",
+        "Terminal velocity formula: v_t = [2r²(ρ − σ)g] / (9η), where ρ = sphere density, σ = medium density. Notice v_t ∝ r²."
+      ],
+      "formulas": [
+        {
+          "label": "Newton's law of viscosity",
+          "expr": "F = ηA(dv/dx)"
+        },
+        {
+          "label": "Stokes' law",
+          "expr": "F_v = 6πηrv"
+        },
+        {
+          "label": "Terminal velocity",
+          "expr": "v_t = [2r²(ρ − σ)g] / (9η)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & SI Units",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive Laplace's law for spherical liquid drop (ΔP = 2T/R) and soap bubble (ΔP = 4T/R).",
+        "Board Favourite #2: Derive expression for capillary ascent h = (2T cosθ)/(rρg) using pressure difference or balance of forces.",
+        "Board Favourite #3: Derive terminal velocity of a spherical body falling through a viscous medium using Stokes' law.",
+        "Essential SI Units: Surface Tension = N/m (J/m²); Viscosity = Pa·s (N·s/m²); Pressure = N/m² (Pa).",
+        "Dimensions to Memorise: Surface Tension = [M¹L⁰T⁻²]; Viscosity η = [M¹L⁻¹T⁻¹]; Pressure = [M¹L⁻¹T⁻²]."
+      ],
+      "formulas": [
+        {
+          "label": "Laplace's law (drop)",
+          "expr": "ΔP = 2T/R"
+        },
+        {
+          "label": "Capillary rise",
+          "expr": "h = (2T cosθ) / (rρg)"
+        },
+        {
+          "label": "Terminal velocity",
+          "expr": "v_t = [2r²(ρ − σ)g] / (9η)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Droplet Traps & Exam Hacks",
+      "tag": "imp",
+      "points": [
+        "Droplet Splitting: When 1 big drop (radius R) splits into n identical small droplets (radius r): r = R / n^(1/3).",
+        "Work Done in Splitting: W = 4πR²T(n^(1/3) − 1). Since surface area increases, heat is absorbed and temperature drops.",
+        "Droplets Merging: When n identical droplets coalesce into 1 big drop, surface area decreases, energy is released: ΔU = 4πR²T(n^(1/3) − 1), temperature rises.",
+        "Terminal Velocity Ratio: v₁/v₂ = (r₁/r₂)² for spheres of the same material falling through the same fluid.",
+        "Trap: Soap bubble has 2 free surfaces (multiply area change by 2, ΔP = 4T/R). Liquid drop or air bubble in liquid has only 1 free surface (ΔP = 2T/R).",
+        "Insufficient Capillary Length: Water does NOT spill out; the meniscus flattens to a larger radius R' such that h·R = l·R'."
+      ],
+      "formulas": [
+        {
+          "label": "Droplet split work",
+          "expr": "W = 4πR²T(n^(1/3) − 1)"
+        },
+        {
+          "label": "Temperature change",
+          "expr": "Δθ = 3T(n^(1/3) − 1) / (J ρ s R)"
+        },
+        {
+          "label": "Terminal velocity ratio",
+          "expr": "v₁/v₂ = (r₁/r₂)²"
+        }
+      ]
+    }
+  ]
+}

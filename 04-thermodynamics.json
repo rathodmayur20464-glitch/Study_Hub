@@ -1,0 +1,256 @@
+{
+  "title": "Thermodynamics",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Thermodynamic Systems & Zeroth Law",
+      "tag": "concept",
+      "points": [
+        "System: specific region of space under study. Surroundings: everything outside the system boundary.",
+        "Open system exchanges both energy and matter; Closed system exchanges energy only; Isolated system exchanges neither.",
+        "State variables: Intensive (independent of size, e.g., P, T, density) vs Extensive (dependent on size, e.g., V, U, mass).",
+        "Thermodynamic equilibrium requires mechanical (P balanced), chemical (composition constant), and thermal (T uniform) equilibrium.",
+        "Zeroth Law of Thermodynamics: If systems A and B are each in thermal equilibrium with system C, then A and B are in thermal equilibrium with each other. This defines Temperature."
+      ],
+      "formulas": [
+        {
+          "label": "Zeroth Law statement",
+          "expr": "If T_A = T_C and T_B = T_C ⟹ T_A = T_B"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "First Law of Thermodynamics & Work Done",
+      "tag": "formula",
+      "points": [
+        "First Law of Thermodynamics: Conservation of energy for thermodynamic systems: ΔQ = ΔU + W.",
+        "Sign conventions (Board standard): Heat added to system ΔQ > 0; heat removed ΔQ < 0.",
+        "Work done BY system (expansion) W > 0; work done ON system (compression) W < 0.",
+        "Work done in volume change: W = ∫ P dV = area under P–V diagram.",
+        "Internal energy U is a state function (depends only on initial and final states, not path). For an ideal gas: ΔU = n C_v ΔT."
+      ],
+      "formulas": [
+        {
+          "label": "First Law of Thermodynamics",
+          "expr": "ΔQ = ΔU + W"
+        },
+        {
+          "label": "Work done",
+          "expr": "W = ∫ P dV"
+        },
+        {
+          "label": "Internal energy change",
+          "expr": "ΔU = n C_v ΔT"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Isothermal Process (T = Constant)",
+      "tag": "formula",
+      "points": [
+        "Temperature remains constant (T = constant, ΔT = 0 ⟹ ΔU = 0).",
+        "Follows Boyle's law: PV = constant ⟹ P₁V₁ = P₂V₂.",
+        "Conducted very slowly in a container with perfectly conducting walls.",
+        "From First Law: Q = W (all absorbed heat is converted into work).",
+        "Work done in isothermal expansion: W = nRT ln(V₂/V₁) = 2.303 nRT log₁₀(V₂/V₁) = 2.303 nRT log₁₀(P₁/P₂).",
+        "Slope of isothermal curve on P–V diagram: dP/dV = −P/V."
+      ],
+      "formulas": [
+        {
+          "label": "Isothermal condition",
+          "expr": "PV = constant , ΔU = 0"
+        },
+        {
+          "label": "Isothermal work",
+          "expr": "W = 2.303 nRT log₁₀(V₂/V₁)"
+        },
+        {
+          "label": "Isothermal slope",
+          "expr": "dP/dV = −P/V"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Adiabatic Process (Q = 0)",
+      "tag": "formula",
+      "points": [
+        "No heat exchange with surroundings (Q = 0, insulated walls, sudden/rapid process).",
+        "Follows Poisson's relations: PV^γ = constant, T V^(γ−1) = constant, P^(1−γ) T^γ = constant.",
+        "From First Law: ΔU = −W. If system expands (W > 0), ΔU < 0 (gas cools); if compressed (W < 0), gas heats up.",
+        "Work done in adiabatic process: W = (P₁V₁ − P₂V₂) / (γ − 1) = nR(T₁ − T₂) / (γ − 1).",
+        "Slope of adiabatic curve: dP/dV = −γ(P/V). Adiabatic curve is γ times steeper than isothermal curve."
+      ],
+      "formulas": [
+        {
+          "label": "Poisson's law",
+          "expr": "PV^γ = constant"
+        },
+        {
+          "label": "T–V relation",
+          "expr": "T V^(γ−1) = constant"
+        },
+        {
+          "label": "Adiabatic work",
+          "expr": "W = nR(T₁ − T₂) / (γ − 1)"
+        },
+        {
+          "label": "Adiabatic slope",
+          "expr": "dP/dV = −γ(P/V)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Isobaric, Isochoric & Cyclic Processes",
+      "tag": "formula",
+      "points": [
+        "Isobaric process (P = constant): W = P(V₂ − V₁) = nR(T₂ − T₁). Q = n C_p ΔT; ΔU = n C_v ΔT.",
+        "Isochoric process (V = constant): dV = 0 ⟹ W = 0. All heat changes internal energy: Q = ΔU = n C_v ΔT.",
+        "Cyclic process: System returns to initial state. ΔU = 0 for a complete cycle. Net work W_net = Q_net = area enclosed by P–V loop.",
+        "Clockwise P–V loop represents positive work done by system (heat engine); anticlockwise loop represents work done on system (refrigerator)."
+      ],
+      "formulas": [
+        {
+          "label": "Isobaric work",
+          "expr": "W = P(V₂ − V₁) = nR ΔT"
+        },
+        {
+          "label": "Isobaric heat",
+          "expr": "Q = n C_p ΔT"
+        },
+        {
+          "label": "Isochoric work",
+          "expr": "W = 0 , Q = ΔU = n C_v ΔT"
+        },
+        {
+          "label": "Cyclic work",
+          "expr": "W_net = Area of P–V loop"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Heat Engines & Second Law of Thermodynamics",
+      "tag": "concept",
+      "points": [
+        "Heat engine converts thermal energy into mechanical work through a cyclic process.",
+        "Essential parts: Source at high temp T_H, working substance, and Sink at lower temp T_C.",
+        "Efficiency: η = W / Q_H = (Q_H − Q_C) / Q_H = 1 − Q_C / Q_H.",
+        "Kelvin-Planck statement: It is impossible to construct an engine operating in a cycle that absorbs heat from a reservoir and converts it completely into work without rejecting heat (η cannot be 100%).",
+        "Clausius statement: It is impossible for heat to flow spontaneously from a colder body to a hotter body without external work."
+      ],
+      "formulas": [
+        {
+          "label": "Heat engine efficiency",
+          "expr": "η = W / Q_H = 1 − Q_C / Q_H"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Carnot Cycle & Ideal Engine Efficiency",
+      "tag": "formula",
+      "points": [
+        "Carnot engine is an ideal, reversible heat engine operating between two temperatures T_H and T_C.",
+        "Four reversible stages: (1) Isothermal expansion at T_H, (2) Adiabatic expansion from T_H to T_C, (3) Isothermal compression at T_C, (4) Adiabatic compression from T_C to T_H.",
+        "Efficiency of Carnot engine: η_carnot = 1 − T_C / T_H (depends only on operating temperatures in Kelvin).",
+        "Carnot's theorem: No real engine operating between two given temperatures can be more efficient than a Carnot engine operating between the same temperatures.",
+        "To achieve 100% efficiency, sink temp T_C must be 0 K or source temp T_H must be ∞, which are practically impossible."
+      ],
+      "formulas": [
+        {
+          "label": "Carnot efficiency",
+          "expr": "η = 1 − T_C / T_H"
+        },
+        {
+          "label": "Heat ratio in Carnot",
+          "expr": "Q_C / Q_H = T_C / T_H"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Refrigerators, Heat Pumps & COP",
+      "tag": "formula",
+      "points": [
+        "A refrigerator is a heat engine working in reverse: absorbs heat Q_C from cold reservoir, external work W is done on it, rejects heat Q_H to hot reservoir.",
+        "Coefficient of Performance (COP) of refrigerator: α = Q_C / W = Q_C / (Q_H − Q_C).",
+        "For ideal Carnot refrigerator: α_carnot = T_C / (T_H − T_C).",
+        "Heat pump extracts heat from cold surroundings to warm an interior space: COP_HP = Q_H / W = T_H / (T_H − T_C).",
+        "Fundamental link between Heat Pump and Refrigerator COP: COP_HP = α + 1."
+      ],
+      "formulas": [
+        {
+          "label": "Refrigerator COP",
+          "expr": "α = Q_C / W = T_C / (T_H − T_C)"
+        },
+        {
+          "label": "Heat pump COP",
+          "expr": "COP_HP = Q_H / W = T_H / (T_H − T_C)"
+        },
+        {
+          "label": "COP relation",
+          "expr": "COP_HP = α + 1"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive work done during isothermal expansion: W = 2.303 nRT log₁₀(V₂/V₁).",
+        "Board Favourite #2: Derive work done during adiabatic expansion: W = nR(T₁ − T₂)/(γ − 1).",
+        "Board Favourite #3: Draw and explain the four stages of the Carnot cycle with neat P–V diagram.",
+        "Board Favourite #4: State First Law of Thermodynamics and apply it to (a) Isothermal, (b) Adiabatic, (c) Isobaric, (d) Isochoric processes.",
+        "Distinctions to Master: Reversible vs Irreversible process; Isothermal vs Adiabatic process."
+      ],
+      "formulas": [
+        {
+          "label": "Isothermal work",
+          "expr": "W = nRT ln(V₂/V₁)"
+        },
+        {
+          "label": "Adiabatic work",
+          "expr": "W = (P₁V₁ − P₂V₂) / (γ − 1)"
+        },
+        {
+          "label": "First law summary",
+          "expr": "ΔQ = ΔU + W"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, PV-Loop Traps & Memory Tricks",
+      "tag": "imp",
+      "points": [
+        "Slope Comparison: |Slope_adiabatic| = γ × |Slope_isothermal|. Since γ > 1, adiabatic curve is always steeper.",
+        "Expansion Work Comparison: For same initial state and same expansion to V₂: W_isobaric > W_isothermal > W_adiabatic.",
+        "Compression Work Comparison: For same initial state and compression to V₂: W_adiabatic > W_isothermal > W_isobaric (adiabatic requires maximum work).",
+        "Carnot Efficiency Shortcut: η = (T_H − T_C) / T_H. Increasing T_H by ΔT gives less efficiency gain than decreasing T_C by same ΔT.",
+        "Cyclic Area Shortcut: Area of elliptical P–V loop = π × a × b = π × (ΔP/2) × (ΔV/2).",
+        "Trap: In adiabatic expansion, gas cools (T decreases, ΔU < 0); in adiabatic compression, gas heats up (T increases, ΔU > 0)."
+      ],
+      "formulas": [
+        {
+          "label": "Slope ratio",
+          "expr": "(dP/dV)_adi = γ × (dP/dV)_iso"
+        },
+        {
+          "label": "Carnot efficiency",
+          "expr": "η = (T_H − T_C) / T_H"
+        },
+        {
+          "label": "Ellipse loop work",
+          "expr": "W = π/4 (P₂ − P₁)(V₂ − V₁)"
+        }
+      ]
+    }
+  ]
+}

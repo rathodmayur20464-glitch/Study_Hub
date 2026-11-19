@@ -1,0 +1,191 @@
+{
+  "title": "Rotational Dynamics",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Circular Motion Basics",
+      "tag": "concept",
+      "points": [
+        "Uniform circular motion (UCM): constant speed, but velocity changes direction continuously.",
+        "UCM is an accelerated motion: acceleration is centripetal, directed towards the centre.",
+        "Angular displacement θ is measured in radian (rad). 1 rev = 2π rad = 360°.",
+        "Angular velocity ω is an axial vector. Its direction is given by the right-hand thumb rule.",
+        "Frequency n = 1/T. Unit of n is Hz (s⁻¹). Unit of ω is rad/s.",
+        "In UCM, the angular acceleration α is zero and the tangential acceleration is zero."
+      ],
+      "formulas": [
+        { "label": "Angular velocity", "expr": "ω = θ/t = 2π/T = 2πn" },
+        { "label": "Linear–angular link", "expr": "v = rω" }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Angular Kinematics & Accelerations",
+      "tag": "formula",
+      "points": [
+        "Angular acceleration α = dω/dt. Unit: rad/s². It is an axial vector.",
+        "Rotational equations are analogues of linear equations: replace s→θ, v→ω, a→α.",
+        "Tangential acceleration aₜ = rα acts along the tangent. Centripetal a꜀ = ω²r acts towards the centre.",
+        "Net acceleration in non-uniform circular motion: a = √(aₜ² + a꜀²).",
+        "Number of rotations in time t = θ/2π."
+      ],
+      "formulas": [
+        { "label": "1st equation", "expr": "ω = ω₀ + αt" },
+        { "label": "2nd equation", "expr": "θ = ω₀t + ½αt²" },
+        { "label": "3rd equation", "expr": "ω² = ω₀² + 2αθ" },
+        { "label": "Centripetal acceleration", "expr": "a꜀ = v²/r = ω²r = 4π²n²r" }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Centripetal & Centrifugal Force",
+      "tag": "concept",
+      "points": [
+        "Centripetal force acts towards the centre. It is a real force, supplied by tension, gravity, friction or normal force.",
+        "Centripetal force does zero work because it is always ⊥ to displacement.",
+        "Centrifugal force is a pseudo (fictitious) force. It acts outward and is felt only in the rotating frame.",
+        "Centrifugal force is equal in magnitude and opposite to centripetal force. They are NOT an action–reaction pair.",
+        "Examples: a cyclist leaning on a turn, a washing machine dryer, a cream separator."
+      ],
+      "formulas": [
+        { "label": "Centripetal force", "expr": "F = mv²/r = mω²r" },
+        { "label": "Max speed on flat road", "expr": "v_max = √(μrg)" }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Banking of Roads",
+      "tag": "formula",
+      "points": [
+        "Banking: the outer edge is raised so the horizontal component of N provides centripetal force.",
+        "On a frictionless banked road: N cosθ = mg and N sinθ = mv²/r.",
+        "The optimum speed is independent of the mass of the vehicle.",
+        "Friction increases the maximum safe speed on a banked road.",
+        "Railway tracks are banked by raising the outer rail. Cyclists lean inward to get the same effect."
+      ],
+      "formulas": [
+        { "label": "Angle of banking", "expr": "tanθ = v²/(rg)" },
+        { "label": "Optimum speed", "expr": "v = √(rg tanθ)" },
+        { "label": "Max speed with friction", "expr": "v² = rg (μ + tanθ)/(1 − μ tanθ)" }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Conical Pendulum & Vertical Circle",
+      "tag": "formula",
+      "points": [
+        "Conical pendulum: the bob moves in a horizontal circle. T cosθ = mg and T sinθ = mv²/r.",
+        "Period of a conical pendulum depends on L cosθ and g. It does not depend on the mass.",
+        "Vertical circle: speed is not constant. It is maximum at the bottom and minimum at the top.",
+        "Tension is maximum at the bottom and minimum at the top.",
+        "Minimum speed at the top to complete the circle is √(rg), where tension = 0.",
+        "Minimum speed at the bottom is √(5rg). Difference in tension (bottom − top) = 6mg."
+      ],
+      "formulas": [
+        { "label": "Conical pendulum period", "expr": "T = 2π √(L cosθ / g)" },
+        { "label": "Tension at top", "expr": "T_top = mv²/r − mg" },
+        { "label": "Tension at bottom", "expr": "T_bottom = mv²/r + mg" },
+        { "label": "Energy relation", "expr": "v_bottom² = v_top² + 4rg" }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Moment of Inertia & Theorems",
+      "tag": "concept",
+      "points": [
+        "Moment of inertia (M.I.) is the rotational analogue of mass. It measures resistance to a change in rotation.",
+        "SI unit of I is kg m². Dimensions are [M¹L²T⁰]. It is a scalar for a given axis.",
+        "I depends on mass, its distribution, and the position of the axis. It does NOT depend on ω.",
+        "Radius of gyration K is the distance at which the whole mass, if concentrated, gives the same I.",
+        "Parallel axis theorem applies to any body. Perpendicular axis theorem applies only to planar (lamina) bodies.",
+        "In the parallel axis theorem, the axes must be parallel and one must pass through the centre of mass."
+      ],
+      "formulas": [
+        { "label": "Definition", "expr": "I = Σ mr² = MK²" },
+        { "label": "Radius of gyration", "expr": "K = √(I/M)" },
+        { "label": "Parallel axis theorem", "expr": "I = I꜀ₘ + Md²" },
+        { "label": "Perpendicular axis theorem", "expr": "I_z = I_x + I_y" }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "M.I. of Standard Bodies (Must Memorise)",
+      "tag": "imp",
+      "points": [
+        "Ring or hollow cylinder about its own axis: MR². This is the maximum for a given M and R.",
+        "Disc or solid cylinder about its axis: ½MR².",
+        "Ring or disc about a diameter: Ring = ½MR², Disc = ¼MR².",
+        "Solid sphere about a diameter: 2MR²/5. Hollow sphere: 2MR²/3.",
+        "Thin rod about its centre: ML²/12. About one end: ML²/3.",
+        "Tip: K²/R² values are 1 (ring), ½ (disc), 2/5 (solid sphere), 2/3 (hollow sphere).",
+        "Tip: for the same M and R, I order is ring > disc > solid sphere."
+      ],
+      "formulas": [
+        { "label": "Ring (axis ⊥ plane)", "expr": "I = MR²" },
+        { "label": "Disc (axis ⊥ plane)", "expr": "I = ½MR²" },
+        { "label": "Solid sphere", "expr": "I = 2MR²/5" },
+        { "label": "Rod (centre / end)", "expr": "ML²/12 , ML²/3" }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Torque & Angular Momentum",
+      "tag": "concept",
+      "points": [
+        "Torque is the turning effect of a force. It is a vector with direction given by r × F.",
+        "SI unit of torque is N m. Dimensions are [M¹L²T⁻²], the same as work but a different quantity.",
+        "A couple is a pair of equal, opposite, non-collinear forces. Its torque is force × perpendicular distance.",
+        "Angular momentum L = r × p. SI unit is kg m²/s. Dimensions are [M¹L²T⁻¹].",
+        "Torque equals the rate of change of angular momentum: τ = dL/dt.",
+        "If net external torque = 0, then L is conserved. Hence a skater spins faster when arms are pulled in.",
+        "When I decreases, ω increases because I₁ω₁ = I₂ω₂."
+      ],
+      "formulas": [
+        { "label": "Torque", "expr": "τ = rF sinθ = Iα" },
+        { "label": "Angular momentum", "expr": "L = Iω = rp sinθ" },
+        { "label": "Conservation of L", "expr": "I₁ω₁ = I₂ω₂" },
+        { "label": "Work and power", "expr": "W = τθ , P = τω" }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Rotational KE & Rolling Motion",
+      "tag": "formula",
+      "points": [
+        "Rotational kinetic energy = ½Iω². Total KE of a rolling body = translational KE + rotational KE.",
+        "Pure rolling: the contact point is at instantaneous rest, so v = Rω.",
+        "On an incline, the body with the smallest K²/R² reaches the bottom first.",
+        "Order of speed down an incline: solid sphere > disc > hollow sphere > ring.",
+        "Acceleration down an incline is independent of mass and radius. It depends only on K²/R² and θ.",
+        "For a sliding block (no rolling), a = g sinθ. Rolling bodies are always slower."
+      ],
+      "formulas": [
+        { "label": "Rotational KE", "expr": "KE_rot = ½Iω² = L²/2I" },
+        { "label": "Total KE (rolling)", "expr": "KE = ½mv² (1 + K²/R²)" },
+        { "label": "Acceleration on incline", "expr": "a = g sinθ / (1 + K²/R²)" },
+        { "label": "Speed at bottom", "expr": "v = √[2gh / (1 + K²/R²)]" }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Traps, Shortcuts & Memory Tips",
+      "tag": "imp",
+      "points": [
+        "Trap: centripetal and centrifugal forces never act on the same body in the same frame.",
+        "Trap: perpendicular axis theorem is NOT valid for 3D bodies like spheres or cylinders.",
+        "Trap: the parallel axis theorem needs one axis through the centre of mass. Check d carefully.",
+        "Shortcut: the fraction of KE that is rotational = (K²/R²) / (1 + K²/R²).",
+        "Shortcut: for a rolling solid sphere, rotational KE : translational KE = 2 : 5.",
+        "Memory: 'RDS' order of I (same M, R) is Ring > Disc > Sphere.",
+        "Memory: vertical circle, 'top 1, bottom 5', gives v² = rg at top and 5rg at bottom.",
+        "Board favourite: derive the banking angle formula, or explain the conservation of angular momentum with an example."
+      ],
+      "formulas": [
+        { "label": "Rotational fraction of KE", "expr": "(K²/R²) / (1 + K²/R²)" },
+        { "label": "Minimum speeds (vertical circle)", "expr": "v_top = √(rg) , v_bottom = √(5rg)" }
+      ]
+    }
+  ]
+}

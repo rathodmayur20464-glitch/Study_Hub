@@ -1,0 +1,298 @@
+{
+  "title": "Wave Optics",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Nature of Light & Huygens' Principle",
+      "tag": "concept",
+      "points": [
+        "Wave theory of light was proposed by Christian Huygens. Light travels as longitudinal waves in luminiferous ether (later proved to be transverse electromagnetic waves by Maxwell).",
+        "Wavefront: Locus of all medium points vibrating in the same phase. Types: (1) Spherical (from point source), (2) Cylindrical (from linear source), (3) Plane (at large distance from source).",
+        "Rays of light are perpendicular to the wavefront and indicate the direction of energy propagation.",
+        "Huygens' Principle: (1) Every point on a wavefront acts as a secondary source of spherical wavelets; (2) The envelope (tangent surface) to these secondary wavelets in the forward direction gives the new wavefront at a later instant."
+      ],
+      "formulas": [
+        {
+          "label": "Wavefront speed",
+          "expr": "v = c / μ"
+        },
+        {
+          "label": "Wavefront radius",
+          "expr": "r = v × t"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Reflection & Refraction on Wave Theory",
+      "tag": "concept",
+      "points": [
+        "Law of Reflection: Angle of incidence equals angle of reflection (i = r). Wavefront reflection proved using congruent triangles.",
+        "Law of Refraction (Snell's Law): sin i / sin r = v₁ / v₂ = μ₂ / μ₁ = ¹μ₂.",
+        "Frequency ν remains UNCHANGED on refraction (it is a property of the source).",
+        "Wavelength changes: λ₂ = λ₁ / μ. In a denser medium, speed and wavelength decrease proportionally (v = νλ).",
+        "Rays bend towards the normal when entering a denser medium because wave speed is slower (v₂ < v₁)."
+      ],
+      "formulas": [
+        {
+          "label": "Snell's law",
+          "expr": "sin i / sin r = v₁/v₂ = μ₂/μ₁"
+        },
+        {
+          "label": "Wavelength in medium",
+          "expr": "λ_med = λ_vac / μ"
+        },
+        {
+          "label": "Frequency invariance",
+          "expr": "ν₁ = ν₂ = constant"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Polarization, Brewster's & Malus' Laws",
+      "tag": "formula",
+      "points": [
+        "Polarization proves that light waves are TRANSVERSE in nature (longitudinal waves cannot be polarized).",
+        "Unpolarized light has electric field vectors vibrating in all possible planes perpendicular to propagation direction.",
+        "Plane polarized light: Electric vector vibrations are confined to a single plane.",
+        "Brewster's Law: When unpolarized light is incident at Brewster's angle i_B on a transparent medium, reflected light is completely plane-polarized: tan i_B = μ.",
+        "At Brewster's angle, reflected and refracted rays are mutually perpendicular: i_B + r = 90°.",
+        "Malus' Law: When completely plane-polarized light passes through an analyzer, transmitted intensity is I = I₀ cos²θ, where θ is angle between transmission axes.",
+        "When unpolarized light of intensity I₀ passes through a single Polaroid, transmitted intensity is always I = I₀ / 2."
+      ],
+      "formulas": [
+        {
+          "label": "Brewster's law",
+          "expr": "tan(i_B) = μ"
+        },
+        {
+          "label": "Perpendicular condition",
+          "expr": "i_B + r = 90°"
+        },
+        {
+          "label": "Malus' law",
+          "expr": "I = I₀ cos²θ"
+        },
+        {
+          "label": "Unpolarized through polarizer",
+          "expr": "I = I₀ / 2"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Interference of Light & Coherent Sources",
+      "tag": "concept",
+      "points": [
+        "Interference is the modification in intensity of light produced by the superposition of two or more coherent light waves.",
+        "Coherent sources emit continuous light waves of the same frequency, wavelength, and constant or zero phase difference.",
+        "Conditions for Steady Interference: (1) Sources must be coherent; (2) Monochromatic light; (3) Equal amplitudes (for high contrast); (4) Very narrow sources; (5) Small distance d between sources; (6) Screen at large distance D.",
+        "Constructive Interference (Bright): Path difference Δx = nλ; Phase difference Δϕ = 2nπ; Resultant intensity I_max = (A₁ + A₂)².",
+        "Destructive Interference (Dark): Path difference Δx = (2n − 1)λ/2; Phase difference Δϕ = (2n − 1)π; Resultant intensity I_min = (A₁ − A₂)²."
+      ],
+      "formulas": [
+        {
+          "label": "Constructive condition",
+          "expr": "Δx = nλ , Δϕ = 2nπ"
+        },
+        {
+          "label": "Destructive condition",
+          "expr": "Δx = (2n − 1)λ/2 , Δϕ = (2n − 1)π"
+        },
+        {
+          "label": "Max intensity",
+          "expr": "I_max = (A₁ + A₂)² = (√I₁ + √I₂)²"
+        },
+        {
+          "label": "Min intensity",
+          "expr": "I_min = (A₁ − A₂)² = (√I₁ − √I₂)²"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Young's Double Slit Experiment (YDSE)",
+      "tag": "formula",
+      "points": [
+        "In YDSE, two narrow slits S₁ and S₂ separated by distance d act as coherent sources from a single primary slit.",
+        "Path difference at point P on screen at distance x from centre: Δx = xd / D.",
+        "Position of n-th bright fringe: x_n = n λD / d (n = 0, 1, 2, ...; n = 0 is central bright fringe).",
+        "Position of n-th dark fringe: x_n' = (2n − 1) λD / (2d) (n = 1, 2, 3, ...).",
+        "Fringe width (bandwidth) W (or β): Distance between two consecutive bright or dark fringes: W = λD / d.",
+        "All fringes in YDSE are of equal width and equal intensity (if slit widths are equal).",
+        "Angular fringe width: θ = W / D = λ / d (independent of screen distance D)."
+      ],
+      "formulas": [
+        {
+          "label": "Path difference",
+          "expr": "Δx = xd / D"
+        },
+        {
+          "label": "n-th bright position",
+          "expr": "x_n = n λD / d"
+        },
+        {
+          "label": "n-th dark position",
+          "expr": "x_n' = (2n − 1) λD / (2d)"
+        },
+        {
+          "label": "Fringe width",
+          "expr": "W = λD / d"
+        },
+        {
+          "label": "Angular fringe width",
+          "expr": "θ = λ / d"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Optical Path & Fringe Shift",
+      "tag": "formula",
+      "points": [
+        "Optical path = μ × d (distance light travels in vacuum in the same time it travels distance d in medium of refractive index μ).",
+        "When a thin transparent plate of thickness t and refractive index μ is placed in front of one slit, additional path difference introduced is (μ − 1)t.",
+        "The entire fringe pattern shifts towards the side with the plate by shift x₀ = (D/d)(μ − 1)t = (W/λ)(μ − 1)t.",
+        "Number of fringes shifted: N = x₀ / W = (μ − 1)t / λ.",
+        "Fringe width W remains completely unchanged when a transparent plate is introduced.",
+        "If YDSE apparatus is submerged in liquid of refractive index μ: W_med = W_air / μ (fringes become narrower)."
+      ],
+      "formulas": [
+        {
+          "label": "Optical path",
+          "expr": "Δx_opt = μ × t"
+        },
+        {
+          "label": "Fringe shift",
+          "expr": "x₀ = (D/d) (μ − 1) t = (W/λ)(μ − 1)t"
+        },
+        {
+          "label": "Number of fringes shifted",
+          "expr": "N = (μ − 1) t / λ"
+        },
+        {
+          "label": "Fringe width in medium",
+          "expr": "W_med = W_air / μ"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Fraunhofer Diffraction at a Single Slit",
+      "tag": "formula",
+      "points": [
+        "Diffraction: Bending of light waves around corners or edges of an obstacle whose size is comparable to wavelength λ.",
+        "Condition for Fraunhofer diffraction: incident and diffracted wavefronts are plane (sources and screen at infinite distance, achieved with convex lenses).",
+        "Single slit of width a: Path difference between extreme edges is a sinθ.",
+        "Condition for secondary minima (dark): a sinθ = mλ (m = ±1, ±2, ±3, ...).",
+        "Condition for secondary maxima (bright): a sinθ = (2m + 1)λ / 2 (m = ±1, ±2, ...).",
+        "Central maximum is bright and wide: angular width = 2λ/a; linear width = 2λD/a (double the width of any secondary maximum).",
+        "Intensity drops drastically from central max to secondary maxima (I₀ : I₀/22 : I₀/61 ...)."
+      ],
+      "formulas": [
+        {
+          "label": "Minima condition",
+          "expr": "a sinθ = mλ (m = 1, 2, 3...)"
+        },
+        {
+          "label": "Secondary maxima",
+          "expr": "a sinθ = (2m + 1)λ / 2"
+        },
+        {
+          "label": "Central max angular width",
+          "expr": "2θ = 2λ / a"
+        },
+        {
+          "label": "Central max linear width",
+          "expr": "y = 2λD / a"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Resolving Power of Telescope & Microscope",
+      "tag": "formula",
+      "points": [
+        "Rayleigh's Criterion: Two point objects are just resolved when the central maximum of diffraction pattern of one coincides with the first minimum of the other.",
+        "Limit of resolution of telescope: dθ = 1.22 λ / D, where D is diameter of objective aperture.",
+        "Resolving power of telescope: RP = 1 / dθ = D / (1.22 λ). Larger aperture D gives higher resolving power.",
+        "Limit of resolution of microscope: d = λ / (2μ sinθ) = λ / (2 NA), where NA = μ sinθ is Numerical Aperture and θ is semi-vertical angle.",
+        "Resolving power of microscope: RP = 1 / d = 2μ sinθ / λ. RP increases by using oil immersion objective (larger μ) and UV light (smaller λ)."
+      ],
+      "formulas": [
+        {
+          "label": "Telescope limit of resolution",
+          "expr": "dθ = 1.22 λ / D"
+        },
+        {
+          "label": "Telescope resolving power",
+          "expr": "RP_tele = D / (1.22 λ)"
+        },
+        {
+          "label": "Microscope limit of resolution",
+          "expr": "d = λ / (2μ sinθ) = λ / (2 NA)"
+        },
+        {
+          "label": "Microscope resolving power",
+          "expr": "RP_micro = 2μ sinθ / λ"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Topics & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive laws of reflection and refraction using Huygens' wave theory (draw neat wavefront diagrams).",
+        "Board Favourite #2: Derive expression for fringe width W = λD/d in Young's Double Slit Experiment.",
+        "Board Favourite #3: State conditions for constructive and destructive interference in terms of path and phase difference.",
+        "Board Favourite #4: State Brewster's law and prove that reflected and refracted rays are mutually perpendicular (i_B + r = 90°).",
+        "Distinction: Interference (superposition of 2 waves from 2 coherent sources, all fringes equal width, equal intensity, dark fringes completely dark) vs Diffraction (superposition of wavelets from different parts of same wavefront, central max double width, intensity falls rapidly, dark fringes not completely dark)."
+      ],
+      "formulas": [
+        {
+          "label": "Fringe width derivation",
+          "expr": "W = λD / d"
+        },
+        {
+          "label": "Brewster's angle proof",
+          "expr": "tan(i_B) = μ ⟹ i_B + r = 90°"
+        },
+        {
+          "label": "Central max width",
+          "expr": "W_central = 2W_secondary"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Fringe Shift Hacks & Traps",
+      "tag": "imp",
+      "points": [
+        "Intensity Ratio Shortcut: I_max / I_min = (√I₁ + √I₂)² / (√I₁ − √I₂)² = (a₁ + a₂)² / (a₁ − a₂)². If one slit is closed, intensity becomes I₁ instead of I_max.",
+        "Slit Width Ratio Shortcut: w₁ / w₂ = I₁ / I₂ = a₁² / a₂² (intensity ∝ slit width).",
+        "Wavelength Coincidence Shortcut: If n₁-th bright fringe of λ₁ coincides with n₂-th bright fringe of λ₂: n₁ λ₁ = n₂ λ₂.",
+        "Liquid Immersion Trap: In water (μ = 4/3), fringe width W' = W / (4/3) = 0.75 W (decreases by 25%).",
+        "Diffraction vs Interference Central Max Trap: In single slit diffraction, central max width is 2λD/a, whereas in YDSE all fringes have same width λD/d.",
+        "White Light Source: In YDSE with white light, the central fringe is WHITE; the closest fringe on either side is VIOLET (smallest λ), outermost is RED."
+      ],
+      "formulas": [
+        {
+          "label": "Intensity ratio",
+          "expr": "I_max / I_min = [(a₁ + a₂) / (a₁ − a₂)]²"
+        },
+        {
+          "label": "Coincidence formula",
+          "expr": "n₁ λ₁ = n₂ λ₂"
+        },
+        {
+          "label": "Slit width and intensity",
+          "expr": "w₁ / w₂ = I₁ / I₂ = a₁² / a₂²"
+        }
+      ]
+    }
+  ]
+}

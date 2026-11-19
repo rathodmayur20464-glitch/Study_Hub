@@ -1,0 +1,288 @@
+{
+  "title": "Superposition of Waves",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Progressive Waves & Characteristics",
+      "tag": "formula",
+      "points": [
+        "A progressive wave continuously travels in a medium, transferring energy and momentum without the physical transfer of matter.",
+        "Displacement equation (wave traveling along +x): y = A sin(ωt − kx) = A sin 2π(t/T − x/λ).",
+        "Wavenumber / propagation constant: k = 2π/λ = ω/v (SI unit: rad/m).",
+        "Wave speed: v = nλ = λ/T = ω/k.",
+        "Phase difference and path difference link: Δϕ = (2π/λ) × Δx; Phase difference and time interval link: Δϕ = (2π/T) × Δt.",
+        "Particle velocity v_p = dy/dt = ω√(A² − y²); Maximum particle velocity v_p(max) = ωA."
+      ],
+      "formulas": [
+        {
+          "label": "Wave equation",
+          "expr": "y = A sin(ωt − kx)"
+        },
+        {
+          "label": "Wave speed",
+          "expr": "v = nλ = ω/k"
+        },
+        {
+          "label": "Phase difference",
+          "expr": "Δϕ = (2π/λ) Δx = (2π/T) Δt"
+        },
+        {
+          "label": "Max particle velocity",
+          "expr": "v_p(max) = ωA"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Superposition Principle & Reflection of Waves",
+      "tag": "concept",
+      "points": [
+        "Principle of Superposition: When two or more waves arrive at a point simultaneously, the resultant displacement is the vector sum of individual displacements: y = y₁ + y₂.",
+        "Reflection from Denser (Rigid) Boundary: Reflected wave undergoes a phase reversal of π rad (180°). Crest reflects as trough, compression reflects as rarefaction.",
+        "Reflection from Rarer (Free) Boundary: Reflected wave undergoes NO phase change (Δϕ = 0). Crest reflects as crest, compression reflects as compression.",
+        "Amplitude of reflected wave: From rigid boundary, displacement is zero at the boundary (node forms); at free boundary, antinode forms."
+      ],
+      "formulas": [
+        {
+          "label": "Superposition equation",
+          "expr": "y = y₁ + y₂"
+        },
+        {
+          "label": "Rigid boundary reflection",
+          "expr": "y_reflected = −A sin(ωt + kx)"
+        },
+        {
+          "label": "Free boundary reflection",
+          "expr": "y_reflected = A sin(ωt + kx)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Stationary Waves: Formation & Characteristics",
+      "tag": "formula",
+      "points": [
+        "Stationary (standing) waves form when two identical progressive waves traveling in opposite directions along the same line superpose.",
+        "Equation: y = y₁ + y₂ = (2A cos kx) sin ωt = R sin ωt, where amplitude R = 2A cos(2πx/λ).",
+        "Nodes: Points of zero displacement (R = 0), where cos kx = 0 ⟹ x = (2p + 1)λ/4. Strain is maximum at nodes.",
+        "Antinodes: Points of maximum displacement (R = ±2A), where cos kx = ±1 ⟹ x = pλ/2. Strain is minimum (zero) at antinodes.",
+        "Distance between two successive nodes or antinodes = λ/2; Distance between adjacent node and antinode = λ/4.",
+        "Stationary waves do NOT propagate energy; particles in the same loop vibrate in phase; particles in adjacent loops vibrate in opposite phase."
+      ],
+      "formulas": [
+        {
+          "label": "Stationary wave equation",
+          "expr": "y = 2A cos(kx) sin(ωt)"
+        },
+        {
+          "label": "Resultant amplitude",
+          "expr": "R = 2A cos(2πx / λ)"
+        },
+        {
+          "label": "Node separation",
+          "expr": "Distance = λ/2"
+        },
+        {
+          "label": "Node-antinode separation",
+          "expr": "Distance = λ/4"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Vibrations of Stretched String & Sonometer",
+      "tag": "formula",
+      "points": [
+        "Speed of transverse wave on a string: v = √(T/m), where T is tension and m is linear density (mass per unit length m = M/L = πr²ρ).",
+        "Fundamental frequency (1st harmonic, 1 loop): n = v / (2L) = (1 / 2L) √(T / m).",
+        "p-th harmonic frequency (p loops): n_p = p × n = (p / 2L) √(T / m). ALL harmonics (odd and even) are present.",
+        "Laws of Vibrating Strings: (1) Law of length: n ∝ 1/L (T, m const); (2) Law of tension: n ∝ √T (L, m const); (3) Law of linear density: n ∝ 1/√m (L, T const).",
+        "Sonometer verifies these laws by resonating a wire of variable length with known tuning forks using a light paper rider."
+      ],
+      "formulas": [
+        {
+          "label": "Wave speed on string",
+          "expr": "v = √(T/m)"
+        },
+        {
+          "label": "Fundamental frequency",
+          "expr": "n = (1 / 2L) √(T / m)"
+        },
+        {
+          "label": "p-th harmonic",
+          "expr": "n_p = p × n"
+        },
+        {
+          "label": "Linear density",
+          "expr": "m = πr²ρ"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Air Columns: Pipe Closed at One End",
+      "tag": "formula",
+      "points": [
+        "Boundary condition: Node at closed end, antinode at open end.",
+        "Fundamental mode (1st harmonic): L = λ/4 ⟹ λ = 4L ⟹ n = v / (4L).",
+        "First overtone (3rd harmonic): L = 3λ/4 ⟹ n₁ = 3v / (4L) = 3n.",
+        "Second overtone (5th harmonic): L = 5λ/4 ⟹ n₂ = 5v / (4L) = 5n.",
+        "Key Property: In a pipe closed at one end, ONLY ODD harmonics are present: n, 3n, 5n, 7n, ... (even harmonics are absent).",
+        "p-th overtone frequency: n_p = (2p + 1) n."
+      ],
+      "formulas": [
+        {
+          "label": "Fundamental frequency",
+          "expr": "n = v / (4L)"
+        },
+        {
+          "label": "1st overtone (3rd harmonic)",
+          "expr": "n₁ = 3n = 3v / (4L)"
+        },
+        {
+          "label": "p-th overtone",
+          "expr": "n_p = (2p + 1) n"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Air Columns: Pipe Open at Both Ends",
+      "tag": "formula",
+      "points": [
+        "Boundary condition: Antinodes at both open ends, node in between.",
+        "Fundamental mode (1st harmonic): L = λ/2 ⟹ λ = 2L ⟹ n' = v / (2L).",
+        "First overtone (2nd harmonic): L = λ ⟹ n₁' = 2v / (2L) = 2n'.",
+        "Second overtone (3rd harmonic): L = 3λ/2 ⟹ n₂' = 3v / (2L) = 3n'.",
+        "Key Property: In a pipe open at both ends, ALL harmonics (odd and even) are present: n', 2n', 3n', 4n', ...",
+        "Comparison: For same physical length L, open pipe frequency is DOUBLE the closed pipe frequency: n_open = 2 × n_closed."
+      ],
+      "formulas": [
+        {
+          "label": "Fundamental frequency",
+          "expr": "n' = v / (2L)"
+        },
+        {
+          "label": "1st overtone (2nd harmonic)",
+          "expr": "n₁' = 2n' = v / L"
+        },
+        {
+          "label": "p-th overtone",
+          "expr": "n_p' = (p + 1) n'"
+        },
+        {
+          "label": "Open vs closed ratio",
+          "expr": "n_open = 2 × n_closed (for same L)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "End Correction & Musical Characteristics",
+      "tag": "formula",
+      "points": [
+        "End correction (e): The antinode at the open end is formed slightly outside the open end at distance e = 0.3 d, where d is the inner diameter.",
+        "Pipe closed at one end: Corrected length L' = L + e = L + 0.3 d ⟹ n = v / [4(L + 0.3 d)].",
+        "Pipe open at both ends: Corrected length L' = L + 2e = L + 0.6 d ⟹ n' = v / [2(L + 0.6 d)].",
+        "Resonance tube experiment: e = (v/4)(1/n₁ − 1/n₂) or e = (l₂ − 3l₁)/2, and speed of sound v = 2n(l₂ − l₁).",
+        "Characteristics of Musical Sound: Loudness (depends on intensity I ∝ A²), Pitch (depends on frequency n), Quality/Timbre (depends on the number and nature of overtones present)."
+      ],
+      "formulas": [
+        {
+          "label": "End correction",
+          "expr": "e = 0.3 d = 0.6 r"
+        },
+        {
+          "label": "Closed pipe with e",
+          "expr": "n = v / [4(L + 0.3d)]"
+        },
+        {
+          "label": "Open pipe with e",
+          "expr": "n' = v / [2(L + 0.6d)]"
+        },
+        {
+          "label": "Resonance tube speed",
+          "expr": "v = 2n(l₂ − l₁)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Beats: Theory & Applications",
+      "tag": "formula",
+      "points": [
+        "Beats: Periodic variation in intensity of sound produced when two sound waves of slightly different frequencies superpose along the same line.",
+        "Waxing: Maximum intensity; Waning: Minimum intensity. One waxing and one waning constitute one beat.",
+        "Beat frequency: n_b = |n₁ − n₂| (number of beats heard per second).",
+        "Period of beats: T_b = 1 / n_b = 1 / |n₁ − n₂|.",
+        "For distinct beats to be heard by human ear, |n₁ − n₂| ≤ 10 Hz (due to persistence of hearing = 0.1 s).",
+        "Applications: Tuning musical instruments to standard pitch, detecting dangerous marsh gas (methane) in mines."
+      ],
+      "formulas": [
+        {
+          "label": "Beat frequency",
+          "expr": "n_b = |n₁ − n₂|"
+        },
+        {
+          "label": "Beat period",
+          "expr": "T_b = 1 / |n₁ − n₂|"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive analytical expression for stationary waves on a stretched string and locate positions of nodes and antinodes.",
+        "Board Favourite #2: Show that only odd harmonics are present in a pipe closed at one end, whereas all harmonics are present in an open pipe.",
+        "Board Favourite #3: Derive expression for beat frequency n_b = n₁ − n₂ from the principle of superposition of waves.",
+        "Distinction #1: Progressive waves (transmit energy, all particles have same amplitude, phase changes continuously) vs Stationary waves (no energy transmission, amplitude varies from 0 to 2A, particles in same loop have same phase).",
+        "Distinction #2: Harmonics (integral multiples of fundamental frequency) vs Overtones (frequencies higher than fundamental actually emitted by instrument)."
+      ],
+      "formulas": [
+        {
+          "label": "Stationary wave node condition",
+          "expr": "x = (2p + 1)λ / 4"
+        },
+        {
+          "label": "Stationary wave antinode",
+          "expr": "x = pλ / 2"
+        },
+        {
+          "label": "Beat frequency",
+          "expr": "n_b = n₁ − n₂"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Tuning Fork Traps & Speed Hacks",
+      "tag": "imp",
+      "points": [
+        "Tuning Fork Loading Rule: When a tuning fork is loaded with wax, its frequency DECREASES (n falls).",
+        "Tuning Fork Filing Rule: When the prongs of a tuning fork are filed, its mass decreases and its frequency INCREASES (n rises).",
+        "Beat Frequency Deduction Shortcut: If fork A (known n_A) produces 4 beats/s with B, then n_B = n_A ± 4. If loading A decreases beat frequency, then n_A > n_B.",
+        "Effect of Temperature on Pipe Frequency: v ∝ √T ⟹ frequency n ∝ √T (temperature in Kelvin). Pipe frequency increases on hot days.",
+        "String Submerged in Water: Tension T_eff = T(1 − σ/ρ) ⟹ frequency n' = n √(1 − σ/ρ), where σ is liquid density and ρ is wire density.",
+        "Open vs Closed Comparison: If open pipe is dipped half in water, it becomes a closed pipe of same length L/2, so fundamental frequency remains the same!"
+      ],
+      "formulas": [
+        {
+          "label": "Beat frequency",
+          "expr": "n_b = |n_A − n_B|"
+        },
+        {
+          "label": "Submerged wire frequency",
+          "expr": "n' = n √(1 − σ/ρ)"
+        },
+        {
+          "label": "Temperature effect",
+          "expr": "n₁ / n₂ = √(T₁ / T₂)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "title": "Current Electricity",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Kirchhoff's Laws & Sign Conventions",
+      "tag": "concept",
+      "points": [
+        "Kirchhoff's First Law (Current Law / KCL / Junction Rule): The algebraic sum of currents meeting at any junction is zero: Σ I = 0. Based on conservation of electric charge.",
+        "Sign convention for KCL: Current entering a junction is taken as positive (+), current leaving is taken as negative (−).",
+        "Kirchhoff's Second Law (Voltage Law / KVL / Loop Rule): The algebraic sum of potential differences (IR drops) and EMFs in any closed loop is zero: Σ IR + Σ E = 0. Based on conservation of energy.",
+        "Sign convention for KVL: (1) Moving across a resistor in direction of current gives negative potential change (−IR); against current gives (+IR). (2) Moving from negative to positive terminal across an EMF source gives positive (+E); from positive to negative gives (−E)."
+      ],
+      "formulas": [
+        {
+          "label": "Kirchhoff's Current Law",
+          "expr": "Σ I = 0 (charge conservation)"
+        },
+        {
+          "label": "Kirchhoff's Voltage Law",
+          "expr": "Σ IR + Σ E = 0 (energy conservation)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Wheatstone's Bridge & Balancing Principle",
+      "tag": "formula",
+      "points": [
+        "Wheatstone's network consists of 4 resistances P, Q, R, S connected in a diamond loop with a galvanometer across BD and battery across AC.",
+        "Balancing Condition: When no current flows through the galvanometer (I_g = 0), the bridge is balanced: P / Q = R / S.",
+        "At balance point, potential of B equals potential of D (V_B = V_D).",
+        "Interchange Principle: Interchanging positions of the battery and galvanometer does NOT affect the balancing condition (conjugate arms).",
+        "Sensitivity of Bridge: Wheatstone bridge is most sensitive when all four resistances P, Q, R, S are nearly equal."
+      ],
+      "formulas": [
+        {
+          "label": "Balancing condition",
+          "expr": "P / Q = R / S (when I_g = 0)"
+        },
+        {
+          "label": "Equipotential condition",
+          "expr": "V_B = V_D"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Metre Bridge & Kelvin's Method",
+      "tag": "formula",
+      "points": [
+        "Metre Bridge operates on the principle of Wheatstone's bridge, using a uniform wire of length 1 metre (100 cm).",
+        "Unknown resistance X in left gap, known resistance R in right gap: X / R = l_x / l_r = l_x / (100 − l_x) ⟹ X = R [l_x / (100 − l_x)].",
+        "End Errors: Caused by contact resistance at copper strips and non-coincidence of meter scale zero with wire ends.",
+        "Minimizing End Errors: (1) Repeat experiment with X and R interchanged; (2) Take readings near the center (l_x between 33 cm and 67 cm) where sensitivity is maximum.",
+        "Kelvin's Method: Used to determine galvanometer resistance G using a metre bridge without needing an additional galvanometer: G = R [l_g / (100 − l_g)]."
+      ],
+      "formulas": [
+        {
+          "label": "Metre bridge formula",
+          "expr": "X = R [l_x / (100 − l_x)]"
+        },
+        {
+          "label": "Kelvin's method for G",
+          "expr": "G = R [l_g / (100 − l_g)]"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Potentiometer Principle & Potential Gradient",
+      "tag": "formula",
+      "points": [
+        "A potentiometer is an ideal device for measuring EMF and potential difference because it draws ZERO current at balance point (infinite effective resistance).",
+        "Principle of Potentiometer: Potential drop across any length of a uniform wire carrying constant current is directly proportional to its length: V ∝ l ⟹ V = K l.",
+        "Potential Gradient K: Potential drop per unit length of wire: K = V / L. SI unit: V/m.",
+        "Formula for K: K = I ρ_w = [E / (R_w + r + R_h)] × (R_w / L), where R_w is wire resistance, r is cell internal resistance, R_h is rheostat resistance.",
+        "Sensitivity of Potentiometer: Potentiometer becomes more sensitive when K is made smaller. K is reduced by (1) increasing wire length L or (2) decreasing primary current I (increasing R_h)."
+      ],
+      "formulas": [
+        {
+          "label": "Potentiometer principle",
+          "expr": "V = K × l"
+        },
+        {
+          "label": "Potential gradient",
+          "expr": "K = V / L = I (R_w / L)"
+        },
+        {
+          "label": "Circuit potential gradient",
+          "expr": "K = [E_p / (R_w + r + R_h)] × (R_w / L)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Potentiometer: Comparing EMFs of Cells",
+      "tag": "formula",
+      "points": [
+        "Individual Method: Cell E₁ balanced at length l₁ ⟹ E₁ = K l₁; Cell E₂ balanced at length l₂ ⟹ E₂ = K l₂.",
+        "Ratio of EMFs (Individual method): E₁ / E₂ = l₁ / l₂.",
+        "Sum and Difference Method (Combination Method):",
+        "Assist Mode (Sum mode, cells in series supporting): E₁ + E₂ = K l₁.",
+        "Oppose Mode (Difference mode, cells opposing): E₁ − E₂ = K l₂.",
+        "Ratio of EMFs (Sum and Difference method): E₁ / E₂ = (l₁ + l₂) / (l₁ − l₂).",
+        "Condition for balance: Driver cell EMF E_p must be strictly GREATER than (E₁ + E₂), otherwise null point cannot be found on the wire."
+      ],
+      "formulas": [
+        {
+          "label": "Individual method",
+          "expr": "E₁ / E₂ = l₁ / l₂"
+        },
+        {
+          "label": "Sum mode",
+          "expr": "E₁ + E₂ = K l₁"
+        },
+        {
+          "label": "Difference mode",
+          "expr": "E₁ − E₂ = K l₂"
+        },
+        {
+          "label": "Sum-difference ratio",
+          "expr": "E₁ / E₂ = (l₁ + l₂) / (l₁ − l₂)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Potentiometer: Internal Resistance of a Cell",
+      "tag": "formula",
+      "points": [
+        "Open circuit: Cell E is connected alone, balance length is l₁ ⟹ E = K l₁.",
+        "Closed circuit: Known resistance R is shunted across cell, terminal voltage V is balanced at length l₂ ⟹ V = K l₂.",
+        "Since E / V = l₁ / l₂, and internal resistance relation is r = R(E/V − 1):",
+        "Internal Resistance Formula: r = R [(l₁ − l₂) / l₂] = R (l₁/l₂ − 1).",
+        "Notice l₁ is always greater than l₂ because EMF E is greater than terminal potential difference V."
+      ],
+      "formulas": [
+        {
+          "label": "Internal resistance",
+          "expr": "r = R [(l₁ − l₂) / l₂]"
+        },
+        {
+          "label": "EMF to terminal PD",
+          "expr": "E / V = l₁ / l₂"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "MCG to Ammeter Conversion (Shunt)",
+      "tag": "formula",
+      "points": [
+        "An ammeter measures electric current and is always connected in SERIES in a circuit. Ideal ammeter resistance = 0.",
+        "To convert Moving Coil Galvanometer (resistance G, full-scale current I_g) to an ammeter measuring current up to I: Connect a small shunt resistance S in PARALLEL with the galvanometer.",
+        "Potential difference across G and S is equal: I_g G = (I − I_g) S ⟹ S = [I_g / (I − I_g)] G.",
+        "Multiplying factor n = I / I_g: Shunt resistance shortcut S = G / (n − 1).",
+        "Effective resistance of ammeter: R_A = GS / (G + S) ≈ S (very small)."
+      ],
+      "formulas": [
+        {
+          "label": "Shunt resistance",
+          "expr": "S = [I_g / (I − I_g)] G"
+        },
+        {
+          "label": "Shunt using factor n",
+          "expr": "S = G / (n − 1) where n = I / I_g"
+        },
+        {
+          "label": "Ammeter resistance",
+          "expr": "R_A = GS / (G + S)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "MCG to Voltmeter Conversion (Series R)",
+      "tag": "formula",
+      "points": [
+        "A voltmeter measures potential difference and is always connected in PARALLEL with the circuit component. Ideal voltmeter resistance = ∞.",
+        "To convert MCG (resistance G, full-scale current I_g) to a voltmeter measuring voltage up to V: Connect a high resistance R_s in SERIES with the galvanometer.",
+        "Total potential difference: V = I_g (G + R_s) ⟹ R_s = (V / I_g) − G.",
+        "Multiplying factor n = V / V_g = V / (I_g G): Series resistance shortcut R_s = (n − 1) G.",
+        "Effective resistance of voltmeter: R_V = G + R_s ≈ R_s (very large)."
+      ],
+      "formulas": [
+        {
+          "label": "Series resistance",
+          "expr": "R_s = (V / I_g) − G"
+        },
+        {
+          "label": "Series R using factor n",
+          "expr": "R_s = (n − 1) G where n = V / V_g"
+        },
+        {
+          "label": "Voltmeter resistance",
+          "expr": "R_V = G + R_s"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Topics & Experimental Setups",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive balancing condition of Wheatstone's bridge P/Q = R/S using Kirchhoff's laws.",
+        "Board Favourite #2: Describe the determination of unknown resistance using Metre Bridge with circuit diagram and formula.",
+        "Board Favourite #3: Explain comparison of EMFs of two cells using Potentiometer: (a) Individual method, (b) Sum and Difference method.",
+        "Board Favourite #4: Derive expression for internal resistance of a cell using potentiometer: r = R(l₁/l₂ − 1).",
+        "Board Favourite #5: Explain conversion of MCG into an ammeter and voltmeter with neat circuit diagrams.",
+        "Advantages of Potentiometer over Voltmeter: Potentiometer draws NO current from the cell at balance point (measures true EMF), whereas voltmeter draws small current and measures only terminal PD."
+      ],
+      "formulas": [
+        {
+          "label": "Wheatstone balance",
+          "expr": "P / Q = R / S"
+        },
+        {
+          "label": "Sum-difference EMF",
+          "expr": "E₁ / E₂ = (l₁ + l₂) / (l₁ − l₂)"
+        },
+        {
+          "label": "Internal resistance",
+          "expr": "r = R (l₁/l₂ − 1)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Null Point Traps & Shunt Hacks",
+      "tag": "imp",
+      "points": [
+        "Potentiometer Null Point Shift Rules:",
+        "(1) If potentiometer wire length L is doubled (at same driving V), K is halved, so balance length l DOUBLES.",
+        "(2) If a series resistance is added to primary circuit, current I decreases, K decreases, so balance length l INCREASES (shifts right).",
+        "(3) If driver cell EMF E_p < (E₁ or E₂), null point CANNOT be obtained (galvanometer deflects to one side only).",
+        "Ammeter Shortcut: To increase range n-fold (I = n I_g), connect S = G / (n − 1).",
+        "Voltmeter Shortcut: To increase range n-fold (V = n V_g), connect R_s = (n − 1) G.",
+        "Galvanometer Sensitivity: Current sensitivity S_i = θ/I = NAB/c; Voltage sensitivity S_v = θ/V = NAB/(c R_g). Notice S_v = S_i / R_g."
+      ],
+      "formulas": [
+        {
+          "label": "Ammeter shunt hack",
+          "expr": "S = G / (n − 1)"
+        },
+        {
+          "label": "Voltmeter series R hack",
+          "expr": "R_s = (n − 1) G"
+        },
+        {
+          "label": "Current sensitivity",
+          "expr": "S_i = NAB / c"
+        },
+        {
+          "label": "Voltage sensitivity",
+          "expr": "S_v = NAB / (c G)"
+        }
+      ]
+    }
+  ]
+}

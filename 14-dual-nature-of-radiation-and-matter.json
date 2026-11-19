@@ -1,0 +1,262 @@
+{
+  "title": "Dual Nature of Radiation and Matter",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Photoelectric Effect & Observations",
+      "tag": "concept",
+      "points": [
+        "Photoelectric effect: Phenomenon of emission of electrons (photoelectrons) from a metal surface when light of suitable frequency is incident on it.",
+        "Experimental Facts:",
+        "(1) Instantaneous emission: Photoelectrons are emitted within ~10⁻⁹ seconds with no detectable time lag.",
+        "(2) Threshold frequency (ν₀): Characteristic minimum frequency below which NO emission occurs, regardless of intensity.",
+        "(3) Photocurrent is directly proportional to intensity of incident radiation (I ∝ Intensity) at constant frequency.",
+        "(4) Maximum kinetic energy (KE_max) and stopping potential (V₀) depend linearly on frequency ν, and are completely independent of intensity."
+      ],
+      "formulas": [
+        {
+          "label": "Photocurrent relation",
+          "expr": "I_photo ∝ Incident Intensity"
+        },
+        {
+          "label": "Stopping potential link",
+          "expr": "KE_max = e V₀"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Failure of Wave Theory of Light",
+      "tag": "concept",
+      "points": [
+        "Classical Wave Theory failed because:",
+        "(1) Energy distribution: Wave theory predicts energy is distributed uniformly over wavefront. Low-intensity light should require hours/days for an electron to accumulate enough escape energy, contradicting instantaneous emission (< 10⁻⁹ s).",
+        "(2) Threshold frequency: Wave theory predicts high enough intensity of ANY frequency should eject electrons, failing to explain existence of threshold frequency ν₀.",
+        "(3) Kinetic energy: Wave theory predicts larger intensity (larger electric field amplitude) should give higher kinetic energy, contradicting experimental observation that KE depends ONLY on frequency."
+      ],
+      "formulas": [
+        {
+          "label": "Wave theory discrepancy",
+          "expr": "Predicted: KE ∝ Intensity (Wrong!) | Actual: KE ∝ Frequency"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Einstein's Photoelectric Equation & Work Function",
+      "tag": "formula",
+      "points": [
+        "Einstein proposed that radiation travels as localized packets of energy called Photons (or Quanta), each of energy E = hν.",
+        "Work Function (Φ₀): Minimum energy required to liberate an electron from metal surface: Φ₀ = h ν₀ = h c / λ₀ (SI unit: eV or J; 1 eV = 1.6 × 10⁻¹⁹ J).",
+        "Einstein's Photoelectric Equation: Energy of photon = Work function + Maximum KE of emitted electron.",
+        "KE_max = h ν − Φ₀ = h (ν − ν₀) = h c (1/λ − 1/λ₀).",
+        "In terms of Stopping Potential V₀: e V₀ = h ν − Φ₀ ⟹ V₀ = (h/e) ν − (Φ₀/e)."
+      ],
+      "formulas": [
+        {
+          "label": "Einstein's equation",
+          "expr": "KE_max = hν − Φ₀ = h(ν − ν₀)"
+        },
+        {
+          "label": "Work function",
+          "expr": "Φ₀ = hν₀ = hc / λ₀"
+        },
+        {
+          "label": "Stopping potential",
+          "expr": "V₀ = (h/e) ν − (Φ₀/e)"
+        },
+        {
+          "label": "Maximum speed",
+          "expr": "v_max = √[2h(ν − ν₀) / m_e]"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Characteristics of Photons",
+      "tag": "concept",
+      "points": [
+        "Photons travel at the speed of light in vacuum: c = 3 × 10⁸ m/s.",
+        "Energy of a photon: E = hν = hc / λ. Planck's constant h = 6.63 × 10⁻³⁴ J·s. Dimensions: [M¹L²T⁻¹] (same as angular momentum).",
+        "Linear momentum of a photon: p = E / c = h / λ.",
+        "Rest mass of a photon is strictly ZERO (m₀ = 0). It cannot exist at rest.",
+        "Equivalent dynamic mass: m = E / c² = hν / c² = h / (cλ).",
+        "Photons are electrically NEUTRAL; they are not deflected by electric or magnetic fields.",
+        "In photon-particle collision, total energy and total momentum are conserved, but number of photons may not be conserved."
+      ],
+      "formulas": [
+        {
+          "label": "Photon energy",
+          "expr": "E = hν = hc / λ"
+        },
+        {
+          "label": "Photon momentum",
+          "expr": "p = E / c = h / λ"
+        },
+        {
+          "label": "Photon dynamic mass",
+          "expr": "m = hν / c² = h / (cλ)"
+        },
+        {
+          "label": "Planck constant",
+          "expr": "h = 6.63 × 10⁻³⁴ J·s"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Photoelectric Graphs & Slopes",
+      "tag": "concept",
+      "points": [
+        "Graph 1: V₀ vs Frequency ν: A straight line with slope = h/e (universal constant, same for ALL metals!) and x-intercept = ν₀ (threshold frequency). y-intercept = −Φ₀/e.",
+        "Graph 2: Photocurrent vs Collector Potential for different intensities at same frequency: Same stopping potential V₀, but higher saturation current for higher intensity.",
+        "Graph 3: Photocurrent vs Collector Potential for different frequencies at same intensity: Different stopping potentials (higher ν gives more negative V₀), same saturation current.",
+        "Graph 4: Photocurrent vs Intensity: A straight line passing through origin."
+      ],
+      "formulas": [
+        {
+          "label": "Slope of V₀ vs ν",
+          "expr": "Slope = h / e ≈ 4.14 × 10⁻¹⁵ V·s"
+        },
+        {
+          "label": "x-intercept of V₀ vs ν",
+          "expr": "x-intercept = ν₀"
+        },
+        {
+          "label": "y-intercept of V₀ vs ν",
+          "expr": "y-intercept = −Φ₀ / e"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "de Broglie Hypothesis & Matter Waves",
+      "tag": "formula",
+      "points": [
+        "de Broglie Hypothesis: A moving material particle possesses wave-like properties (matter waves / de Broglie waves). Nature loves symmetry.",
+        "de Broglie wavelength: λ = h / p = h / (m v).",
+        "In terms of Kinetic Energy E: p = √(2mE) ⟹ λ = h / √(2mE).",
+        "For a gas molecule at absolute temperature T: Average thermal KE E = 3/2 k_B T ⟹ λ = h / √(3 m k_B T).",
+        "Matter waves are not electromagnetic waves; they are probability waves representing the probability of finding a particle in space."
+      ],
+      "formulas": [
+        {
+          "label": "de Broglie wavelength",
+          "expr": "λ = h / p = h / (mv)"
+        },
+        {
+          "label": "λ in terms of KE",
+          "expr": "λ = h / √(2mE)"
+        },
+        {
+          "label": "Thermal neutron λ",
+          "expr": "λ = h / √(3 m k_B T)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "de Broglie Wavelength of Accelerated Particles",
+      "tag": "formula",
+      "points": [
+        "When a charged particle of charge q and mass m is accelerated from rest through potential difference V: KE = q V.",
+        "Formula: λ = h / √(2mqV).",
+        "For an Electron (m = 9.1 × 10⁻³¹ kg, q = 1.6 × 10⁻¹⁹ C): λ = 1.228 / √V nm = 12.28 / √V Å.",
+        "For a Proton (m_p): λ_p = 0.286 / √V Å.",
+        "For a Deuteron (m_d = 2m_p, q_d = e): λ_d = 0.202 / √V Å.",
+        "For an Alpha particle (m_α = 4m_p, q_α = 2e): λ_α = 0.101 / √V Å."
+      ],
+      "formulas": [
+        {
+          "label": "Accelerated charge λ",
+          "expr": "λ = h / √(2mqV)"
+        },
+        {
+          "label": "Electron shortcut",
+          "expr": "λ_e = 1.228 / √V nm = 12.28 / √V Å"
+        },
+        {
+          "label": "Proton shortcut",
+          "expr": "λ_p = 0.286 / √V Å"
+        },
+        {
+          "label": "Alpha particle shortcut",
+          "expr": "λ_α = 0.101 / √V Å"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Davisson-Germer Experiment & Wave Confirmation",
+      "tag": "concept",
+      "points": [
+        "Davisson and Germer experimentally confirmed the wave nature of electrons through electron diffraction by a nickel crystal.",
+        "Key Observation: A sharp peak in scattered electron intensity occurred at accelerating voltage V = 54 V and scattering angle ϕ = 50°.",
+        "Bragg's grazing angle: θ = 90° − ϕ/2 = 90° − 25° = 65°. For Nickel lattice spacing d = 0.091 nm.",
+        "Bragg's law: λ = 2d sinθ = 2 × 0.091 × sin 65° = 0.165 nm.",
+        "de Broglie theoretical formula: λ = 1.228 / √54 nm = 0.167 nm.",
+        "The striking agreement between experimental (0.165 nm) and theoretical (0.167 nm) values definitively proved de Broglie's matter wave hypothesis."
+      ],
+      "formulas": [
+        {
+          "label": "Bragg's law (n = 1)",
+          "expr": "λ = 2d sinθ = 0.165 nm"
+        },
+        {
+          "label": "de Broglie theory at 54 V",
+          "expr": "λ = 1.228 / √54 = 0.167 nm"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Questions & Derivations",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: State Einstein's photoelectric equation and explain all characteristics of photoelectric effect using it.",
+        "Board Favourite #2: Define: (1) Threshold frequency, (2) Threshold wavelength, (3) Work function, (4) Stopping potential.",
+        "Board Favourite #3: Derive expression for de Broglie wavelength of an electron accelerated through potential difference V.",
+        "Board Favourite #4: Describe Davisson and Germer experiment with neat schematic diagram and explain how it proved wave nature of electrons.",
+        "Board Favourite #5: Sketch and explain the graph of stopping potential versus frequency of incident radiation."
+      ],
+      "formulas": [
+        {
+          "label": "Einstein's equation",
+          "expr": "KE_max = h(ν − ν₀) = e V₀"
+        },
+        {
+          "label": "Electron de Broglie",
+          "expr": "λ = h / √(2m_e e V) = 1.228 / √V nm"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, hc Value Hacks & Exam Traps",
+      "tag": "imp",
+      "points": [
+        "Calculation Hack: hc ≈ 1242 eV·nm ≈ 12400 eV·Å. Energy of photon in eV: E(eV) = 1242 / λ(nm) = 12400 / λ(Å).",
+        "Universal Slope Trap: The slope of the V₀ vs ν graph is ALWAYS h/e = 4.14 × 10⁻¹⁵ V·s, which is identical for ALL metals (Cs, Na, K, Pt, etc.)!",
+        "Intensity vs Frequency Trap: Doubling intensity DOUBLES the photocurrent and saturation current, but KE_max and V₀ remain UNCHANGED. Doubling frequency increases KE_max and V₀, but photocurrent remains unchanged.",
+        "Threshold Wavelength Trap: Photoelectric emission occurs when λ ≤ λ₀ (wavelength must be LESS than or equal to threshold wavelength).",
+        "Ratio of de Broglie Wavelengths: For same accelerating voltage V: λ_e : λ_p : λ_d : λ_α = 1/√(m_e q_e) : 1/√(m_p q_p) : 1/√(m_d q_d) : 1/√(m_α q_α)."
+      ],
+      "formulas": [
+        {
+          "label": "hc shortcut",
+          "expr": "E(eV) ≈ 1242 / λ(nm)"
+        },
+        {
+          "label": "Universal slope",
+          "expr": "Slope = h / e (same for all metals)"
+        },
+        {
+          "label": "Emission condition",
+          "expr": "ν ≥ ν₀ and λ ≤ λ₀"
+        }
+      ]
+    }
+  ]
+}

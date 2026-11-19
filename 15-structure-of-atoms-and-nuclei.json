@@ -1,0 +1,279 @@
+{
+  "title": "Structure of Atoms and Nuclei",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Rutherford's Model & Distance of Closest Approach",
+      "tag": "concept",
+      "points": [
+        "Geiger-Marsden α-scattering experiment: Most α-particles passed undeflected; ~1 in 8000 deflected by > 90°; very few retraced path (~180°).",
+        "Conclusions: Entire positive charge and nearly all mass are concentrated in an extremely dense central nucleus (< 10⁻¹⁴ m). Most of the atom is empty space (~10⁻¹⁰ m).",
+        "Distance of closest approach (head-on collision): Initial KE equals electrostatic PE at closest approach r₀: ½ m v² = (1 / 4πε₀) (2Ze² / r₀) ⟹ r₀ = (1 / 4πε₀) (2Ze² / E_k).",
+        "Impact parameter b: Perpendicular distance of initial velocity vector from central nucleus: b ∝ cot(θ/2). For head-on collision, b = 0, θ = 180°.",
+        "Limitations of Rutherford's Model: (1) Instability of atom (accelerated electron should radiate energy and spiral into nucleus); (2) Could not explain discrete line spectra."
+      ],
+      "formulas": [
+        {
+          "label": "Closest approach distance",
+          "expr": "r₀ = (1 / 4πε₀) (2Ze² / E_k)"
+        },
+        {
+          "label": "Impact parameter",
+          "expr": "b = (1 / 4πε₀) [Ze² cot(θ/2)] / E_k"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Bohr's Atomic Model & Three Postulates",
+      "tag": "concept",
+      "points": [
+        "First Postulate: Electron revolves in circular orbits where necessary centripetal force is provided by electrostatic Coulomb attraction: m v² / r = (1 / 4πε₀) (Ze² / r²).",
+        "Second Postulate (Bohr's Quantization Condition): Electron can revolve only in non-radiating stable orbits where orbital angular momentum is an integral multiple of h/2π: L = m v r = n h / (2π), where n = 1, 2, 3... is Principal Quantum Number.",
+        "Third Postulate (Frequency Condition): When electron jumps from higher energy state E_i to lower state E_f, a photon of energy hν is emitted: E_i − E_f = hν = hc / λ."
+      ],
+      "formulas": [
+        {
+          "label": "1st Postulate",
+          "expr": "m v² / r = (1 / 4πε₀) (Ze² / r²)"
+        },
+        {
+          "label": "2nd Postulate",
+          "expr": "L = mvr = nh / (2π)"
+        },
+        {
+          "label": "3rd Postulate",
+          "expr": "E_i − E_f = hν = hc / λ"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Radii, Velocity & Energy in Bohr Orbits",
+      "tag": "formula",
+      "points": [
+        "Radius of n-th orbit: r_n = (ε₀ h² n²) / (π m Z e²) = a₀ (n² / Z). For Hydrogen (Z=1, n=1): Bohr radius a₀ = 0.529 Å = 0.0529 nm. Radius r_n ∝ n² / Z.",
+        "Speed of electron in n-th orbit: v_n = (Z e²) / (2 ε₀ n h) = v₁ (Z / n). For Hydrogen ground state: v₁ = c / 137 ≈ 2.18 × 10⁶ m/s. Speed v_n ∝ Z / n.",
+        "Kinetic Energy: KE = + (m Z² e⁴) / (8 ε₀² h² n²) = + 13.6 (Z² / n²) eV.",
+        "Potential Energy: PE = − (m Z² e⁴) / (4 ε₀² h² n²) = − 27.2 (Z² / n²) eV.",
+        "Total Energy: E_n = KE + PE = − (m Z² e⁴) / (8 ε₀² h² n²) = − 13.6 (Z² / n²) eV. Negative sign signifies bound system.",
+        "Master Energy Link: PE = 2 E_n; KE = −E_n; Total Energy E_n = −KE."
+      ],
+      "formulas": [
+        {
+          "label": "Bohr radius",
+          "expr": "r_n = 0.529 (n² / Z) Å"
+        },
+        {
+          "label": "Orbit speed",
+          "expr": "v_n = (c / 137) (Z / n)"
+        },
+        {
+          "label": "Total energy",
+          "expr": "E_n = −13.6 (Z² / n²) eV"
+        },
+        {
+          "label": "Energy relations",
+          "expr": "PE = 2E , KE = −E , TE = −KE"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Hydrogen Spectral Series & Rydberg Formula",
+      "tag": "formula",
+      "points": [
+        "Rydberg Formula: Wavenumber ν̄ = 1/λ = R_H Z² (1/n₁² − 1/n₂²), where Rydberg constant R_H = (m e⁴) / (8 ε₀² h³ c) ≈ 1.097 × 10⁷ m⁻¹.",
+        "1. Lyman Series: n₁ = 1, n₂ = 2, 3, 4... | Ultraviolet (UV) region. Shortest λ: n₂ = ∞ (λ_min = 1/R ≈ 912 Å); Longest λ: n₂ = 2 (λ_max = 4/3R ≈ 1216 Å).",
+        "2. Balmer Series: n₁ = 2, n₂ = 3, 4, 5... | VISIBLE region. First line (H_α line): n₂ = 3 (Red, λ = 6563 Å).",
+        "3. Paschen Series: n₁ = 3, n₂ = 4, 5... | Infrared (IR) region.",
+        "4. Brackett Series: n₁ = 4, n₂ = 5, 6... | Infrared (IR) region.",
+        "5. Pfund Series: n₁ = 5, n₂ = 6, 7... | Far Infrared region.",
+        "Total number of spectral lines emitted when electron de-excites from state n to ground state: N = n(n − 1) / 2."
+      ],
+      "formulas": [
+        {
+          "label": "Rydberg formula",
+          "expr": "1/λ = R_H Z² (1/n₁² − 1/n₂²)"
+        },
+        {
+          "label": "Rydberg constant",
+          "expr": "R_H ≈ 1.097 × 10⁷ m⁻¹"
+        },
+        {
+          "label": "Spectral lines count",
+          "expr": "N = n(n − 1) / 2"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Nuclear Structure, Size & Invariant Density",
+      "tag": "formula",
+      "points": [
+        "Nucleus contains protons (Z) and neutrons (N = A − Z). Mass number A = Z + N.",
+        "Isotopes: Same Z, different A (e.g., ¹H, ²H, ³H); Isobars: Same A, different Z (e.g., ⁴⁰Ar, ⁴⁰Ca); Isotones: Same neutron number N = A − Z.",
+        "Nuclear Radius: R = R₀ A^(1/3), where R₀ ≈ 1.2 × 10⁻¹⁵ m = 1.2 fm (Fermi). Nuclear volume V ∝ R³ ∝ A.",
+        "Nuclear Density: ρ = Mass / Volume = (A × m_n) / [4/3 π (R₀ A^(1/3))³] = m_n / (4/3 π R₀³) ≈ 2.3 × 10¹⁷ kg/m³.",
+        "Crucial Fact: Nuclear density is CONSTANT and INDEPENDENT of mass number A for all nuclei."
+      ],
+      "formulas": [
+        {
+          "label": "Nuclear radius",
+          "expr": "R = R₀ A^(1/3)"
+        },
+        {
+          "label": "Nuclear constant R₀",
+          "expr": "R₀ ≈ 1.2 fm = 1.2 × 10⁻¹⁵ m"
+        },
+        {
+          "label": "Nuclear density",
+          "expr": "ρ ≈ 2.3 × 10¹⁷ kg/m³ (constant for all nuclei)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Mass Defect, Binding Energy & BE/A Curve",
+      "tag": "formula",
+      "points": [
+        "Mass Defect (Δm): Difference between total mass of individual nucleons and actual rest mass of the nucleus: Δm = [Z m_p + (A − Z) m_n] − M_nucleus.",
+        "Binding Energy (BE): Energy released when nucleus is assembled from separated nucleons: BE = Δm × c² = Δm (in u) × 931.5 MeV (1 u ≈ 931.5 MeV).",
+        "Binding Energy per Nucleon (BE / A) determines nuclear stability: Higher BE/A means greater stability.",
+        "BE/A Curve Key Features: Maximum stability near iron (⁵⁶Fe, BE/A ≈ 8.79 MeV/nucleon); average value ~8.5 MeV/nucleon for 30 < A < 170; drops for light nuclei (A < 30) and heavy nuclei (A > 170).",
+        "Nuclear Fission: Heavy unstable nucleus (e.g., ²³⁵U) splits into middle fragments to increase BE/A and release energy (~200 MeV per fission).",
+        "Nuclear Fusion: Light nuclei (e.g., hydrogen isotopes) fuse to form heavier nucleus with higher BE/A, releasing immense energy (powers the Sun)."
+      ],
+      "formulas": [
+        {
+          "label": "Mass defect",
+          "expr": "Δm = [Z m_p + (A − Z) m_n] − M"
+        },
+        {
+          "label": "Binding energy",
+          "expr": "BE = Δm(u) × 931.5 MeV"
+        },
+        {
+          "label": "Binding energy per nucleon",
+          "expr": "BE / A = [Δm × 931.5] / A MeV"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Radioactive Decay Law, Half-Life & Activity",
+      "tag": "formula",
+      "points": [
+        "Radioactivity is spontaneous, uncontrollable disintegration of unstable heavy nuclei with emission of α, β, or γ rays.",
+        "Radioactive Decay Law: Rate of disintegration is directly proportional to number of active nuclei present: −dN/dt = λ N ⟹ N(t) = N₀ e^(−λt).",
+        "Decay constant (λ): Fractional number of atoms disintegrating per unit time. SI unit: s⁻¹.",
+        "Half-Life (T_½): Time required for half of radioactive nuclei to decay: T_½ = ln 2 / λ = 0.693 / λ.",
+        "Mean Life (Average Life τ): Reciprocal of decay constant: τ = 1 / λ = T_½ / 0.693 ≈ 1.44 T_½.",
+        "Activity (A): Rate of decay: A(t) = −dN/dt = λ N = A₀ e^(−λt). SI unit: Becquerel (1 Bq = 1 dps). 1 Curie (Ci) = 3.7 × 10¹⁰ Bq.",
+        "Amount remaining after n half-lives: N = N₀ (½)^n = N₀ (½)^(t / T_½)."
+      ],
+      "formulas": [
+        {
+          "label": "Decay law",
+          "expr": "N(t) = N₀ e^(−λt)"
+        },
+        {
+          "label": "Half-life",
+          "expr": "T_½ = 0.693 / λ"
+        },
+        {
+          "label": "Mean life",
+          "expr": "τ = 1 / λ = 1.44 T_½"
+        },
+        {
+          "label": "Remaining fraction",
+          "expr": "N / N₀ = (½)^(t / T_½)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Alpha, Beta, Gamma Decay & Nuclear Reactions",
+      "tag": "concept",
+      "points": [
+        "Alpha Decay: Emission of helium nucleus (⁴₂He): ^A_Z X ⟶ ^(A−4)_(Z−2) Y + ⁴₂He + Q. Mass number decreases by 4, atomic number by 2.",
+        "Beta-minus (β⁻) Decay: Neutron converts to proton: ^A_Z X ⟶ ^A_(Z+1) Y + e⁻ + ν̄_e (antineutrino). Atomic number Z increases by 1, A unchanged.",
+        "Beta-plus (β⁺) Decay: Proton converts to neutron: ^A_Z X ⟶ ^A_(Z−1) Y + e⁺ + ν_e (neutrino). Atomic number Z decreases by 1, A unchanged.",
+        "Gamma (γ) Decay: Excited nucleus transitions to lower energy state emitting high-energy photon: ^A_Z X* ⟶ ^A_Z X + γ. Z and A remain unchanged.",
+        "Nuclear Forces: Strongest attractive force in nature; short-range (~1–2 fm); charge-independent (F_pp ≈ F_nn ≈ F_pn); saturated force."
+      ],
+      "formulas": [
+        {
+          "label": "Alpha decay",
+          "expr": "^A_Z X ⟶ ^(A−4)_(Z−2) Y + ⁴₂He"
+        },
+        {
+          "label": "Beta-minus decay",
+          "expr": "^A_Z X ⟶ ^A_(Z+1) Y + e⁻ + ν̄_e"
+        },
+        {
+          "label": "Beta-plus decay",
+          "expr": "^A_Z X ⟶ ^A_(Z−1) Y + e⁺ + ν_e"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Spectral Series",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: State Bohr's postulates and derive expressions for radius of n-th orbit r_n = ε₀h²n²/(πmZe²) and total energy E_n = −13.6 Z²/n² eV.",
+        "Board Favourite #2: Derive Rydberg formula 1/λ = R_H (1/n₁² − 1/n₂²) for hydrogen spectral series and label Lyman, Balmer, Paschen on energy level diagram.",
+        "Board Favourite #3: State radioactive decay law and derive N(t) = N₀ e^(−λt) and half-life relation T_½ = 0.693/λ.",
+        "Board Favourite #4: Define mass defect and binding energy per nucleon; explain nuclear fission and fusion on the basis of BE/A curve."
+      ],
+      "formulas": [
+        {
+          "label": "Radius derivation",
+          "expr": "r_n = (ε₀ h² n²) / (π m Z e²)"
+        },
+        {
+          "label": "Energy derivation",
+          "expr": "E_n = − (m Z² e⁴) / (8 ε₀² h² n²)"
+        },
+        {
+          "label": "Half-life derivation",
+          "expr": "T_½ = ln 2 / λ = 0.693 / λ"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Orbit Traps & Decay Hacks",
+      "tag": "imp",
+      "points": [
+        "Orbit Proportionalities: Radius r ∝ n² / Z; Velocity v ∝ Z / n; Time period T = 2πr/v ∝ n³ / Z²; Frequency ν ∝ Z² / n³; Orbital current I ∝ Z² / n³; Magnetic moment M ∝ n.",
+        "Series Limit Shortcut: Series limit (shortest wavelength λ_min) occurs when n₂ = ∞ ⟹ λ_min = n₁² / R_H.",
+        "Longest Wavelength Shortcut: First line (longest wavelength λ_max) occurs when n₂ = n₁ + 1.",
+        "Balmer Series Trap: Balmer series is the ONLY series lying in the visible region. First line is red (6563 Å), second line is blue-green (4861 Å).",
+        "Half-Life Fraction Hack: After 1 T_½ ⟹ 50% left (50% decayed); 2 T_½ ⟹ 25% left (75% decayed); 3 T_½ ⟹ 12.5% left (87.5% decayed); 4 T_½ ⟹ 6.25% left (93.75% decayed).",
+        "Nuclear Radius Ratio: R₁ / R₂ = (A₁ / A₂)^(1/3)."
+      ],
+      "formulas": [
+        {
+          "label": "Orbit time period scaling",
+          "expr": "T ∝ n³ / Z²"
+        },
+        {
+          "label": "Series limit shortcut",
+          "expr": "λ_min = n₁² / R_H"
+        },
+        {
+          "label": "Nuclear radius ratio",
+          "expr": "R₁ / R₂ = (A₁ / A₂)^(1/3)"
+        },
+        {
+          "label": "Decay fraction shortcut",
+          "expr": "N / N₀ = (½)^n where n = t / T_½"
+        }
+      ]
+    }
+  ]
+}

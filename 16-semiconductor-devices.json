@@ -1,0 +1,275 @@
+{
+  "title": "Semiconductor Devices",
+  "subject": "Physics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Energy Bands & Classification of Solids",
+      "tag": "concept",
+      "points": [
+        "Valence Band (VB): Lower energy band completely or partially filled with valence electrons; conduction cannot occur in completely filled VB.",
+        "Conduction Band (CB): Higher energy band, either empty or partially filled; electrons in CB are free electrons responsible for electrical conduction.",
+        "Forbidden Energy Gap (Bandgap E_g): Energy separation between top of VB and bottom of CB. No allowed electron energy states exist in E_g.",
+        "Conductors (Metals): VB and CB overlap, or CB is partially filled (E_g ≈ 0). Abundant free electrons at all temperatures.",
+        "Semiconductors: Small bandgap (E_g < 3 eV, e.g., Silicon E_g ≈ 1.1 eV, Germanium E_g ≈ 0.7 eV at 300 K). Insulator at 0 K, conducts at room temperature.",
+        "Insulators: Very large bandgap (E_g > 3 eV, e.g., Diamond E_g ≈ 5.4 eV). Electrons cannot jump from VB to CB."
+      ],
+      "formulas": [
+        {
+          "label": "Bandgap range (Semiconductor)",
+          "expr": "E_g < 3 eV (Si ≈ 1.1 eV , Ge ≈ 0.7 eV)"
+        },
+        {
+          "label": "Bandgap range (Insulator)",
+          "expr": "E_g > 3 eV (Diamond ≈ 5.4 eV)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Intrinsic & Extrinsic Semiconductors (Doping)",
+      "tag": "concept",
+      "points": [
+        "Intrinsic Semiconductor: Pure semiconductor (pure Si or Ge). Thermal energy generates equal number of electrons in CB and holes in VB: n_e = n_h = n_i.",
+        "Extrinsic Semiconductor: Semiconductor doped with small controlled amount of impurity atoms (~1 in 10⁶) to greatly increase conductivity.",
+        "n-type Semiconductor: Doped with Pentavalent impurity (P, As, Sb). Impurity atom donates an extra conduction electron (Donor atom). Majority carriers = Electrons (n_e ≫ n_h); Minority carriers = Holes.",
+        "p-type Semiconductor: Doped with Trivalent impurity (B, Al, Ga, In). Impurity atom creates an electron vacancy/hole (Acceptor atom). Majority carriers = Holes (n_h ≫ n_e); Minority carriers = Electrons.",
+        "Electrical Neutrality: Both n-type and p-type semiconductors are strictly ELECTRICALLY NEUTRAL.",
+        "Mass-Action Law: Under thermal equilibrium, product of electron and hole concentrations is constant: n_e × n_h = n_i²."
+      ],
+      "formulas": [
+        {
+          "label": "Intrinsic condition",
+          "expr": "n_e = n_h = n_i"
+        },
+        {
+          "label": "Mass-action law",
+          "expr": "n_e × n_h = n_i²"
+        },
+        {
+          "label": "Total current",
+          "expr": "I = I_e + I_h = e A (n_e v_e + n_h v_h)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "p-n Junction Diode Formation & Depletion Layer",
+      "tag": "concept",
+      "points": [
+        "Formation: When a p-type semiconductor is joined to an n-type crystal, majority electrons diffuse from n to p and holes diffuse from p to n (Diffusion Current).",
+        "Depletion Layer: Region on either side of junction depleted of mobile charge carriers, containing only immobile positive donor ions on n-side and immobile negative acceptor ions on p-side. Width ≈ 0.5 μm.",
+        "Barrier Potential (V_B): Built-in potential difference across depletion layer opposing further diffusion: V_B ≈ 0.7 V for Silicon; V_B ≈ 0.3 V for Germanium at room temperature.",
+        "Drift Current: Minority carriers swept across the junction by the internal electric field; at equilibrium: Diffusion Current = Drift Current (net current = 0)."
+      ],
+      "formulas": [
+        {
+          "label": "Barrier potential Si",
+          "expr": "V_B ≈ 0.7 V (Silicon)"
+        },
+        {
+          "label": "Barrier potential Ge",
+          "expr": "V_B ≈ 0.3 V (Germanium)"
+        },
+        {
+          "label": "Internal electric field",
+          "expr": "E = V_B / d ≈ 0.7 V / (0.5 × 10⁻⁶ m) ≈ 1.4 × 10⁶ V/m"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Diode Biasing & I–V Characteristics",
+      "tag": "concept",
+      "points": [
+        "Forward Bias: p-region connected to positive terminal, n-region to negative terminal. External field opposes barrier potential, reducing depletion layer width.",
+        "After forward voltage exceeds Knee Voltage (Cut-in voltage V_k ≈ 0.7 V for Si, 0.3 V for Ge), forward current increases exponentially (measured in milliamperes, mA).",
+        "Reverse Bias: p-region connected to negative terminal, n-region to positive terminal. External field reinforces barrier potential, widening depletion layer.",
+        "A tiny, temperature-dependent reverse saturation current flows due to minority carriers (measured in microamperes, μA for Ge, nanoamperes, nA for Si).",
+        "Reverse Breakdown: At high reverse voltage (Breakdown voltage V_br), current increases drastically.",
+        "Static (DC) resistance R_dc = V / I; Dynamic (AC) resistance r_ac = ΔV / ΔI."
+      ],
+      "formulas": [
+        {
+          "label": "Dynamic resistance",
+          "expr": "r_ac = ΔV / ΔI"
+        },
+        {
+          "label": "Static resistance",
+          "expr": "R_dc = V / I"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Diode Rectifiers: Half-Wave, Full-Wave & Filters",
+      "tag": "formula",
+      "points": [
+        "Half-Wave Rectifier (HWR): Uses 1 diode. Conducts only during positive half cycles of AC input. DC output V_dc = V_m / π ≈ 0.318 V_m; Ripple factor r = 1.21; Maximum efficiency η_max = 40.6%; Ripple frequency = f_in.",
+        "Full-Wave Rectifier (FWR - Centre-Tapped / Bridge): Conducts during both positive and negative half cycles. DC output V_dc = 2 V_m / π ≈ 0.636 V_m; Ripple factor r = 0.48; Maximum efficiency η_max = 81.2%; Ripple frequency = 2 f_in.",
+        "Peak Inverse Voltage (PIV): PIV = V_m (HWR and Bridge FWR); PIV = 2 V_m (Centre-tapped FWR).",
+        "Capacitor Filter: Shunt capacitor C connected across load R_L bypasses AC ripples. Ripple factor r ≈ 1 / (4√3 f C R_L)."
+      ],
+      "formulas": [
+        {
+          "label": "HWR efficiency & ripple",
+          "expr": "η_max = 40.6% , r = 1.21 , f_out = f_in"
+        },
+        {
+          "label": "FWR efficiency & ripple",
+          "expr": "η_max = 81.2% , r = 0.48 , f_out = 2 f_in"
+        },
+        {
+          "label": "DC voltage FWR",
+          "expr": "V_dc = 2 V_m / π"
+        },
+        {
+          "label": "Capacitor filter ripple",
+          "expr": "r ≈ 1 / (4√3 f C R_L)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Zener Diode as a Voltage Regulator",
+      "tag": "formula",
+      "points": [
+        "A Zener diode is a heavily doped silicon p-n junction diode designed to operate specifically in the REVERSE BREAKDOWN region without damage.",
+        "Heavily doped ⟹ Very thin depletion layer (~10⁻⁷ m) ⟹ High junction electric field (~10⁶ V/m) causing Zener breakdown at low reverse voltage.",
+        "Key Property: In reverse breakdown region, voltage across Zener diode remains constant (V_Z) over a wide range of reverse current.",
+        "Voltage Regulator Circuit: Unregulated DC input V_in connected to series resistance R_s and Zener diode in parallel with load R_L.",
+        "Current equation: I_s = I_Z + I_L, where I_s = (V_in − V_Z) / R_s and I_L = V_Z / R_L.",
+        "If V_in increases: V_Z remains constant; excess voltage drops across R_s; Zener current I_Z absorbs excess current."
+      ],
+      "formulas": [
+        {
+          "label": "Series resistance drop",
+          "expr": "V_in = I_s R_s + V_Z"
+        },
+        {
+          "label": "Series resistor formula",
+          "expr": "R_s = (V_in − V_Z) / I_s"
+        },
+        {
+          "label": "Load current",
+          "expr": "I_L = V_Z / R_L"
+        },
+        {
+          "label": "Zener current",
+          "expr": "I_Z = I_s − I_L"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Special Purpose Diodes: Photodiode, LED & Solar Cell",
+      "tag": "concept",
+      "points": [
+        "Photodiode: Special p-n junction operated in REVERSE BIAS. When light of energy hν > E_g strikes depletion layer, electron-hole pairs are generated, increasing reverse saturation current. Reverse current is directly proportional to incident light intensity. Used in optical detectors and lux meters.",
+        "Light Emitting Diode (LED): Heavily doped p-n junction operated in FORWARD BIAS. Electrons and holes recombine near junction, releasing energy as photons (hν ≈ E_g). Made from compound semiconductors (GaAsP, GaP) to emit visible light. Advantage: fast response, low power, long life.",
+        "Solar Cell: p-n junction operating on photovoltaic effect with NO EXTERNAL BIAS. Converts sunlight directly into electrical energy. Generates Open Circuit Voltage (V_oc) and Short Circuit Current (I_sc). Operates in the FOURTH QUADRANT of I–V characteristic curve."
+      ],
+      "formulas": [
+        {
+          "label": "Photodiode condition",
+          "expr": "hν ≥ E_g"
+        },
+        {
+          "label": "LED emitted wavelength",
+          "expr": "λ ≈ hc / E_g"
+        },
+        {
+          "label": "Solar cell quadrants",
+          "expr": "Operates in 4th quadrant (delivers power)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Logic Gates, Truth Tables & De Morgan's Laws",
+      "tag": "concept",
+      "points": [
+        "Basic Gates: NOT Gate (Inverter: Y = Ā); AND Gate (Y = A · B); OR Gate (Y = A + B).",
+        "Universal Gates: NAND Gate [Y = ¬(A · B)]; NOR Gate [Y = ¬(A + B)]. Any Boolean function can be implemented using only NAND or only NOR gates.",
+        "Exclusive-OR (XOR Gate): Y = A ⊕ B = A B̄ + Ā B (high when inputs are distinct).",
+        "De Morgan's First Theorem: ¬(A + B) = Ā · B̄ (Complement of sum equals product of complements).",
+        "De Morgan's Second Theorem: ¬(A · B) = Ā + B̄ (Complement of product equals sum of complements)."
+      ],
+      "formulas": [
+        {
+          "label": "De Morgan's 1st law",
+          "expr": "¬(A + B) = Ā · B̄"
+        },
+        {
+          "label": "De Morgan's 2nd law",
+          "expr": "¬(A · B) = Ā + B̄"
+        },
+        {
+          "label": "XOR Boolean",
+          "expr": "Y = A B̄ + Ā B"
+        },
+        {
+          "label": "XNOR Boolean",
+          "expr": "Y = AB + Ā B̄"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Questions & Rectifier Comparisons",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Explain working of Full-Wave Rectifier with neat circuit diagram and input-output waveforms.",
+        "Board Favourite #2: Explain working of Zener Diode as a Voltage Regulator with neat circuit diagram and I–V characteristic curve.",
+        "Board Favourite #3: Distinguish between Half-Wave and Full-Wave Rectifiers (Diodes: 1 vs 2/4; Efficiency: 40.6% vs 81.2%; Ripple factor: 1.21 vs 0.48; Ripple frequency: f vs 2f).",
+        "Board Favourite #4: State and prove De Morgan's theorems using truth tables.",
+        "Board Favourite #5: Distinguish between intrinsic and extrinsic semiconductors, and between n-type and p-type semiconductors."
+      ],
+      "formulas": [
+        {
+          "label": "FWR efficiency",
+          "expr": "η_max = 81.2%"
+        },
+        {
+          "label": "Zener regulator formula",
+          "expr": "R_s = (V_in − V_Z) / (I_Z + I_L)"
+        },
+        {
+          "label": "Mass-action law",
+          "expr": "n_e n_h = n_i²"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Logic Gate Traps & Zener Hacks",
+      "tag": "imp",
+      "points": [
+        "Ripple Frequency Shortcut: For 50 Hz input AC: HWR output ripple frequency = 50 Hz; FWR output ripple frequency = 2 × 50 = 100 Hz.",
+        "Biasing Trap: Photodiode is ALWAYS operated in REVERSE BIAS (fractional change in reverse current is far easier to measure). LED is ALWAYS operated in FORWARD BIAS. Solar cell requires ZERO external bias.",
+        "Zener Regulation Condition Trap: For Zener regulation to work, V_in MUST be greater than V_Z, and Zener current I_Z must not exceed maximum rated power dissipation P_Z(max) = V_Z × I_Z(max).",
+        "Minimum NAND Gates Required: NOT = 1 NAND; AND = 2 NANDs; OR = 3 NANDs; NOR = 4 NANDs; XOR = 4 NANDs; XNOR = 5 NANDs.",
+        "Minimum NOR Gates Required: NOT = 1 NOR; OR = 2 NORs; AND = 3 NORs; NAND = 4 NORs; XOR = 5 NORs; XNOR = 4 NORs."
+      ],
+      "formulas": [
+        {
+          "label": "FWR ripple frequency",
+          "expr": "f_ripple = 2 × f_in"
+        },
+        {
+          "label": "Zener power rating",
+          "expr": "P_Z = V_Z × I_Z"
+        },
+        {
+          "label": "NAND gate counts",
+          "expr": "NOT: 1 | AND: 2 | OR: 3 | XOR: 4"
+        },
+        {
+          "label": "NOR gate counts",
+          "expr": "NOT: 1 | OR: 2 | AND: 3 | XNOR: 4"
+        }
+      ]
+    }
+  ]
+}
