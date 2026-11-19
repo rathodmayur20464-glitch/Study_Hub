@@ -1,0 +1,227 @@
+{
+  "title": "Application of Definite Integration",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Area Under a Curve (Bounded by X-axis)",
+      "tag": "formula",
+      "points": [
+        "Area bounded by curve y = f(x), the X-axis, and ordinates x = a and x = b:",
+        "Formula: Area A = ∫_a^b y dx = ∫_a^b f(x) dx.",
+        "Sign Convention: Area is always a positive scalar quantity. If curve lies BELOW the X-axis (y < 0), the integral is negative; take absolute value: Area = |∫_a^b y dx|.",
+        "If curve crosses the X-axis at x = c (a < c < b): Area = |∫_a^c y dx| + |∫_c^b y dx|."
+      ],
+      "formulas": [
+        {
+          "label": "Area with X-axis",
+          "expr": "A = ∫_a^b y dx"
+        },
+        {
+          "label": "Area below X-axis",
+          "expr": "A = |∫_a^b y dx|"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Area Bounded by Y-axis",
+      "tag": "formula",
+      "points": [
+        "Area bounded by curve x = g(y), the Y-axis, and abscissae y = c and y = d:",
+        "Formula: Area A = ∫_c^d x dy = ∫_c^d g(y) dy.",
+        "If curve lies to the left of Y-axis (x < 0), take absolute value: Area = |∫_c^d x dy|.",
+        "Particularly convenient for horizontal parabolas x = y²/4a or curves naturally expressed as x = g(y)."
+      ],
+      "formulas": [
+        {
+          "label": "Area with Y-axis",
+          "expr": "A = ∫_c^d x dy"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Area Enclosed Between Two Curves",
+      "tag": "formula",
+      "points": [
+        "Area between upper curve y = f(x) and lower curve y = g(x) from x = a to x = b:",
+        "Formula: Area A = ∫_a^b [y_upper − y_lower] dx = ∫_a^b [f(x) − g(x)] dx.",
+        "Steps to solve area between curves:",
+        "1. Solve equations simultaneously to find points of intersection (giving integration limits a and b).",
+        "2. Sketch rough diagram to identify which curve is upper and which is lower.",
+        "3. Integrate the difference [y_upper − y_lower] from lower limit a to upper limit b."
+      ],
+      "formulas": [
+        {
+          "label": "Area between 2 curves",
+          "expr": "A = ∫_a^b [y_upper − y_lower] dx"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Standard Geometric Curves: Circle & Ellipse",
+      "tag": "formula",
+      "points": [
+        "Area of Circle x² + y² = a²:",
+        "By symmetry, total area = 4 × (Area in 1st quadrant) = 4 ∫₀^a √(a² − x²) dx = 4 [(x/2)√(a²−x²) + (a²/2)sin⁻¹(x/a)]_0^a = 4(a²/2)(π/2) = π a².",
+        "Area of Ellipse x²/a² + y²/b² = 1:",
+        "By symmetry, total area = 4 × ∫₀^a (b/a) √(a² − x²) dx = 4(b/a) (πa²/4) = π a b.",
+        "Standard 4-mark Board derivation question!"
+      ],
+      "formulas": [
+        {
+          "label": "Area of circle derivation",
+          "expr": "A = 4 ∫₀^a √(a² − x²) dx = π a²"
+        },
+        {
+          "label": "Area of ellipse derivation",
+          "expr": "A = 4 (b/a) ∫₀^a √(a² − x²) dx = π a b"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Parabola and Line Enclosed Area",
+      "tag": "formula",
+      "points": [
+        "Area bounded by parabola y² = 4ax and line y = mx:",
+        "Intersection points: Put y = mx ⟹ (mx)² = 4ax ⟹ x = 0, x = 4a/m².",
+        "Area A = ∫₀^(4a/m²) [2√(ax) − mx] dx = (8/3)(a² / m³).",
+        "Area bounded by parabola y² = 4ax and its Latus Rectum x = a:",
+        "Area A = 2 ∫₀^a 2√(ax) dx = 4√a [(2/3) x^(3/2)]_0^a = (8/3) a²."
+      ],
+      "formulas": [
+        {
+          "label": "y² = 4ax and y = mx area",
+          "expr": "Area = (8/3) (a² / m³)"
+        },
+        {
+          "label": "y² = 4ax and latus rectum",
+          "expr": "Area = (8/3) a²"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Area Between Two Intersecting Parabolas",
+      "tag": "formula",
+      "points": [
+        "Area enclosed between y² = 4ax and x² = 4by:",
+        "Points of intersection: (0, 0) and (4 a^(1/3) b^(2/3), ...).",
+        "Formula: Area = (16 / 3) a b.",
+        "Special Case: Area between y² = 4ax and x² = 4ay:",
+        "Formula: Area = (16 / 3) a².",
+        "Example: Area between y² = 4x and x² = 4y is (16/3)(1)² = 16/3 sq. units."
+      ],
+      "formulas": [
+        {
+          "label": "Two parabolas area",
+          "expr": "Area = (16 / 3) a b"
+        },
+        {
+          "label": "Symmetric parabolas (4ax & 4ay)",
+          "expr": "Area = (16 / 3) a²"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Trigonometric & Modulus Curve Areas",
+      "tag": "concept",
+      "points": [
+        "One Arch of Sine Wave: Area bounded by y = sin x and X-axis from x = 0 to x = π: Area = ∫₀^π sin x dx = [−cos x]_0^π = 2 sq. units.",
+        "Area bounded by y = sin x from 0 to 2π: Area = |∫₀^π sin x dx| + |∫_π^(2π) sin x dx| = 2 + 2 = 4 sq. units.",
+        "Area bounded by y = |x| and horizontal line y = c: Forms a triangle with vertices (0, 0), (c, c), (−c, c). Area = ½ × base × height = ½(2c)(c) = c².",
+        "Area between y = sin x and y = cos x from x = 0 to x = π/4: Area = ∫₀^(π/4) (cos x − sin x) dx = [sin x + cos x]_0^(π/4) = √2 − 1."
+      ],
+      "formulas": [
+        {
+          "label": "Single arch of sin x",
+          "expr": "Area = 2 sq. units"
+        },
+        {
+          "label": "Full period 0 to 2π sin x",
+          "expr": "Area = 4 sq. units"
+        },
+        {
+          "label": "sin x & cos x (0 to π/4)",
+          "expr": "Area = √2 − 1"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Area Partitioning by Lines",
+      "tag": "concept",
+      "points": [
+        "Finding a line x = c that divides an area into two equal parts:",
+        "Step 1: Compute total area A between x = a and x = b.",
+        "Step 2: Set ∫_a^c f(x) dx = A / 2.",
+        "Step 3: Solve the resulting algebraic equation for c.",
+        "Classic Problem: Line x = a divides the area bounded by y² = 4x and x = 4 into two equal halves. Find a (Answer: a = 4^(2/3))."
+      ],
+      "formulas": [
+        {
+          "label": "Area bisection condition",
+          "expr": "∫_a^c y dx = ½ ∫_a^b y dx"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Questions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive the area of circle x² + y² = a² using integration: Area = π a².",
+        "Board Favourite #2: Derive the area of ellipse x²/a² + y²/b² = 1 using integration: Area = π a b.",
+        "Board Favourite #3: Find the area bounded by the parabola y² = 4ax and its latus rectum x = a.",
+        "Board Favourite #4: Find the area enclosed between the parabola y² = 4x and the line y = 2x.",
+        "Board Favourite #5: Find the area of the region bounded by curves y² = 4ax and x² = 4ay."
+      ],
+      "formulas": [
+        {
+          "label": "Circle derivation",
+          "expr": "A = 4 ∫₀^a √(a² − x²) dx = π a²"
+        },
+        {
+          "label": "Ellipse derivation",
+          "expr": "A = 4 (b/a) ∫₀^a √(a² − x²) dx = π ab"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET 5-Second Area Shortcuts & Formulas",
+      "tag": "imp",
+      "points": [
+        "Master Shortcut #1: Parabola y² = 4ax and line y = mx ⟹ Area = (8/3)(a² / m³).",
+        "Master Shortcut #2: Parabola x² = 4by and line y = mx ⟹ Area = (8/3)(b² m³).",
+        "Master Shortcut #3: Two Parabolas y² = 4ax and x² = 4by ⟹ Area = (16/3) ab.",
+        "Master Shortcut #4: Parabola y² = 4ax and Latus Rectum x = a ⟹ Area = (8/3) a².",
+        "Master Shortcut #5: Ellipse x²/a² + y²/b² = 1 ⟹ Area = π a b.",
+        "Master Shortcut #6: Single sine/cosine arch (0 to π) ⟹ Area = 2 sq. units."
+      ],
+      "formulas": [
+        {
+          "label": "y²=4ax and y=mx",
+          "expr": "Area = (8/3) (a² / m³)"
+        },
+        {
+          "label": "y²=4ax and x²=4by",
+          "expr": "Area = (16/3) ab"
+        },
+        {
+          "label": "y²=4ax and latus rectum",
+          "expr": "Area = (8/3) a²"
+        },
+        {
+          "label": "Ellipse area",
+          "expr": "Area = π ab"
+        }
+      ]
+    }
+  ]
+}

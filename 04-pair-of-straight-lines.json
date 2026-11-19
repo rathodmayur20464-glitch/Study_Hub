@@ -1,0 +1,244 @@
+{
+  "title": "Pair of Straight Lines",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Combined (Joint) Equation of Lines",
+      "tag": "concept",
+      "points": [
+        "If u ≡ a₁x + b₁y + c₁ = 0 and v ≡ a₂x + b₂y + c₂ = 0 represent two straight lines, their combined equation is u · v = 0.",
+        "To separate a combined second-degree equation into individual lines: factorize the quadratic expression into two linear factors.",
+        "Combined equation of coordinate axes: xy = 0.",
+        "Lines parallel to coordinate axes passing through (h, k): (x − h)(y − k) = 0 ⟹ xy − ky − hx + hk = 0."
+      ],
+      "formulas": [
+        {
+          "label": "Combined equation",
+          "expr": "u · v = 0"
+        },
+        {
+          "label": "Coordinate axes",
+          "expr": "xy = 0"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Homogeneous Equation of Degree Two",
+      "tag": "concept",
+      "points": [
+        "A homogeneous equation of degree 2 in x and y has the form: ax² + 2hxy + by² = 0.",
+        "It represents a pair of straight lines PASSING THROUGH THE ORIGIN (0, 0).",
+        "Nature of Lines depends on discriminant (h² − ab):",
+        "1. If h² − ab > 0: Lines are real and distinct.",
+        "2. If h² − ab = 0: Lines are real and coincident (identical).",
+        "3. If h² − ab < 0: Lines are imaginary (not real, intersect only at origin)."
+      ],
+      "formulas": [
+        {
+          "label": "Homogeneous form",
+          "expr": "ax² + 2hxy + by² = 0"
+        },
+        {
+          "label": "Distinct lines",
+          "expr": "h² − ab > 0"
+        },
+        {
+          "label": "Coincident lines",
+          "expr": "h² − ab = 0"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Slopes of Lines & Auxiliary Equation",
+      "tag": "formula",
+      "points": [
+        "Let the lines be y = m₁x and y = m₂x (passing through origin).",
+        "Dividing ax² + 2hxy + by² = 0 by x² gives the Auxiliary Equation: bm² + 2hm + a = 0.",
+        "Roots of this quadratic are the slopes m₁ and m₂.",
+        "Sum of slopes: m₁ + m₂ = −2h / b.",
+        "Product of slopes: m₁ · m₂ = a / b.",
+        "Difference of slopes: |m₁ − m₂| = √[(m₁ + m₂)² − 4m₁m₂] = [2√(h² − ab)] / |b|."
+      ],
+      "formulas": [
+        {
+          "label": "Auxiliary equation",
+          "expr": "bm² + 2hm + a = 0"
+        },
+        {
+          "label": "Sum of slopes",
+          "expr": "m₁ + m₂ = −2h / b"
+        },
+        {
+          "label": "Product of slopes",
+          "expr": "m₁ m₂ = a / b"
+        },
+        {
+          "label": "Slope difference",
+          "expr": "|m₁ − m₂| = 2√(h² − ab) / |b|"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Acute Angle Between Lines (ax² + 2hxy + by² = 0)",
+      "tag": "formula",
+      "points": [
+        "Acute angle θ between the lines ax² + 2hxy + by² = 0 is given by: tanθ = |[2√(h² − ab)] / (a + b)|.",
+        "Condition for Perpendicular Lines (θ = 90°): a + b = 0 ⟹ Coefficient of x² + Coefficient of y² = 0.",
+        "Condition for Coincident / Parallel Lines (θ = 0°): h² − ab = 0 ⟹ h² = ab.",
+        "If a + b = 0, lines are mutually perpendicular, irrespective of the value of h."
+      ],
+      "formulas": [
+        {
+          "label": "Acute angle formula",
+          "expr": "tanθ = |[2√(h² − ab)] / (a + b)|"
+        },
+        {
+          "label": "Perpendicular condition",
+          "expr": "a + b = 0"
+        },
+        {
+          "label": "Coincident condition",
+          "expr": "h² − ab = 0"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "General Second Degree Equation in x and y",
+      "tag": "formula",
+      "points": [
+        "General equation: ax² + 2hxy + by² + 2gx + 2fy + c = 0.",
+        "Condition to represent a pair of straight lines: Determinant Δ = 0 AND h² − ab ≥ 0.",
+        "Determinant form: Δ = [[a, h, g], [h, b, f], [g, f, c]] = abc + 2fgh − af² − bg² − ch² = 0.",
+        "Angle between lines represented by general equation is the SAME as that for ax² + 2hxy + by² = 0: tanθ = |[2√(h² − ab)] / (a + b)|.",
+        "Lines are perpendicular if a + b = 0; parallel if h² − ab = 0."
+      ],
+      "formulas": [
+        {
+          "label": "General equation",
+          "expr": "ax² + 2hxy + by² + 2gx + 2fy + c = 0"
+        },
+        {
+          "label": "Condition Δ = 0",
+          "expr": "abc + 2fgh − af² − bg² − ch² = 0"
+        },
+        {
+          "label": "Matrix determinant form",
+          "expr": "det [[a, h, g], [h, b, f], [g, f, c]] = 0"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Point of Intersection & Parallel Lines Distance",
+      "tag": "formula",
+      "points": [
+        "Point of intersection (x₀, y₀) of lines represented by general equation:",
+        "x₀ = (hf − bg) / (ab − h²); y₀ = (gh − af) / (ab − h²).",
+        "Shortcut: Solve partial derivatives ∂S/∂x = 0 (ax + hy + g = 0) and ∂S/∂y = 0 (hx + by + f = 0) simultaneously.",
+        "Distance between parallel lines (h² = ab, bg² = af²):",
+        "d = 2 √[(g² − ac) / (a(a + b))] = 2 √[(f² − bc) / (b(a + b))]."
+      ],
+      "formulas": [
+        {
+          "label": "Point of intersection",
+          "expr": "(x₀, y₀) = ((hf − bg)/(ab − h²), (gh − af)/(ab − h²))"
+        },
+        {
+          "label": "Distance between parallel lines",
+          "expr": "d = 2 √[(g² − ac) / (a(a + b))]"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Angle Bisectors of Pair of Lines",
+      "tag": "formula",
+      "points": [
+        "The combined equation of angle bisectors of lines ax² + 2hxy + by² = 0 is: (x² − y²) / (a − b) = xy / h.",
+        "Cross multiplying: h(x² − y²) = (a − b)xy ⟹ hx² − (a − b)xy − hy² = 0.",
+        "Properties of angle bisectors:",
+        "(1) Coefficient of x² + Coefficient of y² = h + (−h) = 0 ⟹ The two angle bisectors are ALWAYS mutually perpendicular.",
+        "(2) If a = b, the bisectors are simply x² − y² = 0 ⟹ y = ±x."
+      ],
+      "formulas": [
+        {
+          "label": "Angle bisector equation",
+          "expr": "(x² − y²) / (a − b) = xy / h"
+        },
+        {
+          "label": "Expanded bisector form",
+          "expr": "hx² − (a − b)xy − hy² = 0"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Homogenization of Curves (Lines to Origin)",
+      "tag": "concept",
+      "points": [
+        "To find the joint equation of lines joining the origin (0, 0) to points of intersection of a line lx + my + n = 0 and a second-degree curve ax² + 2hxy + by² + 2gx + 2fy + c = 0:",
+        "Step 1: Write line equation in terms of 1: (lx + my) / (−n) = 1.",
+        "Step 2: Multiply degree-1 terms (2gx + 2fy) by [(lx + my) / (−n)]¹.",
+        "Step 3: Multiply degree-0 term c by [(lx + my) / (−n)]².",
+        "Result: ax² + 2hxy + by² + (2gx + 2fy)[(lx + my)/(−n)] + c[(lx + my)/(−n)]² = 0.",
+        "This yields a homogeneous second-degree equation representing the two lines from origin."
+      ],
+      "formulas": [
+        {
+          "label": "Homogenization identity",
+          "expr": "1 = (lx + my) / (−n)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Derivations",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Theorem: Prove that every homogeneous equation of degree two ax² + 2hxy + by² = 0 represents a pair of lines passing through origin if h² − ab ≥ 0.",
+        "Board Favourite #2: Theorem: Prove that the acute angle θ between lines ax² + 2hxy + by² = 0 is given by tanθ = |[2√(h² − ab)] / (a + b)|.",
+        "Board Favourite #3: Deduce conditions for lines to be perpendicular (a + b = 0) and coincident (h² − ab = 0).",
+        "Board Favourite #4: Find p and q if 2x² + 4xy − py² + 4x + qy + 1 = 0 represents a pair of perpendicular lines.",
+        "Board Favourite #5: Find the joint equation of lines joining origin to points of intersection of a line and a circle."
+      ],
+      "formulas": [
+        {
+          "label": "Theorem: Homogeneous lines",
+          "expr": "ax² + 2hxy + by² = b(m − m₁)(m − m₂) = 0"
+        },
+        {
+          "label": "Theorem: Angle between lines",
+          "expr": "tanθ = |[2√(h² − ab)] / (a + b)|"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Slope Relations & 10-Second Hacks",
+      "tag": "imp",
+      "points": [
+        "If one line is perpendicular to px + qy + r = 0: its slope is q/p. Substitute m = q/p into auxiliary equation bm² + 2hm + a = 0.",
+        "If one line bisects angle between coordinate axes: m = ±1 ⟹ b(±1)² + 2h(±1) + a = 0 ⟹ (a + b)² = 4h².",
+        "If lines are at 60°: tan 60° = √3 ⟹ |2√(h² − ab) / (a + b)| = √3 ⟹ (a + 3b)(3a + b) = 4h².",
+        "Area of Equilateral Triangle formed by ax² + 2hxy + by² = 0 and lx + my + n = 0: Area = n² / [√3 (al² + 2hlm + bm²)].",
+        "Product of perpendiculars from (x₁, y₁) to lines ax² + 2hxy + by² = 0: d₁d₂ = |ax₁² + 2hx₁y₁ + by₁²| / √[(a − b)² + 4h²]."
+      ],
+      "formulas": [
+        {
+          "label": "Perpendicular to given line",
+          "expr": "b(q/p)² + 2h(q/p) + a = 0"
+        },
+        {
+          "label": "Product of perpendiculars",
+          "expr": "d₁d₂ = |ax₁² + 2hx₁y₁ + by₁²| / √[(a − b)² + 4h²]"
+        }
+      ]
+    }
+  ]
+}

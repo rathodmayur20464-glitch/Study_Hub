@@ -1,0 +1,263 @@
+{
+  "title": "Mathematical Logic",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Statements & Logical Connectives",
+      "tag": "concept",
+      "points": [
+        "Statement (Proposition): A declarative sentence which is either true or false, but not both simultaneously.",
+        "Imperative (commands), interrogative (questions), exclamatory, and open sentences (truth depends on context) are NOT statements.",
+        "Truth value: 'T' if statement is true, 'F' if false.",
+        "Conjunction (p ∧ q): True only when BOTH p and q are true; otherwise false.",
+        "Disjunction (p ∨ q): False only when BOTH p and q are false; otherwise true.",
+        "Negation (¬p): Reverses the truth value (¬T = F, ¬F = T)."
+      ],
+      "formulas": [
+        {
+          "label": "Conjunction (AND)",
+          "expr": "T ∧ T = T (others F)"
+        },
+        {
+          "label": "Disjunction (OR)",
+          "expr": "F ∨ F = F (others T)"
+        },
+        {
+          "label": "Negation (NOT)",
+          "expr": "¬T = F , ¬F = T"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Conditional & Biconditional Statements",
+      "tag": "formula",
+      "points": [
+        "Conditional / Implication (p ⇒ q): 'If p then q'. False ONLY when antecedent p is true and consequent q is false (T ⇒ F = F).",
+        "Equivalent formulations of p ⇒ q: 'p is sufficient for q', 'q is necessary for p', 'p implies q', 'q follows from p'.",
+        "Important equivalence: p ⇒ q ≡ ¬p ∨ q.",
+        "Biconditional / Double Implication (p ⇔ q): 'p if and only if q'. True when both p and q have the SAME truth value (T ⇔ T = T and F ⇔ F = T).",
+        "Biconditional equivalence: p ⇔ q ≡ (p ⇒ q) ∧ (q ⇒ p) ≡ (¬p ∨ q) ∧ (¬q ∨ p)."
+      ],
+      "formulas": [
+        {
+          "label": "Conditional truth",
+          "expr": "T ⇒ F = F (all other cases T)"
+        },
+        {
+          "label": "Conditional identity",
+          "expr": "p ⇒ q ≡ ¬p ∨ q"
+        },
+        {
+          "label": "Biconditional identity",
+          "expr": "p ⇔ q ≡ (p ⇒ q) ∧ (q ⇒ p)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Converse, Inverse & Contrapositive",
+      "tag": "formula",
+      "points": [
+        "Given a conditional statement p ⇒ q:",
+        "Converse: q ⇒ p (interchange antecedent and consequent).",
+        "Inverse: ¬p ⇒ ¬q (negate both antecedent and consequent).",
+        "Contrapositive: ¬q ⇒ ¬p (interchange and negate both).",
+        "Fundamental Equivalence: A conditional statement is logically equivalent to its contrapositive: (p ⇒ q) ≡ (¬q ⇒ ¬p).",
+        "Converse and Inverse are logically equivalent: (q ⇒ p) ≡ (¬p ⇒ ¬q)."
+      ],
+      "formulas": [
+        {
+          "label": "Converse",
+          "expr": "q ⇒ p"
+        },
+        {
+          "label": "Inverse",
+          "expr": "¬p ⇒ ¬q"
+        },
+        {
+          "label": "Contrapositive",
+          "expr": "¬q ⇒ ¬p"
+        },
+        {
+          "label": "Statement-Contrapositive equivalence",
+          "expr": "(p ⇒ q) ≡ (¬q ⇒ ¬p)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Quantifiers & Quantified Statements",
+      "tag": "concept",
+      "points": [
+        "Universal Quantifier (∀): 'For all' or 'For every'. Statement ∀x ∈ A, P(x) is true if P(x) holds for EVERY element of A.",
+        "Existential Quantifier (∃): 'There exists' or 'For some'. Statement ∃x ∈ A such that P(x) is true if P(x) holds for AT LEAST ONE element of A.",
+        "Negation of Universal Statement: ¬[∀x ∈ A, P(x)] ≡ ∃x ∈ A such that ¬P(x).",
+        "Negation of Existential Statement: ¬[∃x ∈ A such that P(x)] ≡ ∀x ∈ A, ¬P(x).",
+        "In negation, change ∀ to ∃, change ∃ to ∀, and negate the condition P(x)."
+      ],
+      "formulas": [
+        {
+          "label": "Negation of ∀",
+          "expr": "¬[∀x, P(x)] ≡ ∃x, ¬P(x)"
+        },
+        {
+          "label": "Negation of ∃",
+          "expr": "¬[∃x, P(x)] ≡ ∀x, ¬P(x)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Tautology, Contradiction & Contingency",
+      "tag": "concept",
+      "points": [
+        "Tautology (t): A compound statement whose truth value is 'T' for all possible truth assignments of its components.",
+        "Contradiction / Fallacy (c): A compound statement whose truth value is 'F' for all possible truth assignments.",
+        "Contingency: A statement that is neither a tautology nor a contradiction (truth table contains both T and F).",
+        "Standard Tautology Examples: p ∨ ¬p ≡ t; p ⇒ p ≡ t; p ⇔ p ≡ t.",
+        "Standard Contradiction Examples: p ∧ ¬p ≡ c."
+      ],
+      "formulas": [
+        {
+          "label": "Complement (Tautology)",
+          "expr": "p ∨ ¬p ≡ t"
+        },
+        {
+          "label": "Complement (Contradiction)",
+          "expr": "p ∧ ¬p ≡ c"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Duals & Negation of Compound Statements",
+      "tag": "formula",
+      "points": [
+        "Principle of Duality: Two compound statements are duals if one is obtained from the other by replacing ∧ with ∨, ∨ with ∧, t with c, and c with t.",
+        "CRITICAL: The negation symbol (¬) is NEVER changed while writing the dual.",
+        "De Morgan's Laws: ¬(p ∧ q) ≡ ¬p ∨ ¬q; ¬(p ∨ q) ≡ ¬p ∧ ¬q.",
+        "Negation of Conditional: ¬(p ⇒ q) ≡ p ∧ ¬q (notice it is a conjunction, never an if-then!).",
+        "Negation of Biconditional: ¬(p ⇔ q) ≡ (p ∧ ¬q) ∨ (q ∧ ¬p) ≡ (p ⇔ ¬q)."
+      ],
+      "formulas": [
+        {
+          "label": "De Morgan 1",
+          "expr": "¬(p ∧ q) ≡ ¬p ∨ ¬q"
+        },
+        {
+          "label": "De Morgan 2",
+          "expr": "¬(p ∨ q) ≡ ¬p ∧ ¬q"
+        },
+        {
+          "label": "Negation of p ⇒ q",
+          "expr": "¬(p ⇒ q) ≡ p ∧ ¬q"
+        },
+        {
+          "label": "Negation of p ⇔ q",
+          "expr": "¬(p ⇔ q) ≡ (p ∧ ¬q) ∨ (q ∧ ¬p)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Algebra of Statements (Logical Equivalences)",
+      "tag": "formula",
+      "points": [
+        "Idempotent Laws: p ∧ p ≡ p; p ∨ p ≡ p.",
+        "Commutative Laws: p ∧ q ≡ q ∧ p; p ∨ q ≡ q ∨ p.",
+        "Associative Laws: (p ∧ q) ∧ r ≡ p ∧ (q ∧ r); (p ∨ q) ∨ r ≡ p ∨ (q ∨ r).",
+        "Distributive Laws: p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r); p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r).",
+        "Identity Laws: p ∧ t ≡ p; p ∨ c ≡ p; p ∧ c ≡ c; p ∨ t ≡ t.",
+        "Absorption Laws: p ∨ (p ∧ q) ≡ p; p ∧ (p ∨ q) ≡ p.",
+        "Involution (Double Negation): ¬(¬p) ≡ p."
+      ],
+      "formulas": [
+        {
+          "label": "Distributive law",
+          "expr": "p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)"
+        },
+        {
+          "label": "Identity laws",
+          "expr": "p ∧ t ≡ p , p ∨ c ≡ p"
+        },
+        {
+          "label": "Absorption laws",
+          "expr": "p ∨ (p ∧ q) ≡ p , p ∧ (p ∨ q) ≡ p"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Switching Circuits & Boolean Networks",
+      "tag": "concept",
+      "points": [
+        "Switch S₁ represents statement p; switch S₂ represents q. Closed switch = 1 (T), open switch = 0 (F).",
+        "Switches in SERIES: Connected one after another. Current flows only if BOTH are closed ⟹ Represents Conjunction (p ∧ q).",
+        "Switches in PARALLEL: Connected across common junctions. Current flows if AT LEAST ONE is closed ⟹ Represents Disjunction (p ∨ q).",
+        "Complementary switch S₁' represents ¬p.",
+        "Circuit simplification: Use algebra of statements to simplify the symbolic switching expression, reducing the number of switches required."
+      ],
+      "formulas": [
+        {
+          "label": "Series connection",
+          "expr": "p ∧ q (both closed to conduct)"
+        },
+        {
+          "label": "Parallel connection",
+          "expr": "p ∨ q (either closed to conduct)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Proofs & Truth Tables",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Prove logical equivalence using truth table: p ⇔ q ≡ (p ⇒ q) ∧ (q ⇒ p).",
+        "Board Favourite #2: Prove that [p ⇒ (q ⇒ r)] ≡ [(p ∧ q) ⇒ r] using truth table.",
+        "Board Favourite #3: Write the negation of compound statement step-by-step: (p ∨ q) ⇒ (p ∧ ¬r).",
+        "Board Favourite #4: Express switching circuit in symbolic form, simplify using laws of logic, and draw the equivalent simplified circuit.",
+        "Board Presentation Rule: When proving equivalence using truth table, explicitly mention: 'Columns X and Y are identical, hence LHS ≡ RHS'."
+      ],
+      "formulas": [
+        {
+          "label": "Truth table columns rule",
+          "expr": "Columns X and Y identical ⟹ LHS ≡ RHS"
+        },
+        {
+          "label": "Exportation law",
+          "expr": "[p ⇒ (q ⇒ r)] ≡ [(p ∧ q) ⇒ r]"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET 5-Second Hacks, Negation Traps & Duals",
+      "tag": "imp",
+      "points": [
+        "Negation Trap: Negation of 'If it rains, then the school is closed' is 'It rains AND the school is NOT closed' (never use 'if-then' in negation!).",
+        "Dual Trap: In writing duals, DO NOT change ¬p. Only swap ∧ ↔ ∨ and t ↔ c.",
+        "Row Count in Truth Table: A statement with n distinct propositional variables has exactly 2ⁿ rows (e.g., 3 variables p, q, r ⟹ 2³ = 8 rows).",
+        "5-Second Tautology Check: If an implication has conclusion t (always true), the statement is automatically a tautology: p ⇒ t ≡ t.",
+        "Contrapositive Quick Hack: Contrapositive of p ⇒ (q ∨ r) is ¬(q ∨ r) ⇒ ¬p ≡ (¬q ∧ ¬r) ⇒ ¬p."
+      ],
+      "formulas": [
+        {
+          "label": "Negation shortcut",
+          "expr": "¬(p ⇒ q) ≡ p ∧ ¬q"
+        },
+        {
+          "label": "Truth table rows",
+          "expr": "Rows = 2ⁿ"
+        },
+        {
+          "label": "Contrapositive hack",
+          "expr": "Contrapositive of (p ⇒ q) is (¬q ⇒ ¬p)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "title": "Differentiation",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Standard Derivatives & Basic Rules",
+      "tag": "formula",
+      "points": [
+        "Algebraic: d/dx(xⁿ) = n xⁿ⁻¹; d/dx(√x) = 1/(2√x); d/dx(1/x) = −1/x²; d/dx(c) = 0.",
+        "Trigonometric: d/dx(sin x) = cos x; d/dx(cos x) = −sin x; d/dx(tan x) = sec²x; d/dx(cot x) = −cosec²x; d/dx(sec x) = sec x tan x; d/dx(cosec x) = −cosec x cot x.",
+        "Exponential & Logarithmic: d/dx(eˣ) = eˣ; d/dx(aˣ) = aˣ ln a; d/dx(ln x) = 1/x; d/dx(log_a x) = 1 / (x ln a).",
+        "Product Rule: d/dx(u v) = u v' + v u'.",
+        "Quotient Rule: d/dx(u / v) = (u' v − u v') / v²."
+      ],
+      "formulas": [
+        {
+          "label": "Product rule",
+          "expr": "d/dx(uv) = u (dv/dx) + v (du/dx)"
+        },
+        {
+          "label": "Quotient rule",
+          "expr": "d/dx(u/v) = [v(du/dx) − u(dv/dx)] / v²"
+        },
+        {
+          "label": "Exponential derivative",
+          "expr": "d/dx(aˣ) = aˣ ln a"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Chain Rule (Composite Functions)",
+      "tag": "formula",
+      "points": [
+        "If y = f(u) and u = g(x), then dy/dx = (dy/du) · (du/dx).",
+        "General: d/dx[f(g(x))] = f'(g(x)) · g'(x).",
+        "Standard Composite Forms:",
+        "1. d/dx[f(x)]ⁿ = n [f(x)]ⁿ⁻¹ · f'(x).",
+        "2. d/dx[√f(x)] = f'(x) / [2√f(x)].",
+        "3. d/dx[1 / f(x)] = −f'(x) / [f(x)]².",
+        "4. d/dx[ln f(x)] = f'(x) / f(x).",
+        "5. d/dx[e^f(x)] = e^f(x) · f'(x)."
+      ],
+      "formulas": [
+        {
+          "label": "Chain rule",
+          "expr": "dy/dx = (dy/du) · (du/dx)"
+        },
+        {
+          "label": "Root derivative",
+          "expr": "d/dx[√f(x)] = f'(x) / [2√f(x)]"
+        },
+        {
+          "label": "Log derivative",
+          "expr": "d/dx[ln f(x)] = f'(x) / f(x)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Derivative of Inverse Functions",
+      "tag": "formula",
+      "points": [
+        "Theorem: If y = f(x) is a differentiable bijection and x = f⁻¹(y), then dx/dy = 1 / (dy/dx) (provided dy/dx ≠ 0).",
+        "Standard Inverse Trigonometric Derivatives:",
+        "d/dx(sin⁻¹x) = 1 / √(1 − x²), |x| < 1.",
+        "d/dx(cos⁻¹x) = −1 / √(1 − x²), |x| < 1.",
+        "d/dx(tan⁻¹x) = 1 / (1 + x²).",
+        "d/dx(cot⁻¹x) = −1 / (1 + x²).",
+        "d/dx(sec⁻¹x) = 1 / [|x| √(x² − 1)], |x| > 1.",
+        "d/dx(cosec⁻¹x) = −1 / [|x| √(x² − 1)], |x| > 1."
+      ],
+      "formulas": [
+        {
+          "label": "Inverse function derivative",
+          "expr": "dx/dy = 1 / (dy/dx)"
+        },
+        {
+          "label": "d/dx(sin⁻¹x)",
+          "expr": "1 / √(1 − x²)"
+        },
+        {
+          "label": "d/dx(tan⁻¹x)",
+          "expr": "1 / (1 + x²)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Trigonometric Substitutions for Differentiation",
+      "tag": "formula",
+      "points": [
+        "Substitution Table (Simplifies complex inverse trig derivatives):",
+        "1. √(a² − x²) ⟹ Put x = a sinθ (or a cosθ).",
+        "2. √(a² + x²) ⟹ Put x = a tanθ (or a cotθ).",
+        "3. √(x² − a²) ⟹ Put x = a secθ (or a cosecθ).",
+        "4. √[(a − x)/(a + x)] ⟹ Put x = a cos 2θ.",
+        "5. 2x/(1 + x²), (1 − x²)/(1 + x²), 2x/(1 − x²) ⟹ Put x = tanθ.",
+        "6. 3x − 4x³ ⟹ Put x = sinθ; 4x³ − 3x ⟹ Put x = cosθ; (3x − x³)/(1 − 3x²) ⟹ Put x = tanθ."
+      ],
+      "formulas": [
+        {
+          "label": "tan substitution",
+          "expr": "x = tanθ for 2x/(1+x²) and (1−x²)/(1+x²)"
+        },
+        {
+          "label": "cos 2θ substitution",
+          "expr": "x = a cos 2θ for √[(a−x)/(a+x)]"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Logarithmic Differentiation",
+      "tag": "formula",
+      "points": [
+        "Used when function has variable base and variable exponent: y = [f(x)]^g(x), or complicated products/quotients.",
+        "Method: Take natural logarithm on both sides: ln y = g(x) · ln f(x).",
+        "Differentiate implicitly with respect to x:",
+        "(1/y)(dy/dx) = g'(x) ln f(x) + g(x) · [f'(x) / f(x)].",
+        "dy/dx = y [g'(x) ln f(x) + g(x) f'(x) / f(x)].",
+        "Standard result: d/dx(xˣ) = xˣ (1 + ln x)."
+      ],
+      "formulas": [
+        {
+          "label": "Logarithmic derivative",
+          "expr": "dy/dx = [f(x)]^g(x) [g'(x) ln f(x) + g(x) f'(x) / f(x)]"
+        },
+        {
+          "label": "xˣ derivative",
+          "expr": "d/dx(xˣ) = xˣ (1 + ln x)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Derivative of Implicit Functions",
+      "tag": "formula",
+      "points": [
+        "Implicit function: An equation f(x, y) = 0 where y cannot be easily expressed explicitly in terms of x.",
+        "Method: Differentiate both sides term by term with respect to x.",
+        "Remember chain rule on y terms: d/dx(yⁿ) = n yⁿ⁻¹ (dy/dx); d/dx(sin y) = cos y (dy/dx); d/dx(xy) = x(dy/dx) + y.",
+        "Collect all terms containing dy/dx on LHS, transfer remaining terms to RHS, and factor out dy/dx."
+      ],
+      "formulas": [
+        {
+          "label": "Implicit product rule",
+          "expr": "d/dx(xy) = x(dy/dx) + y"
+        },
+        {
+          "label": "Implicit power rule",
+          "expr": "d/dx(yⁿ) = n yⁿ⁻¹ (dy/dx)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Derivative of Parametric Functions",
+      "tag": "formula",
+      "points": [
+        "If x = f(t) and y = g(t), where t is a parameter:",
+        "First Derivative: dy/dx = (dy/dt) / (dx/dt) (provided dx/dt ≠ 0).",
+        "Second Order Parametric Derivative (CRITICAL TRAP!):",
+        "d²y/dx² = d/dx(dy/dx) = [d/dt(dy/dx)] · (dt/dx) = [d/dt(dy/dx)] / (dx/dt).",
+        "COMMON ERROR: d²y/dx² is NEVER equal to (d²y/dt²) / (d²x/dt²)! Always multiply by dt/dx."
+      ],
+      "formulas": [
+        {
+          "label": "Parametric 1st derivative",
+          "expr": "dy/dx = (dy/dt) / (dx/dt)"
+        },
+        {
+          "label": "Parametric 2nd derivative",
+          "expr": "d²y/dx² = [d/dt(dy/dx)] / (dx/dt)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Higher Order Derivatives & Successive Differentiation",
+      "tag": "formula",
+      "points": [
+        "Second derivative: y'' = d²y/dx² = d/dx(dy/dx).",
+        "Notation: y₂, f''(x), D²y.",
+        "Board Proofs: Differentiating a given function twice to verify a differential equation.",
+        "Example: If y = e^(m sin⁻¹x), prove (1 − x²) y₂ − x y₁ − m² y = 0.",
+        "Technique for proofs: Clear denominators and square roots after the 1st derivative before taking the 2nd derivative."
+      ],
+      "formulas": [
+        {
+          "label": "Second derivative",
+          "expr": "d²y/dx² = d/dx(dy/dx)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Theorem: Derivative of composite function (Chain Rule): dy/dx = (dy/du) · (du/dx).",
+        "Board Favourite #2: Theorem: Derivative of inverse function: dx/dy = 1 / (dy/dx).",
+        "Board Favourite #3: Theorem: Derivative of parametric functions: dy/dx = (dy/dt) / (dx/dt).",
+        "Board Favourite #4: If y = sin⁻¹[(2x)/(1 + x²)] + sec⁻¹[(1 + x²)/(1 − x²)], prove dy/dx = 4/(1 + x²).",
+        "Board Favourite #5: If x^m y^n = (x + y)^(m+n), prove that dy/dx = y/x and d²y/dx² = 0."
+      ],
+      "formulas": [
+        {
+          "label": "Chain rule theorem",
+          "expr": "dy/dx = (dy/du) · (du/dx)"
+        },
+        {
+          "label": "Inverse theorem",
+          "expr": "dx/dy = 1 / (dy/dx)"
+        },
+        {
+          "label": "Homogeneous power identity",
+          "expr": "x^m y^n = (x+y)^(m+n) ⟹ dy/dx = y/x"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, 10-Second Hacks & Infinite Series",
+      "tag": "imp",
+      "points": [
+        "Partial Derivative Implicit Shortcut: For f(x, y) = 0: dy/dx = −(∂f/∂x) / (∂f/∂y) (treat y as constant for numerator, x as constant for denominator).",
+        "Infinite Nested Radical Hack: If y = √[f(x) + √[f(x) + ... ∞]] ⟹ dy/dx = f'(x) / (2y − 1).",
+        "Infinite Power Tower Hack: If y = f(x)^[f(x)^... ∞] ⟹ dy/dx = [y² f'(x)] / [f(x) (1 − y ln f(x))].",
+        "Homogeneous Power Master Result: If x^m y^n = (x + y)^(m+n), then ALWAYS dy/dx = y/x and d²y/dx² = 0 (answer in 1 second!).",
+        "Parametric Second Derivative Trap: Never divide 2nd derivatives directly; always divide d/dt(dy/dx) by dx/dt."
+      ],
+      "formulas": [
+        {
+          "label": "Partial derivative shortcut",
+          "expr": "dy/dx = −(∂f/∂x) / (∂f/∂y)"
+        },
+        {
+          "label": "Nested root shortcut",
+          "expr": "y = √(f + √(f + ...)) ⟹ dy/dx = f'(x) / (2y − 1)"
+        },
+        {
+          "label": "Power tower shortcut",
+          "expr": "y = f^f^... ⟹ dy/dx = y²f' / [f(1 − y ln f)]"
+        }
+      ]
+    }
+  ]
+}

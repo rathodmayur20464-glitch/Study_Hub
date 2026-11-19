@@ -1,0 +1,256 @@
+{
+  "title": "Line and Plane",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Equations of a Line in Space",
+      "tag": "formula",
+      "points": [
+        "Line through A(a) parallel to vector b: Vector equation: r = a + λ b; Cartesian equation: (x − x₁)/a = (y − y₁)/b = (z − z₁)/c.",
+        "Line passing through two points A(a) and B(b): Vector equation: r = a + λ(b − a); Cartesian equation: (x − x₁)/(x₂ − x₁) = (y − y₁)/(y₂ − y₁) = (z − z₁)/(z₂ − z₁).",
+        "Coordinates of any general point on line: (x₁ + λa, y₁ + λb, z₁ + λc).",
+        "Direction ratios of line: (a, b, c); Direction cosines: (l, m, n) = (a/√(a²+b²+c²), b/√(a²+b²+c²), c/√(a²+b²+c²))."
+      ],
+      "formulas": [
+        {
+          "label": "Vector equation (1 point, parallel b)",
+          "expr": "r = a + λ b"
+        },
+        {
+          "label": "Cartesian equation (1 point)",
+          "expr": "(x − x₁)/a = (y − y₁)/b = (z − z₁)/c"
+        },
+        {
+          "label": "Cartesian equation (2 points)",
+          "expr": "(x − x₁)/(x₂ − x₁) = (y − y₁)/(y₂ − y₁) = (z − z₁)/(z₂ − z₁)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Angle Between Two Lines & Conditions",
+      "tag": "formula",
+      "points": [
+        "Angle θ between lines with direction ratios (a₁, b₁, c₁) and (a₂, b₂, c₂):",
+        "cosθ = |(b₁ · b₂)| / (|b₁| |b₂|) = |a₁a₂ + b₁b₂ + c₁c₂| / [√(a₁²+b₁²+c₁²) √(a₂²+b₂²+c₂²)].",
+        "Perpendicular Lines Condition: b₁ · b₂ = 0 ⟹ a₁a₂ + b₁b₂ + c₁c₂ = 0.",
+        "Parallel Lines Condition: b₁ = k b₂ ⟹ a₁/a₂ = b₁/b₂ = c₁/c₂."
+      ],
+      "formulas": [
+        {
+          "label": "Angle between lines",
+          "expr": "cosθ = |a₁a₂ + b₁b₂ + c₁c₂| / [√(a₁²+b₁²+c₁²) √(a₂²+b₂²+c₂²)]"
+        },
+        {
+          "label": "Perpendicular condition",
+          "expr": "a₁a₂ + b₁b₂ + c₁c₂ = 0"
+        },
+        {
+          "label": "Parallel condition",
+          "expr": "a₁/a₂ = b₁/b₂ = c₁/c₂"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Shortest Distance Between Skew Lines",
+      "tag": "formula",
+      "points": [
+        "Skew lines: Non-parallel, non-intersecting lines in three-dimensional space (they lie in different planes).",
+        "Distance between skew lines r = a₁ + λ b₁ and r = a₂ + μ b₂:",
+        "d = |[(a₂ − a₁) · (b₁ × b₂)]| / |b₁ × b₂|.",
+        "Condition for two lines to intersect (d = 0, coplanar): (a₂ − a₁) · (b₁ × b₂) = 0 ⟹ det [[x₂−x₁, y₂−y₁, z₂−z₁], [a₁, b₁, c₁], [a₂, b₂, c₂]] = 0.",
+        "Distance between parallel lines r = a₁ + λ b and r = a₂ + μ b: d = |(a₂ − a₁) × b| / |b|."
+      ],
+      "formulas": [
+        {
+          "label": "Shortest distance (skew lines)",
+          "expr": "d = |(a₂ − a₁) · (b₁ × b₂)| / |b₁ × b₂|"
+        },
+        {
+          "label": "Intersection condition",
+          "expr": "det [[x₂−x₁, y₂−y₁, z₂−z₁], [a₁, b₁, c₁], [a₂, b₂, c₂]] = 0"
+        },
+        {
+          "label": "Distance between parallel lines",
+          "expr": "d = |(a₂ − a₁) × b| / |b|"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Equations of a Plane in Space",
+      "tag": "formula",
+      "points": [
+        "Normal Form: r · n̂ = p, where n̂ is unit normal vector from origin and p is perpendicular distance from origin. Cartesian: lx + my + nz = p.",
+        "Plane through A(a) perpendicular to normal n: Vector: (r − a) · n = 0 ⟹ r · n = a · n; Cartesian: a(x − x₁) + b(y − y₁) + c(z − z₁) = 0.",
+        "General Cartesian Equation: ax + by + cz + d = 0, where (a, b, c) are direction ratios of the normal vector.",
+        "Plane through 3 non-collinear points A(a), B(b), C(c): (r − a) · [(b − a) × (c − a)] = 0 ⟹ det [[x−x₁, y−y₁, z−z₁], [x₂−x₁, y₂−y₁, z₂−z₁], [x₃−x₁, y₃−y₁, z₃−z₁]] = 0.",
+        "Intercept Form: x/a + y/b + z/c = 1."
+      ],
+      "formulas": [
+        {
+          "label": "Normal form",
+          "expr": "r · n̂ = p ⟺ lx + my + nz = p"
+        },
+        {
+          "label": "Point-normal form",
+          "expr": "a(x − x₁) + b(y − y₁) + c(z − z₁) = 0"
+        },
+        {
+          "label": "Intercept form",
+          "expr": "x/a + y/b + z/c = 1"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Angle Between Planes & Distance from Point",
+      "tag": "formula",
+      "points": [
+        "Angle θ between planes r · n₁ = d₁ and r · n₂ = d₂:",
+        "cosθ = |n₁ · n₂| / (|n₁| |n₂|) = |a₁a₂ + b₁b₂ + c₁c₂| / [√(a₁²+b₁²+c₁²) √(a₂²+b₂²+c₂²)].",
+        "Perpendicular planes: a₁a₂ + b₁b₂ + c₁c₂ = 0. Parallel planes: a₁/a₂ = b₁/b₂ = c₁/c₂.",
+        "Perpendicular distance from point P(x₁, y₁, z₁) to plane ax + by + cz + d = 0: p = |ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²).",
+        "Distance between parallel planes ax + by + cz + d₁ = 0 and ax + by + cz + d₂ = 0: d = |d₁ − d₂| / √(a² + b² + c²)."
+      ],
+      "formulas": [
+        {
+          "label": "Angle between planes",
+          "expr": "cosθ = |n₁ · n₂| / (|n₁| |n₂|)"
+        },
+        {
+          "label": "Point to plane distance",
+          "expr": "p = |ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)"
+        },
+        {
+          "label": "Parallel planes distance",
+          "expr": "d = |d₁ − d₂| / √(a² + b² + c²)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Interaction Between Line and Plane",
+      "tag": "formula",
+      "points": [
+        "Angle θ between line r = a + λ b and plane r · n = d:",
+        "sinθ = |b · n| / (|b| |n|) = |a₁a + b₁b + c₁c| / [√(a₁²+b₁²+c₁²) √(a²+b²+c²)] (Notice sinθ, NOT cosθ!).",
+        "Line PARALLEL to plane: b ⊥ n ⟹ b · n = 0 ⟹ a a₁ + b b₁ + c c₁ = 0.",
+        "Line PERPENDICULAR to plane: b ∥ n ⟹ a/a₁ = b/b₁ = c/c₁.",
+        "Line lies ENTIRELY in plane: b · n = 0 AND point a satisfies plane equation (a · n = d)."
+      ],
+      "formulas": [
+        {
+          "label": "Line-Plane angle",
+          "expr": "sinθ = |b · n| / (|b| |n|)"
+        },
+        {
+          "label": "Line parallel to plane",
+          "expr": "b · n = 0 ⟹ a a₁ + b b₁ + c c₁ = 0"
+        },
+        {
+          "label": "Line perpendicular to plane",
+          "expr": "b ∥ n ⟹ a/a₁ = b/b₁ = c/c₁"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Coplanarity of Lines & Plane Containing Them",
+      "tag": "formula",
+      "points": [
+        "Two lines r = a₁ + λ b₁ and r = a₂ + μ b₂ are coplanar if and only if: (a₂ − a₁) · (b₁ × b₂) = 0.",
+        "Cartesian coplanarity condition: det [[x₂−x₁, y₂−y₁, z₂−z₁], [a₁, b₁, c₁], [a₂, b₂, c₂]] = 0.",
+        "Equation of plane containing both lines:",
+        "Vector form: (r − a₁) · (b₁ × b₂) = 0;",
+        "Cartesian form: det [[x−x₁, y−y₁, z−z₁], [a₁, b₁, c₁], [a₂, b₂, c₂]] = 0."
+      ],
+      "formulas": [
+        {
+          "label": "Coplanarity condition",
+          "expr": "(a₂ − a₁) · (b₁ × b₂) = 0"
+        },
+        {
+          "label": "Plane containing lines",
+          "expr": "det [[x−x₁, y−y₁, z−z₁], [a₁, b₁, c₁], [a₂, b₂, c₂]] = 0"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Foot of Perpendicular & Image of Point",
+      "tag": "formula",
+      "points": [
+        "Foot of perpendicular (x, y, z) from point P(x₁, y₁, z₁) to plane ax + by + cz + d = 0:",
+        "(x − x₁)/a = (y − y₁)/b = (z − z₁)/c = −(ax₁ + by₁ + cz₁ + d) / (a² + b² + c²).",
+        "Image (reflection) of point P(x₁, y₁, z₁) in plane ax + by + cz + d = 0:",
+        "(x − x₁)/a = (y − y₁)/b = (z − z₁)/c = −2(ax₁ + by₁ + cz₁ + d) / (a² + b² + c²).",
+        "Foot of perpendicular on a line: write general point on line in parameter λ, dot product of line vector with PP' equals 0, solve for λ."
+      ],
+      "formulas": [
+        {
+          "label": "Foot of perpendicular (plane)",
+          "expr": "(x−x₁)/a = (y−y₁)/b = (z−z₁)/c = −(ax₁+by₁+cz₁+d)/(a²+b²+c²)"
+        },
+        {
+          "label": "Image of point (plane)",
+          "expr": "(x−x₁)/a = (y−y₁)/b = (z−z₁)/c = −2(ax₁+by₁+cz₁+d)/(a²+b²+c²)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Theorem: Derive vector and Cartesian equation of a line passing through a point and parallel to a given vector: r = a + λ b.",
+        "Board Favourite #2: Theorem: Derive expression for shortest distance between two skew lines: d = |(a₂ − a₁) · (b₁ × b₂)| / |b₁ × b₂|.",
+        "Board Favourite #3: Theorem: Derive vector and Cartesian equation of a plane in normal form: r · n̂ = p.",
+        "Board Favourite #4: Theorem: Derive equation of a plane passing through a point and perpendicular to a given vector: (r − a) · n = 0.",
+        "Board Favourite #5: Find the foot of perpendicular and length of perpendicular from a point to a line/plane."
+      ],
+      "formulas": [
+        {
+          "label": "Line derivation",
+          "expr": "r = a + λ b"
+        },
+        {
+          "label": "Skew distance derivation",
+          "expr": "d = |(a₂ − a₁) · (b₁ × b₂)| / |b₁ × b₂|"
+        },
+        {
+          "label": "Plane derivation",
+          "expr": "(r − a) · n = 0"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Angle Traps, Shortcuts & 10-Second Hacks",
+      "tag": "imp",
+      "points": [
+        "Angle Trap: Angle between Line and Plane is given by sinθ (NOT cosθ!). For parallel, dot product = 0; for perpendicular, cross product = 0.",
+        "Parallel Planes Distance Trap: Make sure coefficients of x, y, z are EXACTLY identical before applying |d₁ − d₂| / √(a² + b² + c²). If one equation is 2x + 4y + 4z = 6 and other is x + 2y + 2z = 5, divide first by 2!",
+        "10-Second Foot of Perpendicular: Use (x − x₁)/a = (y − y₁)/b = (z − z₁)/c = −k.",
+        "Intersection of Line and Plane: Substitute general point (x₁ + λa, y₁ + λb, z₁ + λc) directly into plane equation to solve for λ in 1 step."
+      ],
+      "formulas": [
+        {
+          "label": "Line-Plane angle trap",
+          "expr": "sinθ = |b · n| / (|b| |n|)"
+        },
+        {
+          "label": "Parallel planes trap check",
+          "expr": "Ensure identical coefficients a, b, c"
+        },
+        {
+          "label": "Line-plane intersection shortcut",
+          "expr": "a(x₁+λa₁) + b(y₁+λb₁) + c(z₁+λc₁) + d = 0"
+        }
+      ]
+    }
+  ]
+}

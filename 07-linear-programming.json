@@ -1,0 +1,209 @@
+{
+  "title": "Linear Programming",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Formulation of LPP & Key Terms",
+      "tag": "concept",
+      "points": [
+        "Linear Programming Problem (LPP) optimizes (maximizes or minimizes) a linear objective function subject to linear constraints.",
+        "Decision Variables: x, y (quantities to be determined, always non-negative: x ≥ 0, y ≥ 0).",
+        "Objective Function: Z = ax + by, where a, b are constants representing profit/cost per unit.",
+        "Constraints: Linear inequalities representing restrictions on resources: a₁x + b₁y ≤ c₁ or a₂x + b₂y ≥ c₂.",
+        "Non-negativity restrictions: x ≥ 0, y ≥ 0 restrict the feasible region strictly to the FIRST QUADRANT."
+      ],
+      "formulas": [
+        {
+          "label": "Objective function",
+          "expr": "Z = ax + by (Maximize / Minimize)"
+        },
+        {
+          "label": "Non-negativity condition",
+          "expr": "x ≥ 0 , y ≥ 0"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Graphical Representation of Inequations",
+      "tag": "concept",
+      "points": [
+        "Convert each inequation ax + by ≤ c into equality ax + by = c to find line intercepts: put y = 0 ⟹ x = c/a; put x = 0 ⟹ y = c/b.",
+        "Origin Test: Substitute (0, 0) into inequation. If statement is true (e.g., 0 ≤ 10), shade region CONTAINING origin. If false (e.g., 0 ≥ 10), shade region AWAY from origin.",
+        "If line passes through origin (c = 0), test with (1, 0) or (0, 1) instead.",
+        "Inclusive inequalities (≤, ≥): Draw solid boundary lines. Strict inequalities (<, >): Draw dashed boundary lines."
+      ],
+      "formulas": [
+        {
+          "label": "Origin test (≤ c)",
+          "expr": "0 + 0 ≤ c (True ⟹ towards origin)"
+        },
+        {
+          "label": "Origin test (≥ c)",
+          "expr": "0 + 0 ≥ c (False ⟹ away from origin)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Feasible Region & Feasible Solutions",
+      "tag": "concept",
+      "points": [
+        "Solution: Any point (x, y) satisfying the given conditions.",
+        "Feasible Solution: Any point (x, y) that satisfies ALL constraints and non-negativity restrictions simultaneously.",
+        "Feasible Region (Solution Set): The common region determined by all inequalities simultaneously.",
+        "Convex Polygon: A region where the line segment joining any two points in the region lies entirely inside the region. The feasible region of an LPP is ALWAYS a convex polygon.",
+        "Bounded vs Unbounded: Bounded feasible region can be enclosed in a circle; unbounded extends indefinitely."
+      ],
+      "formulas": [
+        {
+          "label": "Feasible region property",
+          "expr": "Always a convex polygonal region"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Corner Point Method (Vertex Theorem)",
+      "tag": "formula",
+      "points": [
+        "Fundamental Theorem of LPP: If a feasible region is bounded, the optimum (maximum or minimum) value of objective function Z occurs at one of the CORNER POINTS (vertices) of the feasible region.",
+        "Steps of Corner Point Method:",
+        "1. Find all corner points of the feasible region by solving intersecting boundary lines pairwise.",
+        "2. Construct a table listing each corner point (x, y) and evaluate Z = ax + by.",
+        "3. Select the maximum or minimum value of Z from the table.",
+        "If the optimum value occurs at two adjacent vertices, it occurs at EVERY point on the line segment joining them."
+      ],
+      "formulas": [
+        {
+          "label": "Optimum value location",
+          "expr": "Z_opt occurs at a vertex (x_i, y_i)"
+        },
+        {
+          "label": "Evaluation table",
+          "expr": "Vertex (x, y) ⟶ Z = ax + by"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Multiple Optimal Solutions & Infeasibility",
+      "tag": "concept",
+      "points": [
+        "Multiple Optimal Solutions: Occur when the objective function line Z = ax + by is PARALLEL to a boundary edge of the feasible region (i.e., slope −a/b equals slope of boundary line), and both vertices of that edge give the same optimum value. In this case, infinite optimal solutions exist along that edge.",
+        "Infeasible LPP: Occurs when there is NO common feasible region satisfying all constraints simultaneously (empty solution set).",
+        "Unbounded Objective Value: Occurs when the feasible region is unbounded and Z can increase or decrease indefinitely."
+      ],
+      "formulas": [
+        {
+          "label": "Multiple optimal condition",
+          "expr": "Slope of Z = Slope of boundary edge"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Unbounded Feasible Region Protocol",
+      "tag": "concept",
+      "points": [
+        "When the feasible region is unbounded:",
+        "Step 1: Compute M = maximum value of Z at corner points.",
+        "Step 2: Plot the open half-plane ax + by > M.",
+        "Step 3: If this open half-plane has NO common points with the feasible region, M is the true maximum. If it has common points, Z has NO maximum (unbounded).",
+        "For minimization: Compute m = minimum value of Z. Check open half-plane ax + by < m."
+      ],
+      "formulas": [
+        {
+          "label": "Unbounded Max test",
+          "expr": "Half-plane ax + by > M has no common points"
+        },
+        {
+          "label": "Unbounded Min test",
+          "expr": "Half-plane ax + by < m has no common points"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Standard LPP Word Problems",
+      "tag": "concept",
+      "points": [
+        "Manufacturing Problem: Maximize profit Z subject to machine hours, labor hours, and material constraints (typically ≤ type).",
+        "Diet Problem: Minimize cost Z subject to minimum nutritional requirements (typically ≥ type).",
+        "Allocation / Transport Problem: Optimize resources across distribution centers.",
+        "Translation tip: 'At least k' ⟹ ≥ k; 'At most k' ⟹ ≤ k; 'Not more than k' ⟹ ≤ k; 'Not less than k' ⟹ ≥ k."
+      ],
+      "formulas": [
+        {
+          "label": "'At least' inequation",
+          "expr": "ax + by ≥ c"
+        },
+        {
+          "label": "'At most' inequation",
+          "expr": "ax + by ≤ c"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Iso-Profit & Iso-Cost Method",
+      "tag": "concept",
+      "points": [
+        "An Iso-Profit (or Iso-Cost) line is the locus of points (x, y) giving a constant value of Z: ax + by = c.",
+        "All iso-profit lines are parallel to each other with slope m = −a/b.",
+        "For maximization: Move the iso-profit line outward (away from origin) until it just touches the farthest vertex of the feasible region.",
+        "For minimization: Move the line inward (towards origin) until it touches the nearest vertex of the feasible region."
+      ],
+      "formulas": [
+        {
+          "label": "Iso-profit line",
+          "expr": "ax + by = constant (slope = −a/b)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Presentation Protocol",
+      "tag": "imp",
+      "points": [
+        "Standard 4-Mark Board Steps:",
+        "1. State decision variables clearly (Let x = units of A, y = units of B).",
+        "2. Formulate objective function Z and system of inequalities.",
+        "3. Make intercept table for each line: (x, 0) and (0, y).",
+        "4. Draw neat graph on graph paper / answer sheet with labeled axes, line equations, and shaded feasible region.",
+        "5. Find corner point coordinates by solving intersecting equations.",
+        "6. Construct Corner Point Table evaluating Z at every vertex and state: 'Maximum value of Z is ... at point (x, y)'."
+      ],
+      "formulas": [
+        {
+          "label": "Corner point table",
+          "expr": "Point | Coordinates (x, y) | Value of Z"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, 15-Second Hacks & Redundant Constraints",
+      "tag": "imp",
+      "points": [
+        "Redundant Constraint Trick: If a constraint's line lies entirely outside the feasible region formed by other constraints, it has NO effect on the optimal solution.",
+        "15-Second Corner Evaluation: Usually, maximum occurs at the intersection of the two most restrictive constraints (lines with highest cost/profit trade-offs).",
+        "Parallel Slope Hack: If slope of Z equals slope of one of the constraints, the problem has MULTIPLE OPTIMAL SOLUTIONS instantly.",
+        "Origin Trap: Never forget x ≥ 0, y ≥ 0. If negative values are included, the solution is completely invalid.",
+        "Minimization Diet Problem: Usually bounded from below; minimum occurs at one of the outer corner points."
+      ],
+      "formulas": [
+        {
+          "label": "Parallel slope test",
+          "expr": "−a/b = −a_k/b_k ⟹ Multiple optimal solutions"
+        },
+        {
+          "label": "Quadrant restriction",
+          "expr": "Region strictly in 1st quadrant"
+        }
+      ]
+    }
+  ]
+}

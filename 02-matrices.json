@@ -1,0 +1,246 @@
+{
+  "title": "Matrices",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Matrix Types & Standard Operations",
+      "tag": "concept",
+      "points": [
+        "Order of matrix: m × n (m rows, n columns). A square matrix has m = n.",
+        "Diagonal matrix: Non-diagonal elements are 0 (a_ij = 0 for i ≠ j).",
+        "Scalar matrix: Diagonal matrix with all diagonal elements equal. Identity matrix I: diagonal elements are all 1.",
+        "Symmetric matrix: A^T = A (a_ij = a_ji). Skew-symmetric: A^T = −A (a_ij = −a_ji, diagonal elements a_ii = 0).",
+        "Every square matrix A can be uniquely expressed as sum of symmetric and skew-symmetric matrices: A = ½(A + A^T) + ½(A − A^T).",
+        "Matrix Multiplication: A_(m×n) × B_(n×p) = C_(m×p). Non-commutative in general: AB ≠ BA."
+      ],
+      "formulas": [
+        {
+          "label": "Symmetric decomposition",
+          "expr": "A = ½(A + A^T) + ½(A − A^T)"
+        },
+        {
+          "label": "Transpose property",
+          "expr": "(AB)^T = B^T A^T"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Minors, Co-factors & Adjoint Matrix",
+      "tag": "formula",
+      "points": [
+        "Minor (M_ij): Determinant of the sub-matrix obtained by deleting i-th row and j-th column of A.",
+        "Co-factor (A_ij): A_ij = (−1)^(i+j) M_ij. Co-factor matrix is [A_ij].",
+        "Adjoint Matrix (adj A): Transpose of the matrix of co-factors: adj A = [A_ij]^T.",
+        "Fundamental Adjoint Identity: A · (adj A) = (adj A) · A = |A| · I.",
+        "Determinant expansion using co-factors: a_i1 A_i1 + a_i2 A_i2 + a_i3 A_i3 = |A|; expansion along elements of a different row is ZERO."
+      ],
+      "formulas": [
+        {
+          "label": "Co-factor formula",
+          "expr": "A_ij = (−1)^(i+j) M_ij"
+        },
+        {
+          "label": "Adjoint matrix",
+          "expr": "adj A = [A_ij]^T"
+        },
+        {
+          "label": "Adjoint theorem",
+          "expr": "A · (adj A) = (adj A) · A = |A| I"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Inverse of a Matrix & Existence",
+      "tag": "formula",
+      "points": [
+        "Definition: If A and B are square matrices of same order such that AB = BA = I, then B is the inverse of A, denoted A⁻¹.",
+        "Condition for existence: Matrix A must be NON-SINGULAR (|A| ≠ 0). If |A| = 0, A is singular and A⁻¹ does NOT exist.",
+        "Formula for Inverse: A⁻¹ = (1 / |A|) · adj A.",
+        "Uniqueness: If the inverse of a matrix exists, it is unique."
+      ],
+      "formulas": [
+        {
+          "label": "Inverse formula",
+          "expr": "A⁻¹ = (1 / |A|) adj A"
+        },
+        {
+          "label": "Existence condition",
+          "expr": "|A| ≠ 0 (non-singular)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "2 × 2 Matrix Inverse Shortcut",
+      "tag": "formula",
+      "points": [
+        "For a 2 × 2 matrix A = [[a, b], [c, d]]:",
+        "Determinant: |A| = ad − bc.",
+        "Adjoint Shortcut: Swap the main diagonal elements (a ↔ d), and change the signs of off-diagonal elements (b → −b, c → −c): adj A = [[d, −b], [−c, a]].",
+        "Inverse: A⁻¹ = (1 / (ad − bc)) · [[d, −b], [−c, a]].",
+        "Calculation takes less than 5 seconds and avoids computing individual co-factors."
+      ],
+      "formulas": [
+        {
+          "label": "2×2 Determinant",
+          "expr": "|A| = ad − bc"
+        },
+        {
+          "label": "2×2 Adjoint",
+          "expr": "adj [[a, b], [c, d]] = [[d, −b], [−c, a]]"
+        },
+        {
+          "label": "2×2 Inverse",
+          "expr": "A⁻¹ = (1 / (ad − bc)) [[d, −b], [−c, a]]"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Elementary Transformations (Row & Column)",
+      "tag": "concept",
+      "points": [
+        "Three types of elementary row/column transformations: (1) Interchanging any two rows/columns (R_i ↔ R_j); (2) Multiplying elements of a row by non-zero scalar (R_i → k R_i); (3) Adding k times elements of one row to another (R_i → R_i + k R_j).",
+        "Finding A⁻¹ by Elementary Row Transformations: Start with A = I A. Apply identical row operations to LHS (reducing A to I) and RHS (converting I to A⁻¹), obtaining I = A⁻¹ A.",
+        "Finding A⁻¹ by Column Transformations: Start with A = A I. Apply column operations to get I = A A⁻¹.",
+        "If during row/column transformations a full row/column becomes all zeros, then A⁻¹ does not exist (|A| = 0)."
+      ],
+      "formulas": [
+        {
+          "label": "Row transformation setup",
+          "expr": "A = I A ⟶ I = A⁻¹ A"
+        },
+        {
+          "label": "Column transformation setup",
+          "expr": "A = A I ⟶ I = A A⁻¹"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Properties of Inverse & Adjoint",
+      "tag": "formula",
+      "points": [
+        "Reversal Law: (AB)⁻¹ = B⁻¹ A⁻¹; (ABC)⁻¹ = C⁻¹ B⁻¹ A⁻¹.",
+        "Transpose & Inverse: (A^T)⁻¹ = (A⁻¹)^T.",
+        "Double Inverse: (A⁻¹)⁻¹ = A.",
+        "Determinant of Inverse: |A⁻¹| = 1 / |A|.",
+        "Adjoint of Product: adj(AB) = (adj B) · (adj A).",
+        "Determinant of Adjoint: |adj A| = |A|^(n − 1), where n is order of matrix.",
+        "Double Adjoint Determinant: |adj(adj A)| = |A|^((n − 1)²).",
+        "Double Adjoint Formula: adj(adj A) = |A|^(n − 2) · A."
+      ],
+      "formulas": [
+        {
+          "label": "Reversal law",
+          "expr": "(AB)⁻¹ = B⁻¹ A⁻¹"
+        },
+        {
+          "label": "Adjoint determinant",
+          "expr": "|adj A| = |A|^(n − 1)"
+        },
+        {
+          "label": "Double adjoint det",
+          "expr": "|adj(adj A)| = |A|^((n − 1)²)"
+        },
+        {
+          "label": "Double adjoint matrix",
+          "expr": "adj(adj A) = |A|^(n − 2) A"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "System of Linear Equations: Inversion Method",
+      "tag": "formula",
+      "points": [
+        "System of linear equations: a₁x + b₁y + c₁z = d₁; a₂x + b₂y + c₂z = d₂; a₃x + b₃y + c₃z = d₃.",
+        "Matrix representation: A X = B, where A is 3×3 coefficient matrix, X = [x, y, z]^T, B = [d₁, d₂, d₃]^T.",
+        "Condition: Coefficient matrix A must be non-singular (|A| ≠ 0).",
+        "Solution: Pre-multiply by A⁻¹ ⟹ A⁻¹(AX) = A⁻¹B ⟹ X = A⁻¹ B.",
+        "Substitute A⁻¹ = (1/|A|) adj A and multiply with column matrix B to get unique values for x, y, z."
+      ],
+      "formulas": [
+        {
+          "label": "Matrix equation",
+          "expr": "A X = B"
+        },
+        {
+          "label": "Inversion solution",
+          "expr": "X = A⁻¹ B = (1 / |A|) (adj A) B"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "System of Linear Equations: Reduction Method",
+      "tag": "concept",
+      "points": [
+        "Write matrix equation A X = B.",
+        "Apply elementary row transformations to coefficient matrix A to convert it into an UPPER TRIANGULAR matrix (or lower triangular matrix), applying identical operations to B.",
+        "Target form: [[a₁₁, a₁₂, a₁₃], [0, a₂₂', a₂₃'], [0, 0, a₃₃']] · [x, y, z]^T = [d₁', d₂', d₃']^T.",
+        "Perform back-substitution: Solve bottom equation for z, substitute into 2nd row for y, and finally into 1st row for x.",
+        "Advantage: Involves fewer arithmetic calculations and no co-factor computation compared to the inversion method."
+      ],
+      "formulas": [
+        {
+          "label": "Target triangular form",
+          "expr": "[[a, b, c], [0, d, e], [0, 0, f]] X = B'"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Proofs & Matrix Inversion",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Prove that the inverse of a matrix, if it exists, is unique.",
+        "Board Favourite #2: Prove the reversal law of inverse: (AB)⁻¹ = B⁻¹ A⁻¹.",
+        "Board Favourite #3: Find inverse of a 3×3 matrix using Elementary Row Transformations (systematically create 1 at a₁₁, then 0s below; 1 at a₂₂, then 0s; 1 at a₃₃, then 0s above).",
+        "Board Favourite #4: Solve 3 linear equations using the Method of Inversion and Method of Reduction (4 marks each).",
+        "Board Presentation Tip: Always compute |A| FIRST. If |A| = 0, state immediately that A⁻¹ does not exist."
+      ],
+      "formulas": [
+        {
+          "label": "Uniqueness proof",
+          "expr": "If AB = I and AC = I ⟹ B = C"
+        },
+        {
+          "label": "Reversal proof",
+          "expr": "(AB)(B⁻¹A⁻¹) = A(BB⁻¹)A⁻¹ = AIA⁻¹ = I"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Determinant Hacks & Cayley-Hamilton",
+      "tag": "imp",
+      "points": [
+        "Scalar Factor Determinant: |k A| = kⁿ |A| for an n × n matrix (for 3×3, |2A| = 2³ |A| = 8 |A|).",
+        "Adjoint Determinant Shortcut: For 3×3 matrix, |adj A| = |A|²; |adj(adj A)| = |A|⁴.",
+        "Polynomial Equation Inverse Hack: If A satisfies A² − 5A + 7I = O, multiply by A⁻¹ ⟹ A − 5I + 7A⁻¹ = O ⟹ A⁻¹ = (1/7)(5I − A).",
+        "Diagonal Matrix Inverse: Inverse of diag(a, b, c) is simply diag(1/a, 1/b, 1/c).",
+        "Orthogonal Matrix: A A^T = I ⟹ A⁻¹ = A^T and |A| = ±1.",
+        "Trace of Matrix: tr(A) = sum of principal diagonal elements. tr(A + B) = tr(A) + tr(B); tr(AB) = tr(BA)."
+      ],
+      "formulas": [
+        {
+          "label": "Scalar determinant hack",
+          "expr": "|k A| = kⁿ |A|"
+        },
+        {
+          "label": "3×3 Adjoint determinant",
+          "expr": "|adj A| = |A|²"
+        },
+        {
+          "label": "Matrix polynomial A⁻¹",
+          "expr": "A² + pA + qI = O ⟹ A⁻¹ = −(A + pI) / q"
+        }
+      ]
+    }
+  ]
+}

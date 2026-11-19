@@ -1,0 +1,253 @@
+{
+  "title": "Definite Integration",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Fundamental Theorem of Integral Calculus",
+      "tag": "concept",
+      "points": [
+        "Statement: If f(x) is continuous on [a, b] and ∫ f(x) dx = F(x) + c, then ∫_a^b f(x) dx = [F(x)]_a^b = F(b) − F(a).",
+        "The arbitrary constant 'c' cancels out: (F(b) + c) − (F(a) + c) = F(b) − F(a).",
+        "Geometrical meaning: ∫_a^b f(x) dx represents the algebraic (net signed) area under curve y = f(x) from x = a to x = b.",
+        "Substitution in Definite Integrals: When substituting t = g(x), ALWAYS change limits of integration: at x = a ⟹ t = g(a); at x = b ⟹ t = g(b)."
+      ],
+      "formulas": [
+        {
+          "label": "Fundamental theorem",
+          "expr": "∫_a^b f(x) dx = F(b) − F(a)"
+        },
+        {
+          "label": "Net signed area",
+          "expr": "Area above X-axis (+) , Area below X-axis (−)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Definite Integral as Limit of a Sum",
+      "tag": "formula",
+      "points": [
+        "Definition: ∫_a^b f(x) dx = lim_(n → ∞) h ∑_(r=1)ⁿ f(a + rh), where step size h = (b − a)/n.",
+        "Standard conversion of summation series into definite integral:",
+        "Step 1: Express series in form lim_(n → ∞) (1/n) ∑_(r=1)ⁿ f(r/n).",
+        "Step 2: Replace r/n by x, replace 1/n by dx, replace lim ∑ by ∫.",
+        "Step 3: Limits of integration: Lower limit = lim_(n → ∞) (1/n) = 0; Upper limit = lim_(n → ∞) (n/n) = 1.",
+        "Result: lim_(n → ∞) (1/n) ∑_(r=1)ⁿ f(r/n) = ∫₀¹ f(x) dx."
+      ],
+      "formulas": [
+        {
+          "label": "Limit of sum definition",
+          "expr": "∫_a^b f(x) dx = lim_(n → ∞) h ∑_(r=1)ⁿ f(a + rh)"
+        },
+        {
+          "label": "Sum to integral shortcut",
+          "expr": "lim (1/n) ∑ f(r/n) = ∫₀¹ f(x) dx"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Basic Properties (P1 to P4)",
+      "tag": "formula",
+      "points": [
+        "Property 1 (Zero width): ∫_a^a f(x) dx = 0.",
+        "Property 2 (Reversing limits): ∫_a^b f(x) dx = −∫_b^a f(x) dx.",
+        "Property 3 (Dummy variable): ∫_a^b f(x) dx = ∫_a^b f(t) dt = ∫_a^b f(u) du (value is independent of integration variable).",
+        "Property 4 (Splitting interval): ∫_a^b f(x) dx = ∫_a^c f(x) dx + ∫_c^b f(x) dx (where a < c < b).",
+        "Crucial for Modulus Functions: To integrate |x − c| from a to b, split at x = c."
+      ],
+      "formulas": [
+        {
+          "label": "P1 (Equal limits)",
+          "expr": "∫_a^a f(x) dx = 0"
+        },
+        {
+          "label": "P2 (Reversal)",
+          "expr": "∫_a^b f(x) dx = −∫_b^a f(x) dx"
+        },
+        {
+          "label": "P4 (Splitting)",
+          "expr": "∫_a^b f(x) dx = ∫_a^c f(x) dx + ∫_c^b f(x) dx"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "King's Property (The Master Property)",
+      "tag": "formula",
+      "points": [
+        "Property 5 (King's Rule): ∫_a^b f(x) dx = ∫_a^b f(a + b − x) dx.",
+        "Property 6 (Special King's Rule with a = 0): ∫₀^a f(x) dx = ∫₀^a f(a − x) dx.",
+        "How to apply King's Property:",
+        "Step 1: Let I = ∫_a^b f(x) dx ... (1).",
+        "Step 2: Apply property: I = ∫_a^b f(a + b − x) dx ... (2).",
+        "Step 3: Add (1) and (2): 2I = ∫_a^b [f(x) + f(a + b − x)] dx.",
+        "Step 4: Often integrand simplifies to 1, giving 2I = b − a ⟹ I = (b − a)/2."
+      ],
+      "formulas": [
+        {
+          "label": "King's Property (a to b)",
+          "expr": "∫_a^b f(x) dx = ∫_a^b f(a + b − x) dx"
+        },
+        {
+          "label": "King's Property (0 to a)",
+          "expr": "∫₀^a f(x) dx = ∫₀^a f(a − x) dx"
+        },
+        {
+          "label": "Symmetric quotient shortcut",
+          "expr": "∫_a^b [f(x) / (f(x) + f(a+b−x))] dx = (b − a) / 2"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Even and Odd Functions Property",
+      "tag": "formula",
+      "points": [
+        "Property 7 (Symmetric Limits −a to a):",
+        "1. If f(x) is an EVEN function [f(−x) = f(x)]: ∫_(−a)^a f(x) dx = 2 ∫₀^a f(x) dx.",
+        "2. If f(x) is an ODD function [f(−x) = −f(x)]: ∫_(−a)^a f(x) dx = 0.",
+        "Examples of Even functions: cos x, x², x⁴, |x|, sec x.",
+        "Examples of Odd functions: sin x, tan x, x³, x, ln[(1 − x)/(1 + x)].",
+        "Product rule: (Even × Odd = Odd); (Odd × Odd = Even); (Even × Even = Even)."
+      ],
+      "formulas": [
+        {
+          "label": "Even function rule",
+          "expr": "∫_(−a)^a f(x) dx = 2 ∫₀^a f(x) dx (if f(−x) = f(x))"
+        },
+        {
+          "label": "Odd function rule",
+          "expr": "∫_(−a)^a f(x) dx = 0 (if f(−x) = −f(x))"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Periodicity & Half-Upper-Limit Properties",
+      "tag": "formula",
+      "points": [
+        "Property 8 (Double limit 0 to 2a):",
+        "∫₀^(2a) f(x) dx = 2 ∫₀^a f(x) dx (if f(2a − x) = f(x)).",
+        "∫₀^(2a) f(x) dx = 0 (if f(2a − x) = −f(x)).",
+        "Periodic Property: If f(x + T) = f(x) (periodic with fundamental period T):",
+        "1. ∫₀^(nT) f(x) dx = n ∫₀^T f(x) dx.",
+        "2. ∫_a^(a + nT) f(x) dx = n ∫₀^T f(x) dx (independent of lower limit a!).",
+        "3. ∫_(nT)^(mT) f(x) dx = (m − n) ∫₀^T f(x) dx."
+      ],
+      "formulas": [
+        {
+          "label": "Half-upper limit (f(2a−x) = f(x))",
+          "expr": "∫₀^(2a) f(x) dx = 2 ∫₀^a f(x) dx"
+        },
+        {
+          "label": "Half-upper limit (f(2a−x) = −f(x))",
+          "expr": "∫₀^(2a) f(x) dx = 0"
+        },
+        {
+          "label": "Periodic integral",
+          "expr": "∫₀^(nT) f(x) dx = n ∫₀^T f(x) dx"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Modulus & Piecewise Integrals",
+      "tag": "formula",
+      "points": [
+        "To evaluate ∫_a^b |f(x)| dx:",
+        "1. Find roots of f(x) = 0 that lie strictly within (a, b). Let root be c.",
+        "2. Split integral: ∫_a^b |f(x)| dx = ∫_a^c |f(x)| dx + ∫_c^b |f(x)| dx.",
+        "3. On sub-intervals where f(x) ≥ 0, replace |f(x)| by +f(x).",
+        "4. On sub-intervals where f(x) < 0, replace |f(x)| by −f(x).",
+        "5. Integrate each piece and add results."
+      ],
+      "formulas": [
+        {
+          "label": "Modulus splitting",
+          "expr": "∫_a^b |x − c| dx = ∫_a^c −(x − c) dx + ∫_c^b (x − c) dx"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Walli's Formula & Log Sine Integral",
+      "tag": "formula",
+      "points": [
+        "Walli's Formula for ∫₀^(π/2) sinⁿx dx = ∫₀^(π/2) cosⁿx dx:",
+        "= [(n − 1)/n] · [(n − 3)/(n − 2)] · [(n − 5)/(n − 4)] ... × k,",
+        "where k = π/2 if n is EVEN, and k = 1 if n is ODD.",
+        "The Famous Log Sine Integral (Board Classic):",
+        "∫₀^(π/2) ln(sin x) dx = ∫₀^(π/2) ln(cos x) dx = −(π/2) ln 2 = (π/2) ln(½).",
+        "∫₀^π ln(sin x) dx = 2 ∫₀^(π/2) ln(sin x) dx = −π ln 2."
+      ],
+      "formulas": [
+        {
+          "label": "Log sine integral",
+          "expr": "∫₀^(π/2) ln(sin x) dx = −(π/2) ln 2"
+        },
+        {
+          "label": "Walli's formula (even n)",
+          "expr": "k = π / 2"
+        },
+        {
+          "label": "Walli's formula (odd n)",
+          "expr": "k = 1"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Theorem: Prove that ∫_a^b f(x) dx = ∫_a^b f(a + b − x) dx.",
+        "Board Favourite #2: Theorem: Prove that ∫₀^a f(x) dx = ∫₀^a f(a − x) dx.",
+        "Board Favourite #3: Theorem: Prove that ∫_(−a)^a f(x) dx = 2 ∫₀^a f(x) dx (even) and 0 (odd).",
+        "Board Favourite #4: Theorem: Prove that ∫₀^(2a) f(x) dx = ∫₀^a f(x) dx + ∫₀^a f(2a − x) dx.",
+        "Board Favourite #5: Evaluate: I = ∫₀^(π/2) [√sin x / (√sin x + √cos x)] dx = π/4 (4 marks).",
+        "Board Favourite #6: Prove that ∫₀^(π/2) ln(sin x) dx = −(π/2) ln 2."
+      ],
+      "formulas": [
+        {
+          "label": "Proof: King's property",
+          "expr": "Substitute t = a + b − x ⟹ dt = −dx"
+        },
+        {
+          "label": "Proof: Even/Odd",
+          "expr": "Split ∫_(−a)^a into ∫_(−a)⁰ + ∫₀^a, put x = −t in 1st"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET 5-Second Definite Hacks & King's Shortcuts",
+      "tag": "imp",
+      "points": [
+        "King's Master Shortcut: For ANY integrand where f(x) + f(a + b − x) cancels to 1:",
+        "∫_a^b [f(x) / (f(x) + f(a + b − x))] dx = (b − a) / 2.",
+        "Examples solvable in 2 seconds:",
+        "1. ∫₀^(π/2) [sinⁿx / (sinⁿx + cosⁿx)] dx = (π/2 − 0)/2 = π/4 (for ANY power n!).",
+        "2. ∫_2^7 [√x / (√x + √(9 − x))] dx = (7 − 2)/2 = 5/2.",
+        "3. ∫₀^(π/2) [1 / (1 + tanⁿx)] dx = π/4.",
+        "Odd Function Zero Hack: If limits are symmetric (−a to a) and integrand is odd, answer is ZERO instantly! (e.g., ∫_(−π/2)^(π/2) x³ cos x dx = 0)."
+      ],
+      "formulas": [
+        {
+          "label": "King's 5-second hack",
+          "expr": "∫_a^b [f(x) / (f(x) + f(a+b−x))] dx = (b − a) / 2"
+        },
+        {
+          "label": "Trig 5-second hack",
+          "expr": "∫₀^(π/2) [sinⁿx / (sinⁿx + cosⁿx)] dx = π / 4"
+        },
+        {
+          "label": "Odd symmetric hack",
+          "expr": "∫_(−a)^a (odd) dx = 0"
+        }
+      ]
+    }
+  ]
+}

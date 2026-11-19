@@ -1,0 +1,234 @@
+{
+  "title": "Differential Equations",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Order and Degree of Differential Equations",
+      "tag": "concept",
+      "points": [
+        "Differential Equation: An equation involving an independent variable, dependent variable, and derivatives of dependent variable.",
+        "Order: The order of the HIGHEST ORDER DERIVATIVE occurring in the differential equation.",
+        "Degree: The power (exponent) of the highest order derivative, AFTER the equation is expressed as a polynomial in derivatives (free from radicals and fractions of derivatives).",
+        "Degree NOT Defined Trap: If derivatives are inside transcendental functions (e.g., e^(dy/dx), sin(dy/dx), ln(dy/dx)), the degree is NOT DEFINED, though order is still defined."
+      ],
+      "formulas": [
+        {
+          "label": "Order",
+          "expr": "Order = Highest derivative present"
+        },
+        {
+          "label": "Degree",
+          "expr": "Degree = Power of highest derivative (polynomial form)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Formation of Differential Equations",
+      "tag": "concept",
+      "points": [
+        "Rule: If a given family of curves contains 'n' independent arbitrary constants, differentiate 'n' times to get 'n' equations, and eliminate all arbitrary constants.",
+        "The resulting differential equation will have order equal to 'n'.",
+        "Examples:",
+        "1. Family of circles with centre at origin (x² + y² = r²): 1 constant (r) ⟹ Order = 1 (x + y y' = 0).",
+        "2. Family of all lines y = mx + c: 2 constants (m, c) ⟹ Order = 2 (y'' = 0).",
+        "3. Family of parabolas y² = 4ax: 1 constant (a) ⟹ Order = 1 (2xy' = y)."
+      ],
+      "formulas": [
+        {
+          "label": "Order vs Constants",
+          "expr": "Order of D.E. = Number of arbitrary constants"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Variable Separable Method",
+      "tag": "formula",
+      "points": [
+        "Form: f(x) dx + g(y) dy = 0 or dy/dx = f(x) · g(y).",
+        "Method: Separate terms containing x with dx and terms containing y with dy: (1/g(y)) dy = f(x) dx.",
+        "Integrate both sides: ∫ (1/g(y)) dy = ∫ f(x) dx + c.",
+        "Substitution for Reducible to Separable: dy/dx = f(ax + by + c).",
+        "Put u = ax + by + c ⟹ du/dx = a + b(dy/dx) ⟹ dy/dx = (1/b)(du/dx − a).",
+        "Separates as: [1 / (a + b f(u))] du = dx."
+      ],
+      "formulas": [
+        {
+          "label": "Variable separable",
+          "expr": "∫ [1/g(y)] dy = ∫ f(x) dx + c"
+        },
+        {
+          "label": "Reducible to separable",
+          "expr": "Put u = ax + by + c ⟹ du/dx = a + b(dy/dx)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Homogeneous Differential Equations",
+      "tag": "formula",
+      "points": [
+        "Form: dy/dx = f(x, y) / g(x, y), where f and g are homogeneous functions of x and y of the same degree.",
+        "Test: f(kx, ky) = kⁿ f(x, y).",
+        "Solution Method:",
+        "Step 1: Substitute y = v x ⟹ dy/dx = v + x (dv/dx).",
+        "Step 2: Replace dy/dx and y to get: v + x (dv/dx) = F(v).",
+        "Step 3: Separate variables: [1 / (F(v) − v)] dv = (1/x) dx.",
+        "Step 4: Integrate both sides, then replace v = y/x."
+      ],
+      "formulas": [
+        {
+          "label": "Homogeneous substitution",
+          "expr": "y = vx ⟹ dy/dx = v + x (dv/dx)"
+        },
+        {
+          "label": "Separated v equation",
+          "expr": "[1 / (F(v) − v)] dv = (1/x) dx"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "First Order Linear Differential Equations (LDE)",
+      "tag": "formula",
+      "points": [
+        "Type 1: dy/dx + P(x) y = Q(x) (where P and Q are functions of x only or constants).",
+        "Integrating Factor (I.F.): I.F. = e^(∫ P dx).",
+        "General Solution: y · (I.F.) = ∫ [Q · (I.F.)] dx + c.",
+        "Type 2 (Interchanged variables): dx/dy + P(y) x = Q(y).",
+        "Integrating Factor: I.F. = e^(∫ P dy).",
+        "General Solution: x · (I.F.) = ∫ [Q · (I.F.)] dy + c."
+      ],
+      "formulas": [
+        {
+          "label": "Standard LDE",
+          "expr": "dy/dx + Py = Q"
+        },
+        {
+          "label": "Integrating Factor",
+          "expr": "I.F. = e^(∫ P dx)"
+        },
+        {
+          "label": "General solution",
+          "expr": "y · (I.F.) = ∫ [Q · (I.F.)] dx + c"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "General vs Particular Solutions",
+      "tag": "concept",
+      "points": [
+        "General Solution: Solution containing arbitrary constants equal to the order of the differential equation.",
+        "Particular Solution: Solution obtained by assigning specific values to the arbitrary constants using given initial conditions (e.g., y = y₀ when x = x₀).",
+        "A particular solution contains NO arbitrary constants."
+      ],
+      "formulas": [
+        {
+          "label": "Particular solution",
+          "expr": "Evaluate c using initial condition (x₀, y₀)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Applications: Population, Decay & Newton's Cooling",
+      "tag": "formula",
+      "points": [
+        "Population Growth / Bacterial Growth: Rate of growth is proportional to current population N: dN/dt = k N ⟹ N(t) = N₀ e^(kt).",
+        "Radioactive Decay: Rate of disintegration is proportional to amount N present: dN/dt = −k N ⟹ N(t) = N₀ e^(−kt).",
+        "Newton's Law of Cooling: Rate of cooling is proportional to temperature excess over surroundings: dθ/dt = −k(θ − θ₀) ⟹ θ − θ₀ = C e^(−kt), where θ₀ is ambient temperature."
+      ],
+      "formulas": [
+        {
+          "label": "Growth model",
+          "expr": "dN/dt = kN ⟹ N = N₀ e^(kt)"
+        },
+        {
+          "label": "Decay model",
+          "expr": "dN/dt = −kN ⟹ N = N₀ e^(−kt)"
+        },
+        {
+          "label": "Newton's cooling law",
+          "expr": "dθ/dt = −k(θ − θ₀) ⟹ θ − θ₀ = C e^(−kt)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Geometric Applications of Differential Equations",
+      "tag": "concept",
+      "points": [
+        "Slope of tangent at (x, y): dy/dx.",
+        "Slope of normal at (x, y): −dx/dy.",
+        "Length of Tangent: y √(1 + (dx/dy)²). Length of Subtangent: |y / (dy/dx)|.",
+        "Length of Normal: y √(1 + (dy/dx)²). Length of Subnormal: |y (dy/dx)|.",
+        "Finding equation of curve passing through given point with specified slope condition."
+      ],
+      "formulas": [
+        {
+          "label": "Subtangent length",
+          "expr": "Subtangent = |y / (dy/dx)|"
+        },
+        {
+          "label": "Subnormal length",
+          "expr": "Subnormal = |y (dy/dx)|"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Questions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Solve homogeneous differential equation: x² y dx − (x³ + y³) dy = 0.",
+        "Board Favourite #2: Solve linear differential equation: dy/dx + y sec x = tan x.",
+        "Board Favourite #3: Solve differential equation by substitution: dy/dx = (4x + y + 1)².",
+        "Board Favourite #4: Word Problem: The population of a town grows at a rate proportional to its current population. If it doubles in 20 years, in how many years will it triple?",
+        "Board Favourite #5: Word Problem: A body cools from 80 °C to 60 °C in 20 minutes when room temperature is 20 °C. Find temperature after further 20 minutes."
+      ],
+      "formulas": [
+        {
+          "label": "Homogeneous step",
+          "expr": "y = vx ⟹ v + x(dv/dx)"
+        },
+        {
+          "label": "LDE step",
+          "expr": "I.F. = e^(∫ sec x dx) = sec x + tan x"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, I.F. Hacks & Degree Traps",
+      "tag": "imp",
+      "points": [
+        "Integrating Factor Simplification Hacks:",
+        "1. e^(ln f(x)) = f(x).",
+        "2. e^(n ln x) = xⁿ.",
+        "3. e^(−ln x) = 1/x.",
+        "4. e^(2 ln(sec x)) = sec²x.",
+        "Degree Trap: In e^(dy/dx) + d²y/dx² = x, Order = 2, but Degree is NOT DEFINED!",
+        "Order from Constants: Differential equation of all circles touching X-axis at origin: (x² + (y − r)² = r²) has 1 parameter (r) ⟹ Order = 1.",
+        "Differential equation of all parabolas having axis of symmetry along X-axis: (y² = 4a(x − h)) has 2 parameters (a, h) ⟹ Order = 2."
+      ],
+      "formulas": [
+        {
+          "label": "e^(ln f) hack",
+          "expr": "e^(ln f(x)) = f(x)"
+        },
+        {
+          "label": "e^(−ln x) hack",
+          "expr": "e^(−ln x) = 1/x"
+        },
+        {
+          "label": "Degree check",
+          "expr": "Polynomial in derivatives must exist"
+        }
+      ]
+    }
+  ]
+}

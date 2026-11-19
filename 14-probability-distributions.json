@@ -1,0 +1,262 @@
+{
+  "title": "Probability Distributions",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Random Variables: Discrete vs Continuous",
+      "tag": "concept",
+      "points": [
+        "Random Variable (X): A real-valued function whose domain is the sample space S of a random experiment (X: S → ℝ).",
+        "Discrete Random Variable: Takes a finite or countably infinite set of values (e.g., number of heads in 3 coin tosses, defective bulbs in a sample).",
+        "Continuous Random Variable: Takes any real value in an interval [a, b] (e.g., height, temperature, time, lifespan of a battery).",
+        "Range of random variable: Set of all possible values taken by X."
+      ],
+      "formulas": [
+        {
+          "label": "Random variable",
+          "expr": "X : S ⟶ ℝ"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Probability Mass Function (PMF)",
+      "tag": "formula",
+      "points": [
+        "For a discrete random variable X taking values x₁, x₂, ..., xₙ with probabilities p₁, p₂, ..., pₙ:",
+        "Conditions for a valid PMF P(X = x):",
+        "1. Non-negativity: P(X = x_i) = p_i ≥ 0 for all i.",
+        "2. Total Probability: ∑_(i=1)ⁿ p_i = 1.",
+        "Probability Distribution: Tabular representation listing each value x_i alongside its probability P(X = x_i)."
+      ],
+      "formulas": [
+        {
+          "label": "PMF Condition 1",
+          "expr": "p_i ≥ 0 for all i"
+        },
+        {
+          "label": "PMF Condition 2",
+          "expr": "∑ p_i = 1"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Cumulative Distribution Function (CDF) - Discrete",
+      "tag": "formula",
+      "points": [
+        "Definition: F(x) = P(X ≤ x) = ∑_(x_i ≤ x) P(X = x_i).",
+        "Properties of CDF F(x):",
+        "1. 0 ≤ F(x) ≤ 1 for all x.",
+        "2. F(x) is a non-decreasing step function.",
+        "3. F(−∞) = 0 and F(∞) = 1.",
+        "4. P(a < X ≤ b) = F(b) − F(a).",
+        "5. Individual probability: P(X = x_i) = F(x_i) − F(x_(i−1))."
+      ],
+      "formulas": [
+        {
+          "label": "Discrete CDF",
+          "expr": "F(x) = P(X ≤ x) = ∑_(x_i ≤ x) p_i"
+        },
+        {
+          "label": "Interval probability",
+          "expr": "P(a < X ≤ b) = F(b) − F(a)"
+        },
+        {
+          "label": "Single value from CDF",
+          "expr": "P(X = x_i) = F(x_i) − F(x_(i−1))"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Expected Value (Mean) of Discrete RV",
+      "tag": "formula",
+      "points": [
+        "Expected Value / Mean (μ or E[X]): Measure of central tendency of the probability distribution:",
+        "E[X] = μ = ∑_(i=1)ⁿ x_i · P(X = x_i) = ∑ x_i p_i.",
+        "Properties of Expectation:",
+        "1. E[c] = c (where c is constant).",
+        "2. E[aX + b] = a E[X] + b.",
+        "3. E[X + Y] = E[X] + E[Y].",
+        "Second Moment: E[X²] = ∑ x_i² p_i."
+      ],
+      "formulas": [
+        {
+          "label": "Mean formula",
+          "expr": "E[X] = μ = ∑ x_i p_i"
+        },
+        {
+          "label": "E[X²] formula",
+          "expr": "E[X²] = ∑ x_i² p_i"
+        },
+        {
+          "label": "Linearity of expectation",
+          "expr": "E[aX + b] = a E[X] + b"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Variance and Standard Deviation",
+      "tag": "formula",
+      "points": [
+        "Variance V(X) or σ²: Measure of dispersion of X around its mean:",
+        "V(X) = E[(X − μ)²] = E[X²] − (E[X])² = ∑ x_i² p_i − (∑ x_i p_i)².",
+        "Standard Deviation (σ): σ = +√V(X).",
+        "Properties of Variance:",
+        "1. V(X) ≥ 0 ALWAYS (Variance can never be negative!).",
+        "2. V(c) = 0 for constant c.",
+        "3. V(aX + b) = a² V(X) (Shift of origin has NO effect; scaling is squared!).",
+        "4. Standard Deviation: SD(aX + b) = |a| SD(X)."
+      ],
+      "formulas": [
+        {
+          "label": "Variance formula",
+          "expr": "V(X) = σ² = E[X²] − (E[X])²"
+        },
+        {
+          "label": "Standard deviation",
+          "expr": "σ = √V(X)"
+        },
+        {
+          "label": "Variance scaling",
+          "expr": "V(aX + b) = a² V(X)"
+        },
+        {
+          "label": "SD scaling",
+          "expr": "SD(aX + b) = |a| SD(X)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Probability Density Function (PDF) - Continuous",
+      "tag": "formula",
+      "points": [
+        "For a continuous random variable X, probability is defined by a density function f(x).",
+        "Conditions for a valid PDF f(x):",
+        "1. Non-negativity: f(x) ≥ 0 for all x ∈ (−∞, ∞).",
+        "2. Total Area = 1: ∫_(−∞)^∞ f(x) dx = 1.",
+        "Probability in an interval [a, b]:",
+        "P(a ≤ X ≤ b) = ∫_a^b f(x) dx = Area under PDF curve from a to b.",
+        "CRITICAL PROPERTY: For a continuous RV, probability at any SINGLE EXACT POINT IS ZERO: P(X = c) = ∫_c^c f(x) dx = 0.",
+        "Consequently: P(a ≤ X ≤ b) = P(a < X ≤ b) = P(a ≤ X < b) = P(a < X < b)."
+      ],
+      "formulas": [
+        {
+          "label": "PDF Condition 1",
+          "expr": "f(x) ≥ 0 for all x"
+        },
+        {
+          "label": "PDF Condition 2",
+          "expr": "∫_(−∞)^∞ f(x) dx = 1"
+        },
+        {
+          "label": "Interval probability",
+          "expr": "P(a ≤ X ≤ b) = ∫_a^b f(x) dx"
+        },
+        {
+          "label": "Single point probability",
+          "expr": "P(X = c) = 0"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "CDF of Continuous Random Variable",
+      "tag": "formula",
+      "points": [
+        "Cumulative Distribution Function: F(x) = P(X ≤ x) = ∫_(−∞)^x f(t) dt.",
+        "Properties: F(−∞) = 0, F(∞) = 1; 0 ≤ F(x) ≤ 1.",
+        "Interval Probability from CDF: P(a ≤ X ≤ b) = F(b) − F(a).",
+        "Fundamental Link between PDF and CDF: f(x) = d/dx[F(x)] = F'(x) (PDF is the derivative of CDF)."
+      ],
+      "formulas": [
+        {
+          "label": "Continuous CDF",
+          "expr": "F(x) = ∫_(−∞)^x f(t) dt"
+        },
+        {
+          "label": "PDF from CDF",
+          "expr": "f(x) = F'(x) = d/dx[F(x)]"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Mean and Variance of Continuous RV",
+      "tag": "formula",
+      "points": [
+        "Expected Value (Mean): E[X] = μ = ∫_(−∞)^∞ x · f(x) dx.",
+        "Second Moment: E[X²] = ∫_(−∞)^∞ x² · f(x) dx.",
+        "Variance: V(X) = E[X²] − (E[X])².",
+        "Uniform Distribution on [a, b]: f(x) = 1/(b − a) for a ≤ x ≤ b ⟹ Mean = (a + b)/2; Variance = (b − a)² / 12."
+      ],
+      "formulas": [
+        {
+          "label": "Continuous Mean",
+          "expr": "E[X] = ∫ x f(x) dx"
+        },
+        {
+          "label": "Continuous E[X²]",
+          "expr": "E[X²] = ∫ x² f(x) dx"
+        },
+        {
+          "label": "Uniform distribution variance",
+          "expr": "V(X) = (b − a)² / 12"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Questions & Verification Problems",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Find unknown constant k if P(X = x) = k x for x = 1, 2, 3, 4, 5 is a valid PMF (use ∑ p_i = 1 ⟹ k(1+2+3+4+5) = 1 ⟹ k = 1/15).",
+        "Board Favourite #2: Find k if f(x) = k x (1 − x) for 0 ≤ x ≤ 1 is a valid PDF (use ∫₀¹ f(x) dx = 1 ⟹ k = 6).",
+        "Board Favourite #3: Given probability distribution table, calculate Mean E[X] and Variance V(X).",
+        "Board Favourite #4: Find CDF F(x) from given PMF/PDF and evaluate P(X < 3), P(1 ≤ X ≤ 4).",
+        "Board Verification Tip: Always verify that all probabilities are non-negative (p_i ≥ 0) before applying ∑ p_i = 1."
+      ],
+      "formulas": [
+        {
+          "label": "Find k (Discrete)",
+          "expr": "∑ p_i = 1"
+        },
+        {
+          "label": "Find k (Continuous)",
+          "expr": "∫ f(x) dx = 1"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Variance Scaling & Traps",
+      "tag": "imp",
+      "points": [
+        "Variance Scaling Shortcut: V(2X + 3) = 2² V(X) = 4 V(X). V(−3X + 5) = (−3)² V(X) = 9 V(X).",
+        "Standard Deviation Shortcut: SD(aX + b) = |a| SD(X). SD(−2X + 7) = 2 SD(X).",
+        "Continuous Point Trap: If X is continuous, P(X = 2) = 0 strictly! Never waste time integrating for single-point continuous probability.",
+        "Variance Sanity Check: If your calculated E[X²] < (E[X])², your calculation is WRONG, because V(X) cannot be negative.",
+        "Coin Toss PMF: Number of heads X in n coin tosses follows B(n, ½); Mean = n/2, Variance = n/4."
+      ],
+      "formulas": [
+        {
+          "label": "V(aX+b) scaling hack",
+          "expr": "V(aX + b) = a² V(X)"
+        },
+        {
+          "label": "Continuous point trap",
+          "expr": "P(X = a) = 0 strictly"
+        },
+        {
+          "label": "Variance positivity",
+          "expr": "V(X) ≥ 0 always"
+        }
+      ]
+    }
+  ]
+}

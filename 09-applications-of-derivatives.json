@@ -1,0 +1,240 @@
+{
+  "title": "Applications of Derivatives",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Tangents and Normals to Curves",
+      "tag": "formula",
+      "points": [
+        "Slope of tangent to curve y = f(x) at point P(x₁, y₁): m = (dy/dx)_(x₁, y₁).",
+        "Equation of Tangent: y − y₁ = m(x − x₁).",
+        "Slope of Normal at P(x₁, y₁): m' = −1/m = −1 / (dy/dx)_(x₁, y₁) (provided m ≠ 0).",
+        "Equation of Normal: y − y₁ = (−1/m)(x − x₁).",
+        "Special Slopes: (1) Tangent parallel to X-axis ⟹ dy/dx = 0; (2) Tangent parallel to Y-axis (perpendicular to X-axis) ⟹ dx/dy = 0 (dy/dx = ∞)."
+      ],
+      "formulas": [
+        {
+          "label": "Tangent slope",
+          "expr": "m = (dy/dx)_(x₁, y₁)"
+        },
+        {
+          "label": "Tangent equation",
+          "expr": "y − y₁ = m (x − x₁)"
+        },
+        {
+          "label": "Normal equation",
+          "expr": "y − y₁ = (−1/m) (x − x₁)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Derivative as a Rate Measure",
+      "tag": "formula",
+      "points": [
+        "Displacement s = f(t) ⟹ Velocity v = ds/dt; Acceleration a = dv/dt = d²s/dt² = v (dv/ds).",
+        "Rate of change of quantity y with respect to x is dy/dx.",
+        "Spherical Balloon: Volume V = (4/3)π r³ ⟹ dV/dt = 4π r² (dr/dt); Surface Area S = 4π r² ⟹ dS/dt = 8π r (dr/dt).",
+        "Sliding Ladder (length L): x² + y² = L² ⟹ 2x(dx/dt) + 2y(dy/dt) = 0 ⟹ dy/dt = −(x/y)(dx/dt).",
+        "Water leaking from inverted cone (semi-vertical angle α): r = h tanα ⟹ V = (1/3)π r² h = (1/3)π tan²α h³."
+      ],
+      "formulas": [
+        {
+          "label": "Acceleration relation",
+          "expr": "a = dv/dt = v (dv/ds)"
+        },
+        {
+          "label": "Sphere rate of volume",
+          "expr": "dV/dt = 4π r² (dr/dt)"
+        },
+        {
+          "label": "Ladder sliding rate",
+          "expr": "dy/dt = −(x/y) (dx/dt)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Approximations Using Differentials",
+      "tag": "formula",
+      "points": [
+        "Formula: f(a + h) ≈ f(a) + h · f'(a), where h is a small change in x (h = Δx).",
+        "Steps to approximate f(x):",
+        "1. Identify function f(x) and choose 'a' close to given value such that f(a) and f'(a) are exact numbers.",
+        "2. Calculate h = x − a (h can be positive or negative).",
+        "3. Compute f'(x) and evaluate f'(a).",
+        "4. Substitute into f(a + h) ≈ f(a) + h f'(a)."
+      ],
+      "formulas": [
+        {
+          "label": "Approximation formula",
+          "expr": "f(a + h) ≈ f(a) + h f'(a)"
+        },
+        {
+          "label": "Differential relation",
+          "expr": "Δy ≈ dy = f'(x) Δx"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Rolle's Theorem & Conditions",
+      "tag": "concept",
+      "points": [
+        "Statement: If a real-valued function f:[a, b] → ℝ satisfies:",
+        "1. f is CONTINUOUS on closed interval [a, b],",
+        "2. f is DIFFERENTIABLE on open interval (a, b),",
+        "3. f(a) = f(b),",
+        "Then there exists AT LEAST ONE point c ∈ (a, b) such that f'(c) = 0.",
+        "Geometric Interpretation: At point (c, f(c)), the tangent to the curve is HORIZONTAL (parallel to X-axis)."
+      ],
+      "formulas": [
+        {
+          "label": "Rolle's condition",
+          "expr": "f'(c) = 0 for some c ∈ (a, b)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Lagrange's Mean Value Theorem (LMVT)",
+      "tag": "formula",
+      "points": [
+        "Statement: If a function f:[a, b] → ℝ satisfies:",
+        "1. f is CONTINUOUS on closed interval [a, b],",
+        "2. f is DIFFERENTIABLE on open interval (a, b),",
+        "Then there exists AT LEAST ONE point c ∈ (a, b) such that f'(c) = [f(b) − f(a)] / (b − a).",
+        "Geometric Interpretation: At point (c, f(c)), the tangent is PARALLEL to the secant line (chord) joining endpoints (a, f(a)) and (b, f(b)).",
+        "Rolle's theorem is a special case of LMVT where f(a) = f(b)."
+      ],
+      "formulas": [
+        {
+          "label": "LMVT formula",
+          "expr": "f'(c) = [f(b) − f(a)] / (b − a)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Increasing and Decreasing Functions",
+      "tag": "concept",
+      "points": [
+        "Let f be continuous on [a, b] and differentiable on (a, b):",
+        "Strictly Increasing on [a, b] ⟺ f'(x) > 0 for all x ∈ (a, b).",
+        "Strictly Decreasing on [a, b] ⟺ f'(x) < 0 for all x ∈ (a, b).",
+        "Monotonic Function: Either entirely non-increasing or non-decreasing.",
+        "Critical Points: Points where f'(x) = 0 or f'(x) does not exist.",
+        "Finding intervals: Set f'(x) = 0, find critical numbers, test sign of f'(x) on each sub-interval using sign chart."
+      ],
+      "formulas": [
+        {
+          "label": "Increasing test",
+          "expr": "f'(x) > 0 ⟹ Strictly Increasing"
+        },
+        {
+          "label": "Decreasing test",
+          "expr": "f'(x) < 0 ⟹ Strictly Decreasing"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Maxima and Minima (First & Second Derivative Tests)",
+      "tag": "formula",
+      "points": [
+        "First Derivative Test: Let c be critical point (f'(c) = 0):",
+        "(1) If f'(x) changes sign from + to − as x increases through c ⟹ Local MAXIMUM at c.",
+        "(2) If f'(x) changes sign from − to + as x increases through c ⟹ Local MINIMUM at c.",
+        "(3) If f'(x) does not change sign ⟹ Point of Inflection.",
+        "Second Derivative Test (Most commonly used):",
+        "(1) If f'(c) = 0 and f''(c) < 0 ⟹ Local MAXIMUM at x = c; Maximum value = f(c).",
+        "(2) If f'(c) = 0 and f''(c) > 0 ⟹ Local MINIMUM at x = c; Minimum value = f(c).",
+        "(3) If f''(c) = 0, test is inconclusive (use First Derivative Test)."
+      ],
+      "formulas": [
+        {
+          "label": "Local maximum test",
+          "expr": "f'(c) = 0 and f''(c) < 0"
+        },
+        {
+          "label": "Local minimum test",
+          "expr": "f'(c) = 0 and f''(c) > 0"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Applied Optimization Problems",
+      "tag": "concept",
+      "points": [
+        "Steps for Optimization Word Problems:",
+        "1. Draw diagram and define variables.",
+        "2. Write formula for quantity to be optimized (e.g., Area, Volume, Cost).",
+        "3. Use constraint equation to eliminate one variable, expressing quantity as function of single variable f(x).",
+        "4. Differentiate, set f'(x) = 0, find critical point.",
+        "5. Verify maximum/minimum using second derivative test f''(x).",
+        "6. Compute required dimensions and maximum/minimum value."
+      ],
+      "formulas": [
+        {
+          "label": "Optimization condition",
+          "expr": "f'(x) = 0 with f''(x) sign check"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Questions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Verify Rolle's Theorem for f(x) = x² − 4x + 3 on [1, 3] and find c.",
+        "Board Favourite #2: Verify LMVT for f(x) = x³ − 5x² − 3x on [1, 3] and find c.",
+        "Board Favourite #3: Find the approximate value of √(64.12) or tan⁻¹(1.002) using differentials.",
+        "Board Favourite #4: Word problem: An open box of maximum volume is made from a square sheet of side 24 cm by cutting equal squares from corners.",
+        "Board Favourite #5: Find equation of tangent and normal to curve x = a cos³θ, y = a sin³θ at θ = π/4."
+      ],
+      "formulas": [
+        {
+          "label": "Rolle's verification",
+          "expr": "c ∈ (a, b) such that f'(c) = 0"
+        },
+        {
+          "label": "LMVT verification",
+          "expr": "f'(c) = [f(b) − f(a)] / (b − a)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Optimization Shortcuts & 10-Second Hacks",
+      "tag": "imp",
+      "points": [
+        "LMVT Midpoint Shortcut: For ANY quadratic function f(x) = Ax² + Bx + C on [a, b], value of c in LMVT is ALWAYS the EXACT MIDPOINT: c = (a + b) / 2.",
+        "Open Box Volume Hack: For a square sheet of side a, the cut-out corner square for maximum volume is ALWAYS x = a/6, and Max Volume = 2a³/27.",
+        "Largest Rectangle in Circle of radius R: It is ALWAYS a SQUARE of side R√2, with Maximum Area = 2R².",
+        "Largest Rectangle in Ellipse x²/a² + y²/b² = 1: Maximum Area = 2ab, dimensions a√2 × b√2.",
+        "Wire Partition Trick: Wire of length L cut into two parts to form square and circle: For minimum combined area, side of square = 2 × radius of circle."
+      ],
+      "formulas": [
+        {
+          "label": "LMVT quadratic hack",
+          "expr": "c = (a + b) / 2"
+        },
+        {
+          "label": "Open box corner cut",
+          "expr": "x = a / 6 ⟹ V_max = 2a³ / 27"
+        },
+        {
+          "label": "Rectangle in ellipse",
+          "expr": "Max Area = 2ab"
+        },
+        {
+          "label": "Rectangle in circle",
+          "expr": "Max Area = 2R² (Square)"
+        }
+      ]
+    }
+  ]
+}

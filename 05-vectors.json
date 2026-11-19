@@ -1,0 +1,258 @@
+{
+  "title": "Vectors",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Vector Basics, Direction Cosines & Ratios",
+      "tag": "concept",
+      "points": [
+        "Position vector: r = x î + y ĵ + z k̂, magnitude |r| = √(x² + y² + z²). Unit vector r̂ = r / |r|.",
+        "Direction angles α, β, γ: angles vector makes with positive X, Y, Z axes.",
+        "Direction Cosines (l, m, n): l = cosα, m = cosβ, n = cosγ.",
+        "Master Identity: l² + m² + n² = 1 ⟹ sin²α + sin²β + sin²γ = 2.",
+        "Direction Ratios (a, b, c): numbers proportional to direction cosines: l = a/√(a²+b²+c²), m = b/√(a²+b²+c²), n = c/√(a²+b²+c²)."
+      ],
+      "formulas": [
+        {
+          "label": "Direction cosines identity",
+          "expr": "l² + m² + n² = 1"
+        },
+        {
+          "label": "Direction angles sin identity",
+          "expr": "sin²α + sin²β + sin²γ = 2"
+        },
+        {
+          "label": "Unit vector",
+          "expr": "r̂ = (x î + y ĵ + z k̂) / √(x² + y² + z²)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Section Formula & Centroid Theorems",
+      "tag": "formula",
+      "points": [
+        "Internal Division: Point R(r) dividing AB in ratio m : n internally: r = (m b + n a) / (m + n).",
+        "External Division: Point R(r) dividing AB in ratio m : n externally: r = (m b − n a) / (m − n).",
+        "Midpoint Formula: m = (a + b) / 2.",
+        "Centroid of Triangle: g = (a + b + c) / 3.",
+        "Incentre of Triangle: i = (a a + b b + c c) / (a + b + c), where a, b, c are lengths of sides opposite A, B, C.",
+        "Centroid of Tetrahedron: g = (a + b + c + d) / 4."
+      ],
+      "formulas": [
+        {
+          "label": "Internal division",
+          "expr": "r = (m b + n a) / (m + n)"
+        },
+        {
+          "label": "External division",
+          "expr": "r = (m b − n a) / (m − n)"
+        },
+        {
+          "label": "Centroid of triangle",
+          "expr": "g = (a + b + c) / 3"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Collinearity & Coplanarity of Vectors",
+      "tag": "concept",
+      "points": [
+        "Collinear Vectors: Two non-zero vectors a and b are collinear if and only if a = k b (components proportional: a₁/b₁ = a₂/b₂ = a₃/b₃).",
+        "Three points A, B, C are collinear if and only if AB = k BC.",
+        "Coplanar Vectors: Three vectors a, b, c are coplanar if one can be expressed as linear combination of the other two: a = x b + y c.",
+        "Determinant condition for coplanarity: [a b c] = 0 (Scalar Triple Product = 0).",
+        "Four points A, B, C, D are coplanar if and only if [AB AC AD] = 0."
+      ],
+      "formulas": [
+        {
+          "label": "Collinear condition",
+          "expr": "a = k b ⟺ a × b = 0"
+        },
+        {
+          "label": "Coplanar condition",
+          "expr": "[a b c] = 0"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Dot (Scalar) Product & Projections",
+      "tag": "formula",
+      "points": [
+        "Definition: a · b = |a| |b| cosθ = a₁b₁ + a₂b₂ + a₃b₃.",
+        "Angle between vectors: cosθ = (a · b) / (|a| |b|).",
+        "Perpendicular (Orthogonal) Condition: a · b = 0 ⟹ a₁b₁ + a₂b₂ + a₃b₃ = 0.",
+        "Scalar Projection of a on b: p = (a · b) / |b|.",
+        "Vector Projection of a on b: p_vec = [(a · b) / |b|²] b.",
+        "Work done by force F in displacement d: W = F · d."
+      ],
+      "formulas": [
+        {
+          "label": "Dot product",
+          "expr": "a · b = a₁b₁ + a₂b₂ + a₃b₃ = |a| |b| cosθ"
+        },
+        {
+          "label": "Angle formula",
+          "expr": "cosθ = (a · b) / (|a| |b|)"
+        },
+        {
+          "label": "Scalar projection of a on b",
+          "expr": "p = (a · b) / |b|"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Cross (Vector) Product & Geometric Areas",
+      "tag": "formula",
+      "points": [
+        "Definition: a × b = |a| |b| sinθ n̂, where n̂ is unit normal vector given by right-hand rule.",
+        "Determinant form: a × b = det [[î, ĵ, k̂], [a₁, a₂, a₃], [b₁, b₂, b₃]].",
+        "Non-commutative: a × b = −(b × a). Parallel condition: a × b = 0.",
+        "Unit vector perpendicular to both a and b: n̂ = ± (a × b) / |a × b|.",
+        "Area of Parallelogram: (1) With adjacent sides a and b: Area = |a × b|; (2) With diagonals d₁ and d₂: Area = ½ |d₁ × d₂|.",
+        "Area of Triangle ABC: Area = ½ |AB × AC|.",
+        "Moment of Force (Torque): τ = r × F."
+      ],
+      "formulas": [
+        {
+          "label": "Cross product determinant",
+          "expr": "a × b = det [[î, ĵ, k̂], [a₁, a₂, a₃], [b₁, b₂, b₃]]"
+        },
+        {
+          "label": "Area of parallelogram",
+          "expr": "Area = |a × b| = ½ |d₁ × d₂|"
+        },
+        {
+          "label": "Area of triangle",
+          "expr": "Area = ½ |AB × AC|"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Scalar Triple Product (Box Product)",
+      "tag": "formula",
+      "points": [
+        "Definition: [a b c] = a · (b × c) = det [[a₁, a₂, a₃], [b₁, b₂, b₃], [c₁, c₂, c₃]].",
+        "Cyclic Permutation Invariant: [a b c] = [b c a] = [c a b].",
+        "Anti-cyclic change reverses sign: [a b c] = −[b a c] = −[a c b].",
+        "If any two vectors are equal or parallel: [a a b] = 0.",
+        "Volume of Parallelepiped with coterminous edges a, b, c: V = |[a b c]|.",
+        "Volume of Tetrahedron with coterminous edges a, b, c: V = (1/6) |[a b c]|."
+      ],
+      "formulas": [
+        {
+          "label": "Box product determinant",
+          "expr": "[a b c] = det [[a₁, a₂, a₃], [b₁, b₂, b₃], [c₁, c₂, c₃]]"
+        },
+        {
+          "label": "Volume of parallelepiped",
+          "expr": "V = |[a b c]|"
+        },
+        {
+          "label": "Volume of tetrahedron",
+          "expr": "V = (1/6) |[a b c]|"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Vector Triple Product & Identities",
+      "tag": "formula",
+      "points": [
+        "Definition: a × (b × c) = (a · c) b − (a · b) c ('BAC − CAB' rule).",
+        "Lie in the plane of b and c, and perpendicular to a.",
+        "Non-associative: a × (b × c) ≠ (a × b) × c in general.",
+        "(a × b) × c = (a · c) b − (b · c) a.",
+        "Jacobi's Identity: a × (b × c) + b × (c × a) + c × (a × b) = 0."
+      ],
+      "formulas": [
+        {
+          "label": "BAC-CAB identity",
+          "expr": "a × (b × c) = (a · c) b − (a · b) c"
+        },
+        {
+          "label": "Jacobi identity",
+          "expr": "a × (b × c) + b × (c × a) + c × (a × b) = 0"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Vector Geometry Applications",
+      "tag": "concept",
+      "points": [
+        "Medians of a triangle are concurrent (intersect at centroid G, dividing each median in ratio 2 : 1).",
+        "Altitudes of a triangle are concurrent (intersect at orthocentre H).",
+        "Perpendicular bisectors of sides of a triangle are concurrent (intersect at circumcentre O).",
+        "Euler Line: Centroid G divides segment joining circumcentre O and orthocentre H in ratio 1 : 2 (OG : GH = 1 : 2).",
+        "Angle in a semicircle is a right angle (proved using dot product: r₁ · r₂ = 0).",
+        "Diagonals of a rhombus are perpendicular to each other."
+      ],
+      "formulas": [
+        {
+          "label": "Euler line ratio",
+          "expr": "OG : GH = 1 : 2"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Vector Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Prove vector Section Formula for internal division: r = (m b + n a)/(m + n).",
+        "Board Favourite #2: Prove that medians of a triangle are concurrent using vector method.",
+        "Board Favourite #3: Prove by vector method: cos(A − B) = cosA cosB + sinA sinB.",
+        "Board Favourite #4: Prove Apollonius Theorem using vectors: |AB|² + |AC|² = 2(|AM|² + |BM|²).",
+        "Board Favourite #5: Prove that the angle subtended by a diameter on a semicircle is a right angle using vectors."
+      ],
+      "formulas": [
+        {
+          "label": "Section formula proof",
+          "expr": "r = (m b + n a) / (m + n)"
+        },
+        {
+          "label": "Apollonius vector proof",
+          "expr": "AB² + AC² = 2(AM² + BM²)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Lagrange's Identity & Triple Hacks",
+      "tag": "imp",
+      "points": [
+        "Lagrange's Identity: |a × b|² = |a|² |b|² − (a · b)² ⟹ |a × b|² + (a · b)² = |a|² |b|².",
+        "Collinear Sum Vector Trick: If a + b + c = 0, then a × b = b × c = c × a.",
+        "Box Product Sum Shortcut: [a + b, b + c, c + a] = 2 [a b c].",
+        "Cross Product Box Shortcut: [a × b, b × c, c × a] = [a b c]².",
+        "Perpendicular Magnitude Shortcut: If |a + b| = |a − b|, then a ⊥ b (a · b = 0).",
+        "Unit Vector Equilateral Trick: If â, b̂, ĉ are unit vectors such that â + b̂ + ĉ = 0, then â · b̂ + b̂ · ĉ + ĉ · â = −3/2."
+      ],
+      "formulas": [
+        {
+          "label": "Lagrange's identity",
+          "expr": "|a × b|² + (a · b)² = |a|² |b|²"
+        },
+        {
+          "label": "Box sum shortcut",
+          "expr": "[a + b, b + c, c + a] = 2 [a b c]"
+        },
+        {
+          "label": "Box cross shortcut",
+          "expr": "[a × b, b × c, c × a] = [a b c]²"
+        },
+        {
+          "label": "Unit vectors dot sum",
+          "expr": "â · b̂ + b̂ · ĉ + ĉ · â = −3/2 (if sum = 0)"
+        }
+      ]
+    }
+  ]
+}

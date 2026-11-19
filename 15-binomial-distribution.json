@@ -1,0 +1,238 @@
+{
+  "title": "Binomial Distribution",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Bernoulli Trials & Conditions",
+      "tag": "concept",
+      "points": [
+        "An experiment consists of repeated trials. A sequence of trials is called Bernoulli Trials if:",
+        "1. The number of trials 'n' is FINITE and fixed in advance.",
+        "2. Each trial has exactly TWO mutually exclusive and exhaustive outcomes: Success (S) and Failure (F).",
+        "3. The probability of success 'p' remains CONSTANT in every trial.",
+        "4. All trials are INDEPENDENT of each other.",
+        "Probability of failure: q = 1 − p ⟹ p + q = 1."
+      ],
+      "formulas": [
+        {
+          "label": "Complementary probabilities",
+          "expr": "p + q = 1 ⟹ q = 1 − p"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Binomial Random Variable & Notation",
+      "tag": "concept",
+      "points": [
+        "Let X denote the number of successes in n Bernoulli trials.",
+        "Then X is called a Binomial Random Variable, denoted: X ~ B(n, p).",
+        "Parameters of Binomial Distribution: Two parameters: n (number of trials) and p (probability of success).",
+        "Possible values taken by X: x ∈ {0, 1, 2, 3, ..., n} (total n + 1 possible values)."
+      ],
+      "formulas": [
+        {
+          "label": "Binomial notation",
+          "expr": "X ~ B(n, p)"
+        },
+        {
+          "label": "Values of X",
+          "expr": "x ∈ {0, 1, 2, ..., n}"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Probability Mass Function of B(n, p)",
+      "tag": "formula",
+      "points": [
+        "The PMF of X ~ B(n, p) is given by:",
+        "P(X = x) = p(x) = ⁿC_x · pˣ · q^(n − x), for x = 0, 1, 2, ..., n.",
+        "Combination formula: ⁿC_x = n! / [x! (n − x)!].",
+        "Total Probability Verification: ∑_(x=0)ⁿ P(X = x) = ∑ ⁿC_x pˣ q^(n−x) = (q + p)ⁿ = 1ⁿ = 1 (Binomial expansion).",
+        "Special Values: P(X = 0) = qⁿ; P(X = n) = pⁿ."
+      ],
+      "formulas": [
+        {
+          "label": "Binomial PMF",
+          "expr": "P(X = x) = ⁿC_x pˣ q^(n − x)"
+        },
+        {
+          "label": "Zero successes",
+          "expr": "P(X = 0) = qⁿ = (1 − p)ⁿ"
+        },
+        {
+          "label": "All successes",
+          "expr": "P(X = n) = pⁿ"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Mean and Variance of Binomial Distribution",
+      "tag": "formula",
+      "points": [
+        "Expected Value (Mean): E[X] = μ = n p.",
+        "Variance: V(X) = σ² = n p q = n p (1 − p).",
+        "Standard Deviation: σ = √(n p q).",
+        "FUNDAMENTAL PROPERTY: For any Binomial Distribution, Variance is ALWAYS strictly LESS than Mean: V(X) < E[X] ⟹ n p q < n p (since q < 1).",
+        "If Variance ≥ Mean in any problem, it CANNOT be a binomial distribution!"
+      ],
+      "formulas": [
+        {
+          "label": "Binomial Mean",
+          "expr": "E[X] = μ = n p"
+        },
+        {
+          "label": "Binomial Variance",
+          "expr": "V(X) = σ² = n p q"
+        },
+        {
+          "label": "Binomial SD",
+          "expr": "σ = √(n p q)"
+        },
+        {
+          "label": "Fundamental inequality",
+          "expr": "Variance < Mean (n p q < n p)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "'At Least' and 'At Most' Probabilities",
+      "tag": "formula",
+      "points": [
+        "At Least k Successes: P(X ≥ k) = P(X = k) + P(X = k+1) + ... + P(X = n).",
+        "Master Shortcut for 'At Least 1 Success':",
+        "P(X ≥ 1) = 1 − P(X = 0) = 1 − qⁿ.",
+        "At Most k Successes: P(X ≤ k) = P(X = 0) + P(X = 1) + ... + P(X = k).",
+        "At Most 1 Success: P(X ≤ 1) = P(X = 0) + P(X = 1) = qⁿ + n p q^(n−1)."
+      ],
+      "formulas": [
+        {
+          "label": "At least 1 success",
+          "expr": "P(X ≥ 1) = 1 − qⁿ"
+        },
+        {
+          "label": "At least k successes",
+          "expr": "P(X ≥ k) = 1 − P(X < k)"
+        },
+        {
+          "label": "At most 1 success",
+          "expr": "P(X ≤ 1) = qⁿ + n p q^(n−1)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Maximum Variance of B(n, p)",
+      "tag": "formula",
+      "points": [
+        "Variance V(X) = n p (1 − p) = n(p − p²).",
+        "To maximize V(X), differentiate with respect to p: d/dp(p − p²) = 1 − 2p = 0 ⟹ p = ½.",
+        "Thus, for a given n, the variance is MAXIMUM when p = q = ½.",
+        "Maximum Variance Value: V_max = n(½)(½) = n / 4.",
+        "Example: For n = 16 trials, maximum possible variance is 16/4 = 4."
+      ],
+      "formulas": [
+        {
+          "label": "Maximum variance condition",
+          "expr": "p = q = ½"
+        },
+        {
+          "label": "Maximum variance formula",
+          "expr": "V_max = n / 4"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Recurrence Relation for Binomial Probabilities",
+      "tag": "formula",
+      "points": [
+        "Ratio of consecutive probabilities:",
+        "P(X = x + 1) / P(X = x) = [ⁿC_(x+1) p^(x+1) q^(n−x−1)] / [ⁿC_x pˣ q^(n−x)] = [(n − x) / (x + 1)] · (p / q).",
+        "Recurrence Formula: P(X = x + 1) = [(n − x) / (x + 1)] · (p / q) · P(X = x).",
+        "Enables rapid step-by-step computation of the distribution table without recalculating large factorials."
+      ],
+      "formulas": [
+        {
+          "label": "Recurrence relation",
+          "expr": "P(X = x + 1) = [(n − x) / (x + 1)] (p / q) P(X = x)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Symmetry & Most Probable Value (Mode)",
+      "tag": "concept",
+      "points": [
+        "Symmetrical Distribution: When p = q = ½, the distribution is perfectly symmetrical about mean n/2.",
+        "Skewed Distribution: If p < ½, positively skewed (tail to right); if p > ½, negatively skewed (tail to left).",
+        "Mode (Most Probable Number of Successes):",
+        "Value of x for which P(X = x) is maximum.",
+        "If (n + 1)p is not an integer, mode is the integer part of (n + 1)p: Mode = ⌊(n + 1)p⌋.",
+        "If (n + 1)p is an integer m, the distribution is bimodal with modes at m − 1 and m."
+      ],
+      "formulas": [
+        {
+          "label": "Mode condition",
+          "expr": "(n + 1)p − 1 ≤ Mode ≤ (n + 1)p"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Problems",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: A die is thrown 6 times. If 'getting an odd number' is a success, find probability of: (1) 5 successes, (2) at least 5 successes, (3) at most 5 successes.",
+        "Board Favourite #2: For a binomial distribution, Mean = 4 and Variance = 2. Find n, p, and P(X = 2).",
+        "Board Favourite #3: The probability that a bulb is defective is 0.1. In a sample of 5 bulbs, find probability that: (1) none is defective, (2) at least one is defective.",
+        "Board Favourite #4: How many times must a fair coin be tossed so that the probability of getting at least one head is more than 90%? (Use 1 − (½)ⁿ > 0.9 ⟹ (½)ⁿ < 0.1 ⟹ 2ⁿ > 10 ⟹ n ≥ 4).",
+        "Board Presentation Tip: Always write: 'Let X = number of successes, n = ..., p = ..., q = ..., X ~ B(n, p)'."
+      ],
+      "formulas": [
+        {
+          "label": "Find n and p",
+          "expr": "q = V(X) / E[X] , p = 1 − q , n = E[X] / p"
+        },
+        {
+          "label": "Coin toss at least 1 head",
+          "expr": "1 − (½)ⁿ > Target Probability"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET 10-Second Binomial Hacks & Traps",
+      "tag": "imp",
+      "points": [
+        "Parameter Extraction Hack: Given Mean μ and Variance σ²:",
+        "1. q = σ² / μ (instantly in 1 second!).",
+        "2. p = 1 − q.",
+        "3. n = μ / p.",
+        "Example: Mean = 6, Variance = 2 ⟹ q = 2/6 = 1/3 ⟹ p = 2/3 ⟹ n = 6 / (2/3) = 9.",
+        "Impossibility Trap: Question: 'Can a binomial distribution have Mean = 6 and Variance = 8?' ⟹ Answer: NO! Variance must be less than Mean (npq < np).",
+        "Equal Probabilities Shortcut: If P(X = 1) = P(X = 2) for X ~ B(n, p): ⁿC₁ p q^(n−1) = ⁿC₂ p² q^(n−2) ⟹ n q = [n(n − 1)/2] p ⟹ 2q = (n − 1)p.",
+        "At Least 1 Success Shortcut: P(X ≥ 1) = 1 − qⁿ."
+      ],
+      "formulas": [
+        {
+          "label": "q shortcut",
+          "expr": "q = Variance / Mean"
+        },
+        {
+          "label": "n shortcut",
+          "expr": "n = Mean² / (Mean − Variance)"
+        },
+        {
+          "label": "At least 1 hack",
+          "expr": "P(X ≥ 1) = 1 − qⁿ"
+        }
+      ]
+    }
+  ]
+}

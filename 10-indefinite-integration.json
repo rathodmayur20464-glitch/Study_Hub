@@ -1,0 +1,263 @@
+{
+  "title": "Indefinite Integration",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Fundamental Integrals & Anti-derivatives",
+      "tag": "formula",
+      "points": [
+        "Definition: ∫ f(x) dx = F(x) + c ⟺ d/dx[F(x) + c] = f(x).",
+        "Algebraic: ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + c (n ≠ −1); ∫ (1/x) dx = ln|x| + c; ∫ (1/√x) dx = 2√x + c.",
+        "Exponential: ∫ eˣ dx = eˣ + c; ∫ aˣ dx = aˣ / ln a + c.",
+        "Trigonometric: ∫ sin x dx = −cos x + c; ∫ cos x dx = sin x + c; ∫ sec²x dx = tan x + c; ∫ cosec²x dx = −cot x + c; ∫ sec x tan x dx = sec x + c; ∫ cosec x cot x dx = −cosec x + c.",
+        "Linear Extension: If ∫ f(x) dx = F(x) + c, then ∫ f(ax + b) dx = (1/a) F(ax + b) + c."
+      ],
+      "formulas": [
+        {
+          "label": "Power rule",
+          "expr": "∫ xⁿ dx = xⁿ⁺¹ / (n + 1) + c (n ≠ −1)"
+        },
+        {
+          "label": "Logarithmic integral",
+          "expr": "∫ (1/x) dx = ln|x| + c"
+        },
+        {
+          "label": "Linear argument",
+          "expr": "∫ f(ax + b) dx = (1/a) F(ax + b) + c"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Integration by Substitution",
+      "tag": "formula",
+      "points": [
+        "Formula: ∫ f(g(x)) g'(x) dx = ∫ f(t) dt, where t = g(x) and dt = g'(x) dx.",
+        "Master Derivative/Function Forms:",
+        "1. ∫ [f'(x) / f(x)] dx = ln|f(x)| + c (Numerator is derivative of denominator).",
+        "2. ∫ [f'(x) / √f(x)] dx = 2√f(x) + c.",
+        "3. ∫ [f(x)]ⁿ f'(x) dx = [f(x)]ⁿ⁺¹ / (n + 1) + c.",
+        "Integrals of Other Trig Functions:",
+        "∫ tan x dx = ln|sec x| + c = −ln|cos x| + c.",
+        "∫ cot x dx = ln|sin x| + c.",
+        "∫ sec x dx = ln|sec x + tan x| + c = ln|tan(π/4 + x/2)| + c.",
+        "∫ cosec x dx = ln|cosec x − cot x| + c = ln|tan(x/2)| + c."
+      ],
+      "formulas": [
+        {
+          "label": "f'/f theorem",
+          "expr": "∫ [f'(x) / f(x)] dx = ln|f(x)| + c"
+        },
+        {
+          "label": "f'/√f theorem",
+          "expr": "∫ [f'(x) / √f(x)] dx = 2√f(x) + c"
+        },
+        {
+          "label": "∫ sec x dx",
+          "expr": "ln|sec x + tan x| + c"
+        },
+        {
+          "label": "∫ cosec x dx",
+          "expr": "ln|cosec x − cot x| + c"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Integrals of Special Rational Functions",
+      "tag": "formula",
+      "points": [
+        "1. ∫ [1 / (x² + a²)] dx = (1/a) tan⁻¹(x/a) + c.",
+        "2. ∫ [1 / (x² − a²)] dx = [1 / (2a)] ln|(x − a) / (x + a)| + c.",
+        "3. ∫ [1 / (a² − x²)] dx = [1 / (2a)] ln|(a + x) / (a − x)| + c.",
+        "Completing Square Technique for 1 / (ax² + bx + c):",
+        "Third term to add and subtract: (½ × coefficient of x)² = (b / 2a)².",
+        "Express denominator as (x ± α)² ± β² and apply one of the three formulas above."
+      ],
+      "formulas": [
+        {
+          "label": "∫ 1/(x²+a²)",
+          "expr": "(1/a) tan⁻¹(x/a) + c"
+        },
+        {
+          "label": "∫ 1/(x²−a²)",
+          "expr": "[1/(2a)] ln|(x − a)/(x + a)| + c"
+        },
+        {
+          "label": "∫ 1/(a²−x²)",
+          "expr": "[1/(2a)] ln|(a + x)/(a − x)| + c"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Integrals of Special Irrational Functions",
+      "tag": "formula",
+      "points": [
+        "1. ∫ [1 / √(a² − x²)] dx = sin⁻¹(x/a) + c.",
+        "2. ∫ [1 / √(x² + a²)] dx = ln|x + √(x² + a²)| + c.",
+        "3. ∫ [1 / √(x² − a²)] dx = ln|x + √(x² − a²)| + c.",
+        "Completing the square inside square root for 1 / √(ax² + bx + c):",
+        "Factor out 'a' (if a > 0), complete square, and apply appropriate formula.",
+        "Remember: sin⁻¹(x/a) does NOT have a 1/a factor outside!"
+      ],
+      "formulas": [
+        {
+          "label": "∫ 1/√(a²−x²)",
+          "expr": "sin⁻¹(x/a) + c"
+        },
+        {
+          "label": "∫ 1/√(x²+a²)",
+          "expr": "ln|x + √(x² + a²)| + c"
+        },
+        {
+          "label": "∫ 1/√(x²−a²)",
+          "expr": "ln|x + √(x² − a²)| + c"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Integrals of Type (px + q) / (ax² + bx + c)",
+      "tag": "formula",
+      "points": [
+        "Applies to forms: ∫ [(px + q) / (ax² + bx + c)] dx and ∫ [(px + q) / √(ax² + bx + c)] dx.",
+        "Method: Express numerator as:",
+        "px + q = A · d/dx(ax² + bx + c) + B = A(2ax + b) + B.",
+        "Equate coefficients of x and constant terms to find A and B.",
+        "Split integral into two parts: Part 1 uses substitution (∫ f'/f or ∫ f'/√f); Part 2 uses completing the square."
+      ],
+      "formulas": [
+        {
+          "label": "Numerator decomposition",
+          "expr": "px + q = A(2ax + b) + B"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Integration by Parts (LIATE Rule)",
+      "tag": "formula",
+      "points": [
+        "Formula: ∫ u v dx = u ∫ v dx − ∫ [u' · (∫ v dx)] dx.",
+        "Order of precedence for choosing 1st function 'u' (LIATE):",
+        "L = Logarithmic functions (ln x)",
+        "I = Inverse trigonometric functions (sin⁻¹x, tan⁻¹x)",
+        "A = Algebraic functions (xⁿ, x² + 1)",
+        "T = Trigonometric functions (sin x, cos x)",
+        "E = Exponential functions (eˣ, aˣ).",
+        "If only a single inverse trig or log function is present (e.g., ∫ ln x dx), take 'v = 1'."
+      ],
+      "formulas": [
+        {
+          "label": "Integration by parts",
+          "expr": "∫ u v dx = u ∫ v dx − ∫ [u' (∫ v dx)] dx"
+        },
+        {
+          "label": "LIATE order",
+          "expr": "Logarithmic > Inverse > Algebraic > Trig > Exponential"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "The Master Exponential Form: eˣ[f(x) + f'(x)]",
+      "tag": "formula",
+      "points": [
+        "Theorem: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + c.",
+        "Generalized Form: ∫ e^(kx) [k f(x) + f'(x)] dx = e^(kx) f(x) + c.",
+        "Classic Examples:",
+        "1. ∫ eˣ (tan x + sec²x) dx = eˣ tan x + c.",
+        "2. ∫ eˣ (1/x − 1/x²) dx = eˣ (1/x) + c.",
+        "3. ∫ eˣ [(x − 1) / (x + 1)³] dx = eˣ / (x + 1)² + c.",
+        "4. ∫ eˣ [(1 + sin x) / (1 + cos x)] dx = eˣ tan(x/2) + c."
+      ],
+      "formulas": [
+        {
+          "label": "Master exponential theorem",
+          "expr": "∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + c"
+        },
+        {
+          "label": "Scaled exponential form",
+          "expr": "∫ e^(kx) [k f(x) + f'(x)] dx = e^(kx) f(x) + c"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Three Special Square Root Integrals",
+      "tag": "formula",
+      "points": [
+        "1. ∫ √(a² − x²) dx = (x/2) √(a² − x²) + (a²/2) sin⁻¹(x/a) + c.",
+        "2. ∫ √(x² + a²) dx = (x/2) √(x² + a²) + (a²/2) ln|x + √(x² + a²)| + c.",
+        "3. ∫ √(x² − a²) dx = (x/2) √(x² − a²) − (a²/2) ln|x + √(x² − a²)| + c.",
+        "Mnemonic: Every formula starts with (x/2) × (same radical), followed by ± (a²/2) × (corresponding 1/√ integral)."
+      ],
+      "formulas": [
+        {
+          "label": "∫ √(a²−x²)",
+          "expr": "(x/2)√(a²−x²) + (a²/2) sin⁻¹(x/a) + c"
+        },
+        {
+          "label": "∫ √(x²+a²)",
+          "expr": "(x/2)√(x²+a²) + (a²/2) ln|x + √(x²+a²)| + c"
+        },
+        {
+          "label": "∫ √(x²−a²)",
+          "expr": "(x/2)√(x²−a²) − (a²/2) ln|x + √(x²−a²)| + c"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Theorem: Prove integration by parts formula: ∫ uv dx = u ∫ v dx − ∫ [u' (∫ v dx)] dx.",
+        "Board Favourite #2: Theorem: Prove ∫ [1 / (x² + a²)] dx = (1/a) tan⁻¹(x/a) + c.",
+        "Board Favourite #3: Theorem: Prove ∫ [1 / √(a² − x²)] dx = sin⁻¹(x/a) + c.",
+        "Board Favourite #4: Theorem: Prove ∫ √(a² − x²) dx = (x/2)√(a² − x²) + (a²/2) sin⁻¹(x/a) + c.",
+        "Board Favourite #5: Theorem: Prove ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + c."
+      ],
+      "formulas": [
+        {
+          "label": "Parts theorem proof",
+          "expr": "Integrate d/dx[u · w] where w = ∫ v dx"
+        },
+        {
+          "label": "eˣ theorem proof",
+          "expr": "d/dx[eˣ f(x)] = eˣ f(x) + eˣ f'(x)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Cover-Up Rule & Standard Hacks",
+      "tag": "imp",
+      "points": [
+        "Heaviside Cover-Up Rule for Partial Fractions: To find A in 1 / [(x − a)(x − b)]: Cover (x − a) and put x = a ⟹ A = 1 / (a − b).",
+        "Standard Shortcut #1: ∫ [dx / (x(xⁿ + 1))] = (1/n) ln|xⁿ / (xⁿ + 1)| + c.",
+        "Standard Shortcut #2: ∫ [dx / (x(xⁿ − 1))] = (1/n) ln|(xⁿ − 1) / xⁿ| + c.",
+        "Standard Shortcut #3: ∫ e^(ax) sin(bx) dx = [e^(ax) / (a² + b²)] [a sin(bx) − b cos(bx)] + c.",
+        "Standard Shortcut #4: ∫ e^(ax) cos(bx) dx = [e^(ax) / (a² + b²)] [a cos(bx) + b sin(bx)] + c.",
+        "Trig Linear Combination Shortcut: ∫ [(a sin x + b cos x) / (c sin x + d cos x)] dx = [(ac + bd)/(c² + d²)] x + [(bc − ad)/(c² + d²)] ln|c sin x + d cos x| + c."
+      ],
+      "formulas": [
+        {
+          "label": "∫ dx / [x(xⁿ+1)] hack",
+          "expr": "(1/n) ln|xⁿ / (xⁿ + 1)| + c"
+        },
+        {
+          "label": "e^(ax) sin(bx) hack",
+          "expr": "[e^(ax) / (a² + b²)] [a sin(bx) − b cos(bx)] + c"
+        },
+        {
+          "label": "Trig ratio hack",
+          "expr": "[(ac+bd)/(c²+d²)] x + [(bc−ad)/(c²+d²)] ln|denom| + c"
+        }
+      ]
+    }
+  ]
+}

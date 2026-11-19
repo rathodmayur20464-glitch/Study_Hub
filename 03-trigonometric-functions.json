@@ -1,0 +1,265 @@
+{
+  "title": "Trigonometric Functions",
+  "subject": "Mathematics",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "General Solutions of Trigonometric Equations",
+      "tag": "formula",
+      "points": [
+        "Principal solutions: Solutions θ satisfying 0 ≤ θ < 2π.",
+        "Zero Solutions (n ∈ ℤ): sinθ = 0 ⟹ θ = nπ; cosθ = 0 ⟹ θ = (2n + 1)π/2; tanθ = 0 ⟹ θ = nπ.",
+        "Non-Zero General Solutions:",
+        "1. sinθ = sinα ⟹ θ = nπ + (−1)ⁿ α.",
+        "2. cosθ = cosα ⟹ θ = 2nπ ± α.",
+        "3. tanθ = tanα ⟹ θ = nπ + α.",
+        "Squared Equations (Very Useful!): sin²θ = sin²α, cos²θ = cos²α, or tan²θ = tan²α ⟹ θ = nπ ± α."
+      ],
+      "formulas": [
+        {
+          "label": "sin general solution",
+          "expr": "sinθ = sinα ⟹ θ = nπ + (−1)ⁿ α"
+        },
+        {
+          "label": "cos general solution",
+          "expr": "cosθ = cosα ⟹ θ = 2nπ ± α"
+        },
+        {
+          "label": "tan general solution",
+          "expr": "tanθ = tanα ⟹ θ = nπ + α"
+        },
+        {
+          "label": "Squared general solution",
+          "expr": "sin²θ = sin²α ⟹ θ = nπ ± α"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Polar Coordinates & Solution of Triangles",
+      "tag": "formula",
+      "points": [
+        "Cartesian (x, y) to Polar (r, θ): r = √(x² + y²); tanθ = y/x.",
+        "Quadrant rule for polar angle θ: (1) 1st quad: θ = α; (2) 2nd quad: θ = π − α; (3) 3rd quad: θ = π + α; (4) 4th quad: θ = 2π − α, where α = tan⁻¹|y/x|.",
+        "Polar to Cartesian: x = r cosθ, y = r sinθ.",
+        "In any triangle ABC: A + B + C = π; sides opposite angles are a, b, c."
+      ],
+      "formulas": [
+        {
+          "label": "Polar radius",
+          "expr": "r = √(x² + y²)"
+        },
+        {
+          "label": "Cartesian conversion",
+          "expr": "x = r cosθ , y = r sinθ"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Sine Rule & Area of Triangle",
+      "tag": "formula",
+      "points": [
+        "Sine Rule: In ΔABC, a / sinA = b / sinB = c / sinC = 2R, where R is circumradius of ΔABC.",
+        "Side transformations: a = 2R sinA, b = 2R sinB, c = 2R sinC.",
+        "Angle transformations: sinA = a / 2R, sinB = b / 2R, sinC = c / 2R.",
+        "Area of triangle Δ: Δ = ½ ab sinC = ½ bc sinA = ½ ac sinB.",
+        "Area in terms of circumradius: Δ = abc / (4R)."
+      ],
+      "formulas": [
+        {
+          "label": "Sine rule",
+          "expr": "a / sinA = b / sinB = c / sinC = 2R"
+        },
+        {
+          "label": "Area of triangle",
+          "expr": "Δ = ½ ab sinC = abc / (4R)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Cosine Rule & Projection Rule",
+      "tag": "formula",
+      "points": [
+        "Cosine Rule gives angles from sides:",
+        "cosA = (b² + c² − a²) / (2bc).",
+        "cosB = (c² + a² − b²) / (2ca).",
+        "cosC = (a² + b² − c²) / (2ab).",
+        "Alternative forms: a² = b² + c² − 2bc cosA; b² = c² + a² − 2ca cosB; c² = a² + b² − 2ab cosC.",
+        "Projection Rule expresses a side as sum of projections of other two sides:",
+        "a = b cosC + c cosB; b = c cosA + a cosC; c = a cosB + b cosA."
+      ],
+      "formulas": [
+        {
+          "label": "Cosine rule (cosA)",
+          "expr": "cosA = (b² + c² − a²) / (2bc)"
+        },
+        {
+          "label": "Projection rule (a)",
+          "expr": "a = b cosC + c cosB"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Half-Angle Formulas & Napier's Analogy",
+      "tag": "formula",
+      "points": [
+        "Let semi-perimeter s = (a + b + c) / 2.",
+        "Half-Angle Sine: sin(A/2) = √[(s − b)(s − c) / (bc)].",
+        "Half-Angle Cosine: cos(A/2) = √[s(s − a) / (bc)].",
+        "Half-Angle Tangent: tan(A/2) = √[(s − b)(s − c) / (s(s − a))] = Δ / [s(s − a)].",
+        "Heron's Formula for Area: Δ = √[s(s − a)(s − b)(s − c)].",
+        "Napier's Analogy (Law of Tangents): tan[(B − C)/2] = [(b − c)/(b + c)] cot(A/2); tan[(C − A)/2] = [(c − a)/(c + a)] cot(B/2); tan[(A − B)/2] = [(a − b)/(a + b)] cot(C/2)."
+      ],
+      "formulas": [
+        {
+          "label": "Half-angle sin(A/2)",
+          "expr": "sin(A/2) = √[(s − b)(s − c) / (bc)]"
+        },
+        {
+          "label": "Half-angle cos(A/2)",
+          "expr": "cos(A/2) = √[s(s − a) / (bc)]"
+        },
+        {
+          "label": "Napier's analogy",
+          "expr": "tan[(B − C)/2] = [(b − c)/(b + c)] cot(A/2)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Inverse Trigonometric Functions: Domains & Ranges",
+      "tag": "concept",
+      "points": [
+        "sin⁻¹x: Domain [−1, 1], Principal Range [−π/2, π/2].",
+        "cos⁻¹x: Domain [−1, 1], Principal Range [0, π].",
+        "tan⁻¹x: Domain ℝ, Principal Range (−π/2, π/2).",
+        "cot⁻¹x: Domain ℝ, Principal Range (0, π).",
+        "sec⁻¹x: Domain ℝ − (−1, 1), Principal Range [0, π] − {π/2}.",
+        "cosec⁻¹x: Domain ℝ − (−1, 1), Principal Range [−π/2, π/2] − {0}.",
+        "Self-Inversion: sin(sin⁻¹x) = x for x ∈ [−1, 1]; sin⁻¹(sinθ) = θ ONLY when θ ∈ [−π/2, π/2]."
+      ],
+      "formulas": [
+        {
+          "label": "sin⁻¹ range",
+          "expr": "[−π/2, π/2]"
+        },
+        {
+          "label": "cos⁻¹ range",
+          "expr": "[0, π]"
+        },
+        {
+          "label": "tan⁻¹ range",
+          "expr": "(−π/2, π/2)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Properties of Inverse Trigonometric Functions",
+      "tag": "formula",
+      "points": [
+        "Negative Argument (Group 1 - Odd functions): sin⁻¹(−x) = −sin⁻¹x; tan⁻¹(−x) = −tan⁻¹x; cosec⁻¹(−x) = −cosec⁻¹x.",
+        "Negative Argument (Group 2 - π shift): cos⁻¹(−x) = π − cos⁻¹x; cot⁻¹(−x) = π − cot⁻¹x; sec⁻¹(−x) = π − sec⁻¹x.",
+        "Reciprocal Relations: sin⁻¹(1/x) = cosec⁻¹x; cos⁻¹(1/x) = sec⁻¹x; tan⁻¹(1/x) = cot⁻¹x (for x > 0).",
+        "Complementary Angles (Sum = π/2): sin⁻¹x + cos⁻¹x = π/2; tan⁻¹x + cot⁻¹x = π/2; sec⁻¹x + cosec⁻¹x = π/2."
+      ],
+      "formulas": [
+        {
+          "label": "cos⁻¹(−x)",
+          "expr": "cos⁻¹(−x) = π − cos⁻¹x"
+        },
+        {
+          "label": "Complementary 1",
+          "expr": "sin⁻¹x + cos⁻¹x = π/2"
+        },
+        {
+          "label": "Complementary 2",
+          "expr": "tan⁻¹x + cot⁻¹x = π/2"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Addition & Multiple Formulas for Inverse Trig",
+      "tag": "formula",
+      "points": [
+        "Addition of tan⁻¹: tan⁻¹x + tan⁻¹y = tan⁻¹[(x + y) / (1 − xy)] (valid when xy < 1).",
+        "If x > 0, y > 0 and xy > 1: tan⁻¹x + tan⁻¹y = π + tan⁻¹[(x + y) / (1 − xy)].",
+        "Subtraction of tan⁻¹: tan⁻¹x − tan⁻¹y = tan⁻¹[(x − y) / (1 + xy)] (valid when xy > −1).",
+        "Double Angle tan⁻¹ identities: 2 tan⁻¹x = tan⁻¹[2x / (1 − x²)] = sin⁻¹[2x / (1 + x²)] = cos⁻¹[(1 − x²) / (1 + x²)]."
+      ],
+      "formulas": [
+        {
+          "label": "tan⁻¹ addition (xy < 1)",
+          "expr": "tan⁻¹x + tan⁻¹y = tan⁻¹[(x + y) / (1 − xy)]"
+        },
+        {
+          "label": "tan⁻¹ addition (xy > 1)",
+          "expr": "tan⁻¹x + tan⁻¹y = π + tan⁻¹[(x + y) / (1 − xy)]"
+        },
+        {
+          "label": "2 tan⁻¹x identities",
+          "expr": "2 tan⁻¹x = sin⁻¹[2x/(1+x²)] = cos⁻¹[(1−x²)/(1+x²)]"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Theorems & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: State and prove the Sine Rule: a/sinA = b/sinB = c/sinC = 2R.",
+        "Board Favourite #2: State and prove the Cosine Rule: a² = b² + c² − 2bc cosA.",
+        "Board Favourite #3: State and prove the Projection Rule: a = b cosC + c cosB.",
+        "Board Favourite #4: Prove that tan⁻¹x + tan⁻¹y = tan⁻¹[(x + y)/(1 − xy)] for xy < 1.",
+        "Board Favourite #5: Prove that sin⁻¹x + cos⁻¹x = π/2 for x ∈ [−1, 1]."
+      ],
+      "formulas": [
+        {
+          "label": "Sine rule proof",
+          "expr": "a / sinA = 2R"
+        },
+        {
+          "label": "Cosine rule proof",
+          "expr": "b² + c² − 2bc cosA = a²"
+        },
+        {
+          "label": "Projection proof",
+          "expr": "b cosC + c cosB = a"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Range Traps, Shortcuts & Triangle Tricks",
+      "tag": "imp",
+      "points": [
+        "Range Trap #1: sin⁻¹(sin(2π/3)) ≠ 2π/3! Since 2π/3 ∉ [−π/2, π/2], rewrite as sin⁻¹(sin(π − π/3)) = sin⁻¹(sin(π/3)) = π/3.",
+        "Range Trap #2: cos⁻¹(cos(7π/6)) ≠ 7π/6! Since 7π/6 ∉ [0, π], rewrite as cos⁻¹(cos(2π − 5π/6)) = cos⁻¹(cos(5π/6)) = 5π/6.",
+        "In Any Triangle ABC Shortcuts:",
+        "(1) tanA + tanB + tanC = tanA tanB tanC.",
+        "(2) cot(A/2) + cot(B/2) + cot(C/2) = cot(A/2) cot(B/2) cot(C/2).",
+        "(3) cos²A + cos²B + cos²C = 1 − 2 cosA cosB cosC.",
+        "Sides in AP / GP / HP: If a², b², c² are in AP ⟹ cotA, cotB, cotC are in AP."
+      ],
+      "formulas": [
+        {
+          "label": "sin⁻¹ range trap",
+          "expr": "sin⁻¹(sin(2π/3)) = π/3"
+        },
+        {
+          "label": "cos⁻¹ range trap",
+          "expr": "cos⁻¹(cos(7π/6)) = 5π/6"
+        },
+        {
+          "label": "tan sum-product in Δ",
+          "expr": "tanA + tanB + tanC = tanA tanB tanC"
+        }
+      ]
+    }
+  ]
+}
