@@ -1,0 +1,246 @@
+{
+  "title": "Respiration and Circulation",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Human Respiratory System & Mechanism of Breathing",
+      "tag": "concept",
+      "points": [
+        "Respiratory tract: External nares → Nasal cavity (vestibule, respiratory, olfactory) → Pharynx → Larynx (voice box with thyroid cartilage, epiglottis) → Trachea (C-shaped hyaline cartilage rings) → Primary bronchi → Bronchioles → Alveoli (~300 million in lungs; surface area ~70-100 m²; Type I cells for gas exchange, Type II cells secrete dipalmitoyl phosphatidylcholine surfactant to prevent collapse).",
+        "Inspiration (Active, 2 sec): Contraction of Diaphragm (flattens) + Contraction of External Intercostal Muscles (EICM pulls ribs upward and outward) → Increases thoracic volume → Intrapulmonary pressure drops below atmospheric (−2 to −3 mmHg) → Air rushes in.",
+        "Expiration (Passive, 3 sec): Relaxation of diaphragm and EICM → Thoracic volume decreases → Intrapulmonary pressure rises above atmospheric (+2 to +3 mmHg) → Air expelled."
+      ],
+      "formulas": [
+        {
+          "label": "Breathing pressure-volume relation (Boyle's Law)",
+          "expr": "Thoracic volume increases → Intrapulmonary pressure drops below P_atm → Air inflow (Inspiration)"
+        },
+        {
+          "label": "Pulmonary surfactant composition",
+          "expr": "Dipalmitoyl lecithin / Phosphatidylcholine (secreted by Type II pneumocytes to lower surface tension)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Respiratory Volumes and Capacities",
+      "tag": "formula",
+      "points": [
+        "Tidal Volume (TV): Volume inspired/expired in normal breath = 500 mL (~6000-8000 mL/min).",
+        "Inspiratory Reserve Volume (IRV): Extra volume inspired forcefully = 2500 - 3000 mL.",
+        "Expiratory Reserve Volume (ERV): Extra volume expired forcefully = 1000 - 1100 mL.",
+        "Residual Volume (RV): Volume remaining in lungs after maximal expiration = 1100 - 1200 mL (cannot be measured by spirometer!).",
+        "Inspiratory Capacity (IC) = TV + IRV = 3000 - 3500 mL.",
+        "Functional Residual Capacity (FRC) = ERV + RV = 2100 - 2300 mL.",
+        "Vital Capacity (VC) = ERV + TV + IRV = 3500 - 4500 mL (maximum air expired after maximal inspiration).",
+        "Total Lung Capacity (TLC) = VC + RV = 5000 - 6000 mL. Dead space volume = 150 mL."
+      ],
+      "formulas": [
+        {
+          "label": "Vital Capacity (VC) formula",
+          "expr": "VC = TV + IRV + ERV (approx 4000 - 4600 mL)"
+        },
+        {
+          "label": "Total Lung Capacity (TLC) formula",
+          "expr": "TLC = VC + RV = TV + IRV + ERV + RV (approx 5500 - 6000 mL)"
+        },
+        {
+          "label": "Functional Residual Capacity (FRC)",
+          "expr": "FRC = ERV + RV (air remaining after normal expiration, ~2200 mL)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Gas Exchange & Transport of Oxygen and Carbon Dioxide",
+      "tag": "formula",
+      "points": [
+        "Partial pressures: Alveolar air (pO₂ = 104 mmHg, pCO₂ = 40 mmHg); Deoxygenated blood (pO₂ = 40, pCO₂ = 45); Oxygenated blood (pO₂ = 95, pCO₂ = 40); Tissues (pO₂ = 40, pCO₂ = 45).",
+        "Oxygen transport: 3% dissolved in plasma; 97% as Oxyhemoglobin (Hb₄O₈). 1 g Hb binds 1.34 mL O₂. 100 mL blood carries ~20 mL O₂, delivering ~5 mL O₂ to resting tissues.",
+        "Oxygen-Hemoglobin Dissociation Curve: Sigmoid shaped. Bohr Effect: Shift of curve to the RIGHT (lowered Hb-O₂ affinity, releasing O₂ to tissues) caused by: ↑ pCO₂, ↑ [H⁺] / ↓ pH, ↑ Temperature, ↑ 2,3-BPG.",
+        "Carbon dioxide transport: 7% dissolved in plasma; 23% as Carbaminohaemoglobin (Hb·CO₂); 70% as Bicarbonate ions (HCO₃⁻).",
+        "Chloride Shift (Hamburger Phenomenon): Fast carbonic anhydrase in RBC converts CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. HCO₃⁻ diffuses into plasma; Cl⁻ moves from plasma INTO RBC to maintain electrical neutrality."
+      ],
+      "formulas": [
+        {
+          "label": "Carbonic anhydrase reaction",
+          "expr": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ (fastest enzyme, zinc-dependent)"
+        },
+        {
+          "label": "Bohr effect (Right shift factors)",
+          "expr": "Right shift = Lowers Hb-O₂ affinity (↑ pCO₂, ↑ H⁺ / ↓ pH, ↑ Temp, ↑ 2,3-DPG)"
+        },
+        {
+          "label": "Chloride shift (Hamburger phenomenon)",
+          "expr": "HCO₃⁻ leaves RBC to plasma ↔ Cl⁻ enters RBC from plasma (maintains ionic balance)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Blood Composition & Coagulation Cascade",
+      "tag": "formula",
+      "points": [
+        "Blood: Fluid connective tissue (pH 7.4). Plasma (55%) + Formed elements (45%).",
+        "Formed elements: 1) RBCs (Erythrocytes, 5-5.5 million/mm³, biconcave, enucleated, lifespan 120 days, destroyed in spleen); 2) WBCs (Leukocytes, 5000-10000/mm³; Neutrophils 60-65% phagocytic, Eosinophils 2-3% allergic, Basophils 0.5-1% histamine/heparin, Lymphocytes 20-25% B & T cells, Monocytes 6-8% macrophages); 3) Platelets (Thrombocytes, 1.5-3.5 lakh/mm³, megakaryocyte fragments).",
+        "Blood Clotting Cascade (3 Stages): 1) Thromboplastin released by damaged tissues/platelets forms Prothrombinase (Thrombokinase) in presence of Ca²⁺; 2) Prothrombinase converts inactive Prothrombin into active Thrombin; 3) Thrombin converts soluble Fibrinogen into insoluble Fibrin mesh trapping blood cells to form clot."
+      ],
+      "formulas": [
+        {
+          "label": "Blood clotting 3-step cascade",
+          "expr": "Thromboplastin + Ca²⁺ → Prothrombinase; Prothrombin → Thrombin; Fibrinogen → Fibrin clot"
+        },
+        {
+          "label": "Normal blood counts benchmark",
+          "expr": "RBC: 5.0 - 5.5 million/µL | WBC: 5000 - 10000/µL | Platelets: 1.5 - 3.5 lakh/µL | pH = 7.4"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Blood Groups & Rh Incompatibility (Erythroblastosis Fetalis)",
+      "tag": "formula",
+      "points": [
+        "ABO System (Karl Landsteiner): A (Antigen A, Antibody anti-B); B (Antigen B, Antibody anti-A); AB (Antigens A and B, NO antibodies; Universal Recipient); O (NO antigens, Antibodies anti-A and anti-B; Universal Donor).",
+        "Rh System (Landsteiner & Wiener): Rh⁺ (contains Rh antigen D, ~85% humans) vs Rh⁻.",
+        "Erythroblastosis Fetalis (HDN): Occurs when Rh⁻ mother carries Rh⁺ fetus. During 1st delivery, fetal Rh⁺ RBCs leak into maternal circulation, inducing anti-Rh antibody production. In subsequent Rh⁺ pregnancy, maternal anti-Rh IgG antibodies cross placenta, hemolyzing fetal RBCs (causes severe anemia, jaundice, kernicterus, fetal death).",
+        "Prevention: Administering anti-D antibodies (Rhogam injection) to Rh⁻ mother within 72 hours of delivering first Rh⁺ baby."
+      ],
+      "formulas": [
+        {
+          "label": "Erythroblastosis fetalis parentage setup",
+          "expr": "Mother: Rh⁻ | Father: Rh⁺ | Fetus: Rh⁺ (risk in 2nd and subsequent Rh⁺ pregnancies)"
+        },
+        {
+          "label": "Prevention with Rhogam",
+          "expr": "Administer anti-D antibodies (Rhogam) to Rh⁻ mother within 72 hours of 1st delivery"
+        },
+        {
+          "label": "ABO blood groups compatibility",
+          "expr": "Universal Donor: O⁻ (no ABO or Rh antigens) | Universal Recipient: AB⁺ (no plasma antibodies)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Human Heart Anatomy & Conducting System",
+      "tag": "concept",
+      "points": [
+        "Heart anatomy: Mesodermal, myogenic, 4 chambers (2 atria, 2 ventricles). Enclosed in double-walled pericardium with pericardial fluid. Left ventricular wall is 3 times thicker than right.",
+        "Valves: Tricuspid valve (between right atrium and right ventricle, 3 cusps held by chordae tendineae to papillary muscles); Bicuspid / Mitral valve (between left atrium and left ventricle, 2 cusps); Semilunar valves (pulmonary and aortic).",
+        "Conducting System: 1) SA Node (Pacemaker): Upper right atrium near SVC opening; fires rhythmic impulses at ~72/min; 2) AV Node (Pace-setter): Lower left interatrial septum; introduces 0.1 sec delay; 3) Bundle of His: Interventricular septum; 4) Purkinje Fibers: Ventricular walls conducting impulse rapidly (~4 m/s) to trigger ventricular contraction from apex upward."
+      ],
+      "formulas": [
+        {
+          "label": "Cardiac impulse conduction pathway",
+          "expr": "SA Node (Pacemaker, 72/min) → AV Node (Pace-setter) → Bundle of His → Purkinje Fibers → Ventricular Myocardium"
+        },
+        {
+          "label": "Atrioventricular valves matching",
+          "expr": "Right side = Tricuspid valve (3 flaps) | Left side = Bicuspid / Mitral valve (2 flaps)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Cardiac Cycle, Cardiac Output & Heart Sounds",
+      "tag": "formula",
+      "points": [
+        "Cardiac Cycle: Complete heartbeat cycle lasting 0.8 seconds (at 72 bpm):",
+        "1. Joint Diastole (0.4 sec): All chambers relax; semilunar valves closed; AV valves open; ventricles fill to 70% passively.",
+        "2. Atrial Systole (0.1 sec): SA node fires; atria contract, pumping remaining 30% blood into ventricles.",
+        "3. Ventricular Systole (0.3 sec): Ventricles contract; AV valves snap shut producing 1st heart sound 'LUBB'; semilunar valves open, ejecting blood into aorta/pulmonary artery.",
+        "4. Ventricular Diastole (0.5 sec): Ventricles relax; semilunar valves snap shut producing 2nd heart sound 'DUPP'.",
+        "Stroke Volume (SV) = 70 mL/beat. Cardiac Output (CO) = SV × HR = 70 mL × 72 bpm ≈ 5040 mL/min (~5 L/min)."
+      ],
+      "formulas": [
+        {
+          "label": "Cardiac Cycle duration breakdown (0.8 sec)",
+          "expr": "Atrial Systole (0.1 s) + Atrial Diastole (0.7 s) = 0.8 s | Ventricular Systole (0.3 s) + Ventricular Diastole (0.5 s) = 0.8 s"
+        },
+        {
+          "label": "Cardiac Output fundamental formula",
+          "expr": "CO = SV × HR (e.g. 70 mL/beat × 72 beats/min = 5040 mL/min ≈ 5.0 L/min)"
+        },
+        {
+          "label": "Heart sounds key differences",
+          "expr": "LUBB = AV valves closure (longer, low pitch) | DUPP = Semilunar valves closure (shorter, high pitch)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Blood Pressure, Electrocardiogram (ECG) & Disorders",
+      "tag": "formula",
+      "points": [
+        "Blood Pressure (BP): Measured using Sphygmomanometer over brachial artery. Normal BP = 120 / 80 mmHg (Systolic / Diastolic). Pulse Pressure = Systolic − Diastolic = 40 mmHg. Mean Arterial Pressure (MAP) = Diastolic + (Pulse Pressure / 3) ≈ 93.3 mmHg.",
+        "Electrocardiogram (ECG): Graphical record of electrical activity of heart (Einthoven): P wave (Atrial depolarization); QRS complex (Ventricular depolarization); T wave (Ventricular repolarization).",
+        "Cardiovascular Disorders: 1) Hypertension: Sustained BP > 140/90 mmHg; 2) Atherosclerosis / CAD: Deposition of calcium, fat, and cholesterol narrowing arterial lumen; 3) Angina Pectoris: Acute chest pain due to myocardial ischemia; 4) Myocardial Infarction: Heart attack due to coronary artery occlusion."
+      ],
+      "formulas": [
+        {
+          "label": "Normal Blood Pressure coordinates",
+          "expr": "Systolic BP = 120 mmHg | Diastolic BP = 80 mmHg | Pulse Pressure = 120 − 80 = 40 mmHg"
+        },
+        {
+          "label": "Mean Arterial Pressure (MAP) formula",
+          "expr": "MAP = Diastolic BP + (Pulse Pressure / 3) = 80 + (40 / 3) ≈ 93.3 mmHg"
+        },
+        {
+          "label": "ECG waves interpretation key",
+          "expr": "P wave = Atrial depolarization | QRS complex = Ventricular depolarization | T wave = Ventricular repolarization"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Diagram 1: Internal structure of Human Heart (label: atria, ventricles, bicuspid, tricuspid, semilunar valves, chordae tendineae, fossa ovalis).",
+        "Board Diagram 2: Conducting system of human heart (SA node, AV node, Bundle of His, Purkinje fibers).",
+        "Board Diagram 3: Standard ECG wave and label P, QRS, T waves.",
+        "Board Distinguish 1: Artery vs Vein (thick muscular tunica media, narrow lumen, no valves vs thin wall, wide lumen, semilunar valves).",
+        "Board Distinguish 2: First heart sound (Lubb) vs Second heart sound (Dupp)."
+      ],
+      "formulas": [
+        {
+          "label": "Artery vs Vein anatomical distinction",
+          "expr": "Artery: Thick tunica media, narrow lumen, high pressure, no valves | Vein: Thin media, wide lumen, semilunar valves"
+        },
+        {
+          "label": "Oxygen dissociation curve coordinates",
+          "expr": "P₅₀ value (pO₂ at 50% Hb saturation) ≈ 26 to 27 mmHg"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Pacemaker of heart: SA node (fires 70-75 impulses/min). AV node is pace-setter (40-60 impulses/min). If SA node fails, AV node takes over.",
+        "TRAP 2: Cardiac output calculation: CO = Stroke Volume × Heart Rate. Athletes have higher stroke volume, hence lower resting heart rate (bradycardia) to maintain identical cardiac output!",
+        "TRAP 3: Residual Volume (RV) CANNOT be measured by standard spirometer! Consequently, FRC (ERV + RV) and TLC (VC + RV) cannot be measured by spirometry alone.",
+        "TRAP 4: Carbonic anhydrase is the fastest enzyme known (~600,000 molecules/sec) and requires Zinc (Zn²⁺) as essential cofactor.",
+        "TRAP 5: Universal donor vs Universal recipient: O⁻ (negative) is TRUE universal donor because it lacks A, B, and Rh antigens. AB⁺ (positive) is TRUE universal recipient."
+      ],
+      "formulas": [
+        {
+          "label": "Cardiac Output stroke volume relation",
+          "expr": "CO = SV × HR (e.g. at HR 75 bpm & SV 70 mL → CO = 5.25 L/min)"
+        },
+        {
+          "label": "Non-measurable spirometric volumes",
+          "expr": "RV, FRC, and TLC CANNOT be directly measured by spirometry"
+        },
+        {
+          "label": "True universal blood donor/recipient",
+          "expr": "Universal Donor = O Rh⁻ (O negative) | Universal Recipient = AB Rh⁺ (AB positive)"
+        }
+      ]
+    }
+  ]
+}

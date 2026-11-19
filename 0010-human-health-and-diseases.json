@@ -1,0 +1,243 @@
+{
+  "title": "Human Health and Diseases",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Concept of Health & Innate vs Acquired Immunity",
+      "tag": "concept",
+      "points": [
+        "Health (WHO): State of complete physical, mental, and social well-being, not merely the absence of disease or infirmity.",
+        "Innate Immunity (Non-specific, inborn defense): 1) Physical (Skin stratum corneum, mucus coating of tracts); 2) Physiological (Stomach HCl, lysozyme in saliva/tears); 3) Cellular (PMNL neutrophils, monocytes, macrophages, Natural Killer NK cells); 4) Cytokine barriers (Interferons secreted by virus-infected cells protect healthy cells).",
+        "Acquired Immunity (Specific, with memory):",
+        "- Active Immunity: Developed by host's own immune system upon antigen exposure (slow, long-lasting memory); Natural (clinical infection) or Artificial (vaccines).",
+        "- Passive Immunity: Ready-made antibodies received from outside (immediate, no memory); Natural (maternal IgG across placenta, secretory IgA in colostrum) or Artificial (anti-tetanus serum ATS, anti-snake venom)."
+      ],
+      "formulas": [
+        {
+          "label": "Innate immunity 4-barrier defense",
+          "expr": "Physical (Skin/Mucus) + Physiological (HCl/Lysozyme) + Cellular (PMNL/Macrophages) + Cytokine (Interferons)"
+        },
+        {
+          "label": "Active vs Passive immunity",
+          "expr": "Active: Host produces antibodies (Memory formed, slow) | Passive: Ready-made antibodies injected (No memory, rapid)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Immune Cells & Antibody Structure (H₂L₂)",
+      "tag": "formula",
+      "points": [
+        "Lymphocytes: 1) T-Cells (mature in Thymus): Mediate Cell-Mediated Immunity (CMI); responsible for graft rejection in organ transplants! Subsets: Helper T (CD4⁺, activate B-cells), Cytotoxic T (CD8⁺, release perforins to lyse infected cells), Suppressor T, Memory T; 2) B-Cells (mature in Bone marrow): Mediate Humoral / Antibody-Mediated Immunity (AMI); differentiate into Plasma cells (secrete ~2000 antibodies/sec) and Memory B-cells.",
+        "Antibody Structure: Y-shaped glycoprotein represented as H₂L₂ (2 identical Heavy chains + 2 identical Light chains held by disulfide −S−S− bonds).",
+        "Variable region (Fab): Contains Antigen-binding site (Paratope) complementary to antigen Epitope. Constant region (Fc): Determines immunoglobulin class.",
+        "Immunoglobulin classes (GAMED): IgG (most abundant 80%, only one crossing placenta), IgA (secretory dimer in colostrum/saliva), IgM (largest pentamer, primary response), IgE (allergies, mast cell histamine release), IgD (B-cell receptor)."
+      ],
+      "formulas": [
+        {
+          "label": "Antibody chain stoichiometry",
+          "expr": "H₂L₂ (2 Heavy chains ~50 kDa + 2 Light chains ~25 kDa held by disulfide −S−S− bonds)"
+        },
+        {
+          "label": "Immunoglobulins classes summary (GAMED)",
+          "expr": "IgG (crosses placenta) | IgA (secretory dimer in colostrum) | IgM (pentamer, first responder) | IgE (allergy & histamine) | IgD"
+        },
+        {
+          "label": "Paratope-Epitope interaction",
+          "expr": "Paratope (antigen-binding site on Fab arm of antibody) binds Epitope (antigenic determinant on antigen)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Bacterial & Viral Diseases: Typhoid, Pneumonia, Common Cold",
+      "tag": "concept",
+      "points": [
+        "1. Typhoid: Pathogen: Salmonella typhi (Gram-negative bacillus); transmitted through contaminated food and water. Enters small intestine, causing mucosal ulceration. Symptoms: Sustained high fever (39-40 °C), headache, stomach pain, constipation, loss of appetite, pea-soup stools. Diagnosis: Widal Test. Famous carrier: Mary Mallon (Typhoid Mary).",
+        "2. Pneumonia: Pathogens: Streptococcus pneumoniae and Haemophilus influenzae. Infects alveoli of lungs; alveoli become fluid-filled impairing gas exchange. Symptoms: Fever, chills, cough with rusty sputum, headache; lips and nails turn gray to bluish in severe cases. Transmitted by aerosol droplets.",
+        "3. Common Cold: Pathogen: Rhinoviruses. Infects nasal and respiratory mucosa, but NEVER infects the lungs! Symptoms: Nasal congestion, discharge, sore throat, cough, hoarseness lasting 3-7 days."
+      ],
+      "formulas": [
+        {
+          "label": "Typhoid pathogen & diagnosis",
+          "expr": "Pathogen: Salmonella typhi | Diagnostic test: Widal test | Target: Small intestine (ulceration)"
+        },
+        {
+          "label": "Pneumonia vs Common Cold target",
+          "expr": "Pneumonia: Alveoli of lungs (fluid accumulation) | Common Cold: Upper respiratory tract (lungs NOT infected)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Protozoan Diseases: Malaria & Amoebiasis",
+      "tag": "formula",
+      "points": [
+        "1. Malaria: Pathogen: Plasmodium (P. vivax, P. malariae, P. falciparum; P. falciparum causes malignant tertian / cerebral malaria, fatal). Vector: Female Anopheles mosquito.",
+        "Digenetic life cycle of Plasmodium: 1) Mosquito bite injects motile Sporozoites into human blood → enter Liver cells (hepatic schizogony) → burst liver cells releasing merozoites into RBCs; 2) In RBCs (erythrocytic schizogony), trophozoite feeds and ruptures RBCs releasing Hemozoin toxin (triggers recurring chills and high fever every 48-72 hours!); 3) Gametocytes develop in RBCs; 4) Female Anopheles ingests gametocytes; fertilization occurs in mosquito gut; sporozoites migrate to salivary glands.",
+        "2. Amoebiasis (Amoebic Dysentery): Pathogen: Entamoeba histolytica (protozoan in large intestine). Mechanical vector: Housefly (Musca domestica). Symptoms: Constipation, abdominal pain, stools with excess mucus and blood clots."
+      ],
+      "formulas": [
+        {
+          "label": "Malaria life cycle stages",
+          "expr": "Sporozoites (infective to man) → Liver cells → RBCs (rupture + Hemozoin release = Chills & Fever) → Gametocytes (infective to mosquito)"
+        },
+        {
+          "label": "Hemozoin toxin role",
+          "expr": "Rupture of erythrocytic schizonts releases Hemozoin pigment → Triggers recurring high fever with chills"
+        },
+        {
+          "label": "Amoebiasis pathogen & vector",
+          "expr": "Entamoeba histolytica (large intestine parasite) | Mechanical vector: Housefly (Musca domestica)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Helminthic & Fungal Diseases: Ascariasis, Filariasis & Ringworm",
+      "tag": "concept",
+      "points": [
+        "1. Ascariasis: Pathogen: Ascaris lumbricoides (intestinal giant roundworm). Transmitted by fecal-oral contamination of water, vegetables, fruits with embryonated eggs. Symptoms: Internal bleeding, muscular pain, fever, anemia, intestinal blockage.",
+        "2. Filariasis / Elephantiasis: Pathogen: Filarial worms Wuchereria bancrofti and Wuchereria malayi. Vector: Female Culex mosquito. Parasites lodge in lymphatic vessels of lower limbs and genital organs causing chronic inflammation, extreme swelling of legs and scrotum.",
+        "3. Ringworm (Dermatophytosis): Fungi belonging to genera Microsporum, Trichophyton, and Epidermophyton. Symptoms: Dry, scaly, intensely itchy circular lesions on skin, scalp, groin, nails. Heat and moisture help them grow. Transmitted via towels, clothes, combs."
+      ],
+      "formulas": [
+        {
+          "label": "Helminthic diseases vectors & agents",
+          "expr": "Filariasis: Wuchereria bancrofti (Culex mosquito vector, lymphatic blockage) | Ascariasis: Ascaris (fecal-oral)"
+        },
+        {
+          "label": "Ringworm fungal genera triad",
+          "expr": "Microsporum, Trichophyton, Epidermophyton (dermatophytes feeding on skin keratin)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "AIDS & HIV Replication Life Cycle",
+      "tag": "formula",
+      "points": [
+        "AIDS: Caused by Human Immunodeficiency Virus (HIV), an enveloped Retrovirus containing 2 identical single-stranded RNA molecules and Reverse Transcriptase, surrounded by p24 capsid and gp120 glycoprotein spikes.",
+        "Transmission: Sexual contact, contaminated blood transfusion, shared needles, infected mother to child across placenta.",
+        "HIV Life Cycle: 1) HIV gp120 binds CD4 receptors on Helper T-cells (T_H) and Macrophages; 2) Viral RNA converted to viral DNA by Reverse Transcriptase; 3) Integrase incorporates viral DNA into host genome; 4) Macrophages act as 'HIV factory'; 5) HIV attacks Helper T-cells, destroying them until CD4⁺ count drops below 200 cells/mm³, causing immunodeficiency and fatal opportunistic infections (Mycobacterium, Toxoplasma, Cytomegalovirus).",
+        "Diagnosis & Therapy: Screening test: ELISA; Confirmatory test: Western Blot. Treatment: Antiretroviral drugs (HAART) like AZT (Zidovudine) prolong life."
+      ],
+      "formulas": [
+        {
+          "label": "HIV replication enzyme sequence",
+          "expr": "Viral ssRNA → (Reverse Transcriptase) → cDNA → (Integrase) → Host Genome Integration → mRNA/Proteins"
+        },
+        {
+          "label": "Diagnostic tests for HIV",
+          "expr": "Screening test: ELISA | Confirmatory test: Western Blot (detects specific viral antibodies)"
+        },
+        {
+          "label": "Clinical AIDS threshold",
+          "expr": "T_H (CD4⁺) count drops below 200 cells/mm³ (opportunistic infections emerge)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Cancer: Types, Carcinogens & Detection/Therapy",
+      "tag": "concept",
+      "points": [
+        "Cancer: Uncontrolled, abnormal mitotic proliferation of cells with loss of contact inhibition (normal cells inhibit division upon contact with neighbors).",
+        "Tumor types: Benign (localized, non-invasive) vs Malignant (invasive, destructive). Metastasis: Malignant cells detach and travel via bloodstream to establish secondary tumors at distant sites (hallmark of malignancy).",
+        "Cancer types: Carcinoma (epithelial tissue cancer: skin, breast, lung; 85%); Sarcoma (connective tissue/bone/muscle cancer); Leukemia (blood cancer, abnormal WBCs); Lymphoma (lymphatic cancer).",
+        "Carcinogens: Physical (ionizing X-rays, UV radiation); Chemical (tobacco smoke, coal tar); Biological (Oncogenic viruses, cellular proto-oncogenes activated to oncogenes).",
+        "Detection & Therapy: Biopsy, CT scan, MRI, monoclonal antibodies. Treatment: Surgery, Radiotherapy, Chemotherapy (Vincristine, Vinblastine from Catharanthus roseus), Immunotherapy (α-interferon biological response modifiers)."
+      ],
+      "formulas": [
+        {
+          "label": "Cancer types classification key",
+          "expr": "Carcinoma = Epithelial tissues | Sarcoma = Mesodermal / Connective tissues | Leukemia = Blood / Bone marrow"
+        },
+        {
+          "label": "Metastasis definition",
+          "expr": "Detachment and dissemination of malignant cells to distant sites establishing secondary tumors"
+        },
+        {
+          "label": "Chemotherapeutic plant alkaloids",
+          "expr": "Vinblastine and Vincristine (derived from Madagascar periwinkle Catharanthus roseus)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Drug and Alcohol Abuse: Opioids, Cannabinoids & Hallucinogens",
+      "tag": "formula",
+      "points": [
+        "1. Opioids: Bind specific opioid receptors in CNS and GI tract. Morphine (extracted from latex of unripe seed pods of Papaver somniferum / Opium poppy; effective analgesic/sedative). Heroin (Smack / Diacetylmorphine, synthesized by acetylation of morphine; depressant that slows body functions).",
+        "2. Cannabinoids: Interact with cannabinoid receptors in brain. Derived from inflorescences of Cannabis sativa. Products: Marijuana, Hashish, Charas, Ganja. Affect cardiovascular system.",
+        "3. Hallucinogens: Alter perceptions, thoughts, feelings. Obtained from Atropa belladonna, Datura, and fungus Claviceps purpurea (LSD / Lysergic acid diethylamide).",
+        "4. Cocaine (Coke / Crack): Extracted from coca plant Erythroxylum coca. Inhibits reuptake of neurotransmitter Dopamine in CNS; produces euphoria and stimulation; overdose causes hallucinations."
+      ],
+      "formulas": [
+        {
+          "label": "Heroin chemical identity",
+          "expr": "Diacetylmorphine = Morphine + Acetic anhydride (depressant, slows down body functions)"
+        },
+        {
+          "label": "Drug categories and plant sources",
+          "expr": "Opioids: Papaver somniferum | Cannabinoids: Cannabis sativa | Cocaine: Erythroxylum coca | LSD: Claviceps purpurea"
+        },
+        {
+          "label": "Cocaine action mechanism",
+          "expr": "Blocks reuptake of neurotransmitter Dopamine in CNS synapses → Euphoria & hallucinations"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Describe the structure of an antibody molecule with a neat labelled diagram (H₂L₂, variable/constant regions, disulfide bonds).",
+        "Board Q2: Explain the life cycle of Plasmodium in human body and mosquito with a schematic diagram.",
+        "Board Q3: Explain the structure of HIV and why it is called a retrovirus. Describe the mechanism of infection.",
+        "Board Distinguish 1: Innate immunity vs Acquired immunity (non-specific, inborn vs pathogen-specific, memory-based).",
+        "Board Distinguish 2: Active immunity vs Passive immunity (slow, long-lasting memory vs immediate, short-lived without memory).",
+        "Board Distinguish 3: Benign tumor vs Malignant tumor."
+      ],
+      "formulas": [
+        {
+          "label": "Innate vs Acquired immunity distinction",
+          "expr": "Innate: Non-specific, present from birth, no memory | Acquired: Pathogen-specific, develops with age, has memory"
+        },
+        {
+          "label": "Active vs Passive immunity contrast",
+          "expr": "Active: Slow, creates memory, long-lasting | Passive: Immediate, no memory, temporary"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Graft rejection in organ transplantation: Mediated by Cell-Mediated Immunity (CMI) via T-lymphocytes. Tissue matching and blood group matching are essential; immunosuppressants (Cyclosporin A) required for life.",
+        "TRAP 2: Only antibody that crosses the placenta: IgG (smallest and most abundant ~80%). Colostrum contains secretory IgA (dimer). Allergy antibody = IgE.",
+        "TRAP 3: Common cold vs Pneumonia: Common cold affects UPPER respiratory tract (nose, throat), NEVER the lungs. Pneumonia affects ALVEOLI of lungs.",
+        "TRAP 4: Typhoid Mary: Mary Mallon was an asymptomatic chronic carrier of Salmonella typhi who spread typhoid to dozens of people through food she cooked.",
+        "TRAP 5: Morphine vs Heroin: Heroin is DIACETYLMORPHINE (formed by acetylation of morphine). Both are depressants. Cocaine is a STIMULANT that inhibits dopamine reuptake."
+      ],
+      "formulas": [
+        {
+          "label": "Organ transplant graft rejection",
+          "expr": "Mediated by T-lymphocytes (Cell-Mediated Immunity CMI)"
+        },
+        {
+          "label": "Immunoglobulin roles memory trick",
+          "expr": "IgG = Crosses placenta | IgA = Colostrum / Secretions | IgM = Massive pentamer | IgE = Allergy"
+        },
+        {
+          "label": "Common cold pathogen trap",
+          "expr": "Rhinovirus causes Common Cold (affects nose & throat, NOT lungs)"
+        }
+      ]
+    }
+  ]
+}

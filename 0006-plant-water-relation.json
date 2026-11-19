@@ -1,0 +1,239 @@
+{
+  "title": "Plant Water Relation",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Properties of Water & Root Hair Anatomy",
+      "tag": "concept",
+      "points": [
+        "Water as life medium: Universal solvent, high specific heat, high heat of vaporization, high cohesive and adhesive forces (high tensile strength), neutral pH, thermal stability.",
+        "Root absorption zones: Root cap (protective) → Meristematic zone (cell division) → Elongation zone (expansion) → Root Hair zone / Maturation zone (specialized zone of water absorption).",
+        "Root hair structure: Unicellular, unbranched, tubular extension of epiblema (piliferous layer); contains large central vacuole surrounded by thin peripheral cytoplasm.",
+        "Root hair cell wall layers: Double layered. Outer pectic layer (hydrophilic, highly permeable, retains water like sponge); Inner cellulosic layer (structural, semi-permeable)."
+      ],
+      "formulas": [
+        {
+          "label": "Root hair cell wall composition",
+          "expr": "Outer layer: Pectin (hydrophilic, water-retaining) | Inner layer: Cellulose (structural)"
+        },
+        {
+          "label": "Root absorption zone hierarchy",
+          "expr": "Root cap → Meristematic zone → Elongation zone → Root Hair / Maturation zone (water absorption)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Water Absorption Mechanisms: Imbibition, Diffusion & Osmosis",
+      "tag": "formula",
+      "points": [
+        "Imbibition: Adsorption of water by hydrophilic colloids without forming solution (substances: proteins > pectin > starch > cellulose). Generates enormous Imbibition Pressure (IP); drives seed germination and rock splitting.",
+        "Diffusion: Movement of particles from higher chemical potential / diffusion pressure to lower along concentration gradient. Diffusion Pressure Deficit (DPD) / Suction Pressure (SP).",
+        "Osmosis: Special diffusion of solvent (water) across semipermeable membrane into a region of higher solute concentration.",
+        "DPD Classical Formula: DPD = OP − TP (where OP = Osmotic Pressure, TP = Turgor Pressure). In flaccid cell (TP = 0): DPD = OP; In fully turgid cell (TP = OP): DPD = 0; In plasmolysed cell (TP negative): DPD = OP + TP.",
+        "Water flow direction: Water always moves from Lower DPD → Higher DPD!"
+      ],
+      "formulas": [
+        {
+          "label": "Diffusion Pressure Deficit (DPD) classical formula",
+          "expr": "DPD = OP − TP (where OP = Osmotic Pressure, TP = Turgor Pressure)"
+        },
+        {
+          "label": "DPD conditions table",
+          "expr": "Flaccid cell: DPD = OP | Turgid cell: DPD = 0 | Plasmolysed cell: DPD = OP − (−TP) = OP + TP"
+        },
+        {
+          "label": "Direction of water flow (DPD)",
+          "expr": "Water flows from Lower DPD → Higher DPD"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Water Potential (Ψ_w) & Thermodynamic Principles",
+      "tag": "formula",
+      "points": [
+        "Water potential (Ψ_w): Measure of free energy of water per unit volume; expressed in bars or MegaPascals (MPa).",
+        "Reference standard: Water potential of pure water at atmospheric pressure and standard temperature is ZERO (Ψ_w = 0, maximum possible value).",
+        "Solute potential / Osmotic potential (Ψ_s): Decrease in water potential caused by dissolved solutes. Always NEGATIVE. Greater the solute concentration, more negative the Ψ_s.",
+        "Pressure potential (Ψ_p): Hydrostatic pressure developed in cell; positive in turgid cells (equivalent to turgor pressure), can be negative in xylem under tension.",
+        "Water Potential Equation: Ψ_w = Ψ_s + Ψ_p. Water always moves spontaneously from Higher Ψ_w (less negative) → Lower Ψ_w (more negative)."
+      ],
+      "formulas": [
+        {
+          "label": "Water Potential fundamental equation",
+          "expr": "Ψ_w = Ψ_s + Ψ_p (where Ψ_s = solute potential, Ψ_p = pressure potential)"
+        },
+        {
+          "label": "Pure water standard potential",
+          "expr": "Ψ_w(pure water at 1 atm, 25 °C) = 0 bar / MPa (maximum possible value)"
+        },
+        {
+          "label": "Direction of water flow (Potential)",
+          "expr": "Water moves from Higher Ψ_w (less negative) → Lower Ψ_w (more negative)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Plasmolysis, Deplasmolysis & Solution Tonicity",
+      "tag": "concept",
+      "points": [
+        "Tonicity classification: 1) Hypotonic solution: Lower solute concentration than cell sap → Endosmosis → Cell becomes turgid; 2) Isotonic solution: Equal concentration → No net movement → Cell flaccid; 3) Hypertonic solution: Higher concentration than cell sap → Exosmosis → Plasmolysis.",
+        "Plasmolysis: Shrinkage of protoplast away from cell wall when plant cell is placed in hypertonic solution due to exosmosis.",
+        "Stages of plasmolysis: 1) Limiting plasmolysis (TP becomes zero); 2) Incipient plasmolysis (protoplast pulls away at cell corners); 3) Complete plasmolysis (protoplast rounds off in center).",
+        "Crucial feature: The space between the shrunken protoplast and the cell wall in a plasmolysed cell is occupied by the EXTERNAL HYPERTONIC SOLUTION!",
+        "Deplasmolysis: Reversible phenomenon where plasmolysed cell placed in hypotonic solution or pure water absorbs water by endosmosis, regaining turgidity."
+      ],
+      "formulas": [
+        {
+          "label": "Solution tonicity effects",
+          "expr": "Hypotonic = Endosmosis (Turgid) | Hypertonic = Exosmosis (Plasmolysis) | Isotonic = No net movement (Flaccid)"
+        },
+        {
+          "label": "Fluid occupying space in plasmolysed cell",
+          "expr": "Space between cell wall and shrunken protoplast = Hypertonic external solution"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Pathways of Water Movement in Roots: Apoplast vs Symplast",
+      "tag": "concept",
+      "points": [
+        "Path of absorbed water: Root hair → Epiblema → Cortex → Endodermis → Pericycle → Protoxylem vessels.",
+        "1. Apoplast Pathway: Non-living pathway through porous cell walls and intercellular spaces via capillarity and bulk flow. Fast, offers minimal resistance, non-selective.",
+        "2. Symplast Pathway: Living pathway through cytoplasm of adjacent cells interconnected by Plasmodesmata. Slower, regulated across cell membranes.",
+        "3. Vacuolar Pathway: Osmotic movement from vacuole to vacuole across tonoplasts.",
+        "Casparian Strip Checkpoint: Endodermal cells have tangential and radial walls impregnated with suberin forming impermeable Casparian Strips. Apoplastic water is strictly blocked and forced into the symplast pathway to enter xylem!"
+      ],
+      "formulas": [
+        {
+          "label": "Root water pathway sequence",
+          "expr": "Root hair → Epiblema → Cortex → Endodermis (Casparian strip) → Pericycle → Xylem"
+        },
+        {
+          "label": "Apoplast vs Symplast comparison",
+          "expr": "Apoplast: Cell walls & spaces (non-living, fast) | Symplast: Cytoplasm via Plasmodesmata (living, regulated)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Ascent of Sap: Root Pressure & Transpiration Pull Theory",
+      "tag": "formula",
+      "points": [
+        "Ascent of Sap: Upward translocation of water and dissolved minerals from roots to uppermost leaves against gravity.",
+        "1. Root Pressure Theory (Joseph Priestley): Active metabolic pumping of ions into root xylem creates positive hydrostatic pressure (+1 to +2 bars). Explains Guttation (exudation of liquid water droplets via Hydathodes at vein endings during night/early morning). Insufficient for tall trees (>100 m).",
+        "2. Cohesion-Tension / Transpiration Pull Theory (Dixon & Joly, 1894 - Universally Accepted):",
+        "- Cohesion: Strong mutual intermolecular attraction between water molecules (tensile strength up to 350 atm).",
+        "- Adhesion: Attraction between polar water molecules and hydrophilic lignified xylem vessel walls.",
+        "- Transpiration Pull: Rapid evaporation of water from stomata creates massive negative hydrostatic suction tension in xylem conduit, pulling continuous unbroken water column upwards."
+      ],
+      "formulas": [
+        {
+          "label": "Dixon & Joly Cohesion-Tension triad",
+          "expr": "Cohesion (H₂O-H₂O attraction) + Adhesion (H₂O-xylem wall) + Transpiration Pull (negative suction tension)"
+        },
+        {
+          "label": "Guttation vs Transpiration",
+          "expr": "Guttation: Liquid water via Hydathodes (Root pressure, night/dawn) | Transpiration: Water vapor via Stomata (Pull, daytime)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Transpiration: Mechanism & Stomatal Regulation",
+      "tag": "formula",
+      "points": [
+        "Transpiration types: Stomatal (90-93% of total loss), Cuticular (3-9%), Lenticular (0.1%).",
+        "Stomatal apparatus: Stomatal pore flanked by 2 Guard cells (kidney-shaped in dicots; dumbbell-shaped in grasses/monocots) surrounded by subsidiary cells. Guard cells have thick, inelastic inner walls and thin, elastic outer walls with radial cellulose microfibrils.",
+        "Levitt's Active K⁺ Transport Theory (Opening in Light): Light stimulates PEP carboxylase → Malic acid dissociates into Malate²⁻ + 2H⁺. Protons (H⁺) actively pumped out of guard cells into subsidiary cells in exchange for K⁺ ions. Cl⁻ co-enters. Accumulation of K⁺ malate lowers Ψ_w of guard cells → Endosmosis → Turgor pressure rises → Outer thin walls bulge out, pulling inner thick walls apart → Stoma OPENS.",
+        "Closing in Darkness / Water Stress: Abscisic acid (ABA) promotes rapid K⁺ and Cl⁻ efflux → Water exits → Guard cells become flaccid → Stoma CLOSES."
+      ],
+      "formulas": [
+        {
+          "label": "Stomatal opening active ion exchange",
+          "expr": "Guard cells: H⁺ pumped OUT → K⁺ and Cl⁻ pumped IN → Ψ_w drops → Endosmosis → Turgid → Stoma Opens"
+        },
+        {
+          "label": "Stomatal closing trigger (Stress)",
+          "expr": "Water deficit → Abscisic Acid (ABA) release → K⁺ efflux → Flaccid guard cells → Stoma Closes"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Translocation of Photosynthates: Mass Flow Hypothesis",
+      "tag": "formula",
+      "points": [
+        "Source-Sink relationship: Source (organ photosynthesizing or mobilizing sugars e.g. mature green leaves, storage tubers in spring); Sink (organ consuming or storing sugars e.g. roots, fruits, growing shoot tips). Direction of phloem transport is Multidirectional / Bidirectional.",
+        "Münch Pressure Flow / Mass Flow Hypothesis (1930):",
+        "1. Phloem Loading: Sucrose actively transported from mesophyll into companion cells and sieve tube elements using ATP.",
+        "2. Osmotic Gradient: High sucrose lowers water potential (Ψ_w) of sieve tube → Water enters from adjacent xylem by osmosis, developing high turgor pressure.",
+        "3. Mass Flow: High turgor pressure forces bulk flow of sugar solution through phloem sieve plates towards sink.",
+        "4. Phloem Unloading: Sucrose actively transported out at sink cells; water potential rises, water returns to xylem."
+      ],
+      "formulas": [
+        {
+          "label": "Phloem loading osmotic pressure cascade",
+          "expr": "Active loading of Sucrose → Lowers Ψ_w in Sieve tube → H₂O enters from Xylem → High Turgor Pressure → Mass Flow to Sink"
+        },
+        {
+          "label": "Xylem vs Phloem transport contrast",
+          "expr": "Xylem: Unidirectional (Root → Leaf, negative tension) | Phloem: Multidirectional (Source ↔ Sink, positive pressure)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Experiments",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Explain Dixon and Joly's Cohesion-Tension theory for ascent of sap.",
+        "Board Q2: Describe Levitt's active K⁺ transport theory for stomatal opening and closing with reactions.",
+        "Board Q3: Explain why Casparian strips in the endodermis force water into the symplastic pathway.",
+        "Board Q4: Distinguish between Transpiration and Guttation (vapor vs liquid drops, stomata vs hydathodes, pure water vs solute-rich).",
+        "Ringing / Girdling Experiment (Malpighi): Removal of a ring of bark (phloem) up to xylem level causes swelling above the girdle due to accumulation of photosynthates, while roots starve, proving phloem transports organic food."
+      ],
+      "formulas": [
+        {
+          "label": "Girdling experiment outcome",
+          "expr": "Bark (phloem) removed → Sugars accumulate ABOVE ring (swelling) | Roots starve first (proves phloem translocates food)"
+        },
+        {
+          "label": "Potometer bubble rate formula",
+          "expr": "Rate of transpiration = Volume of water absorbed / Time = (πr² × distance moved by air bubble) / t"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Water potential sign: Pure water Ψ_w = 0 (MAXIMUM). Addition of solute ALWAYS makes Ψ_w negative. Water moves from HIGHER Ψ_w (e.g. −2 bar) to LOWER Ψ_w (e.g. −10 bar).",
+        "TRAP 2: DPD vs Water Potential: DPD is numerically equal to Ψ_w with OPPOSITE sign! DPD = 10 bar ⇔ Ψ_w = −10 bar. Water flows from LOW DPD to HIGH DPD, but HIGH Ψ_w to LOW Ψ_w!",
+        "TRAP 3: Fully turgid cell: TP = OP ⇒ DPD = 0; Ψ_p = −Ψ_s ⇒ Ψ_w = 0.",
+        "TRAP 4: Guard cell shape: Dicots = Kidney-shaped / Reniform; Monocots / Grasses (Poaceae) = Dumbbell-shaped!",
+        "TRAP 5: Guttation fluid: Guttation water is NOT pure water; it contains dissolved minerals, amino acids, and organic acids, exuded through hydathodes."
+      ],
+      "formulas": [
+        {
+          "label": "DPD to Water Potential conversion",
+          "expr": "Ψ_w = −DPD (e.g. DPD = 6 atm → Ψ_w = −6 atm)"
+        },
+        {
+          "label": "Water flow direction comparison rule",
+          "expr": "Water flows: Low DPD → High DPD | High Ψ_w → Low Ψ_w | Hypotonic → Hypertonic"
+        },
+        {
+          "label": "Guard cell morphology exception",
+          "expr": "Dicots = Bean / Kidney shaped | Grasses / Monocots = Dumbbell shaped"
+        }
+      ]
+    }
+  ]
+}

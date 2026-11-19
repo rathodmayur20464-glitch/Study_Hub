@@ -1,0 +1,245 @@
+{
+  "title": "Biodiversity, Conservation and Environmental Issues",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Biodiversity: Concept & Three Hierarchical Levels",
+      "tag": "concept",
+      "points": [
+        "Biodiversity (Edward Wilson): Total variety and variability of life forms, genes, and ecosystems on Earth.",
+        "3 Hierarchical Levels:",
+        "1. Genetic Diversity: Variation of genes within a species over its distribution (e.g. Rauwolfia vomitoria in Himalayas shows genetic variation in potency of active drug Reserpine; India has > 50,000 distinct strains of rice and > 1,000 varieties of mango).",
+        "2. Species Diversity: Variety of species within a region (e.g. Western Ghats have greater amphibian species richness than Eastern Ghats).",
+        "3. Ecological Diversity: Diversity of habitats and ecosystems (India has deserts, rainforests, mangroves, coral reefs, wetlands, alpine meadows, far exceeding Scandinavia/Norway)."
+      ],
+      "formulas": [
+        {
+          "label": "Three levels of biodiversity",
+          "expr": "Genetic (within species e.g. 50,000 rice strains) → Species (e.g. amphibians) → Ecological (e.g. rainforest vs desert)"
+        },
+        {
+          "label": "Reserpine chemical origin",
+          "expr": "Rauwolfia vomitoria (Himalayan medicinal plant; concentration of reserpine varies genetically)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Global Biodiversity Estimates & India's Wealth",
+      "tag": "formula",
+      "points": [
+        "Global Species Count (Robert May, 2002): Scientifically grounded estimate places global species diversity at approximately 7 Million species (only ~1.5 million currently recorded, ~22% of total).",
+        "Taxonomic Representation: Animals comprise > 70% of all recorded species; Plants comprise ~22%. Insects are the most species-rich group (> 70% of all animals; 7 out of 10 animals are insects!). Fungi species outnumber combined total of fishes, amphibians, reptiles, and mammals.",
+        "India's Mega-Diversity: Occupies 2.4% of world's land area, but harbors an impressive 8.1% of global species diversity (ranks among the 12 mega-diversity nations of the world, with ~45,000 plant species and ~90,000-100,000 animal species)."
+      ],
+      "formulas": [
+        {
+          "label": "Robert May global species estimate",
+          "expr": "Global Species Diversity ≈ 7.0 Million species (only ~1.5 million currently recorded)"
+        },
+        {
+          "label": "Animal vs Plant global shares",
+          "expr": "Animals = > 70% | Plants = ~22% | Insects = > 70% of all animal species"
+        },
+        {
+          "label": "India's biodiversity credentials",
+          "expr": "Land area = 2.4% of world | Global species share = 8.1% | 1 of 12 Mega-biodiversity countries"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Latitudinal Gradients & Species-Area Relationship",
+      "tag": "formula",
+      "points": [
+        "1. Latitudinal Gradient: Species diversity peaks in the tropics (23.5° N to 23.5° S) and steadily decreases toward polar regions. Amazon Rainforest in South America is richest: >40,000 plants, 3,000 fishes, 1,300 birds, 427 mammals, 427 amphibians, >125,000 invertebrates. Reasons: Undisturbed tropical climate for millions of years, non-seasonal predictable environment, high solar radiation.",
+        "2. Species-Area Relationship (Alexander von Humboldt): Species richness increases with increasing explored area up to a limit (Rectangular Hyperbola): S = C A^Z.",
+        "Logarithmic equation: log S = log C + Z log A (where S = species richness, A = area, C = Y-intercept, Z = regression slope). Z value range: Normal regional scale Z = 0.1 to 0.2; Entire continental scale Z = 0.6 to 1.2 (for frugivorous birds and mammals in tropical forests, Z = 1.15)."
+      ],
+      "formulas": [
+        {
+          "label": "Alexander von Humboldt Species-Area equation",
+          "expr": "S = C A^Z (log S = log C + Z log A; S = Species richness, A = Area, Z = regression slope)"
+        },
+        {
+          "label": "Regression coefficient (Z) values",
+          "expr": "Local areas = 0.1 to 0.2 | Continental scale = 0.6 to 1.2 | Frugivorous birds in tropics = 1.15"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Loss of Biodiversity & The 'Evil Quartet'",
+      "tag": "concept",
+      "points": [
+        "Anthropogenic Sixth Mass Extinction: Current extinction rate is 100 to 1000 times faster than natural background rates. Recent extinctions: Dodo (Mauritius), Quagga (Africa), Thylacine (Australia), Steller's Sea Cow (Russia), Bali/Javan/Caspian Tigers.",
+        "The 'Evil Quartet' (4 Major Drivers of Extinction):",
+        "1. Habitat Loss and Fragmentation: Most devastating cause; tropical rainforest cover slashed from 14% to < 6%. Amazon cleared for soya cultivation and cattle grazing.",
+        "2. Over-exploitation: Commercial over-harvesting drove Passenger pigeon and Steller's sea cow to extinction.",
+        "3. Alien Species Invasion: Nile Perch in Lake Victoria eliminated >200 cichlid fish species; invasive weeds Parthenium (Carrot grass), Lantana, Eichhornia (Water hyacinth / Terror of Bengal); African catfish Clarias gariepinus threatening native fish.",
+        "4. Co-extinctions: Obligate co-evolved partner goes extinct with host (e.g. plant-pollinator mutualism)."
+      ],
+      "formulas": [
+        {
+          "label": "The Evil Quartet 4 causes mnemonic",
+          "expr": "1) Habitat loss & fragmentation (most destructive) | 2) Over-exploitation | 3) Alien species invasion | 4) Co-extinctions"
+        },
+        {
+          "label": "Invasive alien species examples",
+          "expr": "Nile perch (Lake Victoria) | Parthenium (Carrot grass) | Eichhornia (Terror of Bengal) | Clarias gariepinus (Catfish)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Biodiversity Conservation: In-Situ vs Ex-Situ Strategies",
+      "tag": "formula",
+      "points": [
+        "Motivations: Narrowly utilitarian (food, medicines, fibers; 25% modern pharmaceuticals derived from plants), Broadly utilitarian (Amazon produces 20% O₂, pollination), Ethical duty.",
+        "1. In-Situ Conservation (On-site / in natural habitat):",
+        "- Biodiversity Hotspots (Norman Myers): Exceptional species richness and high endemism under severe habitat threat. 36 globally; 3 in India: Western Ghats-Sri Lanka, Indo-Burma, Himalayas.",
+        "- Protected Area Network in India: 14 Biosphere Reserves (Nilgiri first in 1986), 106 National Parks, 560+ Sanctuaries.",
+        "- Sacred Groves: Pristine forest patches protected by indigenous religious traditions (Khasi & Jaintia hills in Meghalaya, Aravalli hills in Rajasthan, Western Ghats).",
+        "2. Ex-Situ Conservation (Off-site / outside natural habitat): Botanical gardens, Zoological parks, Wildlife safari parks, Cryopreservation of gametes/seeds at −196 °C in liquid nitrogen, Seed banks."
+      ],
+      "formulas": [
+        {
+          "label": "In-Situ vs Ex-Situ conservation classification",
+          "expr": "In-Situ: Hotspots, National Parks, Sanctuaries, Biosphere Reserves, Sacred Groves | Ex-Situ: Zoo, Botanical Gardens, Cryopreservation, Seed Banks"
+        },
+        {
+          "label": "Cryopreservation temperature condition",
+          "expr": "Liquid Nitrogen storage at −196 °C (−196 °C maintains viability indefinitely)"
+        },
+        {
+          "label": "Indian Biodiversity Hotspots triad",
+          "expr": "Western Ghats & Sri Lanka | Indo-Burma | Himalayas (cover high endemism)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Air Pollution & Control: Scrubber, ESP & Catalytic Converter",
+      "tag": "formula",
+      "points": [
+        "Legislation: Air (Prevention and Control of Pollution) Act 1981; amended in 1987 to include NOISE as an air pollutant.",
+        "Particulate Matter: Central Pollution Control Board (CPCB) designates PM 2.5 (particles ≤ 2.5 µm diameter) as most dangerous to human health (penetrates deep into alveoli, causes respiratory distress, inflammation, premature death).",
+        "Control Equipment: 1) Electrostatic Precipitator (ESP): Thermal power plants; removes > 99% particulate matter using high-voltage corona wires charging dust particles which deposit on grounded collecting plates; 2) Scrubber: Removes sulfur dioxide (SO₂) gas by passing flue exhaust through water or lime spray [Ca(OH)₂].",
+        "Catalytic Converter: Platinum-Palladium and Rhodium catalysts in vehicle exhaust convert unburnt hydrocarbons to CO₂ + H₂O, CO to CO₂, and NO to N₂ gas. Requires UNLEADED petrol (lead poisons catalyst!)."
+      ],
+      "formulas": [
+        {
+          "label": "CPCB hazardous particulate threshold",
+          "expr": "PM 2.5 (diameter ≤ 2.5 µm) = Greatest harm to human respiratory health"
+        },
+        {
+          "label": "Catalytic converter redox conversions",
+          "expr": "Hydrocarbons → CO₂ + H₂O | Carbon monoxide (CO) → CO₂ | Nitric oxide (NO) → N₂ gas"
+        },
+        {
+          "label": "Electrostatic precipitator efficiency",
+          "expr": "Removes > 99% of particulate matter from industrial flue gases"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Water Pollution, Eutrophication & Biomagnification",
+      "tag": "formula",
+      "points": [
+        "Water Pollution Act: 1974. Just 0.1% impurities (solids, organic waste, salts) makes domestic wastewater unfit for human use.",
+        "Biomagnification: Phenomenon of progressive accumulation and concentration increase of non-biodegradable toxic substances at successive trophic levels.",
+        "DDT in Aquatic Food Chain: Water (0.003 ppb) → Zooplankton (0.04 ppm) → Small fish (0.5 ppm) → Large fish (2 ppm) → Fish-eating birds / Osprey (25 ppm!). High DDT interferes with calcium metabolism in birds, causing eggshell thinning and population crash.",
+        "Eutrophication: Natural or accelerated (cultural) aging of water body due to nutrient enrichment (Nitrogen and Phosphorus): Fertilizers/sewage enter lake → Algal Bloom → cuts light → algae die → decomposers consume dissolved oxygen (DO crashes) → fish asphyxiation → lake chokes."
+      ],
+      "formulas": [
+        {
+          "label": "DDT Biomagnification progression",
+          "expr": "Water (0.003 ppb) → Zooplankton (0.04 ppm) → Small Fish (0.5 ppm) → Large Fish (2 ppm) → Fish-eating birds (25 ppm)"
+        },
+        {
+          "label": "Biological impact of high DDT in birds",
+          "expr": "Interferes with Calcium metabolism → Thinned eggshells → Premature cracking → Population decline"
+        },
+        {
+          "label": "Eutrophication trigger mechanism",
+          "expr": "Nutrients (N & P) → Algal Bloom → Depletion of Dissolved Oxygen (DO) → Asphyxiation of aquatic fauna"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Solid, Electronic & Radioactive Waste Management",
+      "tag": "concept",
+      "points": [
+        "Solid Waste: Sanitary landfills (compacted waste in trenches covered with soil; risk of toxic leachate contaminating groundwater).",
+        "Plastic Waste Solution: Ahmed Khan (Bengaluru) developed Polyblend (recycled plastic powder) mixed with bitumen (1:9 ratio) to lay long-lasting, water-repellent asphalt roads.",
+        "E-waste: Recycled for precious metals (copper, gold, silicon); manual recycling in developing nations exposes workers to toxic heavy metals (lead, mercury, cadmium).",
+        "Radioactive Waste: Highly hazardous nuclear waste must be pre-treated, concentrated, sealed in heavy shielded containers, and buried deep underground (~500 m) in stable rock strata.",
+        "EcoSan Toilets: Ecological sanitation dry composting toilets that recycle human excreta into natural manure without wasting water (functional in Kerala and Sri Lanka)."
+      ],
+      "formulas": [
+        {
+          "label": "Polyblend innovation (Ahmed Khan, Bengaluru)",
+          "expr": "Polyblend (recycled plastic powder) + Bitumen (ratio 1:9) → Durable water-repellent asphalt roads"
+        },
+        {
+          "label": "Nuclear waste disposal depth standard",
+          "expr": "Sealed steel containers buried deep in stable rock formations ~500 meters underground"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Greenhouse Effect, Global Warming & Ozone Depletion",
+      "tag": "imp",
+      "points": [
+        "1. Greenhouse Effect & Global Warming: Natural phenomenon maintaining earth's average temperature at +15 °C (without it, earth would freeze at −18 °C). Contribution of greenhouse gases: CO₂ (60%), Methane CH₄ (20%), CFCs (14%), Nitrous oxide N₂O (6%). Consequences: Polar ice cap melting, sea level rise, submergence of coastal plains, El Niño weather aberrations.",
+        "2. Ozone Depletion in Stratosphere: 'Good ozone' in Stratosphere absorbs lethal UV-B radiation (which causes skin cancer, cataracts, corneal snow-blindness, DNA mutations); 'Bad ozone' in Troposphere is a harmful pollutant. Thickness measured in Dobson Units (DU).",
+        "Antarctic Ozone Hole: Chlorofluorocarbons (CFCs) release chlorine radicals (Cl·) under UV light; 1 Cl radical catalytically destroys ~100,000 O₃ molecules! Montreal Protocol (1987, effective 1989) signed to ban ozone-depleting substances."
+      ],
+      "formulas": [
+        {
+          "label": "Greenhouse gases percentage shares",
+          "expr": "Carbon dioxide (CO₂) = 60% | Methane (CH₄) = 20% | CFCs = 14% | Nitrous oxide (N₂O) = 6%"
+        },
+        {
+          "label": "Ozone catalytic destruction by chlorine radical",
+          "expr": "Cl· + O₃ → ClO· + O₂; ClO· + O → Cl· + O₂ (1 Cl atom destroys ~100,000 O₃ molecules)"
+        },
+        {
+          "label": "Ozone thickness unit",
+          "expr": "Dobson Unit (DU) | 1 DU = 0.01 mm thickness of pure ozone at STP"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Ozone hole location: Stratosphere over Antarctica (forms annually between late August and early October). Good ozone is in STRATOSPHERE; Bad ozone is in TROPOSPHERE.",
+        "TRAP 2: Greenhouse gases ranking: CO₂ (60%) > CH₄ (20%) > CFCs (14%) > N₂O (6%).",
+        "TRAP 3: DDT biomagnification: 25 ppm in top carnivore fish-eating birds from 0.003 ppb in water (~10 million fold concentration increase).",
+        "TRAP 4: Historical environmental movements: Chipko Movement (1974, Garhwal Himalayas, hugging trees); Amrita Devi Bishnoi sacrifice (1731, Rajasthan, protecting Khejri trees).",
+        "TRAP 5: Biodiversity Hotspot criteria: High species richness + High degree of endemism + Severe degree of habitat threat (36 globally, 3 in India)."
+      ],
+      "formulas": [
+        {
+          "label": "Greenhouse gases percentage ranking",
+          "expr": "CO₂ (60%) > CH₄ (20%) > CFCs (14%) > N₂O (6%)"
+        },
+        {
+          "label": "DDT biomagnification amplification factor",
+          "expr": "Water (0.003 ppb) → Top Birds (25 ppm) ≈ 8.3 × 10⁶ fold concentration increase"
+        },
+        {
+          "label": "Key environmental legislation milestones",
+          "expr": "Water Act: 1974 | Air Act: 1981 (Noise added 1987) | Environment Protection Act: 1986 | Montreal Protocol: 1987"
+        }
+      ]
+    }
+  ]
+}

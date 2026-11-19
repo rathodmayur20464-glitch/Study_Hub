@@ -1,0 +1,235 @@
+{
+  "title": "Control and Coordination",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Neuron Structure, Types & Neuroglial Cells",
+      "tag": "concept",
+      "points": [
+        "Neuron structure: Cyton / Soma (cell body with Nissl's granules of rough ER/ribosomes, neurofibrils), Dendrites (short, branched, afferent), Axon (single long efferent process originating at Axon hillock; covered by myelin sheath interrupted by Nodes of Ranvier). Synaptic knobs contain neurotransmitter vesicles.",
+        "Neuron types: Unipolar (embryonic stage), Bipolar (retina of eye, olfactory epithelium), Multipolar (cerebral cortex, most common). Sensory (afferent), Motor (efferent), Interneurons.",
+        "Neuroglia (supporting glial cells): Astrocytes (form blood-brain barrier), Oligodendrocytes (form myelin sheath in CNS), Schwann cells (form myelin sheath in PNS), Microglia (phagocytic scavengers), Ependymal cells (line brain ventricles, circulate CSF)."
+      ],
+      "formulas": [
+        {
+          "label": "Neuron structural polarity",
+          "expr": "Dendrites (receive signals toward soma) → Soma / Cyton → Axon hillock → Axon → Synaptic knobs (efferent)"
+        },
+        {
+          "label": "Myelination agents distinction",
+          "expr": "PNS Myelin = Schwann cells | CNS Myelin = Oligodendrocytes"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Conduction of Nerve Impulse: Resting & Action Potential",
+      "tag": "formula",
+      "points": [
+        "1. Resting Membrane Potential (Polarized State, −70 mV): Axolemma is more permeable to K⁺ than Na⁺; active Na⁺/K⁺ ATPase pump extrudes 3 Na⁺ for every 2 K⁺ pumped in using 1 ATP, maintaining internal negativity.",
+        "2. Action Potential (Depolarization, +30 mV): Threshold stimulus (−55 mV) opens voltage-gated Na⁺ channels causing massive Na⁺ influx, reversing polarity to +30 mV (Spike potential).",
+        "3. Repolarization: Na⁺ channels close; voltage-gated K⁺ channels open causing rapid K⁺ efflux, restoring internal negativity.",
+        "4. Hyperpolarization: K⁺ channels stay open longer, dropping potential to −80 mV before Na⁺/K⁺ pump restores resting −70 mV.",
+        "Saltatory Conduction: In myelinated neurons, action potential jumps from one Node of Ranvier to next; 50-100 times faster (~120 m/s vs 1-2 m/s in unmyelinated fibers)."
+      ],
+      "formulas": [
+        {
+          "label": "Na⁺/K⁺ ATPase pump stoichiometry",
+          "expr": "Pumps 3 Na⁺ OUT : 2 K⁺ IN (requires 1 ATP; maintains resting membrane potential −70 mV)"
+        },
+        {
+          "label": "Membrane potential phases values",
+          "expr": "Resting: −70 mV | Threshold: −55 mV | Peak Action Potential: +30 mV | Hyperpolarization: −80 to −90 mV"
+        },
+        {
+          "label": "Saltatory conduction speed advantage",
+          "expr": "Myelinated nerve = 100 - 120 m/s (Saltatory) vs Non-myelinated nerve = 1 - 2 m/s (Continuous)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Synaptic Transmission & Reflex Action",
+      "tag": "formula",
+      "points": [
+        "Chemical Synapse: Action potential reaching presynaptic terminal opens voltage-gated Ca²⁺ channels → Ca²⁺ influx causes synaptic vesicles to exocytose neurotransmitters (Acetylcholine, Noradrenaline) into 20-30 nm synaptic cleft → bind postsynaptic ligand-gated receptors → generates EPSP (depolarization) or IPSP (hyperpolarization by GABA opening Cl⁻ channels).",
+        "Electrical Synapse: Gap junctions allow direct ionic current flow; faster but rare in humans.",
+        "Reflex Action: Involuntary, automatic, instantaneous motor response to a sensory stimulus without prior brain consultation.",
+        "Reflex Arc sequence: Receptor organ → Sensory neuron (enters via dorsal root) → Interneuron in spinal cord grey matter → Motor neuron (exits via ventral root) → Effector organ (muscle/gland)."
+      ],
+      "formulas": [
+        {
+          "label": "Chemical synaptic sequence",
+          "expr": "Action potential → Ca²⁺ influx → Neurotransmitter exocytosis into cleft → Receptor binding → Postsynaptic ion influx"
+        },
+        {
+          "label": "Neurotransmitter types matching",
+          "expr": "Excitatory: Acetylcholine, Glutamate, Noradrenaline | Inhibitory: GABA (γ-aminobutyric acid), Glycine"
+        },
+        {
+          "label": "Reflex arc components pathway",
+          "expr": "Receptor → Sensory neuron (Dorsal root) → Interneuron (Grey matter) → Motor neuron (Ventral root) → Effector"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Human Central Nervous System: Forebrain, Midbrain & Hindbrain",
+      "tag": "concept",
+      "points": [
+        "Meninges: Duramater (outer thick), Arachnoid (middle web-like, CSF in subarachnoid space), Piamater (inner vascular).",
+        "1. Forebrain: Cerebrum (80% brain weight; hemispheres connected by Corpus callosum, unique to mammals; 4 lobes: Frontal motor/Broca's speech, Parietal sensory/gustatory, Temporal auditory/Wernicke's, Occipital visual); Thalamus (sensory relay station); Hypothalamus (thermoregulation, hunger, thirst, controls pituitary); Limbic system (emotional brain, amygdala, hippocampus for memory).",
+        "2. Midbrain: Corpora quadrigemina (superior colliculi for visual reflexes, inferior colliculi for auditory reflexes); Aqueduct of Sylvius.",
+        "3. Hindbrain: Cerebellum (Arbor vitae; balance, posture, fine voluntary muscle coordination); Pons (pneumotaxic center); Medulla Oblongata (vital centers: cardiac, vasomotor, respiratory rhythm, vomiting, swallowing)."
+      ],
+      "formulas": [
+        {
+          "label": "Mammalian brain hallmark",
+          "expr": "Corpus callosum (thick transversal band of white fibers connecting left and right cerebral hemispheres)"
+        },
+        {
+          "label": "Hindbrain functional centers",
+          "expr": "Cerebellum = Balance & equilibrium (Arbor vitae) | Medulla = Cardiac, vasomotor, vomiting centers | Pons = Pneumotaxic"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Spinal Cord, Peripheral & Autonomic Nervous System",
+      "tag": "formula",
+      "points": [
+        "Spinal Cord: Extends from foramen magnum to L1-L2; central canal contains CSF; 'H'-shaped inner grey matter surrounded by outer white matter.",
+        "PNS Nerves: Cranial nerves (12 pairs: I Olfactory, II Optic, VIII Auditory sensory; III, IV, VI, XI, XII motor; V Trigeminal largest, X Vagus longest mixed nerve); Spinal nerves (31 pairs: 8C, 12T, 5L, 5S, 1Co; ALL spinal nerves are MIXED!).",
+        "Autonomic Nervous System (ANS): 1) Sympathetic (Thoracolumbar outflow, Noradrenaline): 'Fight or flight' (dilates pupils, accelerates heart, dilates bronchi, inhibits gut); 2) Parasympathetic (Craniosacral outflow, Acetylcholine): 'Rest and digest' (constricts pupils, slows heart, stimulates digestion)."
+      ],
+      "formulas": [
+        {
+          "label": "Human nerve counts",
+          "expr": "Cranial nerves = 12 pairs | Spinal nerves = 31 pairs (8C + 12T + 5L + 5S + 1Co; all mixed)"
+        },
+        {
+          "label": "Autonomic nervous system antagonism",
+          "expr": "Sympathetic (Thoracolumbar, Noradrenaline, Stress 'Fight/Flight') vs Parasympathetic (Craniosacral, Acetylcholine, 'Rest/Digest')"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Sensory Receptors: Eye & Ear Anatomy and Function",
+      "tag": "concept",
+      "points": [
+        "1. Human Eye: Sclera (cornea anteriorly); Choroid (ciliary body, iris with pupil); Retina: Rods (rhodopsin, twilight vision) and Cones (iodopsin, color/photopic vision); Fovea centralis / Macula lutea (only cones, point of highest visual acuity); Blind spot (lacks photoreceptors, optic nerve exits).",
+        "2. Human Ear: External ear (pinna, auditory canal); Middle ear (tympanic membrane, 3 Ear Ossicles: Malleus, Incus, Stapes smallest bone amplifying sound 20×; Eustachian tube equalizes pressure); Inner ear (Labyrinth):",
+        "- Cochlea (Hearing): Organ of Corti on basilar membrane with hair cells.",
+        "- Vestibular apparatus (Equilibrium): Crista ampullaris in semicircular canals (dynamic balance/rotation); Maculae in utricle and saccule (static balance/gravity)."
+      ],
+      "formulas": [
+        {
+          "label": "Ear ossicles amplification chain",
+          "expr": "Malleus (Hammer) → Incus (Anvil) → Stapes (Stirrup, oval window); amplifies sound pressure ~20 times"
+        },
+        {
+          "label": "Equilibrium sensors in inner ear",
+          "expr": "Dynamic / Angular equilibrium = Crista ampullaris | Static / Linear equilibrium = Macula (Utricle & Saccule)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Endocrine Glands: Pituitary, Thyroid & Adrenal Glands",
+      "tag": "formula",
+      "points": [
+        "Pituitary (Hypophysis): Adenohypophysis secretes GH (Gigantism/Acromegaly in hyper, Dwarfism in hypo), TSH, ACTH, PRL, FSH, LH; Neurohypophysis stores Oxytocin (birth, milk let-down) and ADH / Vasopressin (water reabsorption; hyposecretion causes Diabetes Insipidus).",
+        "Thyroid Gland: Secretes T₄, T₃ (requires iodine; regulates BMR) and Thyrocalcitonin (TCT, lowers blood Ca²⁺). Hypothyroidism causes Goitre, Cretinism (infants), Myxedema (adults); Hyperthyroidism causes Graves' disease.",
+        "Parathyroid Glands: Secretes Parathormone (PTH / Collip's hormone: elevates blood Ca²⁺ by bone resorption; antagonistic to Calcitonin!).",
+        "Adrenal Glands: Adrenal Cortex secretes Aldosterone (Na⁺ balance), Cortisol (glucocorticoid, anti-inflammatory), Sex corticoids; Adrenal Medulla secretes Adrenaline & Noradrenaline (3F emergency hormones)."
+      ],
+      "formulas": [
+        {
+          "label": "Calcium homeostasis antagonistic hormones",
+          "expr": "Calcitonin (Thyroid) lowers blood Ca²⁺ ⇌ Parathormone / PTH (Parathyroid) raises blood Ca²⁺"
+        },
+        {
+          "label": "Diabetes Insipidus etiology",
+          "expr": "Hyposecretion of ADH (Vasopressin) → Excessive dilute urination (Polyuria) & excessive thirst (Polydipsia)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Pancreas, Gonads & Mechanism of Hormone Action",
+      "tag": "formula",
+      "points": [
+        "Pancreas (Islets of Langerhans): α-cells secrete Glucagon (hyperglycemic; glycogenolysis); β-cells secrete Insulin (hypoglycemic; stimulates glucose uptake; deficiency causes Diabetes Mellitus); δ-cells secrete Somatostatin.",
+        "Gonadal hormones: Testes secrete Testosterone (Leydig cells); Ovaries secrete Estrogen (follicles) and Progesterone (corpus luteum).",
+        "Mechanisms of Hormone Action:",
+        "1. Peptide / Protein Hormones (Hydrophilic: Insulin, FSH, Adrenaline): Bind extracellular membrane receptors → activate adenylate cyclase → generate Secondary Messengers (cAMP, IP₃, Ca²⁺) → biochemical response cascade.",
+        "2. Steroid & Thyroid Hormones (Lipophilic: Estrogen, Cortisol, Thyroxine): Diffuse across membrane → bind Intracellular nuclear receptors → Hormone-receptor complex binds DNA / HRE, directly altering gene expression."
+      ],
+      "formulas": [
+        {
+          "label": "Glucose homeostasis antagonistic hormones",
+          "expr": "Insulin (β-cells) lowers blood glucose ⇌ Glucagon (α-cells) raises blood glucose"
+        },
+        {
+          "label": "Secondary messengers in peptide hormone action",
+          "expr": "cAMP (cyclic AMP), IP₃ (inositol trisphosphate), DAG (diacylglycerol), Ca²⁺"
+        },
+        {
+          "label": "Lipophilic steroid mechanism",
+          "expr": "Steroid Hormone + Intracellular Nuclear Receptor → Hormone-Receptor Complex → Direct Gene Transcription"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Reflex Arc",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Describe the structure of a multipolar neuron with a neat labelled diagram.",
+        "Board Q2: Explain the conduction of nerve impulse along an unmyelinated nerve fiber (polarization, depolarization, repolarization).",
+        "Board Q3: Explain the structure and functions of Cerebrum, Cerebellum, and Medulla oblongata.",
+        "Board Q4: Mechanism of action of peptide hormones (cAMP secondary messenger) vs steroid hormones (nuclear receptor).",
+        "Board Q5: Compare Diabetes Mellitus (insulin deficiency, high blood glucose) vs Diabetes Insipidus (ADH deficiency, dilute polyuria)."
+      ],
+      "formulas": [
+        {
+          "label": "Diabetes Mellitus vs Insipidus comparison",
+          "expr": "Mellitus = Insulin deficiency (High blood glucose + sugar in urine) | Insipidus = ADH deficiency (Dilute polyuria, normal glucose)"
+        },
+        {
+          "label": "Thyroid hyposecretion disorders",
+          "expr": "Cretinism (in infants: dwarfism + mental retardation) | Myxedema / Gull's disease (in adults: puffiness, low BMR)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Conduction velocity: Saltatory conduction in myelinated axons (~120 m/s) is ~50-100 times faster than continuous conduction in unmyelinated fibers (~1-2 m/s).",
+        "TRAP 2: Longest cranial nerve vs Largest: Vagus (CN X) is the LONGEST cranial nerve; Trigeminal (CN V) is the LARGEST cranial nerve.",
+        "TRAP 3: Calcium regulating hormones: Calcitonin LOWERS blood Ca²⁺ (bone deposition); Parathormone (PTH) ELEVATES blood Ca²⁺ (bone resorption).",
+        "TRAP 4: Insulin vs Glucagon: Insulin is HYPOGLYCEMIC (lowers blood sugar); Glucagon is HYPERGLYCEMIC (raises blood sugar).",
+        "TRAP 5: Corpus callosum: Present ONLY in mammalian brain; connects right and left cerebral hemispheres."
+      ],
+      "formulas": [
+        {
+          "label": "Cranial nerves superlatives",
+          "expr": "Longest = CN X (Vagus) | Largest = CN V (Trigeminal) | Smallest = CN VI (Abducens) / CN IV (Trochlear)"
+        },
+        {
+          "label": "Hormone classification by solubility",
+          "expr": "Hydrophilic (Membrane receptor + cAMP): Peptides, Adrenaline | Lipophilic (Nuclear receptor): Steroids, Thyroxine"
+        },
+        {
+          "label": "Mammalian brain diagnostic marker",
+          "expr": "Presence of Corpus callosum and Corpora quadrigemina"
+        }
+      ]
+    }
+  ]
+}

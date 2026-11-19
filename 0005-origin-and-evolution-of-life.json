@@ -1,0 +1,229 @@
+{
+  "title": "Origin and Evolution of Life",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Theories of Origin of Life & Chemical Evolution",
+      "tag": "concept",
+      "points": [
+        "Historical theories: Special Creation (Father Suarez), Panspermia (spores from space), Spontaneous Generation / Abiogenesis (life from decaying matter; disproved by Louis Pasteur's swan-necked flask experiment: 'Omne vivum ex vivo').",
+        "Chemical Evolution (Oparin-Haldane Theory, 1924-1929): Life originated from non-living organic molecules through biochemical evolution in primitive oceans ('hot dilute prebiotic soup').",
+        "Primitive earth environment: Highly reducing atmosphere containing methane (CH₄), ammonia (NH₃), hydrogen (H₂), and water vapor (H₂O); completely lacked free molecular oxygen (O₂). High temperature, UV rays, and lightning supplied energy.",
+        "Protobionts: Non-living macromolecular aggregates showing metabolic-like properties: Coacervates (Oparin: colloid droplets without lipid bilayer) and Microspheres (Sydney Fox: proteinoid droplets with selective boundary)."
+      ],
+      "formulas": [
+        {
+          "label": "Primitive earth conditions vs Modern earth",
+          "expr": "Primitive: Reducing atmosphere (CH₄, NH₃, H₂, H₂O vapor; NO free O₂) | Modern: Oxidizing atmosphere (21% O₂)"
+        },
+        {
+          "label": "Chemical evolution sequence",
+          "expr": "Inorganic atoms → Simple molecules (H₂O, NH₃, CH₄) → Simple organic (amino acids, sugars) → Macromolecules → Protobionts → First cells"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Urey and Miller's Simulation Experiment (1953)",
+      "tag": "formula",
+      "points": [
+        "Experimental setup: Spark discharge glass apparatus simulating prebiotic earth conditions.",
+        "Gas mixture: Methane (CH₄), Ammonia (NH₃), and Hydrogen (H₂) in ratio 2 : 1 : 2, along with continuous steam from boiling water.",
+        "Energy source: High-voltage electric discharge (~75,000 volts via tungsten electrodes, ~800 °C) simulating lightning.",
+        "Results & Analysis: After running continuously for 1 week, condensed fluid turned red-brown. Chemical analysis revealed synthesis of simple amino acids: Glycine, Alanine, and Aspartic acid, along with organic acids and nitrogen bases, confirming Oparin-Haldane chemical evolution."
+      ],
+      "formulas": [
+        {
+          "label": "Miller-Urey gas ratio formula",
+          "expr": "CH₄ : NH₃ : H₂ = 2 : 1 : 2 (with boiling H₂O steam, 800 °C, electric spark)"
+        },
+        {
+          "label": "Synthesized amino acids in Miller's experiment",
+          "expr": "Glycine (simplest), Alanine, Aspartic acid"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Morphological & Anatomical Evidences of Evolution",
+      "tag": "concept",
+      "points": [
+        "1. Homologous Organs (Divergent Evolution): Organs with similar structural design and embryonic origin, but adapted to perform different functions (e.g. Forelimbs of Human, Cheetah, Whale, and Bat; Bougainvillea thorns and Cucurbita tendrils). Indicates common ancestry.",
+        "2. Analogous Organs (Convergent Evolution): Organs with different anatomical structures and embryonic origins, but performing similar functions under similar selective pressures (e.g. Wings of butterfly and wings of birds; Eye of Octopus and eye of Mammals; Flippers of Penguins and Dolphins; Sweet potato root tuber and Potato stem tuber).",
+        "3. Vestigial Organs: Non-functional, reduced remnants of structures that were functional in ancestral species (e.g. Vermiform appendix, Nictitating membrane / plica semilunaris, Wisdom teeth, Coccyx / tailbone).",
+        "4. Atavism (Reversion): Reappearance of ancestral characteristics (e.g. human baby born with tail, extra nipples, thick body hair)."
+      ],
+      "formulas": [
+        {
+          "label": "Homology vs Analogy comparison key",
+          "expr": "Homology: Same origin, different function → Divergent evolution (Common ancestor) | Analogy: Different origin, same function → Convergent evolution"
+        },
+        {
+          "label": "Vestigial organs in human body",
+          "expr": "Vermiform appendix, Wisdom teeth (3rd molars), Plica semilunaris, Ear pinna muscles, Coccyx"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Paleontological & Embryological Evidences",
+      "tag": "concept",
+      "points": [
+        "Paleontology: Study of fossils (remnants or impressions of past organisms preserved in sedimentary rocks).",
+        "Archaeopteryx lithographica: Classic connecting link between Reptiles and Birds. Reptilian features: Teeth in jaws, long bony tail with free caudal vertebrae, claws on digits, solid non-pneumatic bones; Avian features: Feathers, wings, beak, four-toed perching foot.",
+        "Living fossils: Surviving species showing minimal change over millions of years (Latimeria / Coelacanth lobe-finned fish, Limulus king crab, Sphenodon, Ginkgo biloba).",
+        "Embryological Evidences: Ernst Haeckel's Biogenetic Law ('Ontogeny recapitulates Phylogeny' - embryonic development mirrors evolutionary ancestry). Disproved by Karl Ernst von Baer, who showed embryos never pass through adult stages of other animals."
+      ],
+      "formulas": [
+        {
+          "label": "Connecting link: Archaeopteryx traits",
+          "expr": "Reptilian (teeth, long bony tail, claws) + Avian (feathers, wings, beak)"
+        },
+        {
+          "label": "Biogenetic law statement",
+          "expr": "Ontogeny (individual embryonic development) recapitulates Phylogeny (evolutionary ancestry)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Theories of Evolution: Lamarckism vs Darwinism",
+      "tag": "formula",
+      "points": [
+        "1. Lamarckism (Jean-Baptiste de Lamarck, 1809): Theory of inheritance of acquired characters and use/disuse of organs (e.g. Giraffe's long neck). Disproved by August Weismann's Germplasm Theory (cut tails of mice for 22 generations; somatic changes are not transmitted to gametes).",
+        "2. Darwinism (Charles Darwin, 1859 - 'Origin of Species by Natural Selection'): Inspired by HMS Beagle voyage to Galapagos and Malthus' Essay on Population.",
+        "Darwinian postulates: 1) Overproduction; 2) Limited food and space; 3) Struggle for existence (intraspecific, interspecific, environmental); 4) Variations; 5) Survival of the fittest (natural selection); 6) Speciation.",
+        "Drawbacks of Darwinism: Failed to explain source/origin of variations ('arrival of the fittest'); could not distinguish between heritable germinal variations and non-heritable somatic variations."
+      ],
+      "formulas": [
+        {
+          "label": "Darwinian natural selection sequence",
+          "expr": "Overproduction → Struggle for existence → Variations → Survival of fittest → Natural Selection → Speciation"
+        },
+        {
+          "label": "Germplasm theory (August Weismann)",
+          "expr": "Somatoplasm (body cells, not inherited) vs Germplasm (gametes, inherited)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Mutation Theory & Modern Synthetic Theory of Evolution",
+      "tag": "formula",
+      "points": [
+        "1. Mutation Theory (Hugo de Vries, 1901): Based on Evening Primrose (Oenothera lamarckiana). Proposed that evolution occurs via sudden, discontinuous, large, directionless mutations called Saltation (single step large mutation), unlike Darwin's slow, continuous, directional variations.",
+        "2. Modern Synthetic Theory of Evolution (Neo-Darwinism): Integration of Mendelian genetics, population genetics, and natural selection (Dobzhansky, Mayr, Stebbins).",
+        "5 Pillars of Modern Synthetic Theory: 1) Gene mutations (point mutations, frameshifts); 2) Gene recombination (crossing over during pachytene of meiosis I); 3) Chromosomal aberrations (deletion, duplication, inversion, translocation); 4) Natural selection (differential reproduction); 5) Reproductive isolation (geographical or genetic barriers preventing interbreeding)."
+      ],
+      "formulas": [
+        {
+          "label": "Darwinian variation vs De Vries mutation",
+          "expr": "Darwin: Small, gradual, directional | De Vries: Large, sudden, directionless (Saltation)"
+        },
+        {
+          "label": "Modern Synthetic Theory equation of factors",
+          "expr": "Evolution = Genetic Variations (Mutations + Recombination) + Natural Selection + Reproductive Isolation"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Hardy-Weinberg Principle & Modes of Natural Selection",
+      "tag": "formula",
+      "points": [
+        "Hardy-Weinberg Principle (1908): In a large, randomly mating, diploid population, allele frequencies and genotype frequencies remain constant across generations in the absence of evolutionary forces.",
+        "Equations: Allele frequencies: p + q = 1; Genotype frequencies: p² + 2pq + q² = 1 (where p = freq of dominant allele A, q = freq of recessive allele a, p² = AA, 2pq = Aa, q² = aa).",
+        "Disrupting factors: Gene flow, Genetic drift (Sewall Wright effect in small populations, Founder effect, Bottleneck effect), Mutation, Recombination, Natural selection.",
+        "Modes of Natural Selection: 1) Stabilizing selection: Favors mean intermediate phenotypes, narrows peak (human birth weight ~3 kg); 2) Directional selection: Favors one extreme phenotype, shifts peak in one direction (Industrial melanism in Peppered moth Biston betularia, antibiotic resistance); 3) Disruptive selection: Favors both extreme phenotypes, forms two peaks."
+      ],
+      "formulas": [
+        {
+          "label": "Hardy-Weinberg allele frequency equation",
+          "expr": "p + q = 1 (p = freq of A, q = freq of a)"
+        },
+        {
+          "label": "Hardy-Weinberg genotype frequency equation",
+          "expr": "p² + 2pq + q² = 1 (p² = AA, 2pq = Aa, q² = aa)"
+        },
+        {
+          "label": "Three modes of Natural Selection",
+          "expr": "Stabilizing (narrow peak, mean favored) | Directional (peak shifts to one side) | Disruptive (two peaks formed, extremes favored)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Adaptive Radiation & Speciation",
+      "tag": "concept",
+      "points": [
+        "Adaptive Radiation: Evolutionary diversification of a single ancestral species into multiple distinct ecological niches within a geographical area.",
+        "Examples: 1) Darwin's Finches on Galapagos Islands (seed-eating ancestral beak radiated into insectivorous, vegetarian, cactus-feeding, and warbler beaks); 2) Australian Marsupials (ancestral marsupial radiated into Tasmanian wolf, Wombat, Bandicoot, Kangaroo).",
+        "Convergent evolution of Placental Mammals & Marsupials: Distinct lineages evolving analogous adaptations: Placental wolf ↔ Tasmanian wolf; Mole ↔ Marsupial mole; Anteater ↔ Numbat; Flying squirrel ↔ Flying phalanger.",
+        "Speciation: Allopatric speciation (geographic isolation like mountains/rivers splits population); Sympatric speciation (reproductive isolation within same geographic range, e.g. polyploidy in plants)."
+      ],
+      "formulas": [
+        {
+          "label": "Adaptive radiation definition",
+          "expr": "Evolution of diverse species from a common ancestor radiating into different ecological niches"
+        },
+        {
+          "label": "Convergent marsupial-placental analogues",
+          "expr": "Tasmanian wolf ↔ Wolf | Anteater ↔ Numbat | Flying squirrel ↔ Flying phalanger"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Human Evolution & Cranial Capacity Timeline",
+      "tag": "imp",
+      "points": [
+        "Human ancestral lineage chronologically:",
+        "1. Dryopithecus & Ramapithecus (15 mya): Dryopithecus was ape-like; Ramapithecus was more human-like and walked erect.",
+        "2. Australopithecus (2-3 mya, East Africa): Taung baby, Lucy; brain capacity 450-600 cc; bipedal, used stone tools, largely vegetarian.",
+        "3. Homo habilis ('Handy man', 1.7-2.0 mya): Cranial capacity 650-800 cc; first hominid tool-maker; did not eat meat.",
+        "4. Homo erectus (1.5 mya, Java/Peking man): Cranial capacity ~900 cc; upright bipedal posture; used fire and stone axes; ate meat.",
+        "5. Homo neanderthalensis (100,000-40,000 ya): Cranial capacity 1400 cc; lived in caves; used animal hides for clothing; buried dead with ceremonies.",
+        "6. Cro-Magnon man (Homo sapiens fossilis, 34,000 ya): Cranial capacity 1600 cc (largest cranial volume!); cave paintings.",
+        "7. Homo sapiens sapiens (Modern man, 25,000-10,000 ya): Cranial capacity 1350-1450 cc; agriculture arose ~10,000 years ago."
+      ],
+      "formulas": [
+        {
+          "label": "Cranial capacity chronological table",
+          "expr": "H. habilis: 650-800 cc | H. erectus: 900 cc | H. neanderthalensis: 1400 cc | Cro-Magnon: 1600 cc | Modern man: 1350-1450 cc"
+        },
+        {
+          "label": "Human evolution chronological pathway",
+          "expr": "Dryopithecus → Ramapithecus → Australopithecus → Homo habilis → Homo erectus → Homo neanderthalensis → Homo sapiens"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Hardy-Weinberg problem shortcut: If given recessive phenotype (aa) = 16% (0.16) → q² = 0.16 ⇒ q = 0.4 → p = 1 − 0.4 = 0.6 → Heterozygotes (2pq) = 2(0.6)(0.4) = 0.48 (48%)!",
+        "TRAP 2: Miller-Urey ratio: CH₄ : NH₃ : H₂ = 2 : 1 : 2. (Ammonia is 1; Methane and Hydrogen are 2).",
+        "TRAP 3: First hominid with human-like features = Homo habilis (first tool maker, 650-800 cc).",
+        "TRAP 4: Largest cranial capacity in human lineage = Cro-Magnon man (~1600 cc), higher than modern humans (1350-1450 cc)!",
+        "TRAP 5: Industrial melanism: Peppered moth (Biston betularia typica light vs carbonaria dark). Before industrialization: light moths favored by lichens. Post-industrialization: dark moths favored by soot-covered trunks (Directional selection!)."
+      ],
+      "formulas": [
+        {
+          "label": "Hardy-Weinberg quick step-by-step hack",
+          "expr": "Given recessive % = q² → take √ to get q → p = 1 − q → Carrier 2pq = 2 × p × q"
+        },
+        {
+          "label": "Miller-Urey gas ratio mnemonic",
+          "expr": "Methane (2) : Ammonia (1) : Hydrogen (2) [2:1:2]"
+        },
+        {
+          "label": "Human cranial capacity ranking",
+          "expr": "Cro-Magnon (1600 cc) > Neanderthal (1400 cc) > Modern Man (1350-1450 cc) > H. erectus (900 cc) > H. habilis (650-800 cc)"
+        }
+      ]
+    }
+  ]
+}

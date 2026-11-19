@@ -1,0 +1,240 @@
+{
+  "title": "Reproduction in Lower and Higher Plants",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Asexual Reproduction & Vegetative Propagation",
+      "tag": "concept",
+      "points": [
+        "Asexual reproduction: Produces genetically and morphologically identical offspring (clones). Mechanisms: Fragmentation (Spirogyra), Budding (Yeast), Spore formation (Chlamydomonas zoospores, Penicillium conidia).",
+        "Natural vegetative propagation: Roots (Sweet potato, Dahlia, Asparagus); Stems (Rhizome in Ginger/Turmeric, Tuber in Potato, Runner in Lawn grass/Cynodon, Offset in Pistia/Eichhornia); Leaves (Bryophyllum epiphyllous foliar buds, Kalanchoe).",
+        "Artificial vegetative propagation: Stem cutting (Rose, Sugarcane), Root cutting (Blackberry), Leaf cutting (Sansevieria); Grafting (Scion joined to Stock; cambium alignment mandatory; monocots cannot be grafted due to scattered closed vascular bundles); Budding (Rose).",
+        "Micropropagation (Tissue Culture): Explant grown on nutrient medium using totipotency to produce thousands of virus-free plantlets rapidly (apical shoot meristem culture)."
+      ],
+      "formulas": [
+        {
+          "label": "Natural vegetative structures matching",
+          "expr": "Ginger = Rhizome | Potato = Stem tuber (eyes) | Bryophyllum = Foliar foliar buds | Eichhornia = Offset"
+        },
+        {
+          "label": "Micropropagation regeneration pathway",
+          "expr": "Explant → Callus (undifferentiated mass) → Organogenesis (Auxin/Cytokinin ratio) → Plantlets"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Microsporogenesis & Male Gametophyte Development",
+      "tag": "formula",
+      "points": [
+        "Anther anatomy: Dithecous and tetrasporangiate. Wall layers (outer to inner): 1) Epidermis (protective); 2) Endothecium (hygroscopic α-cellulose fibrous bands aiding dehiscence); 3) Middle layers (1-3 ephemeral nutritive layers); 4) Tapetum (innermost nutritive layer, polyploid/multinucleate, secretes callase, Ubisch bodies, pollenkitt).",
+        "Microsporogenesis: Diploid Microspore Mother Cell (MMC, 2n) undergoes meiosis to form a tetrahedral tetrad of 4 haploid microspores (n).",
+        "Pollen grain: Double-walled microspore. Outer Exine composed of Sporopollenin (most chemically resistant biological substance known; contains germ pores lacking sporopollenin); Inner Intine composed of cellulose and pectin.",
+        "Male gametophyte development: 1st mitotic division yields large Vegetative cell (rich food reserve) and small spindle-shaped Generative cell. Shed at 2-celled stage in ~60% angiosperms. 2nd mitotic division of generative cell yields 2 non-motile male gametes."
+      ],
+      "formulas": [
+        {
+          "label": "Anther wall layers order (outer to inner)",
+          "expr": "Epidermis → Endothecium → Middle layers → Tapetum"
+        },
+        {
+          "label": "Microsporogenesis meiotic yield",
+          "expr": "1 Microspore Mother Cell (2n) (Meiosis) → 4 Functional Microspores / Pollen grains (n)"
+        },
+        {
+          "label": "Male gametophyte mitotic cell divisions",
+          "expr": "1 Microspore (n) (1st Mitosis) → Vegetative + Generative cell (2nd Mitosis) → 2 Male Gametes (n)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Megasporogenesis & Female Gametophyte (Embryo Sac)",
+      "tag": "formula",
+      "points": [
+        "Anatropous ovule (most common, ~82% angiosperms): Inverted ovule with micropyle lying close to funicle. Parts: Funicle (stalk), Hilum (attachment scar), Nucellus (central parenchymatous tissue), Integuments (protective coats), Micropyle (pore), Chalaza (basal region).",
+        "Megasporogenesis: Single hypodermal Megaspore Mother Cell (MMC, 2n) undergoes meiosis forming a linear tetrad of 4 megaspores (n). 3 micropylar megaspores degenerate; 1 chalazal megaspore remains functional (Monosporic development).",
+        "Polygonum type Embryo Sac: Functional megaspore undergoes 3 successive free-nuclear mitotic divisions to produce 8 nuclei, organized into a 7-celled, 8-nucleate female gametophyte.",
+        "Embryo sac architecture: 1) Egg apparatus (micropylar end): 1 Egg cell + 2 Synergids with filiform apparatus (guides pollen tube chemotropically); 2) Antipodal cells (chalazal end, 3 cells); 3) Central cell: Largest cell containing 2 Polar nuclei that fuse into secondary diploid nucleus (2n)."
+      ],
+      "formulas": [
+        {
+          "label": "Megasporogenesis meiotic yield",
+          "expr": "1 MMC (2n) (Meiosis) → Linear tetrad of 4 megaspores → 1 Functional Megaspore (chalazal) + 3 Degenerate"
+        },
+        {
+          "label": "Polygonum embryo sac cellular organization",
+          "expr": "7-celled, 8-nucleate (3 Antipodals + 1 Central cell [2 polar nuclei] + 2 Synergids + 1 Egg cell)"
+        },
+        {
+          "label": "Filiform apparatus function",
+          "expr": "Finger-like projections on synergids that guide pollen tube entry via chemotropic attraction"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Pollination Mechanisms & Outbreeding Devices",
+      "tag": "concept",
+      "points": [
+        "Pollination types: Autogamy (same flower), Geitonogamy (different flower of same plant; functionally cross-pollination, genetically self-pollination), Xenogamy / Allogamy (cross-pollination between genetically distinct plants).",
+        "Abiotic agents: Anemophily (wind: light, non-sticky pollen, feathery stigma, corn, grasses); Hydrophily (water: Epihydrophily on surface in Vallisneria; Hypohydrophily submerged in Zostera).",
+        "Biotic agents: Entomophily (insects: bright, scented, nectar-rich, sticky pollen with pollenkitt, Salvia turnpipe lever mechanism); Ornithophily (birds: bright, non-scented, copious nectar, Bignonia, Bombax); Chiropterophily (bats: nocturnal, strong scent, Anthocephalus).",
+        "Outbreeding devices: Unisexuality/Dicliny (Papaya dioecious, Maize monoecious); Dichogamy (Protandry in Sunflower, Protogyny in Gloriosa); Prepotency (Apple); Heterostyly (Primula); Herkogamy (mechanical barrier, Calotropis); Self-incompatibility (genetic block, Tobacco)."
+      ],
+      "formulas": [
+        {
+          "label": "Pollination categories comparison",
+          "expr": "Autogamy (same flower) | Geitonogamy (same plant, different flower) | Xenogamy (different plant)"
+        },
+        {
+          "label": "Dichogamy types mnemonic",
+          "expr": "Protandry: Androecium first (Sunflower) | Protogyny: Gynoecium first (Gloriosa)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Pollen-Pistil Interaction & Double Fertilization",
+      "tag": "formula",
+      "points": [
+        "Pollen-Pistil interaction: Dynamic chemical dialogue between pollen and stigma surface proteins; determines acceptance of compatible pollen and rejection of incompatible pollen.",
+        "Pollen tube entry routes: Porogamy (through micropyle - most common); Chalazogamy (through chalaza, Casuarina); Mesogamy (through integuments, Cucurbita).",
+        "Double Fertilization (discovered by S.G. Nawaschin in Lilium and Fritillaria): Unique hallmark of angiosperms consisting of two simultaneous nuclear fusions:",
+        "1. Syngamy (First fertilization): 1st male gamete (n) fuses with Egg cell (n) → Diploid Zygote (2n), developing into the embryo.",
+        "2. Triple Fusion (Second fertilization): 2nd male gamete (n) fuses with Secondary diploid nucleus (2n) → Triploid Primary Endosperm Nucleus (PEN, 3n), developing into nutritive endosperm.",
+        "Significance: Ensures nutritive tissue (endosperm) is formed only if fertilization is successful, preventing waste of maternal energy."
+      ],
+      "formulas": [
+        {
+          "label": "Syngamy equation",
+          "expr": "Male Gamete₁ (n) + Egg Cell (n) → Zygote (2n) → Embryo"
+        },
+        {
+          "label": "Triple Fusion equation",
+          "expr": "Male Gamete₂ (n) + Secondary Nucleus (2n) → Primary Endosperm Nucleus (PEN, 3n)"
+        },
+        {
+          "label": "Pollen tube entry routes",
+          "expr": "Porogamy (via Micropyle) | Chalazogamy (via Chalaza) | Mesogamy (via Integuments)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Development of Endosperm & Embryo",
+      "tag": "concept",
+      "points": [
+        "Endosperm types: 1) Nuclear (~56% angiosperms): Repeated free-nuclear divisions of PEN without immediate cytokinesis (e.g. coconut water is free-nuclear endosperm; white kernel is cellular endosperm); 2) Cellular: Every division followed by wall formation (Balsam, Datura); 3) Helobial: 1st division forms two chambers, subsequent divisions free-nuclear (Asphodelus).",
+        "Angiosperm vs Gymnosperm endosperm: Angiosperm endosperm is triploid (3n, post-fertilization); Gymnosperm endosperm is haploid (n, pre-fertilization female gametophyte).",
+        "Embryogeny: Zygote divides into basal suspensor cell and terminal embryonal cell; passes through proembryo → globular → heart-shaped → torpedo → mature embryo.",
+        "Dicot vs Monocot embryo: Dicot embryo (Capsella) has 2 cotyledons and embryonal axis (epicotyl terminates in plumule, hypocotyl in radicle); Monocot embryo (Maize) has 1 shield-shaped cotyledon (Scutellum), Coleoptile (sheath protecting plumule), and Coleorhiza (sheath protecting radicle)."
+      ],
+      "formulas": [
+        {
+          "label": "Endosperm ploidy comparison",
+          "expr": "Angiosperm Endosperm = Triploid (3n, post-fertilization) | Gymnosperm Endosperm = Haploid (n, pre-fertilization)"
+        },
+        {
+          "label": "Monocot embryo protective sheaths",
+          "expr": "Coleoptile = Protects Plumule | Coleorhiza = Protects Radicle"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Seed & Fruit Development: Endospermic vs Non-Endospermic",
+      "tag": "concept",
+      "points": [
+        "Seed structure: Seed coat (outer Testa and inner Tegmen derived from integuments), Cotyledon(s), and Embryonal axis. Perisperm: Persistent nucellus in mature seed (e.g. Black pepper, Beet).",
+        "Endospermic (Albuminous) seeds: Retain endosperm at maturity because it is not completely consumed during embryogeny (Castor, Maize, Wheat, Sunflower).",
+        "Non-endospermic (Exalbuminous) seeds: Endosperm completely consumed by developing embryo before seed maturation; food stored in cotyledons (Pea, Bean, Gram, Groundnut).",
+        "Fruit development: Ripened ovary. True fruit develops from ovary alone (Mango, Tomato); False fruit (Pseudocarp) incorporates floral parts like thalamus (Apple, Pear, Strawberry).",
+        "Parthenocarpy: Development of fruit without fertilization, producing seedless fruits (Banana, Pineapple; artificially induced by auxins/gibberellins)."
+      ],
+      "formulas": [
+        {
+          "label": "Floral to seed/fruit transformation key",
+          "expr": "Ovary → Fruit | Ovule → Seed | Integuments → Seed coat (Testa/Tegmen) | Nucellus → Perisperm"
+        },
+        {
+          "label": "Seed classification by endosperm presence",
+          "expr": "Endospermic (Albuminous): Castor, Maize | Non-endospermic (Exalbuminous): Pea, Gram, Bean"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Apomixis, Parthenocarpy & Polyembryony",
+      "tag": "formula",
+      "points": [
+        "Apomixis: Formation of seeds without fertilization (asexual reproduction that mimics sexual reproduction).",
+        "Types of Apomixis: 1) Recurrent apomixis: Embryo sac develops from archesporial cell or diploid nucellar cell without meiosis (diploid apomixis); 2) Non-recurrent apomixis: Megaspore develops without meiosis, haploid embryo develops without fertilization (haploid parthenogenesis); 3) Adventive embryony: Embryos arise directly from diploid maternal sporophytic tissues (nucellus or integuments) e.g. Citrus, Mango.",
+        "Polyembryony (discovered by Antoni van Leeuwenhoek in Citrus): Presence of more than one embryo in a single seed (cleavage polyembryony or adventive polyembryony).",
+        "Agricultural value of apomictic seeds: Hybrid vigor (heterosis) can be maintained indefinitely across generations without segregation of hybrid characters, saving farmers from purchasing costly hybrid seeds every year."
+      ],
+      "formulas": [
+        {
+          "label": "Apomixis definition",
+          "expr": "Production of viable seeds without syngamy and meiosis (mimics sexual reproduction)"
+        },
+        {
+          "label": "Polyembryony types",
+          "expr": "Cleavage polyembryony (zygote splits) | Adventive polyembryony (nucellus/integument cells form embryos)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Diagrams & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Diagram 1: V.S. of Anatropous Ovule (label: funicle, hilum, micropyle, nucellus, embryo sac, integuments, chalaza).",
+        "Board Diagram 2: 7-celled, 8-nucleate mature female gametophyte / Polygonum embryo sac.",
+        "Board Diagram 3: Stages of microsporogenesis and 2-celled pollen grain structure.",
+        "Board Distinguish 1: Anemophily vs Entomophily (light pollen, feathery stigma vs scented, bright petals, sticky pollenkitt).",
+        "Board Distinguish 2: Albuminous (endospermic) vs Exalbuminous (non-endospermic) seeds.",
+        "Board Distinguish 3: Double fertilization in Angiosperms vs Gymnosperms."
+      ],
+      "formulas": [
+        {
+          "label": "Meiotic divisions needed for N seeds formula",
+          "expr": "Meiotic divisions = N + (N / 4) = 5N / 4 (e.g. for 100 seeds = 100 + 25 = 125 meiotic divisions)"
+        },
+        {
+          "label": "Pollen yield from Microspore Mother Cells",
+          "expr": "Number of pollen grains = 4 × Number of Microspore Mother Cells (MMC)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Number of meiotic divisions to produce N seeds: N female gametes require N meiosis (3 degenerate) + N male gametes require N/4 meiosis. Total = N + N/4 = 1.25 N. (For 100 seeds = 125 meiosis).",
+        "TRAP 2: Endosperm ploidy: Angiosperms = 3n (triploid, post-fertilization); Gymnosperms = n (haploid, pre-fertilization female gametophyte!).",
+        "TRAP 3: Hydrophily exceptions: Not all aquatic plants are pollinated by water! Water hyacinth (Eichhornia) and Water lily (Nymphaea) are pollinated by INSECTS or WIND (flowers emerge above water level).",
+        "TRAP 4: Salvia pollination: Entomophily via 'Turn-pipe' / 'Lever mechanism' of stamens.",
+        "TRAP 5: Perisperm vs Endosperm: Perisperm is diploid (2n, persistent nucellus in black pepper, beet); Endosperm is triploid (3n).",
+        "TRAP 6: Ploidy of ovule parts: Nucellus (2n), Integuments (2n), Funicle (2n), Synergids (n), Antipodals (n), Secondary nucleus (2n), PEN (3n)."
+      ],
+      "formulas": [
+        {
+          "label": "Meiotic divisions shortcut formula",
+          "expr": "Total Meiosis for N seeds = N + ceil(N / 4) (e.g. 100 seeds → 125 meiosis; 200 seeds → 250 meiosis)"
+        },
+        {
+          "label": "Aquatic plant pollination trap",
+          "expr": "Eichhornia (water hyacinth) & Nymphaea (water lily) = Entomophily / Anemophily (NOT hydrophily!)"
+        },
+        {
+          "label": "Ploidy quick check in angiosperm ovule",
+          "expr": "Nucellus (2n) | Integuments (2n) | Synergids (n) | Antipodals (n) | PEN (3n) | Zygote (2n)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "title": "Reproduction in Lower and Higher Animals",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Asexual Reproduction & Regeneration in Animals",
+      "tag": "concept",
+      "points": [
+        "Asexual reproduction in animals: Occurs without formation or fusion of gametes, producing genetically identical clones.",
+        "Gemmule formation (Internal budding in freshwater sponges e.g. Spongilla): Aggregation of dormant totipotent archaeocytes enclosed by thick protective membrane reinforced by amphidisc siliceous spicules; germinate upon return of favorable conditions.",
+        "External Budding: In Hydra, outgrowth develops on parent body due to repeated mitotic cell division at specific site; matures, detaches, and lives as an independent individual.",
+        "Regeneration: Morphallaxis (reorganization of remaining tissue) and Epimorphosis (replacement of lost parts by dedifferentiation and proliferation); Planaria exhibits phenomenal true regeneration with morphological polarity."
+      ],
+      "formulas": [
+        {
+          "label": "Gemmule structure components",
+          "expr": "Archaeocytes (totipotent cells) + Internal/External membrane + Amphidisc spicules + Micropyle"
+        },
+        {
+          "label": "Animal asexual modes matching",
+          "expr": "Spongilla = Gemmule | Hydra = Budding | Planaria = True Regeneration"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Male Reproductive System & Histology of Testis",
+      "tag": "concept",
+      "points": [
+        "Scrotum: Thermoregulatory pouch holding testes outside abdominal cavity at 2 to 2.5 °C below core body temperature (essential for spermatogenesis).",
+        "Testis histology: Covered by fibrous tunica albuginea; contains 200-300 lobules, each with 1-4 highly coiled Seminiferous Tubules.",
+        "Cells of Seminiferous tubules: 1) Spermatogenic cells (spermatogonia undergoing meiosis); 2) Sertoli cells (Nurse cells: provide mechanical support, nourishment to sperms, secrete Inhibin to inhibit FSH, secrete ABP to concentrate testosterone, form blood-testis barrier).",
+        "Interstitial / Leydig cells: Located in connective tissue between tubules; synthesize and secrete androgens (Testosterone) under stimulation of LH (ICSH).",
+        "Duct pathway & Accessory glands: Seminiferous tubules → Rete testis → Vasa efferentia → Epididymis (sperm maturation & storage) → Vas deferens → Ejaculatory duct → Urethra. Glands: Seminal vesicles (60% semen; fructose, prostaglandins, clotting proteins), Prostate gland (30%; alkaline, citric acid, acid phosphatase), Bulbourethral / Cowper's glands (alkaline lubricant)."
+      ],
+      "formulas": [
+        {
+          "label": "Pathway of sperm transit",
+          "expr": "Seminiferous tubules → Rete testis → Vasa efferentia → Epididymis → Vas deferens → Ejaculatory duct → Urethra"
+        },
+        {
+          "label": "Semen composition fractions",
+          "expr": "Seminal vesicles (60%) + Prostate gland (30%) + Bulbourethral glands & Spermatozoa (10%)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Female Reproductive System & Histology of Ovary",
+      "tag": "concept",
+      "points": [
+        "Ovary anatomy: Paired primary sex organs in pelvic cavity; covered by germinal epithelium, outer cellular cortex (containing ovarian follicles in various stages), and inner vascular medulla.",
+        "Follicular progression: Primordial follicle → Primary follicle → Secondary follicle → Tertiary follicle (antrum filled with liquor folliculi) → Mature Graafian follicle.",
+        "Mature Graafian follicle structure: Contains Secondary Oocyte arrested at Metaphase II; surrounded by non-cellular glycoprotein Zona pellucida, cellular Corona radiata (radially elongated granulosa cells), and Cumulus oophorus.",
+        "Fallopian tubes (Oviducts, 10-12 cm): 1) Infundibulum with finger-like fimbriae (collects ovulated oocyte); 2) Ampulla (longest, widest portion, SITE OF FERTILIZATION); 3) Isthmus (short, narrow part opening into uterus).",
+        "Uterus (Womb) wall layers: Perimetrium (outer serous), Myometrium (thick middle smooth muscle, oxytocin-induced labor contractions), Endometrium (inner glandular vascular, undergoes cyclic changes during menstruation)."
+      ],
+      "formulas": [
+        {
+          "label": "Graafian follicle layers (inside to outside)",
+          "expr": "Secondary oocyte → Zona pellucida → Corona radiata → Antrum → Theca interna → Theca externa"
+        },
+        {
+          "label": "Fallopian tube segments order",
+          "expr": "Fimbriae → Infundibulum → Ampulla (fertilization site) → Isthmus → Uterus"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Gametogenesis: Spermatogenesis vs Oogenesis",
+      "tag": "formula",
+      "points": [
+        "Spermatogenesis: Continuous process starting at puberty in testes. 1) Multiplication phase: Spermatogonia (2n) divide mitotically; 2) Growth phase: Forms Primary spermatocyte (2n); 3) Maturation phase: Meiosis I forms 2 Secondary spermatocytes (n); Meiosis II forms 4 Spermatids (n); 4) Spermiogenesis: Morphological transformation of round spermatids into motile spermatozoa (Acrosome from Golgi, Middle piece mitochondria, Tail from centriole). Yields 4 sperms per primary spermatocyte.",
+        "Oogenesis: Discontinuous process initiated during fetal life. 1) Multiplication: Oogonia (2n) formed in fetal ovary (~2 million, none added after birth); 2) Growth: Primary oocytes (2n) enter Meiosis I and arrest at Prophase I (diplotene stage) until puberty; 3) Maturation: Each month, 1 primary oocyte completes Meiosis I yielding large Secondary oocyte (n) + tiny 1st Polar body (n). Arrests at Metaphase II!",
+        "Completion of Oogenesis: Penetration of sperm triggers completion of Meiosis II, releasing second polar body and forming functional haploid Ovum (ootid). Yields 1 ovum + 2-3 polar bodies."
+      ],
+      "formulas": [
+        {
+          "label": "Spermatogenesis yield ratio",
+          "expr": "1 Primary Spermatocyte (2n) (Meiosis) → 4 Functional Spermatozoa (n)"
+        },
+        {
+          "label": "Oogenesis yield ratio",
+          "expr": "1 Primary Oocyte (2n) (Meiosis) → 1 Functional Ovum (n) + 2 or 3 Polar bodies (degenerate)"
+        },
+        {
+          "label": "Sperm organelle origins",
+          "expr": "Acrosome = Golgi apparatus | Middle piece spiral sheath = Mitochondria (Nebenkern) | Tail axial filament = Centriole"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Menstrual Cycle & Hormonal Feedback",
+      "tag": "formula",
+      "points": [
+        "Menstrual cycle: 28-day reproductive cycle in primate females divided into 4 chronological phases:",
+        "1. Menstrual phase (Days 1-5): Breakdown of endometrium and blood vessels due to sharp withdrawal of progesterone and estrogen; discharge of 45-100 mL blood.",
+        "2. Follicular / Proliferative phase (Days 6-13): Anterior pituitary FSH stimulates growth of ovarian follicles; growing follicles secrete Estrogen, which stimulates repair and proliferation of endometrium.",
+        "3. Ovulatory phase (Day 14): High estrogen triggers positive feedback causing LH Surge (rapid surge in LH). LH surge induces rupture of Graafian follicle and release of secondary oocyte (Ovulation).",
+        "4. Luteal / Secretory phase (Days 15-28): Ruptured follicle transforms into Corpus luteum (yellow body) under LH influence; secretes massive amounts of Progesterone to maintain thickened endometrium for implantation. If fertilization does not occur, corpus luteum degenerates into Corpus albicans (white scar), progesterone drops, triggering menstruation."
+      ],
+      "formulas": [
+        {
+          "label": "Menstrual cycle phases & days",
+          "expr": "Menstrual (Day 1-5) → Proliferative / Follicular (Day 6-13) → Ovulatory (Day 14) → Secretory / Luteal (Day 15-28)"
+        },
+        {
+          "label": "Key hormonal triggers",
+          "expr": "LH Surge at Day 14 → Induces Ovulation | High Progesterone in Luteal phase → Maintains Endometrium"
+        },
+        {
+          "label": "Corpus luteum life cycle",
+          "expr": "Ruptured Follicle (LH) → Corpus Luteum (Progesterone) → (no pregnancy) → Corpus Albicans"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Fertilization & Early Cleavage: Zygote to Blastocyst",
+      "tag": "formula",
+      "points": [
+        "Fertilization: Occurs at the ampulla of the Fallopian tube.",
+        "1. Capacitation: Physiological conditioning of sperms in female genital tract (~5-6 hours; removal of acrosomal cholesterol/proteins).",
+        "2. Acrosomal reaction: Sperm releases Hyaluronidase (dissolves hyaluronic acid cementing corona radiata) and Acrosin / Zona lysin (digests zona pellucida).",
+        "3. Cortical & Zona reaction: Sperm entry triggers Ca²⁺ wave; cortical granules exocytose, hardening zona pellucida to establish permanent slow block to Polyspermy (monospermy guaranteed).",
+        "Cleavage & Blastulation: Rapid mitotic divisions without growth. Zygote (Day 0) → 2-cell (30 hr) → 4-cell (60 hr) → Morula (16-32 cells, solid mulberry shape, Day 3-4) → Blastocyst (Day 5-6).",
+        "Blastocyst structure: Outer Trophoblast (forms fetal placenta), Inner Cell Mass (embryoblast containing pluripotent stem cells), and fluid-filled Blastocoel.",
+        "Implantation: Attachment of blastocyst to endometrium around Day 7; trophoblast secretes hCG to maintain corpus luteum."
+      ],
+      "formulas": [
+        {
+          "label": "Cleavage progression timeline",
+          "expr": "Zygote (2n, Day 0) → 2-cell (30 hr) → 4-cell (60 hr) → Morula (16-32 cells, Day 3-4) → Blastocyst (Day 5-6) → Implantation (Day 7)"
+        },
+        {
+          "label": "Blastocyst components",
+          "expr": "Trophoblast (extraembryonic membranes/placenta) + Inner Cell Mass (Embryo proper) + Blastocoel"
+        },
+        {
+          "label": "Polyspermy prevention mechanisms",
+          "expr": "Fast block: Membrane depolarization (−70 mV to +20 mV) | Slow block: Cortical reaction & Zona reaction"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Gastrulation, Germ Layers & Organogenesis",
+      "tag": "concept",
+      "points": [
+        "Gastrulation: Morphogenetic movement and rearrangement of blastomeres forming 3 primary germ layers: Ectoderm, Mesoderm, Endoderm.",
+        "Fate of Ectoderm: Epidermis of skin, hair, nails, nervous system (brain, spinal cord, nerves), retina and lens of eye, internal ear, enamel of teeth, adrenal medulla, pituitary gland.",
+        "Fate of Mesoderm: Dermis of skin, all muscular tissues, connective tissues, skeletal system (bones, cartilage), circulatory system (heart, blood vessels, blood), kidneys, gonads (testes, ovaries), adrenal cortex.",
+        "Fate of Endoderm: Epithelial lining of digestive tract, respiratory tract, urinary bladder, liver, pancreas, thyroid, parathyroid, thymus.",
+        "Extra-embryonic membranes: Amnion (amniotic fluid cushions embryo against shock/desiccation), Chorion (forms fetal part of placenta), Allantois (forms umbilical vessels), Yolk sac (early hematopoiesis).",
+        "Placenta: Hemochorial; secretes hCG, hPL (human placental lactogen), Estrogen, Progesterone, and Relaxin."
+      ],
+      "formulas": [
+        {
+          "label": "Germ layer origins quick guide",
+          "expr": "Ectoderm: Nervous system, skin epidermis | Mesoderm: Muscles, skeleton, heart, kidneys, gonads | Endoderm: Gut lining, liver, pancreas"
+        },
+        {
+          "label": "Placental hormones checklist",
+          "expr": "hCG (pregnancy test marker), hPL, Estrogen, Progesterone, Relaxin (secreted by ovary/placenta in late pregnancy)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Parturition, Lactation & Contraceptive Methods",
+      "tag": "formula",
+      "points": [
+        "Parturition (Birth): Neuroendocrine mechanism triggered by Foetal Ejection Reflex. Fully developed fetus and placenta send signals inducing mild uterine contractions; stimulates maternal posterior pituitary to release Oxytocin (birth hormone), causing vigorous myometrial contractions via positive feedback. Relaxin relaxes pubic symphysis.",
+        "Lactation: Prolactin (PRL, anterior pituitary) stimulates milk synthesis; Oxytocin (posterior pituitary) causes milk ejection / let-down reflex by contracting myoepithelial cells.",
+        "Colostrum: First yellowish milk secreted for 2-3 days; rich in antibodies (Secretory IgA) providing passive immunity to the newborn.",
+        "Contraception: 1) Natural: Periodic abstinence (fertile window Day 10-17), Coitus interruptus, Lactational amenorrhea (up to 6 months); 2) Barrier: Condoms (protect against STDs), Diaphragms; 3) IUDs: Non-medicated (Lippes loop), Copper-releasing (CuT, Cu7, Multiload-375: suppress sperm motility), Hormone-releasing (Progestasert, LNG-20: make uterus unsuitable for implantation); 4) Oral pills: Saheli (Centchroman, non-steroidal once-a-week pill); 5) Permanent: Vasectomy (vas deferens cut/tied) and Tubectomy (fallopian tubes cut/tied); 6) MTP: Safe up to 12 weeks (1st trimester)."
+      ],
+      "formulas": [
+        {
+          "label": "Parturition neuroendocrine reflex",
+          "expr": "Foetal Ejection Reflex → Hypothalamus → Posterior Pituitary → Oxytocin release → Vigorous Myometrial Contraction"
+        },
+        {
+          "label": "Lactation hormones roles",
+          "expr": "Prolactin (PRL) = Milk Synthesis | Oxytocin = Milk Ejection / Let-down reflex"
+        },
+        {
+          "label": "Copper IUD action mechanism",
+          "expr": "Releases Cu²⁺ ions → Inhibits sperm motility & suppresses fertilizing capacity"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Diagram 1: T.S. of Testis showing seminiferous tubules, Sertoli cells, spermatogonia, and Leydig cells.",
+        "Board Diagram 2: Structure of mature Graafian follicle and unfertilized ovum.",
+        "Board Diagram 3: Structure of human sperm (acrosome, head, neck with centrioles, middle piece with mitochondrial spiral/Nebenkern, tail).",
+        "Board Diagram 4: Hormonal regulation and changes in endometrium during menstrual cycle (FSH, LH, Estrogen, Progesterone graphs).",
+        "Board Distinguish 1: Spermatogenesis vs Oogenesis (equal vs unequal division, continuous vs discontinuous, 4 sperms vs 1 ovum).",
+        "Board Distinguish 2: Vasectomy vs Tubectomy."
+      ],
+      "formulas": [
+        {
+          "label": "Pregnancy test detection basis",
+          "expr": "Urine hCG detection (secreted by trophoblast cells of blastocyst within days of implantation)"
+        },
+        {
+          "label": "Sperm structure dimensions",
+          "expr": "Head (nucleus + acrosome) | Neck (centrioles) | Middle piece (mitochondrial sheath / Nebenkern) | Tail (axial filament)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Site of fertilization: Ampulla of Fallopian tube (ampullary-isthmic junction was old NCERT, current official textbook is AMPULLA).",
+        "TRAP 2: Secondary oocyte arrest: Ovulation occurs at Metaphase II of Meiosis II. Meiosis II completes ONLY upon sperm entry!",
+        "TRAP 3: Hormones unique to pregnancy: hCG, hPL, and Relaxin (in late pregnancy) are produced in women ONLY during pregnancy.",
+        "TRAP 4: Copper-T mechanism: Cu²⁺ suppresses sperm motility and fertilizing ability (it does NOT prevent ovulation!).",
+        "TRAP 5: Non-steroidal oral pill: Saheli is a selective estrogen receptor modulator (centchroman), taken once a week, zero steroidal side effects (developed by CDRI Lucknow).",
+        "TRAP 6: Semen volume & pH: 2.5 - 4.0 mL per ejaculation; alkaline (pH 7.2 - 7.7) to neutralize acidic vaginal environment; normal count 60-120 million/mL."
+      ],
+      "formulas": [
+        {
+          "label": "Pregnancy-exclusive hormones trio",
+          "expr": "hCG + hPL + Relaxin (produced exclusively during pregnancy)"
+        },
+        {
+          "label": "Meiotic arrest stages in oogenesis",
+          "expr": "Primary oocyte arrested at: Prophase I (Diplotene) | Secondary oocyte arrested at: Metaphase II"
+        },
+        {
+          "label": "Seminal fluid volume and pH",
+          "expr": "Ejaculate: 2.5 to 4.0 mL | pH: 7.2 to 7.7 (alkaline) | Sperm count: 60 to 120 million sperms / mL"
+        }
+      ]
+    }
+  ]
+}

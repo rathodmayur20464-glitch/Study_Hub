@@ -1,0 +1,225 @@
+{
+  "title": "Enhancement of Food Production",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Plant Breeding: Classical Steps & Green Revolution",
+      "tag": "concept",
+      "points": [
+        "Plant breeding: Purposeful manipulation of crop species to create desired plant types suited for better cultivation, higher yield, and disease resistance.",
+        "5 Sequential Steps: 1) Collection of variability (Germplasm collection: entire collection of all diverse alleles of all genes in a crop); 2) Evaluation and selection of parents; 3) Cross hybridization among selected parents; 4) Selection and testing of superior recombinants; 5) Testing, release, and commercialization of new cultivars.",
+        "Green Revolution (Norman Borlaug, M.S. Swaminathan): Semi-dwarf high-yielding wheat varieties (Sonalika, Kalyan Sona) and rice varieties (IR-8, Taichung Native-1; Jaya and Ratna developed in India).",
+        "Sugarcane breeding: Crossing Northern Indian thin Saccharum barberi (poor yield/sugar) with Southern Indian thick Saccharum officinarum (high sugar, but failed in North) to combine high yield, thick stem, and North Indian adaptability."
+      ],
+      "formulas": [
+        {
+          "label": "Plant breeding 5-step protocol",
+          "expr": "Germplasm collection → Parent evaluation → Cross hybridization → Selection of recombinants → Testing & release"
+        },
+        {
+          "label": "High-yielding crop cultivars",
+          "expr": "Wheat: Sonalika, Kalyan Sona | Rice: Jaya, Ratna, IR-8 | Sugarcane: Saccharum barberi × S. officinarum"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Breeding for Disease Resistance, Pest Resistance & Biofortification",
+      "tag": "formula",
+      "points": [
+        "1. Disease-resistant crop varieties: Wheat (Himgiri: resistant to leaf/stripe rust and hill bunt); Brassica / Mustard (Pusa Swarnim: resistant to white rust); Cauliflower (Pusa Shubhra, Pusa Snowball K-1: black rot); Cowpea (Pusa Komal: bacterial blight); Chilli (Pusa Sadabahar: mosaic virus, leaf curl); Okra / Bhindi (Parbhani Kranti: resistant to yellow mosaic virus transferred from wild Abelmoschus manihot).",
+        "2. Pest resistance: Brassica (Pusa Gaurav: aphids); Flat bean (Pusa Sem 2, Pusa Sem 3: jassids, aphids); Okra (Pusa Sawani, Pusa A-4: shoot & fruit borer).",
+        "3. Biofortification: Breeding crops with higher nutritional quality: Maize hybrids (2000) with double the amount of Lysine and Tryptophan; Wheat Atlas 66 with high protein content; Iron-fortified rice (5× iron); IARI Vitamin A-enriched carrots/spinach and Vitamin C-enriched bitter gourd."
+      ],
+      "formulas": [
+        {
+          "label": "Disease-resistant crop varieties table",
+          "expr": "Wheat Himgiri: Rust/bunt | Brassica Pusa Swarnim: White rust | Okra Parbhani Kranti: Yellow mosaic"
+        },
+        {
+          "label": "Biofortified crops achievements",
+          "expr": "Maize = 2× Lysine & Tryptophan | Wheat Atlas 66 = High protein | Rice = 5× Iron"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Tissue Culture: Cellular Totipotency & Somatic Hybridization",
+      "tag": "formula",
+      "points": [
+        "Cellular Totipotency (Gottlieb Haberlandt, Father of Plant Tissue Culture): The innate capacity of a single plant cell/explant to divide and regenerate into a whole functional plant.",
+        "Explant: Any excised plant part (leaf disc, shoot tip, root tip) used to initiate culture.",
+        "Tissue culture procedure: Explant selection → Surface sterilization (sodium hypochlorite) → Inoculation on MS (Murashige & Skoog) nutrient medium (sucrose, salts, vitamins, hormones) → Callus formation (unorganized dividing cell mass) → Organogenesis (Auxin/Cytokinin ratio) → Plantlets hardened in greenhouse.",
+        "Somatic Hybridization (Protoplast Fusion): Plant cell walls digested by cellulase and pectinase enzymes yielding naked protoplasts; fused using Polyethylene Glycol (PEG) or electrofusion to produce somatic hybrids (e.g. Pomato = Potato + Tomato protoplast fusion)."
+      ],
+      "formulas": [
+        {
+          "label": "Tissue culture organogenesis hormonal switch",
+          "expr": "High Auxin : Low Cytokinin → Root induction | Low Auxin : High Cytokinin → Shoot induction"
+        },
+        {
+          "label": "Protoplast fusion chemistry",
+          "expr": "Plant cells (Cellulase + Pectinase) → Naked Protoplasts (PEG fusion) → Somatic Hybrid (Pomato)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Single Cell Protein (SCP) & Animal Breeding Strategies",
+      "tag": "concept",
+      "points": [
+        "Single Cell Protein (SCP): Alternate protein-rich microbial biomass for human and animal nutrition. Sources: Spirulina (cyanobacterium grown on wastewater, rich in proteins, minerals, vitamins), Chlorella, Methylophilus methylotrophus (250 g bacteria produce 25 tons protein/day due to high biomass production rate), Fusarium venenatum (mycoprotein).",
+        "Animal Breeding: 1) Inbreeding: Mating of closely related animals within same breed for 4-6 generations; increases homozygosity, but causes inbreeding depression (relieved by single outcross); 2) Outbreeding: Outcrossing (unrelated of same breed, overcomes inbreeding depression), Cross-breeding (different breeds e.g. Hisardale sheep from Bikaneri ewes × Merino rams), Interspecific hybridization (different species e.g. Mule = Donkey ♂ × Horse ♀).",
+        "MOET (Multiple Ovulation Embryo Transfer): Cow administered FSH to induce superovulation (6-8 eggs); artificially inseminated; embryos flushed non-surgically at 8-32 cell stage and transferred into surrogate mothers."
+      ],
+      "formulas": [
+        {
+          "label": "Animal breeding definitions key",
+          "expr": "Inbreeding = Within same breed, close relatives | Outcrossing = Same breed, unrelated | Cross-breeding = Different breeds (Hisardale)"
+        },
+        {
+          "label": "MOET yield multiplier",
+          "expr": "Cow (FSH) → Superovulation (6-8 eggs) → AI → Non-surgical embryo collection → Transferred to surrogate mothers"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Microbes in Household & Industrial Production",
+      "tag": "concept",
+      "points": [
+        "1. Household Products: Curd (Lactic Acid Bacteria LAB / Lactobacillus converts milk to curd, enriches Vitamin B₁₂); Bread dough (Saccharomyces cerevisiae / Baker's yeast, CO₂ causes puffing); Swiss cheese (large holes from CO₂ by Propionibacterium shermanii); Roquefort cheese (ripened by Penicillium roqueforti); Toddy (fermented palm sap).",
+        "2. Industrial Products: Fermented beverages (Brewer's yeast ferments malted cereals/fruit juices); Antibiotics (Penicillin discovered by Alexander Fleming from Penicillium notatum, developed by Florey & Chain).",
+        "3. Organic Acids: Citric acid (Aspergillus niger fungus), Acetic acid (Acetobacter aceti bacterium), Butyric acid (Clostridium butylicum bacterium), Lactic acid (Lactobacillus).",
+        "4. Bioactive Molecules: Streptokinase (from Streptococcus; 'clot-buster' enzyme for myocardial infarction patients); Cyclosporin A (from fungus Trichoderma polysporum; immunosuppressant for organ transplants); Statins (from yeast Monascus purpureus; blood cholesterol-lowering agent inhibiting HMG-CoA reductase)."
+      ],
+      "formulas": [
+        {
+          "label": "Industrial microbes & bioactive products",
+          "expr": "Streptokinase (Streptococcus) = Clot buster | Cyclosporin A (Trichoderma) = Immunosuppressant | Statins (Monascus) = Lowers cholesterol"
+        },
+        {
+          "label": "Organic acids microbial sources",
+          "expr": "Citric acid = Aspergillus niger | Acetic acid = Acetobacter aceti | Butyric acid = Clostridium butylicum"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Microbes in Sewage Treatment: Primary & Secondary Steps",
+      "tag": "formula",
+      "points": [
+        "Sewage Treatment Plant (STP) stages:",
+        "1. Primary Treatment (Physical): Sequential filtration (removes floating debris) + Sedimentation in grit chamber (removes soil, pebbles) → Primary sludge settles; supernatant forms Primary effluent.",
+        "2. Secondary Treatment (Biological / Microbial): Primary effluent pumped into large Aeration tanks with continuous agitation and air pumping. Promotes vigorous growth of aerobic Flocs (masses of bacteria associated with fungal filaments). Microbes consume organic pollutants, drastically reducing Biochemical Oxygen Demand (BOD).",
+        "3. Activated Sludge: Effluent passed into Settling tank where flocs sediment forming Activated Sludge. A small portion is recycled as Inoculum to aeration tank; major portion pumped into Anaerobic Sludge Digesters where anaerobic bacteria digest sludge, releasing Biogas (CH₄, CO₂, H₂S). Clean water discharged into rivers."
+      ],
+      "formulas": [
+        {
+          "label": "Biochemical Oxygen Demand (BOD) relation",
+          "expr": "Higher Organic Pollution ∝ Higher BOD ∝ Lower Dissolved Oxygen (DO)"
+        },
+        {
+          "label": "Sewage treatment flowchart",
+          "expr": "Raw Sewage → Primary Filtration/Sedimentation → Aeration Tank (Flocs consume BOD) → Settling Tank → Anaerobic Digester (Biogas)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Microbes in Biogas Production (Gobar Gas)",
+      "tag": "formula",
+      "points": [
+        "Biogas: Inflammable gas mixture generated by anaerobic digestion of cattle dung (gobar) and agricultural waste.",
+        "Gas Composition: Methane (CH₄, 50-70%), Carbon dioxide (CO₂, 30-40%), Hydrogen (H₂), Hydrogen sulfide (H₂S).",
+        "Three-stage digestion: 1) Hydrolysis: Polymers broken down into monomers by cellulolytic bacteria (Clostridium); 2) Acidogenesis: Monomers converted into organic acids (acetic acid); 3) Methanogenesis: Methanogenic bacteria (Methanobacterium, Methanococcus) convert organic acids and H₂ into Methane gas: CH₃COOH → CH₄ + CO₂ and CO₂ + 4H₂ → CH₄ + 2H₂O.",
+        "Biogas Plant (KVIC and IARI design): 10-15 ft deep concrete digester with floating steel gas holder dome that rises as gas is generated; spent slurry drawn out through outlet and used as nutrient-rich manure."
+      ],
+      "formulas": [
+        {
+          "label": "Biogas gas composition fractions",
+          "expr": "Methane (CH₄) = 50-70% | Carbon dioxide (CO₂) = 30-40% | H₂, H₂S = Traces"
+        },
+        {
+          "label": "Methanogenesis reactions",
+          "expr": "CH₃COOH (Methanobacterium) → CH₄ + CO₂ | CO₂ + 4H₂ → CH₄ + 2H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Microbes as Biocontrol Agents & Biofertilizers",
+      "tag": "concept",
+      "points": [
+        "1. Biocontrol Agents: Biological management of pests avoiding toxic pesticides:",
+        "- Ladybird beetle controls aphids; Dragonflies control mosquitoes.",
+        "- Bacillus thuringiensis (Bt): Spores ingested by caterpillars; alkaline gut dissolves crystal endotoxin creating epithelial pores, killing pest (spares other insects).",
+        "- Trichoderma: Free-living soil fungus controlling root fungal pathogens.",
+        "- Baculoviruses (Nucleopolyhedrovirus / NPV): Genus-specific, narrow-spectrum insecticidal agents with zero non-target effects; essential for IPM (Integrated Pest Management).",
+        "2. Biofertilizers: Microorganisms that enrich soil nutrient quality:",
+        "- Nitrogen fixers: Symbiotic Rhizobium in legumes; Free-living Azotobacter and Azospirillum in soil; Cyanobacteria (Anabaena, Nostoc in paddy fields; Anabaena azollae symbiotic with water fern Azolla).",
+        "- Mycorrhiza: Symbiotic association of fungi (Glomus) with plant roots; absorbs phosphorus, provides drought and pathogen resistance."
+      ],
+      "formulas": [
+        {
+          "label": "Biocontrol matching pairs",
+          "expr": "Bt (Bacillus thuringiensis) = Caterpillars / Lepidoptera | NPV (Baculoviruses) = Narrow spectrum insect pests | Trichoderma = Root fungal pathogens"
+        },
+        {
+          "label": "Biofertilizers nutrient enrichment",
+          "expr": "Glomus (Mycorrhiza) = Phosphorus absorption | Anabaena-Azolla = Nitrogen in rice paddies | Azotobacter = Free-living nitrogen"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Sewage Treatment Steps",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Describe the secondary (biological) treatment of sewage with reference to Flocs and BOD reduction.",
+        "Board Q2: Explain the construction and working of a biogas plant with a neat labelled diagram.",
+        "Board Q3: Explain the role of microbes in industrial production of: 1) Streptokinase; 2) Cyclosporin A; 3) Statins.",
+        "Board Q4: Explain the steps involved in Plant Tissue Culture and state the concept of Cellular Totipotency.",
+        "Board Q5: Differentiate between Inbreeding and Outbreeding in animal husbandry."
+      ],
+      "formulas": [
+        {
+          "label": "BOD measurement definition",
+          "expr": "Amount of oxygen required by bacteria to oxidize all organic matter in 1 liter of wastewater"
+        },
+        {
+          "label": "Swiss cheese holes cause",
+          "expr": "Propionibacterium shermanii produces large amounts of CO₂ gas forming characteristic holes"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: BOD relationship: BOD is DIRECTLY proportional to the polluting organic load of water. High BOD = Highly polluted water = Low Dissolved Oxygen (DO).",
+        "TRAP 2: Statins mechanism: Statins from Monascus purpureus act as competitive inhibitors of enzyme HMG-CoA reductase (the rate-limiting enzyme in cholesterol biosynthesis).",
+        "TRAP 3: Cyclosporin A source: Fungus Trichoderma polysporum (used as immunosuppressant in organ transplants, preventing CMI graft rejection).",
+        "TRAP 4: Hisardale breed origin: New sheep breed developed in Punjab by crossing Bikaneri ewes × Merino rams (Cross-breeding!).",
+        "TRAP 5: Baculoviruses (NPV) are narrow-spectrum, species-specific biocontrol agents with NO non-target toxicity, ideal for IPM programs."
+      ],
+      "formulas": [
+        {
+          "label": "Statins competitive inhibition",
+          "expr": "Statins (Monascus purpureus) competitively inhibit HMG-CoA reductase → Lowers blood cholesterol"
+        },
+        {
+          "label": "Hisardale sheep parentage",
+          "expr": "Bikaneri ewes (♀) × Merino rams (♂) → Hisardale sheep (Punjab, cross-breeding)"
+        },
+        {
+          "label": "Cyclosporin A immunosuppression",
+          "expr": "Trichoderma polysporum → Cyclosporin A (inhibits T-cell activation in organ transplants)"
+        }
+      ]
+    }
+  ]
+}

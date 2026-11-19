@@ -1,0 +1,231 @@
+{
+  "title": "Organisms and Populations",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Ecology: Levels of Organization & Abiotic Factors",
+      "tag": "concept",
+      "points": [
+        "Ecology: Scientific study of interactions among organisms and between organisms and their abiotic (physical) environment.",
+        "4 Biological Levels of Organization: Organisms → Populations → Communities → Biomes.",
+        "Abiotic Factors: 1) Temperature: Most ecologically relevant; Eurythermal (tolerate wide range) vs Stenothermal (narrow range); 2) Water: Salinity levels (freshwater < 5 ppt, sea 30-35 ppt, hypersaline lagoons > 100 ppt); Euryhaline (wide salinity tolerance) vs Stenohaline (narrow tolerance); 3) Light: Photosynthesis, photoperiodism, animal diurnal/seasonal rhythms; 4) Soil: Soil texture, porosity, pH dictate vegetation."
+      ],
+      "formulas": [
+        {
+          "label": "Thermal & Salinity tolerance categories",
+          "expr": "Eurythermal / Euryhaline: Wide range tolerance | Stenothermal / Stenohaline: Narrow range tolerance"
+        },
+        {
+          "label": "Water salinity levels (ppt)",
+          "expr": "Freshwater < 5 ppt | Sea water = 30 - 35 ppt | Hypersaline lagoons > 100 ppt"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Responses to Abiotic Stress: Regulate, Conform, Migrate, Suspend",
+      "tag": "concept",
+      "points": [
+        "Homeostasis: Maintenance of constant internal body environment (thermoregulation, osmoregulation) despite ambient fluctuations.",
+        "1. Regulate: Maintain physiological homeostasis (mammals, birds). Energetically expensive; small animals (shrews, hummingbirds) lose heat fast due to large surface-to-volume ratio, hence absent in polar regions.",
+        "2. Conform: Internal state changes with ambient environment (~99% animals and all plants).",
+        "3. Migrate: Temporary escape in space to hospitable areas (Siberian cranes migrate to Keoladeo National Park in Bharatpur, Rajasthan).",
+        "4. Suspend: Escape in time: Hibernation (winter sleep in bears), Aestivation (summer sleep in snails/fish), Diapause (suspended development in zooplankton), Bacterial endospores, Seed dormancy."
+      ],
+      "formulas": [
+        {
+          "label": "Organismic responses classification",
+          "expr": "Regulators (constant internal state) | Conformers (conform to ambient) | Migrators (escape in space) | Suspend (escape in time)"
+        },
+        {
+          "label": "Suspension mechanisms matching",
+          "expr": "Hibernation = Winter sleep (Bears) | Aestivation = Summer sleep (Snails) | Diapause = Zooplankton"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Adaptations: Morphological, Physiological & Behavioral",
+      "tag": "concept",
+      "points": [
+        "1. Desert Plants (Xerophytes): Thick waxy cuticle, sunken stomata, CAM pathway (stomata open at night), leaves modified into spines (Opuntia) with flattened green photosynthetic stem (phylloclade).",
+        "2. Desert Animals: Kangaroo rat in North American deserts never drinks water; meets 100% water demand from internal fat oxidation (metabolic water); excretes highly concentrated solid urine.",
+        "3. Allen's Rule: Mammals in colder climates have shorter ears and shorter limbs to minimize heat loss; seals possess thick subcutaneous blubber acting as thermal insulator.",
+        "4. Physiological Adaptations: Altitude Sickness at >3500 m (hypoxia causes nausea, fatigue); body adapts by: 1) Increasing RBC production; 2) Increasing breathing rate; 3) Decreasing hemoglobin-oxygen binding affinity.",
+        "5. Behavioral Adaptations: Desert lizards bask in sun to absorb heat when cold, and burrow underground when hot."
+      ],
+      "formulas": [
+        {
+          "label": "Allen's Rule statement",
+          "expr": "Mammals from colder climates possess shorter ears and shorter limbs to minimize heat loss"
+        },
+        {
+          "label": "Altitude sickness physiological adaptations",
+          "expr": "Low pO₂ at high altitude → Body compensates: ↑ RBC count + ↑ Breathing rate + ↓ Hb-O₂ binding affinity"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Population Attributes & Age Pyramids",
+      "tag": "formula",
+      "points": [
+        "Population: Group of individuals of the same species inhabiting a given geographic area, utilizing common resources, and interbreeding.",
+        "Population Attributes: 1) Birth rate (Natality): Number of births per individual per unit time; 2) Death rate (Mortality): Number of deaths per individual per time; 3) Sex ratio: Proportion of females to males.",
+        "Age Pyramids: Proportion of individuals across three age groups (Pre-reproductive, Reproductive, Post-reproductive):",
+        "- Triangular (Expanding population): Large base of pre-reproductive individuals (rapidly growing).",
+        "- Bell-shaped (Stable population): Pre-reproductive and reproductive individuals nearly equal.",
+        "- Urn-shaped (Declining population): Small pre-reproductive base, high older population."
+      ],
+      "formulas": [
+        {
+          "label": "Natality and Mortality rates calculation",
+          "expr": "Birth Rate = Number of new births / Total initial population | Death Rate = Number of deaths / Total initial population"
+        },
+        {
+          "label": "Age pyramid shapes and growth trends",
+          "expr": "Triangular = Expanding / Growing | Bell-shaped = Stable | Urn-shaped = Declining"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Population Growth Models: Exponential vs Logistic",
+      "tag": "formula",
+      "points": [
+        "Population Density (N): Dynamics governed by Natality (B), Mortality (D), Immigration (I), Emigration (E): N_(t+1) = N_t + [(B + I) − (D + E)].",
+        "1. Exponential Growth (J-shaped curve): Occurs when resources (food, space) are unlimited. Differential equation: dN/dt = rN (where r = intrinsic rate of natural increase). Integral form: N_t = N₀ e^(rt).",
+        "2. Logistic Growth (Verhulst-Pearl S-shaped / Sigmoid curve): Occurs when resources are limited. Incorporates Carrying Capacity (K: maximum sustainable population size).",
+        "Differential equation: dN/dt = rN [(K − N) / K]. Stages: Lag phase → Acceleration → Deceleration → Asymptote (at N = K, growth stops: dN/dt = 0). Represents realistic ecological growth."
+      ],
+      "formulas": [
+        {
+          "label": "Population change fundamental equation",
+          "expr": "N_(t+1) = N_t + [(B + I) − (D + E)]"
+        },
+        {
+          "label": "Exponential growth equation (J-shaped)",
+          "expr": "dN / dt = rN; N_t = N₀ e^(rt) (unlimited resources)"
+        },
+        {
+          "label": "Verhulst-Pearl Logistic growth equation (S-shaped)",
+          "expr": "dN / dt = rN [(K − N) / K] (where K = Carrying Capacity, r = intrinsic rate of increase)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Positive Population Interactions: Mutualism & Commensalism",
+      "tag": "formula",
+      "points": [
+        "1. Mutualism (+ / +): Both species benefit obligately:",
+        "- Lichens: Fungus (absorbs water/minerals, protection) + Alga/Cyanobacteria (photosynthesizes).",
+        "- Mycorrhiza: Fungus (phosphorus absorption) + Plant roots (carbohydrates).",
+        "- Fig tree and pollinator Wasp: Co-evolution; wasp pollinates fig, fig provides oviposition site and food.",
+        "- Mediterranean Orchid (Ophrys) & Bee: Sexual Deceit (petal mimics female Colpa bee in shape, color, scent; male pseudocopulates achieving cross-pollination).",
+        "2. Commensalism (+ / 0): One benefits, other unaffected: Epiphytic orchid on mango tree; Barnacles on whale back; Cattle egret foraging near grazing livestock; Sea anemone and Clownfish.",
+        "3. Amensalism (− / 0): One harmed, other unaffected: Penicillium secreting penicillin inhibiting bacteria."
+      ],
+      "formulas": [
+        {
+          "label": "Population interaction signs summary",
+          "expr": "Mutualism (+, +) | Commensalism (+, 0) | Amensalism (−, 0) | Predation (+, −) | Parasitism (+, −) | Competition (−, −)"
+        },
+        {
+          "label": "Commensalism ecological pairings",
+          "expr": "Orchid on Mango tree (+, 0) | Barnacle on Whale (+, 0) | Cattle Egret & Grazers (+, 0) | Clownfish & Sea Anemone (+, 0)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Negative Interactions: Predation, Parasitism & Competition",
+      "tag": "formula",
+      "points": [
+        "1. Predation (+ / −): Predator captures and feeds on prey; energy transfer conduit; checks prey population (e.g. Prickly pear cactus in Australia controlled by Cactoblastis moth). Prey defenses: Camouflage, Monarch butterfly cardiac glycoside, Acacia spines, Calotropis cardiac poisons.",
+        "2. Parasitism (+ / −): Parasite lives on/in host for food/shelter. Ectoparasites (Lice, Ticks, Cuscuta); Endoparasites (Plasmodium, Liver fluke). Brood Parasitism: Cuckoo (Koel) lays eggs in Crow's nest.",
+        "3. Competition (− / −): Gause's Competitive Exclusion Principle (two species competing for identical limiting resources cannot coexist indefinitely; inferior eliminated e.g. Abingdon tortoise in Galapagos extinct after goats introduced). Resource Partitioning (MacArthur: 5 Warbler species co-exist on same tree by foraging at different times/heights)."
+      ],
+      "formulas": [
+        {
+          "label": "Gause's Competitive Exclusion Principle",
+          "expr": "Two species competing for identical limiting resources cannot coexist indefinitely; competitively inferior is eliminated"
+        },
+        {
+          "label": "Brood parasitism pairing",
+          "expr": "Koel (parasitic cuckoo) lays eggs in Crow's nest (eggs mimic crow eggs)"
+        },
+        {
+          "label": "MacArthur resource partitioning",
+          "expr": "5 Warbler species co-exist on same spruce tree by feeding at different times and canopy zones"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "High-Weightage Board Questions & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Differentiate between Exponential growth (J-shaped) and Logistic growth (S-shaped) with graphical curves and mathematical equations.",
+        "Board Q2: Explain Gause's Competitive Exclusion Principle with the example of Abingdon tortoise and goats.",
+        "Board Q3: Explain adaptations of desert animals (Kangaroo rat) and plants (Opuntia) to extreme arid environments.",
+        "Board Q4: Explain Mutualism with reference to: 1) Fig and Wasp co-evolution; 2) Sexual deceit in Ophrys orchid.",
+        "Board Q5: Differentiate between Hibernation and Aestivation."
+      ],
+      "formulas": [
+        {
+          "label": "Exponential vs Logistic differential equations",
+          "expr": "Exponential: dN/dt = rN | Logistic: dN/dt = rN[(K − N) / K]"
+        },
+        {
+          "label": "Intrinsic rate of natural increase (r)",
+          "expr": "r = b − d (birth rate minus death rate; vital indicator of population biotic potential)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Logistic growth equation: dN/dt = rN[(K − N)/K]. When N = K, (K − N)/K = 0, so dN/dt = 0 (population stops growing, reaches carrying capacity asymptote).",
+        "TRAP 2: Predation vs Parasitism: Both are (+ / −), but a predator kills its prey immediately, whereas a parasite derives nourishment over time without killing host immediately.",
+        "TRAP 3: Brood parasitism: Cuckoo (Koel) and Crow is brood parasitism, NOT commensalism or mutualism!",
+        "TRAP 4: Allen's Rule vs Bergmann's Rule: Allen's rule applies to extremity lengths (shorter ears/limbs in cold climates); Bergmann's rule applies to overall body size (larger body size in colder climates).",
+        "TRAP 5: Small animals in polar regions: Shrews and hummingbirds are rare in polar regions because high surface area to volume ratio causes rapid heat loss, making thermoregulation energetically unfeasible."
+      ],
+      "formulas": [
+        {
+          "label": "Carrying Capacity asymptote trigger",
+          "expr": "When Population N = Carrying Capacity K → (K − N) / K = 0 → Population Growth Rate dN/dt = 0"
+        },
+        {
+          "label": "Ecological rules distinction",
+          "expr": "Allen's Rule: Shorter ears & limbs in cold | Bergmann's Rule: Larger body mass in cold"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "Population Interaction Matrix & Calculation Hacks",
+      "tag": "imp",
+      "points": [
+        "Population Interaction Matrix: Mutualism (+, +); Commensalism (+, 0); Amensalism (−, 0); Predation (+, −); Parasitism (+, −); Competition (−, −).",
+        "Net population change calculation: If initial population N₀ = 1000, births = 200, deaths = 50, immigration = 30, emigration = 80: ΔN = (200 + 30) − (50 + 80) = 230 − 130 = +100 → New population = 1100.",
+        "Intrinsic rate of natural increase (r): For Norway rat = 0.015; Flour beetle = 0.12; Human population in India (1981) = 0.0205."
+      ],
+      "formulas": [
+        {
+          "label": "Complete ecological interaction matrix",
+          "expr": "+/+ = Mutualism | -/- = Competition | +/- = Predation or Parasitism | +/0 = Commensalism | -/0 = Amensalism"
+        },
+        {
+          "label": "Net population density change formula",
+          "expr": "ΔN = (B + I) − (D + E)"
+        }
+      ]
+    }
+  ]
+}

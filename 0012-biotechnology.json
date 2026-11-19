@@ -1,0 +1,240 @@
+{
+  "title": "Biotechnology",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Principles of Biotechnology & Recombinant DNA (rDNA)",
+      "tag": "concept",
+      "points": [
+        "Biotechnology (EFB definition): 'The integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services.'",
+        "Two core techniques: 1) Genetic Engineering (rDNA technology): Modification of host genetic material to introduce desired traits; 2) Bioprocess Engineering: Maintaining sterile, contamination-free environment in bioreactors for large-scale production of enzymes, vaccines, and antibodies.",
+        "Milestone: Stanley Cohen & Herbert Boyer (1972) constructed the first recombinant DNA molecule by isolating an antibiotic resistance gene and linking it to the native plasmid of Salmonella typhimurium using restriction enzyme and DNA ligase."
+      ],
+      "formulas": [
+        {
+          "label": "Recombinant DNA milestones",
+          "expr": "1972: Stanley Cohen & Herbert Boyer created first recombinant DNA using Salmonella plasmid"
+        },
+        {
+          "label": "Core biotechnology pillars",
+          "expr": "Genetic Engineering (gene cloning & transfer) + Bioprocess Engineering (sterile large-scale growth)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Tools of rDNA Technology: Enzymes & Cleavage",
+      "tag": "formula",
+      "points": [
+        "1. Restriction Endonucleases ('Molecular Scissors'): Cleave phosphodiester backbone of double-stranded DNA at specific Palindromic recognition sequences (read identically on both strands in 5' → 3' direction). Discovered by Arber, Smith, and Nathans.",
+        "EcoRI nomenclature: Escherichia (E) + coli (co) + strain RY13 (R) + first isolated (I). Cleaves between G and A in 5'-GAATTC-3' leaving single-stranded cohesive sticky ends.",
+        "2. DNA Ligase ('Molecular Glue'): Seals nicks between DNA fragments by forming phosphodiester bonds (T4 DNA ligase).",
+        "3. DNA Polymerase: Synthesizes complementary DNA strand using dNTPs (Taq polymerase in PCR).",
+        "4. Alkaline Phosphatase: Cleaves terminal 5'-phosphate group from cut vector to prevent self-ligation.",
+        "5. Lytic enzymes for DNA extraction: Lysozyme (bacteria), Cellulase (plants), Chitinase (fungi)."
+      ],
+      "formulas": [
+        {
+          "label": "EcoRI palindromic recognition sequence",
+          "expr": "5'-G↓AATTC-3' | 3'-CTTAA↑G-5' (produces cohesive sticky ends)"
+        },
+        {
+          "label": "Restriction enzymes nomenclature breakdown",
+          "expr": "EcoRI = Escherichia (E) + coli (co) + strain R (R) + first isolated (I)"
+        },
+        {
+          "label": "Cell wall lysis enzymes matching",
+          "expr": "Bacteria = Lysozyme | Plant cells = Cellulase | Fungal cells = Chitinase"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Cloning Vectors: pBR322 & Selectable Markers",
+      "tag": "formula",
+      "points": [
+        "Cloning vector features: 1) Origin of Replication (Ori): Initiates replication and controls plasmid copy number; 2) Selectable markers: Distinguish transformants from non-transformants (amp^R, tet^R); 3) Unique cloning / restriction sites.",
+        "pBR322 plasmid structure: amp^R gene has PstI, PvuI sites; tet^R gene has BamHI, SalI sites; Ori and rop (codes for replication proteins).",
+        "Insertional Inactivation: Insertion of foreign gene into BamHI site of tet^R gene inactivates tetracycline resistance. Transformants grow on ampicillin, but recombinant transformants die on tetracycline.",
+        "Blue-White Selection (lacZ marker): Foreign DNA inserted into β-galactosidase (lacZ) gene. Non-recombinants produce active enzyme turning X-gal substrate BLUE; Recombinants have disrupted lacZ (insertional inactivation), forming WHITE colonies!"
+      ],
+      "formulas": [
+        {
+          "label": "pBR322 selectable markers & restriction sites",
+          "expr": "amp^R (PstI, PvuI) | tet^R (BamHI, SalI) | Ori | rop (PvuII)"
+        },
+        {
+          "label": "Blue-White selection mechanism",
+          "expr": "Non-recombinant: Functional lacZ → Blue colonies | Recombinant: Inactivated lacZ (insert) → White colonies"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Gene Transfer Techniques & Competent Host",
+      "tag": "concept",
+      "points": [
+        "Chemical Competency: Treating bacterial cells with divalent cations (CaCl₂ / Ca²⁺) increases membrane permeability; followed by Heat Shock (ice → 42 °C → ice) to force plasmid entry.",
+        "Direct / Vectorless Gene Transfer: 1) Micro-injection: Target DNA injected directly into nucleus of animal egg or cell via microscopic needle; 2) Biolistics / Gene Gun: Plant cells bombarded with high-velocity microscopic tungsten or gold particles coated with foreign DNA; 3) Electroporation: Electrical pulses create transient membrane pores.",
+        "Vector-mediated Transfer in Plants: Agrobacterium tumefaciens ('Natural genetic engineer of plants'). Ti plasmid (tumor-inducing) transfers T-DNA into plant genome causing crown gall; disarmed Ti plasmid carries beneficial foreign genes into crop plants without disease.",
+        "Vector for Animal Cells: Disarmed Retroviruses."
+      ],
+      "formulas": [
+        {
+          "label": "Bacterial competency heat shock protocol",
+          "expr": "Incubate on ice with CaCl₂ (Ca²⁺) → Heat shock at 42 °C → Plunge onto ice"
+        },
+        {
+          "label": "Gene transfer techniques matching",
+          "expr": "Animal cells = Micro-injection | Plant cells = Gene gun / Biolistics (Gold/Tungsten) | Agrobacterium = Disarmed Ti plasmid"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Polymerase Chain Reaction (PCR) & Gel Electrophoresis",
+      "tag": "formula",
+      "points": [
+        "1. Agarose Gel Electrophoresis: Separates DNA fragments based on molecular size. Negatively charged DNA fragments migrate towards positive Anode (+); smaller fragments travel farther through agarose matrix. Visualized by Ethidium Bromide (EtBr) staining under UV illumination as bright orange fluorescent bands. Elution: Extraction of DNA band from gel.",
+        "2. Polymerase Chain Reaction (PCR - Kary Mullis, 1983): In vitro amplification of DNA sequence by ~1 billion times in 30 cycles (2ⁿ copies):",
+        "- Step 1: Denaturation (94-96 °C): Double-stranded DNA melts into single strands breaking H-bonds.",
+        "- Step 2: Primer Annealing (50-60 °C): Two oligonucleotide primers bind complementary 3'-ends of single strands.",
+        "- Step 3: Primer Extension (72 °C): Thermostable Taq DNA Polymerase (from Thermus aquaticus, active at high temperatures) synthesizes complementary strands using dNTPs."
+      ],
+      "formulas": [
+        {
+          "label": "PCR 3-step thermal cycle",
+          "expr": "Denaturation (94 °C) → Primer Annealing (55 °C) → Primer Extension (72 °C with Taq polymerase)"
+        },
+        {
+          "label": "PCR theoretical amplification formula",
+          "expr": "Amplified DNA copies = 2ⁿ (where n = number of cycles; 30 cycles yield ~1 billion copies)"
+        },
+        {
+          "label": "DNA visualization parameters",
+          "expr": "Ethidium Bromide (EtBr) stain + UV light illumination → Bright Orange fluorescent bands"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Bioreactors & Downstream Processing",
+      "tag": "formula",
+      "points": [
+        "Bioreactors: Large stainless steel vessels (100 to 1000 Liters) providing optimal biological conditions (temperature, pH, substrate, oxygen, agitation, antifoam) for converting raw materials into specific biological products.",
+        "Types: 1) Simple Stirred-tank bioreactor: Curved base, motor-driven agitator blades, air sparger, temperature and pH sensors; 2) Sparged Stirred-tank bioreactor: Sterile air bubbles sparged to dramatically increase oxygen transfer area.",
+        "Downstream Processing: Series of post-fermentation operations preparing product for commercialization:",
+        "- Separation and Purification of target molecule from culture broth.",
+        "- Addition of suitable preservatives, formulation into stable form, and strict clinical trials / quality control testing."
+      ],
+      "formulas": [
+        {
+          "label": "Bioprocess engineering phases",
+          "expr": "Upstream processing (inoculum preparation, media formulation) → Bioreactor fermentation → Downstream processing"
+        },
+        {
+          "label": "Downstream processing components",
+          "expr": "Downstream Processing = Separation + Purification + Formulation + Quality Control Testing"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Applications in Agriculture: Bt Cotton & RNAi",
+      "tag": "formula",
+      "points": [
+        "1. Bt Cotton: Bacillus thuringiensis produces crystalline Cry endotoxins during sporulation. Cry proteins are inactive protoxins; upon ingestion by insect larvae, alkaline pH of midgut solubilizes crystals into active toxin, which binds epithelial cells creating pores, causing lysis and death. Specific genes: cryIAc and cryIIAb control cotton bollworms; cryIAb controls corn borer.",
+        "2. RNA Interference (RNAi - Fire & Mello): Post-transcriptional gene silencing mechanism protecting tobacco plants against root-knot nematode Meloidogyne incognita.",
+        "Mechanism: Nematode-specific genes introduced via Agrobacterium produce both sense and antisense RNA forming double-stranded RNA (dsRNA). Dicer enzyme cuts dsRNA into small interfering RNAs (siRNAs). RISC complex unwinds siRNA and targets and degrades nematode mRNA, preventing protein synthesis. Nematode cannot survive!"
+      ],
+      "formulas": [
+        {
+          "label": "Cry genes specificity matching",
+          "expr": "cryIAc & cryIIAb = Control Cotton Bollworms | cryIAb = Controls Corn Borer"
+        },
+        {
+          "label": "Bt protoxin activation trigger",
+          "expr": "Inactive Protoxin + Alkaline gut pH of insect → Active Toxin → Pores in midgut epithelium → Insect death"
+        },
+        {
+          "label": "RNA interference (RNAi) pathway",
+          "expr": "Double-stranded RNA (dsRNA) → [Dicer] → siRNA → [RISC complex] → Degrades target mRNA → Gene Silencing"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Applications in Medicine: Humulin & Gene Therapy",
+      "tag": "formula",
+      "points": [
+        "1. Recombinant Human Insulin (Humulin - Eli Lilly, 1983): Natural proinsulin contains A-chain (21 aa) + B-chain (30 aa) + C-peptide (33 aa). Mature insulin has only A and B chains linked by disulfide bonds (C-peptide removed). Eli Lilly synthesized separate DNA sequences for A and B chains, cloned them in E. coli, extracted chains, and linked them via disulfide bonds in vitro.",
+        "2. Gene Therapy (First clinical gene therapy 1990 by W. French Anderson): 4-year-old girl with Adenosine Deaminase (ADA) deficiency causing SCID. Functional ADA cDNA introduced into patient's cultured lymphocytes using retroviral vector and infused back into patient (requires periodic re-infusions; permanent cure if done in embryonic bone marrow stem cells).",
+        "3. Transgenic Animals: Rosie (first transgenic cow, 1997) produced milk containing 2.4 g/L human α-lactalbumin, nutritionally superior for human infants."
+      ],
+      "formulas": [
+        {
+          "label": "Insulin prohormone vs mature insulin",
+          "expr": "Proinsulin = A-chain (21 aa) + B-chain (30 aa) + C-peptide (33 aa) | Mature Insulin = A-chain + B-chain (disulfide bonds; NO C-peptide)"
+        },
+        {
+          "label": "ADA deficiency gene therapy protocol",
+          "expr": "Patient Lymphocytes + Retroviral vector carrying ADA cDNA → Transduced T-cells infused into patient"
+        },
+        {
+          "label": "Transgenic cow Rosie production",
+          "expr": "Rosie (1997) milk contains Human α-Lactalbumin (2.4 g/Liter; balanced nutrition for infants)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Describe the features of cloning vector pBR322 with a neat labelled diagram (amp^R, tet^R, Ori, rop, restriction sites).",
+        "Board Q2: Explain the steps in Polymerase Chain Reaction (PCR) with temperature conditions and role of Taq polymerase.",
+        "Board Q3: Explain how recombinant human insulin (Humulin) was synthesized by Eli Lilly company.",
+        "Board Q4: Explain the mechanism of RNA interference (RNAi) in developing nematode-resistant tobacco plants.",
+        "Biopiracy: The illegal commercial exploitation of biological resources and traditional indigenous knowledge by corporations without authorization or benefit-sharing (e.g. patenting of Basmati rice, Neem, Turmeric)."
+      ],
+      "formulas": [
+        {
+          "label": "Biopiracy definition",
+          "expr": "Exploitation of biological resources and traditional knowledge of indigenous peoples without authorization or compensation"
+        },
+        {
+          "label": "Taq polymerase isolation source",
+          "expr": "Thermus aquaticus (thermophilic bacterium surviving at >90 °C)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Mature insulin lacks C-peptide: Proinsulin has A + B + C chains. Mature active insulin has ONLY A and B chains linked by disulfide bonds (−S−S−).",
+        "TRAP 2: PCR enzyme: Taq polymerase is isolated from Thermus aquaticus (thermostable DNA polymerase active at 72 °C, resists 95 °C denaturation).",
+        "TRAP 3: Bt toxin is NOT toxic to bacteria because it exists as an INACTIVE protoxin. It requires ALKALINE pH (present only in insect midgut) to be solubilized and activated!",
+        "TRAP 4: DNA migration in gel electrophoresis: DNA is negatively charged and moves towards ANODE (+). Smaller fragments travel farthest. Visualized with Ethidium Bromide (EtBr) under UV as BRIGHT ORANGE bands.",
+        "TRAP 5: Cry genes: cryIAc and cryIIAb control cotton bollworms; cryIAb controls corn borer!"
+      ],
+      "formulas": [
+        {
+          "label": "DNA gel charge migration rule",
+          "expr": "Negative DNA backbone → Migrates to Positive Anode (+) | Distance ∝ 1 / Fragment Size"
+        },
+        {
+          "label": "Cry genes mnemonic",
+          "expr": "Bollworms = cryIAc & cryIIAb | Corn borer = cryIAb ('b' for borer)"
+        },
+        {
+          "label": "Insulin chains amino acid counts",
+          "expr": "Chain A = 21 amino acids | Chain B = 30 amino acids | Total in mature insulin = 51 amino acids"
+        }
+      ]
+    }
+  ]
+}

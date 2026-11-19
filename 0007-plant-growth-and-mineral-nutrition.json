@@ -1,0 +1,253 @@
+{
+  "title": "Plant Growth and Mineral Nutrition",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Plant Growth: Phases, Growth Curves & Mathematical Models",
+      "tag": "formula",
+      "points": [
+        "Growth: Irreversible, permanent increase in size, volume, or dry mass of an organism accompanied by metabolic processes.",
+        "Phases of growth: 1) Meristematic (cell division, dense cytoplasm, large nuclei, thin cellulosic walls); 2) Elongation (vacuolation, cell enlargement, new wall deposition); 3) Maturation / Differentiation (structural and functional specialization).",
+        "Arithmetic Growth: Only one daughter cell divides, the other differentiates. Linear graph: L_t = L₀ + rt.",
+        "Geometric Growth: Both daughter cells divide repeatedly. Sigmoid (S-shaped) curve: Lag phase (initial slow) → Log / Exponential phase (rapid maximal) → Stationary phase (nutrient limitation). Equation: W₁ = W₀ e^(rt).",
+        "Relative Growth Rate (r / Efficiency index): Capacity of plant to produce new material per unit time."
+      ],
+      "formulas": [
+        {
+          "label": "Arithmetic growth linear equation",
+          "expr": "L_t = L₀ + rt (where L_t = length at time t, L₀ = initial length, r = growth rate)"
+        },
+        {
+          "label": "Geometric growth exponential equation",
+          "expr": "W₁ = W₀ e^(rt) (where W₁ = final size, W₀ = initial size, r = relative growth rate, t = time)"
+        },
+        {
+          "label": "Sigmoid growth curve phases",
+          "expr": "Lag phase (slow start) → Log / Exponential phase (rapid maximal) → Stationary phase (nutrient limitation)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Plant Growth Regulators: Auxins",
+      "tag": "formula",
+      "points": [
+        "Discovery: Charles Darwin & Francis Darwin observed canary grass coleoptile phototropism; F.W. Went isolated Auxin from oat (Avena sativa) coleoptile tips using agar blocks (Avena curvature test).",
+        "Precursor: Tryptophan (amino acid requiring Zn²⁺ cofactor).",
+        "Natural Auxins: IAA (Indole-3-acetic acid), IBA (Indole-3-butyric acid); Synthetic Auxins: NAA (Naphthalene acetic acid), 2,4-D (2,4-dichlorophenoxyacetic acid).",
+        "Physiological roles & applications: 1) Apical Dominance: Growing apical bud inhibits growth of lateral axillary buds; decapitation promotes bushy growth (tea pruning, hedges); 2) Root initiation in stem cuttings; 3) Prevents premature fruit/leaf drop; 4) Selective weedicide: 2,4-D kills broad-leaved dicot weeds without harming monocot crops; 5) Induces Parthenocarpy in tomatoes."
+      ],
+      "formulas": [
+        {
+          "label": "Auxin bioassay & precursor",
+          "expr": "Bioassay: Avena curvature test (F.W. Went) | Precursor: Tryptophan (Zn²⁺ cofactor)"
+        },
+        {
+          "label": "2,4-D selective weedicide application",
+          "expr": "2,4-D kills broad-leaved Dicot weeds (spares monocot cereal crops)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Gibberellins & Cytokinins",
+      "tag": "formula",
+      "points": [
+        "1. Gibberellins: Discovered by E. Kurosawa in rice infected with fungus Gibberella fujikuroi ('Bakanae' foolish seedling disease). Most extensively studied is GA₃. Precursor: Mevalonic acid / Terpenes.",
+        "Physiological effects of GA: Bolting (rapid internodal elongation in rosette plants like cabbage, beet before flowering); elongates grape stalks; increases sugarcane stem length (boosts yield by up to 20 tons/acre); breaks seed dormancy by activating α-amylase to mobilize starch.",
+        "2. Cytokinins: Discovered by Skoog & Miller (Kinetin from herring sperm DNA). Letham isolated Zeatin from corn kernels (Zea mays). Precursor: Adenine (purine).",
+        "Physiological effects of Cytokinins: Promotes cell division (cytokinesis); overcomes apical dominance; Richmond-Lang effect (delays leaf senescence by nutrient mobilization); Morphogenesis control: High Auxin/Cytokinin ratio → Root induction; High Cytokinin/Auxin ratio → Shoot induction."
+      ],
+      "formulas": [
+        {
+          "label": "Gibberellin bolting effect",
+          "expr": "Rosette plants (Cabbage, Beet) + GA₃ → Dramatic internodal elongation & flowering (Bolting)"
+        },
+        {
+          "label": "Organogenesis hormone balance (Skoog & Miller)",
+          "expr": "High Auxin : Low Cytokinin → Root development | Low Auxin : High Cytokinin → Shoot development"
+        },
+        {
+          "label": "Richmond-Lang effect",
+          "expr": "Cytokinins delay senescence of leaves by preventing chlorophyll degradation and nutrient mobilization"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Ethylene & Abscisic Acid (ABA - Stress Hormone)",
+      "tag": "formula",
+      "points": [
+        "1. Ethylene (Gaseous Hormone): Discovered by H.H. Cousins (ripening oranges accelerate banana ripening). Precursor: Methionine. Commercial formulation: Ethephon.",
+        "Physiological effects of Ethylene: Accelerates fruit ripening (climacteric respiratory rise); induces horizontal growth of seedlings, axis swelling, and apical hook (triple response); promotes senescence and abscission of leaves/flowers; breaks seed dormancy; increases root hair surface area.",
+        "2. Abscisic Acid (ABA / Dormin / Stress Hormone): Discovered by Addicott (Abscisin II) and Wareing (Dormin). Precursor: Carotenoids / Mevalonic acid.",
+        "Physiological effects of ABA: General growth inhibitor; antitranspirant (stimulates rapid stomatal closure during water stress by K⁺ efflux); induces seed dormancy preventing vivipary; acts antagonistically to Gibberellins (ABA vs GA balance)."
+      ],
+      "formulas": [
+        {
+          "label": "Ethylene precursor and ripening trigger",
+          "expr": "Precursor: Methionine | Fruit ripening gas (causes climacteric respiratory rise)"
+        },
+        {
+          "label": "ABA stress hormone action",
+          "expr": "Water stress → ABA synthesis → K⁺ efflux from guard cells → Rapid stomatal closure"
+        },
+        {
+          "label": "Antagonistic hormone pairs",
+          "expr": "GA (breaks seed dormancy) vs ABA (induces seed dormancy) | Auxin (apical dominance) vs Cytokinin (bushy growth)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Photoperiodism & Vernalization",
+      "tag": "concept",
+      "points": [
+        "Photoperiodism (Garner & Allard, 1920 in Maryland Mammoth tobacco): Response of plants to relative day and night lengths for induction of flowering.",
+        "1. Short Day Plants (SDP / Long Night Plants): Flower when exposed to photoperiods shorter than critical photoperiod; require uninterrupted dark night (Tobacco, Soybean, Xanthium). A flash of light during night inhibits flowering!",
+        "2. Long Day Plants (LDP / Short Night Plants): Flower when photoperiod exceeds critical day length (Wheat, Radish, Spinach).",
+        "3. Day Neutral Plants (DNP): Flowering unaffected by day length (Tomato, Sunflower, Pea).",
+        "Phytochrome pigment (Borthwick & Hendricks): Photoreceptor interconverting between P_r (absorbs 660 nm red light, inactive) and P_fr (absorbs 730 nm far-red light, active form inducing flowering in LDP and inhibiting SDP).",
+        "Vernalization (Lysenko): Promotion of flowering by low-temperature cold treatment (1-5 °C e.g. winter cereals, biennial crops like cabbage, carrot); mediated by hypothetical hormone Vernalin."
+      ],
+      "formulas": [
+        {
+          "label": "Phytochrome interconversion equilibrium",
+          "expr": "P_r (660 nm red light) ⇌ P_fr (730 nm far-red light, biologically active form)"
+        },
+        {
+          "label": "SDP vs LDP flowering triggers",
+          "expr": "SDP: Requires uninterrupted dark night > critical duration | LDP: Requires light > critical duration"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Mineral Nutrition: Criteria of Essentiality & Classification",
+      "tag": "concept",
+      "points": [
+        "Criteria of Essentiality (Arnon & Stout, 1939): 1) Plant cannot complete life cycle without the element; 2) Requirement is specific and cannot be replaced by another element; 3) Element is directly involved in plant metabolism.",
+        "17 Essential Elements:",
+        "- Macronutrients (> 10 mmol/kg dry matter): C, H, O (framework elements from CO₂/H₂O); N, P, K, Ca, Mg, S.",
+        "- Micronutrients / Trace elements (< 10 mmol/kg dry matter): Fe, Mn, Cu, Zn, B, Mo, Cl, Ni.",
+        "Functional roles: Structural (C, H, O, N); Energy-related (Mg in chlorophyll, P in ATP); Enzyme activators (Mg²⁺ activates Rubisco & PEPcase; Zn²⁺ activates alcohol dehydrogenase; Mo activates nitrogenase); Osmotic regulators (K⁺ controls stomatal opening and ionic balance)."
+      ],
+      "formulas": [
+        {
+          "label": "Macronutrients mnemonic (9 elements)",
+          "expr": "C, H, O, N, P, K, Ca, Mg, S ('CHON PK Ca Mg S')"
+        },
+        {
+          "label": "Micronutrients mnemonic (8 elements)",
+          "expr": "Fe, Mn, Zn, Cu, B, Mo, Cl, Ni"
+        },
+        {
+          "label": "Enzyme cofactors matching",
+          "expr": "Rubisco & PEPcase = Mg²⁺ | Alcohol dehydrogenase = Zn²⁺ | Nitrogenase = Mo & Fe"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Specific Roles of Minerals & Deficiency Symptoms",
+      "tag": "concept",
+      "points": [
+        "Nitrogen (N): Nucleic acids, proteins, chlorophyll; deficiency causes chlorosis in older leaves first (mobile).",
+        "Phosphorus (P): ATP, phospholipids; deficiency causes purple/red pigmentation on leaves, stunted root growth.",
+        "Potassium (K): K⁺/Na⁺ balance, stomatal regulation, protein synthesis; deficiency causes marginal leaf scorch / necrosis.",
+        "Calcium (Ca): Constituent of middle lamella (Calcium pectate), mitotic spindle; IMMOBILE, deficiency causes necrosis of young meristem tips (Blossom-end rot of tomato).",
+        "Magnesium (Mg): Central atom of chlorophyll porphyrin ring; activates Rubisco; deficiency causes interveinal chlorosis in older leaves.",
+        "Zinc (Zn): Auxin (IAA) biosynthesis; deficiency causes 'little leaf' disease and khaira disease of rice.",
+        "Boron (B): Pollen tube germination, sugar translocation; deficiency causes brown heart rot in turnip/beet, death of shoot tip.",
+        "Manganese (Mn): Photolysis of water in Photosystem II (with Cl⁻, Ca²⁺); deficiency causes marsh spot in peas.",
+        "Molybdenum (Mo): Component of nitrogenase; deficiency causes 'whiptail' disease of cauliflower."
+      ],
+      "formulas": [
+        {
+          "label": "Key deficiency disease signatures",
+          "expr": "Ca = Blossom-end rot | Zn = Little leaf, Khaira of rice | B = Brown heart rot | Mo = Whiptail of cauliflower"
+        },
+        {
+          "label": "Photolysis of water catalysts",
+          "expr": "2H₂O (Light, Mn²⁺, Cl⁻, Ca²⁺) → 4H⁺ + 4e⁻ + O₂↑"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Nitrogen Metabolism: Biological Nitrogen Fixation",
+      "tag": "formula",
+      "points": [
+        "Nitrogen Cycle: Ammonification (decaying proteins → NH₃ by Bacillus ramosus), Nitrification, Denitrification (NO₃⁻ → N₂ gas by Pseudomonas & Thiobacillus).",
+        "Nitrification (two-step chemoautotrophic oxidation): 1) 2NH₃ + 3O₂ (Nitrosomonas / Nitrosococcus) → 2NO₂⁻ + 2H⁺ + 2H₂O; 2) 2NO₂⁻ + O₂ (Nitrobacter) → 2NO₃⁻.",
+        "Biological Nitrogen Fixation (BNF): Free-living aerobic (Azotobacter, Beijerinckia); Anaerobic (Clostridium); Cyanobacteria (Anabaena, Nostoc in heterocysts); Symbiotic (Rhizobium in legumes, Frankia in non-legume Alnus).",
+        "Nitrogenase Enzyme Complex: Mo-Fe protein; poisoned by O₂. Protected by Leghemoglobin (pink oxygen scavenger in root nodules creating anaerobic niche).",
+        "Energetics: Requires 16 ATP to fix 1 molecule of N₂ into 2 molecules of NH₃ (8 ATP per NH₃ produced!)."
+      ],
+      "formulas": [
+        {
+          "label": "Biological nitrogen fixation equation",
+          "expr": "N₂ + 8e⁻ + 8H⁺ + 16ATP (Nitrogenase) → 2NH₃ + H₂ + 16ADP + 16Pi"
+        },
+        {
+          "label": "ATP cost per ammonia molecule",
+          "expr": "16 ATP / 2 NH₃ = 8 ATP required per NH₃ produced"
+        },
+        {
+          "label": "Nitrification two-step reactions",
+          "expr": "NH₃ → NO₂⁻ (Nitrosomonas) → NO₃⁻ (Nitrobacter)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Hormone Functions",
+      "tag": "imp",
+      "points": [
+        "Board Q1: State the discovery, physiological effects, and agricultural applications of: 1) Auxins (apical dominance, 2,4-D weedicide); 2) Gibberellins (bolting, sugarcane yield increase); 3) Ethylene (fruit ripening).",
+        "Board Q2: Describe the criteria of essentiality of mineral elements proposed by Arnon and Stout.",
+        "Board Q3: Explain the role of Leghemoglobin and Nitrogenase in root nodule nitrogen fixation.",
+        "Board Q4: Define Photoperiodism and differentiate between Short Day Plants and Long Day Plants.",
+        "Board Q5: Describe the Richmond-Lang effect of cytokinins and Avena curvature test for auxins."
+      ],
+      "formulas": [
+        {
+          "label": "Agricultural applications summary",
+          "expr": "2,4-D = Dicot weedicide | GA₃ = Elongates sugarcane stems & grape pedicels | Ethylene = Ripens bananas & tomatoes"
+        },
+        {
+          "label": "Leghemoglobin function",
+          "expr": "Acts as an oxygen scavenger to create anaerobic microenvironment for O₂-sensitive Nitrogenase"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Mobile vs Immobile nutrient deficiency symptoms: Deficiency of MOBILE elements (N, P, K, Mg) appears in OLDER leaves first. Deficiency of IMMOBILE elements (Ca, S, Fe) appears in YOUNGER leaves first!",
+        "TRAP 2: Hormone precursors: Auxin = Tryptophan (needs Zn²⁺); Ethylene = Methionine; Cytokinin = Adenine (purine); GA & ABA = Mevalonic acid / Terpenes.",
+        "TRAP 3: Sugarcane spraying with GA₃ increases stem length and boosts yield by up to 20 tons per acre.",
+        "TRAP 4: Energy cost of nitrogen fixation: 16 ATP per N₂ (8 ATP per NH₃).",
+        "TRAP 5: Denitrifying bacteria: Pseudomonas denitrificans and Thiobacillus denitrificans convert soil nitrates into atmospheric N₂."
+      ],
+      "formulas": [
+        {
+          "label": "Nutrient mobility deficiency location mnemonic",
+          "expr": "Mobile (N, P, K, Mg) = Older leaves first | Immobile (Ca, S, Fe) = Younger leaves first"
+        },
+        {
+          "label": "Hormone precursors checklist",
+          "expr": "Auxin = Tryptophan | Ethylene = Methionine | Cytokinin = Adenine (purine) | GA & ABA = Mevalonic acid / Terpenes"
+        },
+        {
+          "label": "Denitrification reaction",
+          "expr": "2NO₃⁻ → 2NO₂⁻ → 2NO → N₂O → N₂↑ (Pseudomonas & Thiobacillus)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "title": "Molecular Basis of Inheritance",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "The Search for Genetic Material: Griffith to Hershey-Chase",
+      "tag": "concept",
+      "points": [
+        "1. Griffith's Transformation Experiment (1928): Streptococcus pneumoniae (S-strain with smooth polysaccharide capsule is virulent/pathogenic; R-strain is non-capsulated and non-virulent). Heat-killed S-strain + Live R-strain killed mice and yielded live S-strain, proving existence of a 'Transforming Principle'.",
+        "2. Avery, MacLeod & McCarty (1944): Biochemical characterization of transforming principle. Proteases and RNases did NOT stop transformation; only DNase destroyed transforming activity, demonstrating that DNA is the genetic material.",
+        "3. Hershey-Chase Experiment (1952 - Unequivocal proof): Used Bacteriophage T2 and E. coli. Labeled viral protein coat with ³⁵S and viral DNA with ³²P. Following infection, blending, and centrifugation, radioactive ³²P was detected in bacterial pellet, while ³⁵S remained in supernatant, proving DNA is the hereditary material."
+      ],
+      "formulas": [
+        {
+          "label": "Griffith's experiment conclusion",
+          "expr": "Heat-killed S-strain + Live R-strain → Live S-strain recovered (Transforming Principle)"
+        },
+        {
+          "label": "Hershey-Chase isotopic labeling",
+          "expr": "³²P labels DNA (found in bacterial pellet) | ³⁵S labels Protein capsid (found in supernatant)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "DNA Structure & Watson-Crick Double Helix Model",
+      "tag": "formula",
+      "points": [
+        "Nucleotide structure: Deoxyribose sugar + Nitrogenous base (N-glycosidic bond at C-1') + Phosphate group (phosphoester bond at C-5'). Nucleotides linked by 3'-5' phosphodiester bonds.",
+        "Watson & Crick Model (1953, based on Rosalind Franklin X-ray diffraction data):",
+        "1. Two antiparallel polynucleotide chains (5' → 3' and 3' → 5') coiled in right-handed double helix.",
+        "2. Sugar-phosphate backbones on exterior; nitrogenous bases stacked inside.",
+        "3. Complementary base pairing: Adenine pairs with Thymine via 2 hydrogen bonds (A = T); Guanine pairs with Cytosine via 3 hydrogen bonds (G ≡ C).",
+        "4. Dimensions: Diameter = 2.0 nm (20 Å); Pitch per complete turn = 3.4 nm (34 Å), containing ~10 base pairs; Distance between adjacent base pairs = 0.34 nm (3.4 Å).",
+        "Erwin Chargaff's Rules: In double-stranded DNA, A = T and G = C; (A + G) / (T + C) = 1.0."
+      ],
+      "formulas": [
+        {
+          "label": "Watson-Crick B-DNA dimensions",
+          "expr": "Pitch = 3.4 nm (34 Å) | 10 bp per turn | Distance between bp = 0.34 nm | Diameter = 2.0 nm"
+        },
+        {
+          "label": "Complementary hydrogen bonds",
+          "expr": "A = T (2 hydrogen bonds) | G ≡ C (3 hydrogen bonds)"
+        },
+        {
+          "label": "Chargaff's rules equation",
+          "expr": "A = T and G = C; (A + G) / (T + C) = 1.0 (Purines = Pyrimidines in dsDNA)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Packaging of DNA Helix: Nucleosome Architecture",
+      "tag": "formula",
+      "points": [
+        "Human DNA packaging problem: Total diploid DNA length = 6.6 × 10⁹ bp × 0.34 × 10⁻⁹ m/bp ≈ 2.24 meters, packed into a microscopic nucleus (~10⁻⁶ m diameter).",
+        "Histone octamer: Basic core proteins rich in positively charged Lysine and Arginine residues; consists of 2 molecules each of H2A, H2B, H3, and H4.",
+        "Nucleosome core: Negatively charged double-stranded DNA wraps ~1.75 turns (~146-200 base pairs) around the histone octamer. H1 Linker histone seals DNA entry and exit points.",
+        "Chromatin folding hierarchy: 'Beads-on-a-string' (10 nm) → Solenoid fiber (30 nm) → Chromatin loops (300 nm) → Metaphase chromosome (scaffolded by Non-Histone Chromosomal NHC proteins).",
+        "Euchromatin vs Heterochromatin: Euchromatin is loosely packed, lightly stained, and transcriptionally active; Heterochromatin is densely packed, darkly stained, and transcriptionally inactive."
+      ],
+      "formulas": [
+        {
+          "label": "Human diploid DNA length calculation",
+          "expr": "Length = 6.6 × 10⁹ bp × 0.34 × 10⁻⁹ m/bp ≈ 2.24 meters"
+        },
+        {
+          "label": "Nucleosome composition",
+          "expr": "Histone octamer (2 of H2A, H2B, H3, H4) + ~200 bp wrapped DNA + 1 H1 Linker histone"
+        },
+        {
+          "label": "Euchromatin vs Heterochromatin key",
+          "expr": "Euchromatin = Lightly stained, loosely packed, active | Heterochromatin = Dark, dense, inactive"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "DNA Replication: Semi-Conservative Mechanism & Enzymes",
+      "tag": "formula",
+      "points": [
+        "Meselson & Stahl Experiment (1958): Cultured E. coli in ¹⁵NH₄Cl heavy isotope, then transferred to ¹⁴N medium. Density gradient centrifugation using CsCl confirmed semi-conservative replication: Gen 0 = 100% ¹⁵N-¹⁵N heavy; Gen 1 (20 min) = 100% ¹⁵N-¹⁴N intermediate hybrid; Gen 2 (40 min) = 50% ¹⁴N-¹⁴N light + 50% hybrid.",
+        "Replication machinery & enzymes: 1) Helicase: Unwinds DNA double helix breaking H-bonds; 2) Topoisomerase / Gyrase: Relieves torsional supercoiling tension; 3) SSBP: Prevents re-annealing of single strands; 4) RNA Primase: Synthesizes short RNA primer providing free 3'-OH; 5) DNA Polymerase III: Synthesizes new strand strictly in 5' → 3' direction.",
+        "Leading vs Lagging Strand: Leading strand synthesized continuously towards replication fork; Lagging strand synthesized discontinuously away from fork in short Okazaki fragments (1000-2000 bp), which are sealed by DNA Ligase."
+      ],
+      "formulas": [
+        {
+          "label": "Meselson-Stahl density centrifugation ratios",
+          "expr": "Gen 0: 100% ¹⁵N-¹⁵N | Gen 1 (20 min): 100% ¹⁵N-¹⁴N hybrid | Gen 2 (40 min): 50% ¹⁴N-¹⁴N light + 50% hybrid"
+        },
+        {
+          "label": "DNA replication directionality rule",
+          "expr": "Polymerization strictly 5' → 3' (Leading strand: continuous | Lagging strand: Okazaki fragments)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Transcription in Prokaryotes and Eukaryotes",
+      "tag": "formula",
+      "points": [
+        "Central Dogma (Francis Crick): DNA → (Transcription) → mRNA → (Translation) → Protein.",
+        "Transcription unit: Promoter (RNA polymerase binding site), Structural gene, Terminator. Template strand has 3' → 5' polarity; Coding strand has 5' → 3' polarity (mRNA sequence matches coding strand with U in place of T).",
+        "Prokaryotic transcription: Single RNA polymerase requires Sigma factor (σ) for initiation and Rho factor (ρ) for termination.",
+        "Eukaryotic RNA Polymerases: RNA Pol I synthesizes 28S, 18S, 5.8S rRNA; RNA Pol II synthesizes hnRNA (precursor of mRNA); RNA Pol III synthesizes tRNA, 5S rRNA, and snRNA.",
+        "Post-Transcriptional Processing of hnRNA: 1) Splicing (removal of non-coding introns and ligation of exons by spliceosomes); 2) Capping (addition of 7-methylguanosine triphosphate m⁷G to 5'-end); 3) Tailing / Polyadenylation (addition of 200-300 adenylate residues to 3'-end)."
+      ],
+      "formulas": [
+        {
+          "label": "Central Dogma pathway",
+          "expr": "DNA (Replication) → [Transcription] → mRNA → [Translation] → Protein"
+        },
+        {
+          "label": "Reverse Central Dogma (Teminism)",
+          "expr": "RNA → [Reverse Transcriptase] → cDNA → mRNA → Protein (discovered by Temin and Baltimore)"
+        },
+        {
+          "label": "Eukaryotic RNA Polymerase division of labor",
+          "expr": "RNA Pol I = 28S, 18S, 5.8S rRNA | RNA Pol II = hnRNA/mRNA | RNA Pol III = tRNA, 5S rRNA, snRNA"
+        },
+        {
+          "label": "hnRNA post-transcriptional processing",
+          "expr": "hnRNA → 5'-Capping (m⁷G) + Splicing (remove introns) + 3'-Polyadenylation (Poly-A tail) → mature mRNA"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Genetic Code & tRNA Adapter Molecule",
+      "tag": "formula",
+      "points": [
+        "Salient features of Genetic Code (Nirenberg, Khorana, Holley): 1) Triplet code: 3 nitrogenous bases specify 1 amino acid (64 codons for 20 amino acids); 2) Degenerate: Most amino acids coded by multiple codons; 3) Unambiguous: 1 codon codes for only 1 specific amino acid; 4) Commaless & Non-overlapping; 5) Universal from bacteria to humans.",
+        "Initiator & Stop Codons: AUG is start codon (codes for Methionine); Stop codons (Nonsense codons) are UAA (Ochre), UAG (Amber), UGA (Opal).",
+        "tRNA (Adapter molecule): 2D Cloverleaf model (Robert Holley) and 3D Inverted L-shape. Arms: 1) 3'-CCA end (amino acid acceptor arm); 2) Anticodon loop (complementary to mRNA codon); 3) DHU loop (aminoacyl-tRNA synthetase binding); 4) TΨC loop (ribosome attachment).",
+        "Wobble Hypothesis (Crick): Non-standard base pairing allowed at 3rd base of codon (5' position of anticodon), reducing number of required tRNAs."
+      ],
+      "formulas": [
+        {
+          "label": "Initiation and Stop codons",
+          "expr": "Start: AUG (Methionine) | Stop: UAA (Ochre), UAG (Amber), UGA (Opal)"
+        },
+        {
+          "label": "Genetic code degeneracy",
+          "expr": "61 codons code for 20 amino acids + 3 stop codons = 64 total codons"
+        },
+        {
+          "label": "tRNA cloverleaf arms",
+          "expr": "3'-CCA end: Amino acid binding | Anticodon loop: mRNA codon recognition | DHU & TΨC loops: Enzyme & ribosome binding"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Translation: Mechanism of Protein Synthesis",
+      "tag": "formula",
+      "points": [
+        "1. Activation of Amino Acid: Amino acid + ATP (Aminoacyl-tRNA synthetase) → Aminoacyl-AMP-Enzyme + PPi; charged to tRNA forming Aminoacyl-tRNA.",
+        "2. Initiation: Small ribosomal subunit binds mRNA at 5' untranslated region (Shine-Dalgarno in prokaryotes). Initiator tRNA-Met binds AUG codon at P-site. Large subunit joins forming active ribosome.",
+        "3. Elongation: Ribosome moves 5' → 3' along mRNA. Next aminoacyl-tRNA binds at A-site. Peptidyl transferase (23S rRNA in prokaryotes, 28S rRNA in eukaryotes) catalyzes peptide bond formation between P-site and A-site amino acids. Translocation shifts ribosome 1 codon forward via EF-G; empty tRNA released through E-site.",
+        "4. Termination: Stop codon enters A-site; release factors bind, cleaving polypeptide chain from tRNA and disassembling ribosomal complex."
+      ],
+      "formulas": [
+        {
+          "label": "Amino acid charging equation",
+          "expr": "Amino acid + ATP + tRNA (Aminoacyl-tRNA synthetase) → Aminoacyl-tRNA + AMP + 2Pi"
+        },
+        {
+          "label": "Peptide bond catalyst (Ribozyme)",
+          "expr": "23S rRNA in prokaryotes | 28S rRNA in eukaryotes (Peptidyl transferase activity)"
+        },
+        {
+          "label": "Ribosomal sites functional order",
+          "expr": "A-site (Aminoacyl arrival) → P-site (Peptide bond synthesis) → E-site (Exit of empty tRNA)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Regulation of Gene Expression: The Lac Operon",
+      "tag": "formula",
+      "points": [
+        "Lac Operon (Jacob & Monod, 1961 in E. coli): Model for transcriptional gene regulation in prokaryotes (inducible operon).",
+        "Components of Lac Operon: 1) Regulator gene (i-gene): Constitutively expresses Lac repressor protein; 2) Promoter (P): RNA polymerase binding site; 3) Operator (O): Repressor binding switch; 4) Structural genes: lac Z (β-galactosidase hydrolyzes lactose to glucose + galactose), lac Y (Permease facilitates lactose entry), lac A (Transacetylase transfers acetyl group).",
+        "Operon Switched OFF (in absence of lactose): Active repressor binds Operator, preventing RNA polymerase from transcribing structural genes.",
+        "Operon Switched ON (in presence of lactose): Inducer (Allolactose) binds repressor, causing conformational change; inactive repressor detaches from operator, allowing RNA polymerase to transcribe lac Z, Y, A."
+      ],
+      "formulas": [
+        {
+          "label": "Lac operon structural genes and enzymes",
+          "expr": "lac Z = β-Galactosidase | lac Y = Permease | lac A = Transacetylase"
+        },
+        {
+          "label": "Lactose hydrolysis reaction",
+          "expr": "Lactose + H₂O (β-Galactosidase) → D-Glucose + D-Galactose"
+        },
+        {
+          "label": "Lac operon regulation state",
+          "expr": "No Lactose: Repressor binds Operator → OFF | + Lactose: Allolactose binds Repressor → ON (Inducible system)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Human Genome Project & DNA Fingerprinting",
+      "tag": "imp",
+      "points": [
+        "Human Genome Project (HGP, 1990-2003): Mega project. Key findings: Human genome has 3.1647 × 10⁹ bp; ~30,000 genes; average gene size ~3000 bp (largest gene is Dystrophin: 2.4 million bp); Chromosome 1 has most genes (2968), Y has fewest (231); less than 2% genome codes for proteins; 1.4 million single nucleotide polymorphisms (SNPs).",
+        "DNA Fingerprinting (Alec Jeffreys; Lalji Singh in India): Relies on DNA polymorphism in non-coding VNTRs (Variable Number of Tandem Repeats / minisatellites).",
+        "DNA Fingerprinting steps: 1) Isolation of DNA → 2) Digestion with restriction endonucleases → 3) Separation by agarose gel electrophoresis → 4) Southern blotting onto nylon membrane → 5) Hybridization with radiolabeled VNTR probe → 6) Autoradiography detection yielding distinct band patterns."
+      ],
+      "formulas": [
+        {
+          "label": "Key HGP numerical statistics",
+          "expr": "Total bp: 3.16 × 10⁹ | Total genes: ~30,000 | Coding genome: < 2% | Chr 1: 2968 genes | Chr Y: 231 genes"
+        },
+        {
+          "label": "DNA fingerprinting workflow",
+          "expr": "Isolation → Restriction Digestion → Gel Electrophoresis → Southern Blotting → VNTR Hybridization → Autoradiography"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Template vs Coding strand polarity: If coding strand is 5'-ATG-3', mRNA is 5'-AUG-3'. If template strand is 3'-TAC-5', mRNA is 5'-AUG-3'. Always orient 5' to 3'!",
+        "TRAP 2: Stop codons mnemonic: 'U Are Away (UAA), U Are Gone (UAG), U Go Away (UGA)'. No tRNAs exist for stop codons; release factors bind instead.",
+        "TRAP 3: Lac Operon 'i' gene does NOT mean inducer! 'i' stands for 'inhibitor' (codes for repressor protein). The real inducer is allolactose (lactose).",
+        "TRAP 4: Meselson & Stahl isotope: ¹⁵N is a HEAVY stable isotope of nitrogen, NOT a radioactive isotope! (Hershey-Chase used radioactive ³²P and ³⁵S).",
+        "TRAP 5: Ribozyme proof: 23S rRNA in bacteria acts as peptidyl transferase enzyme (proof that RNA can act as an enzyme!)."
+      ],
+      "formulas": [
+        {
+          "label": "Stop codons mnemonic",
+          "expr": "UAA (Ochre) | UAG (Amber) | UGA (Opal)"
+        },
+        {
+          "label": "Lac operon gene layout order",
+          "expr": "p - i - p - o - z - y - a ('i' = inhibitor/repressor gene, NOT inducer)"
+        },
+        {
+          "label": "RNA-enzyme example",
+          "expr": "Peptidyl transferase = 23S rRNA (prokaryotes) / 28S rRNA (eukaryotes)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "title": "Inheritance and Variation",
+  "subject": "Biology",
+  "subtitle": "Class 12 HSC & MHT-CET / NEET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Mendelian Genetics: Terminology & Monohybrid Cross",
+      "tag": "formula",
+      "points": [
+        "Genetic terminology: Gene (unit of inheritance), Allele (alternative forms of a gene), Homozygous (identical alleles, pure line), Heterozygous (contrasting alleles, hybrid), Phenotype (observable traits), Genotype (genetic constitution).",
+        "Monohybrid Cross (single character cross e.g. Tall TT × Dwarf tt): F1 gives all heterozygous Tall (Tt); F2 phenotypic ratio = 3 : 1 (3 Tall : 1 Dwarf); F2 genotypic ratio = 1 : 2 : 1 (1 TT : 2 Tt : 1 tt).",
+        "Mendel's First Law (Law of Dominance): In a heterozygous individual, one allele expresses itself (dominant) while the other remains concealed (recessive).",
+        "Mendel's Second Law (Law of Segregation / Purity of Gametes): Alleles of a pair separate during gamete formation so each gamete carries only one allele. Universal law without any exception!",
+        "Test Cross: F1 hybrid crossed with homozygous recessive parent (Tt × tt) yields 1 : 1 ratio; used to determine genotype of dominant phenotype."
+      ],
+      "formulas": [
+        {
+          "label": "Monohybrid F2 phenotypic ratio",
+          "expr": "3 : 1 (Dominant : Recessive)"
+        },
+        {
+          "label": "Monohybrid F2 genotypic ratio",
+          "expr": "1 : 2 : 1 (Homozygous Dominant : Heterozygous : Homozygous Recessive)"
+        },
+        {
+          "label": "Test Cross ratio (Monohybrid)",
+          "expr": "Tt × tt → 1 : 1 (1 Tall : 1 Dwarf; 50% dominant, 50% recessive)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Dihybrid Cross & Law of Independent Assortment",
+      "tag": "formula",
+      "points": [
+        "Dihybrid Cross: Cross involving two pairs of contrasting traits (e.g. Yellow Round YYRR × Green Wrinkled yyrr).",
+        "F1 generation: All Yellow Round double heterozygotes (YyRr).",
+        "F2 generation (16 checkerboard squares): Phenotypic ratio = 9 : 3 : 3 : 1 (9 Yellow Round, 3 Yellow Wrinkled, 3 Green Round, 1 Green Wrinkled).",
+        "F2 genotypic ratio: 1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1 (9 distinct genotypes; exactly 4 double heterozygotes YyRr).",
+        "Mendel's Third Law (Law of Independent Assortment): When two pairs of traits are combined in a hybrid, segregation of one pair of alleles is independent of the other pair during gamete formation. (Exception: Gene linkage!).",
+        "Dihybrid Test Cross: YyRr × yyrr yields 1 : 1 : 1 : 1 ratio."
+      ],
+      "formulas": [
+        {
+          "label": "Dihybrid F2 phenotypic ratio",
+          "expr": "9 : 3 : 3 : 1 (Yellow-Round : Yellow-Wrinkled : Green-Round : Green-Wrinkled)"
+        },
+        {
+          "label": "Dihybrid F2 genotypic ratio",
+          "expr": "1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1 (4 YyRr double heterozygotes)"
+        },
+        {
+          "label": "Dihybrid Test Cross ratio",
+          "expr": "YyRr × yyrr → 1 : 1 : 1 : 1"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Deviations from Mendelian Ratios (Intragenic Interactions)",
+      "tag": "formula",
+      "points": [
+        "1. Incomplete Dominance: Neither allele is dominant; heterozygous phenotype is an intermediate blend (Mirabilis jalapa / 4 o'clock plant and Antirrhinum majus / Snapdragon flower color). Red (RR) × White (rr) → F1 Pink (Rr). F2 phenotypic ratio = 1 : 2 : 1 (1 Red : 2 Pink : 1 White); Genotypic ratio = 1 : 2 : 1. Phenotypic ratio equals genotypic ratio!",
+        "2. Co-dominance: Both alleles express equally in heterozygous state without blending (Coat color in cattle: Red RR × White WW → F1 Roan RW). F2 ratio = 1 Red : 2 Roan : 1 White (1:2:1). Also seen in ABO blood group (I^A I^B gives AB blood).",
+        "3. Multiple Alleles: More than two alleles governing a single gene locus in a population (ABO blood group has 3 alleles: I^A, I^B, i). Number of genotypes = n(n+1)/2 = 3(4)/2 = 6 genotypes resulting in 4 phenotypes (A, B, AB, O)."
+      ],
+      "formulas": [
+        {
+          "label": "Incomplete dominance F2 ratio",
+          "expr": "Phenotypic ratio = Genotypic ratio = 1 : 2 : 1 (Red : Pink : White)"
+        },
+        {
+          "label": "Co-dominance F2 ratio (Roan cattle)",
+          "expr": "Phenotypic ratio = Genotypic ratio = 1 : 2 : 1 (Red : Roan : White)"
+        },
+        {
+          "label": "Number of genotypes from n multiple alleles",
+          "expr": "Number of genotypes = [n(n + 1)] / 2 (for ABO: 3(4)/2 = 6 genotypes)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Intergenic Interactions: Pleiotropy & Polygenic Inheritance",
+      "tag": "formula",
+      "points": [
+        "1. Pleiotropy: A single gene influences multiple unrelated phenotypic traits.",
+        "Example: Sickle Cell Anemia (Hb^A Hb^S). Lethal gene interaction in homozygous recessive (Hb^S Hb^S causes fatal sickle cell anemia, dies young). Carrier cross: Hb^A Hb^S × Hb^A Hb^S yields surviving ratio of 2 : 1 (2 Sickle cell carriers : 1 Normal). Sickle cell carriers show resistance to falciparum malaria!",
+        "Example 2: Phenylketonuria (PKU: single mutation causes mental retardation, reduced hair and skin pigmentation).",
+        "2. Polygenic (Quantitative) Inheritance: Trait controlled by three or more genes with cumulative / additive effect (H. Davenport). Human skin color controlled by genes A, B, C (bell-shaped Gaussian curve, F2 ratio for 3 pairs = 1 : 6 : 15 : 20 : 15 : 6 : 1); Human height, Wheat kernel color (1:4:6:4:1)."
+      ],
+      "formulas": [
+        {
+          "label": "Pleiotropic lethal gene ratio (Sickle cell cross)",
+          "expr": "Hb^A Hb^S × Hb^A Hb^S → 2 : 1 (2 Sickle cell carriers : 1 Normal; homozygous Hb^S dies)"
+        },
+        {
+          "label": "Polygenic wheat kernel color ratio",
+          "expr": "1 : 4 : 6 : 4 : 1 (Dark red : Medium-dark : Medium : Light red : White)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Chromosomal Theory of Inheritance & Gene Linkage",
+      "tag": "concept",
+      "points": [
+        "Chromosomal Theory of Inheritance (Sutton & Boveri, 1902): Chromosomes are the physical carriers of genes; behavior of chromosomes during meiosis parallels behavior of Mendelian factors.",
+        "T.H. Morgan (Father of Experimental Genetics): Proved chromosomal theory using Drosophila melanogaster (fruit fly). Drosophila advantages: easily cultured on simple synthetic medium, short 2-week life cycle, single mating yields hundreds of progeny, distinct sexual dimorphism, giant polytene chromosomes.",
+        "Linkage (Morgan): Tendency of genes on the same chromosome to be inherited together. Complete linkage: Genes located very close, 0% crossing over (male Drosophila shows complete linkage); Incomplete linkage: Genes located distantly, undergo crossing over producing recombinants.",
+        "Morgan's Drosophila crosses: Yellow body - White eye (y w) showed 1.3% recombination (tightly linked); White eye - Miniature wing (w m) showed 37.2% recombination (loosely linked).",
+        "Genetic Mapping (Alfred Sturtevant): Recombination frequency is directly proportional to physical distance between genes. 1% recombination = 1 map unit = 1 centiMorgan (cM)."
+      ],
+      "formulas": [
+        {
+          "label": "Recombination frequency formula",
+          "expr": "Recombination Frequency (%) = (Total Recombinant Offspring / Total Offspring) × 100%"
+        },
+        {
+          "label": "Morgan's Drosophila recombination values",
+          "expr": "Yellow body - White eyes = 1.3% recombination | White eyes - Miniature wings = 37.2% recombination"
+        },
+        {
+          "label": "Map unit distance relation",
+          "expr": "1% Recombination frequency = 1 Map Unit (mu) = 1 centiMorgan (cM)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Sex Determination Mechanisms in Animals",
+      "tag": "formula",
+      "points": [
+        "1. XX-XY Mechanism (Male Heterogamety): Female is homogametic (XX, produces X ova); Male is heterogametic (XY, produces 50% X and 50% Y sperms). Found in Humans and Drosophila. (Note: In Drosophila, sex is determined by genic balance ratio X:A; Y chromosome does NOT determine sex, only male fertility!).",
+        "2. XX-XO Mechanism (Male Heterogamety): Female is XX; Male is XO (lacks one sex chromosome, produces 50% X and 50% without sex chromosome). Found in Grasshoppers, Cockroaches.",
+        "3. ZW-ZZ Mechanism (Female Heterogamety): Female is heterogametic (ZW, produces Z and W eggs); Male is homogametic (ZZ, produces only Z sperms). Found in Birds, Reptiles, Fishes, Silk moth.",
+        "4. Haplodiploidy (Honeybees, Apis mellifera): Females (Queens & Workers) develop from fertilized diploid eggs (2n = 32); Males (Drones) develop parthenogenetically from unfertilized haploid eggs (n = 16). Drones produce sperms by MITOSIS; they have no father and cannot have sons, but have a grandfather and can have grandsons!"
+      ],
+      "formulas": [
+        {
+          "label": "Sex determination mechanisms table",
+          "expr": "Male heterogamety: XX-XY (human, fly) & XX-XO (grasshopper) | Female heterogamety: ZW-ZZ (birds)"
+        },
+        {
+          "label": "Haplodiploidy in Honeybee (Apis mellifera)",
+          "expr": "Females (Queen/Worker): 2n = 32 (Fertilized) | Males (Drones): n = 16 (Parthenogenesis, Mitosis for sperms)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Sex-Linked Inheritance: Hemophilia & Color Blindness",
+      "tag": "formula",
+      "points": [
+        "X-linked recessive inheritance: Genes located on non-homologous region of X chromosome (no corresponding alleles on Y). Follows Criss-cross inheritance (Father → Carrier Daughter → Grandson). Males are hemizygous and affected far more frequently.",
+        "1. Color Blindness: Recessive X-linked mutation affecting red/green cone cells. Normal female: X^C X^C; Carrier female: X^C X^c; Colorblind female: X^c X^c. Normal male: X^C Y; Colorblind male: X^c Y.",
+        "Colorblind father (X^c Y) × Normal mother (X^C X^C) → All sons normal (X^C Y), all daughters carriers (X^C X^c). Carrier mother (X^C X^c) × Normal father (X^C Y) → 50% sons colorblind.",
+        "2. Hemophilia (Bleeder's disease): Recessive X-linked mutation; deficiency of clotting Factor VIII (Hemophilia A, Royal disease of Queen Victoria) or Factor IX (Hemophilia B / Christmas disease). Simple injury leads to continuous bleeding.",
+        "Y-linked (Holandric) traits: Located on non-homologous region of Y chromosome; transmitted directly from father to son (e.g. Hypertrichosis / hairy pinna)."
+      ],
+      "formulas": [
+        {
+          "label": "Colorblind father × Normal mother cross",
+          "expr": "X^c Y × X^C X^C → 50% Carrier daughters (X^C X^c) + 50% Normal sons (X^C Y)"
+        },
+        {
+          "label": "Carrier mother × Normal father cross",
+          "expr": "X^C X^c × X^C Y → 25% Normal ♀, 25% Carrier ♀, 25% Normal ♂, 25% Colorblind ♂"
+        },
+        {
+          "label": "Holandric inheritance pattern",
+          "expr": "Y-linked genes (e.g. Hypertrichosis) transmit strictly from Father → Son (direct paternal line)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Genetic Disorders: Mendelian vs Chromosomal",
+      "tag": "formula",
+      "points": [
+        "1. Mendelian Disorders (Gene Mutations):",
+        "- Thalassemia: Autosomal recessive quantitative blood disorder. α-Thalassemia: Defect in HBA1/HBA2 genes on Chromosome 16; β-Thalassemia: Defect in HBB gene on Chromosome 11 (Cooley's anemia).",
+        "- Phenylketonuria (PKU): Autosomal recessive; deficiency of phenylalanine hydroxylase on Chromosome 12 → phenylalanine accumulates and converts to phenylpyruvic acid causing mental retardation.",
+        "- Sickle Cell Anemia: Point mutation in β-globin gene on Chromosome 11 (GAG → GUG at codon 6; glutamic acid replaced by valine).",
+        "2. Chromosomal Disorders (Aneuploidy due to meiotic non-disjunction):",
+        "- Down Syndrome: Trisomy 21 (47, XX+21 or 47, XY+21). Flat face, epicanthic eye fold, simian palm crease, protruding tongue, mental retardation.",
+        "- Turner Syndrome: Monosomy X (45, XO). Sterile female, short stature, webbed neck, rudimentary streak ovaries, lack of secondary sexual characteristics.",
+        "- Klinefelter Syndrome: Sex chromosome trisomy (47, XXY). Tall sterile male, gynecomastia (breast development), sparse body hair, small testes."
+      ],
+      "formulas": [
+        {
+          "label": "Sickle cell anemia point mutation",
+          "expr": "Codon 6 of β-globin: GAG (Glutamic acid) → GUG (Valine); Hb^A → Hb^S"
+        },
+        {
+          "label": "Aneuploidy karyotypes",
+          "expr": "Down: 47, XX/XY (+21) | Turner: 45, XO | Klinefelter: 47, XXY"
+        },
+        {
+          "label": "Thalassemia gene chromosome mapping",
+          "expr": "α-Thalassemia: HBA1 & HBA2 on Chromosome 16 | β-Thalassemia: HBB on Chromosome 11"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Pedigree Analysis",
+      "tag": "imp",
+      "points": [
+        "Board Q1: State and explain Mendel's Law of Segregation and Law of Independent Assortment with suitable crosses.",
+        "Board Q2: Explain Incomplete dominance in Mirabilis jalapa with a schematic diagram.",
+        "Board Q3: Explain why sons of a colorblind father and normal mother never show colorblindness (sons receive Y from father and normal X from mother).",
+        "Board Q4: Symptoms and karyotypes of Down's syndrome, Turner's syndrome, and Klinefelter's syndrome.",
+        "Pedigree chart symbols: Square (male), Circle (female), Diamond (sex unspecified), Shaded symbol (affected), Horizontal line (mating), Consanguineous mating (double line)."
+      ],
+      "formulas": [
+        {
+          "label": "Mendelian ratios quick comparison",
+          "expr": "Monohybrid: 3:1 (pheno), 1:2:1 (geno) | Incomplete dominance: 1:2:1 (both) | Dihybrid: 9:3:3:1"
+        },
+        {
+          "label": "Test Cross utility",
+          "expr": "Used to determine whether an individual displaying dominant phenotype is homozygous or heterozygous"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET & NEET High-Speed Shortcuts & Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Number of gametes formula = 2ⁿ, where n = number of heterozygous gene pairs. Example: AaBbCc gives 2³ = 8 types of gametes.",
+        "TRAP 2: Number of F2 phenotypes = 2ⁿ; Number of F2 genotypes = 3ⁿ. (For dihybrid n=2: 2² = 4 phenotypes, 3² = 9 genotypes).",
+        "TRAP 3: ABO blood group genotypes: 3 alleles (I^A, I^B, i) yield 6 genotypes and 4 phenotypes (A, B, AB, O). Blood group O is recessive; AB shows codominance.",
+        "TRAP 4: Honeybee genetics: Male honeybee has NO father and CANNOT have sons, but has a grandfather and can have grandsons!",
+        "TRAP 5: Barr body formula: Number of Barr bodies = Total X chromosomes − 1. Normal female (XX) = 1; Normal male (XY) = 0; Turner (XO) = 0; Klinefelter (XXY) = 1; Superfemale (XXX) = 2."
+      ],
+      "formulas": [
+        {
+          "label": "Gamete calculation formula",
+          "expr": "Number of gamete types = 2ⁿ (where n = number of heterozygous pairs)"
+        },
+        {
+          "label": "Genotype calculation formula",
+          "expr": "Number of F2 genotypes = 3ⁿ (where n = number of gene pairs)"
+        },
+        {
+          "label": "Barr body calculation formula",
+          "expr": "Barr bodies = Number of X chromosomes − 1 (e.g. Klinefelter 47,XXY has 2 − 1 = 1 Barr body)"
+        }
+      ]
+    }
+  ]
+}
