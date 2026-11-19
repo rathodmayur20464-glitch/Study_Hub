@@ -1,0 +1,272 @@
+{
+  "title": "Chemical Thermodynamics",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Terms, State Functions & Properties",
+      "tag": "concept",
+      "points": [
+        "System: Part of universe chosen for thermodynamic study. Open (exchanges matter & energy), Closed (exchanges energy only), Isolated (exchanges neither matter nor energy).",
+        "State Function: Property whose value depends solely on initial and final states of system, independent of path (P, V, T, U, H, S, G).",
+        "Path Function: Property whose value depends on the path followed (Work W, Heat Q).",
+        "Extensive Property: Depends on the amount of matter present (Mass, Volume, Internal energy U, Enthalpy H, Entropy S, Heat capacity).",
+        "Intensive Property: Independent of the amount of matter present (Temperature, Pressure, Density, Refractive index, Surface tension, Viscosity, Specific heat, Melting/Boiling point)."
+      ],
+      "formulas": [
+        {
+          "label": "Extensive properties",
+          "expr": "Additive properties (V, m, U, H, S, G)"
+        },
+        {
+          "label": "Intensive properties",
+          "expr": "Non-additive properties (T, P, ρ, K_b, K_f)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Thermodynamic Processes & PV-Work",
+      "tag": "formula",
+      "points": [
+        "Processes: Isothermal (ΔT = 0, ΔU = 0), Isobaric (ΔP = 0), Isochoric (ΔV = 0, W = 0), Adiabatic (Q = 0).",
+        "Reversible Process: Occurs in infinite steps, driving force infinitesimally greater than opposing force, maximum work obtained, reversible at any stage.",
+        "Irreversible Process: Occurs rapidly in finite steps, non-equilibrium, real spontaneous processes.",
+        "Pressure-Volume Work: W = −P_ext ΔV = −P_ext (V₂ − V₁).",
+        "IUPAC Sign Convention: Work done ON system (compression) W > 0; Work done BY system (expansion) W < 0. Heat absorbed by system Q > 0; Heat released Q < 0.",
+        "Conversion: 1 L·bar = 100 J; 1 L·atm = 101.3 J."
+      ],
+      "formulas": [
+        {
+          "label": "PV-Work formula",
+          "expr": "W = −P_ext (V₂ − V₁)"
+        },
+        {
+          "label": "Unit conversion",
+          "expr": "1 L·bar = 100 J"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Maximum Work in Isothermal Reversible Expansion",
+      "tag": "formula",
+      "points": [
+        "For n moles of an ideal gas expanding isothermally and reversibly from V₁ to V₂ (or P₁ to P₂):",
+        "Formula: W_max = −2.303 n R T log₁₀(V₂ / V₁) = −2.303 n R T log₁₀(P₁ / P₂).",
+        "R = 8.314 J K⁻¹ mol⁻¹.",
+        "Since V₂ > V₁ in expansion, W_max is negative (work done by the system).",
+        "Work in Free Expansion: In vacuum (P_ext = 0) ⟹ W = 0 for any expansion."
+      ],
+      "formulas": [
+        {
+          "label": "W_max volume formula",
+          "expr": "W_max = −2.303 n R T log₁₀(V₂ / V₁)"
+        },
+        {
+          "label": "W_max pressure formula",
+          "expr": "W_max = −2.303 n R T log₁₀(P₁ / P₂)"
+        },
+        {
+          "label": "Free expansion",
+          "expr": "P_ext = 0 ⟹ W = 0"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "First Law of Thermodynamics & Applications",
+      "tag": "formula",
+      "points": [
+        "Statement: Energy of universe is constant; it can neither be created nor destroyed, only transformed from one form to another.",
+        "Mathematical Formulation: ΔU = Q + W.",
+        "Applications to Processes:",
+        "1. Isothermal (ΔU = 0): Q = −W (all heat absorbed is converted into work).",
+        "2. Adiabatic (Q = 0): ΔU = W_ad (work done at expense of internal energy).",
+        "3. Isochoric (ΔV = 0 ⟹ W = 0): ΔU = Q_v (heat absorbed at constant volume equals increase in internal energy).",
+        "4. Isobaric (ΔP = 0): ΔU = Q_p − P ΔV ⟹ Q_p = ΔU + P ΔV = ΔH."
+      ],
+      "formulas": [
+        {
+          "label": "First Law equation",
+          "expr": "ΔU = Q + W"
+        },
+        {
+          "label": "Isochoric heat",
+          "expr": "Q_v = ΔU"
+        },
+        {
+          "label": "Isobaric heat",
+          "expr": "Q_p = ΔH"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Enthalpy (H) & Relation with Internal Energy",
+      "tag": "formula",
+      "points": [
+        "Enthalpy Definition: Total heat content of system at constant pressure: H = U + PV.",
+        "Enthalpy Change: ΔH = ΔU + P ΔV (at constant P).",
+        "Relation between ΔH and ΔU for gaseous reactions:",
+        "ΔH = ΔU + Δn_g R T, where Δn_g = ∑ n_g(products) − ∑ n_g(reactants).",
+        "Rules for Δn_g (COUNT GASES ONLY!):",
+        "1. If Δn_g = 0 ⟹ ΔH = ΔU.",
+        "2. If Δn_g > 0 ⟹ ΔH > ΔU.",
+        "3. If Δn_g < 0 ⟹ ΔH < ΔU."
+      ],
+      "formulas": [
+        {
+          "label": "Enthalpy definition",
+          "expr": "H = U + PV"
+        },
+        {
+          "label": "ΔH and ΔU relation",
+          "expr": "ΔH = ΔU + Δn_g R T"
+        },
+        {
+          "label": "Gaseous mole difference",
+          "expr": "Δn_g = n_g(products) − n_g(reactants)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Hess's Law & Enthalpy of Reactions",
+      "tag": "formula",
+      "points": [
+        "Hess's Law of Constant Heat Summation: The overall enthalpy change for a chemical reaction is the same whether it takes place in one step or in several steps.",
+        "Standard Enthalpy of Reaction from Formation Enthalpies:",
+        "Δ_r H° = ∑ Δ_f H°(products) − ∑ Δ_f H°(reactants).",
+        "Standard enthalpy of formation of pure elements in their reference standard state is ZERO: Δ_f H°(O₂, C_graphite, N₂, H₂, Fe) = 0.",
+        "Enthalpy of Reaction from Bond Enthalpies:",
+        "Δ_r H° = ∑ Bond Enthalpies(reactants broken) − ∑ Bond Enthalpies(products formed). (Reactants minus Products!)."
+      ],
+      "formulas": [
+        {
+          "label": "Hess's law summation",
+          "expr": "ΔH_total = ΔH₁ + ΔH₂ + ΔH₃"
+        },
+        {
+          "label": "Δ_r H° from formation",
+          "expr": "Δ_r H° = ∑ Δ_f H°(products) − ∑ Δ_f H°(reactants)"
+        },
+        {
+          "label": "Δ_r H° from bond energy",
+          "expr": "Δ_r H° = ∑ BE(reactants) − ∑ BE(products)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Entropy (S) & Second Law of Thermodynamics",
+      "tag": "formula",
+      "points": [
+        "Entropy (S): Thermodynamic measure of molecular disorder, randomness, or chaos of a system. State function, extensive property.",
+        "Entropy Change: ΔS = Q_rev / T. SI Unit: J K⁻¹ mol⁻¹.",
+        "Entropy increases in: Solid ⟶ Liquid ⟶ Gas; dissolution of solute; decomposition reactions; increase in temperature.",
+        "Second Law of Thermodynamics: The total entropy of the universe increases in any spontaneous (natural) process:",
+        "ΔS_total = ΔS_system + ΔS_surroundings > 0 (for spontaneous process).",
+        "At equilibrium: ΔS_total = 0.",
+        "Third Law of Thermodynamics: The entropy of a perfectly crystalline substance is ZERO at absolute zero temperature (0 K)."
+      ],
+      "formulas": [
+        {
+          "label": "Entropy formula",
+          "expr": "ΔS = Q_rev / T"
+        },
+        {
+          "label": "Second Law statement",
+          "expr": "ΔS_total = ΔS_sys + ΔS_surr > 0"
+        },
+        {
+          "label": "Third Law statement",
+          "expr": "S = 0 at T = 0 K (pure crystal)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Gibbs Free Energy (G) & Spontaneity Criteria",
+      "tag": "formula",
+      "points": [
+        "Gibbs Free Energy Definition: G = H − TS. State function, extensive property.",
+        "Gibbs-Helmholtz Equation: ΔG = ΔH − T ΔS (at constant T and P).",
+        "Spontaneity Criteria based on ΔG:",
+        "1. ΔG < 0: Process is SPONTANEOUS (exergonic).",
+        "2. ΔG = 0: System is at EQUILIBRIUM.",
+        "3. ΔG > 0: Process is NON-SPONTANEOUS (endergonic).",
+        "Temperature Dependence of Spontaneity:",
+        "• ΔH < 0, ΔS > 0 ⟹ ΔG always < 0 (Spontaneous at all T).",
+        "• ΔH > 0, ΔS < 0 ⟹ ΔG always > 0 (Non-spontaneous at all T).",
+        "• ΔH < 0, ΔS < 0 ⟹ Spontaneous at LOW T (T < ΔH/ΔS).",
+        "• ΔH > 0, ΔS > 0 ⟹ Spontaneous at HIGH T (T > ΔH/ΔS).",
+        "Equilibrium Constant Link: ΔG° = −2.303 R T log₁₀ K_eq."
+      ],
+      "formulas": [
+        {
+          "label": "Gibbs equation",
+          "expr": "ΔG = ΔH − T ΔS"
+        },
+        {
+          "label": "Equilibrium temperature",
+          "expr": "T_eq = ΔH / ΔS (when ΔG = 0)"
+        },
+        {
+          "label": "ΔG° and K_eq link",
+          "expr": "ΔG° = −2.303 R T log₁₀ K_eq"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & State Functions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for maximum work done in isothermal reversible expansion of an ideal gas: W_max = −2.303 nRT log₁₀(V₂/V₁).",
+        "Board Favourite #2: Derive relation between ΔH and ΔU for a gaseous reaction: ΔH = ΔU + Δn_g RT.",
+        "Board Favourite #3: State First, Second, and Third Laws of Thermodynamics.",
+        "Board Favourite #4: State Hess's Law of Constant Heat Summation with an illustrative example.",
+        "Board Favourite #5: Define: (1) Standard enthalpy of formation, (2) Bond enthalpy, (3) State function vs Path function, (4) Intensive vs Extensive property."
+      ],
+      "formulas": [
+        {
+          "label": "W_max derivation",
+          "expr": "W = −∫ P dV = −nRT ∫ (dV/V) = −2.303 nRT log(V₂/V₁)"
+        },
+        {
+          "label": "ΔH proof",
+          "expr": "ΔH = ΔU + Δ(PV) = ΔU + PΔV = ΔU + Δn_g RT"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Sign Traps & Δn_g Hacks",
+      "tag": "imp",
+      "points": [
+        "Δn_g Calculation Rule: Count ONLY GASEOUS moles! Completely ignore solids and liquids.",
+        "Example 1: CaCO₃(s) ⟶ CaO(s) + CO₂(g) ⟹ Δn_g = 1 − 0 = +1 (ΔH > ΔU).",
+        "Example 2: N₂(g) + 3H₂(g) ⟶ 2NH₃(g) ⟹ Δn_g = 2 − (1 + 3) = −2 (ΔH < ΔU).",
+        "Bond Enthalpy Hack: Remember it is Reactants MINUS Products: Δ_r H° = ∑ BE(reactants) − ∑ BE(products) (unlike formation enthalpies which are products − reactants!).",
+        "Equilibrium Temperature Shortcut: When a reaction transitions from non-spontaneous to spontaneous, set ΔG = 0 ⟹ T = ΔH / ΔS.",
+        "IUPAC Work Sign Trap: Expansion work is ALWAYS negative (−); compression work is positive (+)."
+      ],
+      "formulas": [
+        {
+          "label": "Δn_g trap check",
+          "expr": "Count ONLY (g) species"
+        },
+        {
+          "label": "Bond energy vs formation",
+          "expr": "BE = Reactants − Products | Δ_f H = Products − Reactants"
+        },
+        {
+          "label": "Threshold temperature hack",
+          "expr": "T_switch = ΔH / ΔS"
+        }
+      ]
+    }
+  ]
+}

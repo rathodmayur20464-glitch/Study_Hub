@@ -1,0 +1,248 @@
+{
+  "title": "Solutions",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Types of Solutions & Henry's Law",
+      "tag": "concept",
+      "points": [
+        "Solution: Homogeneous mixture of two or more chemically non-reacting substances. Binary solution = 1 solute + 1 solvent.",
+        "Solubility: Maximum amount of solute dissolved in 100 g of solvent at specified temperature.",
+        "Henry's Law: The solubility (S) of a gas in a liquid is directly proportional to the pressure (P) of the gas over the solution: S = K_H · P.",
+        "Units of K_H: mol L⁻¹ bar⁻¹ or mol dm⁻³ bar⁻¹.",
+        "Temperature Effect: Solubility of a gas in a liquid DECREASES with increasing temperature (dissolution is exothermic: Gas + Solvent ⇌ Solution + Heat).",
+        "Exceptions to Henry's Law: Gases like NH₃ and HCl which react chemically with water or ionize do not obey Henry's law."
+      ],
+      "formulas": [
+        {
+          "label": "Henry's Law",
+          "expr": "S = K_H · P"
+        },
+        {
+          "label": "Henry constant unit",
+          "expr": "K_H = S / P (mol L⁻¹ bar⁻¹)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Raoult's Law & Vapor Pressure of Liquid Solutions",
+      "tag": "formula",
+      "points": [
+        "Raoult's Law for Volatile Liquids: For any volatile component, partial vapor pressure is directly proportional to its mole fraction: P₁ = P₁° x₁ and P₂ = P₂° x₂.",
+        "Total Vapor Pressure: P_total = P₁ + P₂ = P₁° x₁ + P₂° x₂ = P₁° + (P₂° − P₁°) x₂.",
+        "Vapor Phase Composition (Dalton's Law): y₁ = P₁ / P_total and y₂ = P₂ / P_total.",
+        "Vapor pressure of a liquid increases with temperature and decreases when a non-volatile solute is added."
+      ],
+      "formulas": [
+        {
+          "label": "Raoult's law (Component 1)",
+          "expr": "P₁ = P₁° x₁"
+        },
+        {
+          "label": "Total vapor pressure",
+          "expr": "P_total = P₁° + (P₂° − P₁°) x₂"
+        },
+        {
+          "label": "Vapor mole fraction",
+          "expr": "y₁ = P₁ / P_total"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Ideal vs Non-Ideal Solutions & Deviations",
+      "tag": "concept",
+      "points": [
+        "Ideal Solutions: Obey Raoult's law at all concentrations and temperatures. ΔH_mix = 0, ΔV_mix = 0. Intermolecular forces A-B equal A-A and B-B (e.g., Benzene + Toluene, n-Hexane + n-Heptane, Bromoethane + Chloroethane).",
+        "Non-Ideal Solutions with POSITIVE Deviation: P_total > Raoult's prediction. A-B interactions are WEAKER than A-A and B-B. ΔH_mix > 0 (endothermic), ΔV_mix > 0 (expansion). Form MINIMUM boiling azeotropes (e.g., Ethanol + Acetone, Carbon disulfide + Acetone).",
+        "Non-Ideal Solutions with NEGATIVE Deviation: P_total < Raoult's prediction. A-B interactions are STRONGER than A-A and B-B (new H-bonding). ΔH_mix < 0 (exothermic), ΔV_mix < 0 (contraction). Form MAXIMUM boiling azeotropes (e.g., Chloroform + Acetone, Phenol + Aniline, HNO₃ + Water)."
+      ],
+      "formulas": [
+        {
+          "label": "Ideal criteria",
+          "expr": "ΔH_mix = 0 , ΔV_mix = 0 , P = P₁°x₁ + P₂°x₂"
+        },
+        {
+          "label": "Positive deviation",
+          "expr": "P_obs > P_calc , ΔH_mix > 0 , ΔV_mix > 0"
+        },
+        {
+          "label": "Negative deviation",
+          "expr": "P_obs < P_calc , ΔH_mix < 0 , ΔV_mix < 0"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Colligative Property 1: Relative Lowering of Vapor Pressure (RLVP)",
+      "tag": "formula",
+      "points": [
+        "Colligative Properties: Properties that depend solely on the NUMBER of solute particles, not on their chemical identity.",
+        "Vapor Pressure Lowering: ΔP = P₁° − P = P₁° x₂.",
+        "Relative Lowering of Vapor Pressure (RLVP): (P₁° − P) / P₁° = x₂ (mole fraction of non-volatile solute).",
+        "For dilute solutions: x₂ ≈ n₂ / n₁ = (W₂ · M₁) / (M₂ · W₁).",
+        "Molar Mass of Solute (M₂): M₂ = (W₂ · M₁ · P₁°) / (ΔP · W₁)."
+      ],
+      "formulas": [
+        {
+          "label": "RLVP definition",
+          "expr": "(P₁° − P) / P₁° = x₂"
+        },
+        {
+          "label": "RLVP molar mass",
+          "expr": "M₂ = (W₂ · M₁ · P₁°) / [(P₁° − P) · W₁]"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Colligative Property 2: Elevation of Boiling Point (ΔT_b)",
+      "tag": "formula",
+      "points": [
+        "Boiling Point: Temperature at which vapor pressure of liquid equals atmospheric pressure.",
+        "Elevation of Boiling Point: ΔT_b = T_b − T_b° (where T_b is solution boiling point, T_b° is pure solvent).",
+        "Relationship with Molality: ΔT_b = K_b · m, where K_b is Ebullioscopic Constant (Molal Elevation Constant).",
+        "SI Unit of K_b: K kg mol⁻¹.",
+        "Molar Mass of Solute: M₂ = (1000 · K_b · W₂) / (ΔT_b · W₁)."
+      ],
+      "formulas": [
+        {
+          "label": "Boiling elevation",
+          "expr": "ΔT_b = T_b − T_b° = K_b · m"
+        },
+        {
+          "label": "Molar mass from ΔT_b",
+          "expr": "M₂ = (1000 · K_b · W₂) / (ΔT_b · W₁)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Colligative Property 3: Depression of Freezing Point (ΔT_f)",
+      "tag": "formula",
+      "points": [
+        "Freezing Point: Temperature at which vapor pressure of liquid equals vapor pressure of solid solvent.",
+        "Depression of Freezing Point: ΔT_f = T_f° − T_f (where T_f° is pure solvent, T_f is solution).",
+        "Relationship with Molality: ΔT_f = K_f · m, where K_f is Cryoscopic Constant (Molal Depression Constant).",
+        "SI Unit of K_f: K kg mol⁻¹.",
+        "Molar Mass of Solute: M₂ = (1000 · K_f · W₂) / (ΔT_f · W₁).",
+        "Antifreeze Application: Ethylene glycol added to automobile radiator water lowers freezing point in winter."
+      ],
+      "formulas": [
+        {
+          "label": "Freezing depression",
+          "expr": "ΔT_f = T_f° − T_f = K_f · m"
+        },
+        {
+          "label": "Molar mass from ΔT_f",
+          "expr": "M₂ = (1000 · K_f · W₂) / (ΔT_f · W₁)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Colligative Property 4: Osmotic Pressure (π) & Reverse Osmosis",
+      "tag": "formula",
+      "points": [
+        "Osmosis: Spontaneous flow of solvent molecules into a solution through a Semi-Permeable Membrane (SPM).",
+        "Osmotic Pressure (π): Minimum excess hydrostatic pressure that must be applied to the solution to prevent osmosis.",
+        "van 't Hoff Equation: π = C R T = (n₂ / V) R T = (W₂ · R · T) / (M₂ · V).",
+        "Types of Solutions based on π:",
+        "1. Isotonic: π₁ = π₂ (same osmotic pressure, no net osmosis).",
+        "2. Hypertonic: Solution with higher osmotic pressure (cell shrinks / plasmolysis).",
+        "3. Hypotonic: Solution with lower osmotic pressure (cell swells and bursts).",
+        "Reverse Osmosis (RO): Applying pressure greater than osmotic pressure (P > π) on solution side forces solvent through SPM from solution to pure water (desalination of seawater, cellulose acetate membrane)."
+      ],
+      "formulas": [
+        {
+          "label": "Osmotic pressure",
+          "expr": "π = C R T = (W₂ R T) / (M₂ V)"
+        },
+        {
+          "label": "Isotonic condition",
+          "expr": "C₁ = C₂ (at same temperature)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Abnormal Molar Masses & van 't Hoff Factor (i)",
+      "tag": "formula",
+      "points": [
+        "van 't Hoff Factor (i): Measures the extent of dissociation or association of solute in solution:",
+        "i = (Observed colligative property) / (Theoretical colligative property) = M_theoretical / M_observed.",
+        "i = Total moles of particles after dissociation or association / Initial moles of particles.",
+        "1. For Dissociation (Electrolytes, e.g., NaCl, CaCl₂): i > 1 ⟹ M_observed < M_theoretical.",
+        "Degree of Dissociation (α): α = (i − 1) / (n' − 1), where n' is number of ions produced per formula unit.",
+        "2. For Association (e.g., Benzoic acid in benzene dimers): i < 1 ⟹ M_observed > M_theoretical.",
+        "Degree of Association (α): α = (1 − i) / (1 − 1/n').",
+        "Modified Colligative Equations: ΔP/P₁° = i x₂; ΔT_b = i K_b m; ΔT_f = i K_f m; π = i C R T."
+      ],
+      "formulas": [
+        {
+          "label": "van 't Hoff factor",
+          "expr": "i = M_theoretical / M_observed"
+        },
+        {
+          "label": "Degree of dissociation",
+          "expr": "α = (i − 1) / (n' − 1)"
+        },
+        {
+          "label": "Degree of association",
+          "expr": "α = (1 − i) / (1 − 1/n')"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Graphs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive relationship between elevation of boiling point (ΔT_b) and molar mass of solute (M₂).",
+        "Board Favourite #2: Derive relationship between depression of freezing point (ΔT_f) and molar mass of solute (M₂).",
+        "Board Favourite #3: State Raoult's law and derive expression for relative lowering of vapor pressure.",
+        "Board Favourite #4: Derive relation between van 't Hoff factor (i) and degree of dissociation (α).",
+        "Board Favourite #5: Sketch and label vapor pressure vs temperature curves for: (1) Boiling point elevation, (2) Freezing point depression."
+      ],
+      "formulas": [
+        {
+          "label": "Boiling derivation",
+          "expr": "ΔT_b ∝ m ⟹ ΔT_b = K_b [1000 W₂ / (M₂ W₁)]"
+        },
+        {
+          "label": "van 't Hoff derivation",
+          "expr": "1 mole ⟶ (1 − α) + n'α ⟹ i = 1 + (n' − 1)α"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Colligative Traps, Osmotic Hacks & Ranking Tricks",
+      "tag": "imp",
+      "points": [
+        "Colligative Value Ranking Shortcut: For equimolar solutions, the value of colligative property (ΔT_b, ΔT_f, π, RLVP) is directly proportional to i:",
+        "Order: 0.1 M Al₂(SO₄)₃ (i = 5) > 0.1 M BaCl₂ (i = 3) > 0.1 M NaCl (i = 2) > 0.1 M Urea / Glucose (i = 1).",
+        "Freezing Point Trap: Highest ΔT_f means LOWEST freezing point T_f! (Solution with highest i freezes at the lowest temperature).",
+        "Boiling Point Trap: Highest ΔT_b means HIGHEST boiling point T_b!",
+        "Why Osmotic Pressure is Preferred for Biomolecules: (1) Measurable at room temperature (proteins denature at high T), (2) Uses molarity instead of molality, (3) Magnitude is large and easily readable even for dilute solutions."
+      ],
+      "formulas": [
+        {
+          "label": "Colligative magnitude order",
+          "expr": "Colligative value ∝ i × Concentration"
+        },
+        {
+          "label": "Lowest freezing point rule",
+          "expr": "T_f = T_f° − i K_f m (Max i ⟹ Lowest T_f)"
+        },
+        {
+          "label": "Highest boiling point rule",
+          "expr": "T_b = T_b° + i K_b m (Max i ⟹ Highest T_b)"
+        }
+      ]
+    }
+  ]
+}

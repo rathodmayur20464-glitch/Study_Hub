@@ -1,0 +1,242 @@
+{
+  "title": "Introduction to Polymer Chemistry",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Polymer Basics & Classification by Origin and Structure",
+      "tag": "concept",
+      "points": [
+        "Definitions: Monomer (simple reactive molecule), Polymer (macromolecule of high molecular mass 10³ to 10⁷ u), Polymerization (process of linking monomers).",
+        "Classification by Source: 1) Natural: Plants/animals (cellulose, starch, proteins, natural rubber); 2) Semi-synthetic: Chemically modified natural polymers (Cellulose acetate / Rayon, Cellulose nitrate); 3) Synthetic: Man-made (polyethylene, nylon, bakelite, terylene).",
+        "Classification by Structure: 1) Linear: High density, close packing, high mp/tensile strength (HDPE, PVC); 2) Branched: Irregular packing, lower density and mp (LDPE); 3) Cross-linked / Network: 3D covalent cross-links between chains; rigid, hard, infusible (Bakelite, Melamine)."
+      ],
+      "formulas": [
+        {
+          "label": "Degree of polymerization relation",
+          "expr": "DP = M_polymer / M_monomer"
+        },
+        {
+          "label": "Polymer structural types",
+          "expr": "Linear (HDPE, PVC) | Branched (LDPE) | Cross-linked 3D (Bakelite, Melamine)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Classification by Molecular Forces: Elastomers, Fibers & Plastics",
+      "tag": "concept",
+      "points": [
+        "1. Elastomers: Weakest intermolecular forces (van der Waals). Elastic, return to original shape after stretching. Few cross-links prevent permanent slipping (e.g. Buna-S, Buna-N, Neoprene, vulcanized rubber).",
+        "2. Fibers: Strongest intermolecular forces (strong hydrogen bonding or dipole-dipole). High tensile strength, high modulus, crystalline (e.g. Nylon-6,6, Terylene/Dacron, Silk).",
+        "3. Thermoplastics: Intermediate forces. Linear or slightly branched; soften on heating and harden on cooling reversibly; can be remolded and recycled (e.g. Polythene, Polystyrene, PVC).",
+        "4. Thermosetting Plastics: Cross-linked heavily branched networks; on heating undergo extensive cross-linking in molds and become permanently hard, infusible, and insoluble; CANNOT be remolded or reused (e.g. Bakelite, Urea-formaldehyde resin, Melamine)."
+      ],
+      "formulas": [
+        {
+          "label": "Intermolecular forces order among polymer types",
+          "expr": "Elastomers < Thermoplastics < Fibers (Thermosets have irreversible covalent cross-links)"
+        },
+        {
+          "label": "Thermoplastic vs Thermosetting distinction",
+          "expr": "Thermoplastics: Reversibly soften on heating (recyclable) | Thermosets: Permanently set (non-recyclable)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Modes of Polymerization: Addition vs Condensation",
+      "tag": "formula",
+      "points": [
+        "1. Addition / Chain-Growth Polymerization: Formed by repeated addition of monomer molecules possessing double or triple bonds without elimination of any small molecules. Molecular mass is an integral multiple of monomer mass. Homopolymer (single monomer type: PE, PVC, Teflon) vs Copolymer (two different monomers: Buna-S, Buna-N).",
+        "2. Condensation / Step-Growth Polymerization: Formed by repeated condensation reaction between bifunctional or polyfunctional monomers with elimination of small molecules like H₂O, HCl, NH₃, or ROH.",
+        "Examples of condensation polymers: Polyamides (Nylon-6,6, Nylon-6), Polyesters (Terylene/Dacron), Phenol-formaldehyde resins (Bakelite)."
+      ],
+      "formulas": [
+        {
+          "label": "Addition polymerization general equation",
+          "expr": "n(CH₂=CH-G) → −[CH₂-CH(G)]ₙ−"
+        },
+        {
+          "label": "Condensation polymerization general equation",
+          "expr": "n(HOOC-R-COOH) + n(H₂N-R'-NH₂) → −[CO-R-CONH-R'-NH]ₙ− + (2n−1)H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Mechanism of Addition Polymerization: Free Radical Chain Growth",
+      "tag": "formula",
+      "points": [
+        "Vinyl polymerization occurs via free radical mechanism in 3 distinct steps in presence of an initiator (benzoyl peroxide, acetyl peroxide, tert-butyl peroxide):",
+        "1. Chain Initiation: Initiator dissociates homolytically by heat or light forming free radicals (e.g. C₆H₅· phenyl radical); adds to monomer double bond forming new radical: C₆H₅· + CH₂=CH₂ → C₆H₅−CH₂−ĊH₂.",
+        "2. Chain Propagation: Growing radical repeatedly attacks additional monomer molecules, propagating chain length: C₆H₅−CH₂−ĊH₂ + nCH₂=CH₂ → C₆H₅−(CH₂−CH₂)ₙ−CH₂−ĊH₂.",
+        "3. Chain Termination: Coupling of two growing radical chains, or disproportionation, terminating growth: 2 R· → R−R."
+      ],
+      "formulas": [
+        {
+          "label": "Benzoyl peroxide homolytic cleavage",
+          "expr": "(C₆H₅COO)₂ (Δ) → 2C₆H₅COO· → 2C₆H₅· (phenyl radical) + 2CO₂↑"
+        },
+        {
+          "label": "Chain propagation step",
+          "expr": "R-CH₂-ĊH₂ + CH₂=CH₂ → R-(CH₂-CH₂)-CH₂-ĊH₂"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Important Addition Polymers: LDPE, HDPE, Teflon, PAN, PVC",
+      "tag": "formula",
+      "points": [
+        "1. Low Density Polyethylene (LDPE): High pressure (1000-2000 atm), 350-570 K, oxygen or peroxide catalyst. Highly branched structure, flexible, low tensile strength; used in squeeze bottles, plastic wraps.",
+        "2. High Density Polyethylene (HDPE): Low pressure (6-7 atm), 333-343 K, Ziegler-Natta catalyst [TiCl₄ + (C₂H₅)₃Al]. Linear chains, closely packed, high density (0.97 g/cm³), stiff, high tensile strength; used in buckets, pipes, containers.",
+        "3. Teflon (Polytetrafluoroethylene / PTFE): Monomer: Tetrafluoroethylene (CF₂=CF₂). Heated with persulfate catalyst under pressure. Chemically inert, non-stick, resists heat and acids; used in non-stick cookware coatings, gaskets.",
+        "4. Polyacrylonitrile (PAN / Orlon / Acrilan): Monomer: Acrylonitrile (CH₂=CH−CN). Polymerized with peroxide catalyst. Substitute for natural wool in sweaters.",
+        "5. PVC (Polyvinyl Chloride): Monomer: Vinyl chloride (CH₂=CH−Cl); used in pipes, raincoats."
+      ],
+      "formulas": [
+        {
+          "label": "Teflon polymerization reaction",
+          "expr": "n(CF₂=CF₂) (persulfate, Δ, pressure) → −[CF₂−CF₂]ₙ− (Teflon / PTFE)"
+        },
+        {
+          "label": "Ziegler-Natta catalyst composition",
+          "expr": "TiCl₄ + (C₂H₅)₃Al (Titanium tetrachloride + Triethylaluminium)"
+        },
+        {
+          "label": "PAN polymerization reaction",
+          "expr": "n(CH₂=CH-CN) (peroxide catalyst) → −[CH₂−CH(CN)]ₙ− (PAN / Orlon)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Important Condensation Polymers: Polyamides, Polyesters & Resins",
+      "tag": "formula",
+      "points": [
+        "1. Polyamides: Nylon-6,6 (Adipic acid [HOOC−(CH₂)₄−COOH] + Hexamethylenediamine [H₂N−(CH₂)₆−NH₂] at 553 K under pressure); Nylon-6 (Monomer: Caprolactam 7-membered cyclic amide, heated with water at 533-543 K → ring opens into Nylon-6).",
+        "2. Polyesters: Terylene / Dacron (Ethylene glycol + Terephthalic acid at 420-460 K with zinc acetate-antimony trioxide catalyst; crease-resistant fiber).",
+        "3. Phenol-Formaldehyde Resins (Bakelite): Monomers: Phenol + Formaldehyde (HCHO) in presence of acid or base catalyst. Linear Novolac formed first (used in paints); heated with formaldehyde creates cross-linked 3D Bakelite (electrical switches, handles of cookware).",
+        "4. Melamine-Formaldehyde Resin: Melamine + Formaldehyde → Melamine polymer (unbreakable crockery)."
+      ],
+      "formulas": [
+        {
+          "label": "Nylon-6,6 polymerization",
+          "expr": "n(HOOC-(CH₂)₄-COOH) + n(H₂N-(CH₂)₆-NH₂) (553 K, pressure) → −[CO-(CH₂)₄-CONH-(CH₂)₆-NH]ₙ− + (2n−1)H₂O"
+        },
+        {
+          "label": "Nylon-6 caprolactam ring-opening",
+          "expr": "Caprolactam (7-membered ring) + H₂O (533-543 K) → −[CO-(CH₂)₅-NH]ₙ− (Nylon-6)"
+        },
+        {
+          "label": "Terylene / Dacron polyester reaction",
+          "expr": "n(HO-CH₂CH₂-OH) + n(p-HOOC-C₆H₄-COOH) → −[O-CH₂CH₂-O-CO-C₆H₄-CO]ₙ− + (2n−1)H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Natural Rubber, Vulcanization & Synthetic Rubbers",
+      "tag": "formula",
+      "points": [
+        "Natural Rubber: Linear polymer of Isoprene (2-methylbuta-1,3-diene). Consists of cis-1,4-polyisoprene. Soft, sticky at high temperatures (>335 K), brittle at low temps (<283 K), high water absorption. (Trans-1,4-polyisoprene is non-elastic Gutta-percha).",
+        "Vulcanization (Charles Goodyear): Heating natural rubber with 3-5% Sulfur at 373-415 K. Sulfur forms cross-linking bridges between double bonds of adjacent chains, giving elasticity, stiffness, resistance to abrasion, and non-stickiness.",
+        "Synthetic Rubbers: 1) Neoprene: Polymer of Chloroprene (2-chlorobuta-1,3-diene); 2) Buna-S (SBR): Copolymer of Buta-1,3-diene (75%) and Styrene (25%); 3) Buna-N (NBR): Copolymer of Buta-1,3-diene and Acrylonitrile (resistant to petrol, oils, organic solvents)."
+      ],
+      "formulas": [
+        {
+          "label": "Natural rubber monomer & structure",
+          "expr": "Monomer: Isoprene (2-methylbuta-1,3-diene) | Polymer: cis-1,4-polyisoprene"
+        },
+        {
+          "label": "Neoprene polymerization reaction",
+          "expr": "n(CH₂=C(Cl)-CH=CH₂) → −[CH₂-C(Cl)=CH-CH₂]ₙ− (Neoprene)"
+        },
+        {
+          "label": "Buna-S copolymerization",
+          "expr": "n(CH₂=CH-CH=CH₂) + n(C₆H₅-CH=CH₂) → −[CH₂-CH=CH-CH₂-CH(C₆H₅)-CH₂]ₙ− (Buna-S)"
+        },
+        {
+          "label": "Buna-N copolymerization",
+          "expr": "n(CH₂=CH-CH=CH₂) + n(CH₂=CH-CN) → −[CH₂-CH=CH-CH₂-CH(CN)-CH₂]ₙ− (Buna-N)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Biodegradable Polymers & Molecular Masses",
+      "tag": "formula",
+      "points": [
+        "Biodegradable polymers: Degraded by microorganisms into non-toxic small molecules within reasonable time.",
+        "1. PHBV (Poly-β-hydroxybutyrate-co-β-hydroxyvalerate): Monomers: 3-hydroxybutanoic acid + 3-hydroxypentanoic acid. Biodegradable polyester; used in specialty packaging, orthopedic devices, and controlled drug release capsules.",
+        "2. Nylon-2-Nylon-6: Monomers: Glycine [H₂N−CH₂−COOH] + ε-amino caproic acid [H₂N−(CH₂)₅−COOH]. Biodegradable polyamide copolymer.",
+        "Polymer Molecular Mass: Expressed as an average: Number Average Molecular Mass (M̄ₙ, colligative properties) and Weight Average Molecular Mass (M̄_w, light scattering / ultracentrifugation).",
+        "Polydispersity Index (PDI): PDI = M̄_w / M̄ₙ. For natural polymers, PDI = 1 (monodisperse). For synthetic polymers, PDI > 1."
+      ],
+      "formulas": [
+        {
+          "label": "PHBV monomers and structure",
+          "expr": "3-hydroxybutanoic acid + 3-hydroxypentanoic acid → −[O-CH(CH₃)-CH₂-CO-O-CH(C₂H₅)-CH₂-CO]ₙ− (PHBV)"
+        },
+        {
+          "label": "Nylon-2-Nylon-6 monomers",
+          "expr": "Glycine [H₂N-CH₂-COOH] + ε-aminocaproic acid [H₂N-(CH₂)₅-COOH]"
+        },
+        {
+          "label": "Polydispersity Index (PDI) formula",
+          "expr": "PDI = M̄_w / M̄ₙ (PDI = 1 for natural monodisperse polymers; PDI > 1 for synthetic polymers)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Monomer Matching",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Distinguish between Thermoplastics and Thermosetting plastics with two examples of each.",
+        "Board Q2: State the chemical name, monomer, and preparation reaction of Nylon-6,6 and Nylon-6.",
+        "Board Q3: Explain Vulcanization of natural rubber and role of sulfur bridges in improving physical properties.",
+        "Board Q4: Write preparation and uses of: 1) Teflon; 2) Bakelite; 3) PHBV.",
+        "Monomer matching table: Dacron (Ethylene glycol + Terephthalic acid); Bakelite (Phenol + Formaldehyde); Neoprene (Chloroprene / 2-chlorobuta-1,3-diene); Buna-N (Buta-1,3-diene + Acrylonitrile); Teflon (Tetrafluoroethylene)."
+      ],
+      "formulas": [
+        {
+          "label": "Caprolactam to Nylon-6 formula",
+          "expr": "Caprolactam (C₆H₁₁NO, 7-membered cyclic amide) → Nylon-6"
+        },
+        {
+          "label": "Chloroprene structure",
+          "expr": "CH₂=C(Cl)-CH=CH₂ (2-chlorobuta-1,3-diene)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Exception Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Natural rubber vs Gutta-percha: Natural rubber is cis-1,4-polyisoprene (elastic). Gutta-percha is trans-1,4-polyisoprene (hard, non-elastic).",
+        "TRAP 2: Ziegler-Natta catalyst: TiCl₄ + Al(C₂H₅)₃. Used exclusively for synthesizing HDPE (linear, high density) at low pressure.",
+        "TRAP 3: Caprolactam has 6 carbons in ring (7-membered ring containing 1 nitrogen and 1 carbonyl). Forms Nylon-6, NOT Nylon-6,6!",
+        "TRAP 4: Monomer of Neoprene vs Isoprene: Isoprene has a methyl group (−CH₃); Chloroprene has a chlorine atom (−Cl) at carbon-2!",
+        "TRAP 5: Biodegradable polymers: PHBV is a polyester; Nylon-2-Nylon-6 is a polyamide. Both are completely biodegradable."
+      ],
+      "formulas": [
+        {
+          "label": "cis vs trans polyisoprene distinction",
+          "expr": "cis-1,4-polyisoprene = Natural Rubber | trans-1,4-polyisoprene = Gutta-percha"
+        },
+        {
+          "label": "HDPE vs LDPE conditions shortcut",
+          "expr": "LDPE: 1000-2000 atm, peroxide (branched) | HDPE: 6-7 atm, Ziegler-Natta (linear)"
+        },
+        {
+          "label": "PDI value benchmark",
+          "expr": "Natural polymers (proteins, cellulose): PDI = 1 | Synthetic polymers: PDI > 1"
+        }
+      ]
+    }
+  ]
+}

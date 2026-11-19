@@ -1,0 +1,268 @@
+{
+  "title": "Aldehydes, Ketones and Carboxylic Acids",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Carbonyl Group Structure & IUPAC Nomenclature",
+      "tag": "concept",
+      "points": [
+        "Carbonyl group (>C=O): Carbon is sp² hybridized, planar (bond angles ≈ 120°). Strongly polar bond (Cδ⁺ − Oδ⁻) with dipole moment 2.3 to 2.8 D.",
+        "IUPAC rules: Aldehydes named as alkanals (suffix '-al', CHO is carbon-1); Ketones named as alkanones (suffix '-one'); Carboxylic acids named as alkanoic acids (suffix '-oic acid', COOH is carbon-1).",
+        "Common carbonyl compounds: Formaldehyde (methanal), Acetaldehyde (ethanal), Acetone (propan-2-one), Acetophenone (methyl phenyl ketone), Benzophenone (diphenyl ketone), Benzaldehyde.",
+        "Dicarboxylic acids: Oxalic acid (ethanedioic), Malonic acid (propanedioic), Succinic acid (butanedioic), Phthalic acid (benzene-1,2-dicarboxylic acid)."
+      ],
+      "formulas": [
+        {
+          "label": "Carbonyl group hybridization and polarity",
+          "expr": ">C=O: sp² hybridized carbon, trigonal planar, dipole moment μ ≈ 2.3 to 2.8 D"
+        },
+        {
+          "label": "Dicarboxylic acid structures",
+          "expr": "Oxalic (HOOC-COOH) | Malonic (HOOC-CH₂-COOH) | Phthalic (benzene-1,2-dioic)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Preparation of Aldehydes & Ketones (Named Reactions)",
+      "tag": "formula",
+      "points": [
+        "1. Rosenmund Reduction: Acyl chloride hydrogenated using H₂ over Pd/BaSO₄ poisoned with quinoline/sulfur in boiling xylene → Aldehyde + HCl.",
+        "2. Stephen Reaction: Alkane nitrile reduced with SnCl₂ + conc HCl to aldimine hydrochloride, hydrolyzed with boiling water → Aldehyde + NH₄Cl.",
+        "3. DIBAL-H Reduction: Diisobutylaluminium hydride reduces nitriles and esters selectively at −78 °C to aldehydes.",
+        "4. Etard Reaction: Toluene oxidized with chromyl chloride (CrO₂Cl₂ in CS₂) forming brown chromium complex, hydrolyzed → Benzaldehyde.",
+        "5. Gattermann-Koch Reaction: Benzene treated with CO + HCl in presence of anhydrous AlCl₃ / CuCl under high pressure → Benzaldehyde.",
+        "6. Friedel-Crafts Acylation: Benzene treated with RCOCl / anhydrous AlCl₃ → Alkyl aryl ketone (e.g. acetophenone)."
+      ],
+      "formulas": [
+        {
+          "label": "Rosenmund reduction (acid chloride to aldehyde)",
+          "expr": "R-COCl + H₂ (Pd/BaSO₄, quinoline, Δ) → R-CHO + HCl"
+        },
+        {
+          "label": "Stephen reaction (nitrile to aldehyde)",
+          "expr": "R-CN + SnCl₂ + 2HCl → R-CH=NH·HCl (H₃O⁺) → R-CHO + NH₄Cl"
+        },
+        {
+          "label": "Etard reaction (toluene to benzaldehyde)",
+          "expr": "C₆H₅-CH₃ + 2CrO₂Cl₂ (CS₂) → Chromium complex (H₃O⁺) → C₆H₅-CHO"
+        },
+        {
+          "label": "Gattermann-Koch formylation of benzene",
+          "expr": "C₆H₆ + CO + HCl (anhydrous AlCl₃/CuCl) → C₆H₅-CHO + HCl"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Nucleophilic Addition Reactions of Carbonyl Compounds",
+      "tag": "formula",
+      "points": [
+        "Reactivity order: Formaldehyde > other aldehydes > ketones > bulky ketones (aldehydes are more reactive due to lesser steric hindrance and lesser +I electron donation by alkyl groups).",
+        "1. Addition of HCN: >C=O + HCN (base) ⇌ Cyanohydrin (>C(OH)CN); useful for step-up synthesis (acid hydrolysis of cyanohydrin yields α-hydroxy carboxylic acid).",
+        "2. Addition of NaHSO₃: >C=O + NaHSO₃ ⇌ Bisulfite addition compound (white crystalline solid); used for separation and purification of aldehydes and methyl ketones.",
+        "3. Addition of Alcohols: Aldehyde + 1 eq ROH (dry HCl) ⇌ Hemiacetal; + 2nd eq ROH ⇌ Acetal + H₂O. Ketone + ethylene glycol (dry HCl) ⇌ Cyclic ketal.",
+        "4. Addition of Grignard Reagents: Gives 1° alcohol (from HCHO), 2° alcohol (from RCHO), 3° alcohol (from RCOR) upon hydrolysis."
+      ],
+      "formulas": [
+        {
+          "label": "Reactivity towards nucleophilic addition",
+          "expr": "HCHO > CH₃CHO > CH₃COCH₃ > C₆H₅COCH₃ (steric & inductive effects)"
+        },
+        {
+          "label": "Cyanohydrin formation & hydrolysis",
+          "expr": ">C=O + HCN (OH⁻) → >C(OH)CN (H₃O⁺, Δ) → >C(OH)COOH (α-hydroxy acid)"
+        },
+        {
+          "label": "Acetal and Ketal formation",
+          "expr": "R-CHO + 2R'OH (dry HCl(g)) ⇌ R-CH(OR')₂ (acetal) + H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Addition-Elimination with Ammonia Derivatives",
+      "tag": "formula",
+      "points": [
+        "General reaction: >C=O + H₂N−Z (mild acid pH ≈ 3.5) ⇌ >C(OH)NHZ → >C=N−Z + H₂O.",
+        "1. Hydroxylamine (H₂N−OH) → Oxime (>C=N−OH).",
+        "2. Hydrazine (H₂N−NH₂) → Hydrazone (>C=N−NH₂).",
+        "3. Phenylhydrazine (H₂N−NHPh) → Phenylhydrazone (>C=N−NHPh).",
+        "4. 2,4-Dinitrophenylhydrazine (2,4-DNP / Brady's reagent) → 2,4-DNP derivative (yellow, orange, or red crystalline precipitate; universal test for carbonyl group!).",
+        "5. Semicarbazide (H₂N−NH−CO−NH₂) → Semicarbazone (>C=N−NH−CO−NH₂; only the hydrazine NH₂ reacts, the amide NH₂ is deactivated by resonance)."
+      ],
+      "formulas": [
+        {
+          "label": "General addition-elimination of ammonia derivatives",
+          "expr": ">C=O + H₂N-Z (trace acid, pH 3.5) → >C=N-Z + H₂O"
+        },
+        {
+          "label": "Brady's reagent test for carbonyl group",
+          "expr": ">C=O + 2,4-(NO₂)₂C₆H₃-NHNH₂ → >C=N-NH-C₆H₃(NO₂)₂↓ (yellow/orange ppt) + H₂O"
+        },
+        {
+          "label": "Semicarbazone formation",
+          "expr": "R₂C=O + H₂N-NH-CONH₂ → R₂C=N-NH-CONH₂ + H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Reduction, Oxidation & Identification Tests",
+      "tag": "formula",
+      "points": [
+        "1. Clemmensen Reduction: >C=O + Zn−Hg + conc HCl (Δ) → >CH₂ (hydrocarbon) + H₂O (suitable for base-sensitive compounds).",
+        "2. Wolff-Kishner Reduction: >C=O + NH₂NH₂ (KOH, ethylene glycol, 453-473 K) → >CH₂ (hydrocarbon) + N₂↑ + H₂O (suitable for acid-sensitive compounds).",
+        "3. Tollens' Test (Silver Mirror): Aldehyde + Tollens' reagent [Ag(NH₃)₂]⁺ (alkaline) → RCOO⁻ + 2Ag↓ (bright silver mirror). Ketones do not respond.",
+        "4. Fehling's Test: Aliphatic aldehyde + Fehling's solution (equal parts Fehling A: CuSO₄ and Fehling B: alkaline Rochelle salt) → RCOO⁻ + Cu₂O↓ (red precipitate). Ketones and benzaldehyde do not reduce Fehling's.",
+        "5. Iodoform Test (Haloform Reaction): Compounds with CH₃−C=O or CH₃−CH(OH)− react with I₂ + NaOH → yellow ppt of CHI₃ (iodoform, mp 119 °C, antiseptic odor)."
+      ],
+      "formulas": [
+        {
+          "label": "Clemmensen reduction (acidic medium)",
+          "expr": ">C=O + 4[H] (Zn-Hg / conc. HCl) → >CH₂ + H₂O"
+        },
+        {
+          "label": "Wolff-Kishner reduction (basic medium)",
+          "expr": ">C=O + NH₂NH₂ (KOH, ethylene glycol, Δ) → >CH₂ + N₂↑ + H₂O"
+        },
+        {
+          "label": "Tollens' silver mirror test reaction",
+          "expr": "R-CHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → R-COO⁻ + 2Ag↓ (silver mirror) + 4NH₃ + 2H₂O"
+        },
+        {
+          "label": "Haloform (Iodoform) reaction for methyl ketones",
+          "expr": "R-CO-CH₃ + 3I₂ + 4NaOH → R-COONa + CHI₃↓ (yellow ppt) + 3NaI + 3H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Aldol Condensation & Cannizzaro Reaction",
+      "tag": "formula",
+      "points": [
+        "1. Aldol Condensation: Requires carbonyl compound having at least one α-hydrogen atom; catalyzed by dilute alkali (dil NaOH, Ba(OH)₂).",
+        "Reaction: 2 molecules combine to form β-hydroxy aldehyde (aldol) or β-hydroxy ketone (ketol); heating eliminates water forming α,β-unsaturated carbonyl compound.",
+        "Example: 2CH₃CHO (dil NaOH) ⇌ CH₃−CH(OH)−CH₂−CHO (3-hydroxybutanal) (Δ, −H₂O) → CH₃−CH=CH−CHO (but-2-enal / crotonaldehyde).",
+        "2. Cannizzaro Reaction: Requires aldehydes having NO α-hydrogen atoms (HCHO, C₆H₅CHO, (CH₃)₃C−CHO); treated with 50% concentrated alkali.",
+        "Self-oxidation-reduction (disproportionation): One molecule is reduced to an alcohol, the other is oxidized to a carboxylic acid salt.",
+        "Cross-Cannizzaro: C₆H₅CHO + HCHO + 50% NaOH → C₆H₅CH₂OH (benzyl alcohol) + HCOONa (sodium formate; HCHO is oxidized preferentially)."
+      ],
+      "formulas": [
+        {
+          "label": "Aldol condensation of ethanal",
+          "expr": "2CH₃CHO (dil. NaOH) → CH₃-CH(OH)-CH₂-CHO (Δ) → CH₃-CH=CH-CHO + H₂O"
+        },
+        {
+          "label": "Cannizzaro disproportionation of benzaldehyde",
+          "expr": "2C₆H₅CHO + 50% NaOH → C₆H₅CH₂OH (benzyl alcohol) + C₆H₅COONa (sodium benzoate)"
+        },
+        {
+          "label": "Cross-Cannizzaro with formaldehyde",
+          "expr": "C₆H₅CHO + HCHO + 50% NaOH → C₆H₅CH₂OH + HCOONa"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Preparation of Carboxylic Acids",
+      "tag": "formula",
+      "points": [
+        "1. Oxidation of 1° Alcohols & Aldehydes: Using acidified KMnO₄ / K₂Cr₂O₇ or Jones reagent (CrO₃ + H₂SO₄).",
+        "2. Oxidation of Alkylbenzenes: Toluene / ethylbenzene heated with alkaline KMnO₄ (followed by H₃O⁺) yields Benzoic acid (entire alkyl chain is oxidized provided it has at least one benzylic hydrogen; tert-butylbenzene is not oxidized).",
+        "3. Hydrolysis of Nitriles and Amides: R−CN + H₂O (H⁺) → R−CONH₂ (partial); R−CONH₂ + H₂O (H⁺, Δ) → R−COOH + NH₄⁺ (complete).",
+        "4. Carbonation of Grignard Reagent: R−MgX + CO₂ (solid dry ice, dry ether) → R−COOMgX (H₃O⁺) → R−COOH + Mg(OH)X (steps up carbon chain by 1).",
+        "5. Hydrolysis of Acyl halides & Anhydrides: RCOCl + H₂O → RCOOH + HCl; (RCO)₂O + H₂O → 2RCOOH."
+      ],
+      "formulas": [
+        {
+          "label": "Alkylbenzene oxidation to benzoic acid",
+          "expr": "C₆H₅-CH₃ + 2[O] (alkaline KMnO₄, Δ) → C₆H₅-COOK (H₃O⁺) → C₆H₅-COOH"
+        },
+        {
+          "label": "Grignard carbonation (dry ice)",
+          "expr": "R-MgX + O=C=O (dry ether) → R-COOMgX (H₃O⁺) → R-COOH + Mg(OH)X"
+        },
+        {
+          "label": "Complete hydrolysis of alkyl nitrile",
+          "expr": "R-CN + 2H₂O (H⁺, Δ) → R-COOH + NH₄⁺"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Acidity of Carboxylic Acids & Chemical Reactions",
+      "tag": "formula",
+      "points": [
+        "Acidity & Resonance: Carboxylic acids are stronger acids than alcohols and phenols (RCOOH > Phenol > H₂O > ROH). Carboxylate ion (RCOO⁻) is stabilized by two equivalent resonance structures with negative charge delocalized over two electronegative oxygen atoms.",
+        "Substituent effects: Electron-withdrawing groups (−NO₂ > −CN > −F > −Cl > −Br > −I > −Ph) increase acidity via −I effect; Electron-donating groups (−CH₃, −C₂H₅) decrease acidity via +I effect.",
+        "1. Acyl Chloride formation: RCOOH + PCl₅ / PCl₃ / SOCl₂ → RCOCl.",
+        "2. Esterification: RCOOH + R'OH (conc H₂SO₄) ⇌ RCOOR' + H₂O.",
+        "3. Hell-Volhard-Zelinsky (HVZ) Reaction: Carboxylic acid with α-H treated with X₂ (Cl₂ or Br₂) in presence of red Phosphorus → α-halocarboxylic acid.",
+        "4. Decarboxylation: RCOONa heated with Soda lime (NaOH + CaO in 3:1 ratio, Δ) → R−H + Na₂CO₃ (reduces chain by 1 carbon)."
+      ],
+      "formulas": [
+        {
+          "label": "Relative acidity order of substituted acetic acids",
+          "expr": "F-CH₂COOH > Cl-CH₂COOH > Br-CH₂COOH > I-CH₂COOH > H-COOH > CH₃-COOH"
+        },
+        {
+          "label": "Hell-Volhard-Zelinsky (HVZ) reaction",
+          "expr": "R-CH₂-COOH + X₂ (red P, H₂O) → R-CH(X)-COOH (α-halo acid) + HX"
+        },
+        {
+          "label": "Decarboxylation with soda lime",
+          "expr": "R-COONa + NaOH (CaO, Δ) → R-H (alkane) + Na₂CO₃"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Named Reactions & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Named reactions checklist: Rosenmund reduction (Pd/BaSO₄), Stephen reaction (SnCl₂/HCl), Etard reaction (CrO₂Cl₂), Gattermann-Koch reaction (CO/HCl), Aldol condensation (dil NaOH, α-H required), Cannizzaro reaction (50% NaOH, no α-H), HVZ reaction (X₂/red P).",
+        "Distinguishing tests: 1) Tollens' test: Aldehydes (silver mirror) vs Ketones (no reaction); 2) Fehling's test: Aliphatic aldehydes (red Cu₂O ppt) vs Benzaldehyde/Ketones (no reaction); 3) Iodoform test: CH₃CHO and all methyl ketones CH₃COR give yellow ppt of CHI₃.",
+        "Sodium bicarbonate (NaHCO₃) test: Carboxylic acids decompose NaHCO₃ with brisk effervescence of CO₂ gas; Phenols (except picric acid) do not give this test."
+      ],
+      "formulas": [
+        {
+          "label": "Sodium bicarbonate test for carboxylic acids",
+          "expr": "R-COOH + NaHCO₃ → R-COONa + CO₂↑ (brisk effervescence) + H₂O"
+        },
+        {
+          "label": "Crotonaldehyde formation formula",
+          "expr": "2CH₃CHO (dil NaOH, Δ) → CH₃-CH=CH-CHO (but-2-enal) + H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Elimination Hacks",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Iodoform test eligibility: Compound MUST contain either `CH₃−C=O` or `CH₃−CH(OH)−`. Methanol (CH₃OH) DOES NOT give iodoform; Ethanol (CH₃CH₂OH) DOES give iodoform. Pentan-2-one gives iodoform; Pentan-3-one DOES NOT!",
+        "TRAP 2: Fehling's test limitation: Aliphatic aldehydes reduce Fehling's, but Aromatic aldehydes (Benzaldehyde C₆H₅CHO) DO NOT reduce Fehling's solution, though they reduce Tollens' reagent!",
+        "TRAP 3: Clemmensen vs Wolff-Kishner: Acid-sensitive substrate (contains −OH, −OR, C=C) → Use Wolff-Kishner (basic). Base-sensitive substrate (contains −X, ester) → Use Clemmensen (acidic)!",
+        "TRAP 4: Cannizzaro vs Aldol: Check α-carbon. If it has ≥1 hydrogen → Aldol. If 0 hydrogen (HCHO, C₆H₅CHO, Me₃C−CHO) → Cannizzaro.",
+        "TRAP 5: Soda lime ratio: NaOH : CaO = 3 : 1 by mass. CaO keeps NaOH dry and lowers the reaction temperature."
+      ],
+      "formulas": [
+        {
+          "label": "MHT-CET Iodoform positive compounds checklist",
+          "expr": "Positive: Ethanol, Acetaldehyde, Acetone, Propan-2-ol, Acetophenone, Pentan-2-one"
+        },
+        {
+          "label": "MHT-CET Iodoform negative compounds checklist",
+          "expr": "Negative: Methanol, Formaldehyde, Benzaldehyde, Benzophenone, Pentan-3-one"
+        },
+        {
+          "label": "Soda lime composition ratio",
+          "expr": "NaOH : CaO = 3 : 1 by weight (decarboxylating reagent)"
+        }
+      ]
+    }
+  ]
+}

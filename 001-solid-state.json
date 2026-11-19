@@ -1,0 +1,264 @@
+{
+  "title": "Solid State",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Classification of Solids",
+      "tag": "concept",
+      "points": [
+        "Crystalline Solids: Definite geometric shape, sharp melting point, long-range order, anisotropic (properties like refractive index vary with direction).",
+        "Amorphous Solids: Irregular shape, melt over a temperature range, short-range order, isotropic (identical properties in all directions). Pseudo-solids or supercooled liquids (e.g., glass, rubber, plastics).",
+        "Types of Crystalline Solids:",
+        "1. Molecular: Held by London forces (Ar, CH₄), dipole-dipole (HCl, SO₂), or H-bonds (H₂O ice). Soft, low mp, insulators.",
+        "2. Ionic: Held by electrostatic forces (NaCl, ZnS, KNO₃). Hard, brittle, high mp, insulators in solid state but conduct in molten/aqueous state.",
+        "3. Metallic: Positive metal ions in a sea of delocalized electrons (Cu, Fe, Ag). High electrical/thermal conductivity, malleable, ductile.",
+        "4. Covalent / Network: Giant molecules held by covalent bonds (Diamond, Quartz, Graphite). Very hard, extremely high mp, insulators (except Graphite which is a good conductor due to free electrons between layers)."
+      ],
+      "formulas": [
+        {
+          "label": "Anisotropy",
+          "expr": "Velocity of light / Refractive index varies with direction in crystalline solids"
+        },
+        {
+          "label": "Graphite conduction",
+          "expr": "sp² hybridized carbon with delocalized mobile π-electrons"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Crystal Lattice & Unit Cell Types",
+      "tag": "concept",
+      "points": [
+        "Space Lattice: Regular 3D arrangement of constituent particles (atoms, ions, molecules) in space.",
+        "Unit Cell: Smallest repeating structural unit of a crystalline solid that generates the entire crystal lattice.",
+        "Four Types of Unit Cells:",
+        "1. Simple / Primitive (SCC): Particles present ONLY at the 8 corners.",
+        "2. Body-Centred (BCC): Particles at 8 corners + 1 particle at the body centre.",
+        "3. Face-Centred (FCC / CCP): Particles at 8 corners + 1 particle at the centre of each of the 6 faces.",
+        "4. End-Centred (ECC): Particles at 8 corners + particles at centres of any two opposite faces.",
+        "Seven Crystal Systems (Cubic, Tetragonal, Orthorhombic, Hexagonal, Rhombohedral, Monoclinic, Triclinic) yield 14 Bravais Lattices."
+      ],
+      "formulas": [
+        {
+          "label": "Corner contribution",
+          "expr": "Corner particle contribution = 1/8"
+        },
+        {
+          "label": "Face centre contribution",
+          "expr": "Face centre contribution = 1/2"
+        },
+        {
+          "label": "Body centre contribution",
+          "expr": "Body centre contribution = 1"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Number of Particles (Z) & Coordination Number",
+      "tag": "formula",
+      "points": [
+        "Simple Cubic (SCC): Z = 8 × (1/8) = 1 atom per unit cell. Coordination Number (CN) = 6.",
+        "Body-Centred Cubic (BCC): Z = [8 × (1/8)] + [1 × 1] = 2 atoms per unit cell. CN = 8.",
+        "Face-Centred Cubic (FCC / CCP): Z = [8 × (1/8)] + [6 × (1/2)] = 1 + 3 = 4 atoms per unit cell. CN = 12.",
+        "Hexagonal Close-Packed (HCP): CN = 12, Z = 6 particles per unit cell.",
+        "Coordination Number: Number of nearest neighboring particles touching a given particle."
+      ],
+      "formulas": [
+        {
+          "label": "SCC particle count",
+          "expr": "Z = 1 , CN = 6"
+        },
+        {
+          "label": "BCC particle count",
+          "expr": "Z = 2 , CN = 8"
+        },
+        {
+          "label": "FCC particle count",
+          "expr": "Z = 4 , CN = 12"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Edge Length (a) and Particle Radius (r) Relations",
+      "tag": "formula",
+      "points": [
+        "Simple Cubic (SCC): Particles touch along the cube edge: a = 2r ⟹ r = a / 2 = 0.5 a.",
+        "Body-Centred Cubic (BCC): Particles touch along the body diagonal (√3 a = 4r): r = (√3 / 4) a ≈ 0.433 a.",
+        "Face-Centred Cubic (FCC): Particles touch along the face diagonal (√2 a = 4r): r = (√2 / 4) a = a / (2√2) ≈ 0.3535 a.",
+        "Nearest Neighbor Distance (d = 2r):",
+        "SCC: d = a; BCC: d = (√3 / 2) a; FCC: d = a / √2."
+      ],
+      "formulas": [
+        {
+          "label": "SCC radius relation",
+          "expr": "r = a / 2"
+        },
+        {
+          "label": "BCC radius relation",
+          "expr": "r = (√3 / 4) a"
+        },
+        {
+          "label": "FCC radius relation",
+          "expr": "r = a / (2√2)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Packing Efficiency & Interstitial Voids",
+      "tag": "formula",
+      "points": [
+        "Packing Efficiency = (Total volume occupied by particles / Total volume of unit cell a³) × 100%.",
+        "1. Simple Cubic (SCC): Packing Efficiency = (π/6) × 100% = 52.36% (Void space = 47.64%).",
+        "2. Body-Centred Cubic (BCC): Packing Efficiency = (√3 π / 8) × 100% = 68% (Void space = 32%).",
+        "3. Face-Centred Cubic (FCC / CCP / HCP): Packing Efficiency = (π / 3√2) × 100% = 74% (Void space = 26%).",
+        "Interstitial Voids: If number of close-packed particles = N:",
+        "Octahedral Voids (OV) = N; Tetrahedral Voids (TV) = 2N. Total voids = 3N."
+      ],
+      "formulas": [
+        {
+          "label": "Packing efficiency formula",
+          "expr": "Packing % = [Z × (4/3)π r³ / a³] × 100%"
+        },
+        {
+          "label": "Tetrahedral voids",
+          "expr": "Number of TV = 2N"
+        },
+        {
+          "label": "Octahedral voids",
+          "expr": "Number of OV = N"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Density of Unit Cell & Molar Mass Calculations",
+      "tag": "formula",
+      "points": [
+        "Density of unit cell: ρ = (Mass of unit cell) / (Volume of unit cell) = (Z · M) / (a³ · N_A).",
+        "Where: Z = number of atoms, M = molar mass (g/mol), a = edge length in cm, N_A = Avogadro's number (6.022 × 10²³ mol⁻¹).",
+        "Unit conversion trick: 1 pm = 10⁻¹⁰ cm; 1 Å = 10⁻⁸ cm; 1 nm = 10⁻⁷ cm.",
+        "Number of unit cells in x grams: N_cells = x / (ρ · a³) = (x · N_A) / (Z · M).",
+        "Number of atoms in x grams: N_atoms = (x · N_A) / M."
+      ],
+      "formulas": [
+        {
+          "label": "Unit cell density",
+          "expr": "ρ = (Z · M) / (a³ · N_A)"
+        },
+        {
+          "label": "Number of unit cells in mass x",
+          "expr": "N_cells = (x · N_A) / (Z · M)"
+        },
+        {
+          "label": "Number of atoms in mass x",
+          "expr": "N_atoms = (x · N_A) / M"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Point Defects in Solids",
+      "tag": "concept",
+      "points": [
+        "Stoichiometric Defects (Ratio of cations to anions remains unchanged):",
+        "1. Vacancy Defect: An atom is missing from its normal lattice site. Density DECREASES.",
+        "2. Interstitial Defect: An extra atom occupies an interstitial site. Density INCREASES.",
+        "3. Schottky Defect: Equal number of cations and anions are missing from lattice sites. High coordination number and similar cation/anion size (NaCl, KCl, CsCl, AgBr). Density DECREASES.",
+        "4. Frenkel Defect: Smaller ion (usually cation) is dislocated from its lattice site to an interstitial site. Low coordination number and large difference in ionic radii (ZnS, AgCl, AgBr, AgI). Density REMAINS UNCHANGED.",
+        "Special Fact: AgBr exhibits BOTH Schottky and Frenkel defects!",
+        "Non-Stoichiometric Defects: Metal Excess (F-centres produce yellow color in NaCl, lilac in KCl, pink in LiCl) and Metal Deficiency (Fe₀.₉₅O)."
+      ],
+      "formulas": [
+        {
+          "label": "Schottky effect on density",
+          "expr": "Density decreases (equal cation/anion vacancies)"
+        },
+        {
+          "label": "Frenkel effect on density",
+          "expr": "Density unchanged (dislocation into interstitial)"
+        },
+        {
+          "label": "F-Centre",
+          "expr": "Anionic vacancy occupied by an unpaired electron (causes color)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Electrical & Magnetic Properties of Solids",
+      "tag": "concept",
+      "points": [
+        "Electrical Conductivity: Conductors (10⁴ to 10⁷ S m⁻¹), Insulators (10⁻²⁰ to 10⁻¹⁰ S m⁻¹), Semiconductors (10⁻⁶ to 10⁴ S m⁻¹).",
+        "Extrinsic Semiconductors: (1) n-type: Silicon/Germanium (Group 14) doped with Pentavalent atom (P, As, Sb). Conduction via extra electrons; (2) p-type: Group 14 doped with Trivalent atom (B, Al, Ga). Conduction via electron vacancies (holes).",
+        "Magnetic Properties:",
+        "1. Diamagnetic: All electrons paired, weakly repelled by magnetic field (H₂O, NaCl, C₆H₆).",
+        "2. Paramagnetic: Unpaired electrons present, weakly attracted by magnetic field, lose magnetism when field is removed (O₂, Cu²⁺, Fe³⁺).",
+        "3. Ferromagnetic: Permanent alignment of magnetic domains in field direction; strongly attracted and retain permanent magnetism (Fe, Co, Ni, CrO₂)."
+      ],
+      "formulas": [
+        {
+          "label": "n-type doping",
+          "expr": "Group 14 (Si) + Group 15 (P, As) ⟶ Extra free electron"
+        },
+        {
+          "label": "p-type doping",
+          "expr": "Group 14 (Si) + Group 13 (B, Ga) ⟶ Electron hole"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive expression for the density of a cubic unit cell: ρ = (Z · M) / (a³ · N_A).",
+        "Board Favourite #2: Derive packing efficiency in Body-Centred Cubic (BCC = 68%) and Face-Centred Cubic (FCC = 74%) lattices.",
+        "Board Favourite #3: Distinguish between Crystalline solids and Amorphous solids (4 key points: shape, melting point, cleavage, anisotropy).",
+        "Board Favourite #4: Distinguish between Schottky defect and Frenkel defect (4 points: mechanism, ionic size condition, density effect, examples).",
+        "Board Favourite #5: What are F-centres? Explain why NaCl turns yellow when heated in sodium vapor."
+      ],
+      "formulas": [
+        {
+          "label": "Density derivation",
+          "expr": "ρ = Mass / Volume = (Z × m) / a³ = (Z × M) / (a³ × N_A)"
+        },
+        {
+          "label": "BCC packing derivation",
+          "expr": "Packing % = [2 × (4/3)π r³ / a³] × 100% = 68%"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Formula Hacks & Traps",
+      "tag": "imp",
+      "points": [
+        "Ratio of Radii Shortcut: r_SCC : r_BCC : r_FCC = (a/2) : (√3 a / 4) : (a / 2√2) ≈ 0.500 a : 0.433 a : 0.353 a.",
+        "Packing Efficiency Order: FCC (74%) > BCC (68%) > SCC (52.4%). Void space: SCC (47.6%) > BCC (32%) > FCC (26%).",
+        "Compound Formula from Voids Trick: If element B forms CCP lattice (N atoms) and A occupies tetrahedral voids: formula is A₂B. If A occupies half the tetrahedral voids: formula is AB.",
+        "Schottky vs Frenkel Trap: Schottky lowers density; Frenkel does NOT change density. AgBr shows BOTH Schottky and Frenkel defects!",
+        "Unit Conversion Trap: When edge length a is in pm, a(cm) = a × 10⁻¹⁰ cm. (a in cm)³ = a³ × 10⁻³⁰ cm³."
+      ],
+      "formulas": [
+        {
+          "label": "Radius ratio shortcut",
+          "expr": "r_SCC : r_BCC : r_FCC = 0.500 a : 0.433 a : 0.354 a"
+        },
+        {
+          "label": "Void stoichiometry shortcut",
+          "expr": "N particles ⟹ N octahedral + 2N tetrahedral voids"
+        },
+        {
+          "label": "Edge length conversion",
+          "expr": "a(cm) = a(pm) × 10⁻¹⁰ cm"
+        }
+      ]
+    }
+  ]
+}

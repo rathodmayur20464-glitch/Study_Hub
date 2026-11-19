@@ -1,0 +1,238 @@
+{
+  "title": "Transition and Inner Transition Elements",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Transition Elements & 3d Series Electronic Configurations",
+      "tag": "concept",
+      "points": [
+        "Definition: Elements having incompletely filled (n−1)d subshell in ground state or in any common oxidation state. Occupy Groups 3 to 12.",
+        "General configuration: (n−1)d¹⁻¹⁰ ns¹⁻². 3d series extends from Scandium (Z=21) to Zinc (Z=30).",
+        "Anomalous configurations: Chromium (Z=24: [Ar] 3d⁵ 4s¹) and Copper (Z=29: [Ar] 3d¹⁰ 4s¹) due to extra exchange energy and stability of half-filled and completely-filled d-orbitals.",
+        "Zn, Cd, Hg are not regarded as typical transition elements because they possess completely filled d¹⁰ subshells in ground state as well as in common oxidation states (Zn²⁺ 3d¹⁰)."
+      ],
+      "formulas": [
+        {
+          "label": "General configuration (d-block)",
+          "expr": "(n−1)d¹⁻¹⁰ ns¹⁻²"
+        },
+        {
+          "label": "Chromium ground state configuration (Z=24)",
+          "expr": "[Ar] 3d⁵ 4s¹ (half-filled stability)"
+        },
+        {
+          "label": "Copper ground state configuration (Z=29)",
+          "expr": "[Ar] 3d¹⁰ 4s¹ (completely-filled stability)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Periodic Trends: Radii, Ionization Enthalpy & Density",
+      "tag": "concept",
+      "points": [
+        "Atomic & ionic radii: Decrease from Sc to Cr (increasing nuclear charge), remain almost constant from Mn to Ni (shielding by 3d electrons offsets nuclear charge), slight increase at Cu and Zn (interelectronic repulsions in filled 3d¹⁰).",
+        "High density: Density increases steadily across 3d series up to Cu (Sc: 3.0 g/cm³ to Cu: 8.9 g/cm³; Zn slightly drops to 7.1 g/cm³). Highest densities in periodic table: Osmium (22.59 g/cm³) and Iridium (22.56 g/cm³).",
+        "Ionization enthalpy: Increases gradually across series; IE₂ of Cr and Cu are exceptionally high because electron is removed from stable 3d⁵ and 3d¹⁰ configurations."
+      ],
+      "formulas": [
+        {
+          "label": "Effective nuclear charge screening relation",
+          "expr": "Z_eff = Z − σ (poor shielding by (n−1)d electrons)"
+        },
+        {
+          "label": "Highest density transition metals",
+          "expr": "Osmium (Os) ≈ 22.59 g/cm³ | Iridium (Ir) ≈ 22.56 g/cm³"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Oxidation States & Standard Electrode Potentials",
+      "tag": "formula",
+      "points": [
+        "Variable oxidation states: Due to comparable energy levels of (n−1)d and ns electrons. Sc shows only +3; Mn shows maximum number of oxidation states (+2 to +7).",
+        "Highest oxidation states are stabilized in fluorides and oxides (e.g. OsO₄ and RuO₄ show +8; Mn₂O₇ shows +7; CrO₃ shows +6).",
+        "E°(M²⁺/M) values: Mostly negative showing reducing nature; Copper is unique with positive E°(Cu²⁺/Cu = +0.34 V) because high atomization and ionization enthalpies are not compensated by hydration enthalpy.",
+        "Stability of Cu²⁺ vs Cu⁺ in water: 2Cu⁺(aq) → Cu²⁺(aq) + Cu(s); Cu²⁺ is far more stable in aqueous solution due to its highly negative hydration enthalpy."
+      ],
+      "formulas": [
+        {
+          "label": "Standard reduction potential of copper",
+          "expr": "E°(Cu²⁺/Cu) = +0.34 V (only positive E° value in 3d series)"
+        },
+        {
+          "label": "Disproportionation of Cu⁺ in aqueous solution",
+          "expr": "2Cu⁺(aq) → Cu²⁺(aq) + Cu(s) (favored by large hydration enthalpy of Cu²⁺)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Magnetic Properties, Color & Catalytic Activity",
+      "tag": "formula",
+      "points": [
+        "Magnetic properties: Spin-only magnetic moment μ = √(n(n+2)) BM, where n = number of unpaired d-electrons. Fe, Co, Ni exhibit ferromagnetism.",
+        "Color of transition metal ions: Due to d-d electronic transitions. Degenerate d-orbitals split in presence of ligands; absorption of visible light promotes electron. Ions with d⁰ (Sc³⁺, Ti⁴⁺) or d¹⁰ (Zn²⁺, Cu⁺) are colorless.",
+        "Catalytic activity: Due to ability to adopt multiple oxidation states, form unstable intermediates, and provide large surface area (e.g. Fe in Haber's process, V₂O₅ in Contact process, finely divided Ni in hydrogenation).",
+        "Interstitial compounds: Small atoms (H, B, C, N) trapped in crystal lattice interstices; hard, high melting points, retain metallic conductivity, chemically inert."
+      ],
+      "formulas": [
+        {
+          "label": "Spin-only magnetic moment formula",
+          "expr": "μ_s = √(n(n + 2)) BM (1 BM = 9.274 × 10⁻²⁴ J/T)"
+        },
+        {
+          "label": "Unpaired electrons vs magnetic moment table",
+          "expr": "n=1: 1.73 BM | n=2: 2.83 BM | n=3: 3.87 BM | n=4: 4.90 BM | n=5: 5.92 BM"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Potassium Dichromate (K₂Cr₂O₇): Preparation & Reactions",
+      "tag": "concept",
+      "points": [
+        "Preparation from Chromite ore (FeCr₂O₄): 1) 4FeCr₂O₄ + 8Na₂CO₃ + 7O₂ → 8Na₂CrO₄ (yellow) + 2Fe₂O₃ + 8CO₂; 2) 2Na₂CrO₄ + H₂SO₄ → Na₂Cr₂O₇ (orange) + Na₂SO₄ + H₂O; 3) Na₂Cr₂O₇ + 2KCl → K₂Cr₂O₇ + 2NaCl.",
+        "Chromate-Dichromate equilibrium: 2CrO₄²⁻ (yellow) + 2H⁺ ⇌ Cr₂O₇²⁻ (orange) + H₂O. In acidic pH orange Cr₂O₇²⁻ predominates; in basic pH yellow CrO₄²⁻ predominates.",
+        "Structure: Cr₂O₇²⁻ consists of two tetrahedra sharing one oxygen corner (Cr−O−Cr bond angle = 126°). Oxidation state of Cr = +6.",
+        "Oxidizing agent in acidic medium (Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O, E° = +1.33 V): Oxidizes Fe²⁺ to Fe³⁺, I⁻ to I₂, H₂S to S, and SO₂ to SO₄²⁻."
+      ],
+      "formulas": [
+        {
+          "label": "Chromate-Dichromate pH equilibrium",
+          "expr": "2CrO₄²⁻ (yellow) + 2H⁺ ⇌ Cr₂O₇²⁻ (orange) + H₂O"
+        },
+        {
+          "label": "Dichromate reduction half-reaction in acid",
+          "expr": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ (green) + 7H₂O (E° = +1.33 V)"
+        },
+        {
+          "label": "Oxidation of Fe²⁺ by dichromate",
+          "expr": "Cr₂O₇²⁻ + 14H⁺ + 6Fe²⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Potassium Permanganate (KMnO₄): Preparation & Reactions",
+      "tag": "formula",
+      "points": [
+        "Preparation from Pyrolusite (MnO₂): 1) 2MnO₂ + 4KOH + O₂ → 2K₂MnO₄ (dark green potassium manganate) + 2H₂O; 2) 3MnO₄²⁻ + 4H⁺ → 2MnO₄⁻ (purple) + MnO₂ + 2H₂O.",
+        "Origin of purple color: Ligand-to-Metal Charge Transfer (LMCT) from O²⁻ to Mn⁷⁺ (NOT d-d transition, as Mn⁷⁺ is 3d⁰ 4s⁰).",
+        "Oxidizing properties by medium: 1) Acidic (n = 5): MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (oxidizes Fe²⁺ to Fe³⁺, C₂O₄²⁻ to CO₂, I⁻ to I₂); 2) Neutral/alkaline (n = 3): MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ (oxidizes I⁻ to IO₃⁻, S₂O₃²⁻ to SO₄²⁻); 3) Strongly alkaline (n = 1): MnO₄⁻ + e⁻ → MnO₄²⁻.",
+        "Bayer's reagent: Cold dilute alkaline KMnO₄; used as test for unsaturation (decolorizes alkenes/alkynes with formation of vicinal glycols)."
+      ],
+      "formulas": [
+        {
+          "label": "Permanganate reduction in acidic medium (n=5)",
+          "expr": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ (pale pink/colorless) + 4H₂O (E° = +1.51 V)"
+        },
+        {
+          "label": "Permanganate reduction in neutral/alkaline (n=3)",
+          "expr": "MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ (brown ppt) + 4OH⁻ (E° = +1.23 V)"
+        },
+        {
+          "label": "Oxidation of oxalate in acidic medium",
+          "expr": "2MnO₄⁻ + 16H⁺ + 5C₂O₄²⁻ → 2Mn²⁺ + 10CO₂↑ + 8H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Lanthanoids (4f Series) & Lanthanoid Contraction",
+      "tag": "concept",
+      "points": [
+        "Elements: Cerium (58) to Lutetium (71). General configuration: [Xe] 4f¹⁻¹⁴ 5d⁰⁻¹ 6s². Common oxidation state is +3.",
+        "Exceptions in oxidation state: Ce⁴⁺ (stable f⁰ configuration, powerful oxidizing agent); Eu²⁺ (stable f⁷, reducing agent); Yb²⁺ (stable f¹⁴, reducing agent).",
+        "Lanthanoid Contraction: The steady, cumulative decrease in atomic and ionic radii of Lanthanoids with increasing atomic number, caused by poor shielding effect of 4f electrons.",
+        "Consequences of Lanthanoid Contraction: 1) Radii of 4d and 5d elements are nearly identical (Zr⁴⁺ ≈ Hf⁴⁺ = 160 pm, chemical twins); 2) Difficulty in separating lanthanoids; 3) Decrease in basic strength of hydroxides: La(OH)₃ (most basic) to Lu(OH)₃ (least basic)."
+      ],
+      "formulas": [
+        {
+          "label": "General configuration (Lanthanoids)",
+          "expr": "[Xe] 4f¹⁻¹⁴ 5d⁰⁻¹ 6s²"
+        },
+        {
+          "label": "Chemical twins identical radii pair",
+          "expr": "r(Zr⁴⁺) = 79 pm ≈ r(Hf⁴⁺) = 80 pm (due to Lanthanoid contraction)"
+        },
+        {
+          "label": "Basicity order of Lanthanoid hydroxides",
+          "expr": "La(OH)₃ > Ce(OH)₃ > ... > Lu(OH)₃ (La(OH)₃ is most basic, Lu(OH)₃ most covalent)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Actinoids (5f Series) & Comparison with Lanthanoids",
+      "tag": "concept",
+      "points": [
+        "Elements: Thorium (90) to Lawrencium (103). General configuration: [Rn] 5f¹⁻¹⁴ 6d⁰⁻² 7s². All are radioactive; elements with Z > 92 are transuranic (synthetic).",
+        "Variable oxidation states: Exhibit a much wider range of oxidation states (+3, +4, +5, +6, +7) than lanthanoids because 5f, 6d, and 7s energy levels are comparable in energy. Np and Pu show up to +7.",
+        "Actinoid contraction is greater than lanthanoid contraction from element to element due to even poorer shielding by 5f electrons.",
+        "Comparison: Actinoids have higher tendency to form coordination complexes, form oxocations (UO₂²⁺, PuO₂²⁺, NpO₂⁺), and their compounds are more basic than lanthanoids."
+      ],
+      "formulas": [
+        {
+          "label": "General configuration (Actinoids)",
+          "expr": "[Rn] 5f¹⁻¹⁴ 6d⁰⁻² 7s²"
+        },
+        {
+          "label": "Common oxocations of Actinoids",
+          "expr": "UO₂²⁺ (uranyl), PuO₂²⁺ (plutonyl), NpO₂⁺"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Reasonings",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Why is Cr²⁺ reducing while Mn³⁺ is oxidizing though both have d⁴ configuration? (Cr²⁺ changes to stable half-filled t₂g³ in Cr³⁺; Mn³⁺ changes to stable half-filled 3d⁵ in Mn²⁺).",
+        "Board Q2: Why is Cu²⁺ more stable than Cu⁺ in aqueous solution? (High hydration enthalpy of small Cu²⁺ ion overcomes the high 2nd ionization enthalpy of copper).",
+        "Board Q3: Explain why transition metals exhibit high catalytic activity and form interstitial compounds.",
+        "Board Q4: State definition, cause, and any two consequences of Lanthanoid Contraction.",
+        "Mischmetal composition: ~95% Lanthanoid metals (primarily Ce 40-50%, La 25%), ~5% iron, and traces of S, C, Ca, Al; used in cigarette lighter flints and tracer bullets."
+      ],
+      "formulas": [
+        {
+          "label": "Cr²⁺ vs Mn³⁺ stability comparison",
+          "expr": "Cr²⁺ (d⁴) → Cr³⁺ (t₂g³, stable) + e⁻ [Reducing] | Mn³⁺ (d⁴) + e⁻ → Mn²⁺ (d⁵, stable) [Oxidizing]"
+        },
+        {
+          "label": "Hydration enthalpy of Cu²⁺",
+          "expr": "Δ_hydH(Cu²⁺) = −2121 kJ/mol (compensates for IE₂ of copper)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Calculation Hacks",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Magnetic moment quick check: μ = √(n(n+2)). The integer part ALWAYS equals the number of unpaired electrons (n=1 → 1.73; n=2 → 2.83; n=3 → 3.87; n=4 → 4.90; n=5 → 5.92 BM).",
+        "TRAP 2: Colorless ions: Sc³⁺ (d⁰), Ti⁴⁺ (d⁰), V⁵⁺ (d⁰), Cu⁺ (d¹⁰), Zn²⁺ (d¹⁰), Cd²⁺ (d¹⁰), Hg²⁺ (d¹⁰). All other d¹ to d⁹ ions are colored.",
+        "TRAP 3: Equivalent weight of KMnO₄: Acidic medium = M/5 (valency factor 5); Neutral/alkaline = M/3 (valency factor 3); Strongly alkaline = M/1 (valency factor 1).",
+        "TRAP 4: Equivalent weight of K₂Cr₂O₇ in acidic medium = M/6 (valency factor 6: Cr₂O₇²⁻ + 6e⁻ → 2Cr³⁺; M = 294.18 g/mol, E = 49.03).",
+        "TRAP 5: Chemical twins due to lanthanoid contraction: Zr-Hf (radius ≈ 160 pm), Nb-Ta, Mo-W have nearly identical properties and co-occur in nature."
+      ],
+      "formulas": [
+        {
+          "label": "Equivalent weight formulas for KMnO₄",
+          "expr": "Acidic: M/5 (n-factor 5) | Neutral: M/3 (n-factor 3) | Alkaline: M/1 (n-factor 1)"
+        },
+        {
+          "label": "Equivalent weight formula for K₂Cr₂O₇",
+          "expr": "E = M / 6 = 294.18 / 6 = 49.03 (acidic medium)"
+        },
+        {
+          "label": "Bohr Magneton spin formula",
+          "expr": "μ_s = √(n(n + 2)) BM (direct correlation with unpaired electrons n)"
+        }
+      ]
+    }
+  ]
+}

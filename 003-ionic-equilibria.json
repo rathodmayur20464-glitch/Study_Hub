@@ -1,0 +1,266 @@
+{
+  "title": "Ionic Equilibria",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Electrolytes & Degree of Dissociation",
+      "tag": "concept",
+      "points": [
+        "Strong Electrolytes: Dissociate completely in aqueous solution (α ≈ 1). Examples: Strong acids (HCl, HNO₃, H₂SO₄), Strong bases (NaOH, KOH), Salts (NaCl, KCl).",
+        "Weak Electrolytes: Dissociate only to a small extent in aqueous solution (α ≪ 1). Dynamic equilibrium exists between ions and unionized molecules. Examples: Weak acids (CH₃COOH, HCN, HCOOH), Weak bases (NH₄OH, amines).",
+        "Degree of Dissociation (α): Fraction of total moles of electrolyte that dissociates into ions: α = (Moles dissociated) / (Total moles). Percent dissociation = α × 100%."
+      ],
+      "formulas": [
+        {
+          "label": "Degree of dissociation",
+          "expr": "α = Moles dissociated / Total moles"
+        },
+        {
+          "label": "Percent dissociation",
+          "expr": "% α = α × 100%"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Acid-Base Theories & Conjugate Pairs",
+      "tag": "concept",
+      "points": [
+        "Arrhenius Theory: Acid produces H⁺ (H₃O⁺) in water; Base produces OH⁻ in water. Limitation: Applies only to aqueous solutions.",
+        "Brønsted-Lowry Theory: Acid is a proton (H⁺) DONOR; Base is a proton (H⁺) ACCEPTOR.",
+        "Conjugate Acid-Base Pair: A pair of substances that differ by only a single proton (H⁺).",
+        "Acid ⇌ Conjugate Base + H⁺; Base + H⁺ ⇌ Conjugate Acid. (Strong acid has weak conjugate base; weak acid has strong conjugate base).",
+        "Amphoteric Nature of Water: Water acts as acid with NH₃ and as base with HCl.",
+        "Lewis Theory: Acid is an electron-pair ACCEPTOR (electrophiles: BF₃, AlCl₃, H⁺, metal cations); Base is an electron-pair DONOR (nucleophiles: NH₃, H₂O, OH⁻, halide ions)."
+      ],
+      "formulas": [
+        {
+          "label": "Conjugate acid-base link",
+          "expr": "Acid ⟶ H⁺ + Conjugate Base"
+        },
+        {
+          "label": "Lewis neutralization",
+          "expr": "BF₃ + :NH₃ ⟶ F₃B←NH₃ (Coordinate bond)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Ostwald's Dilution Law",
+      "tag": "formula",
+      "points": [
+        "Applies to WEAK electrolytes only.",
+        "For Weak Acid (HA ⇌ H⁺ + A⁻): K_a = (α² C) / (1 − α). Since α ≪ 1, (1 − α) ≈ 1 ⟹ K_a = α² C ⟹ α = √(K_a / C) = √(K_a · V).",
+        "Hydrogen ion concentration: [H⁺] = α C = √(K_a · C).",
+        "For Weak Base (BOH ⇌ B⁺ + OH⁻): K_b = α² C ⟹ α = √(K_b / C) = √(K_b · V).",
+        "Hydroxide ion concentration: [OH⁻] = α C = √(K_b · C).",
+        "Ostwald's Principle: Degree of dissociation of a weak electrolyte is inversely proportional to square root of concentration (directly proportional to square root of dilution)."
+      ],
+      "formulas": [
+        {
+          "label": "Ostwald weak acid",
+          "expr": "K_a = α² C ⟹ α = √(K_a / C)"
+        },
+        {
+          "label": "Ostwald weak base",
+          "expr": "K_b = α² C ⟹ α = √(K_b / C)"
+        },
+        {
+          "label": "[H⁺] from K_a",
+          "expr": "[H⁺] = √(K_a · C)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Autoionization of Water & pH Scale",
+      "tag": "formula",
+      "points": [
+        "Autoionization (Self-ionization) of Water: H₂O + H₂O ⇌ H₃O⁺ + OH⁻.",
+        "Ionic Product of Water (K_w): K_w = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 298 K (25 °C).",
+        "In pure neutral water at 298 K: [H₃O⁺] = [OH⁻] = 10⁻⁷ M.",
+        "pH and pOH Definitions:",
+        "pH = −log₁₀[H₃O⁺]; pOH = −log₁₀[OH⁻].",
+        "Fundamental Identity: pH + pOH = pK_w = 14 at 298 K.",
+        "Temperature Dependence: Autoionization is endothermic. As temperature increases, K_w increases, so pH of pure neutral water becomes < 7 (though water remains neutral as [H⁺] = [OH⁻])."
+      ],
+      "formulas": [
+        {
+          "label": "Ionic product of water",
+          "expr": "K_w = [H⁺][OH⁻] = 10⁻¹⁴ (at 298 K)"
+        },
+        {
+          "label": "pH definition",
+          "expr": "pH = −log₁₀[H⁺]"
+        },
+        {
+          "label": "pH + pOH relation",
+          "expr": "pH + pOH = 14"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Hydrolysis of Salts & Solution pH",
+      "tag": "formula",
+      "points": [
+        "Salt Hydrolysis: Interaction of ions of a salt with water to produce acidity or alkalinity.",
+        "1. Strong Acid + Strong Base (NaCl, KNO₃): Neither ion hydrolyzes. Neutral solution: pH = 7.",
+        "2. Strong Acid + Weak Base (NH₄Cl, CuSO₄): Cation hydrolyzes (Cationic hydrolysis). Acidic solution: pH = 7 − ½ pK_b − ½ log₁₀C < 7.",
+        "3. Weak Acid + Strong Base (CH₃COONa, NaCN): Anion hydrolyzes (Anionic hydrolysis). Basic solution: pH = 7 + ½ pK_a + ½ log₁₀C > 7.",
+        "4. Weak Acid + Weak Base (CH₃COONH₄, NH₄CN): Both cation and anion hydrolyze. pH = 7 + ½ pK_a − ½ pK_b.",
+        "CRITICAL: pH of weak acid + weak base salt is completely INDEPENDENT of concentration C!"
+      ],
+      "formulas": [
+        {
+          "label": "Strong acid + Weak base pH",
+          "expr": "pH = 7 − ½ pK_b − ½ log₁₀C"
+        },
+        {
+          "label": "Weak acid + Strong base pH",
+          "expr": "pH = 7 + ½ pK_a + ½ log₁₀C"
+        },
+        {
+          "label": "Weak acid + Weak base pH",
+          "expr": "pH = 7 + ½ pK_a − ½ pK_b (independent of C)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Buffer Solutions & Henderson-Hasselbalch Equation",
+      "tag": "formula",
+      "points": [
+        "Buffer Solution: A solution that resists drastic changes in pH upon addition of small amounts of strong acid, strong base, or on dilution.",
+        "Acidic Buffer: Weak acid + its salt with strong base (e.g., CH₃COOH + CH₃COONa).",
+        "Henderson-Hasselbalch Equation (Acidic): pH = pK_a + log₁₀([Salt] / [Acid]).",
+        "Basic Buffer: Weak base + its salt with strong acid (e.g., NH₄OH + NH₄Cl).",
+        "Henderson-Hasselbalch Equation (Basic): pOH = pK_b + log₁₀([Salt] / [Base]), and pH = 14 − pOH.",
+        "Buffer Capacity: Maximum when [Salt] = [Acid] ⟹ pH = pK_a.",
+        "Buffer Range: pH = pK_a ± 1."
+      ],
+      "formulas": [
+        {
+          "label": "Acidic buffer pH",
+          "expr": "pH = pK_a + log₁₀([Salt] / [Acid])"
+        },
+        {
+          "label": "Basic buffer pOH",
+          "expr": "pOH = pK_b + log₁₀([Salt] / [Base])"
+        },
+        {
+          "label": "Max buffer capacity",
+          "expr": "[Salt] = [Acid] ⟹ pH = pK_a"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Solubility Product (K_sp) & Precipitation",
+      "tag": "formula",
+      "points": [
+        "For a sparingly soluble salt A_x B_y(s) ⇌ x A^(y+) + y B^(x−):",
+        "Solubility Product: K_sp = [A^(y+)]^x [B^(x−)]^y = x^x y^y S^(x + y), where S is molar solubility.",
+        "Solubility Product Expressions:",
+        "1. 1:1 Salt (AgCl, BaSO₄): K_sp = S² ⟹ S = √K_sp.",
+        "2. 1:2 or 2:1 Salt (PbCl₂, CaF₂, Ag₂CrO₄): K_sp = (1)¹(2)² S³ = 4S³ ⟹ S = (K_sp / 4)^(1/3).",
+        "3. 1:3 Salt (Al(OH)₃, Fe(OH)₃): K_sp = (1)¹(3)³ S⁴ = 27S⁴ ⟹ S = (K_sp / 27)^(1/4).",
+        "Condition for Precipitation (Ionic Product IP vs K_sp):",
+        "1. IP < K_sp: Unsaturated solution (no precipitate, more solute dissolves).",
+        "2. IP = K_sp: Saturated solution (dynamic equilibrium).",
+        "3. IP > K_sp: Supersaturated solution ⟹ PRECIPITATION OCCURS."
+      ],
+      "formulas": [
+        {
+          "label": "K_sp general formula",
+          "expr": "K_sp = x^x y^y S^(x+y)"
+        },
+        {
+          "label": "1:1 salt K_sp",
+          "expr": "K_sp = S²"
+        },
+        {
+          "label": "1:2 salt K_sp",
+          "expr": "K_sp = 4S³"
+        },
+        {
+          "label": "Precipitation criterion",
+          "expr": "IP > K_sp ⟹ Precipitate forms"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Common Ion Effect & Applications",
+      "tag": "concept",
+      "points": [
+        "Common Ion Effect: The suppression of the degree of dissociation of a weak electrolyte by the addition of a strong electrolyte having an ion in common.",
+        "Example: Dissociation of weak CH₃COOH is suppressed by adding strong CH₃COONa (equilibrium shifts left per Le Chatelier's principle).",
+        "Applications in Qualitative Salt Analysis:",
+        "1. Group II Cations (Cu²⁺, Pb²⁺): Precipitated as sulfides using H₂S in presence of dil. HCl. Common ion H⁺ suppresses H₂S dissociation, lowering [S²⁻] so only low K_sp Group II sulfides precipitate.",
+        "2. Group III Cations (Fe³⁺, Al³⁺): Precipitated as hydroxides using NH₄OH in presence of NH₄Cl. Common ion NH₄⁺ suppresses NH₄OH dissociation, ensuring only low K_sp Group III hydroxides precipitate without precipitating Group IV/V cations.",
+        "3. Purification of NaCl: Passing HCl gas through saturated brine precipitates pure NaCl as common ion Cl⁻ exceeds K_sp."
+      ],
+      "formulas": [
+        {
+          "label": "Common ion equilibrium shift",
+          "expr": "CH₃COOH ⇌ CH₃COO⁻ + H⁺ (Adding CH₃COONa shifts left)"
+        },
+        {
+          "label": "Group II precipitation",
+          "expr": "H₂S in dil. HCl ⟶ Lower [S²⁻] precipitates only Group II"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Proofs",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive Ostwald's dilution law for a weak acid (K_a = α² C) and show that α = √(K_a / C).",
+        "Board Favourite #2: Derive relationship between pH and pOH: pH + pOH = 14 at 298 K.",
+        "Board Favourite #3: Derive Henderson-Hasselbalch equation for an acidic buffer solution.",
+        "Board Favourite #4: Derive relationship between molar solubility (S) and solubility product (K_sp) for: (1) 1:1 salt, (2) 1:2 salt.",
+        "Board Favourite #5: Define: (1) Common ion effect, (2) Buffer solution, (3) Hydrolysis of salt, (4) Solubility product."
+      ],
+      "formulas": [
+        {
+          "label": "Ostwald proof",
+          "expr": "K_a = [H⁺][A⁻]/[HA] = (αC · αC)/[C(1−α)] ≈ α²C"
+        },
+        {
+          "label": "pH + pOH proof",
+          "expr": "[H⁺][OH⁻] = 10⁻¹⁴ ⟹ −log[H⁺] − log[OH⁻] = 14"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Dilution Traps & Qualitative Tricks",
+      "tag": "imp",
+      "points": [
+        "Dilute Acid pH Trap: pH of 10⁻⁸ M HCl is NOT 8 (an acid cannot have basic pH!). Account for water autoionization: [H⁺] = 10⁻⁸ + 10⁻⁷ = 1.1 × 10⁻⁷ M ⟹ pH ≈ 6.96.",
+        "Dilute Base pH Trap: pH of 10⁻⁸ M NaOH is ≈ 7.04 (slightly basic).",
+        "Weak Acid + Weak Base Salt Shortcut: pH = 7 + ½ pK_a − ½ pK_b. If pK_a = pK_b (like CH₃COONH₄), pH = 7.0 (neutral), independent of concentration!",
+        "Solubility in Presence of Common Ion: Solubility of AgCl in C molar NaCl: S' = K_sp / C (drastically reduced compared to √K_sp in pure water).",
+        "Buffer Capacity Rule: Buffer capacity is maximum when [Salt] = [Acid] (or [Base]), at which point pH = pK_a."
+      ],
+      "formulas": [
+        {
+          "label": "10⁻⁸ M HCl shortcut",
+          "expr": "pH ≈ 6.96 (never > 7)"
+        },
+        {
+          "label": "Common ion solubility hack",
+          "expr": "S' = K_sp / C_common"
+        },
+        {
+          "label": "Equimolar buffer hack",
+          "expr": "[Salt] = [Acid] ⟹ pH = pK_a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "title": "Elements of Groups 16, 17 and 18",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Group 16 Elements (Chalcogens) & Physical Trends",
+      "tag": "concept",
+      "points": [
+        "Elements: O (8), S (16), Se (34), Te (52), Po (84); general valence configuration ns² np⁴ (n = 2 to 6).",
+        "Atomic & ionic radii increase down the group; electronegativity decreases (O has 2nd highest EN = 3.5 in periodic table).",
+        "Electron gain enthalpy anomaly: S (−200 kJ/mol) is more negative than O (−141 kJ/mol) due to small size and compact 2p subshell of oxygen causing interelectronic repulsions.",
+        "Anomalous behavior of Oxygen: small size, high EN, absence of vacant d-orbitals; forms pπ-pπ multiple bonds (O=O diatomic gas), whereas sulfur exists as puckered S₈ rings."
+      ],
+      "formulas": [
+        {
+          "label": "General valence configuration (Group 16)",
+          "expr": "ns² np⁴ (n = 2 to 6)"
+        },
+        {
+          "label": "Order of negative electron gain enthalpy",
+          "expr": "S > Se > Te > Po > O (S is most negative; O is least negative)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Allotropes of Sulfur, Ozone & Sulfur Dioxide",
+      "tag": "concept",
+      "points": [
+        "Sulfur allotropes: Rhombic (α-sulfur, S₈ crown shape, yellow, stable < 369 K) and Monoclinic (β-sulfur, needle-shaped, stable > 369 K). Transition temperature = 369 K.",
+        "Ozone (O₃): Pale blue gas, diamagnetic, bent shape (bond angle 116.8°, bond length 127.8 pm, resonance hybrid); powerful oxidizing agent (oxidizes PbS to PbSO₄, I⁻ to I₂).",
+        "Quantitative estimation of O₃: Reacted with excess KI buffered with borate buffer (pH 9.2); liberated I₂ titrated against standard Na₂S₂O₃ using starch indicator.",
+        "SO₂: Angular gas (sp²); acts as bleaching agent by reduction (temporary bleach in presence of moisture: SO₂ + 2H₂O → H₂SO₄ + 2[H]); decolorizes acidified KMnO₄."
+      ],
+      "formulas": [
+        {
+          "label": "Lead sulfide oxidation by ozone",
+          "expr": "PbS + 4O₃ → PbSO₄ + 4O₂"
+        },
+        {
+          "label": "Ozone estimation reaction",
+          "expr": "2I⁻ + H₂O + O₃ → 2OH⁻ + I₂ + O₂"
+        },
+        {
+          "label": "Bleaching action of SO₂ (temporary)",
+          "expr": "SO₂ + 2H₂O → H₂SO₄ + 2[H]; Colored matter + [H] → Colorless matter"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Sulfuric Acid: Contact Process & Chemical Properties",
+      "tag": "formula",
+      "points": [
+        "Contact Process key steps: 1) S + O₂ → SO₂; 2) 2SO₂ + O₂ ⇌ 2SO₃ (V₂O₅ catalyst, 720 K, 2 bar, exothermic ΔH = −196.6 kJ/mol); 3) SO₃ + H₂SO₄ → H₂S₂O₇ (oleum); oleum + H₂O → 2H₂SO₄ (96-98%).",
+        "Strong dibasic acid: Ka₁ is very large (> 10) forming HSO₄⁻; Ka₂ = 1.2 × 10⁻² forming SO₄²⁻.",
+        "Strong dehydrating agent: Chars cane sugar (C₁₂H₂₂O₁₁ → 12C + 11H₂O); dehydrates formic acid to CO and oxalic acid to CO + CO₂.",
+        "Oxidizing agent: Conc H₂SO₄ oxidizes Cu to CuSO₄ + SO₂, C to CO₂ + 2SO₂, and S to 3SO₂."
+      ],
+      "formulas": [
+        {
+          "label": "Contact process catalytic oxidation",
+          "expr": "2SO₂ + O₂ ⇌ 2SO₃ (V₂O₅, 720 K, 2 bar, ΔH° = −196.6 kJ/mol)"
+        },
+        {
+          "label": "Dehydration of sucrose (charring action)",
+          "expr": "C₁₂H₂₂O₁₁ (conc H₂SO₄) → 12C (sugar charcoal) + 11H₂O"
+        },
+        {
+          "label": "Oxidation of copper by conc H₂SO₄",
+          "expr": "Cu + 2H₂SO₄ (conc) → CuSO₄ + SO₂↑ + 2H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Group 17 Elements (Halogens) & Key Trends",
+      "tag": "concept",
+      "points": [
+        "Elements: F (9), Cl (17), Br (35), I (53), At (85); valence configuration ns² np⁵. All form X⁻ halide ions.",
+        "Electron gain enthalpy anomaly: Cl (−349 kJ/mol) > F (−333 kJ/mol) > Br (−325) > I (−295) due to small size of F and interelectronic repulsions in 2p subshell.",
+        "Bond dissociation enthalpy anomaly: Cl-Cl (242.6) > Br-Br (192.8) > F-F (158.8) > I-I (151.1 kJ/mol); F-F is unusually weak due to lone pair-lone pair repulsions in tiny F₂.",
+        "Oxidizing power: F₂ > Cl₂ > Br₂ > I₂ (E°(F₂/F⁻) = +2.87 V is highest). F₂ oxidizes water to O₂, while Cl₂ and Br₂ form hypohalous acids."
+      ],
+      "formulas": [
+        {
+          "label": "Negative electron gain enthalpy order",
+          "expr": "Cl > F > Br > I (Cl has highest negative Δ_egH in periodic table)"
+        },
+        {
+          "label": "Bond dissociation enthalpy order",
+          "expr": "Cl₂ > Br₂ > F₂ > I₂ (F₂ is 3rd due to lone-pair repulsion)"
+        },
+        {
+          "label": "Reaction of Fluorine with water",
+          "expr": "2F₂ + 2H₂O → 4HF + O₂↑"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Chlorine, Bleaching Action & Reactions with NaOH",
+      "tag": "concept",
+      "points": [
+        "Preparation: MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O; Deacon's process: 4HCl + O₂ → 2Cl₂ + 2H₂O (CuCl₂ catalyst, 723 K).",
+        "Reaction with ammonia: Excess NH₃ yields N₂ (8NH₃ + 3Cl₂ → 6NH₄Cl + N₂); Excess Cl₂ yields explosive NCl₃ (NH₃ + 3Cl₂ → NCl₃ + 3HCl).",
+        "Reaction with NaOH (temperature dependent): Cold dilute NaOH gives hypochlorite (2NaOH + Cl₂ → NaCl + NaOCl + H₂O); Hot conc NaOH gives chlorate (6NaOH + 3Cl₂ → 5NaCl + NaClO₃ + 3H₂O).",
+        "Bleaching action: Permanent bleach due to oxidation via nascent oxygen in presence of moisture (Cl₂ + H₂O → HCl + HOCl; HOCl → HCl + [O])."
+      ],
+      "formulas": [
+        {
+          "label": "Reaction with cold dilute NaOH",
+          "expr": "2NaOH (cold, dil) + Cl₂ → NaCl + NaOCl + H₂O"
+        },
+        {
+          "label": "Reaction with hot concentrated NaOH",
+          "expr": "6NaOH (hot, conc) + 3Cl₂ → 5NaCl + NaClO₃ + 3H₂O"
+        },
+        {
+          "label": "Bleaching action via nascent oxygen (permanent)",
+          "expr": "Cl₂ + H₂O → 2HCl + [O]; Colored substance + [O] → Colorless substance"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Interhalogen Compounds & Oxoacids of Halogens",
+      "tag": "formula",
+      "points": [
+        "Interhalogens (XX'ₙ where n = 1, 3, 5, 7): Covalent, diamagnetic; more reactive than pure halogens (except F₂) because X-X' bond is weaker than X-X bond.",
+        "VSEPR Geometries: ClF₃ is Bent T-shaped (sp³d, 2 lone pairs); BrF₅ / IF₅ is Square pyramidal (sp³d², 1 lone pair); IF₇ is Pentagonal bipyramidal (sp³d³, 0 lone pairs).",
+        "Oxoacids of Chlorine: Hypochlorous (HOCl, +1), Chlorous (HClO₂, +3), Chloric (HClO₃, +5), Perchloric (HClO₄, +7).",
+        "Acidic strength order: HOCl < HClO₂ < HClO₃ < HClO₄ (higher oxidation state and greater resonance stabilization of conjugate base ClO₄⁻)."
+      ],
+      "formulas": [
+        {
+          "label": "Geometry of ClF₃",
+          "expr": "Bent T-shaped (sp³d hybridization, 3 bond pairs + 2 equatorial lone pairs)"
+        },
+        {
+          "label": "Geometry of IF₇",
+          "expr": "Pentagonal bipyramidal (sp³d³ hybridization, bond angles 72° and 90°)"
+        },
+        {
+          "label": "Acidic strength of chlorine oxoacids",
+          "expr": "HClO < HClO₂ < HClO₃ < HClO₄ (HClO₄ is strongest inorganic acid)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Group 18 Elements (Noble Gases) & Bartlett's Discovery",
+      "tag": "concept",
+      "points": [
+        "Elements: He (2), Ne (10), Ar (18), Kr (36), Xe (54), Rn (86); stable ns² np⁶ valence shell (He: 1s²).",
+        "Physical properties: Monoatomic, colorless, odorless gases; exceptionally high IE, positive electron gain enthalpies, extremely low boiling points (He has lowest bp = 4.2 K).",
+        "Neil Bartlett (1962): Noticed PtF₆ oxidizes O₂ to O₂⁺[PtF₆]⁻; since IE of Xe (1170 kJ/mol) is close to O₂ (1175 kJ/mol), synthesized first noble gas compound Xe⁺[PtF₆]⁻ (red solid).",
+        "Uses: Helium in cryogenics, MRI magnets, and deep-sea diving (He-O₂ mixture prevents bends); Neon in advertising signs; Argon in electric lamps to provide inert atmosphere."
+      ],
+      "formulas": [
+        {
+          "label": "First noble gas reaction (Neil Bartlett)",
+          "expr": "Xe + PtF₆ (298 K) → Xe⁺[PtF₆]⁻ (red crystalline solid)"
+        },
+        {
+          "label": "General configuration (Noble Gases)",
+          "expr": "ns² np⁶ (completely filled octet, maximum stability)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Xenon Compounds: Preparation, Structures & Hydrolysis",
+      "tag": "formula",
+      "points": [
+        "Preparation: Xe + F₂ (2:1 ratio, 673 K, 1 bar) → XeF₂; Xe + F₂ (1:5, 873 K, 7 bar) → XeF₄; Xe + F₂ (1:20, 573 K, 60-70 bar) → XeF₆.",
+        "VSEPR Shapes: XeF₂ is Linear (sp³d, 3 equatorial lone pairs); XeF₄ is Square planar (sp³d², 2 axial lone pairs); XeF₆ is Distorted octahedral (sp³d³, 1 lone pair).",
+        "Hydrolysis of XeF₄: Disproportionates into Xe, XeO₃, HF, and O₂ (6XeF₄ + 12H₂O → 4Xe + 2XeO₃ + 24HF + 3O₂).",
+        "Hydrolysis of XeF₆: Complete hydrolysis gives explosive solid XeO₃ (pyramidal, sp³); Partial hydrolysis gives XeOF₄ (square pyramidal, sp³d²) and XeO₂F₂ (see-saw, sp³d)."
+      ],
+      "formulas": [
+        {
+          "label": "Disproportionation hydrolysis of XeF₄",
+          "expr": "6XeF₄ + 12H₂O → 4Xe + 2XeO₃ + 24HF + 3O₂↑"
+        },
+        {
+          "label": "Complete hydrolysis of XeF₆",
+          "expr": "XeF₆ + 3H₂O → XeO₃ (pyramidal, explosive) + 6HF"
+        },
+        {
+          "label": "Partial hydrolysis of XeF₆ to XeOF₄",
+          "expr": "XeF₆ + H₂O → XeOF₄ (square pyramidal) + 2HF"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Named Structures",
+      "tag": "imp",
+      "points": [
+        "Bleaching comparison: Cl₂ bleaches by permanent oxidation (via nascent oxygen); SO₂ bleaches by temporary reduction (restored on atmospheric oxidation).",
+        "Oxoacids of sulfur structures: H₂SO₄ (tetrahedral, dibasic); H₂S₂O₇ (oleum / pyrosulfuric: contains S-O-S bridge); H₂S₂O₈ (Marshall's acid / peroxodisulfuric: contains −O−O− peroxy linkage, oxidation state of S = +6).",
+        "Anomalous fluorine: Only −1 oxidation state (no d-orbitals); HF is liquid at room temperature due to strong intermolecular H-bonding, whereas HCl, HBr, HI are gases.",
+        "Aqua regia: Mixture of 3 parts concentrated HCl and 1 part concentrated HNO₃; dissolves noble metals like Au and Pt by forming soluble chloro complexes ([AuCl₄]⁻, [PtCl₆]²⁻)."
+      ],
+      "formulas": [
+        {
+          "label": "Marshall's acid peroxy linkage structure",
+          "expr": "HO-SO₂-O-O-SO₂-OH (H₂S₂O₈, peroxy linkage −O−O−, S oxidation state = +6)"
+        },
+        {
+          "label": "Oleum pyrosulfuric acid structure",
+          "expr": "HO-SO₂-O-SO₂-OH (H₂S₂O₇, contains S-O-S anhydride bridge)"
+        },
+        {
+          "label": "Dissolution of gold in aqua regia",
+          "expr": "Au + 4H⁺ + NO₃⁻ + 4Cl⁻ → [AuCl₄]⁻ + NO + 2H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Exception Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Electron gain enthalpy: Cl > F (Group 17) and S > Se > Te > Po > O (Group 16; Oxygen has least negative Δ_egH in the whole group!).",
+        "TRAP 2: Halogen bond energy: Cl₂ > Br₂ > F₂ > I₂ (Fluorine is 3rd, NOT 1st!).",
+        "TRAP 3: Boiling point of Group 16 hydrides: H₂S < H₂Se < H₂Te < H₂O (H₂O has highest bp due to H-bonds; H₂S has lowest bp).",
+        "TRAP 4: Acidic strength of hydrides: H₂O < H₂S < H₂Se < H₂Te (acidity increases down group as H-E bond energy decreases). Group 17: HF < HCl < HBr < HI.",
+        "TRAP 5: Number of lone pairs on Xenon: XeF₂ = 3; XeF₄ = 2; XeF₆ = 1; XeO₃ = 1; XeOF₄ = 1; XeO₂F₂ = 1.",
+        "TRAP 6: Cl₂ + NaOH: Cold/dil gives NaOCl (+1 oxidation state); Hot/conc gives NaClO₃ (+5 oxidation state)."
+      ],
+      "formulas": [
+        {
+          "label": "Hydride boiling point trend (Group 16)",
+          "expr": "H₂S (lowest) < H₂Se < H₂Te < H₂O (highest, 373 K due to H-bonding)"
+        },
+        {
+          "label": "Hydride acidic strength trend (Group 17)",
+          "expr": "HF < HCl < HBr < HI (HI is strongest acid due to weakest H-I bond)"
+        },
+        {
+          "label": "Reducing power of Group 16 hydrides",
+          "expr": "H₂O < H₂S < H₂Se < H₂Te (H₂Te is strongest reducing agent)"
+        }
+      ]
+    }
+  ]
+}

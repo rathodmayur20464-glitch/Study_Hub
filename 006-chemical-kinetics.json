@@ -1,0 +1,263 @@
+{
+  "title": "Chemical Kinetics",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Rate of Reaction & Rate Law",
+      "tag": "formula",
+      "points": [
+        "Average Rate: r_avg = −Δ[R]/Δt = +Δ[P]/Δt. Instantaneous Rate: r_inst = −d[R]/dt = +d[P]/dt.",
+        "For generalized reaction aA + bB ⟶ cC + dD:",
+        "Rate = −(1/a) d[A]/dt = −(1/b) d[B]/dt = +(1/c) d[C]/dt = +(1/d) d[D]/dt.",
+        "Rate Law: Experimentally determined equation relating reaction rate to molar concentrations of reactants:",
+        "Rate = k [A]^x [B]^y, where k is rate constant (specific reaction rate), and x, y are orders with respect to A and B.",
+        "Rate constant k is independent of concentration; depends only on temperature and catalyst."
+      ],
+      "formulas": [
+        {
+          "label": "Rate of reaction",
+          "expr": "Rate = −(1/a) d[A]/dt = +(1/c) d[C]/dt"
+        },
+        {
+          "label": "Rate law",
+          "expr": "Rate = k [A]^x [B]^y"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Order vs Molecularity & Pseudo-First Order",
+      "tag": "concept",
+      "points": [
+        "Order of Reaction: Sum of exponents of concentration terms in the rate law (n = x + y). Determined experimentally only. Can be zero, fractional, integer, or negative.",
+        "Molecularity of Reaction: Number of reactant species colliding simultaneously in an elementary step. Theoretical concept. Always a positive whole integer (1, 2, or 3); CANNOT be zero, fractional, or > 3.",
+        "Pseudo-First Order Reaction: A higher-order reaction that follows first-order kinetics because one reactant is present in large excess:",
+        "1. Acid hydrolysis of ester: CH₃COOC₂H₅ + H₂O(excess) ⟶[H⁺] CH₃COOH + C₂H₅OH (Rate = k' [ester][H₂O] = k [ester]).",
+        "2. Inversion of cane sugar: C₁₂H₂₂O₁₁ + H₂O(excess) ⟶ C₆H₁₂O₆ + C₆H₁₂O₆."
+      ],
+      "formulas": [
+        {
+          "label": "Order of reaction",
+          "expr": "n = x + y (experimental sum of exponents)"
+        },
+        {
+          "label": "Pseudo-first order rate",
+          "expr": "Rate = k [Ester] (where k = k'[H₂O])"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Zero Order Reactions",
+      "tag": "formula",
+      "points": [
+        "Definition: Reaction rate is independent of reactant concentration: Rate = k [A]⁰ = k.",
+        "Unit of rate constant k: mol L⁻¹ s⁻¹ (or mol dm⁻³ s⁻¹).",
+        "Integrated Rate Law: k = ([A]₀ − [A]_t) / t ⟹ [A]_t = [A]₀ − k t.",
+        "Half-Life Period (t_½): Time required for concentration to decrease to half its initial value:",
+        "t_½ = [A]₀ / (2k). Notice: t_½ is directly proportional to initial concentration [A]₀.",
+        "Examples: Decomposition of NH₃ on hot Pt surface; Photochemical H₂ + Cl₂ ⟶ 2HCl; 2HI ⟶[Au] H₂ + I₂."
+      ],
+      "formulas": [
+        {
+          "label": "Zero order rate law",
+          "expr": "k = ([A]₀ − [A]_t) / t"
+        },
+        {
+          "label": "Zero order half-life",
+          "expr": "t_½ = [A]₀ / (2k)"
+        },
+        {
+          "label": "Zero order k unit",
+          "expr": "mol L⁻¹ s⁻¹"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "First Order Reactions: Integrated Rate Law & Half-Life",
+      "tag": "formula",
+      "points": [
+        "Definition: Reaction rate is directly proportional to the first power of reactant concentration: Rate = k [A].",
+        "Unit of rate constant k: s⁻¹ or min⁻¹ (independent of concentration units!).",
+        "Integrated Rate Law: k = (2.303 / t) log₁₀([A]₀ / [A]_t) = (2.303 / t) log₁₀[a / (a − x)].",
+        "Exponential Form: [A]_t = [A]₀ e^(−kt).",
+        "Half-Life Period (t_½): t_½ = 0.693 / k.",
+        "CRITICAL: Half-life of a first-order reaction is strictly INDEPENDENT of initial concentration [A]₀!",
+        "First Order Gas Phase Reaction (A(g) ⟶ B(g) + C(g)): k = (2.303 / t) log₁₀[P_i / (2P_i − P_t)], where P_i is initial pressure and P_t is total pressure at time t."
+      ],
+      "formulas": [
+        {
+          "label": "First order rate law",
+          "expr": "k = (2.303 / t) log₁₀([A]₀ / [A]_t)"
+        },
+        {
+          "label": "First order half-life",
+          "expr": "t_½ = 0.693 / k"
+        },
+        {
+          "label": "Gas phase 1st order",
+          "expr": "k = (2.303 / t) log₁₀[P_i / (2P_i − P_t)]"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Graphical Representations in Kinetics",
+      "tag": "concept",
+      "points": [
+        "Zero Order Graphs:",
+        "1. [A]_t vs t: Straight line with negative slope = −k and y-intercept = [A]₀.",
+        "2. Rate vs [A]: Horizontal straight line (slope = 0).",
+        "3. t_½ vs [A]₀: Straight line passing through origin (slope = 1/2k).",
+        "First Order Graphs:",
+        "1. log₁₀[A]_t vs t: Straight line with negative slope = −k / 2.303 and intercept = log₁₀[A]₀.",
+        "2. log₁₀([A]₀ / [A]_t) vs t: Straight line passing through origin with positive slope = k / 2.303.",
+        "3. Rate vs [A]: Straight line passing through origin with slope = k.",
+        "4. t_½ vs [A]₀: Horizontal line (independent of [A]₀)."
+      ],
+      "formulas": [
+        {
+          "label": "1st order slope (log [A] vs t)",
+          "expr": "Slope = −k / 2.303"
+        },
+        {
+          "label": "1st order slope (log [A]₀/[A] vs t)",
+          "expr": "Slope = +k / 2.303"
+        },
+        {
+          "label": "Zero order slope ([A] vs t)",
+          "expr": "Slope = −k"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Collision Theory & Activation Energy",
+      "tag": "concept",
+      "points": [
+        "Collision Theory: Reaction occurs when reactant molecules collide. Rate = Z_AB · f, where Z_AB is collision frequency and f is fraction of effective collisions.",
+        "Two Requirements for Effective Collisions:",
+        "1. Energy Barrier: Colliding molecules must possess minimum kinetic energy called Threshold Energy: E_threshold = E_reactants + E_a.",
+        "Activation Energy (E_a): Minimum extra energy required by reactants to form activated complex: E_a = E_threshold − E_reactants.",
+        "2. Orientation Barrier: Colliding molecules must have proper spatial orientation at the moment of collision to break existing bonds and form new ones.",
+        "Activated Complex / Transition State: High-energy, unstable arrangement of atoms with partial bonds."
+      ],
+      "formulas": [
+        {
+          "label": "Threshold energy",
+          "expr": "E_threshold = E_reactants + E_a"
+        },
+        {
+          "label": "Effective collision fraction",
+          "expr": "f = e^(−E_a / RT)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Arrhenius Equation & Temperature Dependence",
+      "tag": "formula",
+      "points": [
+        "Arrhenius Equation: Expresses quantitative relationship between temperature and rate constant: k = A · e^(−E_a / RT).",
+        "Where: A = Frequency factor (pre-exponential factor), E_a = activation energy (J/mol), R = 8.314 J K⁻¹ mol⁻¹, T = temperature in Kelvin.",
+        "Logarithmic Form: log₁₀ k = log₁₀ A − [E_a / (2.303 R T)].",
+        "Plot of log₁₀ k vs 1/T is a straight line with slope = −E_a / (2.303 R) and y-intercept = log₁₀ A.",
+        "Two Temperature Formula: log₁₀(k₂ / k₁) = [E_a / (2.303 R)] · [(T₂ − T₁) / (T₁ T₂)].",
+        "Temperature Coefficient: Rate of most reactions roughly DOUBLES or TRIPLES for every 10 °C rise in temperature (k_(T+10) / k_T ≈ 2 to 3)."
+      ],
+      "formulas": [
+        {
+          "label": "Arrhenius equation",
+          "expr": "k = A e^(−E_a / RT)"
+        },
+        {
+          "label": "Arrhenius linear form",
+          "expr": "log₁₀ k = log₁₀ A − [E_a / (2.303 R T)]"
+        },
+        {
+          "label": "Two-temperature Arrhenius",
+          "expr": "log₁₀(k₂ / k₁) = [E_a / (2.303 R)] [(T₂ − T₁) / (T₁ T₂)]"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Effect of Catalyst on Reaction Rate",
+      "tag": "concept",
+      "points": [
+        "A catalyst increases reaction rate by providing an alternative reaction pathway with a LOWER Activation Energy (E_a).",
+        "Because E_a is lowered, a much larger fraction of colliding molecules possesses kinetic energy ≥ E_a, exponentially increasing rate constant k.",
+        "Key Catalyst Properties:",
+        "1. Catalyst DOES NOT alter ΔH, ΔU, or ΔG of the reaction.",
+        "2. Catalyst DOES NOT alter the equilibrium constant K_eq; it accelerates both forward and backward reactions equally, helping reach equilibrium faster.",
+        "3. A catalyst cannot initiate a non-spontaneous reaction."
+      ],
+      "formulas": [
+        {
+          "label": "Catalyzed rate increase",
+          "expr": "k_cat / k_uncat = e^[(E_a − E_a') / RT]"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Definitions",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive integrated rate law for a first-order reaction: k = (2.303 / t) log₁₀([A]₀ / [A]_t) and show t_½ = 0.693 / k.",
+        "Board Favourite #2: Derive integrated rate expression for a gas-phase first-order reaction: A(g) ⟶ B(g) + C(g).",
+        "Board Favourite #3: Distinguish between Order and Molecularity of a reaction (4 key points).",
+        "Board Favourite #4: State Arrhenius equation and derive: log₁₀(k₂ / k₁) = [E_a / (2.303 R)] [(T₂ − T₁) / (T₁ T₂)].",
+        "Board Favourite #5: Define: (1) Half-life period, (2) Pseudo-first order reaction, (3) Activation energy, (4) Rate law."
+      ],
+      "formulas": [
+        {
+          "label": "1st order derivation",
+          "expr": "−d[A]/dt = k[A] ⟹ −ln([A]/[A]₀) = kt ⟹ k = (2.303/t) log([A]₀/[A])"
+        },
+        {
+          "label": "Half-life derivation",
+          "expr": "At t = t_½, [A] = [A]₀/2 ⟹ t_½ = (2.303/k) log 2 = 0.693 / k"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Kinetics Shortcuts, Unit Hacks & Half-Life Tricks",
+      "tag": "imp",
+      "points": [
+        "General Unit of Rate Constant k: (mol L⁻¹)^(1 − n) s⁻¹, where n is order of reaction.",
+        "• Zero order: mol L⁻¹ s⁻¹; First order: s⁻¹; Second order: L mol⁻¹ s⁻¹.",
+        "Half-Life Proportionality Rule: t_½ ∝ 1 / [A]₀^(n − 1).",
+        "• Zero order: t_½ ∝ [A]₀; First order: t_½ ∝ [A]₀⁰ (independent); Second order: t_½ ∝ 1 / [A]₀.",
+        "First Order Percentage Completion Shortcuts:",
+        "• t_75% = 2 × t_50% (75% completed in 2 half-lives).",
+        "• t_87.5% = 3 × t_50% (87.5% completed in 3 half-lives).",
+        "• t_93.75% = 4 × t_50%; t_99.9% ≈ 10 × t_50%.",
+        "• t_99% = 2 × t_90%.",
+        "Arrhenius Graph Slope Hack: Slope of log₁₀ k vs 1/T is −E_a / (2.303 R) ⟹ E_a = −2.303 × R × Slope."
+      ],
+      "formulas": [
+        {
+          "label": "k unit shortcut",
+          "expr": "Unit of k = (mol/L)^(1 − n) · s⁻¹"
+        },
+        {
+          "label": "t_75% shortcut",
+          "expr": "t_75% = 2 × t_50%"
+        },
+        {
+          "label": "t_99.9% shortcut",
+          "expr": "t_99.9% ≈ 10 × t_50%"
+        },
+        {
+          "label": "Arrhenius slope hack",
+          "expr": "E_a = −2.303 × 8.314 × Slope (J/mol)"
+        }
+      ]
+    }
+  ]
+}

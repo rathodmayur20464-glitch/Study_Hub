@@ -1,0 +1,234 @@
+{
+  "title": "Green Chemistry and Nanochemistry",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Principles of Green Chemistry & Need for Sustainable Chemistry",
+      "tag": "concept",
+      "points": [
+        "Definition: Green chemistry is the design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances (Paul T. Anastas, Father of Green Chemistry).",
+        "Objective: Sustainable development, resource conservation, minimizing waste, maximizing energy efficiency, and preventing environmental pollution at the molecular level.",
+        "The 12 Principles of Green Chemistry (mnemonic: PRODUCTIVELY): 1) Prevention of waste; 2) Atom economy; 3) Less hazardous chemical syntheses; 4) Designing safer chemicals; 5) Safer solvents and auxiliaries; 6) Design for energy efficiency; 7) Use of renewable feedstocks; 8) Reduce derivatives; 9) Catalysis; 10) Design for degradation; 11) Real-time analysis for pollution prevention; 12) Inherently safer chemistry for accident prevention."
+      ],
+      "formulas": [
+        {
+          "label": "Green Chemistry core paradigm",
+          "expr": "Source reduction / Prevention > Treatment / Remediation (prevent waste at source)"
+        },
+        {
+          "label": "Father of Green Chemistry",
+          "expr": "Paul T. Anastas (formulated the 12 principles of green chemistry)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Atom Economy & Calculation Metrics",
+      "tag": "formula",
+      "points": [
+        "Principle 2: Atom Economy measures the efficiency of a chemical reaction in terms of all atoms involved and how many end up in the desired product.",
+        "Formula: % Atom Economy = [Formula weight of desired product / Total formula weight of all reactants] × 100%.",
+        "Addition reactions (e.g. hydrogenation, addition across C=C) have 100% atom economy because all reactant atoms are incorporated into the desired product.",
+        "Substitution and elimination reactions have lower atom economy because atoms are lost as side products / waste.",
+        "Example: Conversion of butan-1-ol to 1-bromobutane vs Diels-Alder reaction (100% atom economy)."
+      ],
+      "formulas": [
+        {
+          "label": "% Atom Economy formula",
+          "expr": "% Atom Economy = (Formula weight of desired product / Total formula weight of all reactants) × 100%"
+        },
+        {
+          "label": "100% atom economy reaction type",
+          "expr": "Addition reactions (e.g. CH₂=CH₂ + H₂ → CH₃-CH₃: 100% atom economy)"
+        },
+        {
+          "label": "Reaction with low atom economy",
+          "expr": "Substitution: R-OH + HBr → R-Br + H₂O (water is lost as stoichiometric waste)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Green Syntheses & Safer Alternatives",
+      "tag": "concept",
+      "points": [
+        "1. Prevention of waste (Green synthesis of Ibuprofen): Traditional Boots process had 6 steps with only 40% atom economy (60% waste); Green BHC process has 3 catalytic steps with 77% atom economy (up to 99% with recovered acetic acid).",
+        "2. Safer Solvents: Replacing hazardous volatile organic compounds (VOCs like benzene, CCl₄, CH₂Cl₂) with Supercritical CO₂ (scCO₂), water (universal green solvent), or ionic liquids (zero vapor pressure).",
+        "3. Dry Cleaning of Clothes: Tetrachloroethene (Cl₂C=CCl₂) was traditionally used (carcinogenic, contaminates groundwater); replaced by liquid/supercritical CO₂ with suitable detergent.",
+        "4. Bleaching of Paper: Chlorine gas (Cl₂) produces toxic chlorinated dioxins; replaced by Hydrogen peroxide (H₂O₂) in presence of green catalysts."
+      ],
+      "formulas": [
+        {
+          "label": "Supercritical CO₂ critical coordinates",
+          "expr": "T_c = 31.1 °C (304.25 K) | P_c = 73.8 bar (7.38 MPa)"
+        },
+        {
+          "label": "Green bleaching of pulp reaction",
+          "expr": "H₂O₂ (catalyst) → H₂O + [O] (chlorine-free, zero toxic dioxins)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Nanochemistry: The Nanoscale & Definitions",
+      "tag": "concept",
+      "points": [
+        "Definition: Nanochemistry is the combination of chemistry and nanoscience dealing with the synthesis, characterization, and manipulation of matter at the nanoscale (1 to 100 nanometers).",
+        "1 nanometer (nm) = 10⁻⁹ m = 10 Å = 10⁻⁷ cm.",
+        "Nanomaterial: Any material having at least one dimension in the nanoscale (1-100 nm).",
+        "Why nanoscale is unique: At the nanoscale, materials behave very differently from bulk materials because: 1) Surface area to volume ratio increases exponentially; 2) Quantum confinement effects become dominant (electronic energy levels become discrete instead of continuous bands)."
+      ],
+      "formulas": [
+        {
+          "label": "Nanometer conversion scale",
+          "expr": "1 nm = 10⁻⁹ m = 10⁻⁷ cm = 10 Å = 1000 pm"
+        },
+        {
+          "label": "Nanoscale definition range",
+          "expr": "1 nm to 100 nm (at least one spatial dimension)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Classification of Nanomaterials (0D, 1D, 2D, 3D)",
+      "tag": "formula",
+      "points": [
+        "Classification based on number of dimensions OUTSIDE the nanoscale (or dimensions confined in nanoscale):",
+        "1. Zero-Dimensional (0D): All three dimensions are inside nanoscale (<100 nm). No dimensions outside nanoscale (e.g. Nanoparticles, Quantum dots, Nanoclusters).",
+        "2. One-Dimensional (1D): Two dimensions are inside nanoscale; one dimension is outside nanoscale (>100 nm) (e.g. Nanowires, Nanorods, Carbon Nanotubes CNTs).",
+        "3. Two-Dimensional (2D): One dimension is inside nanoscale; two dimensions are outside nanoscale (>100 nm) (e.g. Graphene, Nanosheets, Nanofilms, Nanolayers).",
+        "4. Three-Dimensional (3D): All three dimensions are outside nanoscale (>100 nm), but composed of nanoscale grains/features (e.g. Polycrystalline materials, Nanocomposites, Bundles of CNTs)."
+      ],
+      "formulas": [
+        {
+          "label": "0D Nanomaterials dimension rule",
+          "expr": "All 3 dimensions < 100 nm (Quantum dots, Nanoparticles)"
+        },
+        {
+          "label": "1D Nanomaterials dimension rule",
+          "expr": "2 dimensions < 100 nm, 1 dimension macroscopic (Nanowires, Nanotubes)"
+        },
+        {
+          "label": "2D Nanomaterials dimension rule",
+          "expr": "1 dimension < 100 nm, 2 dimensions macroscopic (Graphene, Thin films)"
+        },
+        {
+          "label": "3D Nanomaterials dimension rule",
+          "expr": "Bulk composite materials containing nanoscale building blocks"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Surface Area to Volume Ratio & Size-Dependent Properties",
+      "tag": "formula",
+      "points": [
+        "Surface-to-Volume Ratio: For a spherical particle of radius r: S/V = (4πr²) / ((4/3)πr³) = 3/r. As radius decreases, S/V increases drastically! Huge fraction of atoms reside at the surface with unsaturated valencies, making nanoparticles extraordinarily reactive catalysts.",
+        "Size-Dependent Properties: 1) Melting Point: Decreases significantly at nanoscale due to large percentage of surface atoms with fewer neighbors. Bulk Gold melts at 1064 °C; 2 nm gold particles melt at ~300 °C!; 2) Optical Properties: Bulk Gold is shiny yellow; Gold nanoparticles (10-20 nm) appear ruby red or purple due to Surface Plasmon Resonance (SPR); 3) Electrical Conductivity: Bulk copper is a good conductor; copper nanoparticles under 50 nm lose conductivity due to electron scattering; 4) Mechanical Strength: Carbon Nanotubes (CNTs) are 100 times stronger than steel at 1/6th the weight."
+      ],
+      "formulas": [
+        {
+          "label": "Surface-to-volume ratio of a sphere",
+          "expr": "S / V = 3 / r (inversely proportional to radius r)"
+        },
+        {
+          "label": "Surface-to-volume ratio of a cube of edge a",
+          "expr": "S / V = (6a²) / a³ = 6 / a"
+        },
+        {
+          "label": "Melting point depression at nanoscale",
+          "expr": "T_m(nano) < T_m(bulk) (due to high surface energy and lower cohesive energy)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Synthesis of Nanomaterials: Top-Down vs Bottom-Up",
+      "tag": "concept",
+      "points": [
+        "1. Top-Down Approach: Bulk material is broken down, sliced, or milled mechanically into nanoscale particles. Physical methods: Ball milling, High-energy mechanical attrition, Lithography, Etching, Laser ablation. Drawbacks: Imperfection of surface structure, contamination from milling tools, internal stress/defects.",
+        "2. Bottom-Up Approach: Building nanomaterials atom-by-atom, molecule-by-molecule, or cluster-by-cluster through chemical condensation. Chemical/biological methods: Sol-gel method, Chemical Vapor Deposition (CVD), Hydrothermal synthesis, Colloidal precipitation, Green synthesis using plant extracts. Advantages: Precise control over size, shape, and uniform crystalline structure with minimal defects."
+      ],
+      "formulas": [
+        {
+          "label": "Top-down approach direction",
+          "expr": "Bulk material (mechanical milling / laser ablation) → Nanomaterials"
+        },
+        {
+          "label": "Bottom-up approach direction",
+          "expr": "Atoms / Molecules (chemical reaction / sol-gel / CVD) → Nanoclusters → Nanomaterials"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Characterization Techniques & Applications of Nanotechnology",
+      "tag": "formula",
+      "points": [
+        "Characterization Techniques: 1) SEM (Scanning Electron Microscopy): Scans surface with focused electron beam; generates 3D-like images of surface topography, morphology, and particle size; 2) TEM (Transmission Electron Microscopy): High-energy electrons pass THROUGH thin specimen; provides ultra-high resolution (atomic scale ~0.1 nm), internal lattice structure, and crystallography; 3) AFM (Atomic Force Microscopy): Mechanical cantilever probe with nanometer tip scans surface; measures interatomic forces to produce 3D surface topography with sub-nanometer resolution; 4) XRD (X-ray Diffraction): Determines crystal structure, phase purity, and crystallite size using Scherrer's equation: D = (0.9λ) / (β cos θ).",
+        "Applications: Medicine (targeted drug delivery, MRI contrast agents, cancer hyperthermia); Electronics (CNT transistors, OLED displays); Energy (dye-sensitized solar cells with TiO₂ nanoparticles); Environment (water purification with silver nanoparticles, photocatalytic degradation with nano-TiO₂)."
+      ],
+      "formulas": [
+        {
+          "label": "Scherrer formula for crystallite size (XRD)",
+          "expr": "D = (K × λ) / (β × cos θ) (where K ≈ 0.9, β = FWHM in radians, λ = X-ray wavelength)"
+        },
+        {
+          "label": "SEM vs TEM electron interaction",
+          "expr": "SEM: Backscattered & secondary electrons (surface) | TEM: Transmitted electrons through sample (internal structure)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Principles",
+      "tag": "imp",
+      "points": [
+        "Board Q1: State any four principles of Green Chemistry with suitable explanations.",
+        "Board Q2: Define Atom Economy and calculate % Atom economy for a given chemical reaction.",
+        "Board Q3: Differentiate between Top-down and Bottom-up approaches for synthesis of nanomaterials.",
+        "Board Q4: Explain why the properties of nanomaterials differ drastically from bulk materials (surface-to-volume ratio and quantum confinement).",
+        "Board Q5: Explain the role of supercritical CO₂ as a green solvent in dry cleaning and extraction."
+      ],
+      "formulas": [
+        {
+          "label": "% Atom Economy formula",
+          "expr": "% Atom Economy = (Molar mass of desired product / Total molar mass of all reactants) × 100%"
+        },
+        {
+          "label": "12 Principles mnemonic",
+          "expr": "P-R-O-D-U-C-T-I-V-E-L-Y (Prevention, Renewable feedstocks, Optimization, Degradation, Catalysis, etc.)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Dimensionality Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Dimensionality classification: 0D = Quantum dots, fullerenes (C₆₀), nanoparticles (all 3 dimensions in nanoscale); 1D = Nanotubes (CNTs), nanowires, nanorods (2 in nano, 1 macroscopic); 2D = Graphene, nanosheets, nanocoatings (1 in nano, 2 macroscopic).",
+        "TRAP 2: Ruby red color of gold nanoparticles: Caused by Surface Plasmon Resonance (SPR), NOT a chemical reaction! Bulk gold is yellow.",
+        "TRAP 3: 100% Atom economy: ALL addition reactions and rearrangement reactions have 100% atom economy. Substitution and elimination reactions NEVER have 100% atom economy.",
+        "TRAP 4: Dry cleaning solvent evolution: Benzene → Stoddard solvent → Tetrachloroethene (carcinogen) → Supercritical / Liquid CO₂ with green surfactants.",
+        "TRAP 5: Scherrer equation: Particle size D is inversely proportional to peak broadening β (wider XRD peak = smaller nanoparticle crystallite size)."
+      ],
+      "formulas": [
+        {
+          "label": "Nanomaterial dimensionality table shortcut",
+          "expr": "0D = 3 dimensions in nanoscale | 1D = 2 in nano, 1 bulk | 2D = 1 in nano, 2 bulk"
+        },
+        {
+          "label": "Scherrer peak broadening relation",
+          "expr": "D ∝ 1 / β (broader XRD peak means smaller crystallite size)"
+        },
+        {
+          "label": "Green dry cleaning agent",
+          "expr": "Liquid / Supercritical CO₂ + biodegradable surfactant (replaces toxic Cl₂C=CCl₂)"
+        }
+      ]
+    }
+  ]
+}

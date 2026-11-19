@@ -1,0 +1,256 @@
+{
+  "title": "Biomolecules",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Carbohydrates Classification & Monosaccharides",
+      "tag": "concept",
+      "points": [
+        "Carbohydrates: Optically active polyhydroxy aldehydes or polyhydroxy ketones, or compounds that produce them on hydrolysis. General formula C_x(H₂O)_y.",
+        "Classification: Monosaccharides (cannot be hydrolyzed further: glucose, fructose, ribose); Oligosaccharides (yield 2 to 10 monosaccharides: disaccharides like sucrose, maltose, lactose); Polysaccharides (yield large number of monosaccharides: starch, cellulose, glycogen).",
+        "Reducing vs Non-reducing sugars: Reducing sugars contain free or potentially free aldehydic/ketonic carbonyl group and reduce Tollens' and Fehling's reagents (all monosaccharides, maltose, lactose). Non-reducing sugar: glycosidic linkage involves both anomeric carbons (sucrose).",
+        "Aldohexose (Glucose) vs Ketohexose (Fructose)."
+      ],
+      "formulas": [
+        {
+          "label": "General carbohydrate empirical formula",
+          "expr": "C_x(H₂O)_y (e.g. Glucose: C₆H₁₂O₆ where x=6, y=6)"
+        },
+        {
+          "label": "Disaccharide hydrolysis general equation",
+          "expr": "C₁₂H₂₂O₁₁ + H₂O (H⁺ or enzyme) → C₆H₁₂O₆ + C₆H₁₂O₆"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "D-Glucose: Open Chain Structure & Proof Reactions",
+      "tag": "formula",
+      "points": [
+        "Molecular formula: C₆H₁₂O₆.",
+        "1. Straight chain of 6 carbons: Prolonged heating with HI + red P → n-hexane.",
+        "2. Presence of carbonyl group: Reacts with hydroxylamine (NH₂OH) → monoxime; Reacts with HCN → cyanohydrin.",
+        "3. Carbonyl is an aldehyde: Mild oxidation with Bromine water (Br₂/H₂O) → Gluconic acid (C₆H₁₂O₇, mono-carboxylic acid).",
+        "4. Presence of 5 −OH groups: Acetylation with acetic anhydride (Ac₂O) → Glucose pentaacetate (stable, indicating 5 −OH groups on 5 different carbons).",
+        "5. Presence of 1° alcohol group: Strong oxidation with dilute HNO₃ → Saccharic acid / Glucaric acid (HOOC−(CHOH)₄−COOH, dicarboxylic acid).",
+        "D-Configuration: OH on the lowest asymmetric carbon (C-5) is on the right side in Fischer projection. D-(+)-glucose is dextrorotatory."
+      ],
+      "formulas": [
+        {
+          "label": "Proof of 6-carbon straight chain (HI/P)",
+          "expr": "C₆H₁₂O₆ + HI (red P, Δ) → CH₃-CH₂-CH₂-CH₂-CH₂-CH₃ (n-hexane)"
+        },
+        {
+          "label": "Proof of aldehyde group (Br₂ water)",
+          "expr": "CHO-(CHOH)₄-CH₂OH + Br₂ + H₂O → COOH-(CHOH)₄-CH₂OH (gluconic acid) + 2HBr"
+        },
+        {
+          "label": "Proof of primary alcohol group (HNO₃)",
+          "expr": "CHO-(CHOH)₄-CH₂OH + 3[O] (conc. HNO₃) → COOH-(CHOH)₄-COOH (saccharic acid) + H₂O"
+        },
+        {
+          "label": "Proof of 5 hydroxyl groups (acetylation)",
+          "expr": "Glucose + 5(CH₃CO)₂O (ZnCl₂) → Glucose pentaacetate + 5CH₃COOH"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Cyclic Structure of Glucose & Mutarotation",
+      "tag": "concept",
+      "points": [
+        "Limitations of open chain: Does not give 2,4-DNP test or Schiff's test; does not form hydrogen sulfite addition compound with NaHSO₃; Glucose pentaacetate does not react with hydroxylamine (proves absent free −CHO).",
+        "Cyclic hemiacetal formation: Intramolecular nucleophilic addition of C-5 −OH to C-1 −CHO group forming a 6-membered pyranose ring (glucopyranose).",
+        "Anomers: Diastereomers differing only in configuration at C-1 (anomeric carbon):",
+        "- α-D-(+)-glucopyranose: C-1 −OH is on right in Fischer (down in Haworth), melting point 419 K, specific rotation +112°.",
+        "- β-D-(+)-glucopyranose: C-1 −OH is on left in Fischer (up in Haworth), melting point 423 K, specific rotation +19°.",
+        "Mutarotation: Spontaneous change in specific optical rotation of an optically active solution over time until an equilibrium value is reached (+52.7° at equilibrium containing 36% α and 64% β)."
+      ],
+      "formulas": [
+        {
+          "label": "Mutarotation optical equilibrium values",
+          "expr": "α-D-glucose (+112°) ⇌ Equilibrium (+52.7°) ⇌ β-D-glucose (+19°)"
+        },
+        {
+          "label": "Glucopyranose ring structure",
+          "expr": "Six-membered pyranose ring formed by hemiacetal linkage between C-1 and C-5 oxygen"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Disaccharides: Sucrose, Maltose, Lactose & Invert Sugar",
+      "tag": "formula",
+      "points": [
+        "Glycosidic linkage: Oxide / ether linkage (−O−) formed between two monosaccharide units by loss of a water molecule.",
+        "1. Sucrose (Cane Sugar): Non-reducing sugar; composed of α-D-glucopyranose (C-1) and β-D-fructofuranose (C-2) joined by C1-C2 glycosidic linkage. Both reducing groups are tied up!",
+        "Invert Sugar: Sucrose is dextrorotatory (+66.5°); on acid hydrolysis gives equimolar mixture of D-(+)-glucose (+52.7°) and D-(−)-fructose (−92.4°). Since levorotation of fructose is greater than dextrorotation of glucose, the resulting mixture is levorotatory (−19.8°). This sign inversion from (+) to (−) is called Inversion of Cane Sugar!",
+        "2. Maltose: Reducing sugar; composed of two α-D-glucose units joined by α-1,4-glycosidic linkage. Free C-1 anomeric carbon at second ring.",
+        "3. Lactose (Milk Sugar): Reducing sugar; composed of β-D-galactose (C-1) and β-D-glucose (C-4) joined by β-1,4-glycosidic linkage."
+      ],
+      "formulas": [
+        {
+          "label": "Inversion of cane sugar reaction",
+          "expr": "C₁₂H₂₂O₁₁ (sucrose, [α] = +66.5°) + H₂O (H⁺) → D-(+)-glucose (+52.7°) + D-(−)-fructose (−92.4°); [α]_mix = −19.8°"
+        },
+        {
+          "label": "Sucrose glycosidic linkage",
+          "expr": "α-D-glucose (C-1) − O − β-D-fructose (C-2) (non-reducing)"
+        },
+        {
+          "label": "Maltose glycosidic linkage",
+          "expr": "α-D-glucose (C-1) − O − α-D-glucose (C-4) (reducing sugar)"
+        },
+        {
+          "label": "Lactose glycosidic linkage",
+          "expr": "β-D-galactose (C-1) − O − β-D-glucose (C-4) (reducing sugar)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Polysaccharides: Starch, Cellulose & Glycogen",
+      "tag": "concept",
+      "points": [
+        "1. Starch (C₆H₁₀O₅)ₙ: Main storage polysaccharide of plants. Polymer of α-D-glucose. Consists of two components:",
+        "- Amylose (15-20%): Water soluble, linear unbranched chain of α-D-glucose linked by α-1,4-glycosidic bonds (200-1000 units); gives blue color with iodine.",
+        "- Amylopectin (80-85%): Water insoluble, branched chain. Main chain α-1,4-glycosidic bonds; branching occurs via α-1,6-glycosidic bonds every 20-25 units; gives reddish-purple color with iodine.",
+        "2. Cellulose: Structural component of plant cell walls. Linear, unbranched polymer of β-D-glucose linked by β-1,4-glycosidic bonds. Humans cannot digest cellulose because they lack cellulase enzyme.",
+        "3. Glycogen (Animal Starch): Storage polysaccharide in animal liver and muscles. Structurally similar to amylopectin but much more highly branched (branching every 8-12 units)."
+      ],
+      "formulas": [
+        {
+          "label": "Starch component percentages",
+          "expr": "Amylose: 15-20% (water-soluble, linear α-1,4) | Amylopectin: 80-85% (insoluble, branched α-1,4 & α-1,6)"
+        },
+        {
+          "label": "Cellulose glycosidic linkage",
+          "expr": "Linear polymer of β-D-glucose linked by β-1,4-glycosidic bonds"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Amino Acids: Classification, Zwitterion & Isoelectric Point",
+      "tag": "formula",
+      "points": [
+        "Structure: Contain amino group (−NH₂) and carboxyl group (−COOH) on α-carbon: R−CH(NH₂)−COOH.",
+        "Classification by nature: Neutral (equal NH₂ and COOH, e.g. glycine, alanine); Acidic (excess COOH, e.g. aspartic acid, glutamic acid); Basic (excess NH₂, e.g. lysine, arginine, histidine).",
+        "Essential vs Non-essential: Essential (cannot be synthesized by body, must be in diet: Val, Leu, Ile, Lys, Met, Phe, Thr, Trp); Non-essential (synthesized by body: Gly, Ala, etc.).",
+        "Optical activity: All naturally occurring amino acids are optically active and have L-configuration, EXCEPT Glycine (H₂N−CH₂−COOH is achiral).",
+        "Zwitterion (Dipolar ion): In aqueous solution, acidic −COOH loses a proton to basic −NH₂: R−CH(⁺NH₃)−COO⁻. Has high melting point, water soluble, amphoteric.",
+        "Isoelectric Point (pI): The specific pH at which an amino acid exists predominantly as neutral dipolar zwitterion and carries no net electrical charge; does not migrate in an electric field."
+      ],
+      "formulas": [
+        {
+          "label": "General amino acid Zwitterion structure",
+          "expr": "R-CH(NH₂)-COOH ⇌ R-CH(⁺NH₃)-COO⁻ (dipolar zwitterion)"
+        },
+        {
+          "label": "Isoelectric point (pI) calculation for neutral amino acid",
+          "expr": "pI = (pK_a1 + pK_a2) / 2"
+        },
+        {
+          "label": "Glycine achirality note",
+          "expr": "H₂N-CH₂-COOH (two -H atoms on α-carbon; only achiral natural amino acid)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Proteins: Peptide Linkage, Structural Levels & Denaturation",
+      "tag": "concept",
+      "points": [
+        "Peptide Linkage (amide bond −CO−NH−): Formed between −COOH of one amino acid and −NH₂ of another with elimination of H₂O.",
+        "Structural levels of proteins: 1) Primary (1°): Linear sequence of amino acids linked by peptide bonds; 2) Secondary (2°): Regular folding of polypeptide backbone stabilized by hydrogen bonding between >C=O and −NH− (α-Helix right-handed spiral; β-Pleated Sheet zigzag sheets); 3) Tertiary (3°): Overall 3D folding into globular or fibrous shapes, stabilized by H-bonds, disulfide linkages (−S−S−), ionic salt bridges, and hydrophobic interactions; 4) Quaternary (4°): Spatial arrangement of multiple polypeptide subunits (e.g. Hemoglobin with 4 subunits: 2α + 2β).",
+        "Denaturation: Disruption of secondary, tertiary, and quaternary structures of a protein by heat, pH change, or chemicals without breaking primary peptide bonds. Protein loses biological activity (e.g. coagulation of egg white on boiling, curdling of milk)."
+      ],
+      "formulas": [
+        {
+          "label": "Peptide bond condensation reaction",
+          "expr": "R₁-CH(NH₂)-COOH + R₂-CH(NH₂)-COOH → R₁-CH(NH₂)-CO-NH-CH(R₂)-COOH + H₂O"
+        },
+        {
+          "label": "Forces stabilizing tertiary structure",
+          "expr": "Hydrogen bonds, Disulfide linkages (−S−S−), Salt bridges (ionic), Hydrophobic van der Waals forces"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Nucleic Acids: DNA, RNA & Chargaff's Rules",
+      "tag": "formula",
+      "points": [
+        "Components of nucleotides: 1) Nitrogenous base: Purines (Adenine 'A', Guanine 'G'); Pyrimidines (Cytosine 'C', Thymine 'T' in DNA, Uracil 'U' in RNA); 2) Pentose sugar: β-D-2-deoxyribose (DNA) vs β-D-ribose (RNA); 3) Phosphate group: Esterified to 5'-OH of sugar.",
+        "Nucleoside vs Nucleotide: Nucleoside = Base + Sugar (linked by N-glycosidic bond at C-1'). Nucleotide = Nucleoside + Phosphate (esterified at C-5').",
+        "Dinucleotide linkage: Phosphodiester linkage between 3'-OH of one nucleotide sugar and 5'-OH of next. Chain runs 5' → 3'.",
+        "DNA Double Helix (Watson and Crick): Two antiparallel polynucleotide chains coiled around central axis. Complementary base pairing via hydrogen bonds: A = T (2 hydrogen bonds); G ≡ C (3 hydrogen bonds).",
+        "Chargaff's Rules: In double-stranded DNA: Moles of Adenine = Moles of Thymine (A = T); Moles of Guanine = Moles of Cytosine (G = C); Total Purines = Total Pyrimidines (A + G = T + C)."
+      ],
+      "formulas": [
+        {
+          "label": "Chargaff's Equimolar Rules (double-stranded DNA)",
+          "expr": "A = T and G = C; therefore (A + G) / (T + C) = 1"
+        },
+        {
+          "label": "Hydrogen bonds in complementary base pairs",
+          "expr": "A = T (2 hydrogen bonds) | G ≡ C (3 hydrogen bonds)"
+        },
+        {
+          "label": "Nucleotide composition relation",
+          "expr": "Nucleotide = Base + Pentose Sugar + Phosphate group (linked at 5' position)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Reasonings",
+      "tag": "imp",
+      "points": [
+        "Board Q1: What is Invert sugar and why is it so called? (Explain sucrose inversion from +66.5° to −19.8° due to fructose levorotation).",
+        "Board Q2: State proof reactions for: 1) 6 carbon straight chain in glucose; 2) Presence of aldehyde group; 3) 5 hydroxyl groups.",
+        "Board Q3: Explain what is meant by Denaturation of proteins and state which structural levels are destroyed (2°, 3°, 4° destroyed; 1° remains intact!).",
+        "Board Q4: Define Zwitterion and Isoelectric point with suitable example.",
+        "Board Q5: Differences between DNA and RNA: Sugar (2-deoxyribose vs ribose), Bases (Thymine vs Uracil), Structure (Double-stranded helix vs Single strand)."
+      ],
+      "formulas": [
+        {
+          "label": "Denaturation impact summary",
+          "expr": "Primary structure (peptide sequence) remains intact; 2°, 3°, and 4° structures unfold and lose activity"
+        },
+        {
+          "label": "Invert sugar rotation calculation",
+          "expr": "[α]_mix = (52.7° − 92.4°) / 2 = −19.85° (levorotatory final mixture)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Calculation Hacks",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Optical activity of amino acids: ALL natural amino acids are optically active EXCEPT Glycine (achiral).",
+        "TRAP 2: Reducing sugar identification: Sucrose is NON-REDUCING (C-1 of glucose and C-2 of fructose are tied in glycosidic bond). Maltose, Lactose, Glucose, Fructose are REDUCING sugars.",
+        "TRAP 3: Starch components: Amylose is water-SOLUBLE and linear (α-1,4). Amylopectin is water-INSOLUBLE and branched (α-1,4 and α-1,6).",
+        "TRAP 4: Chargaff's rule calculation: If a DNA sample has 20% Cytosine → G = 20% → G + C = 40% → A + T = 60% → A = 30%, T = 30%!",
+        "TRAP 5: Nitrogenous bases: Thymine is 5-methyluracil. Present in DNA, absent in RNA (replaced by Uracil)."
+      ],
+      "formulas": [
+        {
+          "label": "Chargaff's percentage formula shortcut",
+          "expr": "%A = %T and %G = %C; %A + %T + %G + %C = 100%"
+        },
+        {
+          "label": "Chemical identity of Thymine",
+          "expr": "Thymine = 5-Methyluracil (present in DNA; Uracil in RNA)"
+        },
+        {
+          "label": "Equimolar invert sugar composition",
+          "expr": "Invert sugar = 50% D-(+)-glucose + 50% D-(−)-fructose"
+        }
+      ]
+    }
+  ]
+}

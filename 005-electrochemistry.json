@@ -1,0 +1,257 @@
+{
+  "title": "Electrochemistry",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Conductance, Conductivity & Cell Constant",
+      "tag": "formula",
+      "points": [
+        "Electrical Resistance: R = ρ (l / A). SI Unit: Ohm (Ω).",
+        "Conductance (G): Reciprocal of resistance: G = 1 / R. Unit: Ω⁻¹ or Siemens (S).",
+        "Conductivity / Specific Conductance (κ): Conductance of 1 cm³ of solution: κ = (1/R) · (l/A) = G · k_cell. Unit: Ω⁻¹ cm⁻¹ or S cm⁻¹ (SI: S m⁻¹).",
+        "Cell Constant (k_cell): Ratio of distance between electrodes to cross-sectional area: k_cell = l / A = R · κ. Unit: cm⁻¹ or m⁻¹.",
+        "Wheatstone Bridge method is used to measure resistance R of an electrolytic solution using AC source (to prevent electrolysis)."
+      ],
+      "formulas": [
+        {
+          "label": "Conductivity formula",
+          "expr": "κ = (1 / R) · (l / A) = G · k_cell"
+        },
+        {
+          "label": "Cell constant",
+          "expr": "k_cell = l / A = R · κ"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Molar Conductivity (Λ) & Dilution Effects",
+      "tag": "formula",
+      "points": [
+        "Molar Conductivity (Λ): Conducting power of all ions produced by dissolving 1 mole of electrolyte in solution: Λ = (1000 · κ) / C, where κ is in S cm⁻¹, C in mol L⁻¹ (M). Unit: S cm² mol⁻¹.",
+        "Effect of Dilution on Conductivity (κ): Conductivity κ DECREASES on dilution for both strong and weak electrolytes because the number of current-carrying ions per unit volume decreases.",
+        "Effect of Dilution on Molar Conductivity (Λ): Molar conductivity Λ INCREASES on dilution because total volume containing 1 mole increases more than κ decreases.",
+        "Debye-Hückel-Onsager Equation (Strong Electrolytes): Λ = Λ₀ − A √C. Plot of Λ vs √C is a straight line with intercept Λ₀ (molar conductivity at infinite dilution) and slope −A."
+      ],
+      "formulas": [
+        {
+          "label": "Molar conductivity",
+          "expr": "Λ = (1000 · κ) / C"
+        },
+        {
+          "label": "Debye-Huckel-Onsager",
+          "expr": "Λ = Λ₀ − A √C"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Kohlrausch's Law of Independent Migration",
+      "tag": "formula",
+      "points": [
+        "Statement: At infinite dilution, each ion migrates independently of its co-ion and makes a definite contribution to the total molar conductivity of the electrolyte.",
+        "Equation: Λ₀ = x λ₊° + y λ₋° for electrolyte A_x B_y.",
+        "Applications of Kohlrausch's Law:",
+        "1. Calculation of Λ₀ for weak electrolytes: Λ₀(CH₃COOH) = Λ₀(CH₃COONa) + Λ₀(HCl) − Λ₀(NaCl).",
+        "2. Degree of Dissociation of weak electrolyte: α = Λ / Λ₀.",
+        "3. Dissociation Constant of weak acid: K_a = (α² C) / (1 − α) = [C (Λ/Λ₀)²] / [1 − (Λ/Λ₀)]."
+      ],
+      "formulas": [
+        {
+          "label": "Kohlrausch's law",
+          "expr": "Λ₀ = x λ₊° + y λ₋°"
+        },
+        {
+          "label": "Degree of dissociation from Λ",
+          "expr": "α = Λ / Λ₀"
+        },
+        {
+          "label": "Acetic acid Λ₀",
+          "expr": "Λ₀(CH₃COOH) = Λ₀(CH₃COONa) + Λ₀(HCl) − Λ₀(NaCl)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Galvanic Cells & The Daniell Cell",
+      "tag": "concept",
+      "points": [
+        "Galvanic / Voltaic Cell: Converts chemical energy of a spontaneous redox reaction into electrical energy.",
+        "Daniell Cell Setup: Zn(s) | Zn²⁺(aq, 1 M) || Cu²⁺(aq, 1 M) | Cu(s).",
+        "• Anode (Oxidation, Negative terminal): Zn(s) ⟶ Zn²⁺(aq) + 2e⁻.",
+        "• Cathode (Reduction, Positive terminal): Cu²⁺(aq) + 2e⁻ ⟶ Cu(s).",
+        "• Net Cell Reaction: Zn(s) + Cu²⁺(aq) ⟶ Zn²⁺(aq) + Cu(s).",
+        "Salt Bridge: U-tube filled with agar-agar gel containing inert electrolyte (KCl, KNO₃, NH₄NO₃). Functions: (1) Maintains electrical neutrality, (2) Prevents liquid junction potential, (3) Completes circuit.",
+        "Standard Cell Potential: E°_cell = E°_cathode − E°_anode = E°_right − E°_left = +0.34 V − (−0.76 V) = +1.10 V."
+      ],
+      "formulas": [
+        {
+          "label": "Standard cell potential",
+          "expr": "E°_cell = E°_cathode − E°_anode"
+        },
+        {
+          "label": "Daniell cell E°",
+          "expr": "E°_cell = 0.34 V − (−0.76 V) = +1.10 V"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Standard Hydrogen Electrode (SHE) & Series",
+      "tag": "concept",
+      "points": [
+        "Standard Hydrogen Electrode (SHE): Primary reference electrode. Reversible hydrogen electrode.",
+        "Representation: Pt(s) | H₂(g, 1 bar) | H⁺(aq, 1 M).",
+        "Assigned Potential: E° = 0.000 V at all temperatures.",
+        "Can act as anode (H₂ ⟶ 2H⁺ + 2e⁻) or cathode (2H⁺ + 2e⁻ ⟶ H₂).",
+        "Electrochemical Series: Arrangement of electrode systems in increasing order of their standard reduction potentials (E°).",
+        "• Top: Strong reducing agents (Li⁺/Li = −3.05 V, readily oxidized).",
+        "• Bottom: Strong oxidizing agents (F₂/F⁻ = +2.87 V, readily reduced).",
+        "A metal with lower E° displaces a metal with higher E° from its salt solution."
+      ],
+      "formulas": [
+        {
+          "label": "SHE standard potential",
+          "expr": "E°_SHE = 0.000 V"
+        },
+        {
+          "label": "Displacement rule",
+          "expr": "Lower E° (active metal) displaces higher E° ion"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Nernst Equation & Equilibrium Constant",
+      "tag": "formula",
+      "points": [
+        "Nernst Equation for Half-Cell (Mⁿ⁺ + n e⁻ ⟶ M): E = E° − (0.0592 / n) log₁₀(1 / [Mⁿ⁺]) at 298 K.",
+        "Nernst Equation for Complete Cell: E_cell = E°_cell − (0.0592 / n) log₁₀ Q, where Q is reaction quotient = [Products] / [Reactants].",
+        "At Equilibrium: E_cell = 0 and Q = K_eq.",
+        "Equilibrium Constant Formula: log₁₀ K_eq = (n · E°_cell) / 0.0592 at 298 K.",
+        "Gibbs Energy and Cell Potential: ΔG° = −n F E°_cell.",
+        "Spontaneity criterion: E°_cell > 0 ⟹ ΔG° < 0 (spontaneous reaction)."
+      ],
+      "formulas": [
+        {
+          "label": "Nernst equation at 298 K",
+          "expr": "E_cell = E°_cell − (0.0592 / n) log₁₀ Q"
+        },
+        {
+          "label": "Equilibrium constant K_eq",
+          "expr": "log₁₀ K_eq = (n · E°_cell) / 0.0592"
+        },
+        {
+          "label": "Gibbs energy link",
+          "expr": "ΔG° = −n F E°_cell"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Electrolysis & Faraday's Laws",
+      "tag": "formula",
+      "points": [
+        "Electrolysis: Non-spontaneous redox reaction driven by external electrical energy in an electrolytic cell.",
+        "Faraday's First Law: Mass of substance deposited (W) is directly proportional to quantity of electricity (Q):",
+        "W = Z · Q = Z · I · t, where Z = Electrochemical Equivalent = (Molar mass) / (n · F).",
+        "Faraday's Constant: 1 F = charge of 1 mole electrons ≈ 96500 C mol⁻¹.",
+        "Faraday's Second Law: When same quantity of electricity is passed through different electrolytes in series: W₁ / E₁ = W₂ / E₂.",
+        "Electrolysis Products:",
+        "• Molten NaCl: Na at cathode, Cl₂ at anode.",
+        "• Aqueous NaCl: H₂ at cathode (higher reduction potential than Na⁺), Cl₂ at anode (overvoltage of O₂)."
+      ],
+      "formulas": [
+        {
+          "label": "Faraday 1st Law",
+          "expr": "W = (M · I · t) / (n · 96500)"
+        },
+        {
+          "label": "Electrochemical equivalent",
+          "expr": "Z = Molar mass / (n · 96500)"
+        },
+        {
+          "label": "Faraday 2nd Law",
+          "expr": "W₁ / E₁ = W₂ / E₂"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Commercial Batteries, Fuel Cells & Corrosion",
+      "tag": "concept",
+      "points": [
+        "Primary Batteries: Dry cell (Leclanché cell, 1.5 V), Mercury cell (1.35 V, stable voltage, used in hearing aids). Non-rechargeable.",
+        "Secondary Batteries (Rechargeable): Lead Storage Battery (used in automobiles):",
+        "• Anode: Pb(s); Cathode: PbO₂(s); Electrolyte: 38% H₂SO₄ (density 1.28 g/cm³).",
+        "• Discharge reaction: Pb(s) + PbO₂(s) + 2H₂SO₄(aq) ⟶ 2PbSO₄(s) + 2H₂O(l) (E_cell ≈ 2.0 V per cell, 12 V for 6 cells). Charging reverses reaction.",
+        "H₂-O₂ Fuel Cell: Converts chemical energy of combustion directly into electricity: 2H₂ + O₂ ⟶ 2H₂O. High efficiency (~70%), eco-friendly (used in Apollo space program).",
+        "Corrosion of Iron (Rusting): Electrochemical process. Anode: Fe(s) ⟶ Fe²⁺ + 2e⁻; Cathode: O₂ + 4H⁺ + 4e⁻ ⟶ 2H₂O. Rust formula: Fe₂O₃ · xH₂O. Prevention: Galvanization (Zn coating), sacrificial anode (Mg, Zn blocks)."
+      ],
+      "formulas": [
+        {
+          "label": "Lead accumulator discharge",
+          "expr": "Pb + PbO₂ + 2H₂SO₄ ⟶ 2PbSO₄ + 2H₂O"
+        },
+        {
+          "label": "Fuel cell net reaction",
+          "expr": "2H₂(g) + O₂(g) ⟶ 2H₂O(l) (E°_cell = 1.23 V)"
+        },
+        {
+          "label": "Rust formula",
+          "expr": "Fe₂O₃ · xH₂O"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "Must-Know Board Derivations & Diagrams",
+      "tag": "imp",
+      "points": [
+        "Board Favourite #1: Derive Nernst equation for cell potential and obtain expression for equilibrium constant log₁₀ K_eq = (n E°_cell) / 0.0592.",
+        "Board Favourite #2: State and explain Kohlrausch's law of independent migration of ions. How is it used to determine Λ₀ of acetic acid?",
+        "Board Favourite #3: Draw neat labeled diagram of Standard Hydrogen Electrode (SHE) and write its electrode reactions.",
+        "Board Favourite #4: Describe the construction, working, and discharging/charging reactions of Lead Storage Battery.",
+        "Board Favourite #5: State and explain Faraday's first and second laws of electrolysis with mathematical expressions."
+      ],
+      "formulas": [
+        {
+          "label": "Nernst derivation",
+          "expr": "ΔG = ΔG° + RT ln Q ⟹ −nFE = −nFE° + RT ln Q"
+        },
+        {
+          "label": "K_eq derivation",
+          "expr": "At equilibrium E = 0 ⟹ E° = (0.0592 / n) log K_eq"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET Shortcuts, Nernst Traps & Faraday Hacks",
+      "tag": "imp",
+      "points": [
+        "Intensive Property Trap: E°_cell is an INTENSIVE property! Never multiply E° when multiplying a half-reaction by a stoichiometric coefficient (e.g., if Zn²⁺ + 2e⁻ ⟶ Zn has E° = −0.76 V, then 2Zn²⁺ + 4e⁻ ⟶ 2Zn ALSO has E° = −0.76 V!).",
+        "ΔG° is EXTENSIVE: ΔG° = −n F E°_cell (depends on n).",
+        "Nernst Reaction Quotient Exponent Trap: For Al | Al³⁺ || Cu²⁺ | Cu: Reaction is 2Al + 3Cu²⁺ ⟶ 2Al³⁺ + 3Cu ⟹ Q = [Al³⁺]² / [Cu²⁺]³ and n = 6!",
+        "Faraday Mass Shortcut: Mass deposited W = (Molar mass × I × t) / (n × 96500).",
+        "Electricity to Deposit 1 Mole: 1 mole Ag⁺ = 1 F; 1 mole Cu²⁺ = 2 F; 1 mole Al³⁺ = 3 F."
+      ],
+      "formulas": [
+        {
+          "label": "E° intensive trap",
+          "expr": "E° never multiplied by stoichiometric factor"
+        },
+        {
+          "label": "Nernst power trap check",
+          "expr": "Q = [Anode ion]^coeff / [Cathode ion]^coeff"
+        },
+        {
+          "label": "Charge required",
+          "expr": "Q(Coulombs) = n × 96500 C per mole of metal"
+        }
+      ]
+    }
+  ]
+}

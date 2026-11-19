@@ -1,0 +1,257 @@
+{
+  "title": "Alcohols, Phenols and Ethers",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Classification & IUPAC Nomenclature",
+      "tag": "concept",
+      "points": [
+        "Alcohols: Monohydric (1°, 2°, 3° alkanols), Dihydric (glycols e.g. ethylene glycol / ethane-1,2-diol), Trihydric (glycerol / propane-1,2,3-triol), Allylic, Benzylic.",
+        "Phenols: Monohydric (phenol, o/m/p-cresols, nitrophenols), Dihydric (catechol: 1,2-dihydroxy; resorcinol: 1,3; hydroquinone/quinol: 1,4), Trihydric (pyrogallol: 1,2,3; phloroglucinol: 1,3,5).",
+        "Ethers: Symmetrical / simple (R−O−R e.g. diethyl ether) vs Unsymmetrical / mixed (R−O−R' e.g. ethyl methyl ether).",
+        "IUPAC rules: Alcohols named as alkanols; Phenols named as benzenols; Ethers named as alkoxyalkanes (smaller alkyl group + oxy = alkoxy substituent, larger alkyl group = parent alkane)."
+      ],
+      "formulas": [
+        {
+          "label": "Polyhydric alcohol structures",
+          "expr": "Ethylene glycol: CH₂OH-CH₂OH (ethane-1,2-diol) | Glycerol: CH₂OH-CHOH-CH₂OH (propane-1,2,3-triol)"
+        },
+        {
+          "label": "Dihydric phenol isomer structures",
+          "expr": "Catechol (1,2-benzenediol) | Resorcinol (1,3-benzenediol) | Quinol (1,4-benzenediol)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Preparation of Alcohols: Industrial & Laboratory",
+      "tag": "formula",
+      "points": [
+        "From alkenes: 1) Acid-catalyzed hydration (H₂SO₄): Markovnikov addition via carbocation intermediate (rearrangements possible); 2) Hydroboration-Oxidation (B₂H₆ followed by alkaline H₂O₂): Anti-Markovnikov hydration, syn-addition, no rearrangements; 3) Oxymercuration-Demercuration: Markovnikov addition without rearrangement.",
+        "From carbonyl compounds: Reduction of aldehydes gives 1° alcohols, ketones gives 2° alcohols (using NaBH₄ or LiAlH₄ or H₂/Ni); Carboxylic acids and esters reduced to 1° alcohols using LiAlH₄.",
+        "From Grignard reagents (RMgX): Formaldehyde (HCHO) + RMgX → 1° alcohol; Other aldehydes (R'CHO) + RMgX → 2° alcohol; Ketones (R'COR'') + RMgX → 3° alcohol."
+      ],
+      "formulas": [
+        {
+          "label": "Hydroboration-Oxidation of propene",
+          "expr": "6CH₃-CH=CH₂ + B₂H₆ → 2(CH₃CH₂CH₂)₃B (H₂O₂, OH⁻) → 3CH₃CH₂CH₂OH (1-propanol) + H₃BO₃"
+        },
+        {
+          "label": "Grignard synthesis of 1° alcohol",
+          "expr": "HCHO + RMgX → R-CH₂-OMgX (H₃O⁺) → R-CH₂OH + Mg(OH)X"
+        },
+        {
+          "label": "Grignard synthesis of 2° and 3° alcohols",
+          "expr": "R'CHO + RMgX → R'CH(OH)R (2° alcohol) | R'COR'' + RMgX → R'R''C(OH)R (3° alcohol)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Preparation of Phenols: Industrial & Laboratory",
+      "tag": "formula",
+      "points": [
+        "1. From Cumene (Isopropylbenzene - Industrial method): Cumene oxidized with air at 423 K (Co-naphthenate) to Cumene hydroperoxide; treated with dilute H₂SO₄ gives Phenol and Acetone (valuable by-product).",
+        "2. From Chlorobenzene (Dow's Process): Chlorobenzene heated with 2NaOH (623 K, 300 atm) to form sodium phenoxide, followed by acidification with dil HCl to yield Phenol.",
+        "3. From Benzene sulfonic acid: Benzene sulfonated with oleum; fused with solid NaOH at 573 K to form sodium phenoxide, acidified with dil HCl to give Phenol.",
+        "4. From Aniline (Diazotization): Aniline reacted with NaNO₂ + HCl (273-278 K) to form benzene diazonium chloride; warmed with water (H₂O, Δ) to liberate Phenol + N₂↑ + HCl."
+      ],
+      "formulas": [
+        {
+          "label": "Cumene process for phenol (industrial)",
+          "expr": "C₆H₅-CH(CH₃)₂ + O₂ (423 K) → C₆H₅-C(CH₃)₂-O-O-H (dil H₂SO₄) → C₆H₅-OH + CH₃-CO-CH₃"
+        },
+        {
+          "label": "Diazonium salt hydrolysis to phenol",
+          "expr": "C₆H₅-NH₂ + NaNO₂ + 2HCl (0-5 °C) → C₆H₅-N₂⁺Cl⁻ (warm H₂O) → C₆H₅-OH + N₂↑ + HCl"
+        },
+        {
+          "label": "Benzenesulfonic acid fusion",
+          "expr": "C₆H₅-SO₃H + 3NaOH (fuse, 573 K) → C₆H₅-ONa + Na₂SO₃ + 2H₂O (H⁺) → C₆H₅-OH"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Physical Properties & Acidity of Alcohols and Phenols",
+      "tag": "concept",
+      "points": [
+        "Boiling points: Alcohols and phenols have exceptionally high boiling points compared to alkanes and ethers of similar molar mass due to strong intermolecular hydrogen bonding.",
+        "Solubility: Lower alcohols are completely miscible with water due to H-bonding; solubility decreases as hydrophobic alkyl chain length increases.",
+        "Acidity of Alcohols vs Water: Alcohols are weaker acids than water (ROH < H₂O) because electron-donating alkyl groups (+I effect) destabilize the alkoxide ion RO⁻. Order: CH₃OH > 1° > 2° > 3°.",
+        "Acidity of Phenols: Phenols are significantly more acidic than alcohols and water (Phenol > H₂O > ROH) because phenoxide ion is resonance-stabilized (negative charge delocalized over 2, 4, 6 positions of benzene ring), whereas alkoxide has no resonance.",
+        "Substituent effects: Electron-withdrawing groups (−NO₂, −CN, −X) increase phenol acidity (especially at ortho/para); Electron-donating groups (−CH₃, −OCH₃) decrease acidity."
+      ],
+      "formulas": [
+        {
+          "label": "Relative acidity order of OH compounds",
+          "expr": "3° alcohol < 2° alcohol < 1° alcohol < H₂O < Phenol < Carboxylic acid"
+        },
+        {
+          "label": "Resonance stabilization of phenoxide ion",
+          "expr": "C₆H₅-O⁻ ⇌ 5 resonance structures (negative charge delocalized on ortho and para positions)"
+        },
+        {
+          "label": "Substituted phenol acidity order",
+          "expr": "o-cresol < p-cresol < Phenol < p-nitrophenol < 2,4-dinitrophenol < Picric acid (pKa ≈ 0.38)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Chemical Reactions of Alcohols: Lucas Test & Oxidation",
+      "tag": "formula",
+      "points": [
+        "Reactions breaking O−H bond: Reaction with active metals (Na, K, Al) releasing H₂ gas; Esterification with carboxylic acids / anhydrides (conc H₂SO₄).",
+        "Lucas Test (cleavage of C−O bond with conc HCl + anhy. ZnCl₂): 3° alcohol gives immediate turbidity (cloudiness); 2° alcohol gives turbidity in 5 minutes; 1° alcohol gives no turbidity at room temp, appears on heating.",
+        "Dehydration to alkenes: Heated with conc H₂SO₄; reactivity: 3° (20% H₂SO₄, 358 K) > 2° (85% H₃PO₄, 440 K) > 1° (conc H₂SO₄, 443 K).",
+        "Oxidation: 1° alcohol + PCC → Aldehyde (stops at aldehyde); 1° alcohol + acidified KMnO₄ / K₂Cr₂O₇ → Carboxylic acid; 2° alcohol + CrO₃ → Ketone; 3° alcohol resists oxidation.",
+        "Heated Copper at 573 K: 1° gives Aldehyde + H₂; 2° gives Ketone + H₂; 3° undergoes dehydration giving Alkene + H₂O."
+      ],
+      "formulas": [
+        {
+          "label": "Lucas test reaction for 3° alcohol",
+          "expr": "R₃C-OH + conc. HCl (anhydrous ZnCl₂) → R₃C-Cl↓ (immediate turbidity) + H₂O"
+        },
+        {
+          "label": "PCC mild oxidation of 1° alcohol",
+          "expr": "R-CH₂OH + PCC (CH₂Cl₂) → R-CHO (stops at aldehyde stage)"
+        },
+        {
+          "label": "Heated Copper (573 K) reaction with 3° alcohol",
+          "expr": "(CH₃)₃C-OH + Cu (573 K) → (CH₃)₂C=CH₂ (isobutylene, dehydration) + H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Reactions of Phenol: Kolbe, Reimer-Tiemann & Bromination",
+      "tag": "formula",
+      "points": [
+        "1. Kolbe's Reaction: Sodium phenoxide heated with CO₂ (398 K, 4-7 atm) followed by acidification yields Salicylic acid (2-hydroxybenzoic acid).",
+        "2. Reimer-Tiemann Reaction: Phenol heated with CHCl₃ + aq. NaOH at 340 K followed by acidification yields Salicylaldehyde (2-hydroxybenzaldehyde). Reactive electrophile is Dichlorocarbene (:CCl₂).",
+        "3. Bromination: With bromine water (Br₂/H₂O) gives white precipitate of 2,4,6-tribromophenol; With Br₂ in non-polar solvent (CS₂ or CHCl₃ at 273 K) gives p-bromophenol (major) and o-bromophenol.",
+        "4. Nitration: Dilute HNO₃ at 298 K gives o-nitrophenol + p-nitrophenol (separated by steam distillation); Conc HNO₃ + conc H₂SO₄ gives 2,4,6-trinitrophenol (Picric acid).",
+        "5. Reduction with Zinc dust: Phenol distilled with Zn dust yields Benzene + ZnO; Oxidation with Na₂Cr₂O₇/H₂SO₄ yields p-Benzoquinone."
+      ],
+      "formulas": [
+        {
+          "label": "Kolbe's synthesis of salicylic acid",
+          "expr": "C₆H₅-OH + NaOH → C₆H₅-ONa (+ CO₂, 398 K, 6 atm, H⁺) → o-HO-C₆H₄-COOH (Salicylic acid)"
+        },
+        {
+          "label": "Reimer-Tiemann reaction (electrophile :CCl₂)",
+          "expr": "C₆H₅-OH + CHCl₃ + 3NaOH (340 K, H⁺) → o-HO-C₆H₄-CHO (Salicylaldehyde) + 3NaCl + 2H₂O"
+        },
+        {
+          "label": "Bromine water test for phenol",
+          "expr": "C₆H₅-OH + 3Br₂ (aq) → 2,4,6-tribromophenol↓ (white ppt) + 3HBr"
+        },
+        {
+          "label": "Reduction of phenol with Zinc dust",
+          "expr": "C₆H₅-OH + Zn (dust, Δ) → C₆H₆ (benzene) + ZnO"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Preparation of Ethers: Dehydration & Williamson Synthesis",
+      "tag": "formula",
+      "points": [
+        "1. Intermolecular Dehydration of Alcohols: 2C₂H₅OH (conc H₂SO₄, 413 K / 140 °C) → C₂H₅−O−C₂H₅ (diethyl ether) + H₂O (proceeds via S_N2 mechanism, suitable only for 1° alcohols). At 443 K (170 °C), elimination yields ethene.",
+        "2. Williamson's Ether Synthesis (Best laboratory method): Alkyl halide + Sodium alkoxide / phenoxide → Ether + NaX (S_N2 displacement).",
+        "Golden rule for Williamson Synthesis: Alkyl halide MUST be primary (1°). If a tertiary (3°) alkyl halide is used, alkoxide acts as strong base and elimination (E2) predominates giving alkene exclusively.",
+        "Example: (CH₃)₃C−O⁻Na⁺ + CH₃−Br → (CH₃)₃C−O−CH₃ (tert-butyl methyl ether, 100% yield); But (CH₃)₃C−Br + CH₃−O⁻Na⁺ → CH₂=C(CH₃)₂ (isobutylene, 100% elimination)."
+      ],
+      "formulas": [
+        {
+          "label": "Temperature control in alcohol dehydration",
+          "expr": "2C₂H₅OH (H₂SO₄, 413 K) → C₂H₅-O-C₂H₅ (ether) | C₂H₅OH (H₂SO₄, 443 K) → CH₂=CH₂ (alkene)"
+        },
+        {
+          "label": "Williamson ether synthesis (successful 1° halide)",
+          "expr": "CH₃-Br (1° halide) + (CH₃)₃C-O⁻Na⁺ → (CH₃)₃C-O-CH₃ + NaBr"
+        },
+        {
+          "label": "Williamson elimination trap (3° halide)",
+          "expr": "(CH₃)₃C-Br (3° halide) + CH₃-O⁻Na⁺ → (CH₃)₂C=CH₂ (alkene) + CH₃OH + NaBr"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Chemical Reactions of Ethers & Cleavage with HI",
+      "tag": "formula",
+      "points": [
+        "Chemical inertness: Ethers are relatively inert towards bases, reducing agents, and active metals; do not react with PCl₅ in cold.",
+        "Cleavage of C−O bond by hydrohalic acids (HI): 1) With cold / 1 equivalent HI: R−O−R' + HI → R−I + R'−OH. Iodine attaches to smaller alkyl group if both are 1° or 2° (via S_N2 attack on less hindered carbon).",
+        "Cleavage with 3° alkyl group: If one of the alkyl groups is tertiary (3°), reaction proceeds via S_N1 through stable 3° carbocation → Halogen attaches to the 3° alkyl group: (CH₃)₃C−O−CH₃ + HI → (CH₃)₃C−I + CH₃−OH.",
+        "Cleavage of Alkyl aryl ether (Anisole): C₆H₅−O−CH₃ + HI → C₆H₅−OH (phenol) + CH₃−I. Phenol does not react further because C(sp²)−O bond has partial double bond character.",
+        "Cleavage with excess hot HI: R−O−R + 2HI (hot, excess) → 2R−I + H₂O."
+      ],
+      "formulas": [
+        {
+          "label": "Ether cleavage with 1° alkyl groups (S_N2)",
+          "expr": "CH₃-O-CH₂CH₃ + HI (cold) → CH₃-I (smaller group gets I) + CH₃CH₂-OH"
+        },
+        {
+          "label": "Ether cleavage with 3° alkyl group (S_N1)",
+          "expr": "(CH₃)₃C-O-CH₃ + HI → (CH₃)₃C-I (3° alkyl gets I) + CH₃-OH"
+        },
+        {
+          "label": "Anisole cleavage with HI",
+          "expr": "C₆H₅-O-CH₃ + HI → C₆H₅-OH (phenol) + CH₃-I (methyl iodide)"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Named Reactions & Distinctions",
+      "tag": "imp",
+      "points": [
+        "Distinction between 1°, 2°, 3° Alcohols: Lucas test (3° immediate cloudiness, 2° in 5 min, 1° on heating); Heated Cu at 573 K (1° gives aldehyde, 2° gives ketone, 3° gives alkene via dehydration).",
+        "Named reactions of Phenol: Kolbe's synthesis of salicylic acid; Reimer-Tiemann synthesis of salicylaldehyde (electrophile :CCl₂); Bromine water test giving white ppt of 2,4,6-tribromophenol.",
+        "Separation of o-nitrophenol and p-nitrophenol: o-nitrophenol has intramolecular H-bonding (chelation, steam volatile, lower bp); p-nitrophenol has intermolecular H-bonding (molecular association, non-volatile, higher bp); separated by steam distillation.",
+        "Synthesis of Aspirin: Salicylic acid acetylated with acetic anhydride in presence of conc H₂SO₄ yields Acetylsalicylic acid (Aspirin) + CH₃COOH."
+      ],
+      "formulas": [
+        {
+          "label": "Lucas reagent composition",
+          "expr": "Equimolar mixture of concentrated HCl and anhydrous ZnCl₂"
+        },
+        {
+          "label": "Aspirin synthesis from salicylic acid",
+          "expr": "Salicylic acid + (CH₃CO)₂O (H⁺) → Acetylsalicylic acid (Aspirin) + CH₃COOH"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Exception Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Williamson synthesis trap: ALWAYS choose 1° alkyl halide + alkoxide. If given 3° alkyl halide, the major product is an ALKENE, NOT an ether!",
+        "TRAP 2: Ether cleavage with HI: If both groups are 1°/2°, I⁻ attacks smaller alkyl group (S_N2). If ANY group is 3°, I⁻ attaches to the 3° group (S_N1)!",
+        "TRAP 3: Anisole + HI ALWAYS yields Phenol + Methyl iodide. Phenol NEVER converts to iodobenzene.",
+        "TRAP 4: Oxidation with heated copper: 3° alcohol does NOT dehydrogenate; it dehydrates to an alkene (e.g., tert-butanol → isobutylene).",
+        "TRAP 5: Picric acid (2,4,6-trinitrophenol) does NOT contain a carboxylic group (−COOH), yet is acidic enough to decompose NaHCO₃ with effervescence of CO₂."
+      ],
+      "formulas": [
+        {
+          "label": "MHT-CET ether cleavage rule 1 (S_N2)",
+          "expr": "Smaller alkyl gets halogen (I⁻) when both R groups are 1° or 2°"
+        },
+        {
+          "label": "MHT-CET ether cleavage rule 2 (S_N1)",
+          "expr": "Tertiary (3°) alkyl group ALWAYS gets halogen (I⁻) regardless of other group"
+        },
+        {
+          "label": "Reaction of picric acid with sodium bicarbonate",
+          "expr": "Picric acid + NaHCO₃ → Sodium picrate + CO₂↑ + H₂O"
+        }
+      ]
+    }
+  ]
+}

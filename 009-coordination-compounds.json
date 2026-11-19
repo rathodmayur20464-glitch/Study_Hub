@@ -1,0 +1,233 @@
+{
+  "title": "Coordination Compounds",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Basic Terminology, Ligands & Denticity",
+      "tag": "concept",
+      "points": [
+        "Coordination entity: Central metal atom/ion bound to a fixed number of ions or molecules (ligands) enclosed in square brackets [ ].",
+        "Ligands (Lewis bases): Donors of electron pairs. Monodentate (Cl⁻, H₂O, NH₃, CN⁻); Bidentate (ethylenediamine 'en', oxalate 'ox²⁻', glycinate 'gly⁻'); Polydentate (EDTA⁴⁻ is hexadentate, 2 N and 4 O donors).",
+        "Ambidentate ligands: Monodentate ligands having two different donor atoms: NO₂⁻ (nitro -N or nitrito -O); SCN⁻ (thiocyanato -S or isothiocyanato -N).",
+        "Chelate effect: Chelating ligands (bidentate/polydentate forming ring complexes) provide exceptional thermodynamic stability over monodentate ligands due to positive entropy change (ΔS° > 0)."
+      ],
+      "formulas": [
+        {
+          "label": "EDTA⁴⁻ hexadentate donor atoms",
+          "expr": "EDTA⁴⁻ coordinates via 2 nitrogen and 4 oxygen atoms (forms 5 stable chelate rings)"
+        },
+        {
+          "label": "Chelate effect thermodynamic relation",
+          "expr": "ΔG° = ΔH° − TΔS° (chelation increases free particles in solution, ΔS° > 0)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Werner's Theory & Effective Atomic Number (EAN)",
+      "tag": "concept",
+      "points": [
+        "Werner's postulates: Central metal possesses two types of valency: Primary (ionizable, non-directional, satisfied by negative ions = oxidation state) and Secondary (non-ionizable, directional = coordination number).",
+        "Cobalt ammine precipitation with excess AgNO₃: [Co(NH₃)₆]Cl₃ gives 3 AgCl↓; [Co(NH₃)₅Cl]Cl₂ gives 2 AgCl↓; [Co(NH₃)₄Cl₂]Cl gives 1 AgCl↓; [Co(NH₃)₃Cl₃] gives 0 AgCl↓ (non-electrolyte).",
+        "Effective Atomic Number (EAN): EAN = Z − (Oxidation State) + 2 × (Coordination Number). If EAN equals atomic number of next noble gas (36 Kr, 54 Xe, 86 Rn), complex shows enhanced stability."
+      ],
+      "formulas": [
+        {
+          "label": "Effective Atomic Number (EAN) formula",
+          "expr": "EAN = Z − (Oxidation Number) + 2 × (Coordination Number)"
+        },
+        {
+          "label": "EAN of [Fe(CN)₆]⁴⁻ (K₄[Fe(CN)₆])",
+          "expr": "EAN = 26 − 2 + (2 × 6) = 24 + 12 = 36 (equals Kr, obeys EAN rule)"
+        },
+        {
+          "label": "Werner's AgCl precipitation reactions",
+          "expr": "[Co(NH₃)₆]Cl₃ → 3AgCl↓ | [Co(NH₃)₅Cl]Cl₂ → 2AgCl↓ | [Co(NH₃)₄Cl₂]Cl → 1AgCl↓"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "IUPAC Nomenclature of Coordination Complexes",
+      "tag": "formula",
+      "points": [
+        "Naming order: Cation named before anion. Ligands named in alphabetical order before central metal.",
+        "Ligand endings: Anionic ligands end in '-o' (chlorido, cyanido, oxalato, sulfato, nitrito); Neutral ligands: H₂O (aqua), NH₃ (ammine), CO (carbonyl), en (ethane-1,2-diamine).",
+        "Prefixes: di, tri, tetra; or bis, tris, tetrakis for polydentate ligands or names containing numerical prefixes.",
+        "Metal name ending: In cationic/neutral complex, standard metal name is used; In anionic complex, metal ends in '-ate' (ferrate, cuprate, argentate, cobaltate, platinate). Oxidation state written in Roman numerals in parentheses."
+      ],
+      "formulas": [
+        {
+          "label": "IUPAC: K₄[Fe(CN)₆]",
+          "expr": "Potassium hexacyanidoferrate(II)"
+        },
+        {
+          "label": "IUPAC: [Co(NH₃)₅Cl]Cl₂",
+          "expr": "Pentaamminechloridocobalt(III) chloride"
+        },
+        {
+          "label": "IUPAC: [Pt(NH₃)₂(Cl)(NO₂)]",
+          "expr": "Diamminechloridonitrito-N-platinum(II)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Structural Isomerism in Coordination Compounds",
+      "tag": "concept",
+      "points": [
+        "Ionization isomerism: Exchange of ligands between coordination sphere and ionization sphere (e.g. [Co(NH₃)₅SO₄]Br gives pale yellow ppt with AgNO₃; [Co(NH₃)₅Br]SO₄ gives white ppt with BaCl₂).",
+        "Hydrate / Solvate isomerism: Exchange of water molecules inside and outside sphere (e.g. [Cr(H₂O)₆]Cl₃ violet; [Cr(H₂O)₅Cl]Cl₂·H₂O blue-green; [Cr(H₂O)₄Cl₂]Cl·2H₂O dark green).",
+        "Linkage isomerism: Occurs with ambidentate ligands (e.g. [Co(NH₃)₅(NO₂)]Cl₂ yellow nitro-N vs [Co(NH₃)₅(ONO)]Cl₂ red nitrito-O).",
+        "Coordination isomerism: Interchange of ligands between cationic and anionic coordination entities (e.g. [Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆])."
+      ],
+      "formulas": [
+        {
+          "label": "Ionization isomer chemical test",
+          "expr": "[Co(NH₃)₅Br]SO₄ + BaCl₂ → BaSO₄↓ (white) | [Co(NH₃)₅SO₄]Br + AgNO₃ → AgBr↓ (pale yellow)"
+        },
+        {
+          "label": "Linkage isomerism formula pair",
+          "expr": "[Co(NH₃)₅(NO₂)]²⁺ (nitro-N, yellow) vs [Co(NH₃)₅(ONO)]²⁺ (nitrito-O, red)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Stereoisomerism: Geometrical & Optical Isomerism",
+      "tag": "concept",
+      "points": [
+        "Geometrical isomerism (cis/trans): In square planar complexes [Ma₂b₂] (e.g. cis-[Pt(NH₃)₂Cl₂] cisplatin is anticancer, trans is inactive); [Mabcd] gives 3 isomers. Note: [Ma₄] and [Ma₃b] do NOT show GI.",
+        "Octahedral geometrical isomers: [Ma₄b₂] shows cis and trans; [Ma₃b₃] shows facial (fac) and meridional (mer) isomers.",
+        "Optical isomerism (Enantiomers): Requires non-superimposable mirror image and absence of plane of symmetry. [M(AA)₃] (e.g. [Co(en)₃]³⁺) shows d- and l-enantiomers.",
+        "cis vs trans-[M(AA)₂b₂] chirality: cis-[Co(en)₂Cl₂]⁺ is chiral and optically active; trans-[Co(en)₂Cl₂]⁺ has a plane of symmetry, hence is achiral and optically INACTIVE."
+      ],
+      "formulas": [
+        {
+          "label": "Cisplatin anticancer square planar complex",
+          "expr": "cis-[Pt(NH₃)₂Cl₂] (anticancer drug) vs trans-[Pt(NH₃)₂Cl₂] (inactive)"
+        },
+        {
+          "label": "Facial (fac) and Meridional (mer) isomers",
+          "expr": "[Co(NH₃)₃(NO₂)₃]: fac (triangular face) vs mer (plane containing center)"
+        },
+        {
+          "label": "Optical activity of [Co(en)₂Cl₂]⁺ isomers",
+          "expr": "cis-[Co(en)₂Cl₂]⁺ = Optically active (chiral) | trans-[Co(en)₂Cl₂]⁺ = Optically inactive (achiral, plane of symmetry)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Valence Bond Theory (VBT) & Magnetic Properties",
+      "tag": "formula",
+      "points": [
+        "VBT concept: Hybridization of metal orbitals with donation of electron pairs from ligands. Coordination number 4: sp³ (tetrahedral) or dsp² (square planar). Coordination number 6: d²sp³ (inner orbital) or sp³d² (outer orbital).",
+        "Inner orbital complex (d²sp³, low spin): Uses inner (n−1)d orbitals; strong field ligands cause pairing of d-electrons (e.g. [Fe(CN)₆]³⁻, [Co(NH₃)₆]³⁺).",
+        "Outer orbital complex (sp³d², high spin): Uses outer nd orbitals; weak field ligands do not cause pairing (e.g. [FeF₆]³⁻, [CoF₆]³⁻).",
+        "Square planar vs Tetrahedral Nickel: [Ni(CN)₄]²⁻ has strong field CN⁻ → d-electrons pair up → dsp² (square planar, diamagnetic); [NiCl₄]²⁻ has weak field Cl⁻ → sp³ (tetrahedral, paramagnetic, 2 unpaired e⁻)."
+      ],
+      "formulas": [
+        {
+          "label": "Hybridization and geometry correlation",
+          "expr": "sp³ = Tetrahedral | dsp² = Square planar | d²sp³ = Inner octahedral | sp³d² = Outer octahedral"
+        },
+        {
+          "label": "Nickel coordination complexes comparison",
+          "expr": "[Ni(CN)₄]²⁻: dsp² (Square planar, diamagnetic, μ=0) | [NiCl₄]²⁻: sp³ (Tetrahedral, paramagnetic, μ=2.83 BM)"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Crystal Field Theory (CFT): Splitting & Spectrochemical Series",
+      "tag": "formula",
+      "points": [
+        "CFT concept: Degenerate d-orbitals split in electrostatic field of ligands. In octahedral field, d(x²-y²) and d(z²) point along axes → raised to e_g (+0.6 Δ₀); d(xy), d(yz), d(zx) point between axes → lowered to t₂g (−0.4 Δ₀).",
+        "Tetrahedral splitting (Δ_t): Inverted splitting (e lower, t₂ higher). Δ_t = (4/9) Δ₀. Since Δ_t < P (pairing energy), tetrahedral complexes are ALWAYS high-spin (no pairing).",
+        "Octahedral high spin vs low spin: If Δ₀ > P (strong field): electrons pair in t₂g (low-spin); If Δ₀ < P (weak field): electrons enter e_g before pairing (high-spin).",
+        "Spectrochemical Series (increasing ligand field strength): I⁻ < Br⁻ < S²⁻ < SCN⁻ < Cl⁻ < F⁻ < OH⁻ < C₂O₄²⁻ < H₂O < NCS⁻ < EDTA⁴⁻ < NH₃ < en < CN⁻ < CO."
+      ],
+      "formulas": [
+        {
+          "label": "Tetrahedral to octahedral splitting relation",
+          "expr": "Δ_t = (4 / 9) Δ₀"
+        },
+        {
+          "label": "Octahedral CFSE formula",
+          "expr": "CFSE = [−0.4 × n(t₂g) + 0.6 × n(eg)] Δ₀ + mP (where P = pairing energy)"
+        },
+        {
+          "label": "Spectrochemical series order",
+          "expr": "I⁻ < Br⁻ < Cl⁻ < F⁻ < OH⁻ < H₂O < NH₃ < en < CN⁻ < CO (CO is strongest field ligand)"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Stability, Color & Applications of Coordination Compounds",
+      "tag": "concept",
+      "points": [
+        "Stability of complexes: Measured by overall stability constant β_n = K₁ × K₂ × ... × K_n. Greater β_n indicates greater thermodynamic stability.",
+        "Origin of color: d-d transitions. Electron promoted from t₂g to e_g level by absorbing visible light; transmitted complementary color is observed.",
+        "Metallurgical applications: Extraction of gold and silver by cyanide leaching ([Au(CN)₂]⁻, [Ag(CN)₂]⁻); Mond's process for refining nickel via volatile [Ni(CO)₄].",
+        "Biological & Medicinal applications: Chlorophyll (Mg complex), Hemoglobin (Fe²⁺ complex), Vitamin B₁₂ (Co complex); Cisplatin [Pt(NH₃)₂Cl₂] in cancer treatment; EDTA for lead poisoning."
+      ],
+      "formulas": [
+        {
+          "label": "Overall stability constant relation",
+          "expr": "β_n = K₁ × K₂ × ... × K_n; log β_n = log K₁ + log K₂ + ... + log K_n"
+        },
+        {
+          "label": "Mond process nickel refining reactions",
+          "expr": "Ni + 4CO (330-350 K) → [Ni(CO)₄] (volatile); [Ni(CO)₄] (450-470 K) → Ni (pure) + 4CO↑"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Derivations",
+      "tag": "imp",
+      "points": [
+        "Board Q1: State Werner's coordination theory postulates and deduce secondary valencies from AgNO₃ precipitation data.",
+        "Board Q2: Calculate EAN of [Fe(CN)₆]⁴⁻, [Co(NH₃)₆]³⁺, and [Ni(CO)₄] (all equal 36, obeying EAN rule).",
+        "Board Q3: Explain why [Ni(CN)₄]²⁻ is diamagnetic and square planar, while [NiCl₄]²⁻ is paramagnetic and tetrahedral using VBT.",
+        "Board Q4: Draw structures of cis- and trans-[Co(en)₂Cl₂]⁺ and state which isomer is optically active and why (cis has no plane of symmetry, trans has plane of symmetry)."
+      ],
+      "formulas": [
+        {
+          "label": "EAN of [Co(NH₃)₆]³⁺",
+          "expr": "EAN = 27 − 3 + (2 × 6) = 24 + 12 = 36 (Kr noble gas configuration)"
+        },
+        {
+          "label": "EAN of [Ni(CO)₄]",
+          "expr": "EAN = 28 − 0 + (2 × 4) = 28 + 8 = 36 (Kr noble gas configuration)"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Exception Traps",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: Optical activity shortcut: trans-[M(AA)₂b₂] is ALWAYS optically inactive (plane of symmetry). cis-[M(AA)₂b₂] and [M(AA)₃] are ALWAYS optically active (chiral).",
+        "TRAP 2: Tetrahedral complexes NEVER form low-spin complexes because Δ_t is always less than pairing energy P (Δ_t = 4/9 Δ₀).",
+        "TRAP 3: Geometrical isomerism in square planar complexes: [Ma₄], [Ma₃b], [Mab₃] show 0 GI. [Ma₂b₂] shows 2 (cis/trans); [Ma₂bc] shows 2; [Mabcd] shows 3 isomers.",
+        "TRAP 4: Number of ions produced in solution: Count counter ions + the 1 coordination entity bracket. Example: K₃[Fe(CN)₆] produces 3 K⁺ + 1 [Fe(CN)₆]³⁻ = 4 ions (van 't Hoff factor i = 4).",
+        "TRAP 5: Strong field ligands (C, N donors): CO, CN⁻, en, NH₃ cause electron pairing. Weak field ligands (halogens, O, S donors): F⁻, Cl⁻, Br⁻, I⁻, H₂O, OH⁻ do not cause pairing."
+      ],
+      "formulas": [
+        {
+          "label": "Number of geometrical isomers formula",
+          "expr": "[Ma₂b₂] = 2 (cis, trans) | [Ma₂bc] = 2 | [Mabcd] = 3 isomers (square planar)"
+        },
+        {
+          "label": "Van 't Hoff factor (i) for complete ionization",
+          "expr": "i = total number of ions produced per formula unit (e.g. [Co(NH₃)₅Cl]Cl₂ → i = 3)"
+        }
+      ]
+    }
+  ]
+}

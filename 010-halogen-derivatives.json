@@ -1,0 +1,248 @@
+{
+  "title": "Halogen Derivatives",
+  "subject": "Chemistry",
+  "subtitle": "Class 12 HSC & MHT-CET • Quick Revision",
+  "nodes": [
+    {
+      "id": "n1",
+      "title": "Classification & IUPAC Nomenclature",
+      "tag": "concept",
+      "points": [
+        "Classification by number of halogens: Mono, di (geminal / alkylidene dihalide vs vicinal / alkylene dihalide), tri, and polyhaloalkanes.",
+        "Classification by C(sp³)-X bond: Alkyl (1°, 2°, 3°), Allylic (X bonded to sp³ C next to C=C: CH₂=CH−CH₂−X), Benzylic (X bonded to sp³ C attached to aromatic ring: C₆H₅−CH₂−X).",
+        "Classification by C(sp²)-X bond: Vinylic (X bonded directly to sp² carbon of C=C: CH₂=CH−X), Aryl halides / haloarenes (X bonded directly to aromatic ring: C₆H₅−X).",
+        "IUPAC rules: Longest carbon chain selected containing halogen; numbered to give lower locants to substituents/halogens (haloalkanes)."
+      ],
+      "formulas": [
+        {
+          "label": "Geminal vs Vicinal dihalide structures",
+          "expr": "Geminal: CH₃-CHX₂ (alkylidene dihalide) | Vicinal: CH₂X-CH₂X (alkylene dihalide)"
+        },
+        {
+          "label": "Allylic vs Vinylic halide classification",
+          "expr": "Allylic: CH₂=CH-CH₂-X (sp³ C) | Vinylic: CH₂=CH-X (sp² C)"
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Methods of Preparation of Alkyl Halides",
+      "tag": "formula",
+      "points": [
+        "From alcohols: 1) Lucas reagent (conc HCl + anhy. ZnCl₂): 3° > 2° > 1°; 2) Phosphorus halides: 3R−OH + PCl₃ → 3R−Cl + H₃PO₃; R−OH + PCl₅ → R−Cl + POCl₃ + HCl; 3) Darzens method: R−OH + SOCl₂ (pyridine) → R−Cl + SO₂↑ + HCl↑ (best method as gaseous by-products escape).",
+        "From alkenes: Markovnikov addition of HX (negative part adds to less hydrogenated C); Anti-Markovnikov addition (Peroxide / Kharasch effect: valid ONLY for HBr in presence of organic peroxides R−O−O−R).",
+        "Halogen exchange: 1) Finkelstein reaction: R−Cl / R−Br + NaI (dry acetone) → R−I + NaCl↓ / NaBr↓; 2) Swarts reaction: Synthesis of alkyl fluorides using metallic fluorides (AgF, Hg₂F₂, CoF₃, SbF₃)."
+      ],
+      "formulas": [
+        {
+          "label": "Darzens thionyl chloride reaction (best method)",
+          "expr": "R-OH + SOCl₂ (pyridine, Δ) → R-Cl + SO₂↑ + HCl↑"
+        },
+        {
+          "label": "Finkelstein reaction (iodoalkane synthesis)",
+          "expr": "R-Cl + NaI (dry acetone) → R-I + NaCl↓"
+        },
+        {
+          "label": "Swarts reaction (fluoroalkane synthesis)",
+          "expr": "CH₃-Br + AgF → CH₃-F + AgBr↓"
+        },
+        {
+          "label": "Peroxide effect (Kharasch effect with HBr)",
+          "expr": "CH₃-CH=CH₂ + HBr (peroxide) → CH₃-CH₂-CH₂-Br (1-bromopropane)"
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Physical Properties: Polarity, Boiling Point & Solubility",
+      "tag": "concept",
+      "points": [
+        "C−X bond polarity: Polar due to electronegativity difference (Cδ⁺ − Xδ⁻). Dipole moments: CH₃Cl (1.87 D) > CH₃F (1.82 D) > CH₃Br (1.81 D) > CH₃I (1.62 D). CH₃Cl > CH₃F because C−Cl bond length is significantly larger (μ = q × d).",
+        "Boiling points: Higher than corresponding alkanes due to dipole-dipole and dispersion forces. Order: R−I > R−Br > R−Cl > R−F (increasing molecular mass and polarizability).",
+        "Branching effect: For isomeric alkyl halides, boiling point decreases with branching (n-butyl > isobutyl > sec-butyl > tert-butyl) because branching makes molecule spherical, reducing surface area and van der Waals attractions.",
+        "Solubility: Insoluble in water because alkyl halides cannot form hydrogen bonds with water molecules and cannot break existing water H-bonds; soluble in organic solvents."
+      ],
+      "formulas": [
+        {
+          "label": "Order of boiling points (same alkyl group)",
+          "expr": "R-I > R-Br > R-Cl > R-F (increasing molecular mass and polarizability)"
+        },
+        {
+          "label": "Branching effect on boiling points",
+          "expr": "n-butyl bromide (102 °C) > isobutyl bromide (91 °C) > tert-butyl bromide (73 °C)"
+        },
+        {
+          "label": "Dipole moment order of methyl halides",
+          "expr": "CH₃Cl (1.87 D) > CH₃F (1.82 D) > CH₃Br (1.81 D) > CH₃I (1.62 D)"
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "Nucleophilic Substitution Reactions of Haloalkanes",
+      "tag": "formula",
+      "points": [
+        "Formation of alcohols: R−X + KOH(aq) → R−OH + KX.",
+        "Ambidentate nucleophile CN⁻: R−X + KCN(alc) → R−CN (alkane nitrile, C-attack); R−X + AgCN(alc) → R−NC (alkyl isocyanide / carbylamine, N-attack because AgCN is covalent).",
+        "Ambidentate nucleophile NO₂⁻: R−X + KNO₂(alc) → R−O−N=O (alkyl nitrite, O-attack); R−X + AgNO₂(alc) → R−NO₂ (nitroalkane, N-attack because AgNO₂ is covalent).",
+        "Other substitutions: With NH₃(alc) gives amines (Hoffmann ammonolysis); With R'COOAg gives esters; With R'ONa gives ethers (Williamson synthesis)."
+      ],
+      "formulas": [
+        {
+          "label": "KCN vs AgCN substitution duality",
+          "expr": "R-X + KCN(alc) → R-CN (nitrile) | R-X + AgCN(alc) → R-NC (isocyanide)"
+        },
+        {
+          "label": "KNO₂ vs AgNO₂ substitution duality",
+          "expr": "R-X + KNO₂(alc) → R-O-N=O (alkyl nitrite) | R-X + AgNO₂(alc) → R-NO₂ (nitroalkane)"
+        },
+        {
+          "label": "Williamson ether synthesis",
+          "expr": "R-X + R'O⁻Na⁺ → R-O-R' + NaX (best with 1° alkyl halide)"
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "title": "Mechanisms: S_N1 vs S_N2 & Stereochemistry",
+      "tag": "formula",
+      "points": [
+        "S_N2 (Bimolecular): Single-step, concerted backside attack via pentacoordinate transition state. Rate = k[R−X][Nu⁻] (2nd order). Complete inversion of configuration (Walden inversion). Reactivity: Methyl > 1° > 2° > 3° (steric hindrance controls rate). Favored by polar aprotic solvents (acetone, DMSO).",
+        "S_N1 (Unimolecular): Two steps. Step 1: Slow ionization forming planar carbocation (rate determining); Step 2: Fast attack of nucleophile from either side. Rate = k[R−X] (1st order). Results in racemization (mixture of retention and inversion). Reactivity: 3° > 2° > 1° > Methyl (carbocation stability controls rate). Favored by polar protic solvents (H₂O, ROH).",
+        "Leaving group ability: I⁻ > Br⁻ > Cl⁻ > F⁻ (weaker base = better leaving group)."
+      ],
+      "formulas": [
+        {
+          "label": "S_N2 Rate Law and Reactivity",
+          "expr": "Rate = k[R-X][Nu⁻] | Reactivity: CH₃X > 1° > 2° > 3° (Walden inversion)"
+        },
+        {
+          "label": "S_N1 Rate Law and Reactivity",
+          "expr": "Rate = k[R-X] | Reactivity: 3° > 2° > 1° > CH₃X (Planar carbocation, racemization)"
+        },
+        {
+          "label": "Leaving group ability order",
+          "expr": "I⁻ > Br⁻ > Cl⁻ > F⁻ (weaker conjugate base = better leaving group)"
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "title": "Elimination Reactions & Saytzeff's Rule",
+      "tag": "formula",
+      "points": [
+        "β-elimination (dehydrohalogenation): Alkyl halide heated with alcoholic KOH eliminates HX to produce an alkene.",
+        "Saytzeff's Rule (Zaitsev's Rule): In dehydrohalogenation of unsymmetrical alkyl halides, the more substituted (more alkylated, more stable) alkene is formed as the major product.",
+        "Example: Dehydrohalogenation of 2-bromobutane gives but-2-ene (81%, major, trans > cis) and but-1-ene (19%, minor).",
+        "Competition between substitution and elimination: 1° halides favor S_N2; 3° halides with strong bases or higher temperatures favor E2 elimination."
+      ],
+      "formulas": [
+        {
+          "label": "Dehydrohalogenation of 2-bromobutane",
+          "expr": "CH₃-CH₂-CH(Br)-CH₃ + alc. KOH (Δ) → CH₃-CH=CH-CH₃ (81%, but-2-ene, major) + CH₃-CH₂-CH=CH₂ (19%, minor)"
+        },
+        {
+          "label": "Saytzeff Rule statement",
+          "expr": "Major alkene = alkene having greater number of alkyl substituents attached to doubly bonded carbons"
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "title": "Reactions with Metals: Grignard, Wurtz & Organometallics",
+      "tag": "formula",
+      "points": [
+        "Grignard reagent preparation: R−X + Mg (dry ether) → R−Mg−X (alkyl magnesium halide). C−Mg bond is polar covalent, Mg−X bond is ionic.",
+        "Moisture sensitivity: Grignard reagents react violently with compounds having active hydrogen (H₂O, ROH, RNH₂) to form alkanes (R−Mg−X + H₂O → R−H + Mg(OH)X). Hence dry ether is strictly required.",
+        "Wurtz reaction: 2R−X + 2Na (dry ether) → R−R + 2NaX (synthesizes symmetrical alkanes with even number of carbon atoms).",
+        "Frankland reaction: 2R−X + Zn (dry ether) → R−R + ZnX₂."
+      ],
+      "formulas": [
+        {
+          "label": "Grignard reagent preparation",
+          "expr": "R-X + Mg (dry ether) → R-Mg-X (organometallic compound)"
+        },
+        {
+          "label": "Grignard reaction with active hydrogen",
+          "expr": "R-Mg-X + H₂O → R-H (alkane) + Mg(OH)X"
+        },
+        {
+          "label": "Wurtz reaction for symmetrical alkanes",
+          "expr": "2R-X + 2Na (dry ether) → R-R + 2NaX"
+        }
+      ]
+    },
+    {
+      "id": "n8",
+      "title": "Haloarenes: Low Reactivity & Electrophilic Substitutions",
+      "tag": "concept",
+      "points": [
+        "Low reactivity towards nucleophilic substitution: 1) Resonance: C−Cl bond acquires partial double bond character; 2) Hybridization: C is sp² (more electronegative, shorter C−Cl bond 169 pm) vs sp³ in haloalkanes (178 pm); 3) Instability of phenyl cation.",
+        "Drastic conditions (Dow's Process): Chlorobenzene + NaOH (623 K, 300 atm, H⁺) → Phenol. Presence of electron-withdrawing −NO₂ groups at ortho/para positions increases reactivity drastically.",
+        "Electrophilic aromatic substitution: Halogen is ortho/para directing due to +R resonance, but deactivating due to strong −I inductive effect (chlorination, nitration, sulfonation, Friedel-Crafts alkylation/acylation; para isomer is major).",
+        "Reactions with metals: Wurtz-Fittig reaction (Ar−X + R−X + 2Na → Ar−R + 2NaX); Fittig reaction (2Ar−X + 2Na → Ar−Ar biphenyl + 2NaX)."
+      ],
+      "formulas": [
+        {
+          "label": "Dow's process for chlorobenzene",
+          "expr": "C₆H₅-Cl + 2NaOH (623 K, 300 atm) → C₆H₅-ONa (dil HCl) → C₆H₅-OH (phenol)"
+        },
+        {
+          "label": "Wurtz-Fittig reaction",
+          "expr": "C₆H₅-Br + CH₃-Br + 2Na (dry ether) → C₆H₅-CH₃ (toluene) + 2NaBr"
+        },
+        {
+          "label": "Fittig reaction",
+          "expr": "2C₆H₅-Cl + 2Na (dry ether) → C₆H₅-C₆H₅ (biphenyl) + 2NaCl"
+        }
+      ]
+    },
+    {
+      "id": "n9",
+      "title": "High-Weightage Board Questions & Named Conversions",
+      "tag": "imp",
+      "points": [
+        "Board Q1: Distinguish between S_N1 and S_N2 mechanisms (kinetics, molecularity, steps, intermediate/transition state, stereochemistry, solvent, order of reactivity).",
+        "Board Q2: Explain why haloarenes are extremely less reactive towards nucleophilic substitution reactions.",
+        "Board Q3: Explain optical activity of 2-chlorobutane (presence of asymmetric/chiral carbon atom with 4 different attached groups: −H, −CH₃, −C₂H₅, −Cl).",
+        "Environmental and commercial uses: Freon-12 (CF₂Cl₂ aerosol propellant, depletes ozone layer); Chloroform (CHCl₃ stored in dark amber bottles filled to brim to prevent oxidation into poisonous phosgene gas COCl₂); Iodoform (CHI₃ yellow antiseptic solid liberating I₂); DDT (non-biodegradable insecticide)."
+      ],
+      "formulas": [
+        {
+          "label": "Oxidation of chloroform to poisonous phosgene",
+          "expr": "2CHCl₃ + O₂ (light) → 2COCl₂ (phosgene gas) + 2HCl"
+        },
+        {
+          "label": "Synthesis of DDT",
+          "expr": "2C₆H₅Cl + CCl₃-CHO (conc H₂SO₄) → (p-Cl-C₆H₄)₂CH-CCl₃ + H₂O"
+        }
+      ]
+    },
+    {
+      "id": "n10",
+      "title": "MHT-CET High-Speed Shortcuts & Elimination Hacks",
+      "tag": "imp",
+      "points": [
+        "TRAP 1: KCN vs AgCN: KCN forms Nitrile (R−CN, step-up reaction adding 1 carbon); AgCN forms Isocyanide (R−NC, same carbon chain length).",
+        "TRAP 2: KNO₂ vs AgNO₂: KNO₂ gives Alkyl nitrite (R−O−N=O); AgNO₂ gives Nitroalkane (R−NO₂).",
+        "TRAP 3: Kharasch effect operates ONLY with HBr (NOT with HCl or HI, as HCl H-Cl bond is too strong and HI addition step is endothermic).",
+        "TRAP 4: Neopentyl halide (CH₃)₃C−CH₂−X is primary (1°) but reacts extremely slowly via S_N2 due to massive steric crowding (neopentyl effect).",
+        "TRAP 5: Optical rotation of racemic mixture: [α] = 0° (optically inactive by external compensation of equimolar d- and l-enantiomers)."
+      ],
+      "formulas": [
+        {
+          "label": "S_N1 reactivity order mnemonic",
+          "expr": "3° > 2° > 1° > CH₃ (follows carbocation stability: benzylic ≈ allylic > 3° > 2° > 1°)"
+        },
+        {
+          "label": "S_N2 reactivity order mnemonic",
+          "expr": "CH₃ > 1° > 2° > 3° (inversely proportional to steric hindrance at alpha carbon)"
+        },
+        {
+          "label": "Racemic mixture optical inactivity",
+          "expr": "[α]_mix = 0° (optically inactive by external compensation of d and l forms)"
+        }
+      ]
+    }
+  ]
+}
