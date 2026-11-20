@@ -1,0 +1,183 @@
+{
+  "title": "Matrices",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is a singular matrix vs non-singular matrix?",
+      "a": "A square matrix A is singular if |A| = 0. It is non-singular if |A| ≠ 0.",
+      "hint": "Only non-singular matrices possess an inverse (A⁻¹ exists ⇔ |A| ≠ 0)."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Formula for the inverse of matrix A using the Adjoint Method?",
+      "a": "A⁻¹ = (1 / |A|) · adj(A), provided |A| ≠ 0.",
+      "hint": "adj(A) = [A_ij]ᵀ (the transpose of the co-factor matrix)."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "10-second shortcut to invert a 2×2 matrix [ [a, b], [c, d] ]?",
+      "a": "A⁻¹ = (1 / (ad - bc)) · [ [d, -b], [-c, a] ].",
+      "hint": "Swap principal diagonal entries (a ↔ d), negate off-diagonal entries (-b, -c), divide by determinant."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Relation between Minor M_ij and Co-factor A_ij?",
+      "a": "A_ij = (-1)^(i + j) · M_ij.",
+      "hint": "Sign is + when (i + j) is even; - when (i + j) is odd."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Fundamental property relating A, adj(A), and |A|?",
+      "a": "A · adj(A) = adj(A) · A = |A| · I.",
+      "hint": "Holds for any square matrix of order n."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Determinant value of adj(A) for a square matrix of order n?",
+      "a": "|adj(A)| = |A|ⁿ⁻¹. For order 3: |adj(A)| = |A|²; for order 2: |adj(A)| = |A|.",
+      "hint": "Top MHT-CET MCQ favorite! The exponent is always (n - 1)."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Determinant value of adj(adj(A)) for order n?",
+      "a": "|adj(adj(A))| = |A|^( (n - 1)² ).",
+      "hint": "For a 3×3 matrix, (n - 1)² = 2² = 4, so |adj(adj(A))| = |A|⁴."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Reversal laws for Inverse and Transpose of product AB?",
+      "a": "(AB)⁻¹ = B⁻¹ · A⁻¹ and (AB)ᵀ = Bᵀ · Aᵀ.",
+      "hint": "Order strictly reverses upon taking inverse or transpose of a product."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "What are the 3 Elementary Row Transformations (ERT)?",
+      "a": "1. R_i ↔ R_j (swap two rows)\n2. R_i → k R_i (multiply row by non-zero scalar k)\n3. R_i → R_i + k R_j (add scalar multiple of row j to row i).",
+      "hint": "Never mix row and column transformations in the same matrix inversion procedure."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "How to compute A⁻¹ using Elementary Row Transformations?",
+      "a": "Write A · A⁻¹ = I. Apply row operations on A (left) and I (right) simultaneously until A becomes I. Then A⁻¹ = B.",
+      "hint": "If using Column Transformations, write A⁻¹ · A = I."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "How to detect non-invertibility during row transformations?",
+      "a": "If any row becomes completely zero on the left-hand matrix during row operations, A⁻¹ does NOT exist (|A| = 0).",
+      "hint": "Board/CET trap: An all-zero row immediately implies matrix is singular."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "What is adj(k A) for a square matrix A of order n?",
+      "a": "adj(k A) = kⁿ⁻¹ · adj(A).",
+      "hint": "Trap: |k A| = kⁿ |A|, but adj(k A) scales as kⁿ⁻¹."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "What is (Aᵀ)⁻¹ in terms of A⁻¹?",
+      "a": "(Aᵀ)⁻¹ = (A⁻¹)ᵀ.",
+      "hint": "Transposing and inverting can be interchanged in any order."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Symmetric vs Skew-Symmetric matrix definitions?",
+      "a": "Symmetric: Aᵀ = A (a_ij = a_ji).\nSkew-Symmetric: Aᵀ = -A (a_ij = -a_ji).",
+      "hint": "All diagonal elements of a skew-symmetric matrix are always 0 (a_ii = -a_ii ⇒ 2 a_ii = 0)."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Determinant of a skew-symmetric matrix of ODD order (e.g. 3×3)?",
+      "a": "|A| = 0 (always zero for any odd order n = 3, 5, ...).",
+      "hint": "MHT-CET 2-second shortcut: |A| = |-Aᵀ| = (-1)ⁿ |A| = -|A| ⇒ 2|A| = 0 ⇒ |A| = 0."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "What is an Orthogonal Matrix?",
+      "a": "A square matrix A satisfying A · Aᵀ = Aᵀ · A = I (which means A⁻¹ = Aᵀ).",
+      "hint": "The determinant of an orthogonal matrix is always |A| = ±1."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Method of Inversion to solve linear system AX = B?",
+      "a": "Pre-multiply by A⁻¹: A⁻¹(AX) = A⁻¹B ⇒ I X = A⁻¹B ⇒ X = A⁻¹ B.",
+      "hint": "Requires |A| ≠ 0. Note the order: A⁻¹ B, never B A⁻¹."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Method of Reduction to solve linear system AX = B?",
+      "a": "Apply row operations to reduce coefficient matrix A to an upper triangular matrix, then determine variables by back-substitution.",
+      "hint": "Saves computation steps compared to inversion; highly preferred in HSC Board subjective questions."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Co-factor expansion theorem for determinants?",
+      "a": "Sum of products of elements of any row with their own co-factors = |A|.\nSum with co-factors of any other row = 0.",
+      "hint": "a₁₁ A₁₁ + a₁₂ A₁₂ + a₁₃ A₁₃ = |A|, whereas a₁₁ A₂₁ + a₁₂ A₂₂ + a₁₃ A₂₃ = 0."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "If A is diagonal matrix diag(d₁, d₂, d₃), what is A⁻¹?",
+      "a": "A⁻¹ = diag(1/d₁, 1/d₂, 1/d₃), provided d₁, d₂, d₃ ≠ 0.",
+      "hint": "To invert a diagonal matrix, simply invert each diagonal element."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "What is |A⁻¹| in terms of |A|?",
+      "a": "|A⁻¹| = 1 / |A| = (|A|)⁻¹.",
+      "hint": "Follows from |A · A⁻¹| = |I| = 1 ⇒ |A| · |A⁻¹| = 1."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Definitions of Idempotent, Involutory, and Nilpotent matrices?",
+      "a": "Idempotent: A² = A.\nInvolutory: A² = I (which means A⁻¹ = A).\nNilpotent: Aᵏ = O for some positive integer k.",
+      "hint": "If A is involutory, det(A) = ±1."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Formula for adj(AB)?",
+      "a": "adj(AB) = adj(B) · adj(A).",
+      "hint": "Reversal law applies to adjoints just like matrix inverses."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Shortcut sign pattern for 3×3 co-factor calculation?",
+      "a": "Sign grid: [ [+, -, +], [-, +, -], [+, -, +] ].",
+      "hint": "Remember: transpose the co-factor matrix to obtain adj(A). Forgetting transpose is the #1 mistake!"
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Conditions for consistency of linear system AX = B?",
+      "a": "1. Unique solution: |A| ≠ 0.\n2. Infinitely many solutions: |A| = 0 and (adj A) · B = O.\n3. No solution (inconsistent): |A| = 0 and (adj A) · B ≠ O.",
+      "hint": "Essential 10-second check for MHT-CET system consistency MCQs."
+    }
+  ]
+}

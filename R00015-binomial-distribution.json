@@ -1,0 +1,183 @@
+{
+  "title": "Binomial Distribution",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is a Bernoulli Trial?",
+      "a": "A random experiment with exactly two mutually exclusive outcomes ('Success' S and 'Failure' F), where trials are independent and probability of success p remains constant throughout.",
+      "hint": "p + q = 1, where q is the probability of failure."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Definition and notation of a Binomial Random Variable?",
+      "a": "X ~ B(n, p): Represents the number of successes in n independent Bernoulli trials, where n is a fixed positive integer (n ∈ N) and 0 < p < 1.",
+      "hint": "The parameters of a binomial distribution are n and p."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Probability Mass Function (p.m.f.) of X ~ B(n, p)?",
+      "a": "P(X = x) = ⁿCₓ · pˣ · qⁿ⁻ˣ, for x = 0, 1, 2, ..., n (and 0 otherwise),\nwhere q = 1 - p.",
+      "hint": "ⁿCₓ = n! / [ x! (n - x)! ]. Possible values of x start at 0 and go up to n."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Formulas for Mean, Variance, and Standard Deviation of X ~ B(n, p)?",
+      "a": "Mean: E(X) = μ = n · p\nVariance: Var(X) = σ² = n · p · q\nStandard Deviation: σ = √(n · p · q).",
+      "hint": "Since q = 1 - p, Var(X) = n p (1 - p)."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "THE FUNDAMENTAL INEQUALITY: Can Variance be greater than or equal to Mean in Binomial Distribution?",
+      "a": "NO! In any Binomial Distribution, Var(X) < E(X) ALWAYS (since 0 < q < 1, npq < np).",
+      "hint": "Top MHT-CET trap: 'Can a binomial distribution have mean = 5 and variance = 6?' Answer is strictly NO!"
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "How to find parameters n and p given Mean and Variance?",
+      "a": "1. Divide Variance by Mean: q = Var(X) / E(X) = (n p q) / (n p).\n2. Find p: p = 1 - q.\n3. Find n: n = E(X) / p.",
+      "hint": "Standard 2-mark question in HSC Board exams and common 10-second CET MCQ."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Maximum possible Variance of X ~ B(n, p) for a given n?",
+      "a": "Maximum variance occurs when p = q = 1/2, giving Var_max(X) = n / 4.",
+      "hint": "Since p(1 - p) has a maximum value of 1/4 at p = 1/2."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Shortcut formula for 'At least one success' P(X ≥ 1)?",
+      "a": "P(X ≥ 1) = 1 - P(X = 0) = 1 - qⁿ.",
+      "hint": "Complement rule! Much faster than calculating P(1) + P(2) + ... + P(n)."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Formula for 'At most one success' P(X ≤ 1)?",
+      "a": "P(X ≤ 1) = P(X = 0) + P(X = 1) = qⁿ + n · p · qⁿ⁻¹.",
+      "hint": "Only involves x = 0 and x = 1."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Symmetric Binomial Distribution condition?",
+      "a": "When p = q = 1/2. The distribution is perfectly symmetrical about mean μ = n/2, with ⁿCₓ = ⁿC_{n-x}.",
+      "hint": "Example: Tossing a fair coin n times."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Skewness of Binomial Distribution based on p?",
+      "a": "If p < 1/2 (p < q): Positively skewed (skewed to the right).\nIf p > 1/2 (p > q): Negatively skewed (skewed to the left).\nIf p = 1/2: Symmetric (zero skewness).",
+      "hint": "Peak shifts toward the side of the larger probability."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "How to find the Mode of a Binomial Distribution?",
+      "a": "Compute (n + 1) · p:\n1. If (n + 1)p is an integer m ⇒ Bimodal, with modes at (m - 1) and m.\n2. If (n + 1)p is not an integer ⇒ Unimodal, mode is the integer part [ (n + 1)p ].",
+      "hint": "The mode is the value of x with the highest probability P(X = x)."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Recurrence relation between consecutive probabilities P(X = x + 1) and P(X = x)?",
+      "a": "P(X = x + 1) = [ (n - x) / (x + 1) ] · (p / q) · P(X = x).",
+      "hint": "Eliminates calculating large factorials for consecutive probabilities."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Sum of all probabilities in a Binomial Distribution?",
+      "a": "∑_{x=0}^n P(X = x) = ∑_{x=0}^n ⁿCₓ pˣ qⁿ⁻ˣ = (q + p)ⁿ = 1ⁿ = 1.",
+      "hint": "Direct expansion of the binomial theorem for (q + p)ⁿ."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "A fair coin is tossed 6 times. Find probability of getting exactly 4 heads.",
+      "a": "n = 6, p = 1/2, q = 1/2.\nP(X = 4) = ⁶C₄ (1/2)⁴ (1/2)² = 15 / 2⁶ = 15 / 64.",
+      "hint": "⁶C₄ = ⁶C₂ = (6 × 5) / 2 = 15."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "A die is thrown 5 times. Getting a 5 or 6 is a success. Find Mean and Variance.",
+      "a": "p = 2/6 = 1/3, q = 2/3, n = 5.\nMean: E(X) = n p = 5 × (1/3) = 5/3.\nVariance: Var(X) = n p q = 5 × (1/3) × (2/3) = 10/9.",
+      "hint": "Check: Var(X) = 10/9 < 15/9 = Mean (satisfies fundamental inequality)."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "A fair coin is tossed n times. Minimum number of tosses so that probability of at least one head > 0.99?",
+      "a": "P(X ≥ 1) > 0.99 ⇒ 1 - (1/2)ⁿ > 0.99 ⇒ (1/2)ⁿ < 0.01 = 1/100 ⇒ 2ⁿ > 100 ⇒ n ≥ 7.",
+      "hint": "Since 2⁶ = 64 < 100 and 2⁷ = 128 > 100, minimum tosses n = 7."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Binomial Distribution as a sum of Bernoulli random variables?",
+      "a": "X = X₁ + X₂ + ... + Xₙ, where each Xᵢ is an independent Bernoulli(p) variable taking value 1 (success) or 0 (failure).",
+      "hint": "E(X) = ∑ E(Xᵢ) = n p; Var(X) = ∑ Var(Xᵢ) = n p q."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Mean and Variance of a single Bernoulli trial?",
+      "a": "Mean = p\nVariance = p · q = p · (1 - p).",
+      "hint": "Bernoulli trial is simply B(1, p)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "If X ~ B(n, p) with E(X) = 4 and Var(X) = 3, find P(X = 0).",
+      "a": "q = Var / Mean = 3/4 ⇒ p = 1/4 ⇒ n = 4 / (1/4) = 16.\nP(X = 0) = qⁿ = (3/4)¹⁶.",
+      "hint": "Quickly determine q, p, n first, then compute P(X = 0) = qⁿ."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "For X ~ B(n, p), if P(X = 2) = P(X = 3) and n = 5, find p.",
+      "a": "⁵C₂ p² q³ = ⁵C₃ p³ q² ⇒ 10 p² q³ = 10 p³ q² ⇒ q = p ⇒ 1 - p = p ⇒ 2p = 1 ⇒ p = 1/2.",
+      "hint": "⁵C₂ = ⁵C₃ = 10, so powers of p and q equate to give p = q."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "MCQ exam guessing model: 10 questions, each with 4 choices. What is expected score?",
+      "a": "n = 10, p = 1/4 (chance of guessing correctly).\nExpected score E(X) = n p = 10 × (1/4) = 2.5 correct answers.",
+      "hint": "Variance is npq = 10 × (1/4) × (3/4) = 30/16 = 1.875."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "MHT-CET calculation saver: Finding P(X ≥ 2)?",
+      "a": "P(X ≥ 2) = 1 - [ P(X = 0) + P(X = 1) ] = 1 - [ qⁿ + n p qⁿ⁻¹ ].",
+      "hint": "Never add P(2) + P(3) + ... + P(n); always subtract the complementary 0 and 1 cases from 1."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Ratio of P(X = x) to P(X = x - 1) in B(n, p)?",
+      "a": "P(X = x) / P(X = x - 1) = [ (n - x + 1) / x ] · (p / q).",
+      "hint": "Helpful to find which term in the distribution is the maximum (mode)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "If X ~ B(n, p) has Mean = 2 and SD = 1, what are n and p?",
+      "a": "SD = 1 ⇒ Var = 1² = 1.\nq = Var / Mean = 1 / 2 ⇒ p = 1/2.\nn = Mean / p = 2 / (1/2) = 4.",
+      "hint": "Distribution is X ~ B(4, 1/2)."
+    }
+  ]
+}

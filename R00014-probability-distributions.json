@@ -1,0 +1,183 @@
+{
+  "title": "Probability Distributions",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is a Random Variable (r.v.)?",
+      "a": "A real-valued function X whose domain is the sample space S of a random experiment and range is a subset of real numbers R (X: S → R).",
+      "hint": "Assigns a single numerical value to each outcome of the random experiment."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Discrete Random Variable vs Continuous Random Variable?",
+      "a": "Discrete r.v.: Takes countable values (finite or countably infinite, e.g. number of heads: 0, 1, 2).\nContinuous r.v.: Takes any real value in an interval [a, b] (uncountable, e.g. height, time, temperature).",
+      "hint": "Discrete is characterized by p.m.f.; Continuous is characterized by p.d.f."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Two mandatory conditions for a valid Probability Mass Function (p.m.f.) P(X = xᵢ) = pᵢ?",
+      "a": "1. pᵢ ≥ 0 for all possible values xᵢ.\n2. ∑ pᵢ = 1 (total probability must equal 1).",
+      "hint": "Used in 2-mark questions to find an unknown constant k."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Cumulative Distribution Function (c.d.f.) F(x) for a discrete random variable?",
+      "a": "F(x) = P(X ≤ x) = ∑_{xᵢ ≤ x} P(X = xᵢ).",
+      "hint": "F(x) is a non-decreasing step function. 0 ≤ F(x) ≤ 1, F(-∞) = 0, F(∞) = 1."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Discrete r.v. formula: Find P(X = xᵢ) from c.d.f. F(x)?",
+      "a": "P(X = xᵢ) = F(xᵢ) - F(x_{i-1}).",
+      "hint": "Subtract the previous cumulative probability from the current one."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Expected Value (Mean) E(X) or μ of a discrete random variable?",
+      "a": "E(X) = μ = ∑ xᵢ · P(X = xᵢ) = ∑ xᵢ · pᵢ.",
+      "hint": "Represents the long-term average or center of gravity of the distribution."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Variance Var(X) and Standard Deviation σ of a discrete random variable?",
+      "a": "Var(X) = σ² = E(X²) - [ E(X) ]² = ∑ xᵢ² pᵢ - [ ∑ xᵢ pᵢ ]².\nStandard Deviation: σ = √Var(X).",
+      "hint": "Var(X) can NEVER be negative! If you get a negative value, recheck your arithmetic."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Linear transformation properties of Expectation and Variance?",
+      "a": "E(aX + b) = a · E(X) + b\nVar(aX + b) = a² · Var(X)\nSD(aX + b) = |a| · SD(X).",
+      "hint": "Adding constant b shifts mean by b, but has ZERO effect on variance! Scalar 'a' gets squared in variance."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Two mandatory conditions for a valid Probability Density Function (p.d.f.) f(x)?",
+      "a": "1. f(x) ≥ 0 for all x ∈ R.\n2. ∫_(-∞)^∞ f(x) dx = 1 (total area under the density curve is 1).",
+      "hint": "Set integral = 1 to solve for unknown constant k."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Probability of interval for a continuous random variable with p.d.f. f(x)?",
+      "a": "P(a ≤ X ≤ b) = ∫_a^b f(x) dx.",
+      "hint": "Geometrically: The area under the curve f(x) between x = a and x = b."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "CRITICAL TRAP: For a continuous random variable, what is P(X = c) at an exact point?",
+      "a": "P(X = c) = 0 for ANY single exact point c!\nConsequently: P(a < X < b) = P(a ≤ X < b) = P(a < X ≤ b) = P(a ≤ X ≤ b).",
+      "hint": "Area under a single point (line of width 0) is 0. Strict vs non-strict inequalities make NO difference in continuous distributions!"
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Cumulative Distribution Function (c.d.f.) F(x) of a continuous random variable?",
+      "a": "F(x) = P(X ≤ x) = ∫_(-∞)^x f(t) dt.",
+      "hint": "f(x) is the derivative of F(x): f(x) = F'(x) = d/dx [ F(x) ]."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Expected Value E(X) and Variance Var(X) for a continuous random variable?",
+      "a": "E(X) = μ = ∫_(-∞)^∞ x · f(x) dx\nVar(X) = E(X²) - [ E(X) ]² = ∫_(-∞)^∞ x² · f(x) dx - μ².",
+      "hint": "Analogous to discrete formulas: replace ∑ with ∫."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "How to find the Median M of a continuous random variable?",
+      "a": "Solve for M such that P(X ≤ M) = 1/2 ⇒ F(M) = 1/2 ⇒ ∫_(-∞)^M f(x) dx = 0.5.",
+      "hint": "The median divides total probability area exactly in half (50% on each side)."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Uniform (Rectangular) Distribution on interval [a, b]: p.d.f., Mean, and Variance?",
+      "a": "p.d.f.: f(x) = 1 / (b - a)  for a ≤ x ≤ b (and 0 elsewhere).\nMean: E(X) = (a + b) / 2\nVariance: Var(X) = (b - a)² / 12.",
+      "hint": "Standard MHT-CET shortcut: Variance is always (length of interval)² / 12."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Can a p.d.f. f(x) have values greater than 1?",
+      "a": "YES! f(x) is a probability DENSITY, not a probability. Only its integral must equal 1.",
+      "hint": "Example: If X is uniform on [0, 0.5], then f(x) = 1 / 0.5 = 2 for x ∈ [0, 0.5]."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "If X and Y are independent random variables, what are E(XY) and Var(X ± Y)?",
+      "a": "E(X Y) = E(X) · E(Y)\nVar(X + Y) = Var(X) + Var(Y)\nVar(X - Y) = Var(X) + Var(Y).",
+      "hint": "Variance is ALWAYS additive: Var(X - Y) = Var(X) + Var(Y), never minus!"
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Expectation and Variance of a constant c?",
+      "a": "E(c) = c\nVar(c) = 0.",
+      "hint": "A constant has zero spread/dispersion, so its variance is 0."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "If p.m.f. of X is P(X = x) = k x for x = 1, 2, 3, 4, find k.",
+      "a": "∑ pᵢ = k(1 + 2 + 3 + 4) = 10k = 1 ⇒ k = 1/10 = 0.1.",
+      "hint": "Sum all probabilities and equate to 1."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "If p.d.f. of X is f(x) = k x for 0 ≤ x ≤ 2 (and 0 otherwise), find k and E(X).",
+      "a": "∫_0^2 k x dx = k [x²/2]_0^2 = 2k = 1 ⇒ k = 1/2.\nE(X) = ∫_0^2 x (x/2) dx = [x³/6]_0^2 = 8/6 = 4/3.",
+      "hint": "First find k using total integral = 1, then compute E(X) = ∫ x f(x) dx."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Discrete probability interval relation using c.d.f. F(x)?",
+      "a": "P(a < X ≤ b) = F(b) - F(a).",
+      "hint": "Notice lower bound is strict (<) and upper bound is inclusive (≤)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "A coin is tossed 3 times. Let X be number of heads. Find E(X) and Var(X).",
+      "a": "Possible values x: 0, 1, 2, 3 with probabilities 1/8, 3/8, 3/8, 1/8.\nE(X) = 0(1/8) + 1(3/8) + 2(3/8) + 3(1/8) = 12/8 = 1.5.\nVar(X) = E(X²) - μ² = [0 + 3/8 + 12/8 + 9/8] - (1.5)² = 3 - 2.25 = 0.75 = 3/4.",
+      "hint": "Also matches Binomial B(3, 1/2): Mean = np = 1.5, Var = npq = 3/4."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Two dice are rolled. Let X be sum of numbers. What is E(X)?",
+      "a": "E(X) = 7.",
+      "hint": "Symmetry shortcut: Range is 2 to 12, symmetric around the center value 7."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Can Var(X) ever be equal to 0?",
+      "a": "YES, if and only if X is a constant (degenerate random variable taking a single value with probability 1).",
+      "hint": "If Var(X) = 0, there is zero variability; X is deterministic."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Given F(x) = x²/9 for 0 ≤ x ≤ 3, find p.d.f. f(x) and P(1 ≤ X ≤ 2).",
+      "a": "p.d.f.: f(x) = F'(x) = 2x / 9  (for 0 ≤ x ≤ 3).\nP(1 ≤ X ≤ 2) = F(2) - F(1) = 4/9 - 1/9 = 3/9 = 1/3.",
+      "hint": "Using c.d.f. F(2) - F(1) is faster than integrating f(x) from 1 to 2!"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Differentiation",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "Standard derivatives: xⁿ, eˣ, aˣ, ln x, log_a x?",
+      "a": "d/dx(xⁿ) = n xⁿ⁻¹\nd/dx(eˣ) = eˣ\nd/dx(aˣ) = aˣ ln a\nd/dx(ln x) = 1/x\nd/dx(log_a x) = 1 / (x ln a).",
+      "hint": "Remember: base must be e for d/dx(ln x) = 1/x. If base is a, divide by ln a."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Derivatives of all 6 standard trigonometric functions?",
+      "a": "d/dx(sin x) = cos x\nd/dx(cos x) = -sin x\nd/dx(tan x) = sec² x\nd/dx(cot x) = -cosec² x\nd/dx(sec x) = sec x tan x\nd/dx(cosec x) = -cosec x cot x.",
+      "hint": "Mnemonic: Every trig 'co-' function (cos, cot, cosec) has a NEGATIVE derivative!"
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Derivatives of the 6 inverse trigonometric functions?",
+      "a": "d/dx(sin⁻¹ x) = 1 / √(1 - x²)\nd/dx(cos⁻¹ x) = -1 / √(1 - x²)\nd/dx(tan⁻¹ x) = 1 / (1 + x²)\nd/dx(cot⁻¹ x) = -1 / (1 + x²)\nd/dx(sec⁻¹ x) = 1 / (|x| √(x² - 1))\nd/dx(cosec⁻¹ x) = -1 / (|x| √(x² - 1)).",
+      "hint": "Again, inverse 'co-' functions carry an exact minus sign of their counterparts."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "State the Chain Rule for composite functions.",
+      "a": "If y = f(u) and u = g(x), then dy/dx = (dy/du) · (du/dx) = f'(g(x)) · g'(x).",
+      "hint": "Differentiate outer function first, keeping inside intact, then multiply by derivative of inside."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Product Rule and Quotient Rule of differentiation?",
+      "a": "Product Rule: d/dx(u v) = u (dv/dx) + v (du/dx)\nQuotient Rule: d/dx(u / v) = [ v (du/dx) - u (dv/dx) ] / v².",
+      "hint": "Quotient Rule order is critical: denominator v times derivative of numerator minus numerator u times derivative of denominator."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Derivative of an Inverse Function?",
+      "a": "dx/dy = 1 / (dy/dx), provided dy/dx ≠ 0.",
+      "hint": "HSC Board theorem proof favorite! (f⁻¹)'(y) = 1 / f'(x)."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "When is Logarithmic Differentiation used and what is its technique?",
+      "a": "Used when function is in the form [f(x)]^[g(x)] or a complicated product/quotient. Take natural log of both sides: ln y = g(x) ln[f(x)], then differentiate implicitly wrt x.",
+      "hint": "Formula: dy/dx = y · [ g'(x) ln f(x) + g(x) · (f'(x) / f(x)) ]."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "MHT-CET 5-second shortcut for implicit differentiation f(x, y) = c?",
+      "a": "dy/dx = - (∂f / ∂x) / (∂f / ∂y), where ∂f/∂x treats y as constant, and ∂f/∂y treats x as constant.",
+      "hint": "Saves 2 minutes per MCQ! Don't forget the negative sign in front."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Super MHT-CET Shortcut: If xᵐ yⁿ = (x + y)ᵐ⁺ⁿ, what are dy/dx and d²y/dx²?",
+      "a": "dy/dx = y / x  ALWAYS, and d²y/dx² = 0  ALWAYS (for any powers m, n > 0).",
+      "hint": "Legendary Board & CET question! Independent of m and n, derivative is always y/x."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "MHT-CET Shortcut: If y = √[ f(x) + √[ f(x) + √[ f(x) + ... ∞ ] ] ], find dy/dx.",
+      "a": "dy/dx = f'(x) / (2y - 1).",
+      "hint": "Write y = √(f(x) + y) ⇒ y² - y = f(x) ⇒ (2y - 1) dy/dx = f'(x)."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "MHT-CET Shortcut: If y = f(x)^(f(x)^(f(x)... ∞)), find dy/dx.",
+      "a": "dy/dx = [ y² · f'(x) ] / [ f(x) · (1 - y ln f(x)) ].",
+      "hint": "Write y = [f(x)]^y ⇒ ln y = y ln f(x), then differentiate implicitly."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "MHT-CET Shortcut: If y = x + 1 / (x + 1 / (x + ... ∞)), find dy/dx.",
+      "a": "dy/dx = y / (2y - x).",
+      "hint": "Write y = x + 1/y ⇒ y² - xy - 1 = 0. Apply partial derivative shortcut."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Parametric Differentiation: If x = f(t) and y = g(t), what is dy/dx?",
+      "a": "dy/dx = (dy/dt) / (dx/dt), provided dx/dt ≠ 0.",
+      "hint": "Differentiate both parametric equations with respect to parameter t."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "BIG TRAP: How to find the second derivative d²y/dx² of parametric functions?",
+      "a": "d²y/dx² = [ d/dt (dy/dx) ] · (dt/dx) = [ d/dt (dy/dx) ] / (dx/dt).",
+      "hint": "#1 MHT-CET trap! Students always forget to divide by (dx/dt) at the end."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Trigonometric substitution for algebraic expressions in inverse trig derivatives?",
+      "a": "1. √(a² - x²) → put x = a sin θ (or a cos θ)\n2. √(a² + x²) → put x = a tan θ\n3. √(x² - a²) → put x = a sec θ\n4. √[ (a - x) / (a + x) ] → put x = a cos 2θ (or a cos θ).",
+      "hint": "Transforms complicated roots into simple single trigonometric terms."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Standard simplified form: d/dx[ tan⁻¹( (cos x - sin x) / (cos x + sin x) ) ]?",
+      "a": "d/dx[ tan⁻¹( tan(π/4 - x) ) ] = d/dx(π/4 - x) = -1.",
+      "hint": "Divide numerator and denominator by cos x inside tan⁻¹."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Derivative of one function f(x) with respect to another function g(x)?",
+      "a": "d(f(x)) / d(g(x)) = f'(x) / g'(x).",
+      "hint": "Treat g(x) as the parameter; differentiate both wrt x and take ratio."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Derivative of |x| for x ≠ 0?",
+      "a": "d/dx(|x|) = x / |x| = sgn(x) = +1 (if x > 0), -1 (if x < 0).",
+      "hint": "At x = 0, |x| is NOT differentiable (sharp corner: LHD = -1 ≠ RHD = +1)."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Differentiability implies continuity theorem?",
+      "a": "If a function is differentiable at x = a, it is ALWAYS continuous at x = a. However, converse is NOT true.",
+      "hint": "f(x) = |x| is continuous at x = 0, but not differentiable at x = 0."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "n-th derivative of (ax + b)ᵐ and e^(ax)?",
+      "a": "dⁿ/dxⁿ [ e^(ax) ] = aⁿ e^(ax)\ndⁿ/dxⁿ [ (ax + b)ⁿ ] = aⁿ · n!.",
+      "hint": "Each differentiation brings down a factor of the linear coefficient a."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "n-th derivative of sin(ax + b) and cos(ax + b)?",
+      "a": "dⁿ/dxⁿ [ sin(ax + b) ] = aⁿ · sin(ax + b + nπ/2)\ndⁿ/dxⁿ [ cos(ax + b) ] = aⁿ · cos(ax + b + nπ/2).",
+      "hint": "Each successive differentiation advances the angle phase by π/2."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Derivative of sin⁻¹(2x / (1 + x²)) and cos⁻¹((1 - x²) / (1 + x²))?",
+      "a": "Both equal 2 tan⁻¹ x for |x| ≤ 1. Their derivative is 2 / (1 + x²).",
+      "hint": "Substitute x = tan θ. Beware of domain: outside [-1, 1], sign flips!"
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Derivative of tan⁻¹( (3x - x³) / (1 - 3x²) )?",
+      "a": "= 3 tan⁻¹ x ⇒ Derivative = 3 / (1 + x²).",
+      "hint": "Substitute x = tan θ to utilize triple angle identity tan 3θ = (3 tan θ - tan³ θ)/(1 - 3 tan² θ)."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "How to differentiate a 3×3 determinant whose elements are functions of x?",
+      "a": "Differentiate one row at a time while keeping the other two rows unchanged, and sum the 3 determinants (or row-by-row / column-by-column).",
+      "hint": "d/dx |Δ| = |Δ₁| + |Δ₂| + |Δ₃|, where Δᵢ has row i differentiated."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Derivative of an Even function vs an Odd function?",
+      "a": "The derivative of an EVEN function is always ODD.\nThe derivative of an ODD function is always EVEN.",
+      "hint": "Example: d/dx(cos x) = -sin x (even → odd); d/dx(sin x) = cos x (odd → even)."
+    }
+  ]
+}

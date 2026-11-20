@@ -1,0 +1,183 @@
+{
+  "title": "Trigonometric Functions",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "General solutions when trig functions equal zero?",
+      "a": "sin θ = 0 ⇒ θ = nπ\ncos θ = 0 ⇒ θ = (2n + 1)π/2\ntan θ = 0 ⇒ θ = nπ  (where n ∈ Z).",
+      "hint": "Zeros of tan θ coincide with zeros of sin θ."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "General solutions of sin θ = sin α, cos θ = cos α, tan θ = tan α?",
+      "a": "sin θ = sin α ⇒ θ = nπ + (-1)ⁿ α\ncos θ = cos α ⇒ θ = 2nπ ± α\ntan θ = tan α ⇒ θ = nπ + α  (where n ∈ Z).",
+      "hint": "Choose α as the principal value of smallest numerical magnitude."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "General solution for squared trig equations: sin² θ = sin² α, cos² θ = cos² α, tan² θ = tan² α?",
+      "a": "θ = nπ ± α  (where n ∈ Z) for all three forms.",
+      "hint": "All three squared equations share the exact same general solution!"
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "What is the principal solution of a trigonometric equation?",
+      "a": "A solution θ that satisfies 0 ≤ θ < 2π.",
+      "hint": "Every standard trig equation has exactly two principal solutions in [0, 2π)."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Conversion between Cartesian (x, y) and Polar (r, θ) coordinates?",
+      "a": "Cartesian to Polar: r = √(x² + y²), tan θ = y/x (adjust θ for the quadrant of (x, y)).\nPolar to Cartesian: x = r cos θ, y = r sin θ.",
+      "hint": "Check signs of x and y to place θ in the correct quadrant (0 ≤ θ < 2π)."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "State the Sine Rule for any triangle ABC.",
+      "a": "a / sin A = b / sin B = c / sin C = 2R = k, where R is the circumradius.",
+      "hint": "Useful forms: a = 2R sin A, b = 2R sin B, c = 2R sin C."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "State the Cosine Rule for sides and angles of triangle ABC.",
+      "a": "a² = b² + c² - 2bc cos A ⇒ cos A = (b² + c² - a²) / (2bc)\nb² = c² + a² - 2ca cos B ⇒ cos B = (c² + a² - b²) / (2ca)\nc² = a² + b² - 2ab cos C ⇒ cos C = (a² + b² - c²) / (2ab).",
+      "hint": "Denominator has the two sides adjacent to the angle being computed."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "State the Projection Rules in triangle ABC.",
+      "a": "a = b cos C + c cos B\nb = c cos A + a cos C\nc = a cos B + b cos A.",
+      "hint": "Each side is the sum of projections of the other two sides onto it."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "State Napier's Analogies (Tangent Rule).",
+      "a": "tan((B - C)/2) = ((b - c) / (b + c)) · cot(A/2)\ntan((C - A)/2) = ((c - a) / (c + a)) · cot(B/2)\ntan((A - B)/2) = ((a - b) / (a + b)) · cot(C/2).",
+      "hint": "Notice (b - c) matches angle (B - C) and cot(A/2) uses the third angle."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Half-angle formulas for sin(A/2), cos(A/2), and tan(A/2) (s = semi-perimeter)?",
+      "a": "sin(A/2) = √[ ((s - b)(s - c)) / (bc) ]\ncos(A/2) = √[ (s(s - a)) / (bc) ]\ntan(A/2) = √[ ((s - b)(s - c)) / (s(s - a)) ].",
+      "hint": "sin uses opposite factors (s - b)(s - c); cos uses adjacent factor s(s - a)."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Formulas for the Area of Triangle (Δ)?",
+      "a": "Δ = (1/2) ab sin C = (1/2) bc sin A = (1/2) ca sin B\nΔ = abc / (4R) = r · s = √[ s(s - a)(s - b)(s - c) ] (Heron's Formula).",
+      "hint": "R = circumradius, r = inradius = Δ/s."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Principal value branches (Range) of sin⁻¹ x, cos⁻¹ x, and tan⁻¹ x?",
+      "a": "sin⁻¹ x: [-π/2, π/2], Domain: [-1, 1]\ncos⁻¹ x: [0, π], Domain: [-1, 1]\ntan⁻¹ x: (-π/2, π/2), Domain: R.",
+      "hint": "HSC Board gold mine: always verify if the angle lies inside the principal branch!"
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Principal value branches (Range) of cosec⁻¹ x, sec⁻¹ x, and cot⁻¹ x?",
+      "a": "cosec⁻¹ x: [-π/2, π/2] \\ {0}\nsec⁻¹ x: [0, π] \\ {π/2}\ncot⁻¹ x: (0, π).",
+      "hint": "Domains: sec⁻¹ x and cosec⁻¹ x are defined for |x| ≥ 1; cot⁻¹ x for R."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Negative argument identities for sin⁻¹, tan⁻¹, cosec⁻¹?",
+      "a": "sin⁻¹(-x) = -sin⁻¹(x)\ntan⁻¹(-x) = -tan⁻¹(x)\ncosec⁻¹(-x) = -cosec⁻¹(x).",
+      "hint": "These three odd functions push the minus sign directly outside."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Negative argument identities for cos⁻¹, sec⁻¹, cot⁻¹?",
+      "a": "cos⁻¹(-x) = π - cos⁻¹(x)\nsec⁻¹(-x) = π - sec⁻¹(x)\ncot⁻¹(-x) = π - cot⁻¹(x).",
+      "hint": "Super high-yield trap! Never write cos⁻¹(-x) = -cos⁻¹(x). It is ALWAYS π - cos⁻¹(x)."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Complementary angle identities for inverse trig functions?",
+      "a": "sin⁻¹ x + cos⁻¹ x = π/2  (for x ∈ [-1, 1])\ntan⁻¹ x + cot⁻¹ x = π/2  (for x ∈ R)\nsec⁻¹ x + cosec⁻¹ x = π/2  (for |x| ≥ 1).",
+      "hint": "Frequently used to substitute π/2 - sin⁻¹ x in place of cos⁻¹ x."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Addition formula: tan⁻¹ x + tan⁻¹ y?",
+      "a": "If xy < 1: tan⁻¹((x + y) / (1 - xy))\nIf xy > 1 (x > 0, y > 0): π + tan⁻¹((x + y) / (1 - xy)).",
+      "hint": "Check the product xy first! If xy > 1, you MUST add π to avoid domain violation."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Subtraction formula: tan⁻¹ x - tan⁻¹ y?",
+      "a": "tan⁻¹ x - tan⁻¹ y = tan⁻¹((x - y) / (1 + xy)), provided xy > -1.",
+      "hint": "If xy < -1 and x > 0, y < 0, add π."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Three standard formulas for 2 tan⁻¹ x?",
+      "a": "2 tan⁻¹ x = tan⁻¹(2x / (1 - x²)) = sin⁻¹(2x / (1 + x²)) = cos⁻¹((1 - x²) / (1 + x²)).",
+      "hint": "Core substitution: put x = tan θ to simplify rational expressions in calculus."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Trap: Value of sin⁻¹(sin(2π/3)) and cos⁻¹(cos(4π/3))?",
+      "a": "sin⁻¹(sin(2π/3)) = sin⁻¹(sin(π - π/3)) = π/3 (since π/3 ∈ [-π/2, π/2]).\ncos⁻¹(cos(4π/3)) = cos⁻¹(cos(2π - 2π/3)) = 2π/3 (since 2π/3 ∈ [0, π]).",
+      "hint": "Never write 2π/3 or 4π/3! Both fall outside the principal branch."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Reciprocal relations for inverse trigonometric functions?",
+      "a": "cosec⁻¹ x = sin⁻¹(1/x)  (for |x| ≥ 1)\nsec⁻¹ x = cos⁻¹(1/x)  (for |x| ≥ 1)\ncot⁻¹ x = tan⁻¹(1/x)  (for x > 0), and π + tan⁻¹(1/x) (for x < 0).",
+      "hint": "Trap: cot⁻¹(-1) = 3π/4, whereas tan⁻¹(-1) = -π/4. For x < 0, cot⁻¹ x = π + tan⁻¹(1/x)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "MHT-CET condition for a cos θ + b sin θ = c to have real solutions?",
+      "a": "Real solutions exist if and only if c² ≤ a² + b² (i.e. -√(a² + b²) ≤ c ≤ √(a² + b²)).",
+      "hint": "Maximum value of a cos θ + b sin θ is √(a² + b²); minimum is -√(a² + b²)."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "In any triangle ABC (A + B + C = π), what is tan A + tan B + tan C?",
+      "a": "tan A + tan B + tan C = tan A · tan B · tan C.",
+      "hint": "Likewise: cot(A/2) + cot(B/2) + cot(C/2) = cot(A/2) · cot(B/2) · cot(C/2)."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "If in ΔABC, a² + b² = c², what are the angles and circumradius R?",
+      "a": "Angle C = 90° (right triangle). Circumradius R = c/2 (hypotenuse / 2).",
+      "hint": "By Sine Rule: c / sin 90° = 2R ⇒ R = c/2."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Shortcut to evaluate tan( (1/2) cos⁻¹(a/b) ) + tan( (1/2) cos⁻¹(-a/b) )?",
+      "a": "Value is 2b / a.",
+      "hint": "Put (1/2) cos⁻¹(a/b) = θ ⇒ cos 2θ = a/b, then tan θ + tan(π/2 - θ) = tan θ + cot θ = 2 / sin 2θ."
+    }
+  ]
+}

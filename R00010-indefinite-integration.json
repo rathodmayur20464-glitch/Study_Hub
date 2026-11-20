@@ -1,0 +1,183 @@
+{
+  "title": "Indefinite Integration",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is an Indefinite Integral and why add arbitrary constant c?",
+      "a": "Integration is the reverse process of differentiation (anti-derivative): ∫ f(x) dx = F(x) + c where F'(x) = f(x). 'c' is added because the derivative of any constant is zero.",
+      "hint": "Writing '+ c' is mandatory in every indefinite integral in HSC Board exams!"
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Standard algebraic and exponential integrals?",
+      "a": "∫ xⁿ dx = xⁿ⁺¹ / (n + 1) + c  (n ≠ -1)\n∫ (1/x) dx = ln|x| + c\n∫ eˣ dx = eˣ + c\n∫ aˣ dx = aˣ / ln a + c.",
+      "hint": "Trap: For n = -1, ∫ x⁻¹ dx = ln|x| + c, never apply power rule."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Standard trigonometric integrals: sin, cos, sec², cosec²?",
+      "a": "∫ sin x dx = -cos x + c\n∫ cos x dx = sin x + c\n∫ sec² x dx = tan x + c\n∫ cosec² x dx = -cot x + c.",
+      "hint": "Trap: ∫ sin x dx has a MINUS sign (-cos x), unlike derivative of sin x."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Integrals of sec x tan x and cosec x cot x?",
+      "a": "∫ sec x tan x dx = sec x + c\n∫ cosec x cot x dx = -cosec x + c.",
+      "hint": "Direct reverse of standard derivatives of sec x and cosec x."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Integrals of tan x, cot x, sec x, and cosec x?",
+      "a": "∫ tan x dx = ln|sec x| + c = -ln|cos x| + c\n∫ cot x dx = ln|sin x| + c\n∫ sec x dx = ln|sec x + tan x| + c = ln|tan(π/4 + x/2)| + c\n∫ cosec x dx = ln|cosec x - cot x| + c = ln|tan(x/2)| + c.",
+      "hint": "Alternative half-angle forms ln|tan(π/4 + x/2)| and ln|tan(x/2)| are common CET options!"
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Core substitution formulas for f'(x)?",
+      "a": "1. ∫ [f(x)]ⁿ · f'(x) dx = [f(x)]ⁿ⁺¹ / (n + 1) + c  (n ≠ -1)\n2. ∫ [ f'(x) / f(x) ] dx = ln|f(x)| + c\n3. ∫ [ f'(x) / √f(x) ] dx = 2 √f(x) + c.",
+      "hint": "Whenever numerator is the exact derivative of denominator, answer is ln|denominator|."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Integrals of 1 / (x² + a²), 1 / (x² - a²), and 1 / (a² - x²)?",
+      "a": "∫ [1 / (x² + a²)] dx = (1/a) tan⁻¹(x/a) + c\n∫ [1 / (x² - a²)] dx = (1 / 2a) ln|(x - a) / (x + a)| + c\n∫ [1 / (a² - x²)] dx = (1 / 2a) ln|(a + x) / (a - x)| + c.",
+      "hint": "Mnemonic: (x² - a²) has (x - a) in numerator; (a² - x²) has (a + x) in numerator."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Integrals of 1 / √(a² - x²), 1 / √(x² + a²), and 1 / √(x² - a²)?",
+      "a": "∫ [1 / √(a² - x²)] dx = sin⁻¹(x/a) + c\n∫ [1 / √(x² + a²)] dx = ln|x + √(x² + a²)| + c\n∫ [1 / √(x² - a²)] dx = ln|x + √(x² - a²)| + c.",
+      "hint": "Notice: sin⁻¹(x/a) does NOT have 1/a outside, unlike tan⁻¹(x/a)!"
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Three numerator square root formulas: √(a² - x²), √(x² + a²), √(x² - a²)?",
+      "a": "∫ √(a² - x²) dx = (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a) + c\n∫ √(x² + a²) dx = (x/2)√(x² + a²) + (a²/2) ln|x + √(x² + a²)| + c\n∫ √(x² - a²) dx = (x/2)√(x² - a²) - (a²/2) ln|x + √(x² - a²)| + c.",
+      "hint": "Every formula starts with (x/2)(given root). Only √(x² - a²) has a MINUS sign before (a²/2)."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Formula for Integration by Parts and the LIATE rule?",
+      "a": "∫ u v dx = u ∫ v dx - ∫ [ (du/dx) · ∫ v dx ] dx.\nPriority order for choosing u: L (Logarithmic) → I (Inverse trig) → A (Algebraic) → T (Trigonometric) → E (Exponential).",
+      "hint": "Choose u as the function appearing earlier in LIATE, v as the second function."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Classic Master Formula: ∫ eˣ [ f(x) + f'(x) ] dx?",
+      "a": "∫ eˣ [ f(x) + f'(x) ] dx = eˣ · f(x) + c.",
+      "hint": "The single highest-frequency integration shortcut in MHT-CET! Spot f(x) and its derivative."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Generalized Master Formula: ∫ e^(kx) [ k f(x) + f'(x) ] dx?",
+      "a": "∫ e^(kx) [ k f(x) + f'(x) ] dx = e^(kx) · f(x) + c.",
+      "hint": "Look for the factor k multiplying f(x) matching the exponent coefficient."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Formulas for ∫ e^(ax) sin(bx) dx and ∫ e^(ax) cos(bx) dx?",
+      "a": "∫ e^(ax) sin(bx) dx = [ e^(ax) / (a² + b²) ] · [ a sin(bx) - b cos(bx) ] + c\n∫ e^(ax) cos(bx) dx = [ e^(ax) / (a² + b²) ] · [ a cos(bx) + b sin(bx) ] + c.",
+      "hint": "Denominator is always (a² + b²). Sine integral has minus sign; cosine integral has plus sign."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "How to integrate 1 / (a sin² x + b cos² x + c)?",
+      "a": "1. Divide numerator and denominator by cos² x.\n2. In denominator, replace sec² x by (1 + tan² x).\n3. Substitute tan x = t ⇒ sec² x dx = dt, reducing to 1 / (A t² + B).",
+      "hint": "Transforms trigonometric quadratic into standard algebraic integral in t."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "How to integrate (a sin x + b cos x) / (c sin x + d cos x)?",
+      "a": "Express Numerator = A · (Denominator) + B · (d/dx Denominator).\nEquate sin x and cos x coefficients to find A and B, then integral = A x + B ln|Denominator| + c.",
+      "hint": "Guaranteed 3-mark HSC Board template! First part integrates to A x, second to B ln|Denom|."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "How to integrate 1 / (a + b cos x) or 1 / (a + b sin x)?",
+      "a": "Use half-angle substitutions: put tan(x/2) = t ⇒ dx = 2 dt / (1 + t²), sin x = 2t / (1 + t²), cos x = (1 - t²) / (1 + t²).",
+      "hint": "(1 + t²) in denominators cancels cleanly, leaving a standard quadratic in t."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Rules for Partial Fractions: Linear, Repeated, and Quadratic factors?",
+      "a": "1. Distinct linear: 1 / ((x - a)(x - b)) = A/(x - a) + B/(x - b)\n2. Repeated linear: 1 / (x - a)² = A/(x - a) + B/(x - a)²\n3. Irreducible quadratic: 1 / ((x - a)(x² + bx + c)) = A/(x - a) + (Bx + C)/(x² + bx + c).",
+      "hint": "Always check: Degree of numerator MUST be strictly less than degree of denominator."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "TRAP: What must you do first if degree of numerator ≥ degree of denominator?",
+      "a": "You MUST perform polynomial long division first to express fraction as: Quotient + [ Remainder / Denominator ].",
+      "hint": "Applying partial fractions directly to improper fractions gives 100% wrong answers!"
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Heaviside Cover-up Method for linear partial fractions?",
+      "a": "To find coefficient A of 1/(x - a), cover up the factor (x - a) in the original fraction and substitute x = a in the rest.",
+      "hint": "Finds all simple linear partial fraction coefficients in 5 seconds without writing systems of equations."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Integral of (x² + 1) / (x⁴ + 1) and (x² - 1) / (x⁴ + 1)?",
+      "a": "Divide numerator & denominator by x²:\n1. (1 + 1/x²) / (x² + 1/x²) ⇒ put (x - 1/x) = t\n2. (1 - 1/x²) / (x² + 1/x²) ⇒ put (x + 1/x) = t.",
+      "hint": "x² + 1/x² = (x - 1/x)² + 2 = (x + 1/x)² - 2."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Integral of √(tan x) or √(cot x)?",
+      "a": "Put tan x = t² ⇒ dx = 2t dt / (1 + t⁴), reducing to 2t² / (t⁴ + 1) = (t² + 1)/(t⁴ + 1) + (t² - 1)/(t⁴ + 1).",
+      "hint": "Splits into the two standard x⁴ + 1 symmetric forms above."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Integral of form (px + q) / √(ax² + bx + c)?",
+      "a": "Express numerator: px + q = A · d/dx(ax² + bx + c) + B = A(2ax + b) + B.\nIntegrates to: 2A √(ax² + bx + c) + B ∫ [ 1 / √(ax² + bx + c) ] dx.",
+      "hint": "First part uses ∫ f'(x)/√f(x) dx = 2√f(x); second completes the square."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Integral of 1 / (x (xⁿ + 1))?",
+      "a": "Multiply and divide by xⁿ⁻¹: ∫ [ xⁿ⁻¹ / (xⁿ (xⁿ + 1)) ] dx. Put xⁿ = t ⇒ dt = n xⁿ⁻¹ dx, giving (1/n) ln|t / (t + 1)| + c = (1/n) ln|xⁿ / (xⁿ + 1)| + c.",
+      "hint": "Super-fast CET shortcut: ∫ 1 / [x (x⁷ + 1)] dx = (1/7) ln|x⁷ / (x⁷ + 1)| + c."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Integral of 1 / (sin(x - a) cos(x - b))?",
+      "a": "Multiply and divide by cos(a - b), then write angle as (x - b) - (x - a) in numerator.",
+      "hint": "If both terms in denominator are same kind (sin·sin or cos·cos), divide by sin(a - b)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET differentiation verification trick for integration MCQs?",
+      "a": "Instead of evaluating complicated integrals, differentiate the 4 MCQ options using standard derivatives! The option whose derivative matches the integrand is correct.",
+      "hint": "Guaranteed lifesaver when you get stuck on a difficult integration substitution!"
+    }
+  ]
+}

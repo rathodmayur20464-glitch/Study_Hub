@@ -1,0 +1,183 @@
+{
+  "title": "Pair of Straight Lines",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is the combined (joint) equation of two lines u = 0 and v = 0?",
+      "a": "u · v = 0. A point (x, y) satisfies u · v = 0 iff it lies on line u = 0 OR line v = 0.",
+      "hint": "Any line pair equation factors into two linear equations."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "What does a homogeneous second-degree equation ax² + 2hxy + by² = 0 represent?",
+      "a": "It always represents a pair of straight lines passing through the origin (0, 0).",
+      "hint": "Since degree of every term is 2, it is satisfied by (0, 0)."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Sum and product of slopes m₁, m₂ for ax² + 2hxy + by² = 0?",
+      "a": "m₁ + m₂ = -2h / b\nm₁ · m₂ = a / b.",
+      "hint": "Derived from the auxiliary equation: b m² + 2h m + a = 0."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Condition for lines represented by ax² + 2hxy + by² = 0 to be real/distinct, coincident, or imaginary?",
+      "a": "Real & distinct: h² - ab > 0\nCoincident (identical): h² - ab = 0\nImaginary (only origin): h² - ab < 0.",
+      "hint": "Discriminant Δ = 4(h² - ab) of the quadratic bm² + 2hm + a = 0 governs the nature."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Acute angle θ between the lines ax² + 2hxy + by² = 0?",
+      "a": "tan θ = | 2 √(h² - ab) / (a + b) |.",
+      "hint": "Always take absolute value to ensure θ is acute (0 ≤ θ ≤ π/2)."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Condition for the lines ax² + 2hxy + by² = 0 to be perpendicular?",
+      "a": "a + b = 0 (i.e. coefficient of x² + coefficient of y² = 0).",
+      "hint": "Most frequently asked MHT-CET property! Independent of the value of h."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Condition for the lines ax² + 2hxy + by² = 0 to be coincident / parallel?",
+      "a": "h² - ab = 0  (or h² = ab).",
+      "hint": "Lines passing through origin are parallel only when they coincide."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Joint equation of the angle bisectors of ax² + 2hxy + by² = 0?",
+      "a": "(x² - y²) / (a - b) = xy / h  or  h(x² - y²) - (a - b)xy = 0.",
+      "hint": "Sum of coefficients of x² and y² is h + (-h) = 0, proving bisectors are always perpendicular."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "General second-degree equation representing a pair of straight lines?",
+      "a": "ax² + 2hxy + by² + 2gx + 2fy + c = 0.",
+      "hint": "Contains linear and constant terms, so the lines do not necessarily pass through the origin."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Condition for general second-degree equation to represent a pair of straight lines?",
+      "a": "Δ = abc + 2fgh - af² - bg² - ch² = 0  AND  h² - ab ≥ 0.",
+      "hint": "Determinant form: | [a, h, g], [h, b, f], [g, f, c] | = 0."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Coordinates of the point of intersection of ax² + 2hxy + by² + 2gx + 2fy + c = 0?",
+      "a": "(x, y) = ( (hf - bg) / (ab - h²), (gh - af) / (ab - h²) ).",
+      "hint": "Denominator is (ab - h²). Note: numerator signs: hf - bg and gh - af."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "10-second shortcut to find point of intersection without memorizing formulas?",
+      "a": "Differentiate partially wrt x (set ∂f/∂x = 0) and wrt y (set ∂f/∂y = 0). Solve these two linear equations simultaneously!",
+      "hint": "2ax + 2hy + 2g = 0 and 2hx + 2by + 2f = 0. Solving them gives the intersection point in seconds!"
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Angle between lines for the general equation ax² + 2hxy + by² + 2gx + 2fy + c = 0?",
+      "a": "tan θ = | 2 √(h² - ab) / (a + b) |.",
+      "hint": "Angle depends ONLY on the second-degree coefficients a, h, b. Linear terms g, f, c have zero effect on angle!"
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Condition for lines of general equation to be parallel?",
+      "a": "h² - ab = 0  AND  bg² = af² (or g² / a = f² / b).",
+      "hint": "Both conditions must hold for lines to be distinct parallel lines."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Distance between two parallel lines represented by general second-degree equation?",
+      "a": "d = 2 √[ (g² - ac) / (a(a + b)) ] = 2 √[ (f² - bc) / (b(a + b)) ].",
+      "hint": "Notice factor of 2 in front of the square root."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Product of perpendicular distances from origin to ax² + 2hxy + by² + 2gx + 2fy + c = 0?",
+      "a": "p₁ · p₂ = |c| / √[ (a - b)² + 4h² ].",
+      "hint": "Standard MHT-CET formula. If lines pass through origin, c = 0 so product is 0."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Product of perpendiculars from point (x₁, y₁) to ax² + 2hxy + by² = 0?",
+      "a": "p₁ · p₂ = |a x₁² + 2h x₁ y₁ + b y₁²| / √[ (a - b)² + 4h² ].",
+      "hint": "Denominator √[ (a - b)² + 4h² ] is identical to that in the angle bisector magnitude."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Homogenization: How to find the joint equation of lines joining origin to points of intersection of a curve and a line lx + my + n = 0?",
+      "a": "Write the line as (lx + my) / (-n) = 1. Multiply linear terms of curve by ((lx + my)/(-n)) and constant term by ((lx + my)/(-n))² to make every term degree 2.",
+      "hint": "The resulting equation is homogeneous of degree 2 and represents the pair of lines through origin."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Condition for lines joining origin to intersections of curve and line to be perpendicular?",
+      "a": "After homogenizing to Ax² + 2Hxy + By² = 0, set A + B = 0.",
+      "hint": "A + B = 0 is always the perpendicularity test for any homogeneous pair of lines."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Area of triangle formed by lines ax² + 2hxy + by² = 0 and the line lx + my + n = 0?",
+      "a": "Area = | (n² √(h² - ab)) / (a m² - 2h l m + b l²) |.",
+      "hint": "High-yield shortcut for MHT-CET triangle area MCQs."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Lines parallel to ax² + 2hxy + by² = 0 passing through point (x₁, y₁)?",
+      "a": "a(x - x₁)² + 2h(x - x₁)(y - y₁) + b(y - y₁)² = 0.",
+      "hint": "Shift origin to (x₁, y₁) by substituting x → x - x₁ and y → y - y₁."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Condition that one line of ax² + 2hxy + by² = 0 is perpendicular to line px + qy = 0?",
+      "a": "Slope of line is -p/q, so perpendicular slope is q/p. Substitute m = q/p into auxiliary equation: b(q/p)² + 2h(q/p) + a = 0 ⇒ b q² + 2h p q + a p² = 0.",
+      "hint": "Substitute the required slope directly into bm² + 2hm + a = 0."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Condition that one line of ax² + 2hxy + by² = 0 coincides with line y = mx?",
+      "a": "b m² + 2h m + a = 0.",
+      "hint": "m must be a root of the auxiliary equation."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "When does ax² + 2hxy + by² = 0 represent the coordinate axes?",
+      "a": "When a = 0, b = 0, and h ≠ 0, giving the equation 2hxy = 0 ⇒ xy = 0.",
+      "hint": "xy = 0 factors into x = 0 (y-axis) and y = 0 (x-axis)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Condition for the lines ax² + 2hxy + by² = 0 to be equally inclined to coordinate axes?",
+      "a": "m₁ + m₂ = 0 ⇒ -2h / b = 0 ⇒ h = 0.",
+      "hint": "If lines are equally inclined to axes, their slopes are m and -m (sum = 0)."
+    }
+  ]
+}

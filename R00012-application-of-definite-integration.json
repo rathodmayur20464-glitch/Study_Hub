@@ -1,0 +1,183 @@
+{
+  "title": "Application of Definite Integration",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "Formula for area bounded by curve y = f(x), x-axis, and lines x = a to x = b?",
+      "a": "Area = ∫_a^b |y| dx = ∫_a^b |f(x)| dx.",
+      "hint": "Always use absolute value |y| because geometric area can never be negative."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Formula for area bounded by curve x = g(y), y-axis, and lines y = c to y = d?",
+      "a": "Area = ∫_c^d |x| dy = ∫_c^d |g(y)| dy.",
+      "hint": "Use horizontal strips when the equation is easily expressed as x in terms of y."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "CRITICAL TRAP: What to do when a curve crosses the x-axis at c ∈ (a, b)?",
+      "a": "Split the integral at x = c: Area = ∫_a^c f(x) dx + | ∫_c^b f(x) dx |.",
+      "hint": "Integrating straight from a to b cancels positive and negative regions, giving a wrong answer!"
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Area enclosed between two curves y = f(x) and y = g(x) from x = a to x = b?",
+      "a": "Area = ∫_a^b [ y_upper - y_lower ] dx = ∫_a^b [ f(x) - g(x) ] dx  (where f(x) ≥ g(x)).",
+      "hint": "Always subtract the lower curve from the upper curve so integrand is positive."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Standard Area of a Circle x² + y² = a² using integration?",
+      "a": "Total Area = 4 · ∫_0^a √(a² - x²) dx = 4 · (π a² / 4) = π a².",
+      "hint": "Calculate the first quadrant area and multiply by 4 due to four-fold symmetry."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Standard Area of an Ellipse x²/a² + y²/b² = 1 using integration?",
+      "a": "Total Area = 4 · (b/a) ∫_0^a √(a² - x²) dx = 4 · (b/a) · (π a² / 4) = π a b.",
+      "hint": "If a = b, ellipse reduces to circle of radius a and area becomes π a²."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "MHT-CET Super Shortcut 1: Area between parabola y² = 4ax and line y = mx?",
+      "a": "Area = 8 a² / (3 m³).",
+      "hint": "Instant 5-second formula! No integration required in entrance exams."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "MHT-CET Super Shortcut 2: Area between parabola x² = 4by and line y = mx?",
+      "a": "Area = (8/3) · b² · m³.",
+      "hint": "Notice m³ is in the numerator here, whereas in y² = 4ax it is in denominator."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "MHT-CET Super Shortcut 3: Area between two standard parabolas y² = 4ax and x² = 4by?",
+      "a": "Area = 16 a b / 3.",
+      "hint": "For y² = 4x and x² = 4y (a = 1, b = 1), Area = 16/3 sq units."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "MHT-CET Super Shortcut 4: Area enclosed by parabola y² = 4ax and its Latus Rectum x = a?",
+      "a": "Area = 8 a² / 3.",
+      "hint": "Special case of parabola and vertical chord through focus."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Area enclosed between parabola y² = 4ax and double ordinate x = x₁?",
+      "a": "Area = 2 · ∫_0^(x₁) 2√(ax) dx = (4/3) x₁ y₁ = (2/3) · (base × height).",
+      "hint": "Archimedes' formula: Parabolic segment area is 2/3 of the circumscribing rectangle!"
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Area of smaller region bounded by circle x² + y² = a² and line x = a / √2?",
+      "a": "Area = (a² / 4) · (π - 2).",
+      "hint": "Common Board 4-mark problem. Sector area minus triangle area."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Area of smaller region between ellipse x²/a² + y²/b² = 1 and chord x/a + y/b = 1?",
+      "a": "Area = (a b / 4) · (π - 2).",
+      "hint": "First quadrant ellipse area (πab/4) minus triangle area (ab/2)."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Area of one complete loop of y = sin x or y = cos x?",
+      "a": "Area of 1 arch / loop (width π) = 2 sq units.\nFrom x = 0 to x = 2π, total area = 2 + 2 = 4 sq units.",
+      "hint": "Definite integral of sin x from 0 to 2π is 0, but AREA is 4 sq units!"
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Area bounded by y = sin x and y = cos x between two consecutive intersections?",
+      "a": "Area = 2 √2 sq units  (from x = π/4 to x = 5π/4).",
+      "hint": "∫_(π/4)^(5π/4) (sin x - cos x) dx = [ -cos x - sin x ]_(π/4)^(5π/4) = 2√2."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Area bounded by |x| + |y| = a?",
+      "a": "Area = 2 a² sq units.",
+      "hint": "Forms a square rotated by 45° with diagonal 2a. Area = (1/2) · (2a)² = 2a²."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Area enclosed by the curve y = |x| and line y = c (c > 0)?",
+      "a": "Area = c² sq units.",
+      "hint": "Forms a triangle with base 2c and height c: Area = (1/2) · 2c · c = c²."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "How to find limits of integration when none are given in the question?",
+      "a": "Solve the equations of the bounding curves simultaneously to find their points of intersection. The x-coordinates (or y-coordinates) are the limits.",
+      "hint": "Sketching a rough figure is required in HSC Board exams to identify limits and top/bottom curves."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Area enclosed between curve y² = x and line y = x?",
+      "a": "Area = 1/6 sq units.",
+      "hint": "Intersection at (0, 0) and (1, 1). Area = ∫_0^1 (√x - x) dx = [ (2/3)x^(3/2) - x²/2 ]_0^1 = 2/3 - 1/2 = 1/6."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Area between y = eˣ, y = e⁻ˣ, and line x = 1?",
+      "a": "Area = ∫_0^1 (eˣ - e⁻ˣ) dx = [ eˣ + e⁻ˣ ]_0^1 = (e + 1/e) - 2 sq units.",
+      "hint": "Curves intersect at (0, 1) since e⁰ = e⁻⁰ = 1."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Area bounded by y² = 4ax and line x = my + c (horizontal strip method)?",
+      "a": "Integrate with respect to y: Area = ∫_(y₁)^(y₂) [ (my + c) - (y² / 4a) ] dy.",
+      "hint": "Always use horizontal strip (dy) when integrating parabolas open sideways."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Area of loop of the curve a y² = x²(a - x)?",
+      "a": "Loop exists from x = 0 to x = a: Area = 2 ∫_0^a (x / √a) √(a - x) dx = 8 a² / 15.",
+      "hint": "Substitute x = a sin² θ to evaluate the integral effortlessly."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Why is the final unit 'sq units' essential in Board answers?",
+      "a": "Area is a geometric measure of two-dimensional surface. HSC Board grading rubrics dedicate half a mark to correct unit notation.",
+      "hint": "Always append 'sq units' (or 'square units') to your final numerical answer."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Area bounded by curve y = ln x, x-axis, and line x = e?",
+      "a": "Area = ∫_1^e ln x dx = [ x ln x - x ]_1^e = (e - e) - (0 - 1) = 1 sq unit.",
+      "hint": "Lower limit is x = 1 because ln(1) = 0 (curve crosses x-axis at x = 1)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Area enclosed between y = 4 - x² and x-axis?",
+      "a": "Area = ∫_(-2)^2 (4 - x²) dx = 2 · [ 4x - x³/3 ]_0^2 = 2 · (8 - 8/3) = 32/3 sq units.",
+      "hint": "Symmetric even function: double the integral from 0 to 2."
+    }
+  ]
+}

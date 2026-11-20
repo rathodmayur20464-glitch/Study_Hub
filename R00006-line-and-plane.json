@@ -1,0 +1,183 @@
+{
+  "title": "Line and Plane",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Direction Cosines (l, m, n) vs Direction Ratios (a, b, c) of a line?",
+      "a": "l = cos α, m = cos β, n = cos γ, satisfying l² + m² + n² = 1.\nAny numbers (a, b, c) proportional to (l, m, n) are Direction Ratios: l = ± a / √(a² + b² + c²).",
+      "hint": "Angles α, β, γ are made by the line with positive x, y, z axes. Also: sin² α + sin² β + sin² γ = 2."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Vector and Cartesian equations of a line through point A(a) parallel to vector b?",
+      "a": "Vector form: r = a + λ b\nCartesian form: (x - x₁) / a_x = (y - y₁) / b_y = (z - z₁) / c_z = λ.",
+      "hint": "Point A = (x₁, y₁, z₁) and DRs of line are (a_x, b_y, c_z)."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Vector and Cartesian equations of a line passing through two points A(a) and B(b)?",
+      "a": "Vector form: r = a + λ (b - a)\nCartesian form: (x - x₁) / (x₂ - x₁) = (y - y₁) / (y₂ - y₁) = (z - z₁) / (z₂ - z₁).",
+      "hint": "The direction vector of the line is simply b - a."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Acute angle θ between two lines with DRs (a₁, b₁, c₁) and (a₂, b₂, c₂)?",
+      "a": "cos θ = | a₁ a₂ + b₁ b₂ + c₁ c₂ | / [ √(a₁² + b₁² + c₁²) · √(a₂² + b₂² + c₂²) ].",
+      "hint": "Vector form: cos θ = |b₁ · b₂| / (|b₁| |b₂|)."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Conditions for two lines to be perpendicular and parallel?",
+      "a": "Perpendicular: a₁ a₂ + b₁ b₂ + c₁ c₂ = 0  (b₁ · b₂ = 0)\nParallel: a₁ / a₂ = b₁ / b₂ = c₁ / c₂  (b₁ × b₂ = 0).",
+      "hint": "Frequent board 2-mark question: finding an unknown ratio k using perpendicularity."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "What are Skew Lines?",
+      "a": "Lines in 3D space that are neither parallel nor intersecting. They must lie in different, non-parallel planes.",
+      "hint": "Skew lines exist ONLY in 3-dimensional space (never in 2D)."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Shortest distance between two skew lines r = a₁ + λ b₁ and r = a₂ + μ b₂?",
+      "a": "d = | (a₂ - a₁) · (b₁ × b₂) | / |b₁ × b₂|.",
+      "hint": "Numerator is the scalar triple product [(a₂ - a₁) b₁ b₂]."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Condition for two lines to intersect (be coplanar)?",
+      "a": "(a₂ - a₁) · (b₁ × b₂) = 0.\nIn determinant form: | [x₂ - x₁, y₂ - y₁, z₂ - z₁], [a₁, b₁, c₁], [a₂, b₂, c₂] | = 0.",
+      "hint": "Shortest distance d = 0 is the exact test for intersection."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Shortest distance between two parallel lines r = a₁ + λ b and r = a₂ + μ b?",
+      "a": "d = | (a₂ - a₁) × b | / |b|.",
+      "hint": "Notice cross product × is used for parallel lines instead of dot product ·."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "How to represent any general point on a line in Cartesian form?",
+      "a": "Set (x - x₁)/a = (y - y₁)/b = (z - z₁)/c = λ ⇒ (x, y, z) = (x₁ + aλ, y₁ + bλ, z₁ + cλ).",
+      "hint": "Substitute this general point into the plane or perpendicular condition to solve for λ."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Equation of a plane in Normal Form (Vector and Cartesian)?",
+      "a": "Vector form: r · n̂ = p\nCartesian form: l x + m y + n z = p, where p is the perpendicular distance from the origin (p ≥ 0) and n̂ is the unit normal.",
+      "hint": "n̂ must be a UNIT vector. If r · n = q with non-unit n, divide entire equation by |n|."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Equation of a plane passing through point A(a) and perpendicular to normal vector n?",
+      "a": "Vector form: (r - a) · n = 0 ⇒ r · n = a · n\nCartesian form: a(x - x₁) + b(y - y₁) + c(z - z₁) = 0.",
+      "hint": "a, b, c are the direction ratios of the normal vector perpendicular to the plane."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "General equation of a plane and its normal?",
+      "a": "a x + b y + c z + d = 0. The normal vector to this plane is n = a i + b j + c k.",
+      "hint": "The coefficients of x, y, z are directly the direction ratios of the normal."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Intercept form of a plane?",
+      "a": "x / a + y / b + z / c = 1, where a, b, c are intercepts on the x, y, z axes respectively.",
+      "hint": "The plane cuts the coordinate axes at (a, 0, 0), (0, b, 0), and (0, 0, c)."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Equation of a plane passing through three non-collinear points A(a), B(b), C(c)?",
+      "a": "(r - a) · [ (b - a) × (c - a) ] = 0.\nCartesian: | [x - x₁, y - y₁, z - z₁], [x₂ - x₁, y₂ - y₁, z₂ - z₁], [x₃ - x₁, y₃ - y₁, z₃ - z₁] | = 0.",
+      "hint": "Points must be non-collinear so that the cross product of difference vectors is non-zero."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Acute angle θ between two planes r · n₁ = d₁ and r · n₂ = d₂?",
+      "a": "cos θ = | n₁ · n₂ | / (|n₁| |n₂|) = | a₁ a₂ + b₁ b₂ + c₁ c₂ | / [ √(a₁² + b₁² + c₁²) · √(a₂² + b₂² + c₂²) ].",
+      "hint": "Angle between two planes is identical to the angle between their respective normal vectors."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Conditions for two planes to be perpendicular and parallel?",
+      "a": "Perpendicular: a₁ a₂ + b₁ b₂ + c₁ c₂ = 0  (n₁ · n₂ = 0)\nParallel: a₁ / a₂ = b₁ / b₂ = c₁ / c₂  (n₁ = k n₂).",
+      "hint": "Perpendicular planes have perpendicular normals; parallel planes have proportional normals."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Acute angle θ between a line (DRs b) and a plane (normal n)?",
+      "a": "sin θ = | b · n | / (|b| |n|) = | a a_L + b b_L + c c_L | / [ √(a² + b² + c²) · √(a_L² + b_L² + c_L²) ].",
+      "hint": "Super trap: Uses SIN θ, not cos θ! Because the normal is at 90° to the plane."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Condition for a line (DRs b) to be PARALLEL to a plane (normal n)?",
+      "a": "b · n = 0  (i.e. a a_L + b b_L + c c_L = 0).",
+      "hint": "Paradox trap: A line parallel to a plane is PERPENDICULAR to its normal vector!"
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Condition for a line (DRs b) to be PERPENDICULAR to a plane (normal n)?",
+      "a": "b is parallel to n ⇒ a_L / a = b_L / b = c_L / c.",
+      "hint": "A line perpendicular to a plane has DRs proportional to the plane's normal DRs."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Perpendicular distance from point P(x₁, y₁, z₁) to plane ax + by + cz + d = 0?",
+      "a": "p = | a x₁ + b y₁ + c z₁ + d | / √(a² + b² + c²).",
+      "hint": "Vector form: p = | a · n - q | / |n| for plane r · n = q."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Distance between two parallel planes ax + by + cz + d₁ = 0 and ax + by + cz + d₂ = 0?",
+      "a": "d = | d₁ - d₂ | / √(a² + b² + c²).",
+      "hint": "Trap: Coefficients (a, b, c) of both plane equations must be made identical before applying formula!"
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Equation of family of planes passing through the line of intersection of two planes π₁ = 0 and π₂ = 0?",
+      "a": "π₁ + λ π₂ = 0  or  (a₁x + b₁y + c₁z + d₁) + λ(a₂x + b₂y + c₂z + d₂) = 0.",
+      "hint": "Use the given extra condition (e.g. passing through a point, or perpendicular to another plane) to find λ."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Condition for a line r = a + λ b to lie ENTIRELY inside a plane r · n = q?",
+      "a": "1. b · n = 0 (line is parallel to plane)\n2. a · n = q (point a on the line satisfies the plane).",
+      "hint": "Both conditions are strictly required for the line to be contained in the plane."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Coordinates of foot of perpendicular from (x₁, y₁, z₁) onto plane ax + by + cz + d = 0?",
+      "a": "(x - x₁)/a = (y - y₁)/b = (z - z₁)/c = - (a x₁ + b y₁ + c z₁ + d) / (a² + b² + c²).",
+      "hint": "For image point: multiply RHS by -2 instead of -1!"
+    }
+  ]
+}

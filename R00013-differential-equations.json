@@ -1,0 +1,183 @@
+{
+  "title": "Differential Equations",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Order and Degree of a differential equation?",
+      "a": "Order: The highest order derivative appearing in the equation.\nDegree: The power of the highest order derivative when the equation is expressed as a polynomial in derivatives (free from radicals and fractional powers).",
+      "hint": "Order is ALWAYS defined; degree may not be defined."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "CRITICAL TRAP: When is the Degree of a differential equation NOT DEFINED?",
+      "a": "When any derivative (like dy/dx or d²y/dx²) appears as the argument of a transcendental function (such as e^(dy/dx), sin(dy/dx), ln(dy/dx)) and cannot be eliminated.",
+      "hint": "Example: d²y/dx² + sin(dy/dx) = 0 has Order = 2, Degree = NOT DEFINED!"
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "General Solution vs Particular Solution of a differential equation?",
+      "a": "General Solution: Contains arbitrary constants equal to the order of the differential equation.\nParticular Solution: Obtained from general solution by assigning specific values to arbitrary constants using initial/boundary conditions (contains ZERO arbitrary constants).",
+      "hint": "An n-th order DE has exactly n arbitrary constants in its general solution."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "How to form a differential equation from a family of curves?",
+      "a": "1. Count number of arbitrary constants (say n).\n2. Differentiate the equation n times.\n3. Eliminate all n arbitrary constants using the original equation and its derivatives.",
+      "hint": "The resulting differential equation must have order n and zero arbitrary constants."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Variable Separable method: Form and solution?",
+      "a": "f(x) dx + g(y) dy = 0 ⇒ Integrate directly:\n∫ f(x) dx + ∫ g(y) dy = c.",
+      "hint": "Group all x terms with dx on one side and all y terms with dy on the other side."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Substitution for equations reducible to Variable Separable: dy/dx = f(ax + by + c)?",
+      "a": "Put u = ax + by + c ⇒ du/dx = a + b (dy/dx) ⇒ dy/dx = (1/b) (du/dx - a).\nSeparates into: du / [ a + b f(u) ] = dx.",
+      "hint": "Example: dy/dx = (4x + y + 1)² ⇒ put u = 4x + y + 1."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "What is a Homogeneous Differential Equation?",
+      "a": "An equation of the form dy/dx = f(x, y) / g(x, y), where f(x, y) and g(x, y) are homogeneous functions of the same degree in x and y.",
+      "hint": "Check: f(tx, ty) = tⁿ f(x, y) for all terms."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Substitution used to solve Homogeneous Differential Equation dy/dx = F(y/x)?",
+      "a": "Put y = v x ⇒ dy/dx = v + x (dv/dx).\nSeparates into: dv / [ F(v) - v ] = dx / x.",
+      "hint": "After integrating, always substitute v = y/x back!"
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Standard form 1 of Linear Differential Equation (LDE) and its Integrating Factor (I.F.)?",
+      "a": "Form: dy/dx + P(x) · y = Q(x).\nIntegrating Factor: I.F. = e^(∫ P dx).",
+      "hint": "P and Q must be functions of x only (or constants). Coefficient of dy/dx must be 1!"
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "General Solution of standard LDE dy/dx + P y = Q?",
+      "a": "y · (I.F.) = ∫ [ Q · (I.F.) ] dx + c.",
+      "hint": "Mnemonic: 'y times IF equals integral of Q times IF dx plus c'."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Standard form 2 of Linear Differential Equation (in x)?",
+      "a": "Form: dx/dy + P₁(y) · x = Q₁(y).\nIntegrating Factor: I.F. = e^(∫ P₁ dy).\nSolution: x · (I.F.) = ∫ [ Q₁ · (I.F.) ] dy + c.",
+      "hint": "Used when dy/dx equation is non-linear in y but linear in x (invert to dx/dy)."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Exponent log identity for simplifying Integrating Factor?",
+      "a": "e^(ln f(x)) = f(x)  and  e^(k ln f(x)) = e^(ln [f(x)]ᵏ) = [f(x)]ᵏ.",
+      "hint": "Trap: e^(-ln x) = e^(ln x⁻¹) = 1/x, NOT -x!"
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "LDE Trap: What must you do before identifying P and Q in x (dy/dx) + 2y = x²?",
+      "a": "Divide by x first to make the coefficient of dy/dx equal to 1!\ndy/dx + (2/x) y = x ⇒ P = 2/x, Q = x ⇒ I.F. = e^(∫ 2/x dx) = e^(2 ln x) = x².",
+      "hint": "Identifying P without dividing by x causes 100% wrong I.F.!"
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Bernoulli's Differential Equation (Reducible to Linear)?",
+      "a": "dy/dx + P y = Q yⁿ ⇒ Divide by yⁿ: y⁻ⁿ (dy/dx) + P y¹⁻ⁿ = Q.\nSubstitute v = y¹⁻ⁿ ⇒ (1 - n)⁻¹ dv/dx + P v = Q, which is standard linear in v.",
+      "hint": "Dividing by yⁿ and substituting v = y¹⁻ⁿ linearizes the equation."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Exact differential shortcuts: d(xy), d(y/x), d(x/y), and d(x² + y²)?",
+      "a": "1. x dy + y dx = d(xy)\n2. (x dy - y dx) / x² = d(y/x)\n3. (y dx - x dy) / y² = d(x/y)\n4. x dx + y dy = (1/2) d(x² + y²).",
+      "hint": "Spotting these exact differentials solves MHT-CET DE problems in under 15 seconds."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Application: Population Growth / Natural Decay law?",
+      "a": "dx/dt = k x ⇒ dx/x = k dt ⇒ x(t) = x₀ · e^(kt), where x₀ is initial quantity at t = 0.",
+      "hint": "k > 0 represents population growth; k < 0 represents radioactive decay."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Application: Half-life period of a radioactive substance?",
+      "a": "T = (ln 2) / k  (where dx/dt = -k x).",
+      "hint": "At t = T, quantity remaining is exactly half the initial amount: x = x₀ / 2."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Application: Newton's Law of Cooling differential equation and solution?",
+      "a": "dθ/dt = -k (θ - θ₀) ⇒ θ(t) - θ₀ = (θ_initial - θ₀) · e^(-kt),\nwhere θ is body temperature, θ₀ is surrounding/ambient temperature, and k > 0.",
+      "hint": "Rate of cooling is proportional to temperature difference (θ - θ₀)."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Number of arbitrary constants in General Solution vs Particular Solution of order 3?",
+      "a": "General Solution has 3 arbitrary constants.\nParticular Solution has 0 arbitrary constants.",
+      "hint": "MHT-CET standard theoretical question: A particular solution NEVER contains arbitrary constants!"
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Differential equation of all circles passing through origin and having centres on x-axis?",
+      "a": "Circle equation: (x - a)² + y² = a² ⇒ x² + y² - 2ax = 0.\nDifferentiating: 2x + 2y y' - 2a = 0 ⇒ a = x + y y'.\nSubstitute a: y² - x² - 2xy y' = 0.",
+      "hint": "Order is 1 because there is only ONE arbitrary constant 'a'."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Differential equation of all parabolas with vertex at origin and axis along positive y-axis?",
+      "a": "Parabola: x² = 4ay ⇒ 2x = 4a y' ⇒ 4a = 2x / y'.\nSubstitute: x² = (2x / y') y ⇒ x y' - 2y = 0.",
+      "hint": "Degree 1, Order 1 differential equation."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "How to find Orthogonal Trajectories of a family of curves?",
+      "a": "1. Find the differential equation of the family: F(x, y, dy/dx) = 0.\n2. Replace dy/dx by -dx/dy.\n3. Solve the new differential equation.",
+      "hint": "Every curve of the new family cuts every curve of the original family at right angles (90°)."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "General solution of dy/dx = e^(x - y) + x² e^(-y)?",
+      "a": "dy/dx = e^(-y) [ eˣ + x² ] ⇒ eʸ dy = (eˣ + x²) dx ⇒ eʸ = eˣ + x³/3 + c.",
+      "hint": "Factor out e^(-y) to separate variables immediately."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Solution of (x + y)² dy/dx = a²?",
+      "a": "Put x + y = u ⇒ 1 + dy/dx = du/dx ⇒ dy/dx = du/dx - 1.\nu² (du/dx - 1) = a² ⇒ u² du / (a² + u²) = dx ⇒ integrates to u - a tan⁻¹(u/a) = x + c ⇒ y - a tan⁻¹((x + y)/a) = c.",
+      "hint": "Classic reducible to variable separable textbook problem."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET shortcut: Order and degree of [ 1 + (dy/dx)² ]^(3/2) = 5 (d²y/dx²)?",
+      "a": "Square both sides to eliminate fractional power: [ 1 + (dy/dx)² ]³ = 25 (d²y/dx²)².\nOrder = 2, Degree = 2.",
+      "hint": "Highest derivative is d²y/dx² (order 2), and after clearing radicals its power is 2 (degree 2)."
+    }
+  ]
+}

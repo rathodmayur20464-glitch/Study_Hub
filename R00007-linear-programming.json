@@ -1,0 +1,183 @@
+{
+  "title": "Linear Programming",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is a Linear Programming Problem (LPP)?",
+      "a": "An optimization problem of maximizing or minimizing a linear objective function subject to a set of linear inequality constraints and non-negativity restrictions.",
+      "hint": "All variables and constraints must be strictly linear (degree 1)."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "What is the Objective Function Z and Decision Variables?",
+      "a": "Objective Function: Z = ax + by (the linear function to be maximized or minimized).\nDecision Variables: x and y, representing the quantities to be decided (x ≥ 0, y ≥ 0).",
+      "hint": "Non-negativity restrictions x ≥ 0, y ≥ 0 confine the problem to the First Quadrant."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "What is the Feasible Region in an LPP?",
+      "a": "The common region determined by the intersection of all given constraints including the non-negativity restrictions x ≥ 0, y ≥ 0.",
+      "hint": "Every point in the feasible region is a feasible solution to the LPP."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "What is a Convex Set and why is it important in LPP?",
+      "a": "A set of points where the line segment joining any two points in the set lies entirely within the set. The feasible region of every LPP is always a convex polygon.",
+      "hint": "Because the feasible region is convex, optimal solutions always occur on its boundary/vertices."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "State the Corner Point Theorem (Fundamental Theorem of LPP).",
+      "a": "The optimal value (maximum or minimum) of the objective function Z = ax + by, if it exists, occurs at one of the corner points (vertices) of the feasible region.",
+      "hint": "You only need to calculate Z at the vertices, never inside the interior!"
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "What is a Bounded vs Unbounded Feasible Region?",
+      "a": "Bounded: The feasible region can be enclosed within a circle of finite radius (finite boundary on all sides).\nUnbounded: The region extends infinitely in at least one direction.",
+      "hint": "A bounded region always possesses BOTH a maximum and a minimum value of Z."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Condition for an optimal maximum value M to exist in an UNBOUNDED feasible region?",
+      "a": "M is the maximum of Z iff the open half-plane ax + by > M has NO points in common with the feasible region.",
+      "hint": "If ax + by > M shares even one point with the feasible region, Z has no finite maximum (unbounded solution)."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Condition for an optimal minimum value m to exist in an UNBOUNDED feasible region?",
+      "a": "m is the minimum of Z iff the open half-plane ax + by < m has NO points in common with the feasible region.",
+      "hint": "Board exam favorite: draw the dotted line ax + by = m and check if it intersects the shaded region."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "When does an LPP have Multiple (Infinitely Many) Optimal Solutions?",
+      "a": "When the objective function Z attains the optimal value at TWO adjacent corner points. Then every point on the line segment joining them is also an optimal solution.",
+      "hint": "Condition: The objective line ax + by = k is parallel to one of the boundary constraint lines."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "What is an Infeasible LPP (No Feasible Solution)?",
+      "a": "A situation where no single point satisfies all the given constraints and non-negativity restrictions simultaneously (the feasible region is empty / null set).",
+      "hint": "Example: x + y ≤ 1 and x + y ≥ 3 with x, y ≥ 0 cannot have any common point."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "What is an Unbounded Solution in LPP?",
+      "a": "When the objective function value can increase (or decrease) indefinitely to infinity without violating any constraints.",
+      "hint": "No finite maximum value exists for an unbounded solution."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "What is a Redundant Constraint?",
+      "a": "A constraint that does not affect or reduce the feasible region. Removing it leaves the feasible region completely unchanged.",
+      "hint": "Example: x ≥ 0, x ≥ -2. Here x ≥ -2 is redundant because x ≥ 0 is strictly stronger."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Graphing inequality ax + by ≤ c: How to determine the correct half-plane?",
+      "a": "Test the origin (0, 0): if 0 ≤ c is true, shade the half-plane containing (0, 0). If false, shade the half-plane opposite to (0, 0).",
+      "hint": "Trap: If the line passes through (0, 0) (i.e. c = 0), test another point like (1, 0) or (0, 1) instead!"
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Solid line vs Dotted (dashed) line in inequality graphs?",
+      "a": "Use a solid line for non-strict inequalities (≤ or ≥) because boundary points are included.\nUse a dotted line for strict inequalities (< or >).",
+      "hint": "In HSC standard LPP, constraints are always non-strict (≤, ≥), hence drawn with solid lines."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "MHT-CET shortcut for translating word problem constraints: 'at least' vs 'at most'?",
+      "a": "'At least k' means ≥ k (minimum k).\n'At most k' means ≤ k (maximum k).\n'Not more than k' means ≤ k.\n'Not less than k' means ≥ k.",
+      "hint": "Reversing these inequalities is the most common student error in word problem formulation."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Relation between Minimizing Z and Maximizing -Z?",
+      "a": "Minimizing Z = Maximizing (-Z), and Min(Z) = - Max(-Z).",
+      "hint": "Useful when converting a minimization LPP to a maximization problem."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "What is the Iso-profit / Iso-cost Line Method?",
+      "a": "Assign an arbitrary value k to Z (ax + by = k). Move this line parallel to itself in the direction of increasing/decreasing k across the feasible region.",
+      "hint": "The last corner point touched by the line before leaving the feasible region is the optimal vertex."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Can the optimal value of an LPP occur at an interior point of the feasible region?",
+      "a": "NO, never for a linear objective function. The optimal value always occurs on the boundary, specifically at a vertex.",
+      "hint": "A non-vertex point can be optimal only if all points on that boundary edge share the same optimal value."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Maximum number of corner points for an LPP with n linear inequality constraints?",
+      "a": "At most ⁿC₂ intersection points of lines in the first quadrant.",
+      "hint": "Only those intersection points that satisfy all other inequalities qualify as feasible corner points."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "What is the value of Z = ax + by at the origin (0, 0)?",
+      "a": "Z(0, 0) = 0.",
+      "hint": "If a, b > 0 and (0,0) is in the feasible region, Z_min is usually 0 at (0, 0)."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "What is Degeneracy in LPP?",
+      "a": "When more than two constraint lines pass through the exact same corner point (vertex) of the feasible region.",
+      "hint": "The corner point is over-determined by redundant constraint boundaries."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Step-by-step Corner Point Method for HSC Board 4-mark questions?",
+      "a": "1. Convert inequalities to equalities and find x/y intercepts.\n2. Plot lines and shade feasible region using test points.\n3. Determine all corner points (vertices) by solving line intersections.\n4. Tabulate Z at every vertex; identify maximum / minimum.",
+      "hint": "A complete table of vertices with corresponding Z values is mandatory for full step marks."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "MHT-CET 15-second shortcut for corner point evaluation?",
+      "a": "First eliminate options where coordinates have negative values. Next, substitute the given option vertices directly into Z and select the extremum that satisfies all constraints.",
+      "hint": "Working backwards from options saves plotting time in entrance exams."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Can an LPP have a feasible region that is a single point?",
+      "a": "YES. If the lines intersect at only one point that satisfies all inequalities, the feasible region is that single point, which is also the trivial optimal solution.",
+      "hint": "Example: x + y ≤ 2, x + y ≥ 2, x ≥ 0, y ≥ 0 reduces to the line segment x + y = 2."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "If constraints are x + 2y ≤ 10, 3x + y ≤ 15, x ≥ 0, y ≥ 0, what are the vertices of the feasible region?",
+      "a": "(0, 0), (5, 0), (4, 3), and (0, 5).",
+      "hint": "Intersection of x + 2y = 10 and 3x + y = 15 gives x = 4, y = 3. Check (4, 3) satisfies both!"
+    }
+  ]
+}

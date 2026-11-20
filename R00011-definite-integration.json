@@ -1,0 +1,183 @@
+{
+  "title": "Definite Integration",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Fundamental Theorem of Integral Calculus?",
+      "a": "∫_a^b f(x) dx = [ F(x) ]_a^b = F(b) - F(a), where F'(x) = f(x).",
+      "hint": "No arbitrary constant '+ c' is needed in definite integration because c - c = 0 cancels out."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Property 1 (Dummy Variable) and Property 2 (Limit Reversal)?",
+      "a": "P1: ∫_a^b f(x) dx = ∫_a^b f(t) dt (value is independent of integration variable name).\nP2: ∫_a^b f(x) dx = - ∫_b^a f(x) dx (reversing limits negates the integral).",
+      "hint": "Also note P3: ∫_a^a f(x) dx = 0."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Property 4 (Splitting the Interval)?",
+      "a": "∫_a^b f(x) dx = ∫_a^c f(x) dx + ∫_c^b f(x) dx, for any real number c.",
+      "hint": "Crucial for evaluating piecewise functions, modulus |x|, and greatest integer functions [x]."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Property 5 (King's Rule): The Master Property of Definite Integrals?",
+      "a": "∫_a^b f(x) dx = ∫_a^b f(a + b - x) dx.",
+      "hint": "Replace x by (lower limit + upper limit - x). Adds to original I to cancel difficult denominators!"
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Property 6 (Queen's Rule / Special King's Rule with limit 0 to a)?",
+      "a": "∫_0^a f(x) dx = ∫_0^a f(a - x) dx.",
+      "hint": "The single most tested property in Maharashtra Board exams!"
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "MHT-CET Super Shortcut 1: King's Rule quotient formula?",
+      "a": "∫_a^b [ f(x) / (f(x) + f(a + b - x)) ] dx = (b - a) / 2.",
+      "hint": "Instant 5-second answer! Simply take (upper limit - lower limit) / 2."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Classic Evaluation: ∫_0^(π/2) [ sinⁿ x / (sinⁿ x + cosⁿ x) ] dx?",
+      "a": "= (π/2 - 0) / 2 = π/4, for ANY real power n (e.g. n = 1, 2, 1/2, 2026).",
+      "hint": "Also holds for cosⁿ x, tanⁿ x / (1 + tanⁿ x), and 1 / (1 + cotⁿ x)."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Property 7: Symmetric limits from -a to +a (Even and Odd Functions)?",
+      "a": "∫_(-a)^a f(x) dx = 2 ∫_0^a f(x) dx (if f(-x) = f(x), EVEN function)\n∫_(-a)^a f(x) dx = 0 (if f(-x) = -f(x), ODD function).",
+      "hint": "Always check symmetry: if limits are [-a, a], test f(-x) first before doing any integration!"
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "MHT-CET Odd Function Trap: Evaluate ∫_(-1)^1 [ x³ + x cos x + tan⁵ x + 1 ] dx?",
+      "a": "All odd terms integrate to 0: = 0 + 0 + 0 + ∫_(-1)^1 1 dx = [x]_(-1)^1 = 1 - (-1) = 2.",
+      "hint": "Separate the even part (1) from odd parts (x³, x cos x, tan⁵ x). Don't waste time on odd terms."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Property 8: Limits from 0 to 2a (Upper limit halving property)?",
+      "a": "∫_0^(2a) f(x) dx = 2 ∫_0^a f(x) dx (if f(2a - x) = f(x))\n∫_0^(2a) f(x) dx = 0 (if f(2a - x) = -f(x)).",
+      "hint": "Allows halving the upper limit from 2a to a when the function is symmetric about a."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Classic Result: Value of ∫_0^(π/2) ln(sin x) dx and ∫_0^(π/2) ln(cos x) dx?",
+      "a": "∫_0^(π/2) ln(sin x) dx = ∫_0^(π/2) ln(cos x) dx = - (π/2) ln 2 = (π/2) ln(1/2).",
+      "hint": "Frequently tested 4-mark proof in HSC Board exams and direct formula in MHT-CET."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Classic Result: Value of ∫_0^π [ x / (a² cos² x + b² sin² x) ] dx?",
+      "a": "= (π² / 2) · [ 1 / (ab) ] = π² / (2ab).",
+      "hint": "First remove x using King's rule: ∫_0^π x f(x) dx = (π/2) ∫_0^π f(x) dx."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Shortcut to evaluate modulus integrals ∫_a^b |x - c| dx (where a ≤ c ≤ b)?",
+      "a": "Area of two right isosceles triangles: = (1/2) (c - a)² + (1/2) (b - c)².",
+      "hint": "Geometric shortcut saves splitting the integral into two separate cases."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "How to evaluate integrals involving Greatest Integer Function [x]?",
+      "a": "Split the integral at EVERY integer boundary within the limits, where [x] takes constant integer values.",
+      "hint": "Example: ∫_0^2 [x] dx = ∫_0^1 0 dx + ∫_1^2 1 dx = 0 + 1 = 1."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Periodic Function Properties for period T (i.e. f(x + T) = f(x))?",
+      "a": "1. ∫_0^(nT) f(x) dx = n ∫_0^T f(x) dx  (for n ∈ Z)\n2. ∫_a^(a + nT) f(x) dx = n ∫_0^T f(x) dx (independent of a)\n3. ∫_(a + nT)^(b + nT) f(x) dx = ∫_a^b f(x) dx.",
+      "hint": "Pull integer multiples n of the fundamental period T outside the integral!"
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Leibniz Rule for differentiation under the integral sign?",
+      "a": "d/dx [ ∫_u(x)^v(x) f(t) dt ] = f(v(x)) · v'(x) - f(u(x)) · u'(x).",
+      "hint": "Used to compute limits of 0/0 form involving integrals via L'Hospital's Rule."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Definite Integral as the Limit of a Sum (Riemann Sum)?",
+      "a": "lim_{n→∞} ∑_{r=1}^n (1/n) · f(r/n) = ∫_0^1 f(x) dx.",
+      "hint": "Replace r/n with x, 1/n with dx, and limit of sum with ∫_0^1."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Wallis' Reduction Formula for ∫_0^(π/2) sinⁿ x dx = ∫_0^(π/2) cosⁿ x dx?",
+      "a": "If n is even: [ (n - 1)/n ] · [ (n - 3)/(n - 2) ] · ... · (1/2) · (π/2)\nIf n is odd: [ (n - 1)/n ] · [ (n - 3)/(n - 2) ] · ... · (2/3) · 1.",
+      "hint": "Multiply by π/2 ONLY when n is an EVEN positive integer."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "TRAP: What must you always do to the limits when substituting x = g(t)?",
+      "a": "You MUST convert the x-limits to corresponding t-limits using t = g⁻¹(x) immediately before proceeding with the integration.",
+      "hint": "Never keep old limits after substitution! #1 source of lost marks in definite integrals."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Value of ∫_0^1 x (1 - x)ⁿ dx?",
+      "a": "= 1 / [ (n + 1)(n + 2) ].",
+      "hint": "Apply Property 6: replace x by (1 - x), giving ∫_0^1 (1 - x) xⁿ dx = 1/(n+1) - 1/(n+2)."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Value of ∫_0^(π/4) ln(1 + tan x) dx?",
+      "a": "= (π/8) · ln 2.",
+      "hint": "Use King's rule: tan(π/4 - x) = (1 - tan x)/(1 + tan x). Standard Board problem!"
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Integral of fractional part {x} = x - [x] from 0 to n (n ∈ N)?",
+      "a": "∫_0^n {x} dx = n · ∫_0^1 x dx = n / 2.",
+      "hint": "{x} is periodic with period 1; area of each unit saw-tooth triangle is 1/2."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Difference between Definite Integral and Area?",
+      "a": "A definite integral ∫_a^b f(x) dx is a net signed quantity (can be positive, zero, or negative).\nArea is a geometric measure and is ALWAYS strictly non-negative (≥ 0).",
+      "hint": "If a curve dips below x-axis, the integral subtracts the region, whereas area adds its absolute value."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Value of ∫_(-π/2)^(π/2) sin⁷ x dx and ∫_(-π/2)^(π/2) cos² x dx?",
+      "a": "∫_(-π/2)^(π/2) sin⁷ x dx = 0 (odd function).\n∫_(-π/2)^(π/2) cos² x dx = 2 ∫_0^(π/2) cos² x dx = 2 · (1/2 · π/2) = π/2 (even function).",
+      "hint": "Check odd/even nature instantly to save calculation time."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Evaluate ∫_2^8 [ √(10 - x) / (√x + √(10 - x)) ] dx.",
+      "a": "= (8 - 2) / 2 = 6 / 2 = 3.",
+      "hint": "Lower limit a = 2, upper limit b = 8 ⇒ a + b = 10. Direct application of MHT-CET Shortcut 1!"
+    }
+  ]
+}

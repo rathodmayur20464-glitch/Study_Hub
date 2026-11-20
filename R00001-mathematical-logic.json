@@ -1,0 +1,183 @@
+{
+  "title": "Mathematical Logic",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is a statement in logic?",
+      "a": "A declarative sentence that is either TRUE or FALSE, but not both.",
+      "hint": "Truth value: T (true) or F (false). Exactly one, always."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Which sentences are NOT statements?",
+      "a": "Questions, commands, wishes, exclamations, and open sentences (e.g. x + 3 = 5) with no quantifier.",
+      "hint": "Trap: 'x + 3 = 5' is a statement only if x is fixed or quantified (∀x / ∃x)."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Name the 5 logical connectives with symbols.",
+      "a": "AND: ∧ | OR: ∨ | NOT: ~ (or ¬) | IF–THEN: → | IFF: ↔",
+      "hint": "∧ conjunction, ∨ disjunction, → conditional, ↔ biconditional."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Truth table rule for p ∧ q?",
+      "a": "True ONLY when both p and q are T. (TT→T, TF→F, FT→F, FF→F)",
+      "hint": "Think AND = strict: one F kills it."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Truth table rule for p ∨ q?",
+      "a": "False ONLY when both p and q are F. (TT→T, TF→T, FT→T, FF→F)",
+      "hint": "Inclusive OR: one T is enough."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "When is the conditional p → q false?",
+      "a": "Only when p = T and q = F. (TT→T, TF→F, FT→T, FF→T)",
+      "hint": "False antecedent ⇒ p → q is always TRUE."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "When is the biconditional p ↔ q true?",
+      "a": "When p and q have the SAME truth value. (TT→T, FF→T, TF→F, FT→F)",
+      "hint": "p ↔ q ≡ (p → q) ∧ (q → p)."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Express p → q using ~ and ∨.",
+      "a": "p → q ≡ ~p ∨ q",
+      "hint": "Most used conversion in MHT-CET. Also p → q ≡ ~q → ~p."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Negation of p → q?",
+      "a": "~(p → q) ≡ p ∧ ~q",
+      "hint": "Trap: the negation of 'if–then' is NOT another 'if–then'. Keep p, negate q, join with ∧."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "State De Morgan's laws.",
+      "a": "~(p ∧ q) ≡ ~p ∨ ~q\n~(p ∨ q) ≡ ~p ∧ ~q",
+      "hint": "Flip the connective AND negate each part."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Negation of p ↔ q?",
+      "a": "~(p ↔ q) ≡ (p ∧ ~q) ∨ (q ∧ ~p) ≡ p ↔ ~q",
+      "hint": "Negating a biconditional gives 'exactly one is true' (XOR)."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Define tautology, contradiction, contingency.",
+      "a": "Tautology: always T (last column all T). Contradiction: always F. Contingency: mix of T and F.",
+      "hint": "Examples: p ∨ ~p is a tautology; p ∧ ~p is a contradiction."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Converse, inverse, contrapositive of p → q?",
+      "a": "Converse: q → p\nInverse: ~p → ~q\nContrapositive: ~q → ~p",
+      "hint": "Converse = swap. Inverse = negate both. Contrapositive = swap + negate both."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Which of converse/inverse/contrapositive is equivalent to p → q?",
+      "a": "Only the contrapositive: p → q ≡ ~q → ~p. Converse and inverse are equivalent to EACH OTHER, not to p → q.",
+      "hint": "Board favourite: write the statement in 'if–then' form first, then convert."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Idempotent, commutative and associative laws?",
+      "a": "p ∧ p ≡ p, p ∨ p ≡ p\np ∧ q ≡ q ∧ p, p ∨ q ≡ q ∨ p\np ∧ (q ∧ r) ≡ (p ∧ q) ∧ r\np ∨ (q ∨ r) ≡ (p ∨ q) ∨ r",
+      "hint": "Same pattern holds for both ∧ and ∨."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Distributive laws of logic?",
+      "a": "p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)\np ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)",
+      "hint": "Both directions work (unlike ordinary algebra)."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Identity, complement and involution laws (T = tautology, F = contradiction)?",
+      "a": "p ∨ F ≡ p, p ∧ T ≡ p\np ∨ T ≡ T, p ∧ F ≡ F\np ∨ ~p ≡ T, p ∧ ~p ≡ F\n~(~p) ≡ p, ~T ≡ F, ~F ≡ T",
+      "hint": "Complement laws are the key to simplifying switching circuits."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "What are quantifiers? Give the symbols.",
+      "a": "Universal ∀ = 'for all / for every'.\nExistential ∃ = 'there exists / for some'.",
+      "hint": "Quantifiers turn an open sentence into a statement."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Negation of quantified statements?",
+      "a": "~(∀x, p(x)) ≡ ∃x, ~p(x)\n~(∃x, p(x)) ≡ ∀x, ~p(x)",
+      "hint": "Flip the quantifier AND negate the inside. 'All' ↔ 'Some'."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "What is the dual of a statement?",
+      "a": "Interchange ∧ ↔ ∨ and T ↔ F. Keep ~ unchanged. Variables stay the same.",
+      "hint": "Defined only for statements using ∧, ∨, ~ (and T, F)."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Find the dual of (p ∧ q) ∨ T.",
+      "a": "(p ∨ q) ∧ F",
+      "hint": "Trap: if → or ↔ is present, first rewrite using ∧, ∨, ~, then take the dual."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Switching circuits: series, parallel and switch states?",
+      "a": "Series ↔ ∧ (p ∧ q). Parallel ↔ ∨ (p ∨ q).\nClosed switch = T = 1 (current flows). Open = F = 0.",
+      "hint": "Series: both must be closed. Parallel: any one closed is enough."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Switch p and its complement p' (~p) in series and in parallel?",
+      "a": "Series: p ∧ p' ≡ F (never flows).\nParallel: p ∨ p' ≡ T (always flows).",
+      "hint": "p' is always opposite to p: when p is closed, p' is open."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Negate: 'If it rains, then I stay home.'",
+      "a": "'It rains AND I do not stay home.' (p ∧ ~q)",
+      "hint": "Use the negation of p → q. Never write 'if it rains, I don't stay home'."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Fastest method to prove A → B is a tautology?",
+      "a": "Assume A = T and B = F. If this leads to a contradiction, then A → B is a tautology.",
+      "hint": "Saves time in MCQs compared to a full truth table. Works because p → q is false only for T → F."
+    }
+  ]
+}

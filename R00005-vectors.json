@@ -1,0 +1,183 @@
+{
+  "title": "Vectors",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Position vector, magnitude, and unit vector in 3D?",
+      "a": "Position vector: r = x i + y j + z k.\nMagnitude: |r| = √(x² + y² + z²).\nUnit vector: r̂ = r / |r|.",
+      "hint": "A unit vector always has magnitude |r̂| = 1."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Section formula for internal and external division?",
+      "a": "Internal division (ratio m : n): r = (m b + n a) / (m + n).\nExternal division (ratio m : n): r = (m b - n a) / (m - n).",
+      "hint": "m multiplies the farther vector b; n multiplies the nearer vector a."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Midpoint and Centroid formulas for triangle and tetrahedron?",
+      "a": "Midpoint: m = (a + b) / 2.\nCentroid of ΔABC: g = (a + b + c) / 3.\nCentroid of tetrahedron ABCD: g = (a + b + c + d) / 4.",
+      "hint": "Centroid divides each median in the ratio 2 : 1."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Formula for Incentre of triangle ABC?",
+      "a": "Incentre i = (a a + b b + c c) / (a + b + c), where a, b, c are lengths of sides opposite to vertices A, B, C.",
+      "hint": "Side lengths act as the weights for the corresponding opposite vertex vectors."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Definition and component formula for Dot (Scalar) Product?",
+      "a": "a · b = |a| |b| cos θ = a₁ b₁ + a₂ b₂ + a₃ b₃.",
+      "hint": "Scalar product is commutative: a · b = b · a."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Condition for two non-zero vectors a and b to be perpendicular (orthogonal)?",
+      "a": "a · b = 0  (i.e. a₁ b₁ + a₂ b₂ + a₃ b₃ = 0).",
+      "hint": "Zero dot product ⇔ perpendicular vectors."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Scalar projection and Vector projection of a on b?",
+      "a": "Scalar projection: (a · b) / |b|.\nVector projection: [ (a · b) / |b|² ] · b.",
+      "hint": "The projection is ON vector b, so |b| is always in the denominator."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Definition and determinant form for Vector (Cross) Product?",
+      "a": "a × b = (|a| |b| sin θ) n̂ = | [i, j, k], [a₁, a₂, a₃], [b₁, b₂, b₃] |.",
+      "hint": "Anti-commutative: b × a = -(a × b). Cross product produces a vector perpendicular to both a and b."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Condition for two non-zero vectors a and b to be collinear (parallel)?",
+      "a": "a × b = 0  (or a = k b, meaning a₁/b₁ = a₂/b₂ = a₃/b₃).",
+      "hint": "Zero cross product ⇔ parallel/collinear vectors."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Unit vector perpendicular to both vectors a and b?",
+      "a": "n̂ = ± (a × b) / |a × b|.",
+      "hint": "Always include ± unless a specific orientation/sense is specified."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Area of Parallelogram with adjacent sides vs diagonals?",
+      "a": "With adjacent sides a and b: Area = |a × b|.\nWith diagonals d₁ and d₂: Area = (1/2) |d₁ × d₂|.",
+      "hint": "Be careful: using diagonals requires an extra factor of 1/2!"
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Area of Triangle ABC with position vectors a, b, c?",
+      "a": "Area = (1/2) |AB × AC| = (1/2) |(b - a) × (c - a)| = (1/2) |a × b + b × c + c × a|.",
+      "hint": "Three points A, B, C are collinear ⇔ a × b + b × c + c × a = 0."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Definition and determinant form of Scalar Triple Product (Box Product)?",
+      "a": "[a b c] = a · (b × c) = | [a₁, a₂, a₃], [b₁, b₂, b₃], [c₁, c₂, c₃] |.",
+      "hint": "Dot and cross can be interchanged: a · (b × c) = (a × b) · c."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Cyclic and anti-cyclic properties of Box Product [a b c]?",
+      "a": "[a b c] = [b c a] = [c a b] = -[b a c] = -[a c b] = -[c b a].\nAlso [a a b] = 0 (if any two vectors are identical or parallel, box product is 0).",
+      "hint": "Cyclic order preserves value; swapping any two vectors flips the sign."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Condition for three vectors a, b, c to be coplanar?",
+      "a": "[a b c] = 0.",
+      "hint": "Four points A, B, C, D are coplanar ⇔ [AB AC AD] = 0."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Volume of Parallelopiped and Volume of Tetrahedron?",
+      "a": "Volume of parallelopiped with coterminous edges a, b, c: V = |[a b c]|.\nVolume of tetrahedron ABCD: V = (1/6) |[AB AC AD]|.",
+      "hint": "Tetrahedron volume is 1/6 times the volume of the corresponding parallelopiped."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "State Lagrange's Identity relating dot and cross products.",
+      "a": "|a × b|² + (a · b)² = |a|² |b|².",
+      "hint": "Direct proof: |a|² |b|² sin² θ + |a|² |b|² cos² θ = |a|² |b|²."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Value of [a + b, b + c, c + a] in terms of [a b c]?",
+      "a": "[a + b, b + c, c + a] = 2 [a b c].",
+      "hint": "Classic MHT-CET question! Always equals exactly 2 times [a b c]."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Value of [a - b, b - c, c - a]?",
+      "a": "[a - b, b - c, c - a] = 0.",
+      "hint": "Vectors (a - b), (b - c), (c - a) are always coplanar since their sum is zero!"
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Vector Triple Product expansion formula?",
+      "a": "a × (b × c) = (a · c) b - (a · b) c.",
+      "hint": "Mnemonic: 'BAC minus CAB' rule."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Work done and Torque (moment of a force) in vector form?",
+      "a": "Work done: W = F · d (scalar product of force and displacement).\nTorque: τ = r × F (vector product of position vector and force).",
+      "hint": "Torque is about a point: r = r_point_of_action - r_moment_centre."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "If |a + b| = |a - b|, what is the geometric relation between a and b?",
+      "a": "Vectors a and b are perpendicular (orthogonal), i.e. a · b = 0.",
+      "hint": "Square both sides: |a|² + |b|² + 2 a · b = |a|² + |b|² - 2 a · b ⇒ 4 a · b = 0 ⇒ a · b = 0."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "If |a + b| = |a| + |b|, what is the geometric relation between a and b?",
+      "a": "Vectors a and b are collinear and point in the same direction (θ = 0°).",
+      "hint": "Triangle inequality equality condition: vectors are parallel and like-directed."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Value of i · (j × k) + j · (k × i) + k · (i × j)?",
+      "a": "i · i + j · j + k · k = 1 + 1 + 1 = 3.",
+      "hint": "j × k = i, k × i = j, i × j = k."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "Value of (a × b)² in determinant form?",
+      "a": "|a × b|² = | [a · a, a · b], [a · b, b · b] | = |a|² |b|² - (a · b)².",
+      "hint": "Determinant form of Cauchy-Schwarz / Lagrange identity."
+    }
+  ]
+}

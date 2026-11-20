@@ -1,0 +1,183 @@
+{
+  "title": "Applications of Derivatives",
+  "subject": "Mathematics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "Slopes of Tangent and Normal to curve y = f(x) at P(x₁, y₁)?",
+      "a": "Slope of tangent: m = (dy/dx) at (x₁, y₁).\nSlope of normal: m' = -1 / m = -1 / (dy/dx) at (x₁, y₁).",
+      "hint": "Normal is perpendicular to tangent, so m · m' = -1."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Equations of Tangent and Normal lines at point P(x₁, y₁)?",
+      "a": "Tangent: y - y₁ = m (x - x₁)\nNormal: y - y₁ = (-1/m) (x - x₁).",
+      "hint": "If m = 0, tangent is horizontal (y = y₁); if m = ∞, tangent is vertical (x = x₁)."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Conditions for tangent to be parallel to x-axis and parallel to y-axis?",
+      "a": "Parallel to x-axis: dy/dx = 0 (horizontal tangent).\nParallel to y-axis (perpendicular to x-axis): dx/dy = 0 or dy/dx = ±∞ (vertical tangent).",
+      "hint": "MHT-CET standard question: find points on curve where tangent is horizontal."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Angle of intersection θ between two curves with slopes m₁ and m₂?",
+      "a": "tan θ = | (m₁ - m₂) / (1 + m₁ m₂) |.\nOrthogonal (perpendicular) curves: m₁ · m₂ = -1.",
+      "hint": "Curves cut orthogonally if product of their tangent slopes at intersection equals -1."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Derivative as a Rate Measure: Velocity and Acceleration?",
+      "a": "If s = f(t) is displacement at time t:\nVelocity: v = ds/dt\nAcceleration: a = dv/dt = d²s/dt².",
+      "hint": "Particle comes to instantaneous rest or reverses direction when v = 0."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Related rates: Volume and Surface Area of a Sphere of radius r?",
+      "a": "Volume: V = (4/3) π r³ ⇒ dV/dt = 4 π r² (dr/dt)\nSurface Area: S = 4 π r² ⇒ dS/dt = 8 π r (dr/dt).",
+      "hint": "Note that dV/dt = S · (dr/dt). Instantaneous rate of volume change equals surface area times radial speed."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Formula for Approximations using differentials?",
+      "a": "f(a + h) ≈ f(a) + h · f'(a), where h is a small increment (positive or negative).",
+      "hint": "Choose 'a' as a nearby value where f(a) and f'(a) can be calculated easily."
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "State Rolle's Theorem and its 3 mandatory conditions.",
+      "a": "If f(x) is: (1) continuous on [a, b], (2) differentiable on (a, b), and (3) f(a) = f(b),\nthen there exists at least one c ∈ (a, b) such that f'(c) = 0.",
+      "hint": "Geometrically: There is at least one point where the tangent is horizontal (parallel to x-axis)."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Trap in Rolle's Theorem: Interval type for c?",
+      "a": "c must lie in the OPEN interval (a, b), never at the endpoints a or b! (a < c < b).",
+      "hint": "If an algebraic solution yields c = a or c = b, it MUST be discarded!"
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "State Lagrange's Mean Value Theorem (LMVT).",
+      "a": "If f(x) is: (1) continuous on [a, b], (2) differentiable on (a, b),\nthen there exists at least one c ∈ (a, b) such that f'(c) = [ f(b) - f(a) ] / (b - a).",
+      "hint": "Geometrically: There is at least one tangent parallel to the chord joining endpoints (a, f(a)) and (b, f(b))."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Condition for a function f(x) to be Strictly Increasing or Decreasing?",
+      "a": "Strictly Increasing on (a, b): f'(x) > 0 for all x ∈ (a, b).\nStrictly Decreasing on (a, b): f'(x) < 0 for all x ∈ (a, b).",
+      "hint": "Non-decreasing: f'(x) ≥ 0; Non-increasing: f'(x) ≤ 0."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "What is a Stationary Point vs a Critical Point?",
+      "a": "Stationary Point: Point x = c where f'(c) = 0.\nCritical Point: Point x = c in domain where EITHER f'(c) = 0 OR f'(c) does not exist.",
+      "hint": "Every stationary point is a critical point, but not vice-versa (e.g. x = 0 for f(x) = |x| is critical, not stationary)."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "First Derivative Test for Local Maxima and Minima?",
+      "a": "Let f'(c) = 0:\n1. If f'(x) changes sign from + to - as x passes through c ⇒ Local MAXIMUM at c.\n2. If f'(x) changes sign from - to + as x passes through c ⇒ Local MINIMUM at c.\n3. If f'(x) does not change sign ⇒ Point of Inflection.",
+      "hint": "Positive to negative means curve was climbing then descending, forming a peak (maximum)."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Second Derivative Test for Local Maxima and Minima?",
+      "a": "Let f'(c) = 0:\nIf f''(c) < 0 ⇒ Local MAXIMUM at x = c.\nIf f''(c) > 0 ⇒ Local MINIMUM at x = c.",
+      "hint": "Mnemonic: Negative second derivative indicates concave down (frown = peak = max)."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "What happens if f'(c) = 0 and f''(c) = 0?",
+      "a": "The Second Derivative Test FAILS (inconclusive). You must fall back to the First Derivative Test or test higher derivatives.",
+      "hint": "Example: For f(x) = x⁴ at x = 0, f''(0) = 0, but it has a minimum by 1st derivative test."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "How to find Global (Absolute) Maxima and Minima on a closed interval [a, b]?",
+      "a": "1. Find all critical points in (a, b).\n2. Calculate f(x) at these critical points AND at the two endpoints a and b.\n3. The greatest value is Absolute Maximum; smallest is Absolute Minimum.",
+      "hint": "Absolute extrema frequently occur at endpoints where derivative is non-zero!"
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "What is a Point of Inflection?",
+      "a": "A point on the curve where the concavity changes (concave upwards ↔ concave downwards). Condition: f''(x) = 0 and f''(x) changes sign.",
+      "hint": "At a point of inflection, the tangent line crosses (cuts through) the curve."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Concave Upwards vs Concave Downwards conditions?",
+      "a": "Concave Upwards (convex): f''(x) > 0 on the interval.\nConcave Downwards (concave): f''(x) < 0 on the interval.",
+      "hint": "Concave up holds water (cup); concave down spills water (cap)."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "MHT-CET Optimization Shortcut: Rectangle of maximum area inscribed in a circle of radius R?",
+      "a": "It is always a SQUARE of side R √2, and its maximum area is 2 R².",
+      "hint": "Symmetry rule: For perimeter/area extrema, regular shapes (squares, equilateral triangles) always win!"
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "MHT-CET Optimization Shortcut: Open box made by cutting equal corner squares of side x from sheet of dimensions L × B?",
+      "a": "Maximum volume occurs when x = [ (L + B) - √(L² - L B + B²) ] / 6.",
+      "hint": "For a square sheet (L = B): x = L / 6, and Max Volume = 2 L³ / 27."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "MHT-CET Shortcut: Divide positive number S into two parts x and y such that xᵐ yⁿ is maximum?",
+      "a": "The parts must be in the ratio of their powers: x / m = y / n ⇒ x = m S / (m + n), y = n S / (m + n).",
+      "hint": "Direct 5-second trick! Avoid setting up full derivative and second derivative."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Lengths of Subtangent and Subnormal to curve y = f(x)?",
+      "a": "Length of Subtangent = | y / (dy/dx) | = | y / m |\nLength of Subnormal = | y · (dy/dx) | = | y · m |.",
+      "hint": "Subtangent divides by slope m; subnormal multiplies by slope m."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Condition for function f(x) = a x³ + b x² + c x + d to be monotonic for all x ∈ R?",
+      "a": "f'(x) = 3a x² + 2b x + c must have discriminant Δ ≤ 0 ⇒ 4b² - 12ac ≤ 0 ⇒ b² ≤ 3ac.",
+      "hint": "If discriminant is ≤ 0, derivative never changes sign, so f(x) is strictly monotonic."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Ladder sliding against vertical wall problem: relation between speeds?",
+      "a": "If ladder length is L: x² + y² = L² ⇒ 2x (dx/dt) + 2y (dy/dt) = 0 ⇒ dy/dt = - (x/y) · (dx/dt).",
+      "hint": "dy/dt is negative because height y decreases as foot x slides away (dx/dt > 0)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "Shortest distance between a point (x₀, y₀) and a curve y = f(x)?",
+      "a": "The line segment of shortest distance lies along the NORMAL to the curve passing through (x₀, y₀).",
+      "hint": "Shortest distance between any two non-intersecting smooth curves is along their common normal."
+    }
+  ]
+}
