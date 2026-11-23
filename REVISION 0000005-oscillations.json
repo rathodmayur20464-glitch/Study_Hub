@@ -1,0 +1,183 @@
+{
+  "title": "Oscillations",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Definition and differential equation of Linear Simple Harmonic Motion (SHM)?",
+      "a": "SHM: Motion where restoring force is directly proportional to displacement from mean position and directed towards mean position (F = - k x).\nDifferential equation: d²x / dt² + ω² x = 0, where ω = √(k / m).",
+      "hint": "Acceleration is a = - ω² x. Negative sign confirms restoring nature directed towards center."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Velocity of a particle performing SHM at displacement x?",
+      "a": "v = ± ω √(A² - x²).\nAt mean position (x = 0): v_max = ω A.\nAt extreme positions (x = ± A): v = 0.",
+      "hint": "v-x graph of SHM is an ELLIPSE: x²/A² + v²/(ω²A²) = 1."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Acceleration of a particle performing SHM at displacement x?",
+      "a": "a = - ω² x.\nAt mean position (x = 0): a = 0.\nAt extreme positions (x = ± A): a_max = ω² A (directed toward mean position).",
+      "hint": "a-x graph is a straight line passing through origin with negative slope -ω²."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Displacement x(t) starting from Mean Position vs Extreme Position?",
+      "a": "Starting from Mean Position (phase α = 0): x(t) = A sin(ω t).\nStarting from Positive Extreme (phase α = π/2): x(t) = A cos(ω t).",
+      "hint": "General form: x(t) = A sin(ω t + α), where α is the epoch (initial phase)."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Phase differences between Displacement, Velocity, and Acceleration in SHM?",
+      "a": "Displacement and Velocity: Phase difference is π/2 rad (90°, Velocity LEADS displacement).\nVelocity and Acceleration: Phase difference is π/2 rad (90°, Acceleration LEADS velocity).\nDisplacement and Acceleration: Phase difference is π rad (180°, exact OPPOSITE phases).",
+      "hint": "Classic HSC theory 2-mark question! Acceleration and displacement are always in opposite phase."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Kinetic Energy (K), Potential Energy (U), and Total Energy (E) in SHM?",
+      "a": "K = (1/2) m ω² (A² - x²) = (1/2) k (A² - x²)\nU = (1/2) m ω² x² = (1/2) k x²\nTotal Energy: E = K + U = (1/2) k A² = (1/2) m ω² A² = 2 π² m n² A².",
+      "hint": "Total energy E is strictly CONSTANT at all positions and at all times (E ∝ m, E ∝ n², E ∝ A²)."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "At what displacements x is (1) K = U, and (2) K = 3 U in SHM?",
+      "a": "1. K = U: (1/2)k(A² - x²) = (1/2)kx² ⇒ 2x² = A² ⇒ x = ± A / √2 ≈ ± 0.707 A.\n2. K = 3 U: A² - x² = 3 x² ⇒ 4 x² = A² ⇒ x = ± A / 2.",
+      "hint": "Top MHT-CET high-frequency question! At x = A/2, 75% energy is kinetic and 25% is potential."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Average Kinetic Energy and Average Potential Energy over one complete cycle in SHM?",
+      "a": "Time average: <K>_time = (1/4) k A² = E / 2\n<U>_time = (1/4) k A² = E / 2.\nPosition average: <K>_pos = (2/3) E; <U>_pos = (1/3) E.",
+      "hint": "Over a full time period, average KE equals average PE, each exactly half the total energy (E/2)."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Time period of a Simple Pendulum of length L?",
+      "a": "T = 2π √(L / g) ⇒ frequency n = (1 / 2π) √(g / L).",
+      "hint": "Valid for small angular amplitudes (θ < 10°) where sin θ ≈ θ."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Laws of Simple Pendulum?",
+      "a": "1. Law of Length: T ∝ √L (at constant g).\n2. Law of Gravity: T ∝ 1 / √g (at constant L).\n3. Law of Mass: T is independent of bob mass.\n4. Law of Isochronism: T is independent of amplitude (for small oscillations).",
+      "hint": "Replacing a hollow bob with a solid lead bob of same size does NOT change time period."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "What is a Seconds Pendulum and what is its length on Earth (g = 9.8 m/s²)?",
+      "a": "A pendulum whose time period is exactly 2 seconds (T = 2 s, so one tick or half-vibration is 1 s).\nLength: L = g / π² ≈ 9.8 / (3.1416)² ≈ 0.993 m ≈ 100 cm (1 metre).",
+      "hint": "Remember: T = 2 s, NOT 1 s! Length is very close to 1 metre."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Spring Combinations: Effective spring constant and time period for Series vs Parallel?",
+      "a": "Series: 1 / k_s = 1 / k₁ + 1 / k₂ ⇒ k_s = k₁ k₂ / (k₁ + k₂), T_s = 2π √[ m (k₁ + k₂) / (k₁ k₂) ].\nParallel: k_p = k₁ + k₂, T_p = 2π √[ m / (k₁ + k₂) ].",
+      "hint": "Opposite to electrical resistors! Springs in series add reciprocally; parallel springs add directly."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "A spring of constant k is cut into n equal parts: What is the spring constant of each part?",
+      "a": "k' = n · k.",
+      "hint": "Because length becomes L/n and k ∝ 1/L. If cut into 2 halves, each half has constant 2k!"
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Composition of two collinear SHMs of same frequency: Resultant Amplitude R and Phase δ?",
+      "a": "R = √[ A₁² + A₂² + 2 A₁ A₂ cos(α₁ - α₂) ]\ntan δ = [ A₁ sin α₁ + A₂ sin α₂ ] / [ A₁ cos α₁ + A₂ cos α₂ ].",
+      "hint": "Exactly analogous to the vector addition formula for two vectors of magnitudes A₁, A₂ with angle (α₁ - α₂)."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Resultant amplitude of two collinear SHMs when phase difference is (1) 0°, (2) 180°, (3) 90°?",
+      "a": "1. In phase (Δα = 0): R = A₁ + A₂ (Maximum).\n2. Opposite phase (Δα = π): R = |A₁ - A₂| (Minimum; 0 if A₁ = A₂).\n3. Quadrature (Δα = π/2): R = √(A₁² + A₂²).",
+      "hint": "If A₁ = A₂ = A and Δα = 2π/3 (120°), resultant amplitude is R = A."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Angular SHM: Restoring torque and time period?",
+      "a": "Restoring Torque: τ = - c θ, where c is restoring torque per unit twist.\nDifferential equation: I (d²θ / dt²) + c θ = 0 ⇒ d²θ / dt² + ω² θ = 0 (where ω = √(c / I)).\nTime Period: T = 2π √(I / c).",
+      "hint": "I is moment of inertia about rotation axis. Example: Torsional pendulum."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Period of vibration of a bar magnet of magnetic moment M in uniform magnetic field B?",
+      "a": "T = 2π √[ I / (M B) ], where I is moment of inertia of magnet.",
+      "hint": "Restoring torque is τ = - M B sin θ ≈ - (M B) θ for small angular displacements."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Damped Oscillations: Equation of motion and amplitude decay formula?",
+      "a": "Differential equation: m (d²x / dt²) + b (dx / dt) + k x = 0, where b is damping coefficient.\nAmplitude decay: A(t) = A₀ · e^[ - b t / (2 m) ].",
+      "hint": "Amplitude decays exponentially with time due to viscous/frictional energy dissipation."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Angular frequency ω' of Damped Harmonic Oscillator?",
+      "a": "ω' = √[ (k / m) - (b² / 4 m²) ] = √[ ω₀² - (b / 2m)² ].",
+      "hint": "Damping strictly REDUCES the oscillation frequency below the natural frequency ω₀."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Free, Forced oscillations, and Resonance?",
+      "a": "Free: Oscillations with natural frequency without external driving force.\nForced: Oscillations driven by a periodic external force at driving frequency ω_d.\nResonance: Occurs when driving frequency matches natural frequency (ω_d = ω₀), causing amplitude to become MAXIMUM.",
+      "hint": "Sharpness of resonance depends on damping: low damping gives very sharp resonance peaks."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "What is the frequency of kinetic energy and potential energy oscillations in SHM?",
+      "a": "2 f (twice the frequency of the SHM particle)!\nSince K = (1/2)kA² cos²(ωt) = (1/4)kA² [ 1 + cos(2ωt) ], energy completes TWO full cycles for every ONE cycle of displacement.",
+      "hint": "Top MHT-CET trap! If displacement frequency is 50 Hz, KE oscillates at 100 Hz."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Time taken by a particle starting from mean position to reach x = A/2 vs from x = A/2 to x = A?",
+      "a": "From x = 0 to x = A/2: t₁ = T / 12 (since sin(ω t₁) = 1/2 ⇒ ω t₁ = π/6 ⇒ t₁ = T/12).\nFrom x = A/2 to x = A: t₂ = T / 6 (since T/4 - T/12 = T/6).",
+      "hint": "Particle travels faster near the mean position, so it takes HALF the time (T/12) for the first half displacement compared to second half (T/6)!"
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Period of a simple pendulum inside an accelerating lift?",
+      "a": "Lift accelerating upward with a: T = 2π √[ L / (g + a) ] (T decreases).\nLift accelerating downward with a: T = 2π √[ L / (g - a) ] (T increases).\nFreely falling lift (a = g): T = ∞ (pendulum stops oscillating, weightless).",
+      "hint": "Effective gravity g_eff = g + a (upward) or g - a (downward)."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Effective length of pendulum with a spherical bob of radius r and string of length l?",
+      "a": "L = l + r (measured from point of suspension strictly to the CENTER OF GRAVITY of the bob).",
+      "hint": "If water drains out of a hollow sphere, CG first moves down (L ↑ ⇒ T ↑) then returns to center (L ↓ ⇒ T ↓)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If amplitude of SHM is doubled, what happens to its Time Period and Total Energy?",
+      "a": "Time Period T remains COMPLETELY UNCHANGED (T is independent of amplitude A).\nTotal Energy E quadruples (E ∝ A², so E' = 4 E).",
+      "hint": "Do not confuse energy (which scales as A²) with period/frequency (which is independent of A)."
+    }
+  ]
+}

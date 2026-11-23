@@ -1,0 +1,183 @@
+{
+  "title": "Thermodynamics",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "State the Zeroth Law of Thermodynamics and its physical significance.",
+      "a": "If systems A and B are each in thermal equilibrium with a third system C, then A and B are in thermal equilibrium with each other.\nPhysical significance: Introduces and defines the concept of TEMPERATURE as a state variable.",
+      "hint": "Two bodies in thermal equilibrium have the exact same temperature."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "State the First Law of Thermodynamics and its mathematical equation.",
+      "a": "dQ = dU + dW = dU + P · dV, where dQ is heat added to system, dU is change in internal energy, and dW is work done by system.",
+      "hint": "Based on the Universal Law of Conservation of Energy applied to thermodynamic systems."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Sign conventions for dQ, dW, and dU in First Law of Thermodynamics?",
+      "a": "dQ > 0: Heat absorbed by system; dQ < 0: Heat rejected by system.\ndW > 0: Work done BY system (expansion, dV > 0); dW < 0: Work done ON system (compression, dV < 0).\ndU > 0: Temperature increases (internal energy increases); dU < 0: Temperature decreases.",
+      "hint": "Always check whether work is done 'by' or 'on' the gas before choosing sign!"
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Internal Energy U of an ideal gas depends on what?",
+      "a": "Internal energy of an ideal gas depends SOLELY on its absolute temperature T: dU = n C_v dT (independent of pressure or volume).",
+      "hint": "For an ideal gas undergoing any isothermal process (ΔT = 0), ΔU is ALWAYS 0."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Work done in an Isothermal Process (T = constant)?",
+      "a": "W = n R T ln(V₂ / V₁) = 2.303 n R T log₁₀(V₂ / V₁) = n R T ln(P₁ / P₂).\nSince ΔT = 0 ⇒ ΔU = 0, heat absorbed equals work done: Q = W.",
+      "hint": "Carried out very slowly in conducting containers so system stays in thermal equilibrium."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Work done in an Adiabatic Process (dQ = 0)?",
+      "a": "W = [ P₁ V₁ - P₂ V₂ ] / (γ - 1) = [ n R (T₁ - T₂) ] / (γ - 1).\nSince dQ = 0, First Law gives ΔU = - W.",
+      "hint": "If gas expands adiabatically (W > 0), ΔU < 0, so gas cools down (T₂ < T₁)."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Work done in an Isobaric Process (P = constant) and Isochoric Process (V = constant)?",
+      "a": "Isobaric: W = P (V₂ - V₁) = n R (T₂ - T₁).\nIsochoric: W = 0 (since dV = 0), so dQ = dU = n C_v dT.",
+      "hint": "In an isochoric process, 100% of the heat supplied goes entirely into increasing internal energy."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Slope of Adiabatic vs Isothermal curve on a P-V indicator diagram?",
+      "a": "Isothermal slope: (dP / dV)_iso = - P / V\nAdiabatic slope: (dP / dV)_adi = - γ (P / V) = γ × (isothermal slope).",
+      "hint": "Because γ > 1, the adiabatic curve is always STEEPER than the isothermal curve by a factor of γ."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Work done in a Cyclic Process on a P-V diagram?",
+      "a": "W_net = Area enclosed by the closed P-V loop.\nClockwise loop: Net Work is POSITIVE (Heat Engine).\nCounter-clockwise loop: Net Work is NEGATIVE (Refrigerator / Heat Pump).",
+      "hint": "In any complete cycle, initial and final states are identical, so ΔU_net = 0 and Q_net = W_net."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Thermal Efficiency η of a Heat Engine?",
+      "a": "η = W / Q_H = (Q_H - Q_C) / Q_H = 1 - Q_C / Q_H, where Q_H is heat absorbed from hot reservoir and Q_C is heat rejected to cold reservoir.",
+      "hint": "η is always strictly less than 1 (100%) for any real or ideal heat engine."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Efficiency of a Carnot Engine operating between T_H and T_C?",
+      "a": "η_Carnot = 1 - T_C / T_H = (T_H - T_C) / T_H.",
+      "hint": "T_H (source) and T_C (sink) MUST be in KELVIN! Carnot efficiency is the theoretical maximum."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Four operations of the Carnot Cycle in order?",
+      "a": "1. Isothermal Expansion at T_H (heat Q_H absorbed).\n2. Adiabatic Expansion (temperature drops from T_H to T_C).\n3. Isothermal Compression at T_C (heat Q_C rejected).\n4. Adiabatic Compression (temperature rises from T_C to T_H).",
+      "hint": "Two reversible isothermals and two reversible adiabatics alternating."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Coefficient of Performance β (or K) of a Refrigerator?",
+      "a": "β = Q_C / W = Q_C / (Q_H - Q_C) = T_C / (T_H - T_C).\nRelation with Carnot efficiency: β = (1 - η) / η.",
+      "hint": "Unlike efficiency η which is < 1, COP β can easily be greater than 1 (e.g. β = 4 or 5)."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If an open refrigerator is kept running inside a closed, insulated room, what happens to room temperature?",
+      "a": "The room temperature INCREASES (room warms up)!\nBecause heat rejected to the room Q_H = Q_C + W is greater than heat absorbed Q_C by the amount of electrical work done W.",
+      "hint": "The motor's electrical energy is dissipated as extra heat into the closed room."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Second Law of Thermodynamics: Kelvin-Planck and Clausius statements?",
+      "a": "Kelvin-Planck: It is impossible to construct a heat engine whose sole effect is to extract heat from a reservoir and convert it 100% into work without rejecting heat (η < 1).\nClausius: It is impossible to transfer heat spontaneously from a cooler body to a hotter body without external work.",
+      "hint": "Both statements are logically equivalent and rule out 100% efficient engines and self-acting refrigerators."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Fraction of heat converted into work in an Isobaric expansion of an ideal gas?",
+      "a": "Fraction = W / Q = (C_p - C_v) / C_p = 1 - 1 / γ.\nFor monoatomic (γ = 5/3): W/Q = 1 - 3/5 = 2/5 (40%).\nFor diatomic (γ = 7/5): W/Q = 1 - 5/7 = 2/7 (28.6%).",
+      "hint": "Remaining heat goes into increasing internal energy: ΔU / Q = 1 / γ."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "A Carnot engine has efficiency 40% with sink at 300 K. What is the source temperature? To increase efficiency to 50%, what should source temperature be?",
+      "a": "Initial: η = 1 - T_C/T_H ⇒ 0.4 = 1 - 300/T_H ⇒ T_H = 500 K = 227 °C.\nFor η = 0.5: 0.5 = 1 - 300/T_H' ⇒ T_H' = 600 K = 327 °C.",
+      "hint": "Standard 2-mark HSC numerical. Always keep temperatures in Kelvin."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Reversible vs Irreversible Processes?",
+      "a": "Reversible: Can be retracted in opposite direction through exact same intermediate equilibrium states without leaving any change in universe (quasi-static, no friction).\nIrreversible: Cannot retrace path exactly (spontaneous, dissipative effects like friction, turbulence, rapid expansion).",
+      "hint": "All natural physical processes in the universe are irreversible."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Free Expansion of an ideal gas into a vacuum: Values of dW, dQ, and dU?",
+      "a": "dW = 0 (no opposing external pressure, P_ext = 0)\ndQ = 0 (insulated container)\ndU = 0 ⇒ ΔT = 0 (temperature remains constant).",
+      "hint": "Highly irreversible adiabatic process where no work is done and temperature does not change."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "For the same expansion from V₁ to V₂, which process has the maximum work done: Isothermal, Isobaric, or Adiabatic?",
+      "a": "W_isobaric > W_isothermal > W_adiabatic.\nArea under P-V curve is largest for isobaric and smallest for adiabatic.",
+      "hint": "During expansion, isobaric curve is highest, followed by isothermal, then adiabatic."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "For the same compression from V₁ to V₂ (V₂ < V₁), which process requires maximum work done?",
+      "a": "W_adiabatic > W_isothermal > W_isobaric.\nAdiabatic compression curve rises steepest, so area under it is the largest.",
+      "hint": "Reverse of expansion! More work must be supplied to compress adiabatically."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "What is a Quasi-static Process?",
+      "a": "An infinitely slow process in which the system remains in thermodynamic equilibrium with its surroundings at every intermediate instant.",
+      "hint": "Idealization required to trace well-defined paths on a P-V diagram."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Work done by an expanding gas when pressure varies as P = a V + b?",
+      "a": "W = ∫ P dV = ∫ (a V + b) dV = (a / 2) (V₂² - V₁²) + b (V₂ - V₁).\nGeometrically: Area of trapezium under the straight line P-V graph = (1/2)(P₁ + P₂)(V₂ - V₁).",
+      "hint": "Use area of trapezium formula directly for linear P-V variations to save integration time!"
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Heat capacity of an ideal gas during a polytropic process P V^x = constant?",
+      "a": "C = C_v + R / (1 - x) = R / (γ - 1) + R / (1 - x).",
+      "hint": "For isothermal: x = 1 ⇒ C = ∞; for adiabatic: x = γ ⇒ C = 0; for isobaric: x = 0 ⇒ C = C_p."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Can the specific heat capacity of a gas be negative?",
+      "a": "YES. During a process where heat is rejected (dQ < 0) while temperature rises due to strong compression, or when gas expands and cools while heat is added (e.g. polytropic process with 1 < x < γ), specific heat capacity C is NEGATIVE.",
+      "hint": "Unlike solids and liquids, a gas can have any specific heat capacity from -∞ to +∞!"
+    }
+  ]
+}

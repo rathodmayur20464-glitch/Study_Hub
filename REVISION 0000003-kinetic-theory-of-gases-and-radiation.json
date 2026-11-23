@@ -1,0 +1,183 @@
+{
+  "title": "Kinetic Theory of Gases and Radiation",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "Formula for pressure exerted by an ideal gas in terms of rms speed?",
+      "a": "P = (1/3) ρ v_rms² = (1/3) (N m / V) v_rms², where N is total molecules, m is mass of one molecule, and V is volume.",
+      "hint": "Derived from rate of change of momentum of gas molecules colliding elastically with container walls."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Formulas for RMS speed (v_rms) of gas molecules?",
+      "a": "v_rms = √(3 R T / M₀) = √(3 k_B T / m) = √(3 P / ρ), where M₀ is molar mass and k_B is Boltzmann constant.",
+      "hint": "v_rms ∝ √T and v_rms ∝ 1/√M₀. RMS speed depends strictly on absolute temperature and molar mass."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Ratio of Most Probable, Average, and RMS speeds of gas molecules?",
+      "a": "v_mp : v_avg : v_rms = √2 : √(8/π) : √3 ≈ 1 : 1.128 : 1.224.\nOrder: v_mp < v_avg < v_rms.",
+      "hint": "Mnemonic: 'RAM' (RMS > Average > Most probable)."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Kinetic Energy of an ideal gas per mole, per molecule, and per unit volume?",
+      "a": "Per mole: E = (3/2) R T\nPer molecule: E_molecule = (3/2) k_B T\nPer unit volume: E / V = (3/2) P ⇒ P = (2/3) (E / V).",
+      "hint": "Pressure is numerically equal to two-thirds of the translational kinetic energy per unit volume!"
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Mean Free Path λ of a gas molecule: Formula and dependencies?",
+      "a": "λ = 1 / (√2 π d² n_V) = (k_B T) / (√2 π d² P), where d is molecular diameter and n_V = N/V is number density.",
+      "hint": "λ ∝ T (at constant P); λ ∝ 1/P (at constant T); λ ∝ 1/d²."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Degrees of Freedom (f) for Monoatomic, Diatomic, and Triatomic gases?",
+      "a": "Monoatomic (He, Ne, Ar): f = 3 (translational).\nDiatomic rigid (H₂, O₂, N₂ at room temp): f = 5 (3 trans + 2 rot).\nDiatomic non-rigid (high temp): f = 7 (3 trans + 2 rot + 2 vib).\nNon-linear Triatomic (H₂O): f = 6 (3 trans + 3 rot).",
+      "hint": "Each vibrational mode contributes 2 degrees of freedom (1 kinetic + 1 potential)."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "State the Law of Equipartition of Energy.",
+      "a": "In thermal equilibrium at absolute temperature T, total energy of gas is equally divided among all its degrees of freedom, and average energy per molecule per degree of freedom is (1/2) k_B T.",
+      "hint": "Total internal energy of one mole of gas with f degrees of freedom is U = (f/2) R T."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Molar heat capacities C_v, C_p and adiabatic ratio γ in terms of degrees of freedom f?",
+      "a": "C_v = (f / 2) R\nC_p = C_v + R = (f / 2 + 1) R\nγ = C_p / C_v = 1 + 2 / f.",
+      "hint": "Mayer's relation: C_p - C_v = R. Ratio γ is always greater than 1."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Values of C_v, C_p, and γ for Monoatomic vs Diatomic gases?",
+      "a": "Monoatomic (f = 3): C_v = (3/2)R, C_p = (5/2)R, γ = 5/3 ≈ 1.67.\nDiatomic rigid (f = 5): C_v = (5/2)R, C_p = (7/2)R, γ = 7/5 = 1.40.\nDiatomic vibrating (f = 7): C_v = (7/2)R, C_p = (9/2)R, γ = 9/7 ≈ 1.29.",
+      "hint": "Memorize 1.67, 1.40, and 1.29 — tested in nearly every MHT-CET physics paper!"
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Mayer's Relation between Molar (C_p, C_v) and Principal (c_p, c_v) specific heats?",
+      "a": "Molar specific heats: C_p - C_v = R (or R / J in heat units).\nPrincipal specific heats: c_p - c_v = R / M₀, where M₀ is molar mass.",
+      "hint": "Principal specific heat is per unit mass (J/(kg·K)); Molar specific heat is per mole (J/(mol·K))."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Absorptive, Reflective, and Transmissive powers: Relation and definition of a Blackbody?",
+      "a": "a + r + t_r = 1 (where a = Q_a/Q, r = Q_r/Q, t_r = Q_t/Q).\nFor an opaque body: t_r = 0 ⇒ a + r = 1.\nFor a Perfectly Blackbody: a = 1, r = 0, t_r = 0.",
+      "hint": "A perfectly blackbody absorbs 100% of incident radiant energy of all wavelengths."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Emissive power E and Emissivity (coefficient of emission) e?",
+      "a": "Emissive Power: E = Q / (A · t) (radiant energy emitted per unit area per unit time). SI unit: J/(m²·s) or W/m².\nEmissivity: e = E / E_b (ratio of emissive power to that of a perfectly blackbody at same temperature).",
+      "hint": "For a perfectly blackbody: e = 1. For a perfect reflector: e = 0."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "State Kirchhoff's Law of Radiation.",
+      "a": "At any given temperature, the ratio of emissive power to absorptive power is constant for all bodies and equals the emissive power of a perfectly blackbody (E / a = E_b ⇒ e = a).",
+      "hint": "Good absorbers are good emitters; poor absorbers are poor emitters."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "State the Stefan-Boltzmann Law for a blackbody and ordinary body.",
+      "a": "Blackbody: R = E_b = σ T⁴ (radiant energy emitted per unit area per second).\nOrdinary body: R = e σ T⁴.\nTotal power emitted: P = dQ/dt = e σ A T⁴.",
+      "hint": "Stefan's constant: σ = 5.67 × 10⁻⁸ W/(m²·K⁴), dimensions: [M¹ L⁰ T⁻³ K⁻⁴]."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Net rate of heat loss of a body at temperature T in surroundings at T₀ (T > T₀)?",
+      "a": "dQ / dt = e σ A (T⁴ - T₀⁴).\nRate of cooling (fall in temperature): -dT / dt = [ e σ A (T⁴ - T₀⁴) ] / (m c).",
+      "hint": "Temperatures T and T₀ MUST strictly be in KELVIN (absolute scale), never in Celsius!"
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "State Wien's Displacement Law.",
+      "a": "λ_max · T = b = constant, where λ_max is the wavelength of maximum spectral emissive power and T is absolute temperature.",
+      "hint": "Wien's constant: b ≈ 2.898 × 10⁻³ m·K. As temperature increases, λ_max shifts towards shorter wavelengths (blue/UV)."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "If absolute temperature of a blackbody is doubled, how do emissive power and peak wavelength change?",
+      "a": "Emissive power: Increases by factor of 2⁴ = 16 times (R ∝ T⁴).\nPeak wavelength λ_max: Halves (λ_max ∝ 1/T).",
+      "hint": "Classic MHT-CET MCQ! R becomes 16R, λ_max becomes λ/2."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Newton's Law of Cooling: Formula and condition of validity?",
+      "a": "dθ / dt = - k (θ - θ₀), where θ is body temperature, θ₀ is surroundings temperature, and k is cooling constant.\nIntegrated form: ln[(θ₁ - θ₀) / (θ₂ - θ₀)] = k t.",
+      "hint": "Valid ONLY when temperature difference (θ - θ₀) is small (less than ~30 °C) and heat loss is mainly by convection."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Ferry's Blackbody: Key construction features?",
+      "a": "Double-walled hollow spherical metal sphere with a narrow aperture and a conical projection directly opposite to the aperture.\nInner surface coated with lampblack (absorbs 96-98%), evacuated space between walls prevents conduction/convection.",
+      "hint": "Any ray entering suffers multiple internal reflections and is 100% absorbed. The aperture acts as the blackbody, NOT the wall."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Adiabatic expansion: Relation between T and V for an ideal gas?",
+      "a": "T V^(γ - 1) = constant.\nAlso: P V^γ = constant, and T^γ P^(1 - γ) = constant.",
+      "hint": "When gas expands adiabatically (V increases), its temperature T must DECREASE (cooling effect)."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "At what temperature does the RMS speed of gas molecules become double its value at 0 °C?",
+      "a": "T₂ = 1092 K = 819 °C.\nSince v_rms ∝ √T: v₂ / v₁ = √(T₂ / T₁) = 2 ⇒ T₂ = 4 T₁ = 4 × 273 K = 1092 K = 819 °C.",
+      "hint": "Trap: You must convert 0 °C to 273 K first before multiplying by 4!"
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "What is the physical meaning of Absolute Zero (0 K)?",
+      "a": "The temperature at which translational kinetic energy of gas molecules becomes zero (v_rms = 0), and molecular motion theoretically ceases.",
+      "hint": "Pressure and volume of an ideal gas also extrapolate to zero at 0 K (-273.15 °C)."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Specific heat of a gas mixture of n₁ moles (C_v1) and n₂ moles (C_v2)?",
+      "a": "C_v,mix = (n₁ C_v1 + n₂ C_v2) / (n₁ + n₂)\nC_p,mix = (n₁ C_p1 + n₂ C_p2) / (n₁ + n₂)\nγ_mix = C_p,mix / C_v,mix.",
+      "hint": "Weighted average based on number of moles."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Greenhouse Effect: Which radiation is trapped?",
+      "a": "Short-wavelength solar radiation passes through atmosphere/glass, warms the Earth, which re-emits LONG-wavelength INFRARED radiation. Greenhouse gases (CO₂, H₂O, CH₄) absorb this infrared, trapping heat.",
+      "hint": "Glass/atmosphere is transparent to incoming visible/near-IR light, but opaque to outgoing long-wave thermal IR."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If pressure of a gas is doubled at constant temperature, what happens to RMS speed?",
+      "a": "v_rms remains COMPLETELY UNCHANGED!\nSince v_rms = √(3 P / ρ) = √(3 R T / M₀), at constant temperature T, doubling P also doubles density ρ, so the ratio P/ρ stays constant.",
+      "hint": "v_rms depends ONLY on temperature and molar mass, NOT on pressure or volume alone!"
+    }
+  ]
+}

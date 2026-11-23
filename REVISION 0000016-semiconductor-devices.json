@@ -1,0 +1,183 @@
+{
+  "title": "Semiconductor Devices",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Classification of solids based on Energy Band Gap E_g at 0 K?",
+      "a": "Conductors (Metals): Conduction Band (CB) and Valence Band (VB) overlap, or CB is partially filled; E_g ≈ 0 eV.\nInsulators: Completely filled VB, empty CB, very large forbidden gap: E_g > 3 eV (e.g. Diamond E_g ≈ 5.4 eV).\nSemiconductors: Filled VB, empty CB, small forbidden gap: E_g ≈ 1 eV (Silicon E_g = 1.1 eV, Germanium E_g = 0.7 eV at 300 K).",
+      "hint": "At absolute zero (0 K), an intrinsic semiconductor has zero electrons in CB and acts as a PERFECT INSULATOR."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Intrinsic Semiconductor: Charge carrier balance and electrical conductivity formula?",
+      "a": "Pure, undoped semiconductor crystal. Thermally generated electron-hole pairs: n_e = n_h = n_i (intrinsic carrier concentration).\nTotal current: I = I_e + I_h = e A (n_e v_e + n_h v_h).\nElectrical conductivity: σ = e (n_e μ_e + n_h μ_h), where μ_e and μ_h are electron and hole mobilities (μ_e > μ_h).",
+      "hint": "Holes conduct in the valence band; free electrons conduct in the conduction band. Electron mobility is always greater than hole mobility."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Extrinsic n-type vs p-type Semiconductors: Dopants and majority carriers?",
+      "a": "n-type: Pure Si/Ge doped with PENTAVALENT donor impurities (P, As, Sb). Majority carriers = ELECTRONS (n_e ≫ n_h). Donor energy level lies just below CB.\np-type: Pure Si/Ge doped with TRIVALENT acceptor impurities (B, Al, Ga, In). Majority carriers = HOLES (n_h ≫ n_e). Acceptor energy level lies just above VB.",
+      "hint": "Both n-type and p-type crystals are electrically NEUTRAL overall (total positive charges = total negative charges)!"
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "State the Mass Action Law for semiconductors in thermal equilibrium.",
+      "a": "n_e · n_h = n_i², where n_e is electron concentration, n_h is hole concentration, and n_i is intrinsic carrier concentration at temperature T.",
+      "hint": "Doping a semiconductor with donors (n_e ↑) dramatically suppresses hole concentration n_h so that their product remains constant n_i²."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Formation of Depletion Region and Barrier Potential V_b in a p-n Junction?",
+      "a": "Electrons diffuse from n to p and holes from p to n, leaving behind uncompensated immobile positive donor ions on n-side and negative acceptor ions on p-side.\nThis space-charge region devoid of free mobile carriers is the DEPLETION REGION. It sets up an internal electric field creating a Barrier Potential (Silicon V_b ≈ 0.7 V; Germanium V_b ≈ 0.3 V).",
+      "hint": "Internal electric field points from n-side (positive ions) to p-side (negative ions), opposing further carrier diffusion."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Forward Bias vs Reverse Bias of a p-n junction diode?",
+      "a": "Forward Bias (p-side to +, n-side to -): Applied field opposes barrier field ⇒ Depletion width DECREASES, barrier height lowers (V_b - V), large forward diffusion current flows (mA range).\nReverse Bias (p-side to -, n-side to +): Applied field aids barrier field ⇒ Depletion width INCREASES, barrier height rises (V_b + V), only tiny reverse saturation current flows (μA for Ge, nA for Si).",
+      "hint": "Under forward bias, diode acts as a low resistance; under reverse bias, as an extremely high resistance."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Dynamic (AC) Resistance vs Static (DC) Resistance of a diode?",
+      "a": "Dynamic Resistance: r_d = ΔV / ΔI (reciprocal of slope of I-V characteristic at operating point).\nStatic Resistance: R_dc = V / I.",
+      "hint": "Dynamic resistance is very small in forward bias (~few ohms) and very large in reverse bias (~megaohms)."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Half-Wave Rectifier: Diode count, efficiency, and ripple frequency?",
+      "a": "Number of diodes: 1.\nOutput DC Voltage: V_dc = V_m / π ≈ 0.318 V_m.\nMaximum Efficiency: η_max = 40.6%.\nRipple Factor: r = 1.21.\nRipple Frequency: f_out = f_in (same as AC mains frequency, e.g. 50 Hz).",
+      "hint": "Conducts only during positive half-cycles of input AC; completely blocks negative half-cycles."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Full-Wave Rectifier (Center-Tapped & Bridge): Efficiency and ripple frequency?",
+      "a": "Number of diodes: 2 (Center-Tapped) or 4 (Bridge).\nOutput DC Voltage: V_dc = 2 V_m / π ≈ 0.636 V_m.\nMaximum Efficiency: η_max = 81.2% (twice of half-wave!).\nRipple Factor: r = 0.48.\nRipple Frequency: f_out = 2 · f_in (twice the input frequency! e.g. 100 Hz for 50 Hz input).",
+      "hint": "PIV (Peak Inverse Voltage): For Center-Tapped = 2 V_m; for Bridge Rectifier = V_m."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Filter Circuits in Rectifiers: Capacitor (Shunt) vs Inductor (Series) filters?",
+      "a": "Capacitor Filter: Connected in PARALLEL with load. Bypasses AC ripple to ground and maintains steady DC voltage across load. Ripple factor r ∝ 1 / (R_L C).\nInductor Filter (Choke): Connected in SERIES with load. Blocks AC ripple due to high reactance X_L = ωL and passes DC smoothly. Ripple factor r ∝ R_L / L.",
+      "hint": "Capacitor filter works best with high load resistance (light load); inductor filter works best with low load resistance (heavy load)."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Zener Diode: Special construction and breakdown mechanism?",
+      "a": "Heavily doped p-n junction diode with an ultra-thin depletion layer (~10⁻⁶ m = 1 μm).\nOperated in REVERSE BREAKDOWN region.\nZener Breakdown: High electric field (~10⁶ V/m) directly tears valence electrons from covalent bonds (field emission).\nAvalanche Breakdown: In lightly doped diodes at higher reverse voltages, thermally generated minority carriers accelerate and knock out secondary carriers by collision ionization.",
+      "hint": "Zener breakdown occurs below ~6 V with negative temperature coefficient; Avalanche occurs above ~6 V with positive temperature coefficient."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Zener Diode as a Voltage Regulator: Working principle?",
+      "a": "Connected in REVERSE BIAS in parallel with load resistance R_L, with a series current-limiting resistor R_s.\nIn breakdown region, voltage across Zener diode remains strictly CONSTANT at Zener voltage V_z, even if input voltage V_in or load current I_L fluctuates.\nCurrent equation: I_in = I_z + I_L ⇒ V_in = I_in R_s + V_z.",
+      "hint": "Top Board 3-mark derivation! Any fluctuation in input voltage is absorbed as a drop across series resistor R_s."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Photodiode: Biasing and working principle?",
+      "a": "Operated in REVERSE BIAS. When light photons of energy h ν ≥ E_g strike the depletion layer, electron-hole pairs are created.\nInternal junction field sweeps electrons to n-side and holes to p-side, producing an increased REVERSE CURRENT.\nReverse saturation current is directly proportional to incident LIGHT INTENSITY.",
+      "hint": "Operated in reverse bias because fractional change in minority carrier current is vastly easier to measure than in majority carrier forward current."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Light Emitting Diode (LED): Biasing, emission mechanism, and materials?",
+      "a": "Operated in FORWARD BIAS. Electrons and holes cross junction and recombine near depletion layer, releasing excess energy as PHOTONS (h ν ≈ E_g).\nMaterials: Direct bandgap semiconductors (GaAs, GaP, GaAsP), NOT Silicon or Germanium (which have indirect bandgaps where energy is wasted as heat).\nColor depends on bandgap E_g (e.g. Red: GaAs_0.6 P_0.4, E_g ≈ 1.9 eV).",
+      "hint": "Requires a series current-limiting resistor to prevent burnout from excessive forward current."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Solar Cell: Biasing and three-step operating process?",
+      "a": "Operates with ZERO external bias (no external battery connected; generates electrical power from sunlight).\nThree steps: (1) Generation of electron-hole pairs by light photons near junction (h ν > E_g).\n(2) Separation of charges by junction electric field (electrons to n-side, holes to p-side).\n(3) Collection: Potential difference (photo-voltage) develops across open terminals.\nOperates in FOURTH QUADRANT of I-V characteristic graph.",
+      "hint": "I-V curve lies in 4th quadrant because the solar cell supplies power (acts as a generator), delivering current to external load."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Bipolar Junction Transistor (BJT): Current relations and current gains α and β?",
+      "a": "Current relation: I_E = I_B + I_C (Emitter current = Base current + Collector current).\nCommon Base current gain: α = I_C / I_E (typically 0.95 to 0.99, α < 1).\nCommon Emitter current gain: β = I_C / I_B (typically 20 to 500, β ≫ 1).\nRelations: β = α / (1 - α) and α = β / (1 + β).",
+      "hint": "Base is made very thin (~few μm) and lightly doped so that ~95-98% of carriers pass directly to collector (I_B is only 2-5% of I_E)."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Common Emitter (CE) Transistor Amplifier: Phase reversal between input and output?",
+      "a": "There is a 180° (π radians) phase difference between input AC voltage and output AC collector voltage in a CE amplifier!\nWhen input voltage increases, base current I_B increases ⇒ I_C increases ⇒ collector voltage V_CE = V_CC - I_C R_L DECREASES (output swings negative).",
+      "hint": "Essential Board concept! CE amplifier produces inverted (180° out of phase) amplified output."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Voltage Gain A_v and Power Gain A_p of a CE Transistor Amplifier?",
+      "a": "Voltage Gain: A_v = ΔV_out / ΔV_in = β · (R_L / R_i), where R_L is load resistance and R_i is input dynamic resistance.\nPower Gain: A_p = A_v · β = β² · (R_L / R_i).\nVoltage gain in dB: A_v(dB) = 20 log₁₀(A_v).",
+      "hint": "Power gain equals current gain squared times resistance gain."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Three operating regions of a Transistor on Output Characteristics?",
+      "a": "1. Cut-off Region: Both junctions (E-B and C-B) reverse biased; I_C ≈ 0 (transistor is OFF / open switch).\n2. Active Region: E-B junction forward biased, C-B junction reverse biased (used as LINEAR AMPLIFIER).\n3. Saturation Region: Both junctions forward biased; V_CE ≈ 0, I_C is maximum (transistor is fully ON / closed switch).",
+      "hint": "For switching applications: transistor switches between Cut-off (OFF) and Saturation (ON)."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Logic Gates: Truth table equations for standard 2-input gates?",
+      "a": "AND Gate: Y = A · B (1 only if both A = 1 and B = 1)\nOR Gate: Y = A + B (1 if either A = 1 or B = 1)\nNOT Gate: Y = Ā (inverts input: 1 → 0, 0 → 1)\nNAND Gate: Y = (A · B)̄\nNOR Gate: Y = (A + B)̄\nXOR Gate: Y = A ⊕ B = Ā B + A B̄ (1 if inputs are different).",
+      "hint": "NAND and NOR are UNIVERSAL GATES because any Boolean logic function can be realized using them alone."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "State De Morgan's Laws of Boolean Algebra.",
+      "a": "First Law: (A + B)̄ = Ā · B̄ (NOR is equivalent to bubbled AND).\nSecond Law: (A · B)̄ = Ā + B̄ (NAND is equivalent to bubbled OR).",
+      "hint": "Break the line, change the sign! (+ becomes · and · becomes +)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "How to make NOT, AND, and OR gates using only 2-input NAND gates?",
+      "a": "NOT gate: Tie both inputs of NAND together (1 NAND gate: Y = (A · A)̄ = Ā).\nAND gate: NAND gate followed by a NAND inverter (2 NAND gates: Y = ((A · B)̄)̄ = A · B).\nOR gate: Invert inputs A and B using NAND, then feed into NAND (3 NAND gates: Y = (Ā · B̄)̄ = A + B by De Morgan).",
+      "hint": "Minimum NAND gates required: NOT = 1, AND = 2, OR = 3, NOR = 4, XOR = 4."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "How to make NOT, OR, and AND gates using only 2-input NOR gates?",
+      "a": "NOT gate: Tie both inputs of NOR together (1 NOR gate: Y = (A + A)̄ = Ā).\nOR gate: NOR gate followed by a NOR inverter (2 NOR gates: Y = ((A + B)̄)̄ = A + B).\nAND gate: Invert inputs A and B using NOR, then feed into NOR (3 NOR gates: Y = (Ā + B̄)̄ = A · B by De Morgan).",
+      "hint": "Minimum NOR gates required: NOT = 1, OR = 2, AND = 3, NAND = 4, XNOR = 4."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "If current gain β = 49 in a transistor, find α and collector current for I_E = 5 mA.",
+      "a": "α = β / (1 + β) = 49 / (1 + 49) = 49 / 50 = 0.98.\nI_C = α · I_E = 0.98 × 5 mA = 4.9 mA.\nBase current I_B = I_E - I_C = 5 - 4.9 = 0.1 mA = 100 μA.",
+      "hint": "Standard MHT-CET 10-second numerical! Remember α is always slightly less than 1."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If temperature of an intrinsic semiconductor is increased from 300 K to 350 K, what happens to its resistance?",
+      "a": "Its resistance DECREASES significantly!\nBecause semiconductors have a NEGATIVE temperature coefficient of resistance (α < 0). Heating creates more thermal electron-hole pairs, increasing carrier concentration n_i exponentially.",
+      "hint": "Metals increase in resistance when heated; semiconductors decrease in resistance!"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Electromagnetic Induction",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Magnetic Flux Φ: Definition, formula, SI unit, and dimensions?",
+      "a": "Φ = B · A = B A cos θ, where θ is angle between magnetic field B and normal to area vector A.\nSI unit: Weber (Wb) = Tesla·m² (T·m²). CGS unit: Maxwell (1 Wb = 10⁸ Maxwell).\nDimensions: [M¹ L² T⁻² I⁻¹].",
+      "hint": "Scalar quantity. Φ is maximum when field B is normal to plane of surface (θ = 0°)."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "State Faraday's Laws of Electromagnetic Induction.",
+      "a": "First Law: Whenever magnetic flux linked with a closed circuit changes, an induced EMF is set up in the circuit which lasts as long as the change in flux continues.\nSecond Law: The magnitude of induced EMF is directly proportional to the time rate of change of magnetic flux: e ∝ dΦ/dt.",
+      "hint": "Mathematical form with Lenz's law: e = - N (dΦ / dt)."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "State Lenz's Law and its fundamental conservation basis.",
+      "a": "The direction of induced current is always such that it OPPOSES the very cause (change in magnetic flux) that produces it: e = - dΦ / dt.\nConservation basis: Law of Conservation of ENERGY.",
+      "hint": "Mechanical work done against opposing magnetic forces is converted directly into electrical energy."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Induced EMF, Induced Current, and Total Induced Charge in a circuit of resistance R?",
+      "a": "Induced EMF: e = - dΦ / dt\nInduced Current: I = e / R = - (1 / R) (dΦ / dt)\nTotal Induced Charge: q = ∫ I dt = ΔΦ / R.",
+      "hint": "Crucial distinction: Induced EMF and current depend on the RATE of change of flux (how fast), but total induced charge q depends ONLY on total change in flux ΔΦ, independent of time taken!"
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Motional EMF induced in a conductor of length L moving with velocity v perpendicular to field B?",
+      "a": "e = B L v.\nIf angle between v and B is θ: e = B L v sin θ.\nDirection of induced current: Given by Fleming's Right-Hand Rule.",
+      "hint": "Vector form: e = ∮ (v × B) · dl."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Induced EMF in a conducting rod of length L rotating with angular speed ω about one end in a perpendicular magnetic field B?",
+      "a": "e = (1/2) B L² ω = B A f, where A = π L² is area swept per revolution and f = ω / 2π is frequency.",
+      "hint": "Frequent Board numerical! Effective speed is average speed of midpoint: v_avg = ω L / 2 ⇒ e = B L (ω L / 2) = (1/2) B L² ω."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "What are Eddy Currents (Foucault Currents) and how are they minimized?",
+      "a": "Circulating loop currents induced in bulk metallic conductors when magnetic flux through them changes.\nMinimization: Using laminated cores (thin metal sheets separated by insulating varnish layer) instead of solid metal blocks.",
+      "hint": "Applications: Induction furnace, electromagnetic braking in high-speed trains, dead-beat galvanometers, induction cooktops."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Self-Induction: Definition, formula, SI unit, and dimensions of Self-Inductance L?",
+      "a": "Production of induced EMF in a coil due to change of current in the same coil: Φ = L I ⇒ e = - L (dI / dt).\nSelf-inductance: L = |e| / (dI / dt). SI unit: Henry (H) = Wb/A = V·s/A.\nDimensions: [M¹ L² T⁻² I⁻²].",
+      "hint": "Self-inductance represents 'electrical inertia' (analogous to mass in mechanics), opposing any change in current."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Self-inductance L of a long solenoid of length l, area A, and N total turns?",
+      "a": "L = μ₀ n² A l = μ₀ (N² / l) A = μ₀ μ_r N² A / l (with iron core of relative permeability μ_r).",
+      "hint": "Notice L ∝ N² (proportional to the SQUARE of number of turns!). Doubling turns quadruples inductance."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Energy stored in a current-carrying Inductor and Magnetic Energy Density?",
+      "a": "Stored Energy: U = (1/2) L I².\nMagnetic Energy Density (energy per unit volume of magnetic field): u_B = B² / (2 μ₀).",
+      "hint": "Exact magnetic counterpart of capacitor energy U = (1/2) C V² and electric energy density u_E = (1/2) ε₀ E²."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Mutual Induction: Definition, formula, and Coefficient of Coupling K?",
+      "a": "Production of induced EMF in secondary coil due to change of current in primary coil: Φ₂ = M I₁ ⇒ e₂ = - M (dI₁ / dt).\nMutual Inductance of two coaxial solenoids: M = μ₀ n₁ n₂ A l = (μ₀ N₁ N₂ A) / l.\nCoefficient of Coupling: K = M / √(L₁ L₂), where 0 ≤ K ≤ 1.",
+      "hint": "K = 1 for tightly coupled coils (100% flux linkage); K = 0 for perpendicular coils with zero mutual flux."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Combination of Inductors: Series and Parallel formulas?",
+      "a": "Series (no mutual induction): L_s = L₁ + L₂.\nSeries assisting: L_s = L₁ + L₂ + 2 M; Series opposing: L_s = L₁ + L₂ - 2 M.\nParallel (no mutual induction): 1 / L_p = 1 / L₁ + 1 / L₂ ⇒ L_p = (L₁ L₂) / (L₁ + L₂).",
+      "hint": "Inductors combine mathematically exactly like electrical resistors."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "AC Generator: Working equation of generated alternating EMF?",
+      "a": "e = e₀ sin(ω t) = N B A ω sin(ω t), where peak EMF is e₀ = N B A ω = 2 π f N B A.",
+      "hint": "EMF is maximum (e = e₀) when plane of coil is PARALLEL to magnetic field (flux Φ = 0, but dΦ/dt is maximum!)."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "A copper ring is dropped horizontally through a vertical bar magnet. What is its acceleration compared to g?",
+      "a": "Acceleration is strictly LESS than g (a < g) while entering AND while leaving the magnet!\nBy Lenz's law, the induced current creates an opposing upward magnetic force retarding the fall.",
+      "hint": "If the copper ring has a cut/gap, no continuous current flows, and it falls freely with a = g!"
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Transformer: Principle, construction, and transformation ratio k?",
+      "a": "Principle: Mutual Induction between two coils on a common laminated iron core. Operates strictly on AC (never on DC!).\nTransformation ratio: k = e_s / e_p = N_s / N_p = I_p / I_s.",
+      "hint": "For an ideal transformer, input power = output power (e_p I_p = e_s I_s)."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Step-Up vs Step-Down Transformer: Characteristics?",
+      "a": "Step-Up (k > 1): N_s > N_p ⇒ e_s > e_p (voltage increases), but I_s < I_p (current decreases).\nStep-Down (k < 1): N_s < N_p ⇒ e_s < e_p (voltage decreases), but I_s > I_p (current increases).",
+      "hint": "A transformer changes voltage and current levels, but NEVER changes power or frequency (f_out = f_in)!"
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Energy losses in a practical Transformer and how to minimize them?",
+      "a": "1. Copper loss (I²R in windings): Use thick copper wires.\n2. Eddy current loss (iron core heating): Use laminated soft iron core.\n3. Hysteresis loss: Use high-permeability soft iron with narrow hysteresis loop.\n4. Flux leakage: Wind primary and secondary coils coaxially one over the other.",
+      "hint": "Board 3-mark theory question! Efficiency is η = Output Power / Input Power = (e_s I_s) / (e_p I_p)."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Growth and Decay of current in an L-R circuit: Time constant τ?",
+      "a": "Inductive Time Constant: τ = L / R (SI unit: seconds).\nGrowth: I(t) = I₀ [ 1 - e^(-t / τ) ], where at t = τ, I = 0.632 I₀ (63.2% of maximum).\nDecay: I(t) = I₀ · e^(-t / τ), where at t = τ, current falls to 0.368 I₀ (36.8%).",
+      "hint": "Dimensions of L/R are identical to time: [M⁰ L⁰ T¹]."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "What happens if a steady DC voltage V is applied across an inductor of resistance R?",
+      "a": "At t = 0 (just after closing switch): Inductor offers INFINITE resistance (acts as an OPEN CIRCUIT, I = 0).\nAt t = ∞ (steady state): Inductor offers ZERO resistance (acts as an ideal SHORT CIRCUIT, I = V / R).",
+      "hint": "Opposite to a capacitor! (A capacitor is short at t=0, open at t=∞)."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Back EMF in a DC Motor: Formula and mechanical power output?",
+      "a": "Induced back EMF: e = V - I R_a (where R_a is armature resistance).\nMechanical Power: P_mech = e · I = V I - I² R_a.\nEfficiency: η = e / V.",
+      "hint": "Mechanical power output is maximum when back EMF is exactly half of supply voltage: e = V / 2."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "What is Non-conservative nature of Induced Electric Field?",
+      "a": "A changing magnetic field induces an electric field whose line integral around a closed loop is NON-ZERO: ∮ E · dl = - dΦ / dt ≠ 0.\nThis induced electric field is non-electrostatic and non-conservative (cannot be defined by a scalar potential).",
+      "hint": "Field lines of induced electric field form continuous closed loops without sources or sinks."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "External force and power required to pull a conducting rod of length L with velocity v in field B?",
+      "a": "Force: F = B I L = (B² L² v) / R\nPower: P = F · v = (B² L² v²) / R = I² R.",
+      "hint": "Mechanical power input equals rate of Joule heat dissipation in the circuit (energy conservation)."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "If a coil of N turns, area A, and resistance R is flipped by 180° in uniform field B, what is the charge flown?",
+      "a": "Initial flux: Φ₁ = N B A; Final flux: Φ₂ = - N B A.\nΔΦ = 2 N B A.\nCharge flown: q = ΔΦ / R = 2 N B A / R.",
+      "hint": "Flipping by 180° always doubles the flux change (ΔΦ = 2 NBA)."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Self-inductance of a circular coil of radius R and N turns?",
+      "a": "L = (μ₀ π N² R) / 2.",
+      "hint": "Derived from L = N Φ / I = N (B · A) / I with B_center = μ₀ N I / (2 R)."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: A DC source of 12 V is connected across primary of a step-up transformer (N_s/N_p = 10). What is the output voltage at secondary?",
+      "a": "Output voltage is ZERO (0 V)!\nA transformer works strictly on CHANGING flux (AC). A constant DC voltage produces zero rate of change of flux (dΦ/dt = 0), so induced secondary EMF is zero.",
+      "hint": "Connecting DC to a transformer core may also burn out the primary winding due to lack of back EMF!"
+    }
+  ]
+}

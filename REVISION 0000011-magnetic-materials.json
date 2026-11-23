@@ -1,0 +1,183 @@
+{
+  "title": "Magnetic Materials",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Magnetization (Intensity of Magnetization) M_z?",
+      "a": "Net magnetic dipole moment per unit volume of the material: M_z = M_net / V.\nSI unit: A / m (Ampere per metre), dimensions: [M⁰ L⁻¹ T⁰ I¹].",
+      "hint": "Vector quantity representing the degree of magnetic alignment in a substance."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Define Magnetic Intensity (Magnetizing Field) H and its relation with B and M_z?",
+      "a": "B = μ₀ (H + M_z) ⇒ H = (B / μ₀) - M_z.\nSI unit of H: A / m (same as M_z).",
+      "hint": "H represents the external magnetizing capability of the coil/current; M_z is the medium's response."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Define Magnetic Susceptibility χ and Relative Permeability μ_r.",
+      "a": "Magnetic Susceptibility: χ = M_z / H (dimensionless ratio, measures ease of magnetization).\nRelative Permeability: μ_r = μ / μ₀ = 1 + χ.\nTotal magnetic induction in medium: B = μ H = μ₀ μ_r H = μ₀ (1 + χ) H.",
+      "hint": "Key identity: μ_r = 1 + χ. In vacuum: χ = 0, so μ_r = 1."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Key properties of Diamagnetic Substances?",
+      "a": "1. Weakly repelled by magnets.\n2. Magnetized weakly OPPOSITE to external field.\n3. Susceptibility χ is small and NEGATIVE (-1 ≤ χ < 0).\n4. Relative permeability μ_r < 1.\n5. Susceptibility is INDEPENDENT of temperature (no Curie law).\nExamples: Bismuth, Copper, Water, Gold, Lead, Nitrogen (STP).",
+      "hint": "Origin: Paired electrons whose induced orbital dipole moments oppose the applied field (Lenz's law at atomic scale)."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Key properties of Paramagnetic Substances?",
+      "a": "1. Feebly attracted by magnets.\n2. Magnetized weakly in DIRECTION of external field.\n3. Susceptibility χ is small and POSITIVE (0 < χ < 10⁻³).\n4. Relative permeability μ_r > 1 (slightly greater than 1).\n5. Obeys Curie's Law: χ ∝ 1/T (susceptibility inversely proportional to absolute temperature).\nExamples: Aluminium, Platinum, Oxygen (STP), Manganese, Chromium.",
+      "hint": "Origin: Unpaired electrons with permanent atomic magnetic moments that align partially with external field against thermal agitation."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Key properties of Ferromagnetic Substances?",
+      "a": "1. Strongly attracted by magnets.\n2. Strongly magnetized in direction of external field.\n3. Susceptibility χ is very LARGE and POSITIVE (χ ≫ 10³).\n4. Relative permeability μ_r ≫ 1 (e.g. 10³ to 10⁵).\n5. Exhibits domain structure and Hysteresis.\nExamples: Iron (Fe), Cobalt (Co), Nickel (Ni), Gadolinium (Gd), Alnico.",
+      "hint": "Origin: Quantum exchange coupling aligning atomic dipoles in spontaneous macroscopic 'domains'."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "State Curie's Law for Paramagnetic materials.",
+      "a": "χ = C / T, where C is Curie's constant and T is absolute temperature in Kelvin.\nAlso: M_z = C · (B / T).",
+      "hint": "As temperature increases, thermal vibrations randomize atomic dipoles, decreasing susceptibility."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "What is Curie Temperature T_c and Curie-Weiss Law for Ferromagnets?",
+      "a": "Curie Temperature T_c: The critical temperature ABOVE which a ferromagnetic substance loses its domain structure and transitions into a ordinary PARAMAGNETIC substance.\nCurie-Weiss Law (for T > T_c): χ = C / (T - T_c).\nFor Iron: T_c ≈ 1043 K (770 °C); for Nickel: T_c ≈ 631 K (358 °C).",
+      "hint": "High-yield Board question: Above T_c, ferromagnet becomes paramagnet obeying χ ∝ 1/(T - T_c)."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "What is Magnetic Hysteresis?",
+      "a": "The phenomenon of lagging of magnetic induction B (or magnetization M_z) behind the magnetizing field H when a ferromagnetic material is subjected to a complete cycle of magnetization.",
+      "hint": "Hysteresis means 'to lag behind' (Greek). B remains even after H is brought to zero."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Define Retentivity (Remanence) and Coercivity on a Hysteresis loop.",
+      "a": "Retentivity (Remanence): The residual magnetic induction B remaining in the material when the magnetizing field H is reduced to ZERO.\nCoercivity: The magnitude of the reverse (negative) magnetizing field H required to completely demagnetize the material (reduce B to zero).",
+      "hint": "High retentivity = holds strong magnetism; high coercivity = resists demagnetization."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Physical significance of the Area of a Hysteresis Loop?",
+      "a": "The area enclosed by the B-H hysteresis loop equals the WORK DONE per unit volume per cycle, which is dissipated as HEAT energy (Hysteresis Loss):\nW_loss / V = ∮ B dH (per cycle).",
+      "hint": "For alternating current machinery (transformer cores), materials with NARROW hysteresis loops are selected to minimize heat loss."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Materials for Permanent Magnets vs Electromagnets / Transformer Cores?",
+      "a": "Permanent Magnets (e.g. Steel, Alnico): HIGH Retentivity, HIGH Coercivity, large hysteresis loop area (resists stray demagnetizing fields).\nElectromagnets & Transformer Cores (e.g. Soft Iron): HIGH Retentivity, LOW Coercivity, NARROW hysteresis loop area (easily magnetized/demagnetized with minimal heat dissipation).",
+      "hint": "Top Board 2-mark question! Soft iron is ideal for transformer cores due to low coercivity and small hysteresis area."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "What is the Meissner Effect and what is the susceptibility of a Superconductor?",
+      "a": "The complete expulsion of magnetic flux lines from the interior of a superconductor when cooled below its critical transition temperature T_c.\nSusceptibility: χ = -1 (EXACTLY -1).\nRelative permeability: μ_r = 1 + χ = 0 (Superconductors are PERFECT DIAMAGNETS).",
+      "hint": "Inside a superconductor in the Meissner state, B = 0 everywhere."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Magnetic field on the Axis vs Equator of a short bar magnet of magnetic moment M?",
+      "a": "Axial field: B_axis = (μ₀ / 4π) · (2 M / r³)\nEquatorial field: B_eq = (μ₀ / 4π) · (M / r³).\nRatio: B_axis = 2 B_eq (at same distance r).",
+      "hint": "B_axis is parallel to magnetic dipole moment M (from S to N pole); B_eq is antiparallel to M (from N to S pole)."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Time period of oscillation of a magnetic needle in a vibration magnetometer?",
+      "a": "T = 2π √[ I / (M B_H) ], where I is moment of inertia, M is magnetic dipole moment, and B_H is horizontal component of Earth's magnetic field.",
+      "hint": "Used to compare magnetic moments: M₁ / M₂ = (T₂ / T₁)² (at same location)."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "State Tangent Law in Magnetism and Tangent Galvanometer formula.",
+      "a": "Tangent Law: When a magnetic needle is suspended freely under two mutually perpendicular uniform magnetic fields B and B_H, it aligns at angle θ such that: B = B_H · tan θ.\nTangent Galvanometer: I = (2 R B_H / (μ₀ N)) · tan θ = K · tan θ, where K is reduction factor.",
+      "hint": "Tangent galvanometer is most accurate at deflection θ = 45°."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Earth's Magnetic Elements: Declination, Dip (Inclination), and Horizontal Component B_H?",
+      "a": "1. Magnetic Declination (θ): Angle between geographic meridian and magnetic meridian.\n2. Angle of Dip (δ): Angle made by total Earth field B with horizontal.\n3. Horizontal component: B_H = B · cos δ\nVertical component: B_V = B · sin δ\nRelation: tan δ = B_V / B_H, and total field B = √(B_H² + B_V²).",
+      "hint": "At magnetic equator: δ = 0° (B_V = 0, B = B_H). At magnetic poles: δ = 90° (B_H = 0, B = B_V)."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "What is the apparent dip δ' in a vertical plane inclined at angle θ to the magnetic meridian?",
+      "a": "tan δ' = tan δ / cos θ, where δ is true angle of dip.",
+      "hint": "Since cos θ ≤ 1, apparent dip δ' is always GREATER than true dip δ (tan δ' ≥ tan δ)."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Relation between True Dip δ and Apparent Dips δ₁ and δ₂ measured in two mutually perpendicular vertical planes?",
+      "a": "cot² δ = cot² δ₁ + cot² δ₂.",
+      "hint": "Classic entrance shortcut! Eliminates the unknown orientation angle θ."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Gauss's Law for Magnetism: Statement and physical implication?",
+      "a": "The net magnetic flux through any closed Gaussian surface is ALWAYS ZERO: ∮ B · dA = 0.\nPhysical implication: Isolated magnetic poles (MAGNETIC MONOPOLES) DO NOT EXIST! Magnetic poles always occur in equal and opposite pairs (dipoles).",
+      "hint": "Unlike electric field lines which start at +q and end at -q, magnetic field lines form continuous closed loops."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "A bar magnet of length 2l and magnetic moment M is cut into two equal halves along its length vs perpendicular to its length?",
+      "a": "1. Cut perpendicular to length: Pole strength m remains same, length becomes l ⇒ M' = m · l = M / 2.\n2. Cut parallel to length (along axis): Length remains 2l, pole strength halves (m' = m/2) ⇒ M' = (m/2) · 2l = M / 2.",
+      "hint": "In both cases, magnetic moment of each half is exactly M / 2!"
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Pole strength m, magnetic length 2l, and magnetic moment M of a bar magnet?",
+      "a": "M = m · 2l.\nMagnetic length 2l is slightly shorter than geometric length L_g: 2l ≈ (5/6) L_g ≈ 0.84 L_g.\nSI unit of pole strength m: A·m (Ampere-metre).",
+      "hint": "Magnetic poles lie slightly inside the geometric ends of the bar magnet."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "What happens to the magnetic moment of a thin bar magnet of length L and moment M when bent into a semicircle?",
+      "a": "New magnetic moment: M' = 2 M / π.\nSince circumference of semicircle is π R = L ⇒ diameter (new distance between poles) is 2 R = 2 L / π ⇒ M' = m (2 R) = m (2 L / π) = 2 M / π.",
+      "hint": "Top MHT-CET shortcut! M' = (2/π) M ≈ 0.637 M."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Magnetic potential V_m at distance r and angle θ from center of short bar magnet?",
+      "a": "V_m = (μ₀ / 4π) · (M cos θ / r²).",
+      "hint": "On magnetic axis: V_m = ± (μ₀ / 4π) (M / r²); on magnetic equator (θ = 90°): V_m = 0."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If a diamagnetic liquid in a U-tube is placed between pole pieces of a magnet, what happens to its level in that limb?",
+      "a": "The liquid level DEPRESSES (falls)!\nBecause diamagnetic substances are repelled from regions of stronger magnetic field towards weaker magnetic field.",
+      "hint": "A paramagnetic liquid, by contrast, rises in the limb placed between magnetic poles."
+    }
+  ]
+}

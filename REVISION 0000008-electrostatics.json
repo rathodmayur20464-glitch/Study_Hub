@@ -1,0 +1,183 @@
+{
+  "title": "Electrostatics",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "State Gauss's Law in electrostatics and its formula.",
+      "a": "The total electric flux Φ through any closed imaginary Gaussian surface equals (1 / ε₀) times the net charge enclosed inside the surface: Φ = ∮ E · dA = q_enclosed / ε₀.",
+      "hint": "Charges outside the Gaussian surface contribute zero net flux through the closed surface."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Electric field E due to an infinitely long straight charged wire of linear charge density λ?",
+      "a": "E = λ / (2 π ε₀ r), where r is radial distance from wire.",
+      "hint": "Notice E ∝ 1/r (decreases inversely with distance, unlike point charge which decreases as 1/r²)."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Electric field E due to a uniformly charged infinite plane sheet of surface charge density σ?",
+      "a": "E = σ / (2 ε₀).",
+      "hint": "Remarkable property: E is completely INDEPENDENT of distance r from the sheet (uniform field)!"
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Electric field E of a uniformly charged spherical shell of radius R and charge Q?",
+      "a": "Outside (r > R): E = (1 / 4π ε₀) · (Q / r²)\nOn Surface (r = R): E = (1 / 4π ε₀) · (Q / R²) = σ / ε₀\nInside (r < R): E = 0.",
+      "hint": "Inside a charged conducting sphere/shell, electric field is identically ZERO (electrostatic shielding)."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Electric potential V inside a uniformly charged conducting spherical shell of radius R?",
+      "a": "Inside (r ≤ R): V = constant = (1 / 4π ε₀) · (Q / R) (equal to potential on surface).\nOutside (r > R): V = (1 / 4π ε₀) · (Q / r).",
+      "hint": "Since E = -dV/dr = 0 inside, potential V does not change from surface to center!"
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Electric potential V and Electric Field E due to an electric dipole of moment p?",
+      "a": "Potential at (r, θ): V = (1 / 4π ε₀) · (p cos θ / r²)\nField on Axis (θ = 0°): E_axis = (1 / 4π ε₀) · (2 p / r³)\nField on Equator (θ = 90°): E_eq = (1 / 4π ε₀) · (p / r³).\nRatio: E_axis = 2 E_eq.",
+      "hint": "Dipole electric field decreases as 1/r³ (much faster than point charge 1/r²)."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Torque and Potential Energy of an electric dipole in a uniform electric field E?",
+      "a": "Torque: τ = p × E ⇒ τ = p E sin θ (maximum at θ = 90°).\nPotential Energy: U = - p · E = - p E cos θ.\nStable equilibrium: θ = 0° (U = -pE, minimum).\nUnstable equilibrium: θ = 180° (U = +pE, maximum).",
+      "hint": "Work done in rotating dipole from θ₁ to θ₂: W = p E (cos θ₁ - cos θ₂)."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Capacitance of a Parallel Plate Capacitor with air vs dielectric medium?",
+      "a": "Air medium: C₀ = ε₀ A / d\nWith dielectric of constant K completely filling space: C = K · C₀ = K ε₀ A / d.",
+      "hint": "Inserting a dielectric always INCREASES capacitance by a factor of K (K ≥ 1)."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Capacitance of parallel plate capacitor with dielectric slab of thickness t < d?",
+      "a": "C = ε₀ A / [ d - t (1 - 1 / K) ].\nIf a conducting metal slab of thickness t is inserted (K = ∞): C = ε₀ A / (d - t).",
+      "hint": "Inserting a conducting slab reduces effective plate separation to (d - t)."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Battery Connected vs Battery Disconnected: Effect of inserting dielectric K?",
+      "a": "1. Battery DISCONNECTED (Q is constant):\n   Charge Q: constant | Potential V: V₀ / K | Field E: E₀ / K | Capacitance C: K C₀ | Energy U: U₀ / K.\n2. Battery CONNECTED (V is constant):\n   Potential V: constant | Charge Q: K Q₀ | Field E: constant | Capacitance C: K C₀ | Energy U: K U₀.",
+      "hint": "#1 MHT-CET and Board MCQ topic! Memorize whether battery remains connected or disconnected."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Formulas for Energy stored in a charged capacitor?",
+      "a": "U = (1/2) C V² = (1/2) Q V = Q² / (2 C).\nEnergy density (energy per unit volume of electric field): u = (1/2) ε₀ E².",
+      "hint": "SI unit of energy is Joule (J); energy density is J/m³."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Capacitors in Series vs Parallel: Formulas and charge/voltage distribution?",
+      "a": "Series: 1 / C_s = 1 / C₁ + 1 / C₂ + ... | Charge Q is SAME on all; V_total = V₁ + V₂.\nParallel: C_p = C₁ + C₂ + ... | Voltage V is SAME across all; Q_total = Q₁ + Q₂.",
+      "hint": "For two capacitors: Series C_s = (C₁ C₂) / (C₁ + C₂); Parallel C_p = C₁ + C₂."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Loss of electrostatic energy when two charged capacitors C₁ (at V₁) and C₂ (at V₂) are connected together?",
+      "a": "Common potential: V = (C₁ V₁ + C₂ V₂) / (C₁ + C₂)\nEnergy Loss: ΔU = [ C₁ C₂ (V₁ - V₂)² ] / [ 2 (C₁ + C₂) ].",
+      "hint": "ΔU is always ≥ 0 (energy is always lost as heat and electromagnetic radiation during charge redistribution)."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "What is an Equipotential Surface and its key properties?",
+      "a": "A surface having the same electric potential at every point.\nProperties: (1) Work done in moving a charge between any two points on it is ZERO (W = q ΔV = 0).\n(2) Electric field lines are always PERPENDICULAR to the equipotential surface.\n(3) Two equipotential surfaces NEVER intersect.",
+      "hint": "For a point charge, equipotential surfaces are concentric spheres centered on the charge."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Relation between Electric Field E and Electric Potential V?",
+      "a": "E = - dV / dr (Electric field is the negative gradient of potential).\nIn Cartesian: E = - [ (∂V/∂x) i + (∂V/∂y) j + (∂V/∂z) k ].",
+      "hint": "Negative sign indicates that electric field points in the direction of STEEPEST DECREASE of potential."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Electrostatic Potential Energy of a system of two point charges q₁ and q₂ at distance r?",
+      "a": "U = (1 / 4π ε₀) · (q₁ q₂ / r).\nFor three charges: U = (1 / 4π ε₀) · [ (q₁ q₂ / r₁₂) + (q₂ q₃ / r₂₃) + (q₁ q₃ / r₁₃) ].",
+      "hint": "Substitute charges with their PROPER SIGNS (+ or -)! If like charges, U > 0; if opposite, U < 0."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Mechanical force per unit area (electrostatic pressure) on a charged conductor?",
+      "a": "f = dF / dA = σ² / (2 ε₀) = (1/2) ε₀ E² (directed normally outwards).",
+      "hint": "Electrostatic pressure always acts outwards, tending to expand the charged conductor."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "What is Polarization of a dielectric P and Electric Susceptibility χ_e?",
+      "a": "Polarization P: Induced electric dipole moment per unit volume (P = p_net / V). SI unit: C/m².\nRelation: P = ε₀ χ_e E, where χ_e is electric susceptibility.\nDielectric constant: K = 1 + χ_e.",
+      "hint": "Polar molecules (HCl, H₂O) have permanent dipoles; non-polar (O₂, H₂, CO₂) acquire induced dipoles in an external field."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Principle of Van de Graaff Generator?",
+      "a": "1. Action of points (corona discharge): Charge escapes rapidly from sharp pointed conductors.\n2. When a charged conductor is brought in internal contact with a hollow conductor, all charge transfers to the OUTER surface, regardless of outer sphere potential.",
+      "hint": "Can generate huge potentials up to several million volts (MV)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "If n small mercury droplets each of radius r, charge q, capacitance C, and potential V coalesce into a single large drop, what are the new values?",
+      "a": "Radius: R = n^(1/3) r\nCharge: Q = n q\nCapacitance: C' = n^(1/3) C\nPotential: V' = n^(2/3) V\nStored Energy: U' = n^(5/3) U.",
+      "hint": "Top MHT-CET shortcut! Potential increases by n^(2/3), Energy increases by n^(5/3)."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Capacitance of an isolated spherical conductor of radius R?",
+      "a": "C = 4 π ε₀ R.\nFor Earth (R = 6400 km = 6.4 × 10⁶ m): C = 4π ε₀ (6.4 × 10⁶) ≈ 711 μF.",
+      "hint": "Shows that even a planet-sized conductor has capacitance of less than 1 millifarad!"
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Work done in moving a test charge q₀ around a closed loop in an electrostatic field?",
+      "a": "W = ∮ E · dr = 0 (strictly ZERO).\nBecause electrostatic force is a CONSERVATIVE force.",
+      "hint": "Work done is independent of the path taken and depends only on initial and final positions."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Force between two parallel plates of a capacitor?",
+      "a": "F = Q² / (2 ε₀ A) = (1/2) Q E = (1/2) C V² / d.",
+      "hint": "Notice factor of 1/2! One plate is in the field E/2 produced by the other plate alone."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Dielectric Breakdown and Dielectric Strength?",
+      "a": "Dielectric Breakdown: The phenomenon where an insulator ionizes and becomes conducting under very high electric fields.\nDielectric Strength: Maximum electric field an insulator can withstand without breakdown (for air ≈ 3 × 10⁶ V/m).",
+      "hint": "SI unit of dielectric strength is V/m."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Electric field at the surface of a charged conductor vs near a thin charged sheet?",
+      "a": "At surface of a conductor: E = σ / ε₀ (perpendicular to surface).\nNear an infinite thin sheet of charge: E = σ / (2 ε₀).",
+      "hint": "Conductor field is TWICE as strong because charge resides on two surfaces (or interior field is 0)."
+    }
+  ]
+}

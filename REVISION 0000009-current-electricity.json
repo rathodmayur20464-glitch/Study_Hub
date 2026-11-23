@@ -1,0 +1,183 @@
+{
+  "title": "Current Electricity",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "State Kirchhoff's First Law (Current Law / Junction Rule) and its conservation basis.",
+      "a": "The algebraic sum of currents meeting at any electrical junction is zero: ∑ I = 0 (Current entering junction = Current leaving junction).\nConservation basis: Law of Conservation of CHARGE.",
+      "hint": "Sign convention: Currents entering the junction are positive; currents leaving are negative."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "State Kirchhoff's Second Law (Voltage Law / Loop Rule) and its conservation basis.",
+      "a": "In any closed electrical loop, the algebraic sum of changes in potential (product of current and resistance plus EMFs) is zero: ∑ (I R) + ∑ E = 0.\nConservation basis: Law of Conservation of ENERGY.",
+      "hint": "Crucial Board distinction: KCL = Conservation of Charge; KVL = Conservation of Energy."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Wheatstone's Bridge: Balancing condition and galvanometer current?",
+      "a": "Balancing condition: P / Q = R / S.\nAt balance point, potential at points B and D is equal (V_B = V_D), so galvanometer current is ZERO (I_g = 0).",
+      "hint": "The position of battery and galvanometer can be interchanged without affecting the balance condition."
+    },
+    {
+      "id": "c4",
+      "tag": "imp",
+      "q": "Condition for Maximum Sensitivity of a Wheatstone's Bridge?",
+      "a": "The bridge is most sensitive when all four resistances are approximately of the same order of magnitude (P ≈ Q ≈ R ≈ S).",
+      "hint": "If one arm is very large and another very small, sensitivity drops significantly."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Meter Bridge (Slide Wire Bridge): Working formula to determine unknown resistance X?",
+      "a": "X / R = l_X / l_R = l_X / (100 - l_X) ⇒ X = R · [ l_X / (100 - l_X) ], where l_X is balancing length in cm.",
+      "hint": "Balancing length should ideally be obtained near the center (between 40 cm and 60 cm) to minimize fractional errors."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Kelvin's Method in Meter Bridge: Purpose and procedure?",
+      "a": "Used to determine the resistance of a GALVANOMETER (G) itself.\nThe galvanometer is connected in one gap, and a variable jockey is used to find a point on the wire where galvanometer shows the SAME deflection with jockey tapped or open.",
+      "hint": "Null deflection method where galvanometer itself acts as the detector without any auxiliary detector!"
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "State the Principle of Potentiometer.",
+      "a": "The potential difference between any two points of a uniform wire carrying steady current is directly proportional to the length of wire between those points: V ∝ l ⇒ V = K · l, where K = V/L is Potential Gradient.",
+      "hint": "SI unit of Potential Gradient K is V/m. Lower potential gradient means higher sensitivity."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Comparison of EMF of two cells using Potentiometer: Individual vs Sum and Difference methods?",
+      "a": "Individual Method: E₁ / E₂ = l₁ / l₂\nSum and Difference Method: (E₁ + E₂) / (E₁ - E₂) = l₁ / l₂ ⇒ E₁ / E₂ = (l₁ + l₂) / (l₁ - l₂).",
+      "hint": "Sum method: cells assist each other (E₁ + E₂); difference method: cells oppose each other (E₁ - E₂)."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Formula to determine Internal Resistance r of a cell using Potentiometer?",
+      "a": "r = R · [ (l₁ - l₂) / l₂ ] = R · [ (l₁ / l₂) - 1 ], where l₁ is open circuit balancing length (EMF E) and l₂ is closed circuit balancing length across shunt resistance R (terminal PD V).",
+      "hint": "l₁ is always greater than l₂ because terminal voltage V < EMF E."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Why is a Potentiometer preferred over a Voltmeter for measuring EMF?",
+      "a": "A potentiometer draws ZERO current from the source at the null balance point (infinite effective internal resistance). A voltmeter always draws some current, measuring terminal voltage V < E.",
+      "hint": "A potentiometer acts as an ideal infinite-resistance voltmeter."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "How to increase the sensitivity of a Potentiometer?",
+      "a": "Decrease its potential gradient K = V/L by:\n1. Increasing the length of potentiometer wire L (using 8-10 wire potentiometers).\n2. Decreasing the primary circuit current by adding resistance (rheostat).",
+      "hint": "Lower K means smaller potential differences correspond to larger, easily measurable balancing lengths."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Conversion of Galvanometer (resistance G) into an Ammeter (range 0 to I)?",
+      "a": "Connect a low resistance SHUNT (S) in PARALLEL with the galvanometer:\nS = [ I_g / (I - I_g) ] · G = G / (n - 1), where n = I / I_g is multiplying factor.",
+      "hint": "Effective resistance of ammeter: R_A = (G · S) / (G + S) ≈ S (very small; ideal ammeter resistance is 0)."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Conversion of Galvanometer (resistance G) into a Voltmeter (range 0 to V)?",
+      "a": "Connect a high resistance R_s in SERIES with the galvanometer:\nR_s = (V / I_g) - G = G (n - 1), where n = V / V_g is multiplying factor (V_g = I_g G).",
+      "hint": "Effective resistance of voltmeter: R_V = G + R_s (very large; ideal voltmeter resistance is ∞)."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Drift Velocity v_d, Relaxation time τ, and Current I relation?",
+      "a": "v_d = e E τ / m = e V τ / (m L).\nCurrent: I = n A e v_d = n A e² E τ / m.\nCurrent density: J = I / A = n e v_d = σ E.",
+      "hint": "Drift velocity in metals is very small (~10⁻⁴ m/s = 0.1 mm/s), yet electric signals travel near speed of light!"
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Temperature coefficient of resistance α: Formula and units?",
+      "a": "R_T = R₀ (1 + α ΔT) ⇒ α = (R_T - R₀) / (R₀ · ΔT).\nSI unit of α: per kelvin (K⁻¹) or per °C (°C⁻¹).",
+      "hint": "For metals/conductors: α > 0 (resistance increases with temperature).\nFor semiconductors and insulators: α < 0 (resistance decreases with temperature)."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Stretching a wire: If length of a wire of resistance R is stretched by n times, what is the new resistance?",
+      "a": "R' = n² · R.\nIf stretched by x% (small elongation < 5%): ΔR / R ≈ 2 · (ΔL / L) = 2x%.",
+      "hint": "Volume is constant: V = A · L = constant ⇒ If L becomes n L, area becomes A / n ⇒ R' = ρ (n L) / (A / n) = n² R."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Terminal Potential Difference V of a cell of EMF E and internal resistance r?",
+      "a": "During Discharging: V = E - I r  (V < E)\nDuring Charging: V = E + I r  (V > E)\nOn Open Circuit (I = 0): V = E\nShort Circuit Current (R = 0): I_sc = E / r (V = 0).",
+      "hint": "Terminal voltage exceeds EMF ONLY when the cell is being charged by an external source!"
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Maximum Power Transfer Theorem for a DC circuit?",
+      "a": "Power delivered to an external load resistance R by a cell of EMF E and internal resistance r is MAXIMUM when: R = r (load resistance equals internal resistance).\nMaximum Power: P_max = E² / (4 r).",
+      "hint": "When R = r, efficiency is 50% (half energy is dissipated internally in the cell)."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Grouping of n identical cells (each EMF E, internal resistance r)?",
+      "a": "Series: E_eq = n E, r_eq = n r ⇒ I = n E / (R + n r).\nParallel: E_eq = E, r_eq = r / n ⇒ I = E / (R + r / n).\nMixed grouping (m rows of n cells): I = n E / [ R + (n r / m) ]. Maximum current when R = n r / m.",
+      "hint": "Series grouping gives maximum current when external R ≫ n r; parallel when external R ≪ r / n."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "What is Thermoelectricity (Seebeck Effect and Peltier Effect)?",
+      "a": "Seebeck Effect: Production of an electric current in a closed loop of two dissimilar metals when their junctions are maintained at different temperatures (heat → electricity).\nPeltier Effect: Absorption or evolution of heat at a junction of two dissimilar metals when an electric current passes through it (electricity → heat; reverse of Seebeck).",
+      "hint": "Neutral temperature T_n is independent of cold junction: T_n = (T_c + T_i) / 2, where T_i is inversion temperature."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Heating effect of electric current (Joule's Law)?",
+      "a": "H = I² R t = V I t = (V² / R) t  (in Joules).\nElectric Power: P = I² R = V I = V² / R (in Watts).",
+      "hint": "In series, P ∝ R (higher resistance glows brighter); in parallel, P ∝ 1/R (lower resistance glows brighter)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Two electric bulbs rated 220 V, 40 W and 220 V, 100 W: Which glows brighter in Series vs Parallel?",
+      "a": "Resistance: R = V² / P ⇒ R_40 > R_100 (40 W bulb has higher resistance).\nIn Series (same current): P = I² R ⇒ 40 W bulb glows BRIGHTER.\nIn Parallel (same voltage): P = V² / R ⇒ 100 W bulb glows BRIGHTER.",
+      "hint": "Favorite trap! The lower wattage bulb glows brighter in series connection."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "End resistance error in Meter Bridge and how to eliminate it?",
+      "a": "Caused by non-zero resistance of metallic copper strips and contact soldering points.\nElimination: Repeat the experiment by INTERCHANGING the positions of unknown resistance X and resistance box R in the two gaps and take average.",
+      "hint": "Interchanging gaps cancels out the end errors at both left and right ends."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Superconductivity: Critical Temperature T_c and Meissner Effect?",
+      "a": "Superconductivity: Resistance suddenly drops to EXACT ZERO at critical temperature T_c (e.g. Mercury at 4.2 K).\nMeissner Effect: Complete expulsion of magnetic flux lines from the interior of a superconductor (perfect diamagnetism: χ = -1, μ_r = 0).",
+      "hint": "Once established, electric currents in a superconducting ring flow indefinitely without any potential difference."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If an ideal ammeter is mistakenly connected in parallel across a circuit component, what happens?",
+      "a": "It creates a DEAD SHORT CIRCUIT! Because an ideal ammeter has zero resistance (R_A = 0), almost all current flows through the ammeter, which will burn out or blow the fuse.",
+      "hint": "Ammeters must ALWAYS be connected in series; voltmeters in parallel."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "AC Circuits",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "RMS value and Average value of an alternating current i = i₀ sin(ω t)?",
+      "a": "RMS Value (Virtual value): I_rms = i₀ / √2 ≈ 0.707 i₀\nAverage Value (over positive half-cycle): I_avg = 2 i₀ / π ≈ 0.637 i₀.\nAverage value over a complete full cycle is strictly ZERO.",
+      "hint": "Household AC 220 V is the RMS voltage (e_rms = 220 V); peak voltage is e₀ = 220 × √2 ≈ 311 V."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Why do hot-wire AC ammeters and voltmeters measure RMS values instead of peak values?",
+      "a": "They operate on the HEATING effect of electric current (H ∝ I²). Heat produced by AC equals heat produced by steady DC of magnitude I_rms: H = I_rms² R t.",
+      "hint": "Ordinary moving coil DC meters read 0 for AC because average torque over a cycle is zero."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "AC through Pure Resistor (R): Phase relation and opposition?",
+      "a": "Voltage and current are IN PHASE (phase difference ϕ = 0).\nOpposition: Resistance R (independent of frequency f).\nAverage power consumed: P = e_rms · I_rms = e₀ i₀ / 2.",
+      "hint": "Phasors for voltage and current lie along the same line."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "AC through Pure Inductor (L): Phase relation and Inductive Reactance X_L?",
+      "a": "Voltage LEADS current by 90° (π/2 rad), or current lags voltage by π/2.\nInductive Reactance: X_L = ω L = 2 π f L (SI unit: Ohm Ω).\nAverage power consumed over full cycle: P = 0.",
+      "hint": "For DC (f = 0): X_L = 0 (inductor offers zero reactance to DC). X_L increases linearly with frequency (X_L ∝ f)."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "AC through Pure Capacitor (C): Phase relation and Capacitive Reactance X_C?",
+      "a": "Current LEADS voltage by 90° (π/2 rad), or voltage lags current by π/2.\nCapacitive Reactance: X_C = 1 / (ω C) = 1 / (2 π f C) (SI unit: Ohm Ω).\nAverage power consumed over full cycle: P = 0.",
+      "hint": "For DC (f = 0): X_C = ∞ (capacitor completely BLOCKS direct current). X_C decreases with frequency (X_C ∝ 1/f)."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Series LCR Circuit: Formula for Impedance Z and Phase angle ϕ?",
+      "a": "Impedance: Z = √[ R² + (X_L - X_C)² ] = √[ R² + (ω L - 1/(ω C))² ].\nPhase angle: tan ϕ = (X_L - X_C) / R.\nRMS current: I_rms = e_rms / Z.",
+      "hint": "If X_L > X_C: circuit is Inductive (voltage leads current). If X_C > X_L: circuit is Capacitive (current leads voltage)."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Condition for Electrical Resonance in a Series LCR circuit?",
+      "a": "X_L = X_C ⇒ ω_r L = 1 / (ω_r C) ⇒ Resonant angular frequency: ω_r = 1 / √(L C).\nResonant frequency: f_r = 1 / [ 2π √(L C) ].",
+      "hint": "Inductive reactance exactly balances capacitive reactance, leaving the circuit purely resistive."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Characteristics of a Series LCR Circuit at Resonance?",
+      "a": "1. Impedance is MINIMUM and purely resistive: Z_min = R.\n2. Current is MAXIMUM: I_max = e_rms / R.\n3. Phase angle is ZERO (ϕ = 0): Voltage and current are in phase.\n4. Power factor is MAXIMUM: cos ϕ = 1.\n5. Called an ACCEPTOR CIRCUIT (used in radio tuning to select a specific frequency).",
+      "hint": "Board 3-mark favorite! Voltages across L and C cancel each other completely (V_L + V_C = 0)."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Parallel Resonance Circuit: Resonant frequency and properties?",
+      "a": "Resonant frequency: f_r = (1 / 2π) √[ 1/(LC) - R²/(L²) ] ≈ 1 / [ 2π √(LC) ] (if R is small).\nCharacteristics: Impedance is MAXIMUM (Z_max = L / (C R)), Current is MINIMUM (I_min).\nCalled a REJECTOR CIRCUIT (filter circuit).",
+      "hint": "Opposite to series resonance! Series has minimum impedance; parallel has maximum impedance."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Quality Factor (Q-Factor) of a series LCR resonant circuit?",
+      "a": "Q = ω_r L / R = 1 / (ω_r C R) = (1 / R) √(L / C) = f_r / Δf, where Δf is bandwidth (f₂ - f₁).",
+      "hint": "Dimensionless pure number. Higher Q-factor gives sharper, more selective resonance and smaller bandwidth."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "True Power, Apparent Power, and Power Factor in an AC circuit?",
+      "a": "True Power: P = e_rms · I_rms · cos ϕ (in Watts W).\nApparent (Virtual) Power: P_app = e_rms · I_rms (in Volt-Amperes VA).\nPower Factor: cos ϕ = True Power / Apparent Power = R / Z.",
+      "hint": "For pure R: cos ϕ = 1 (P = e_rms I_rms). For pure L or pure C: ϕ = 90° ⇒ cos ϕ = 0 (P = 0, zero power loss!)."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "What is Wattless Current (Idle Current) in an AC circuit?",
+      "a": "The component of alternating current that consumes ZERO average electric power: I_wattless = I_rms · sin ϕ.\nOccurs when phase difference is ϕ = 90° (in a pure inductor or pure capacitor).",
+      "hint": "The current flows back and forth exchanging energy with the field without dissipating heat."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Why is a Choke Coil preferred over a Rheostat for reducing AC current in tube lights?",
+      "a": "A Choke Coil has high self-inductance L and negligible resistance R. It reduces AC current by offering high reactance (X_L = ωL) with nearly ZERO power dissipation (cos ϕ ≈ 0, P ≈ 0).\nA rheostat dissipates valuable energy as waste heat (I²R loss).",
+      "hint": "Choke coil controls AC current economically without wasteful power loss."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "LC Oscillations: Differential equation, frequency, and energy transformation?",
+      "a": "Differential equation: d²q / dt² + [ 1 / (L C) ] q = 0.\nOscillation frequency: f = 1 / [ 2π √(L C) ].\nTotal Energy: E = q² / (2 C) + (1/2) L i² = constant.",
+      "hint": "Energy continuously oscillates between electric energy in the capacitor and magnetic energy in the inductor."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "In a series LCR circuit, V_R = 80 V, V_L = 100 V, V_C = 40 V. What is the total applied voltage V?",
+      "a": "V = √[ V_R² + (V_L - V_C)² ] = √[ 80² + (100 - 40)² ] = √[ 6400 + 3600 ] = √10000 = 100 V.\nNotice: Total voltage is 100 V, NOT 80 + 100 + 40 = 220 V!",
+      "hint": "Top MHT-CET trap! AC voltages are phasors and must be added vectorially, NEVER algebraically."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Phasor Diagram: Representation of AC voltage and current?",
+      "a": "A phasor is a vector rotating counter-clockwise with angular velocity ω about the origin. Its length represents peak value (e₀ or i₀), and its vertical projection represents instantaneous value.",
+      "hint": "Enables visual geometric addition of alternating quantities of same frequency."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "What is the frequency of AC mains in India and how many times per second does current reverse?",
+      "a": "Frequency: f = 50 Hz (50 cycles per second).\nCurrent reverses direction TWICE per cycle, so it changes direction 100 times per second.",
+      "hint": "A 50 Hz electric bulb reaches maximum brightness 100 times per second and goes dark 100 times per second!"
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Admittance Y and Susceptance S in AC circuits?",
+      "a": "Admittance: Y = 1 / Z (reciprocal of Impedance). SI unit: Siemens (S) or mho.\nConductance: G = R / Z².\nSusceptance: S = X / Z².",
+      "hint": "Admittance measures how easily AC flows through the circuit."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Half-Power Frequencies in a series LCR resonant circuit?",
+      "a": "Frequencies f₁ and f₂ at which power consumed drops to half its maximum value (P = P_max / 2) and current drops to I_max / √2 ≈ 0.707 I_max.\nBandwidth: Δf = f₂ - f₁ = R / (2π L).",
+      "hint": "At half-power frequencies, net reactance equals resistance: |X_L - X_C| = R."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "What happens to the brightness of a bulb connected in series with an inductor across an AC source when an iron core is inserted?",
+      "a": "The bulb becomes DIMMER (brightness decreases)!\nInserting an iron core increases inductance L (L ∝ μ_r), which increases inductive reactance X_L = ωL, increasing total impedance Z and decreasing current I.",
+      "hint": "If connected to a DC source instead, inserting the iron core has zero effect on steady brightness."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "What happens to the brightness of a bulb connected in series with a capacitor across an AC source when frequency f is increased?",
+      "a": "The bulb glows BRIGHTER!\nAs frequency f increases, capacitive reactance X_C = 1/(2π f C) decreases, reducing total impedance Z and increasing current I.",
+      "hint": "Higher frequency enables easier conduction through capacitors."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Can the voltage across L or C exceed the total applied voltage in a series LCR circuit?",
+      "a": "YES, absolutely! At or near resonance, V_L = I X_L = Q · V_applied, which can be many times greater than the supply voltage if Q-factor is high.",
+      "hint": "This voltage magnification phenomenon is called Resonance Voltage Amplification."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Form factor and Peak factor for a sinusoidal alternating wave?",
+      "a": "Form Factor = RMS value / Average value = (i₀ / √2) / (2 i₀ / π) = π / (2√2) ≈ 1.11.\nPeak Factor = Peak value / RMS value = i₀ / (i₀ / √2) = √2 ≈ 1.414.",
+      "hint": "Form factor 1.11 is used in designing transformer coil winding ratios."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "If an AC circuit contains an inductor and a capacitor with X_L = 20 Ω and X_C = 20 Ω with R = 0, what is the impedance?",
+      "a": "Z = |X_L - X_C| = |20 - 20| = 0 Ω (pure short circuit at resonance!).\nCurrent would theoretically be infinite if driven by an ideal source.",
+      "hint": "Series LC combination behaves as a pure short circuit at resonance frequency."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: An alternating voltage e = 200 sin(100π t + π/3) V is applied. What is its frequency and RMS voltage?",
+      "a": "Peak voltage: e₀ = 200 V ⇒ e_rms = 200 / √2 = 100 √2 ≈ 141.4 V.\nAngular frequency: ω = 100π rad/s ⇒ Frequency f = ω / 2π = 100π / 2π = 50 Hz.",
+      "hint": "Do not write 200 V as the RMS voltage; 200 is the peak value!"
+    }
+  ]
+}

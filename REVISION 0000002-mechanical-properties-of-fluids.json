@@ -1,0 +1,183 @@
+{
+  "title": "Mechanical Properties of Fluids",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "Hydrostatic pressure at depth h in a liquid of density ρ?",
+      "a": "Total Pressure: P = P₀ + ρ g h, where P₀ is atmospheric pressure.\nGauge Pressure: P_gauge = P - P₀ = ρ g h.",
+      "hint": "Pressure is isotropic (same in all directions at a given depth) and independent of the cross-sectional shape of the container."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "State Pascal's Law and its primary hydraulic application formula.",
+      "a": "Pressure applied to an enclosed fluid is transmitted undiminished to every portion of fluid and walls of vessel.\nHydraulic lift formula: F₁ / A₁ = F₂ / A₂ ⇒ F₂ = F₁ · (A₂ / A₁).",
+      "hint": "Force is multiplied by the ratio of piston areas A₂/A₁."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "What is Surface Tension (T) and Surface Energy?",
+      "a": "Surface Tension: Tangential force per unit length acting perpendicular to an imaginary line on the liquid surface (T = F / L). SI unit: N/m or J/m², dimensions: [M¹ L⁰ T⁻²].\nSurface Energy: Potential energy per unit area of surface film (E = T · ΔA).",
+      "hint": "Work done in stretching a liquid surface by area ΔA is W = T · ΔA."
+    },
+    {
+      "id": "c4",
+      "tag": "imp",
+      "q": "Work done in blowing a liquid drop vs a soap bubble of radius r?",
+      "a": "Liquid drop (1 free surface): W = 4 π r² T\nSoap bubble (2 free surfaces): W = 2 × (4 π r² T) = 8 π r² T.",
+      "hint": "Major student trap: Soap bubble has BOTH inside and outside air surfaces, so multiply area by 2!"
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "A big drop of radius R breaks into n identical droplets: Work done and temperature change?",
+      "a": "Radius of small droplet: r = R / n^(1/3)\nIncrease in surface area: ΔA = 4 π R² (n^(1/3) - 1)\nWork done / energy absorbed: W = 4 π R² T (n^(1/3) - 1).\nTemperature DECREASES (liquid cools).",
+      "hint": "Surface area increases, so energy is absorbed from internal heat, causing cooling!"
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "What is Angle of Contact θ? Give values for water-glass and mercury-glass.",
+      "a": "Angle between tangent to liquid surface and solid surface inside the liquid.\nPure water & clean glass: θ ≈ 0° (concave meniscus, wets glass).\nMercury & glass: θ ≈ 140° (obtuse, convex meniscus, does not wet glass).",
+      "hint": "If θ < 90° (acute), liquid rises in capillary; if θ > 90° (obtuse), liquid is depressed."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Excess pressure (Laplace's formula) for liquid drop, soap bubble, and air bubble in liquid?",
+      "a": "Liquid drop in air: ΔP = 2 T / r\nAir bubble in liquid: ΔP = 2 T / r\nSoap bubble in air: ΔP = 4 T / r (due to 2 free surfaces).",
+      "hint": "Smaller bubbles have larger excess pressure (ΔP ∝ 1/r). Air flows from smaller bubble to larger bubble!"
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Capillary rise formula (Ascent formula / Jurin's Law)?",
+      "a": "h = (2 T cos θ) / (r ρ g), where r is capillary tube radius, ρ is liquid density, and θ is angle of contact.",
+      "hint": "Notice h ∝ 1/r (thinner bore produces higher rise)."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "What happens if a capillary tube has insufficient length L < h?",
+      "a": "The liquid does NOT overflow. It reaches the top rim and increases its radius of curvature R' such that h · r = L · R' (or R' cos θ' = r).",
+      "hint": "Liquid adjusts its meniscus curvature to maintain equilibrium without overflowing!"
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Effect of temperature and impurities on Surface Tension?",
+      "a": "Temperature: Surface tension DECREASES with rise in temperature (becomes zero at critical temperature).\nImpurities: Highly soluble impurities (NaCl) INCREASE surface tension; sparingly soluble (phenol/soap/detergent) DECREASE it.",
+      "hint": "Detergents lower surface tension, allowing water to penetrate cloth fibers easily."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Newton's formula for Viscous Force and coefficient of viscosity η?",
+      "a": "F = - η A (dv / dx), where A is contact area and dv/dx is velocity gradient.\nSI unit of η: N·s/m² (Pa·s) or kg/(m·s). CGS unit: poise (1 Pa·s = 10 poise). Dimensions: [M¹ L⁻¹ T⁻¹].",
+      "hint": "Negative sign indicates viscous force opposes relative motion between fluid layers."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "State Stokes' Law for viscous drag on a spherical body.",
+      "a": "F_v = 6 π η r v, where r is sphere radius, v is velocity, and η is viscosity of medium.",
+      "hint": "Valid strictly for laminar flow past small, smooth, spherical bodies in infinite medium."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Formula for Terminal Velocity v_t of a sphere falling through a viscous fluid?",
+      "a": "v_t = (2/9) · [ r² (ρ - σ) g ] / η, where ρ is sphere density and σ is fluid density.",
+      "hint": "Key MHT-CET proportionality: v_t ∝ r² (terminal velocity is proportional to the square of radius!)."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "If 8 identical raindrops falling with terminal velocity v coalesce into a single drop, what is the new terminal velocity?",
+      "a": "New velocity v' = 4 v.\nSince volume is conserved: (4/3)π R³ = 8 × (4/3)π r³ ⇒ R = 2 r. Terminal velocity v_t ∝ r² ⇒ v' = (2)² v = 4 v.",
+      "hint": "General formula for n coalescing droplets: v' = n^(2/3) · v."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Reynolds Number R_e: Formula and flow classification?",
+      "a": "R_e = ρ v d / η, where d is pipe diameter.\n1. R_e < 1000: Streamline (laminar) flow.\n2. 1000 < R_e < 2000: Unstable flow.\n3. R_e > 2000: Turbulent flow.",
+      "hint": "Dimensionless pure number [M⁰ L⁰ T⁰] characterizing fluid flow turbulence."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "State the Equation of Continuity for steady streamline flow.",
+      "a": "A₁ v₁ = A₂ v₂ = constant (or A · v = volume flow rate dV/dt).\nMass flow rate: ρ A v = constant.",
+      "hint": "Based on Conservation of MASS for an incompressible, non-viscous fluid."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "State Bernoulli's Principle and its equation.",
+      "a": "P + (1/2) ρ v² + ρ g h = constant.\nPressure Energy per unit volume + Kinetic Energy per unit volume + Potential Energy per unit volume = constant.",
+      "hint": "Based on the Law of Conservation of ENERGY for ideal fluid streamline flow."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Torricelli's Law: Velocity of efflux from an orifice at depth h below open liquid surface?",
+      "a": "v = √(2 g h).",
+      "hint": "Identical to the velocity acquired by a freely falling body through height h!"
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Aerodynamic lift on an airplane wing and spinning ball (Magnus Effect): Bernoulli explanation?",
+      "a": "Air moves faster over upper curved wing (v_top > v_bottom). By Bernoulli's equation, pressure above is lower (P_top < P_bottom), producing upward dynamic lift.",
+      "hint": "High speed corresponds to low pressure; low speed corresponds to high pressure."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Venturimeter formula for volume rate of flow Q?",
+      "a": "Q = A₁ A₂ √[ (2 h ρ_m g) / [ ρ (A₁² - A₂²) ] ], where h is manometer height difference.",
+      "hint": "Direct application of Bernoulli's theorem to measure fluid flow speed in pipes."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Effect of temperature on viscosity of liquids vs gases?",
+      "a": "Liquids: Viscosity DECREASES with temperature (molecules move apart, cohesive forces weaken).\nGases: Viscosity INCREASES with temperature (molecular diffusion and collisions increase: η ∝ √T).",
+      "hint": "High-yield conceptual trap! Liquids get thinner, while gases get more viscous on heating."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Critical velocity v_c of fluid flow in a tube of diameter d?",
+      "a": "v_c = (R_e · η) / (ρ · d).",
+      "hint": "Maximum velocity up to which flow remains streamline."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Two soap bubbles of radii r₁ and r₂ touch. What is the radius of common interface r?",
+      "a": "r = (r₁ · r₂) / (r₁ - r₂)  (assuming r₁ > r₂).",
+      "hint": "ΔP = ΔP₂ - ΔP₁ ⇒ 4T/r = 4T/r₂ - 4T/r₁ ⇒ 1/r = 1/r₂ - 1/r₁."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Pressure, Velocity, and Height heads in Bernoulli's equation?",
+      "a": "Divide Bernoulli equation by ρ g:\nP / (ρ g) [Pressure Head] + v² / (2 g) [Velocity Head] + h [Gravitational Head] = constant.",
+      "hint": "Each term has dimensions of length [L¹] and is expressed in metres of fluid column."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Can gauge pressure ever be negative?",
+      "a": "YES. Gauge pressure P - P₀ is negative whenever absolute pressure P is less than atmospheric pressure P₀ (vacuum/suction).",
+      "hint": "Absolute pressure P can never be negative, but gauge pressure certainly can!"
+    }
+  ]
+}

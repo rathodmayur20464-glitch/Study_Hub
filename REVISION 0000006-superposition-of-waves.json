@@ -1,0 +1,183 @@
+{
+  "title": "Superposition of Waves",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is the Principle of Superposition of Waves?",
+      "a": "When two or more wave pulses arrive simultaneously at a point in a medium, each wave produces its own displacement independently, and the resultant displacement is the vector sum of individual displacements: y = y₁ + y₂.",
+      "hint": "Applies strictly to linear media where wave speed is independent of amplitude."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Phase change on reflection of transverse/longitudinal waves at a Rigid vs Free boundary?",
+      "a": "Rigid (denser) boundary: Phase change of π radians (180°), path change of λ/2. Crest reflects as trough (compression reflects as compression).\nFree (rarer) boundary: Phase change of ZERO radians (0°). Crest reflects as crest.",
+      "hint": "Rigid boundary exerts an equal and opposite reaction force, inverting the phase by 180°."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Equation of a Stationary (Standing) Wave on a stretched string?",
+      "a": "y = [ 2 A cos(k x) ] · sin(ω t) = R sin(ω t), where resultant amplitude is R = 2 A cos(k x) = 2 A cos(2π x / λ).",
+      "hint": "Formed by superposition of two identical waves traveling in opposite directions. There is zero net transfer of energy!"
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Nodes vs Antinodes: Definitions and spacing?",
+      "a": "Nodes (N): Points where amplitude is MINIMUM (zero), strain is maximum. Positions: x = (2p + 1) λ / 4.\nAntinodes (A): Points where amplitude is MAXIMUM (2A), strain is zero. Positions: x = p λ / 2.\nDistance between consecutive N-N or A-A: λ / 2.\nDistance between consecutive N-A: λ / 4.",
+      "hint": "All particles between two consecutive nodes vibrate in the same phase with varying amplitudes."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Velocity of a transverse wave along a stretched string of tension T and linear density m?",
+      "a": "v = √(T / m) = √[ T / (π r² ρ) ], where m = M/L = π r² ρ is mass per unit length.",
+      "hint": "Increasing tension increases speed; using thicker/denser wire decreases speed."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Fundamental frequency of a stretched string vibrating between two fixed ends?",
+      "a": "n = v / (2 L) = (1 / 2L) √(T / m).",
+      "hint": "String vibrates in one loop (L = λ/2 ⇒ λ = 2L) with nodes at both ends and an antinode at center."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Harmonics and Overtones of a vibrating string fixed at both ends?",
+      "a": "ALL harmonics are present in integer ratios: n₁ : n₂ : n₃ : ... = 1 : 2 : 3 : 4 : ...\nFundamental / 1st Harmonic: n\n1st Overtone / 2nd Harmonic: n₁ = 2 n\n2nd Overtone / 3rd Harmonic: n₂ = 3 n\np-th Overtone: n_p = (p + 1) n.",
+      "hint": "p-th overtone has (p + 1) loops, (p + 2) nodes, and (p + 1) antinodes."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "State the Three Laws of Vibrating Strings.",
+      "a": "1. Law of Length: n ∝ 1/L (n L = const, if T and m are constant).\n2. Law of Tension: n ∝ √T (n / √T = const, if L and m are constant).\n3. Law of Linear Density: n ∝ 1/√m (n √m = const, if L and T are constant).",
+      "hint": "Verified experimentally using a Sonometer."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Fundamental frequency of an air column in a Pipe CLOSED at one end?",
+      "a": "n_c = v / (4 L), where v is speed of sound in air and L is length of pipe.",
+      "hint": "Closed end is always a NODE; open end is always an ANTINODE (L = λ/4 ⇒ λ = 4L)."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Harmonics in a Pipe CLOSED at one end: Which are present?",
+      "a": "ONLY ODD harmonics are present! Ratio: n : n₁ : n₂ : ... = 1 : 3 : 5 : 7 : ...\nFundamental / 1st harmonic: n_c = v / (4L)\n1st overtone / 3rd harmonic: n₁ = 3 n_c\n2nd overtone / 5th harmonic: n₂ = 5 n_c\np-th overtone = (2p + 1)-th harmonic: n_p = (2p + 1) n_c.",
+      "hint": "Even harmonics are completely absent in a pipe closed at one end!"
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Fundamental frequency of an air column in a Pipe OPEN at both ends?",
+      "a": "n_o = v / (2 L).",
+      "hint": "Both ends are ANTINODES (L = λ/2 ⇒ λ = 2L). Note: n_o = 2 × n_c for identical lengths!"
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Harmonics in a Pipe OPEN at both ends: Which are present?",
+      "a": "ALL harmonics (both even and odd) are present! Ratio: 1 : 2 : 3 : 4 : ...\nFundamental / 1st harmonic: n_o = v / (2L)\n1st overtone / 2nd harmonic: n₁ = 2 n_o\n2nd overtone / 3rd harmonic: n₂ = 3 n_o\np-th overtone = (p + 1)-th harmonic: n_p = (p + 1) n_o.",
+      "hint": "Sound from an open pipe is richer and more musical than a closed pipe because all harmonics are present."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "What is End Correction (e) for open and closed pipes?",
+      "a": "Antinode at open end forms slightly outside the boundary at distance e = 0.3 d, where d is internal diameter.\nPipe closed at one end: L' = L + e = L + 0.3 d\nPipe open at both ends: L' = L + 2 e = L + 0.6 d.",
+      "hint": "Open pipe has TWO open ends, so end correction is 2e = 0.6d!"
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Resonance Tube Experiment: Formula for End Correction and Speed of Sound v?",
+      "a": "For first and second resonance lengths l₁ and l₂:\nEnd correction: e = (l₂ - 3 l₁) / 2\nSpeed of sound: v = 2 n (l₂ - l₁).",
+      "hint": "Taking difference (l₂ - l₁) eliminates the unknown end correction e completely!"
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "What is the phenomenon of Beats?",
+      "a": "Periodic variation in intensity of sound (waxing and waning) produced by the superposition of two sound waves of slightly different frequencies traveling along the same path.\nBeat frequency: n_b = |n₁ - n₂|.",
+      "hint": "Period of beats: T_b = 1 / |n₁ - n₂|. Human ear can distinguish beats only if n_b ≤ 10 Hz (persistence of hearing = 0.1 s)."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Tuning Fork frequency alteration: Loading with wax vs Filing prongs?",
+      "a": "Loading with wax: Increases mass/inertia ⇒ Frequency DECREASES (n ↓).\nFiling the prongs: Decreases mass ⇒ Frequency INCREASES (n ↑).",
+      "hint": "Board & CET favorite! Use n_new = n_known ± n_b to determine unknown frequency before and after wax loading."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Relation between frequency of a stretched wire and its diameter d and density ρ?",
+      "a": "n = (1 / (L d)) √[ T / (π ρ) ] ⇒ n ∝ 1 / (L · d · √ρ).",
+      "hint": "Doubling the diameter halves the fundamental frequency if tension and length remain constant."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Stationary waves vs Progressive waves: Energy transfer and particle amplitude?",
+      "a": "Progressive: Waves travel forward, transfer energy and momentum, all particles vibrate with SAME amplitude.\nStationary: Waves do not advance, ZERO net energy transfer, particles vibrate with DIFFERENT amplitudes (0 at nodes, 2A at antinodes).",
+      "hint": "In stationary waves, energy is trapped between nodes."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Intensity I of a sound wave: Dependencies on amplitude A and frequency n?",
+      "a": "I = 2 π² ρ v n² A² ⇒ I ∝ n² and I ∝ A².\nLoudness in decibels: β = 10 log₁₀(I / I₀), where reference intensity I₀ = 10⁻¹² W/m² (threshold of hearing).",
+      "hint": "Doubling amplitude quadruples intensity (I' = 4 I)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "If an open pipe of length L is dipped vertically in water up to half its length, what is the new fundamental frequency?",
+      "a": "New frequency n' = n (the original fundamental frequency)!\nOriginally open pipe: n = v / (2L). Dipping halfway forms a closed pipe of length L/2: n' = v / [ 4(L/2) ] = v / (2L) = n.",
+      "hint": "Clever MHT-CET trap! Halving length and closing one end cancel each other out."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "General Doppler Effect formula for sound?",
+      "a": "Apparent frequency: n' = n · [ (v ± v_L) / (v ∓ v_S) ], where v is speed of sound, v_L is listener speed, v_S is source speed.",
+      "hint": "Upper signs for approach (frequency increases); lower signs for recede (frequency decreases)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Does Doppler Effect occur when source and observer move in same direction with same speed?",
+      "a": "NO. If relative velocity between source and observer is zero (v_L = v_S in same direction), apparent frequency equals actual frequency (n' = n).",
+      "hint": "Doppler shift requires NON-ZERO relative motion along the line joining source and listener."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Musical Sound Characteristics: Pitch, Loudness, and Quality (Timbre)?",
+      "a": "Pitch: Depends on Frequency (high frequency = sharp/shrill; low frequency = grave/flat).\nLoudness: Depends on Intensity and Amplitude² (subjective sensation on ear).\nQuality (Timbre): Depends on number, order, and relative amplitudes of overtones (harmonics).",
+      "hint": "Quality allows distinguishing between notes of same pitch and loudness played on different instruments (e.g. violin vs flute)."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Sonometer wire: Frequency change when tension T is increased by x% (small change)?",
+      "a": "Since n ∝ √T: Δn / n ≈ (1/2) (ΔT / T).\nIf tension increases by 2%, frequency increases by ≈ 1%.",
+      "hint": "Fractional change in frequency is half the fractional change in tension."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: A wave is represented by y = 0.05 sin(100π t - 2π x). What is the wave speed?",
+      "a": "v = ω / k = (100π) / (2π) = 50 m/s in positive x-direction.\nFrequency n = ω / 2π = 50 Hz; wavelength λ = 2π / k = 1 m.",
+      "hint": "Never confuse wave speed v = ω/k with particle maximum velocity v_p,max = ω A = 100π × 0.05 = 5π m/s!"
+    }
+  ]
+}

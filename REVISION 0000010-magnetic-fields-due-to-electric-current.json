@@ -1,0 +1,183 @@
+{
+  "title": "Magnetic Fields due to Electric Current",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "formula",
+      "q": "State Biot-Savart Law in vector and scalar forms.",
+      "a": "Vector form: d B = (μ₀ / 4π) · [ I (d l × r) / r³ ]\nScalar form: dB = (μ₀ / 4π) · (I dl sin θ / r²), where θ is angle between current element I dl and position vector r.",
+      "hint": "Constant: μ₀ / 4π = 10⁻⁷ T·m/A (or Wb/A·m). Permeability of free space: μ₀ = 4π × 10⁻⁷ T·m/A."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Magnetic field B due to an infinitely long straight wire carrying current I?",
+      "a": "B = μ₀ I / (2 π r), where r is perpendicular distance from the wire.",
+      "hint": "For a semi-infinite wire (point opposite to one end): B = μ₀ I / (4 π r)."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Magnetic field B at the center of a circular coil of N turns and radius R?",
+      "a": "B = μ₀ N I / (2 R).\nFor a circular arc subtending angle θ (in radians) at center: B = (μ₀ I / 4π R) · θ.",
+      "hint": "For a semi-circular loop (θ = π): B = μ₀ I / (4 R); for a quadrant (θ = π/2): B = μ₀ I / (8 R)."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Magnetic field B along the axis of a circular current loop at distance x from center?",
+      "a": "B_axis = [ μ₀ N I R² ] / [ 2 (R² + x²)^(3/2) ].\nAt center (x = 0): B_center = μ₀ N I / (2 R).\nAt large distance (x ≫ R): B_axis ≈ [ μ₀ (2 M) ] / [ 4π x³ ], where M = N I A = N I π R² is magnetic dipole moment.",
+      "hint": "Ratio of field at center to field at distance x = R: B_center / B_axis = (1 + 1)^(3/2) = 2^(3/2) = 2√2 ≈ 2.83."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "At what axial distance x from center of circular coil is B equal to B_center / 8?",
+      "a": "x = R √3.\nB_axis / B_center = R³ / (R² + x²)^(3/2) = 1/8 = (1/2)³ ⇒ (R² + x²)^(1/2) = 2 R ⇒ R² + x² = 4 R² ⇒ x = R √3.",
+      "hint": "Top MHT-CET numerical! Memorize: at x = R√3, field drops to 1/8 of central value."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "State Ampere's Circuital Law and its mathematical equation.",
+      "a": "The line integral of magnetic field B around any closed loop (Amperian loop) equals μ₀ times the total net electric current enclosed by the loop: ∮ B · dl = μ₀ · I_enclosed.",
+      "hint": "Magnetic analogue of Gauss's Law in electrostatics. Valid for steady currents."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Magnetic field B inside an ideal long Solenoid and Toroid?",
+      "a": "Solenoid (inside): B = μ₀ n I = μ₀ (N / L) I.\nSolenoid (at extreme ends): B_end = (1/2) μ₀ n I.\nToroid (inside core of mean radius r): B = μ₀ n I = μ₀ [ N / (2π r) ] I.",
+      "hint": "n = N/L is turns per unit length. Magnetic field outside an ideal solenoid or toroid is ZERO."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Lorentz Force on a charged particle q moving with velocity v in electric and magnetic fields?",
+      "a": "Total Lorentz Force: F = q (E + v × B).\nMagnetic force: F_m = q (v × B) ⇒ F_m = q v B sin θ.",
+      "hint": "Magnetic force is ALWAYS perpendicular to velocity v, so work done by magnetic force on a charge is strictly ZERO (speed and KE remain constant)."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Motion of a charged particle entering perpendicular (θ = 90°) to a uniform magnetic field B?",
+      "a": "Path: Uniform CIRCULAR motion.\nRadius: r = m v / (q B) = p / (q B) = √(2 m K) / (q B).\nTime Period: T = 2 π m / (q B) (completely independent of speed v and radius r!).\nCyclotron frequency: f = q B / (2 π m).",
+      "hint": "T and f do NOT depend on velocity or orbit radius! This is the fundamental resonance principle of the Cyclotron."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Helical path of a charged particle entering magnetic field at an arbitrary angle θ (0 < θ < 90°)?",
+      "a": "Radius of helix: r = m v_⊥ / (q B) = (m v sin θ) / (q B).\nPitch of helix (linear distance moved per revolution along field): p = v_∥ · T = (v cos θ) · [ 2 π m / (q B) ].",
+      "hint": "Parallel velocity component v_∥ = v cos θ causes linear translation; perpendicular component v_⊥ = v sin θ causes circular motion."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Velocity Selector: Condition for an undeflected charged particle?",
+      "a": "Electric and magnetic fields are crossed (perpendicular to each other and to velocity v).\nCondition: q E = q v B ⇒ v = E / B.",
+      "hint": "Only particles with the exact speed v = E/B pass straight without deflection."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Magnetic force on a current-carrying straight conductor of length L in uniform field B?",
+      "a": "F = I (L × B) ⇒ F = I L B sin θ, where θ is angle between current direction L and field B.",
+      "hint": "Direction of force is given by Fleming's Left-Hand Rule or Right-Hand Palm Rule. Force is zero if wire is parallel to field (θ = 0°)."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Force per unit length between two infinitely long parallel current-carrying wires separated by distance d?",
+      "a": "F / L = (μ₀ I₁ I₂) / (2 π d).\nLike currents (same direction): ATTRACT each other.\nUnlike currents (opposite directions): REPEL each other.",
+      "hint": "Opposite to electrostatic charges! (Like charges repel, but like currents attract!)."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "SI definition of 1 Ampere based on force between parallel wires?",
+      "a": "1 Ampere is that constant current which, when maintained in each of two infinitely long, parallel, straight conductors of negligible cross-section placed 1 metre apart in vacuum, produces between them a force of 2 × 10⁻⁷ N per metre of length.",
+      "hint": "Derived from F/L = μ₀ I₁ I₂ / (2π d) = (4π × 10⁻⁷ × 1 × 1) / (2π × 1) = 2 × 10⁻⁷ N/m."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Torque on a planar current loop of area A and N turns in a uniform magnetic field B?",
+      "a": "τ = M × B ⇒ τ = M B sin θ = N I A B sin θ, where M = N I A is magnetic dipole moment and θ is angle between normal to loop and field B.",
+      "hint": "Maximum torque at θ = 90° (plane of coil parallel to field B); zero torque at θ = 0° (plane of coil perpendicular to field B)."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Moving Coil Galvanometer (MCG): Working principle and equilibrium condition?",
+      "a": "Principle: A current-carrying coil placed in a magnetic field experiences a deflecting torque.\nDeflecting Torque = Restoring Torque: N I A B = c θ ⇒ I = (c / N A B) · θ ⇒ I ∝ θ.",
+      "hint": "c is restoring torque per unit twist of phosphor-bronze suspension wire; θ is angular deflection."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Why is a RADIAL magnetic field used in a Moving Coil Galvanometer and how is it produced?",
+      "a": "Purpose: Keeps plane of coil always PARALLEL to magnetic field lines (θ = 90°, sin θ = 1) in all positions, making deflection θ directly linear with current I (I ∝ θ).\nProduced by: (1) Cylindrical concave magnetic pole pieces, and (2) a soft iron cylindrical core placed between the poles.",
+      "hint": "Essential 2-mark HSC Board question! Eliminates non-linear sin θ dependence, giving an evenly spaced linear scale."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Current Sensitivity and Voltage Sensitivity of a Moving Coil Galvanometer?",
+      "a": "Current Sensitivity: S_i = θ / I = N A B / c (SI unit: rad/A or div/A).\nVoltage Sensitivity: S_v = θ / V = θ / (I R) = S_i / R = N A B / (c R) (SI unit: rad/V or div/V).",
+      "hint": "Doubling N doubles Current Sensitivity S_i, but may NOT change Voltage Sensitivity S_v because coil resistance R also doubles!"
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Magnetic Dipole Moment of an electron revolving in an orbit of radius r with speed v?",
+      "a": "M = (1/2) e v r = e L / (2 m_e), where L = m_e v r is orbital angular momentum.",
+      "hint": "Orbital current I = e / T = e v / (2π r). Area A = π r² ⇒ M = I A = (1/2) e v r."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "What is the Gyromagnetic Ratio and Bohr Magneton?",
+      "a": "Gyromagnetic Ratio: Ratio of magnetic dipole moment to angular momentum: M / L = e / (2 m_e) ≈ 8.8 × 10¹⁰ C/kg (constant for all electrons!).\nBohr Magneton (μ_B): Minimum magnetic moment of electron in 1st Bohr orbit (L = h / 2π):\nμ_B = e h / (4π m_e) ≈ 9.274 × 10⁻²⁴ A·m² (or J/T).",
+      "hint": "Fundamental natural quantum of atomic magnetic dipole moment."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Work done in rotating a magnetic dipole M from angle θ₁ to θ₂ in a magnetic field B?",
+      "a": "W = ∫ τ dθ = M B (cos θ₁ - cos θ₂).\nFrom stable equilibrium (θ₁ = 0°) to θ₂ = 180°: W = M B [ 1 - (-1) ] = 2 M B.",
+      "hint": "Potential energy of dipole is U = - M · B = - M B cos θ."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Magnetic field at a distance r inside a solid cylindrical conductor of radius R carrying uniform current I?",
+      "a": "Inside (r < R): B = (μ₀ I r) / (2 π R²) ⇒ B ∝ r (linearly increasing from 0 at axis to maximum at surface).\nOutside (r ≥ R): B = (μ₀ I) / (2 π r) ⇒ B ∝ 1/r.",
+      "hint": "B is zero at the central axis (r = 0) and reaches its maximum at the outer surface (r = R)."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "A circular coil of radius R carries current I. If it is unwound and rewound into a coil of 2 turns of radius R/2 carrying same current, how does central field change?",
+      "a": "Central field becomes 4 TIMES the original field (B' = 4 B)!\nB_original = μ₀ I / (2 R). New turns N' = 2, radius R' = R/2 ⇒ B' = μ₀ (2) I / [ 2 (R/2) ] = 4 [ μ₀ I / (2 R) ] = 4 B.",
+      "hint": "In general, for n turns of radius R/n from the same wire: B' = n² · B."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Helmholtz Coils: Arrangement and purpose?",
+      "a": "Two identical, coaxial circular coils separated by a distance exactly equal to their radius (d = R), carrying current in the same direction.\nPurpose: Produces an exceptionally UNIFORM magnetic field over a wide region midway between the two coils.",
+      "hint": "Resultant magnetic field at midpoint: B = 8 μ₀ N I / (5^(3/2) R) ≈ 0.716 μ₀ N I / R."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: A stationary electric charge is placed in a strong magnetic field. What magnetic force does it experience?",
+      "a": "ZERO force!\nMagnetic force is F = q (v × B). Since velocity v = 0, F_m = 0 regardless of how strong the magnetic field is.",
+      "hint": "A magnetic field exerts force ONLY on MOVING charges, never on stationary charges!"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Dual Nature of Radiation and Matter",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is the Photoelectric Effect and who discovered it?",
+      "a": "The phenomenon of instantaneous emission of electrons (photoelectrons) from a metallic surface when exposed to electromagnetic radiation of sufficiently high frequency (above threshold frequency ν₀).\nDiscovered by Heinrich Hertz (1887); investigated in detail by Hallwachs, Lenard; explained by Albert Einstein (1905).",
+      "hint": "Electrons are emitted only when light frequency ν ≥ ν₀."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Define Threshold Frequency ν₀, Threshold Wavelength λ₀, and Work Function Φ₀.",
+      "a": "Threshold Frequency ν₀: Minimum frequency of incident light required to liberate photoelectrons.\nThreshold Wavelength λ₀: Maximum wavelength of incident light for emission (λ₀ = c / ν₀).\nWork Function Φ₀: Minimum energy required to knock an electron out of metal surface: Φ₀ = h ν₀ = h c / λ₀ (SI unit: Joule or eV).",
+      "hint": "Cesium (Cs) has the lowest work function (~2.14 eV) among metals, making it highly sensitive to visible light."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Define Stopping Potential (Cut-off Potential) V₀.",
+      "a": "The minimum retarding (negative) potential applied to the collector plate with respect to the emitter at which the photoelectric current drops to EXACTLY ZERO: e V₀ = K_max = (1/2) m v_max².",
+      "hint": "Stopping potential measures the maximum kinetic energy of emitted photoelectrons directly in electron-volts (eV)."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "State Einstein's Photoelectric Equation in its standard forms.",
+      "a": "h ν = Φ₀ + K_max = h ν₀ + (1/2) m v_max² = h ν₀ + e V₀.\nIn terms of wavelength: h c / λ = h c / λ₀ + e V₀.",
+      "hint": "Based on Planck's quantum theory: one single photon is absorbed by one single electron in an all-or-nothing interaction."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Four Fundamental Laws of Photoelectric Emission?",
+      "a": "1. Rate of photoelectron emission (saturation current) is directly proportional to INTENSITY of incident light.\n2. Maximum kinetic energy K_max (and stopping potential V₀) depends linearly on FREQUENCY ν, independent of intensity.\n3. Below threshold frequency ν₀, NO emission occurs, no matter how intense the light is.\n4. Emission is INSTANTANEOUS (time delay < 10⁻⁹ s).",
+      "hint": "Wave theory failed because it predicted emission should depend on intensity and predicted a significant time delay."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Graph of Stopping Potential V₀ vs Frequency ν of incident light: Slope and Intercepts?",
+      "a": "Equation: V₀ = (h / e) ν - (Φ₀ / e).\nSlope of line = h / e (UNIVERSAL CONSTANT, identical for all metals!).\nx-intercept (frequency axis) = Threshold frequency ν₀.\ny-intercept (potential axis) = - Φ₀ / e.",
+      "hint": "Top MHT-CET favorite! Graph is a straight line whose slope is always h/e regardless of the target metal."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Properties of a Photon: Energy, Momentum, Velocity, and Rest Mass?",
+      "a": "Energy: E = h ν = h c / λ.\nMomentum: p = E / c = h / λ.\nSpeed: c = 3 × 10⁸ m/s in vacuum (independent of frame of reference).\nRest Mass: m₀ = 0 (a photon cannot exist at rest; it always travels at speed c).",
+      "hint": "Photons are electrically neutral and are NOT deflected by electric or magnetic fields."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "What is Radiation Pressure P and Force F exerted by a completely absorbing vs completely reflecting surface?",
+      "a": "Absorbing surface: Force F = P_rad / c = I A / c | Radiation pressure P = I / c.\nReflecting surface: Force F = 2 P_rad / c = 2 I A / c | Radiation pressure P = 2 I / c, where I is intensity of radiation.",
+      "hint": "A completely reflecting mirror experiences TWICE the force and radiation pressure of an absorbing black surface."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "State the de Broglie Hypothesis of Matter Waves.",
+      "a": "Moving particles of matter (electrons, protons, atoms) exhibit wave-like properties under suitable conditions.\nde Broglie Wavelength: λ = h / p = h / (m v), where h is Planck's constant (6.63 × 10⁻³⁴ J·s) and p is linear momentum.",
+      "hint": "Matter waves are NOT electromagnetic; they are probability waves associated with the position of moving particles."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Formula for de Broglie wavelength λ of an electron accelerated through potential difference V?",
+      "a": "λ = h / √(2 m e V) = 1.228 / √V nm = 12.28 / √V Å (Angstroms).",
+      "hint": "Super high-yield 10-second shortcut! For V = 100 Volts: λ = 12.28 / √100 = 12.28 / 10 = 1.228 Å."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "de Broglie wavelength of a gas molecule/neutron of mass m at absolute temperature T?",
+      "a": "Average kinetic energy: K = (3/2) k_B T ⇒ p = √(2 m K) = √(3 m k_B T).\nλ = h / √(3 m k_B T).",
+      "hint": "Shows that thermal neutrons at room temperature have de Broglie wavelength comparable to atomic lattice spacings (~1 Å)."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "de Broglie wavelength of an alpha particle and proton accelerated through same potential V?",
+      "a": "λ = h / √(2 m q V).\nSince m_α = 4 m_p and q_α = 2 q_p: m_α q_α = 8 m_p q_p.\nRatio: λ_p / λ_α = √[ (m_α q_α) / (m_p q_p) ] = √8 = 2 √2 ≈ 2.83.",
+      "hint": "Proton has ~2.83 times larger de Broglie wavelength than alpha particle for same accelerating voltage V."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Davisson and Germer Experiment: Purpose and key observation?",
+      "a": "Purpose: Direct experimental confirmation of de Broglie's matter wave hypothesis for electrons.\nObservation: Fine beam of 54 V electrons scattered by a Nickel crystal showed a sharp diffraction intensity maximum at angle θ = 50°.\nde Broglie wavelength calculated: λ = 1.66 Å, matching Bragg's X-ray diffraction law: λ = 2 d sin ϕ = 1.65 Å.",
+      "hint": "Proved conclusively that electrons possess wave properties that undergo diffraction like X-rays."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "If the kinetic energy of a moving particle is increased by 16 times, how does its de Broglie wavelength change?",
+      "a": "The wavelength becomes ONE-FOURTH (λ' = λ / 4)!\nSince λ = h / √(2 m K) ⇒ λ ∝ 1 / √K. If K becomes 16 K, λ' = λ / √16 = λ / 4.",
+      "hint": "If momentum doubles (p' = 2p), wavelength halves (λ' = λ / 2)."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Number of photons emitted per second by a light source of power P and wavelength λ?",
+      "a": "n = P / E_photon = P / (h ν) = (P · λ) / (h c).\nShortcut: E_photon (in eV) ≈ 12400 / λ (in Å) or 1240 / λ (in nm).",
+      "hint": "Useful shortcut for quick CET photon energy calculations without multiplying 6.63 × 10⁻³⁴ by 3 × 10⁸."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Photoelectric cell: Types and practical applications?",
+      "a": "Types: Photoemissive cell, Photovoltaic cell, Photoconductive cell.\nApplications: Burglar alarms, automated door openers, light meters in photography, sound reproduction in motion pictures, street light automated switches.",
+      "hint": "Converts light energy directly into electrical energy."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "If intensity of incident light on a photocell is doubled while frequency is kept constant, what happens to saturation current and stopping potential?",
+      "a": "Saturation current DOUBLES (saturation current ∝ intensity).\nStopping potential remains COMPLETELY UNCHANGED (stopping potential depends strictly on frequency, NOT on intensity).",
+      "hint": "#1 MHT-CET trap! Doubling intensity increases number of emitted electrons, but not their individual energy."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "If frequency of incident light is doubled (with ν > ν₀), does the maximum kinetic energy also double?",
+      "a": "NO! Maximum kinetic energy MORE THAN DOUBLES!\nSince K_max = h ν - Φ₀: When ν becomes 2ν, K_max' = 2 h ν - Φ₀ = 2 (h ν - Φ₀) + Φ₀ = 2 K_max + Φ₀ > 2 K_max.",
+      "hint": "Classic entrance trap! Because work function Φ₀ is subtracted, K_max increases by more than a factor of 2."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Wavelength λ of a photon vs de Broglie wavelength λ_e of an electron having same kinetic energy E?",
+      "a": "Photon: λ_ph = h c / E.\nElectron: λ_e = h / √(2 m E).\nRatio: λ_ph / λ_e = c √(2 m / E) ⇒ λ_ph ≫ λ_e for non-relativistic energies.",
+      "hint": "A photon always has a vastly longer wavelength than an electron with the same kinetic energy."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Why is wave nature of matter not observable in everyday macroscopic objects (like a cricket ball)?",
+      "a": "Because macroscopic bodies have huge masses m, making their de Broglie wavelength λ = h / (m v) extraordinarily tiny (~10⁻³⁴ m), which is far smaller than any atomic dimensions and completely undetectable.",
+      "hint": "Diffraction effects require obstacle sizes comparable to wavelength λ."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Photocurrent vs Anode Potential graph: Effect of varying intensity at constant frequency?",
+      "a": "Curves for different intensities originate from the SAME stopping potential -V₀ on negative voltage axis, but level off at DIFFERENT saturation currents proportional to intensity.",
+      "hint": "Confirms stopping potential is independent of light intensity."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Photocurrent vs Anode Potential graph: Effect of varying frequency at constant intensity?",
+      "a": "Curves have DIFFERENT stopping potentials (-V₀₁ < -V₀₂ for ν₁ < ν₂), but attain the SAME saturation current.",
+      "hint": "Higher frequency requires a more negative stopping potential to halt electrons."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Relation between threshold wavelength λ₀ and stopping potential V₀ when light of wavelength λ is incident?",
+      "a": "e V₀ = h c (1 / λ - 1 / λ₀) ⇒ V₀ = (h c / e) · [ (λ₀ - λ) / (λ · λ₀) ].",
+      "hint": "For photoemission to occur, incident wavelength λ must be strictly less than threshold wavelength λ₀ (λ ≤ λ₀)."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Effective mass of a photon of frequency ν?",
+      "a": "m = E / c² = h ν / c² = h / (c λ).",
+      "hint": "This is inertial mass in motion; rest mass is strictly zero."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Light of wavelength λ falls on metal of work function Φ₀. If λ is halved, what is the new stopping potential?",
+      "a": "e V₀' = 2 e V₀ + Φ₀ ⇒ V₀' = 2 V₀ + (Φ₀ / e).\nNew stopping potential is MORE than double the original stopping potential!",
+      "hint": "Since h c / (λ/2) = 2 (h c / λ) = 2 (e V₀ + Φ₀) = 2 e V₀ + 2 Φ₀ ⇒ e V₀' = 2 e V₀ + Φ₀."
+    }
+  ]
+}

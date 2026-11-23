@@ -1,0 +1,183 @@
+{
+  "title": "Structure of Atoms and Nuclei",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Rutherford's Alpha Particle Scattering Experiment: Key observations and distance of closest approach r₀?",
+      "a": "Observations: Most α-particles pass straight undeviated; ~1 in 8000 deflect by > 90°; very few rebound backward (180°).\nDistance of closest approach (head-on collision): r₀ = (1 / 4π ε₀) · [ (2 Z e²) / K_α ], where K_α = (1/2) m v².",
+      "hint": "Gives upper estimate of nuclear radius (~10⁻¹⁴ m). At r₀, initial kinetic energy converts entirely into electrostatic potential energy."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "State Bohr's Three Postulates for the Hydrogen Atom.",
+      "a": "1. Electron revolves in stable circular non-radiating orbits where centripetal force is provided by Coulomb electrostatic attraction: m v² / r = (1 / 4π ε₀) (e² / r²).\n2. Quantization condition: Angular momentum is an integral multiple of h / 2π: L = m v r = n h / (2π) = n ħ (n = 1, 2, 3...).\n3. Frequency condition: Radiation is emitted or absorbed when electron jumps between orbits: E_i - E_f = h ν = h c / λ.",
+      "hint": "Overcame Rutherford model's instability by postulating discrete stationary energy states."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Bohr's formula for radius r_n of n-th orbit of a hydrogen-like atom (atomic number Z)?",
+      "a": "r_n = [ ε₀ h² n² ] / [ π m Z e² ] = r₁ · (n² / Z) = 0.529 · (n² / Z) Å (or 0.0529 n²/Z nm).\nFor Hydrogen (Z = 1): r₁ = 0.529 Å, r₂ = 4 r₁, r₃ = 9 r₁ (r_n ∝ n²).",
+      "hint": "Radius scales as n² / Z. Orbit radius increases quadratically with principal quantum number n."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Bohr's formula for orbital velocity v_n of electron in n-th orbit?",
+      "a": "v_n = [ Z e² ] / [ 2 ε₀ h n ] = v₁ · (Z / n) = [ c / (137 n) ] · Z.\nFor Hydrogen (Z = 1, n = 1): v₁ ≈ 2.18 × 10⁶ m/s ≈ c / 137.",
+      "hint": "Velocity scales as Z / n (inversely proportional to n). Inner orbits move faster than outer orbits."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Formulas for Kinetic Energy K, Potential Energy U, and Total Energy E in n-th Bohr orbit?",
+      "a": "Kinetic Energy: K_n = - E_n = + 13.6 (Z² / n²) eV\nPotential Energy: U_n = 2 E_n = - 27.2 (Z² / n²) eV\nTotal Energy: E_n = - 13.6 (Z² / n²) eV.\nRelations: |E_n| = K_n = - U_n / 2.",
+      "hint": "Negative sign of total energy confirms the electron is bound to the nucleus. Ionization energy of ground state hydrogen is +13.6 eV."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Rydberg Formula for hydrogen spectral lines?",
+      "a": "1 / λ = ν̄ = R_H · [ 1 / n₁² - 1 / n₂² ], where R_H = (m e⁴) / (8 ε₀² c h³) ≈ 1.097 × 10⁷ m⁻¹ is Rydberg Constant.",
+      "hint": "Shortest wavelength (series limit): set n₂ = ∞ ⇒ λ_min = n₁² / R_H.\nLongest wavelength: set n₂ = n₁ + 1."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Five Spectral Series of Hydrogen: Spectral regions and n₁, n₂ values?",
+      "a": "1. Lyman Series (n₁ = 1, n₂ = 2, 3...): ULTRAVIOLET (UV) region.\n2. Balmer Series (n₁ = 2, n₂ = 3, 4...): VISIBLE (and near UV) region.\n3. Paschen Series (n₁ = 3, n₂ = 4, 5...): INFRARED (near-IR) region.\n4. Brackett Series (n₁ = 4, n₂ = 5, 6...): INFRARED (mid-IR) region.\n5. Pfund Series (n₁ = 5, n₂ = 6, 7...): INFRARED (far-IR) region.",
+      "hint": "Top Board MCQ! Only the Balmer series falls in the humanly visible light region."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Maximum number of spectral lines emitted when electron de-excites from state n to ground state (n = 1)?",
+      "a": "N = n (n - 1) / 2 = ⁿC₂.",
+      "hint": "If electron de-excites from n = 4: N = 4 × 3 / 2 = 6 spectral lines."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Nuclear Radius R and Nuclear Density ρ formulas?",
+      "a": "Nuclear Radius: R = R₀ · A^(1/3), where R₀ ≈ 1.2 × 10⁻¹⁵ m = 1.2 fm, and A is mass number.\nNuclear Density: ρ = M_nucleus / V ≈ (A · m_p) / [ (4/3)π R₀³ A ] = 3 m_p / (4π R₀³) ≈ 2.3 × 10¹⁷ kg/m³.",
+      "hint": "Nuclear density is completely INDEPENDENT of mass number A! All nuclei from Hydrogen to Uranium have the exact same constant nuclear density (~10¹⁷ kg/m³)."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Mass Defect Δm and Binding Energy E_b of a nucleus (Z protons, N neutrons)?",
+      "a": "Mass Defect: Δm = [ Z m_p + (A - Z) m_n ] - M_nucleus.\nBinding Energy: E_b = Δm · c² = Δm (in unified amu 'u') × 931.5 MeV.\nBinding Energy per nucleon: E_bn = E_b / A.",
+      "hint": "1 atomic mass unit (1 u) = 931.5 MeV / c²."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Binding Energy per Nucleon curve: Key features and stability peak?",
+      "a": "1. Peak of maximum stability: Iron (⁵⁶Fe) with E_bn ≈ 8.8 MeV / nucleon.\n2. Average E_bn for medium nuclei (30 < A < 170): ~8.5 MeV / nucleon.\n3. Lower for light nuclei (A < 20) and heavy nuclei (A > 200, e.g. ²³⁸U ≈ 7.6 MeV/nucleon).\n4. Drives Nuclear FISSION in heavy nuclei and Nuclear FUSION in light nuclei (both move toward higher E_bn peak).",
+      "hint": "Any nuclear reaction that moves toward ⁵⁶Fe releases immense energy."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Key properties of Nuclear Forces?",
+      "a": "1. Strongest fundamental interaction in nature (~100 times stronger than electromagnetic force).\n2. Extremely SHORT RANGE (effective only up to ~1 to 2 fm; zero beyond).\n3. CHARGE INDEPENDENT (F_nn = F_np = F_pp).\n4. Shows SATURATION effect (interacts only with immediate neighbors).\n5. Highly NON-CENTRAL and spin-dependent.",
+      "hint": "Becomes strongly repulsive at distances less than 0.5 fm, preventing nuclear collapse."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "State the Law of Radioactive Decay and its differential form.",
+      "a": "The number of nuclei decaying per unit time is directly proportional to the number of undecayed radioactive nuclei present at that instant: - dN / dt = λ N ⇒ N(t) = N₀ · e^(-λ t), where λ is decay constant.",
+      "hint": "A purely statistical, spontaneous process unaffected by external temperature, pressure, or chemical combination."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Half-Life T_(1/2) and Mean Life τ: Formulas and relation?",
+      "a": "Half-Life: T_(1/2) = ln 2 / λ = 0.693 / λ.\nMean Life (Average Life): τ = 1 / λ = T_(1/2) / 0.693 ≈ 1.44 · T_(1/2).",
+      "hint": "Fraction remaining after n half-lives: N / N₀ = (1/2)ⁿ = (1/2)^(t / T_(1/2))."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Radioactive Activity A: Formula, SI unit, and CGS units?",
+      "a": "Activity: A = |dN / dt| = λ N = A₀ · e^(-λ t).\nSI unit: Becquerel (Bq) = 1 disintegration per second (1 dps).\nNon-SI units: Curie (Ci): 1 Ci = 3.7 × 10¹⁰ Bq (activity of 1 g of radium).\nRutherford (Rd): 1 Rd = 10⁶ Bq.",
+      "hint": "Activity also decays exponentially with the exact same half-life as undecayed nuclei: A = A₀ (1/2)ⁿ."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Alpha (α), Beta (β), and Gamma (γ) decay transformations?",
+      "a": "α-decay: ᴬ_Z X → ᴬ⁻⁴_(Z-2) Y + ⁴₂He + Q (mass number decreases by 4, atomic number by 2).\nβ⁻-decay: ᴬ_Z X → ᴬ_(Z+1) Y + e⁻ + ν̄_e (neutron converts to proton; Z increases by 1).\nβ⁺-decay: ᴬ_Z X → ᴬ_(Z-1) Y + e⁺ + ν_e (proton converts to neutron; Z decreases by 1).\nγ-decay: ᴬ_Z X* → ᴬ_Z X + γ (excited nucleus de-excites; Z and A remain UNCHANGED).",
+      "hint": "In β-decay, an antineutrino (ν̄_e) accompanies electron (e⁻); a neutrino (ν_e) accompanies positron (e⁺)."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "What fraction of a radioactive sample remains undecayed after 4 half-lives?",
+      "a": "Fraction remaining: N / N₀ = (1/2)⁴ = 1 / 16 = 6.25%.\nFraction decayed = 1 - 1/16 = 15 / 16 = 93.75%.",
+      "hint": "Be careful in reading questions: check if it asks for 'fraction remaining' or 'fraction decayed'!"
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Q-value of a nuclear reaction A + a → B + b + Q?",
+      "a": "Q = [ (m_A + m_a) - (m_B + m_b) ] · c² = [ Total initial mass - Total final mass ] × 931.5 MeV.\nIf Q > 0: Exothermic (exoergic) reaction (energy released).\nIf Q < 0: Endothermic (endoergic) reaction (threshold energy required).",
+      "hint": "Also Q = Total Final Kinetic Energy - Total Initial Kinetic Energy."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Nuclear Fission of Uranium-235: Reaction and energy released?",
+      "a": "²³⁵₉₂U + ¹₀n → ²³⁶₉₂U* → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 ¹₀n + Q.\nEnergy released per fission: Q ≈ 200 MeV (about 0.8 MeV per nucleon).\nMultiplication factor k governs chain reaction (k = 1 for critical controlled reactor; k > 1 for supercritical explosion).",
+      "hint": "Moderators (heavy water D₂O, graphite) slow down fast fission neutrons to thermal speeds (~0.025 eV)."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Nuclear Fusion: Conditions and solar proton-proton cycle?",
+      "a": "Fusion of light nuclei into heavier nuclei under extreme temperatures (~10⁷ K) and pressures (thermonuclear conditions).\nNet solar cycle: 4 ¹₁H → ⁴₂He + 2 e⁺ + 2 ν_e + 26.7 MeV.\nEnergy released per nucleon in fusion (~6.7 MeV/nucleon) is vastly GREATER than in fission (~0.85 MeV/nucleon).",
+      "hint": "Requires immense temperature to overcome mutual Coulomb electrostatic repulsion between positively charged protons."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Ratio of radii of two nuclei with mass numbers A₁ = 27 and A₂ = 64?",
+      "a": "R₁ / R₂ = (A₁ / A₂)^(1/3) = (27 / 64)^(1/3) = 3 / 4.",
+      "hint": "Since R ∝ A^(1/3). Density ratio is 1:1 (equal density)."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Time period T_n of electron in n-th Bohr orbit: Dependency on n and Z?",
+      "a": "T_n = 2 π r_n / v_n ∝ (n² / Z) / (Z / n) = n³ / Z².\nFrequency of revolution: f_n = 1 / T_n ∝ Z² / n³.",
+      "hint": "Period scales as n³! In 2nd orbit, period is 2³ = 8 times that in 1st orbit."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "A radioactive sample has two decay channels with decay constants λ₁ and λ₂. What is the effective half-life T?",
+      "a": "Effective decay constant: λ = λ₁ + λ₂.\nEffective half-life: 1 / T = 1 / T₁ + 1 / T₂ ⇒ T = (T₁ T₂) / (T₁ + T₂).",
+      "hint": "Decay constants add directly; half-lives combine like parallel resistors!"
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Orbital magnetic moment M_n of electron in n-th Bohr orbit?",
+      "a": "M_n = n · μ_B = n · [ e h / (4π m_e) ], where μ_B is the Bohr Magneton.",
+      "hint": "Magnetic moment of electron in n-th orbit is quantized in integral multiples of Bohr magneton."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: If an electron transitions from n = 3 to n = 1 in Hydrogen, what is the wavelength emitted in terms of Rydberg constant R?",
+      "a": "1 / λ = R [ 1/1² - 1/3² ] = R [ 1 - 1/9 ] = 8 R / 9 ⇒ λ = 9 / (8 R).\nDo NOT write 8R/9; remember to INVERT 1/λ to get λ!",
+      "hint": "Common careless mistake in CET! 1/λ is wavenumber, λ is 9/(8R)."
+    }
+  ]
+}

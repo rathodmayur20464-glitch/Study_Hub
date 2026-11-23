@@ -1,0 +1,183 @@
+{
+  "title": "Wave Optics",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "State Huygens' Principle of secondary wavelets.",
+      "a": "1. Every point on a primary wavefront acts as a secondary source emitting spherical secondary wavelets in all forward directions.\n2. The forward envelope (tangential surface) to these secondary wavelets at a later instant gives the new position of wavefront.",
+      "hint": "Explains propagation, reflection, and refraction of light waves geometrically."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Types of wavefronts produced by Point, Linear, and Distant light sources?",
+      "a": "Point source: Spherical Wavefront (amplitude A ∝ 1/r, intensity I ∝ 1/r²).\nLinear source (slit): Cylindrical Wavefront (amplitude A ∝ 1/√r, intensity I ∝ 1/r).\nDistant source (at infinity): Plane Wavefront (amplitude and intensity are constant).",
+      "hint": "Rays of light are always PERPENDICULAR (normal) to the wavefront at every point."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Refraction on Wave Theory: What happens to frequency, wavelength, and speed?",
+      "a": "Frequency remains CONSTANT (ν' = ν, depends only on source).\nWavelength decreases in denser medium: λ' = λ / μ.\nSpeed decreases: v = c / μ.\nSnell's Law: sin i / sin r = v₁ / v₂ = λ₁ / λ₂ = μ₂ / μ₁.",
+      "hint": "Golden rule: Frequency NEVER changes across any medium interface!"
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Which optical phenomenon proves that light is a TRANSVERSE wave?",
+      "a": "POLARIZATION.\nInterference and Diffraction can occur in both longitudinal (sound) and transverse waves, but ONLY transverse waves can be polarized.",
+      "hint": "Top conceptual question in Board and entrance examinations!"
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "State Brewster's Law and the condition for reflected and refracted rays.",
+      "a": "tan(i_p) = μ, where i_p is polarizing angle (Brewster's angle).\nAt polarizing angle, reflected light is 100% plane polarized, and the reflected and refracted rays are MUTUALLY PERPENDICULAR (i_p + r = 90°).",
+      "hint": "Proof: sin(i_p) / sin r = μ = tan(i_p) = sin(i_p) / cos(i_p) ⇒ sin r = cos(i_p) = sin(90° - i_p) ⇒ r + i_p = 90°."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "State Malus' Law for polarized light transmitted through an analyzer.",
+      "a": "I = I₀ · cos² θ, where I₀ is the intensity of incident plane-polarized light and θ is the angle between transmission axes of polarizer and analyzer.",
+      "hint": "If incident light is unpolarized, intensity transmitted through the first polarizer is ALWAYS I_in / 2."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Conditions for Constructive and Destructive Interference in terms of path and phase difference?",
+      "a": "Constructive (Bright fringe): Path difference Δx = n λ, Phase difference Δϕ = 2 n π (n = 0, 1, 2...).\nDestructive (Dark fringe): Path difference Δx = (2n - 1) λ / 2, Phase difference Δϕ = (2n - 1) π (n = 1, 2, 3...).",
+      "hint": "Relation: Phase difference Δϕ = (2π / λ) · Path difference Δx."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Positions of Bright and Dark fringes in Young's Double Slit Experiment (YDSE)?",
+      "a": "n-th Bright fringe position: y_n = n λ D / d\nn-th Dark fringe position: y_n' = (2n - 1) λ D / (2 d), where D is slit-to-screen distance and d is slit separation.",
+      "hint": "Central fringe (n = 0) is always bright (y₀ = 0) because path difference is zero."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Fringe Width W (or β) in YDSE: Formula and properties?",
+      "a": "W = β = λ D / d.\nFringe width is IDENTICAL for all bright and dark fringes, and fringes are equally spaced.",
+      "hint": "W ∝ λ, W ∝ D, W ∝ 1/d. Red light has larger fringe width than violet light (λ_red > λ_violet)."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "What happens to YDSE fringe width when entire apparatus is immersed in water of refractive index μ = 4/3?",
+      "a": "Fringe width DECREASES by a factor of μ: W' = W / μ = (3/4) W.\nBecause wavelength in water becomes λ' = λ / μ.",
+      "hint": "High-frequency MHT-CET question! Fringes shrink closer together in denser media."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "Resultant Intensity I and Maximum/Minimum intensity in YDSE?",
+      "a": "I = I₁ + I₂ + 2 √(I₁ I₂) cos ϕ.\nIf slits are identical (I₁ = I₂ = I₀): I = 4 I₀ cos²(ϕ / 2).\nI_max = (√I₁ + √I₂)² = (a₁ + a₂)²\nI_min = (√I₁ - √I₂)² = (a₁ - a₂)². Ratio: I_max / I_min = (a₁ + a₂)² / (a₁ - a₂)², where a₁, a₂ are amplitudes.",
+      "hint": "Slit width ratio: w₁ / w₂ = I₁ / I₂ = a₁² / a₂²."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "What happens if one of the slits in YDSE is covered by a transparent plate of thickness t and refractive index μ?",
+      "a": "The entire fringe pattern shifts towards the covered slit side by distance:\ny_shift = [ (μ - 1) t D ] / d = [ (μ - 1) t / λ ] · W.\nFringe width W remains completely UNCHANGED.",
+      "hint": "Number of fringes shifted: N = (μ - 1) t / λ."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Interference vs Diffraction: Key physical distinctions?",
+      "a": "Interference: Superposition of waves originating from TWO separate coherent wavefronts (slits). All fringes have EQUAL width and equal brightness (intensity).\nDiffraction: Superposition of secondary wavelets originating from DIFFERENT PARTS of the SAME wavefront. Central maximum is twice as wide and brightest; secondary maxima decrease rapidly in intensity.",
+      "hint": "HSC Board 2-mark distinction favorite!"
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Fraunhofer Single Slit Diffraction: Condition for Minima and Secondary Maxima?",
+      "a": "Minima: a sin θ = n λ ⇒ sin θ = n λ / a  (n = 1, 2, 3...)\nSecondary Maxima: a sin θ = (2n + 1) λ / 2  (n = 1, 2, 3...), where 'a' is slit width.",
+      "hint": "Trap: Minima condition uses nλ here, which is OPPOSITE to YDSE constructive interference!"
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Angular Width and Linear Width of the Central Maximum in Single Slit Diffraction?",
+      "a": "Angular Width: 2 θ = 2 λ / a\nLinear Width: y₀ = 2 λ D / a = 2 W_secondary.",
+      "hint": "The central maximum is exactly TWICE as wide as any of the secondary maxima!"
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Rayleigh's Criterion for resolution of two point objects?",
+      "a": "Two point objects are just resolved when the central diffraction maximum of one image falls exactly on the first diffraction minimum of the second image.",
+      "hint": "At this critical limit, the dip in total intensity between the peaks is about 20%."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Limit of Resolution and Resolving Power of an Astronomical Telescope?",
+      "a": "Limit of Resolution (angular separation): dθ = 1.22 λ / D (in radians).\nResolving Power = 1 / dθ = D / (1.22 λ), where D is diameter of telescope objective lens.",
+      "hint": "To resolve distant binary stars better, use a larger aperture objective lens (large D) and shorter wavelength λ."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Limit of Resolution and Resolving Power of a Microscope?",
+      "a": "Limit of Resolution (minimum distance): d_min = λ / (2 μ sin θ) = λ / (2 N.A.).\nResolving Power = 1 / d_min = 2 μ sin θ / λ = 2 N.A. / λ, where N.A. = μ sin θ is Numerical Aperture.",
+      "hint": "Oil immersion objective (high μ) reduces d_min and increases resolving power significantly."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "What happens if one slit in YDSE is completely covered with an opaque screen?",
+      "a": "The interference pattern disappears completely, and a uniform single-slit diffraction pattern is observed on the screen.",
+      "hint": "Interference requires two coherent beams; one slit gives only diffraction."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "What happens if white light is used instead of monochromatic light in YDSE?",
+      "a": "Central fringe is pure WHITE. Fringes closest to center are coloured, with violet on the inner edge and red on the outer edge (since W_violet < W_red). After a few fringes, uniform illumination results.",
+      "hint": "Central fringe is white because path difference is zero for ALL wavelengths simultaneously."
+    },
+    {
+      "id": "c21",
+      "tag": "formula",
+      "q": "Ratio of intensities of central maximum and first two secondary maxima in single slit diffraction?",
+      "a": "I₀ : I₁ : I₂ ≈ 1 : (4 / 9π²) : (4 / 25π²) ≈ 1 : 1/22 : 1/61 ≈ 1 : 0.045 : 0.016.",
+      "hint": "Confirms that secondary diffraction maxima become rapidly very faint."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Conditions to obtain a steady, well-defined interference pattern?",
+      "a": "1. Two sources must be COHERENT (constant or zero phase difference).\n2. Sources must be MONOCHROMATIC (single wavelength).\n3. Two sources must be very close to each other (small d).\n4. Distance to screen must be large (large D).\n5. Amplitudes should be equal or nearly equal (for high contrast between bright and dark).",
+      "hint": "Standard 3-mark Board theory question."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "If the slit separation d in YDSE is halved and screen distance D is doubled, what is the new fringe width?",
+      "a": "New fringe width W' = 4 W (quadrupled)!\nSince W = λ D / d: W' = λ (2D) / (d/2) = 4 (λ D / d) = 4 W.",
+      "hint": "Direct MHT-CET numerical. Factor of 2 in numerator and 1/2 in denominator yields 4."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "What is Polaroids and their practical uses?",
+      "a": "Thin sheets containing micro-crystals of herapathite oriented parallel to each other, producing plane polarized light by selective absorption (dichroism).\nUses: Sunglasses to reduce glare, LCD screens, 3D cinema glasses, automobile headlights.",
+      "hint": "Eliminates glare caused by horizontally polarized reflected light from roads and water."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Does the Law of Conservation of Energy hold in Wave Interference?",
+      "a": "YES, absolutely! Energy is NOT destroyed at dark fringes; it is simply redistributed from regions of destructive interference (dark) to constructive interference (bright).",
+      "hint": "Average intensity across the whole screen is exactly equal to (I₁ + I₂), proving total energy is perfectly conserved."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Rotational Dynamics",
+  "subject": "Physics",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Centripetal vs Centrifugal Force: Core distinction?",
+      "a": "Centripetal force is a real force directed towards the center (F = m v² / r = m ω² r). Centrifugal force is a pseudo-force experienced in a rotating (non-inertial) frame directed away from the center.",
+      "hint": "Centrifugal force is NOT the reaction to centripetal force; it exists only in rotating frames."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Kinematical equations for uniform angular acceleration α?",
+      "a": "1. ω = ω₀ + α t\n2. θ = ω₀ t + (1/2) α t²\n3. ω² = ω₀² + 2 α θ.",
+      "hint": "Analogous to linear equations: replace v → ω, u → ω₀, a → α, s → θ."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Maximum safe speed of a vehicle on an unbanked circular road?",
+      "a": "v_max = √(μ_s r g), where μ_s is coefficient of static friction, r is radius of curve, and g is acceleration due to gravity.",
+      "hint": "Independent of the mass of the vehicle! Friction alone provides centripetal force."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Optimum (banking) angle θ for a road without relying on friction?",
+      "a": "tan θ = v₀² / (r g) ⇒ v₀ = √(r g tan θ).",
+      "hint": "At this design speed v₀, there is zero wear and tear of tires and no frictional force is needed."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Upper and lower speed limits on a banked road with friction?",
+      "a": "v_max = √[ r g (tan θ + μ_s) / (1 - μ_s tan θ) ]\nv_min = √[ r g (tan θ - μ_s) / (1 + μ_s tan θ) ].",
+      "hint": "If tan θ ≤ μ_s, v_min = 0 (vehicle can stand parked without slipping down)."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Time period and tension for a Conical Pendulum of length L and semi-vertical angle θ?",
+      "a": "Time Period: T = 2π √(L cos θ / g) = 2π √(h / g)\nTension: T₀ = m g / cos θ.",
+      "hint": "h = L cos θ is the vertical height of the cone. T is smaller than that of a simple pendulum."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Minimum speed in a Well of Death (Rotor) of radius r?",
+      "a": "v_min = √(r g / μ_s).",
+      "hint": "Normal reaction N provides centripetal force (N = m v² / r) and vertical friction balances weight (f_s = μ_s N = m g)."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Vertical Circular Motion: Critical speeds at Highest (H), Lowest (L), and Midway (M) points?",
+      "a": "v_H = √(r g)\nv_M = √(3 r g)\nv_L = √(5 r g).",
+      "hint": "Speeds are derived assuming string just remains taut at highest point (tension T_H = 0)."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Difference in tension between Lowest and Highest points in Vertical Circular Motion?",
+      "a": "T_L - T_H = 6 m g.",
+      "hint": "Classic MHT-CET result! This difference is completely independent of initial velocity as long as the circle is completed."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "What is Moment of Inertia (MI) and Radius of Gyration (K)?",
+      "a": "MI: I = ∑ m_i r_i² = ∫ r² dm (rotational analogue of mass; measures rotational inertia).\nRadius of Gyration: K = √(I / M) (effective distance from axis where entire mass can be assumed concentrated).",
+      "hint": "SI unit of MI: kg·m² [M¹ L² T⁰]. K depends on mass distribution and axis location, NOT on total mass."
+    },
+    {
+      "id": "c11",
+      "tag": "formula",
+      "q": "State the Theorem of Parallel Axes.",
+      "a": "I_O = I_C + M h², where I_C is MI about an axis through center of mass, and h is the perpendicular distance between the two parallel axes.",
+      "hint": "Crucial: One of the axes MUST strictly pass through the Center of Mass (I_C)."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "State the Theorem of Perpendicular Axes.",
+      "a": "I_Z = I_X + I_Y, for a planar lamina in the X-Y plane, where Z-axis is perpendicular to the lamina.",
+      "hint": "Applies strictly to 2D planar bodies (discs, rings, plates), never to 3D solid bodies like spheres."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Moment of Inertia of a Ring of mass M and radius R?",
+      "a": "Transverse central axis: I = M R²\nAbout diameter: I = (1/2) M R²\nTangential perpendicular to plane: I = 2 M R²\nTangential in plane: I = (3/2) M R².",
+      "hint": "Use perpendicular axis theorem for diameter: I_Z = I_X + I_Y ⇒ M R² = 2 I_d ⇒ I_d = (1/2) M R²."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Moment of Inertia of a Uniform Disc of mass M and radius R?",
+      "a": "Transverse central axis: I = (1/2) M R²\nAbout diameter: I = (1/4) M R²\nTangential perpendicular to plane: I = (3/2) M R²\nTangential in plane: I = (5/4) M R².",
+      "hint": "Disc MI is exactly half that of a ring about the corresponding central axis."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Moment of Inertia of Solid Sphere vs Hollow Sphere (Spherical Shell)?",
+      "a": "Solid Sphere: I_diameter = (2/5) M R², I_tangent = (7/5) M R²\nHollow Sphere: I_diameter = (2/3) M R², I_tangent = (5/3) M R².",
+      "hint": "Hollow sphere has higher MI than solid sphere of same mass and radius because mass is farther from axis."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Moment of Inertia of a thin uniform rod of length L?",
+      "a": "About central axis perpendicular to length: I = M L² / 12\nAbout transverse axis through one end: I = M L² / 3.",
+      "hint": "By parallel axis theorem: I_end = M L² / 12 + M (L/2)² = M L² / 3."
+    },
+    {
+      "id": "c17",
+      "tag": "formula",
+      "q": "Relations between Torque, Angular Momentum, and Moment of Inertia?",
+      "a": "Torque: τ = I α = dL / dt\nAngular Momentum: L = I ω = r × p.\nRotational Kinetic Energy: K_rot = (1/2) I ω² = L² / (2 I).",
+      "hint": "Torque is rotational analogue of Force (F = m a); Angular Momentum is analogue of Linear Momentum (p = m v)."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "State the Law of Conservation of Angular Momentum with real-life examples.",
+      "a": "If external torque τ_ext = 0, then L = I ω = constant (i.e. I₁ ω₁ = I₂ ω₂).\nExamples: Ballet dancer tucking in arms (I ↓ ⇒ ω ↑), diver somersaulting.",
+      "hint": "Decreasing moment of inertia automatically increases angular velocity to keep L conserved."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Total Kinetic Energy of a body rolling without slipping?",
+      "a": "E = K_trans + K_rot = (1/2) M v² + (1/2) I ω² = (1/2) M v² [ 1 + K² / R² ], where K is radius of gyration.",
+      "hint": "Fraction of energy in translation: 1 / [1 + K²/R²]; in rotation: (K²/R²) / [1 + K²/R²]."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Velocity and acceleration of a rolling body down an inclined plane of height h and angle θ?",
+      "a": "v = √[ 2 g h / (1 + K² / R²) ]\na = [ g sin θ ] / [ 1 + K² / R² ].",
+      "hint": "Bodies with smaller K²/R² reach bottom faster! Order of arrival: Solid Sphere > Disc > Hollow Sphere > Ring."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Value of K² / R² for standard rolling bodies?",
+      "a": "Ring / Hollow Cylinder: K² / R² = 1\nDisc / Solid Cylinder: K² / R² = 1/2 = 0.5\nHollow Sphere: K² / R² = 2/3 ≈ 0.67\nSolid Sphere: K² / R² = 2/5 = 0.4.",
+      "hint": "Solid sphere has the smallest K²/R² (0.4), so it rolls down fastest with highest acceleration!"
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Condition for pure rolling (rolling without slipping)?",
+      "a": "v_cm = R ω, and acceleration a_cm = R α.\nAt the point of contact with ground, instantaneous velocity is ZERO (v_contact = 0).",
+      "hint": "Work done by friction in pure rolling is zero because point of contact is instantaneously at rest."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "If Earth suddenly shrinks to half its radius without change in mass, what is the new duration of day?",
+      "a": "T₂ = 6 hours.\nSince I = (2/5) M R², shrinking to R/2 makes I₂ = I₁ / 4. By conservation of L: I₁ ω₁ = I₂ ω₂ ⇒ ω₂ = 4 ω₁ ⇒ T₂ = T₁ / 4 = 24 / 4 = 6 h.",
+      "hint": "Frequent Board & MHT-CET problem! T ∝ R² when mass is constant."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Power delivered by torque and work done in rotational motion?",
+      "a": "Work: W = ∫ τ dθ = τ · θ (for constant torque)\nPower: P = dW / dt = τ · ω.",
+      "hint": "Direct rotational analogue of W = F · s and P = F · v."
+    },
+    {
+      "id": "c25",
+      "tag": "imp",
+      "q": "MHT-CET Trap: Can Radius of Gyration K be negative or zero for a real body?",
+      "a": "NO. K = √(I / M) is a geometric distance measure and is ALWAYS strictly POSITIVE (K > 0).",
+      "hint": "SI unit of K is metre (m); its dimensional formula is [M⁰ L¹ T⁰]."
+    }
+  ]
+}
