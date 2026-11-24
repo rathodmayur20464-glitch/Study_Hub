@@ -1,0 +1,183 @@
+{
+  "title": "Biodiversity, Conservation and Environmental Issues",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Biodiversity? Define the 3 hierarchical levels of diversity (Edward Wilson).",
+      "a": "Biodiversity: The totality of genes, species, and ecosystems of a given region (popularized by sociobiologist Edward Wilson):\n1. Genetic Diversity: Diversity of genes within a single species (e.g. Rauwolfia vomitoria producing varying potency of reserpine; India has >50,000 genetically different strains of rice and >1,000 varieties of mango).\n2. Species Diversity: Variety of species within a region (e.g. Western Ghats have greater amphibian species diversity than Eastern Ghats).\n3. Ecological / Ecosystem Diversity: Diversity of habitats and ecosystems (e.g. India has deserts, rainforests, mangroves, coral reefs, alpine meadows).",
+      "hint": "Rauwolfia vomitoria exhibits genetic diversity in the concentration of medicinal alkaloid Reserpine."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Global Species Diversity: Robert May's Estimate and Taxonomic Breakdown?",
+      "a": "IUCN Red List (2004) documents ~1.5 million described species.\nRobert May's scientifically sound global estimate = ~7 MILLION species worldwide.\nTaxonomic Proportions:\n- Animals constitute >70% of all recorded species; Plants (including algae, fungi, bryophytes, gymnosperms, angiosperms) comprise ~22%.\n- Among animals, INSECTS are the most species-rich taxonomic group, making up >70% of all animals (7 out of every 10 animals are insects!).\n- The number of Fungi species in the world exceeds the combined total of fishes, amphibians, reptiles, and mammals!",
+      "hint": "Over 70% of all species are animals; over 70% of all animals are insects."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "India's Megadiversity Status: Exact percentages and global standing?",
+      "a": "India is one of the 12 Mega-Diversity countries of the world:\n- Land Area: India occupies ONLY 2.4% of the world's total land area.\n- Global Species Share: India contributes an impressive 8.1% of global species diversity!\n- Documented Species in India: ~45,000 species of plants and ~90,000 to 100,000 species of animals.\n- If May's estimate applies, over 100,000 plant species and 300,000 animal species are yet to be discovered in India.",
+      "hint": "India has 2.4% of world land area, but 8.1% of global species diversity!"
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Latitudinal Gradients of Biodiversity: Why are Tropics richest in species?",
+      "a": "Species diversity decreases progressively from equator towards the poles (Tropics $23.5^\\circ$N to $23.5^\\circ$S harbor maximum species; e.g. Amazonian rainforest is the richest).\n3 Evolutionary Reasons:\n1. Constant, Predictable Climate: Tropics have less seasonal variation, promoting niche specialization and speciation.\n2. Undisturbed Evolutionary Time: Tropics remained undisturbed by glaciations for millions of years (unlike temperate regions subjected to frequent glaciations).\n3. Higher Solar Energy: More solar insolation fuels higher productivity, indirectly supporting greater diversity.",
+      "hint": "Equator to poles = decreasing species diversity. Colombia near equator has 1,400 bird species; Greenland at 71°N has only 56."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Species-Area Relationship (Alexander von Humboldt): Equation and Z-values?",
+      "a": "Alexander von Humboldt observed that within a region, species richness increases with increasing explored area up to a limit (produces a Rectangular Hyperbola).\nLogarithmic equation: $\\log S = \\log C + Z \\log A$\nWhere:\n- $S$: Species richness, $A$: Area, $C$: Y-intercept\n- $Z$: Slope of regression line (regression coefficient)\nValues of $Z$:\n- For normal small regions (plants in Britain, birds in California): $Z = 0.1 \\text{ to } 0.2$.\n- For very large areas (entire continents): $Z = 0.6 \\text{ to } 1.2$ (much steeper slope).\n- For Frugivorous birds and mammals in tropical forests of continents: $Z = 1.15$.",
+      "hint": "On a logarithmic scale, the species-area rectangular hyperbola becomes a straight line."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Importance of Species Diversity: David Tilman's Experiments and Rivet Popper Hypothesis?",
+      "a": "1. David Tilman's Outdoor Plot Experiments: Plots with higher species richness showed less year-to-year variation in total biomass and displayed higher overall productivity, proving diversity promotes ecosystem stability.\n2. Paul Ehrlich's 'Rivet Popper Hypothesis':\n- Airplane = Ecosystem; Rivets = Species.\n- If passengers pop rivets (extinction), initial loss of a few rivets on seats does not endanger flight immediately.\n- But popping key rivets on the WINGS (keystone species, e.g. pollinators, top predators) directly threatens the structural integrity and flight safety of the airplane (ecosystem collapse).",
+      "hint": "Loss of a keystone species causes catastrophic disruption of the entire ecosystem."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Loss of Biodiversity: 'The Evil Quartet' (4 Major Causes of Extinction)?",
+      "a": "Mnemonic: 'The Evil Quartet' (Jared Diamond):\n1. Habitat Loss and Fragmentation: Most dangerous driver (e.g. Amazon rainforest 'Lungs of the planet' slashed and burned for soybean cultivation; cleared from 14% to <6%).\n2. Over-Exploitation: Commercial greed (Steller's Sea Cow, Passenger Pigeon, Dodo driven to extinction by excessive hunting).\n3. Alien / Invasive Species Invasions: Displacement of indigenous species (Nile Perch, Water Hyacinth, Parthenium).\n4. Co-Extinctions: When a host species becomes extinct, its obligate dependent parasites and mutualists also go extinct.",
+      "hint": "Habitat loss and fragmentation is the number one cause driving animals and plants to extinction."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Invasive Alien Species: Nile Perch, Water Hyacinth, Parthenium, and African Catfish?",
+      "a": "Non-native species that multiply aggressively and displace native flora/fauna:\n1. Nile Perch: Introduced into Lake Victoria (East Africa); caused extinction of an entire endemic assemblage of >200 species of native Cichlid fish.\n2. Water Hyacinth (Eichhornia crassipes / 'Terror of Bengal'): Clogs waterways, blocks light, and depletes dissolved oxygen, killing native aquatic life.\n3. Carrot Grass (Parthenium hysterophorus) & Lantana camara: Aggressive invasive weeds choking indigenous pastureland.\n4. African Catfish (Clarias gariepinus): Illegally introduced for aquaculture; poses grave threat to indigenous Indian catfishes.",
+      "hint": "Eichhornia was introduced to India for its lovely mauve flowers and leaf shape, but turned into an ecological disaster."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "In-Situ (On-Site) Conservation: Biosphere Reserves, National Parks, and Sanctuaries?",
+      "a": "Conserving endangered species within their natural habitat:\n1. Biosphere Reserves: Multipurpose protected areas with Core (undisturbed), Buffer (limited research), and Transition zones (human settlement); 14 in India (e.g. Nilgiri, Sundarbans).\n2. National Parks: Strict government protection; private ownership, grazing, and forestry are completely prohibited; 90 in India (e.g. Jim Corbett, Kaziranga - one-horned rhino).\n3. Wildlife Sanctuaries: Protection of animals; controlled human activities (timber harvesting, minor forest produce) permitted; 448 in India.\n4. Sacred Groves: Undisturbed forest patches protected on religious grounds (Khasi and Jaintia hills Meghalaya, Aravalli hills Rajasthan, Western Ghats).",
+      "hint": "In national parks, human activities and cattle grazing are strictly banned; in wildlife sanctuaries, controlled human activity is permitted."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Ex-Situ (Off-Site) Conservation: Zoological Parks, Botanical Gardens, and Cryopreservation?",
+      "a": "Protecting threatened animals and plants outside their natural habitats in specialized artificial facilities with care:\n1. Zoological Parks and Botanical Gardens: Preserving live specimens for breeding, research, and education.\n2. Wildlife Safari Parks: Animals kept in large enclosures resembling natural habitats.\n3. Cryopreservation: Storing gametes of threatened species in viable and fertile condition at ultra-low temperature of -196°C in Liquid Nitrogen indefinitely.\n4. Seed Banks / Gene Banks: Storing seeds of diverse strains in viable conditions.\n5. In Vitro Tissue Culture propagation.",
+      "hint": "Cryopreservation at -196°C in liquid nitrogen allows indefinite preservation of viable gametes."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Biodiversity Hotspots: Norman Myers' criteria, global count, and Hotspots in India?",
+      "a": "Regions characterized by exceptionally high species richness and high degree of Endemism (species confined strictly to that region and found nowhere else), under severe threat of habitat destruction.\n- Total Hotspots: Originally 25, now 36 worldwide (cover <2% of Earth's land, but harbor >50% terrestrial species; strict protection could reduce ongoing extinction by 30%).\n3 Hotspots covering India:\n1. Western Ghats and Sri Lanka\n2. Indo-Burma (covers Northeast India excluding Assam)\n3. Himalaya (entire Himalayan mountain range).",
+      "hint": "Western Ghats, Indo-Burma, and Himalaya are the 3 major biodiversity hotspots covering India."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "International Biodiversity Summits: Earth Summit vs World Summit?",
+      "a": "1. The Earth Summit (Historic Convention on Biological Diversity - CBD):\n- Held in Rio de Janeiro, Brazil in 1992.\n- Called upon all nations to take appropriate measures for conservation of biodiversity and sustainable utilization of its benefits.\n2. The World Summit on Sustainable Development:\n- Held in Johannesburg, South Africa in 2002.\n- 190 countries pledged their commitment to achieve a significant reduction in the current rate of biodiversity loss by 2010.",
+      "hint": "Earth Summit = Rio de Janeiro, 1992; World Summit = Johannesburg, 2002."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Air Pollution: Electrostatic Precipitator and Scrubber mechanism?",
+      "a": "Devices controlling industrial air emissions:\n1. Electrostatic Precipitator (ESP):\n- Removes over 99% of particulate matter from thermal power plant exhaust.\n- Electrode wires maintained at several thousand volts generate a corona that releases electrons $\\rightarrow$ particles acquire negative charge $\\rightarrow$ attracted to positively charged grounded collecting plates $\\rightarrow$ clean air exits.\n2. Scrubber:\n- Removes harmful gases like Sulfur Dioxide ($SO_2$) from exhaust by passing dirty gas through a spray of water or Lime ($Ca(OH)_2$) slurry.",
+      "hint": "Electrostatic Precipitator removes >99% particulate matter; Scrubber cleans gaseous $SO_2$."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "CPCB Guidelines on Particulate Matter and Catalytic Converters?",
+      "a": "1. CPCB (Central Pollution Control Board) Standard:\n- Particulate matter of size PM 2.5 (diameter 2.5 micrometers or less) is the MOST HARMFUL to human health; can be inhaled deep into bronchioles and alveoli, causing chronic respiratory inflammation, lung damage, and premature death.\n2. Catalytic Converters in Automobiles:\n- Fitted with expensive precious metal catalysts: Platinum-Palladium and Rhodium.\n- Converts unburnt hydrocarbons $\\rightarrow CO_2 + H_2O$; Carbon monoxide ($CO$) $\\rightarrow CO_2$; Nitric oxide ($NO$) $\\rightarrow N_2$ gas.\n- Vehicles must strictly use UNLEADED petrol (lead poisons and inactivates the catalysts).",
+      "hint": "Lead in leaded petrol permanently inactivates the platinum/rhodium catalyst in catalytic converters."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Air and Water Pollution Legislation in India (Acts and amendments)?",
+      "a": "1. Water (Prevention and Control of Pollution) Act: Enacted in 1974 to safeguard water resources.\n2. Air (Prevention and Control of Pollution) Act: Enacted in 1981.\n- Amended in 1987 to include NOISE as an air pollutant (brief exposure to >150 dB sound, e.g. jet takeoff, permanently impairs hearing).\n3. Environment (Protection) Act: Enacted in 1986 to protect and improve the quality of environment (air, water, soil).",
+      "hint": "Noise was legally incorporated as an air pollutant under the Air Act amendment of 1987."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Biomagnification of DDT in Aquatic Food Chains?",
+      "a": "Biomagnification: Progressive increase in concentration of non-biodegradable, toxic, fat-soluble substances at successive trophic levels of a food chain.\nClassic DDT Aquatic Cascade:\n1. Water: 0.003 ppb (parts per billion)\n2. Zooplankton: 0.04 ppm (parts per million)\n3. Small Fish: 0.5 ppm\n4. Large Fish: 2 ppm\n5. Fish-eating Birds (Pelicans, Ospreys): 25 ppm! (Concentration magnified ~10 million times!).\nToxic effect: High DDT interferes with calcium metabolism, causing thinning of eggshells and premature breaking, leading to catastrophic bird population decline.",
+      "hint": "Top carnivores (fish-eating birds) accumulate the highest concentration of toxic DDT."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Eutrophication: Natural vs Cultural (Accelerated) Eutrophication?",
+      "a": "Eutrophication: Natural aging of a lake by biological nutrient enrichment of its water (water becomes shallow and warm over centuries).\nCultural / Accelerated Eutrophication:\n- Runoff containing agricultural fertilizers (nitrates and phosphates) and municipal sewage into water bodies massively accelerates nutrient enrichment.\n- Causes explosive ALGAL BLOOMS (massive proliferation of planktonic algae) $\\rightarrow$ covers water surface $\\rightarrow$ blocks light $\\rightarrow$ algae die $\\rightarrow$ aerobic decomposers consume all dissolved oxygen $\\rightarrow$ massive fish mortality and water body asphyxiation.",
+      "hint": "Algal blooms impart distinct odors and colors and choke aquatic life by exhausting dissolved oxygen."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Ecological Sanitation (EcoSan Toilets) and Integrated Wastewater Treatment (Arcata)?",
+      "a": "1. EcoSan Toilets: Sustainable, dry composting toilets that handle human excreta without water; hygienic, cost-effective, and converts human waste into sterile organic fertilizer (used in Kerala and Sri Lanka).\n2. Arcata Town Wastewater Treatment (California & Humboldt State University):\n- Integrated 2-stage system:\n  - Stage 1: Conventional sedimentation, filtration, and chlorine treatment.\n  - Stage 2: Marshland series (6 connected marshes over 60 hectares) seeded with algae, fungi, bacteria, and reeds that naturally assimilate and neutralize heavy metals and toxins.",
+      "hint": "EcoSan toilets eliminate water wastage and recycle human excreta into safe agricultural manure."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Greenhouse Effect and Global Warming: Relative contribution of Greenhouse Gases?",
+      "a": "Greenhouse effect: Naturally occurring thermal phenomenon that keeps Earth surface warm (~15°C instead of freezing -18°C).\nEnhanced Greenhouse Effect causes Global Warming (Earth's temperature rose by 0.6°C in 20th century).\nRelative Contribution of Greenhouse Gases (Pie Chart):\n1. Carbon Dioxide ($CO_2$): 60%\n2. Methane ($CH_4$): 20%\n3. Chlorofluorocarbons (CFCs): 14%\n4. Nitrous Oxide ($N_2O$): 6%\nConsequences: Polar ice cap melting, sea level rise, submerged coastal plains, El Niño weather abnormalities.",
+      "hint": "Memorize the exact gas contribution: $CO_2$ (60%), $CH_4$ (20%), CFCs (14%), $N_2O$ (6%)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Ozone Depletion in Stratosphere: 'Good Ozone' vs 'Bad Ozone' and Dobson Units?",
+      "a": "1. Bad Ozone: Formed in TROPOSPHERE (lower atmosphere); acts as a toxic air pollutant harming plants and animals.\n2. Good Ozone: Present in STRATOSPHERE (upper atmosphere); absorbs lethal UV-B radiation (causes skin cancer, cataracts, DNA damage).\nMeasurement: Thickness of ozone layer is measured in DOBSON UNITS (DU).\nDepletion Mechanism:\n- CFCs released from refrigerators diffuse into stratosphere $\\rightarrow$ UV rays break CFCs, releasing free CHLORINE ($Cl^\\bullet$) atoms.\n- Chlorine acts as a catalyst: $Cl^\\bullet + O_3 \\rightarrow ClO + O_2$; regenerated $Cl$ atom continues to destroy thousands of ozone molecules (Ozone Hole over Antarctica).",
+      "hint": "One single chlorine radical ($Cl^\\bullet$) can catalytically destroy over 100,000 ozone molecules!"
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Montreal Protocol (1987) for Ozone Layer Protection?",
+      "a": "Historic international environmental treaty signed in Montreal, Canada in 1987 (effective in 1989):\n- Aim: Control and phase out the production and consumption of Ozone Depleting Substances (ODS), primarily Chlorofluorocarbons (CFCs), halons, and carbon tetrachloride.\n- Widely hailed as the most successful international environmental treaty in history, resulting in measurable recovery of the Antarctic stratospheric ozone layer.",
+      "hint": "Montreal Protocol = Protection of Stratospheric Ozone layer (signed 1987, effective 1989)."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Deforestation: Causes and Slash & Burn Agriculture (Jhum Cultivation)?",
+      "a": "Deforestation: Conversion of forested areas into non-forest lands (at the start of 20th century, forests covered 30% of India; shrunk to 21.54% by end of century; National Forest Policy 1988 recommends 33% forest cover for plains and 67% for hills).\nJhum Cultivation (Slash and Burn Agriculture) in Northeast India:\n- Farmers cut forest trees, burn the plant remains, and use ash as fertilizer for crop farming.\n- In earlier times, long fallow periods allowed natural forest recovery; with population explosion, repeated cycling without fallow time causes catastrophic deforestation and soil erosion.",
+      "hint": "National Forest Policy (1988) recommends 33% forest cover for plains and 67% for hilly terrain."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "People's Movements in Forest Conservation: Amrita Devi Bishnoi, Chipko Movement, and JFM?",
+      "a": "1. Amrita Devi Bishnoi (1731, Rajasthan): In Khejarli village near Jodhpur, Amrita Devi and her 3 daughters hugged Khejri trees to protect them from king's axe-men; sacrificed their lives along with 363 Bishnois. Govt. of India instituted the 'Amrita Devi Bishnoi National Award for Wildlife Protection'.\n2. Chipko Movement (1974, Garhwal Himalayas): Local women hugged forest trees to prevent commercial logging by contractors (led by Sunderlal Bahuguna).\n3. Joint Forest Management (JFM, 1980s): Govt. initiative partnering with local communities to manage and protect degraded forests; communities receive non-wood forest products in return.",
+      "hint": "Bishnoi movement protected Khejri trees (Prosopis cineraria) in Rajasthan in 1731."
+    },
+    {
+      "id": "c24",
+      "tag": "formula",
+      "q": "Solid Waste Management: Sanitary Landfills and Ahmed Khan's Polyblend?",
+      "a": "1. Sanitary Landfills: Waste dumped in depressions and covered with dirt daily; limitations: seepage of toxic chemicals (leachate) pollutes underground drinking water; methane explosion hazard.\n2. Ahmed Khan's Polyblend (Bangalore, 1998):\n- Developed Polyblend, a fine recycled powder of modified plastic waste.\n- Mixed Polyblend with Bitumen (asphalt) in 1:9 ratio to lay roads.\n- Roads with Polyblend have 3 times longer lifespan and enhanced water-repellent properties, providing a sustainable solution to plastic waste.",
+      "hint": "Ahmed Khan demonstrated that recycled plastic waste (Polyblend) blended with bitumen makes superior roads."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Environmental Years & Milestones Summary Table?",
+      "a": "1. Water (Prevention & Control of Pollution) Act $\\rightarrow$ 1974\n2. Air (Prevention & Control of Pollution) Act $\\rightarrow$ 1981 (Noise included: 1987)\n3. Environment (Protection) Act $\\rightarrow$ 1986\n4. Montreal Protocol signed $\\rightarrow$ 1987 (effective: 1989)\n5. National Forest Policy (33% plains / 67% hills) $\\rightarrow$ 1988\n6. Earth Summit, Rio de Janeiro $\\rightarrow$ 1992\n7. World Summit, Johannesburg $\\rightarrow$ 2002\n8. Chipko Movement $\\rightarrow$ 1974.",
+      "hint": "Guaranteed 1-2 questions in MHT-CET and HSC Board from these exact statutory years!"
+    }
+  ]
+}

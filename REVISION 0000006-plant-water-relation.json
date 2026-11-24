@@ -1,0 +1,183 @@
+{
+  "title": "Plant Water Relation",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Why is water called the 'Elixir of Life' for plants? List 4 unique properties.",
+      "a": "1. Universal solvent with high dielectric constant for metabolic biochemical reactions.\n2. High specific heat and high latent heat of vaporization providing thermal buffering.\n3. High surface tension and strong cohesive/adhesive forces enabling capillary ascent.\n4. Transparent medium allowing sunlight penetration for aquatic photosynthesis.",
+      "hint": "Water constitutes over 90-95% of fresh weight in actively growing herbaceous plant tissues."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "What is Imbibition? Differentiate Imbibant and Imbibate with examples.",
+      "a": "Imbibition: Special type of diffusion where water is absorbed by hydrophilic solid colloids without forming a solution, causing enormous volume increase.\n- Imbibant: The solid hydrophilic substance (e.g. Dry seeds, dry wood, gelatin, agar-agar).\n- Imbibate: The liquid absorbed (water).\nPrerequisites: Water potential gradient and affinity between imbibant and imbibate.",
+      "hint": "Imbibition pressure developed by swelling wood can crack rocks and split boulders!"
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Define Diffusion Pressure Deficit (DPD) and its classic formula.",
+      "a": "DPD (Suction Pressure): The deficit in diffusion pressure of a solution compared to pure water; represents the water-absorbing capacity of a cell.\nFormula: $DPD = OP - TP$\n- In a fully turgid cell: $TP = OP \\Rightarrow DPD = 0$ (cell cannot absorb any more water).\n- In a flaccid cell: $TP = 0 \\Rightarrow DPD = OP$ (maximum water absorption capacity).",
+      "hint": "Water always moves from a cell with LOWER DPD to a cell with HIGHER DPD."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Modern concept of Water Potential ($\\Psi_w$): Definition and equation?",
+      "a": "Water potential ($\\Psi_w$): Chemical potential of water per unit volume; measure of free energy of water molecules (measured in Pascals or bars).\nEquation: $\\Psi_w = \\Psi_s + \\Psi_p + \\Psi_m$\n- Pure water at standard temperature and pressure has maximum $\\Psi_w = 0$ (zero).\n- Solute / Osmotic potential ($\\Psi_s$): Always NEGATIVE.\n- Pressure potential ($\\Psi_p$): Positive in turgid cell (corresponds to Turgor Pressure TP).",
+      "hint": "Water strictly moves from a region of HIGHER (less negative) $\\Psi_w$ to a region of LOWER (more negative) $\\Psi_w$."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Explain Plasmolysis, Incipient Plasmolysis, and Deplasmolysis.",
+      "a": "1. Plasmolysis: Shrinkage of protoplast away from cell wall when a plant cell is placed in a HYPERTONIC solution due to Exosmosis.\n2. Incipient Plasmolysis: The exact initial stage when protoplast just begins to detach from cell wall corners ($TP = 0$).\n3. Deplasmolysis: Swelling of a plasmolysed cell back to turgid state when placed in a HYPOTONIC solution due to Endosmosis.",
+      "hint": "In a fully plasmolysed cell, the space between cell wall and contracted protoplast is filled with the hypertonic external solution!"
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Structure and function of Root Hair in water absorption?",
+      "a": "Unicellular, unbranched tubular outgrowth of an Epiblema / Piliferous layer cell (trichoblast).\nStructure:\n- Outer cell wall layer: Pectin (hydrophilic, adheres to soil water film).\n- Inner cell wall layer: Cellulose (freely permeable).\n- Large central vacuole with concentrated cell sap maintaining low water potential for osmotic water intake.",
+      "hint": "Root hairs are ephemeral and delicate, continuously replaced in the zone of maturation."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Water Pathways in Root Cortex: Apoplast vs Symplast pathway?",
+      "a": "1. Apoplast Pathway: Movement of water exclusively through non-living components (cell walls and intercellular spaces) by bulk flow; fast, non-osmotic; BLOCKED at Endodermis by suberized Casparian strips.\n2. Symplast Pathway: Movement of water through living cytoplasm of interconnected cells via Plasmodesmata; slower, regulated by living protoplasts.",
+      "hint": "Due to impervious suberin in Casparian strips of endodermis, ALL water MUST enter the SYMPLAST pathway to cross into the stele (xylem)!"
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Root Pressure Theory of Ascent of Sap (Priestley) and Guttation?",
+      "a": "Root Pressure: Positive hydrostatic pressure developed in xylem sap due to active absorption of mineral ions and osmotic water influx by roots.\nEvidence:\n1. Exudation / bleeding from cut stump.\n2. Guttation: Loss of liquid water droplets through specialized non-closing pore-openings called Hydathodes on leaf margins in herbaceous plants during humid nights.",
+      "hint": "Root pressure (1-2 atm) is inadequate to push water to the top of tall trees (requires 20-30 atm); its main role is re-establishing broken water columns."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Cohesion-Tension / Transpiration Pull Theory (Dixon and Joly, 1894)?",
+      "a": "Universal, widely accepted physical mechanism for ascent of sap in tall trees:\n1. Cohesion: Enormous tensile strength (up to 300 atm) due to strong mutual attraction between water molecules via hydrogen bonds.\n2. Adhesion: Attraction between water molecules and lignified/cellulosic xylem vessel walls.\n3. Continuous water column: Prevents cavitations/air bubbles (embolism).\n4. Transpiration Pull: Evaporation of water creates negative suction tension ($\\Psi_w$ gradient) pulling water upwards.",
+      "hint": "A continuous unbroken water column is pulled up from roots to leaves like a steel rope under tension."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Types of Transpiration: Stomatal, Cuticular, and Lenticular?",
+      "a": "1. Stomatal Transpiration (90-93%): Occurs through stomata on leaf epidermis; highly regulated by guard cell turgidity.\n2. Cuticular Transpiration (3-10%): Direct diffusion through waxy cuticle; inversely proportional to cuticle thickness; continuous day and night.\n3. Lenticular Transpiration (~0.1%): Minor diffusion through lenticels (aerating pores in bark of woody stems); non-regulated.",
+      "hint": "Stomatal transpiration is physiological and regulatable; cuticular and lenticular are purely physical."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Levitt's Active Potassium ($K^+$) Pump Theory of Stomatal Movement?",
+      "a": "1. Stomatal OPENING (Day / Light):\n- Malic acid dissociates into Malate$^{2-}$ and $H^+$.\n- $H^+/K^+$ ATPase pump actively expels $H^+$ out and pumps $K^+$ and $Cl^-$ into guard cells.\n- High internal $K^+$ and malate lowers water potential ($\\Psi_w$) $\\rightarrow$ Endosmosis $\\rightarrow$ Guard cells become TURGID $\\rightarrow$ Stoma opens.\n2. Stomatal CLOSING (Night / Drought):\n- ABA induces $K^+$ efflux $\\rightarrow$ Exosmosis $\\rightarrow$ Guard cells become FLACCID $\\rightarrow$ Stoma closes.",
+      "hint": "Guard cell walls are unevenly thickened (thick inner inelastic wall, thin elastic outer wall); turgidity forces outer wall outward, opening the pore."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Why did Curtis call Transpiration a 'Necessary Evil'?",
+      "a": "1. 'Necessary': Transpiration creates the pull required for water and mineral transport, provides evaporative cooling to leaves (prevents heat injury), and maintains cell turgidity.\n2. 'Evil': Over 98% of absorbed water is lost to the atmosphere; causes wilting, desiccation, reduced growth, and plant death during severe drought conditions.",
+      "hint": "Stomata must open to admit $CO_2$ for photosynthesis, making unavoidable water vapor loss the inevitable trade-off."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "What are Antitranspirants? Give examples and their applications.",
+      "a": "Chemical substances applied to leaves to reduce transpiration rate without drastically inhibiting $CO_2$ uptake and photosynthesis.\nTypes & Examples:\n1. Metabolic inhibitors / Stomatal closers: Phenylmercuric Acetate (PMA), Abscisic Acid (ABA).\n2. Film-forming agents: Silicone emulsions, Low-viscosity waxes.\n3. Reflecting materials: Kaolin (clay spray reflecting solar radiation).",
+      "hint": "Used in dry-land agriculture, nursery transplantation, and fruit storage to prevent desiccation."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Phloem Translocation: What is Source and Sink relationship?",
+      "a": "Translocation of photoassimilates (sucrose) through sieve tubes of phloem:\n- Source: Part of plant that synthesizes food (e.g. Mature photosynthesizing leaves; or germinating seed / storage tuber in early spring).\n- Sink: Part that requires or stores food (e.g. Roots, fruits, buds, growing shoot tips).\nThe source-sink relationship is DYNAMIC and BIDIRECTIONAL (unlike unidirectional xylem transport).",
+      "hint": "Sucrose is the predominant mobile transport sugar in phloem because it is chemically non-reducing and stable."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Münch's Pressure Flow (Mass Flow) Hypothesis of Phloem Transport?",
+      "a": "Mass flow of organic solutes driven by a hydrostatic turgor pressure gradient:\n1. Phloem Loading (at Source): Active transport of sucrose into companion cells and sieve tubes $\\rightarrow$ Hypertonic condition $\\rightarrow$ Water enters from adjacent xylem $\\rightarrow$ High Turgor Pressure ($TP$).\n2. Mass Flow: High TP pushes sap towards region of low TP.\n3. Phloem Unloading (at Sink): Sucrose actively unloaded and converted to starch $\\rightarrow$ Sieve sap becomes hypotonic $\\rightarrow$ Water exits back to xylem $\\rightarrow$ Low $TP$.",
+      "hint": "Phloem loading and unloading are active processes (require ATP); the flow within sieve tubes is passive mass flow."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Ringing (Girdling) Experiment: Procedure and significance (Hartig & Malpighi)?",
+      "a": "A ring of bark (containing phloem, cortex, and epidermis) is carefully removed from a woody stem down to the cambium layer, leaving xylem intact.\nObservations:\n1. After few weeks, the bark ABOVE the girdle swells due to accumulated sugars and auxins.\n2. Growth below girdle stops, and roots die first of starvation.\nSignificance: Proves PHLOEM is the tissue responsible for downward transport of food.",
+      "hint": "Monocots cannot be girdled because their vascular bundles are scattered throughout the ground tissue."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Hydroponics: Definition, founder, and practical applications?",
+      "a": "Technique of growing plants in a defined, aerated nutrient solution without soil (Soil-less culture), pioneered by Julius von Sachs (1860).\nApplications:\n1. Identifying essential mineral elements and their specific deficiency symptoms.\n2. Commercial production of high-value vegetables (Tomatoes, Seedless Cucumbers, Lettuce).\n3. Eliminates soil-borne pathogens and allows precise pH and nutrient control.",
+      "hint": "Adequate aeration of the nutrient solution is strictly essential to prevent root asphyxiation."
+    },
+    {
+      "id": "c18",
+      "tag": "formula",
+      "q": "Criteria for Essentiality of Nutrients (Arnon and Stout, 1939)?",
+      "a": "3 Strict Criteria:\n1. The plant cannot complete its vegetative or reproductive life cycle without the element.\n2. The requirement is absolutely specific and cannot be replaced by any other element.\n3. The element is directly involved in the nutrition and metabolism of the plant (e.g. as constituent of biomolecules or enzyme cofactor).",
+      "hint": "Exactly 17 elements are recognized as essential for higher plants."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Classification of Essential Elements: Macronutrients vs Micronutrients?",
+      "a": "Total 17 essential elements:\n1. Macronutrients (>10 mmole/kg of dry matter; 9 elements): C, H, O (framework elements from $CO_2$ and $H_2O$), N, P, K, Ca, Mg, S.\n2. Micronutrients (<10 mmole/kg of dry matter; 8 elements): Fe, Mn, Cu, Zn, B, Mo, Cl, Ni.",
+      "hint": "Mnemonic for Micronutrients: 'Fe-Mn-Cu-Zn-B-Mo-Cl-Ni' (Iron, Manganese, Copper, Zinc, Boron, Molybdenum, Chlorine, Nickel)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Key Physiological Roles of Nitrogen, Phosphorus, and Potassium (NPK)?",
+      "a": "1. Nitrogen (N): Constituent of proteins, nucleic acids, chlorophyll, and vitamins; absorbed as $NO_3^-$ or $NH_4^+$.\n2. Phosphorus (P): Constituent of cell membranes (phospholipids), nucleic acids, ATP/NADPH, and phosphorylation reactions; absorbed as $H_2PO_4^-$ or $HPO_4^{2-}$.\n3. Potassium (K): Maintains osmotic anion-cation balance ($K^+/Na^+$), essential for stomatal opening/closing, activates protein synthesis enzymes.",
+      "hint": "Potassium ($K^+$) is never incorporated into structural organic compounds; it acts as a free ionic regulator."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Key Roles and Specific Deficiency Symptoms of Calcium and Magnesium?",
+      "a": "1. Calcium (Ca): Constituent of Middle Lamella as Calcium Pectate; needed for mitotic spindle formation; deficiency causes necrosis of growing meristematic shoot/root tips (immobile element).\n2. Magnesium (Mg): Central ring atom of Chlorophyll porphyric head; activates RuBisCO and PEPcase; maintains ribosome subunit integrity; deficiency causes Interveinal Chlorosis in older leaves.",
+      "hint": "Chlorophyll molecule contains one single atom of Magnesium ($Mg^{2+}$) at its core."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Specific Roles of Micronutrients: Zinc, Boron, and Molybdenum?",
+      "a": "1. Zinc (Zn): Activates Carbonic anhydrase and Alcohol dehydrogenase; essential for BIOSYNTHESIS OF AUXIN (IAA from tryptophan); deficiency causes 'Little leaf disease'.\n2. Boron (B): Required for Pollen germination, pollen tube elongation, carbohydrate translocation via borate complexes, and $Ca^{2+}$ uptake; deficiency causes brown heart rot.\n3. Molybdenum (Mo): Essential cofactor of Nitrogenase and Nitrate reductase in nitrogen metabolism; deficiency causes 'Whiptail disease' of cauliflower.",
+      "hint": "Zinc is required for auxin synthesis; Boron is mandatory for pollen tube germination!"
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Chlorosis vs Necrosis: Definitions, causes, and mobile vs immobile elements?",
+      "a": "Chlorosis: Loss of chlorophyll leading to yellowing of leaves (caused by deficiency of N, K, Mg, S, Fe, Mn, Zn, Mo).\nNecrosis: Death of localized leaf tissues/spots (caused by deficiency of Ca, Mg, Cu, K).\n- Mobile elements (N, P, K, Mg): Deficiency symptoms appear FIRST in OLDER senescent leaves (salvaged to young leaves).\n- Immobile elements (Ca, S): Deficiency symptoms appear FIRST in YOUNGER leaves.",
+      "hint": "Magnesium deficiency shows chlorosis in old leaves first; Iron deficiency shows chlorosis in young leaves first!"
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Biological Nitrogen Fixation: Nitrogenase Enzyme and Leghaemoglobin?",
+      "a": "Symbiotic fixation by Rhizobium leguminosarum in legume root nodules:\n- Nitrogenase: Highly oxygen-sensitive Mo-Fe protein complex catalyzing reduction of atmospheric $N_2$ to $NH_3$.\n- Leghaemoglobin: Pink-red pigment acting as an 'Oxygen Scavenger', binding free $O_2$ to maintain an anaerobic micro-environment inside bacteroids while allowing host respiration.",
+      "hint": "Nitrogenase is irreversibly inactivated by molecular oxygen ($O_2$); leghaemoglobin protects it."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "Biochemical Equation and Energetics of Biological Nitrogen Fixation?",
+      "a": "Equation:\n$N_2 + 8e^- + 8H^+ + 16 ATP \\xrightarrow{\\text{Nitrogenase}} 2 NH_3 + H_2 + 16 ADP + 16 Pi$\nKey Energetics:\n- Production of 1 molecule of $NH_3$ requires 8 ATP molecules.\n- Production of 2 molecules of $NH_3$ from 1 $N_2$ requires 16 ATP molecules!\nHigh ATP cost supplied by respiration of host legume.",
+      "hint": "MHT-CET Trap: 8 ATP per $NH_3$ produced, but 16 ATP per $N_2$ molecule fixed!"
+    }
+  ]
+}

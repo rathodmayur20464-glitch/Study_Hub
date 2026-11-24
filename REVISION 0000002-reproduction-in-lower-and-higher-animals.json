@@ -1,0 +1,183 @@
+{
+  "title": "Reproduction in Lower and Higher Animals",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Modes of asexual reproduction in animals: Gemmules, Budding, and Regeneration?",
+      "a": "1. Gemmule formation: Internal asexual buds consisting of archaeocytes enclosed in a protective spicule coat; formed during harsh conditions (e.g. Spongilla / freshwater sponge).\n2. Budding: External outgrowth that detaches into a new individual (e.g. Hydra).\n3. Regeneration: Regrowth of complete organism from body fragment (e.g. Planaria).",
+      "hint": "Archaeocytes in sponge gemmules are totipotent cells capable of forming any cell type."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Histology of Testis: Functions of Seminiferous Tubules, Sertoli Cells, and Leydig Cells?",
+      "a": "1. Seminiferous tubules: Lined by germinal epithelium; site of spermatogenesis.\n2. Sertoli cells (Nurse cells): Provide nutrition, structural support to developing spermatozoa, secrete ABP (Androgen Binding Protein), and secrete Inhibin (suppresses FSH).\n3. Leydig (Interstitial) cells: Located in connective tissue between tubules; synthesize and secrete Androgens (Testosterone).",
+      "hint": "Cryptorchidism: Failure of testes to descend into scrotum leading to sterility due to high core body temperature."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Trace the pathway of sperm transport through male accessory ducts.",
+      "a": "Seminiferous tubules $\\rightarrow$ Rete testis $\\rightarrow$ Vasa efferentia (12-20 ciliated ductules) $\\rightarrow$ Epididymis (Caput $\\rightarrow$ Corpus $\\rightarrow$ Cauda: site of physiological sperm maturation and storage) $\\rightarrow$ Vas deferens $\\rightarrow$ Ejaculatory duct (receives seminal vesicle duct) $\\rightarrow$ Urethra.",
+      "hint": "Vasectomy involves cutting and ligating a small segment of the vas deferens, blocking sperm transport without affecting hormone levels."
+    },
+    {
+      "id": "c4",
+      "tag": "imp",
+      "q": "Functions and secretions of the three male accessory sex glands?",
+      "a": "1. Seminal Vesicles (paired, ~60% semen): Alkaline secretion rich in Fructose (energy for sperms), Fibrinogen, and Prostaglandins (stimulate uterine contractions).\n2. Prostate Gland (single, ~30% semen): Milky slightly acidic fluid containing Citric acid, Acid phosphatase, and Amylase; activates sperm motility.\n3. Cowper's / Bulbourethral Glands (paired): Clear, viscous, alkaline mucus that lubricates the urethra and neutralizes residual urine acidity.",
+      "hint": "Presence of fructose in female genital tract is forensic proof of sexual intercourse (rape detection)."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Histology of Ovary: Sequence of Follicular Development?",
+      "a": "Primordial follicle $\\rightarrow$ Primary follicle (primary oocyte surrounded by granulosa cells) $\\rightarrow$ Secondary follicle (theca layer develops, antral fluid appears) $\\rightarrow$ Tertiary follicle (antrum forms, theca divides into theca interna & externa) $\\rightarrow$ Mature Graafian follicle (secondary oocyte surrounded by zona pellucida and corona radiata).",
+      "hint": "At birth, human ovaries contain ~2 million primary oocytes, reduced to ~40,000 at puberty (follicular atresia)."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Structure of a mature Graafian Follicle?",
+      "a": "1. Outer Theca externa (fibrous) and inner Theca interna (vascular, secretes Estrogen).\n2. Membrana granulosa lining the follicular wall.\n3. Antrum: Fluid-filled cavity containing Liquor folliculi.\n4. Cumulus oophorus (discus proligerus): Granulosa mound holding the secondary oocyte.\n5. Oocyte coats: Non-cellular Zona pellucida (glycoprotein) and radially arranged Corona radiata.",
+      "hint": "The secondary oocyte expelled at ovulation remains arrested at Metaphase II of meiosis."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Spermatogenesis: Stages, ploidy levels, and hormone regulation?",
+      "a": "1. Multiplication phase: Spermatogonia (2n) divide mitotically.\n2. Growth phase: Form Primary spermatocytes (2n).\n3. Maturation phase: Meiosis I produces 2 Secondary spermatocytes (n); Meiosis II produces 4 Spermatids (n).\n4. Spermiogenesis: Transformation of non-motile round spermatids into flagellated Spermatozoa (n).\nHormones: GnRH $\\rightarrow$ LH acts on Leydig cells (Testosterone); FSH acts on Sertoli cells (ABP & Inhibin).",
+      "hint": "1 Primary spermatocyte (2n) yields 4 functional spermatozoa (n)."
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Structure of Human Sperm: 4 parts and their specialized features?",
+      "a": "1. Head: Contains elongated haploid nucleus and Acrosome (derived from Golgi complex; contains sperm lysins: hyaluronidase and acrosin).\n2. Neck: Contains proximal centriole (initiates cleavage) and distal centriole (forms axial filament).\n3. Middle piece: Spiral arrangement of mitochondria (Nebenkern) producing ATP for motility.\n4. Tail: Long flagellum with 9+2 microtubule axoneme.",
+      "hint": "Normal human ejaculate is 2-4 mL with 200-300 million sperms; at least 60% must have normal shape and 40% vigorous motility."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Oogenesis: How does it differ fundamentally from Spermatogenesis?",
+      "a": "1. Oogenesis begins during embryonic development (no new oogonia form after birth).\n2. Meiosis I initiates in fetus but is arrested at Diplotene of Prophase I until puberty.\n3. Meiotic divisions are unequal, producing 1 large functional Ovum (oocyte) and 2-3 small non-functional Polar bodies.\n4. Meiosis II arrests at Metaphase II and completes ONLY when sperm penetrates the egg.",
+      "hint": "1 Primary oocyte yields only 1 functional ovum + polar bodies (unlike spermatocyte which yields 4 sperms)."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Menstrual Cycle: Phase 1 (Menstrual) and Phase 2 (Proliferative / Follicular)?",
+      "a": "1. Menstrual Phase (Days 1-5): Breakdown of functional stratum of endometrium due to sharp drop in Progesterone and Estrogen. Bleeding (35-45 mL) contains blood, tissue fluid, and unfertilized ovum.\n2. Proliferative Phase (Days 6-13): Driven by FSH; follicles grow in ovary and secrete Estrogen. Estrogen repairs endometrium (thickens to 3-5 mm, glands elongate, vascularity increases).",
+      "hint": "Withdrawal of progesterone is the immediate trigger causing menstrual bleeding."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Menstrual Cycle: Phase 3 (Ovulatory) and Phase 4 (Secretory / Luteal)?",
+      "a": "3. Ovulatory Phase (Day 14): LH Surge (rapid LH peak) triggers rupture of Graafian follicle and release of secondary oocyte into pelvic cavity.\n4. Secretory / Luteal Phase (Days 15-28): Ruptured follicle converts to yellow Corpus Luteum under LH, secreting high Progesterone. Endometrium becomes secretory (glands coiled, corkscrew-shaped, bed prepared for implantation).",
+      "hint": "If fertilization fails, corpus luteum degenerates into white scar tissue called Corpus Albicans."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Fertilization: Capacitation and Acrosome Reaction mechanism?",
+      "a": "1. Capacitation (5-6 hours in female reproductive tract): Removal of cholesterol and acrosomal membrane stabilizing factors; enhances $Ca^{2+}$ influx and sperm motility.\n2. Acrosome Reaction: Release of Hyaluronidase (dissolves hyaluronic acid cementing corona radiata) and Corona Penetrating Enzyme + Acrosin/Zona lysin (digests zona pellucida).",
+      "hint": "Fertilization typically occurs in the Ampulla of the Fallopian tube."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Blocks to Polyspermy: Fast block vs Slow block?",
+      "a": "1. Fast Block (Electrical): Depolarization of egg plasma membrane from -70 mV to +20 mV via rapid $Na^+$ influx upon first sperm fusion (lasts 1-2 minutes).\n2. Slow Block (Cortical Reaction): Influx of $Ca^{2+}$ triggers exocytosis of cortical granules into perivitelline space; enzymes harden the zona pellucida into a fertilization membrane, permanently inactivating ZP3 receptors.",
+      "hint": "Fast block is transient; slow block (cortical/zona reaction) is permanent and prevents polyspermy."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Early Embryonic Cleavage: Morula to Blastocyst?",
+      "a": "Cleavage is holoblastic, unequal, and indeterminate.\n- Day 3: Solid ball of 16-32 cells resembling mulberry = Morula.\n- Day 4-5: Fluid enters forming a central cavity (blastocoel) = Blastocyst.\n- Blastocyst consists of an outer protective single layer (Trophoblast $\\rightarrow$ forms chorion/placenta) and an Inner Cell Mass (Embryoblast $\\rightarrow$ forms embryo proper).",
+      "hint": "During cleavage, cell number increases while overall embryonic size remains constant (cells become progressively smaller blastomeres)."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Implantation and Gastrulation: Essential steps and timeline?",
+      "a": "Implantation: Blastocyst attaches to uterine endometrium via trophoblastic enzyme lysis around Day 7 and is completely embedded by Day 10.\nGastrulation: Morphogenetic movement of blastomeres transforming blastocyst into a 3-layered embryo (Ectoderm, Mesoderm, Endoderm).",
+      "hint": "Human embryonic stem cells are derived from the inner cell mass (embryoblast) of the blastocyst."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Fate of the 3 Primary Germ Layers: Key tissue derivatives?",
+      "a": "1. Ectoderm: Epidermis of skin, hair, nails, nervous system (brain, spinal cord), retina, lens, enamel of teeth, adrenal medulla.\n2. Mesoderm: Dermis of skin, muscles, skeleton, circulatory system (heart, blood vessels, blood), kidneys, gonads, adrenal cortex.\n3. Endoderm: Gut epithelial lining (GI tract), respiratory tract, liver, pancreas, thyroid, parathyroid, thymus.",
+      "hint": "Adrenal cortex is mesodermal; adrenal medulla is ectodermal (neuroectoderm) in origin."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Human Placenta: Type, structure, and endocrine hormones?",
+      "a": "Human placenta is Hemochorial, Metadiscoidal, and Deciduate.\nHormones secreted:\n1. hCG (Human Chorionic Gonadotropin): Maintains corpus luteum; basis of urine pregnancy test (Gravindex).\n2. hPL (Human Placental Lactogen): Regulates maternal glucose and stimulates mammary glands.\n3. Progesterone & Estrogen: Maintain pregnancy and suppress ovulation.\n4. Relaxin (secreted by ovary/placenta): Relaxes pubic symphysis for parturition.",
+      "hint": "hCG, hPL, and relaxin are produced ONLY during pregnancy in human females."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Mechanism of Parturition: Fetal Ejection Reflex and Oxytocin?",
+      "a": "Parturition is a neuroendocrine reflex:\n1. Fully formed fetus and placenta induce mild uterine contractions (Fetal Ejection Reflex).\n2. Signals maternal pituitary to release Oxytocin.\n3. Oxytocin acts on uterine myometrium, causing stronger contractions $\\rightarrow$ more oxytocin release (positive feedback loop) $\\rightarrow$ expulsion of baby through birth canal.",
+      "hint": "Dilation of cervix (Ferguson reflex) increases oxytocin release exponentially until birth."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Colostrum: Definition and immunological significance?",
+      "a": "The yellowish, thick first milk secreted by mammary glands during the initial 2-3 days postpartum.\nRich in proteins, minerals, and vitamins, but low in fat.\nCritically packed with secretory IgA antibodies providing passive natural immunity to the newborn against gut and respiratory infections.",
+      "hint": "Colostrum contains abundant IgA antibodies; do not confuse with IgG (which crosses placenta)."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Barrier and Intrauterine Contraceptive Devices (IUDs) with examples?",
+      "a": "1. Barriers: Condoms (Nirodh: prevents STDs), Diaphragms, Cervical caps.\n2. IUDs (inserted into uterus):\n- Non-medicated: Lippes loop (promotes phagocytosis of sperms).\n- Copper-releasing: CuT, Cu7, Multiload 375 (Cu ions suppress sperm motility and fertilizing capacity).\n- Hormone-releasing: Progestasert, LNG-20 (make uterus unsuitable for implantation and cervix hostile to sperms).",
+      "hint": "LNG-20 releases levonorgestrel; CuT is the most widely accepted contraceptive method for spacing in India."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Oral Contraceptive Pills and Surgical Methods of Birth Control?",
+      "a": "Oral Pills: Contain synthetic Progestogen or Estrogen-Progestin combination; inhibit ovulation and alter cervical mucus (e.g. Saheli: non-steroidal, once-a-week pill developed by CDRI Lucknow, containing Centchroman).\nSurgical sterilization (Terminal/Permanent):\n- Vasectomy: Cutting and ligating vas deferens in males.\n- Tubectomy: Cutting and ligating fallopian tubes in females.",
+      "hint": "Saheli is a Selective Estrogen Receptor Modulator (SERM) with minimal side effects."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Medical Termination of Pregnancy (MTP) and Amniocentesis guidelines?",
+      "a": "MTP (Induced Abortion): Legalized in India in 1971 with conditions to prevent misuse. Safe up to 12 weeks (1st trimester); requires 2 registered doctors' approval for 12-20 weeks.\nAmniocentesis: Prenatal diagnostic test using amniotic fluid to detect fetal chromosomal/genetic disorders (e.g. Down syndrome); legally banned for sex determination under PC-PNDT Act (1994) to curb female foeticide.",
+      "hint": "Amniotic fluid contains fetal skin cells that can be karyotyped to analyze chromosomal complement."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Sexually Transmitted Infections (STIs): Causative agents and characteristics?",
+      "a": "1. Syphilis: Treponema pallidum (bacterium); causes painless chancre, skin rash, gumma; treated with penicillin.\n2. Gonorrhea: Neisseria gonorrhoeae (bacterium); painful urination, purulent urethral discharge.\n3. Genital Herpes: Herpes Simplex Virus (HSV-2); painful blistering ulcers; incurable.\n4. Genital Warts: Human Papillomavirus (HPV); benign cauliflower-like growths; linked to cervical cancer.",
+      "hint": "Hepatitis B, HIV, and Genital Herpes are STIs that cannot be cured with antibiotics."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Assisted Reproductive Technologies (ART): IVF, ZIFT, GIFT, and ICSI?",
+      "a": "1. IVF-ET (In Vitro Fertilization & Embryo Transfer): Test tube baby; egg and sperm fertilized in lab.\n2. ZIFT (Zygote Intra-Fallopian Transfer): Zygote or early embryo up to 8 blastomeres transferred into fallopian tube.\n3. IUT (Intra-Uterine Transfer): Embryo with >8 blastomeres transferred directly into uterus.\n4. GIFT (Gamete Intra-Fallopian Transfer): Transfer of unfertilized ovum collected from donor into fallopian tube of recipient female.\n5. ICSI (Intra-Cytoplasmic Sperm Injection): Single sperm directly injected into ovum cytoplasm.",
+      "hint": "GIFT does NOT involve in vitro fertilization; fertilization occurs naturally in vivo inside the fallopian tube."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Trap: How many sperms and ova are produced from 50 primary spermatocytes and 50 primary oocytes?",
+      "a": "1 Primary spermatocyte $\\rightarrow$ 4 Sperms $\\Rightarrow 50 \\times 4 = 200$ Sperms.\n1 Primary oocyte $\\rightarrow$ 1 functional Ovum (+ 3 polar bodies) $\\Rightarrow 50 \\times 1 = 50$ Ova.\nTotal gametes produced = 200 sperms and 50 ova.",
+      "hint": "Classic MHT-CET numerical! Always distinguish between spermatocytes (x4) and oocytes (x1)."
+    }
+  ]
+}

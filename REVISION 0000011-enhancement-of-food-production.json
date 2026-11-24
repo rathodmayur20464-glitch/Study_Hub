@@ -1,0 +1,183 @@
+{
+  "title": "Enhancement of Food Production",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Plant Breeding? List the 5 sequential steps in developing a new crop variety.",
+      "a": "Plant breeding is the purposeful manipulation of plant species to create desired genotypes and phenotypes for higher yield, disease resistance, and quality.\n5 Steps:\n1. Collection of variability (Germplasm Collection - basis of all breeding).\n2. Evaluation and selection of parents.\n3. Cross hybridization among the selected parents.\n4. Selection and testing of superior recombinants (self-pollination for homozygosity).\n5. Testing, release, and commercialization of new cultivars.",
+      "hint": "Germplasm collection represents the entire collection of all diverse alleles for all genes in a crop."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Green Revolution Varieties: Wheat, Rice, and Sugarcane in India?",
+      "a": "1. Wheat: Semi-dwarf varieties developed by Norman Borlaug at CIMMYT Mexico; introduced in India (1963) as Sonalika and Kalyan Sona.\n2. Rice: Semi-dwarf varieties derived from IR-8 (IRRI Philippines) and Taichung Native-1 (Taiwan); later bred in India as Jaya and Ratna.\n3. Sugarcane: High-sugar, thick-stemmed tropical noble cane of South India (Saccharum officinarum) successfully crossed with poor-sugar, hardy North Indian cane (Saccharum barberi) to yield high-sugar, thick-stemmed northern varieties.",
+      "hint": "M.S. Swaminathan is recognized as the Father of the Green Revolution in India."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Disease Resistant Crop Varieties (Maharashtra Board & MHT-CET Table)?",
+      "a": "1. Wheat $\\rightarrow$ Variety: Himgiri $\\rightarrow$ Resistant to: Leaf and stripe rust, hill bunt.\n2. Brassica (Karan rai) $\\rightarrow$ Variety: Pusa Swarnim $\\rightarrow$ Resistant to: White rust.\n3. Cauliflower $\\rightarrow$ Varieties: Pusa Shubhra & Pusa Snowball K-1 $\\rightarrow$ Resistant to: Black rot and curl blight black rot.\n4. Cowpea $\\rightarrow$ Variety: Pusa Komal $\\rightarrow$ Resistant to: Bacterial blight.\n5. Chilli $\\rightarrow$ Variety: Pusa Sadabahar $\\rightarrow$ Resistant to: Chilli mosaic virus, tobacco mosaic virus, leaf curl.",
+      "hint": "Parbhani Kranti is a yellow vein mosaic virus resistant variety of Bhindi (Abelmoschus esculentus) transferred from a wild species."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Mutation Breeding: Principle and the classic Mung Bean example?",
+      "a": "Inducing mutations artificially in crops using physical mutagens (Gamma rays, X-rays, UV rays) or chemical mutagens (EMS - Ethyl Methane Sulfonate, Sodium Azide), followed by screening and selection of desirable mutants.\nClassic Example:\nIn Mung bean (Vigna radiata), resistance to Yellow Mosaic Virus (YMV) and Powdery Mildew was successfully induced and selected using Gamma radiation.",
+      "hint": "Mutation breeding creates new genetic variability when natural germplasm lacks the desired trait."
+    },
+    {
+      "id": "c5",
+      "tag": "imp",
+      "q": "Biofortification: Definition, objectives, and successful examples?",
+      "a": "Breeding crops with higher levels of vitamins, minerals, proteins, and healthier fats to combat 'Hidden Hunger'.\nObjectives: Improve protein content/quality, oil content/quality, vitamin content, micronutrient/mineral content.\nExamples:\n1. Maize hybrids (2000): Possess double the amount of essential amino acids Lysine and Tryptophan.\n2. Wheat variety Atlas 66: High protein content, used as donor for wheat improvement.\n3. Iron-fortified Rice: Contains 5 times more iron than common varieties.\n4. IARI New Delhi: Vitamin A enriched carrots, spinach, pumpkin; Vitamin C enriched bitter gourd, mustard.",
+      "hint": "Hidden Hunger: Chronic micronutrient (iron, zinc, vitamin A, iodine) deficiency affecting over 2 billion people globally."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Plant Tissue Culture: Totipotency, Explant, and MS Medium?",
+      "a": "Technique of growing and maintaining plant cells, tissues, or organs in sterile in vitro culture on a nutrient medium.\n- Totipotency: The intrinsic capacity of a living nucleated plant cell to regenerate into a whole new plant (Gottlieb Haberlandt, 1902 - Father of tissue culture).\n- Explant: Any excised plant part (shoot tip, leaf, embryo, anther) used to initiate culture.\n- Nutrient Medium: Murashige and Skoog (MS) medium containing inorganic salts, sucrose (carbon source), vitamins, amino acids, and balanced growth regulators (Auxin and Cytokinin).",
+      "hint": "Autoclaving at 121°C and 15 psi pressure for 15-20 minutes ensures absolute medium sterility."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Micropropagation, Somaclones, and Meristem Culture for Virus-Free Plants?",
+      "a": "1. Micropropagation: Rapid in vitro propagation of thousands of plants in a short duration via tissue culture.\n2. Somaclones: Plants produced through micropropagation that are genetically identical to the original parent plant (e.g. commercial Tomato, Banana, Apple).\n3. Meristem Culture (Shoot Apical Meristem): Used to recover healthy, virus-free plants from virus-infected mother plants (because apical meristems lack vascular connection and have high auxin and rapid cell division, making them virus-free; e.g. Banana, Sugarcane, Potato).",
+      "hint": "Even if the entire plant is heavily diseased with a systemic virus, its apical meristem remains completely virus-free!"
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Somatic Hybridization (Protoplast Fusion) and the Pomato?",
+      "a": "Isolation of naked protoplasts from two different plant varieties by digesting cell walls with Cellulase and Pectinase enzymes, followed by their induced fusion using Polyethylene Glycol (PEG) or electric fields (Electrofusion) to form a Somatic Hybrid.\nExample: Pomato (fusion of Potato and Tomato protoplasts).\nLimitation: Pomato failed commercially because it lacked the optimal combination of desirable agricultural traits from both parents.",
+      "hint": "Protoplast is a plant cell stripped completely of its outer cellulosic cell wall."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Single Cell Protein (SCP): Concept, microbial sources, and benefits?",
+      "a": "Biomass of dried, purified cells of microorganisms used as protein-rich food or animal feed supplements.\nMicrobial Sources:\n1. Spirulina: Blue-green alga (cyanobacterium) grown easily on waste water from potato processing, straw, and molasses; rich in proteins (60-70%), minerals, vitamins, and essential fatty acids.\n2. Methylophilus methylotrophus: 250 g of this bacterium can theoretically produce 25 tonnes of protein per day due to high growth rate and biomass production.\n3. Mushrooms (Agaricus bisporus), Yeast (Candida utilis).",
+      "hint": "SCP production utilizes agricultural waste, drastically reducing environmental pollution while solving malnutrition."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Animal Breeding: Inbreeding vs Outbreeding methods?",
+      "a": "1. Inbreeding: Mating of closely related individuals within the same breed for 4-6 generations. Increases homozygosity, exposes harmful recessive genes (eliminated by selection); prolonged inbreeding causes Inbreeding Depression (reduced fertility and productivity; relieved by outcrossing).\n2. Outbreeding: Mating of unrelated animals:\n- Outcrossing: Mating of animals within the SAME breed having NO common ancestors for 4-6 generations (best method to overcome inbreeding depression).\n- Cross-breeding: Superior males of one breed mated with superior females of another breed (e.g. Hisardale sheep: Bikaneri ewes $\\times$ Marino rams).\n- Interspecific Hybridization: Mating of two different species (e.g. Mule = Male Donkey $\\times$ Female Horse).",
+      "hint": "Hisardale is a famous cross-bred sheep variety developed in Punjab."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Multiple Ovulation Embryo Transfer (MOET) Technology in cattle?",
+      "a": "Program for herd improvement:\n1. Cow is administered hormones with FSH-like activity to induce follicular maturation and Superovulation (produces 6-8 eggs per cycle instead of normal 1).\n2. Cow is artificially inseminated with semen from an elite bull.\n3. Fertilized embryos at 8 to 32-cell stage are recovered non-surgically.\n4. Embryos are transferred into Surrogate mothers (foster cows); genetic mother is ready for another round of superovulation.",
+      "hint": "MOET massively multiplies high-yielding cattle herds in a short timeframe."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Economic Importance of Apiculture, Sericulture, and Lac Culture?",
+      "a": "1. Apiculture (Beekeeping): Maintenance of honeybee colonies (Apis mellifera, Apis indica). Produces Honey (high nutritional/medicinal value) and Beeswax (used in cosmetics and polishes); bees are premier pollinators for sunflower, mustard, apple.\n2. Sericulture: Commercial rearing of Silkworm (Bombyx mori) feeding on Mulberry leaves to produce natural Mulberry Silk (fibroin protein).\n3. Lac Culture: Rearing of Lac insect (Laccifer lacca / Kerria lacca) on host trees (Palas, Ber, Kusum) to harvest resinous secretion called Lac (used in sealing wax, varnishes, bangles).",
+      "hint": "Apis mellifera is the European bee widely cultivated for high commercial honey yield."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Microbes in Household Food Processing: Curd, Bread, and Toddy?",
+      "a": "1. Curd: Inoculated with starter/inoculum containing Lactic Acid Bacteria (LAB / Lactobacillus acidophilus); LAB converts lactose into lactic acid, coagulates milk protein (casein), and improves nutritional quality by boosting Vitamin $B_{12}$.\n2. Bread: Leavened and fermented using Baker's Yeast (Saccharomyces cerevisiae); release of $CO_2$ gas causes dough to puff up and become porous.\n3. Toddy: Traditional fermented beverage of South India made by fermenting sap from palm trees using wild yeasts.",
+      "hint": "LAB in the human stomach plays a beneficial role in checking disease-causing pathogenic microbes."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Microbes in Industrial Production of Organic Acids (MHT-CET Match Table)?",
+      "a": "1. Citric Acid $\\rightarrow$ Aspergillus niger (fungus).\n2. Acetic Acid (Vinegar) $\\rightarrow$ Acetobacter aceti (bacterium).\n3. Butyric Acid $\\rightarrow$ Clostridium butyricum (bacterium).\n4. Lactic Acid $\\rightarrow$ Lactobacillus bulgaricus (bacterium).\n5. Gluconic Acid $\\rightarrow$ Aspergillus niger.",
+      "hint": "Frequently tested matching question: Citric acid comes from fungus Aspergillus niger, NOT a bacterium!"
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Microbial Bioactive Molecules: Cyclosporin A, Statins, and Streptokinase?",
+      "a": "1. Cyclosporin A: Produced by the fungus Trichoderma polysporum; acts as a potent Immunosuppressive agent used in organ transplant patients to prevent graft rejection.\n2. Statins: Produced by the yeast Monascus purpureus; acts as a Blood Cholesterol Lowering Agent by competitively inhibiting the enzyme HMG-CoA reductase (essential for cholesterol synthesis).\n3. Streptokinase ('Clot Buster'): Produced by bacterium Streptococcus and modified by genetic engineering; dissolves blood clots inside vessels of myocardial infarction patients.",
+      "hint": "Cyclosporin A from Trichoderma polysporum; Statins from Monascus purpureus; Streptokinase from Streptococcus."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Industrial Enzymes produced by Microbes: Lipases, Pectinases, and Proteases?",
+      "a": "1. Lipases (from Candida lipolytica): Used in detergent formulations to remove oily and greasy stains from laundry.\n2. Pectinases and Proteases (from Aspergillus niger, Byssochlamys fulva): Used commercially to clarify and clear bottled fruit juices (removes cloudiness caused by pectin and proteins).\n3. Streptokinase: Used clinically as a clot buster.\n4. Amylases: Used in textile and paper industries for starch desizing.",
+      "hint": "Bottled fruit juices bought from stores are clearer than homemade juices due to pectinase treatment."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Sewage Treatment: Primary (Physical) Treatment vs Secondary (Biological) Treatment?",
+      "a": "1. Primary Treatment (Physical separation):\n- Sequential Filtration: Removes floating debris.\n- Sedimentation: In primary settling tank, grit (soil and pebbles) settles down as Primary Sludge; supernatant forms Primary Effluent.\n2. Secondary Treatment (Biological):\n- Primary effluent enters large Aeration Tanks where vigorous agitation promotes aerobic microbes to form FLOCS (masses of bacteria associated with fungal filaments).\n- Microbes consume organic matter, drastically reducing BOD (Biochemical Oxygen Demand).\n- Effluent passed to Settling tank where flocs settle as Activated Sludge.",
+      "hint": "BOD (Biochemical Oxygen Demand) measures the organic pollution load; higher BOD = more polluted water."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Anaerobic Sludge Digesters and Biogas Production?",
+      "a": "Major part of activated sludge is pumped into Anaerobic Sludge Digesters:\n- Anaerobic methanogenic bacteria (Methanobacterium) digest the aerobic bacteria and fungi.\n- Produces BIOGAS (mixture of gases: Methane $CH_4$ ~50-70%, Carbon dioxide $CO_2$ ~30-40%, with traces of $H_2S$ and $H_2$).\n- Biogas is inflammable, clean, and used for lighting and cooking in rural areas (Gobar Gas plant designed by KVIC and IARI).",
+      "hint": "Methanogens are obligate anaerobes found naturally in the rumen of cattle and in anaerobic sewage sludge."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Microbes as Biocontrol Agents: Bt, Trichoderma, and Baculoviruses?",
+      "a": "Biological control of plant pests without synthetic toxic pesticides:\n1. Bacillus thuringiensis (Bt): Produces crystalline Cry endotoxin protein; spores mixed with water and sprayed on Brassica and fruit trees; caterpillars ingest spores $\\rightarrow$ toxin dissolves in alkaline gut, killing larvae.\n2. Trichoderma: Free-living soil fungus prevalent in root ecosystems; acts as effective biocontrol agent against several fungal soil-borne plant pathogens.\n3. Baculoviruses (Genus Nucleopolyhedrovirus - NPV): Excellent pathogens attacking insects and arthropods; species-specific, narrow spectrum; zero negative impacts on plants, birds, mammals, or beneficial non-target insects (ideal for IPM programs).",
+      "hint": "Baculoviruses have narrow-spectrum insecticidal applications and preserve non-target beneficial insects."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Microbes as Biofertilizers: Free-living vs Symbiotic vs Cyanobacteria?",
+      "a": "Biofertilizers enrich the nutrient quality of soil via biological nitrogen fixation:\n1. Symbiotic Bacteria: Rhizobium in root nodules of leguminous plants.\n2. Free-living Bacteria: Azotobacter (aerobic), Clostridium (anaerobic), Azospirillum (associative symbiosis in rhizosphere of cereals).\n3. Cyanobacteria (Blue-Green Algae): Nostoc, Anabaena, Oscillatoria, Aulosira (serve as vital biofertilizer in Paddy / Rice fields; fix atmospheric $N_2$ via heterocysts).\n4. Anabaena azollae: Symbiont in leaf cavities of water fern Azolla; increases rice yield significantly.",
+      "hint": "Azolla-Anabaena association is widely used as green manure biofertilizer in wet paddy cultivation."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Mycorrhiza as Biofertilizer: Ectomycorrhiza vs Endomycorrhiza (VAM)?",
+      "a": "Symbiotic mutualistic association between a fungus and roots of higher plants (e.g. Pinus, Orchid, Glomus):\n1. Ectomycorrhiza: Fungal hyphae form a dense mantle on root surface and Hartig net in intercellular spaces of cortex (e.g. Pinus).\n2. Endomycorrhiza / VAM (Vesicular-Arbuscular Mycorrhiza, genus Glomus): Hyphae penetrate cortical cells forming vesicles (storage) and arbuscules (nutrient exchange).\nBenefits: Absorbs PHOSPHORUS from soil and passes it to host; provides resistance to root-borne pathogens; increases tolerance to drought and salinity.",
+      "hint": "Pinus seeds cannot germinate and establish seedlings without mycorrhizal association."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Biopesticides: Bioherbicides and Bioinsecticides with examples?",
+      "a": "1. Bioherbicides: Biological agents controlling weeds:\n- Insects: Cactoblastis cactorum controls Prickly pear cactus (Opuntia); Cochineal insect (Dactylopius) controls Opuntia; Chrysolina beetles control St. John's wort (Hypericum).\n- Mycoherbicides (fungi): Phytophthora palmivora (DeVine controls milkweed in citrus groves); Colletotrichum gloeosporioides (Collego).\n2. Bioinsecticides: Pathogens killing insect pests (Bt, Beauveria bassiana, NPV).",
+      "hint": "Cactoblastis moth successfully eradicated millions of acres of invasive prickly pear cactus in Australia."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "Biogas Composition and Gobar Gas Plant Components?",
+      "a": "Typical Biogas Composition:\n- Methane ($CH_4$): 50 - 70% (primary combustible fuel)\n- Carbon Dioxide ($CO_2$): 30 - 40%\n- Hydrogen ($H_2$): 1 - 5%\n- Hydrogen Sulfide ($H_2S$): 0.1 - 0.5%\nPlant Components:\n1. Digester: Deep concrete pit (10-15 feet) fed with dung slurry (1:1 dung to water).\n2. Floating Gas Holder: Steel cover that rises as gas is generated.\n3. Outlet pipe: Transports biogas to houses.\n4. Slurry outlet: Spent digested slurry removed and used as excellent nitrogen-rich manure.",
+      "hint": "Digestion occurs in 3 stages: Hydrolysis $\\rightarrow$ Acidogenesis $\\rightarrow$ Methanogenesis."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Antibiotics: Discovery of Penicillin and contribution of Florey and Chain?",
+      "a": "Alexander Fleming (1928) discovered the first antibiotic, Penicillin, serendipitously:\n- Observed that Staphylococci bacteria could not grow around a contaminating green mold, Penicillium notatum.\n- Mold produced an inhibitory chemical he named Penicillin.\nErnest Chain and Howard Florey (1940s) successfully extracted, purified, and established its full therapeutic potential as a systemic antibiotic to treat wounded soldiers in World War II.\nFleming, Florey, and Chain were jointly awarded the Nobel Prize in 1945.",
+      "hint": "Antibiotics are chemical substances produced by microorganisms that kill or inhibit other microbes at low concentrations."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Trap: Match microbe to commercial product.",
+      "a": "1. Aspergillus niger $\\rightarrow$ Citric acid (Fungus)\n2. Acetobacter aceti $\\rightarrow$ Acetic acid (Bacterium)\n3. Clostridium butyricum $\\rightarrow$ Butyric acid (Bacterium)\n4. Lactobacillus $\\rightarrow$ Lactic acid (Bacterium)\n5. Trichoderma polysporum $\\rightarrow$ Cyclosporin A (Fungus)\n6. Monascus purpureus $\\rightarrow$ Statins (Yeast / Fungus)\n7. Streptococcus $\\rightarrow$ Streptokinase (Bacterium)\n8. Saccharomyces cerevisiae $\\rightarrow$ Ethanol & Bread (Yeast).",
+      "hint": "High-probability table! Almost every year 1-2 questions in MHT-CET are picked directly from this match list."
+    }
+  ]
+}

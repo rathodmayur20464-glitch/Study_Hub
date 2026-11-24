@@ -1,0 +1,183 @@
+{
+  "title": "Plant Growth and Mineral Nutrition",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Plant Growth? Explain the 3 phases of growth.",
+      "a": "Plant growth is an irreversible, permanent increase in size, mass, and volume accompanied by metabolic processes.\nPhases:\n1. Phase of Cell Division (Meristematic): High mitotic division, dense protoplasm, prominent nuclei, thin cellulosic walls.\n2. Phase of Cell Elongation: Vacuolation, cell enlargement, new cell wall material deposition.\n3. Phase of Cell Maturation / Differentiation: Cells attain final size, wall thickening, and specialized functional anatomical features.",
+      "hint": "Plant growth is unique because it is 'open-ended' (meristems maintain continuous dividing capacity)."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "Arithmetic vs Geometric Growth: Formulas and Graphic curves?",
+      "a": "1. Arithmetic Growth: Only 1 daughter cell divides while the other differentiates (e.g. root elongation at constant rate).\nEquation: $L_t = L_0 + rt$ (produces a STRAIGHT LINE linear curve).\n2. Geometric Growth: Both daughter cells continue to divide (e.g. early embryo).\nEquation: $W_1 = W_0 e^{rt}$ (produces a SIGMOID / S-shaped curve: Lag $\\rightarrow$ Log/Exponential $\\rightarrow$ Stationary phase).",
+      "hint": "In $W_1 = W_0 e^{rt}$, $r$ represents the relative growth rate and is a measure of efficiency index."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Define Differentiation, Dedifferentiation, and Redifferentiation with examples.",
+      "a": "1. Differentiation: Meristematic cells undergo structural changes to perform specialized functions (e.g. tracheary xylem elements lose protoplasm).\n2. Dedifferentiation: Living differentiated permanent cells regain dividing power (e.g. formation of Interfascicular Cambium and Cork Cambium from parenchyma).\n3. Redifferentiation: Dedifferentiated cells divide and once again produce non-dividing mature tissues (e.g. Secondary Xylem, Secondary Phloem, Phellem/Cork).",
+      "hint": "Interfascicular cambium is formed by dedifferentiation; secondary xylem is formed by redifferentiation."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "What is Plasticity? Differentiate Environmental vs Intrinsic Heterophylly.",
+      "a": "Plasticity: The plant's ability to follow different developmental pathways in response to environmental cues to form different structures.\nHeterophylly (presence of different leaf shapes on same plant):\n- Environmental Heterophylly: Ranunculus flabellaris / Buttercup (submerged leaves are finely dissected; aerial leaves are broad and lobed).\n- Intrinsic (Developmental) Heterophylly: Cotton, Coriander, Larkspur (juvenile leaves differ in shape from mature leaves).",
+      "hint": "Buttercup leaf variation is an adaptation to terrestrial vs aquatic environments."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Auxins: Discovery (Went's Avena curvature test) and chemical nature?",
+      "a": "First discovered phytohormone (Charles Darwin studied canary grass phototropism; F.W. Went isolated it from oat / Avena sativa coleoptile tips in 1928).\nChemical nature: Indole-3-Acetic Acid (IAA) derived from amino acid Tryptophan in presence of $Zn^{2+}$.\n- Natural Auxins: IAA, Indole-3-Butyric Acid (IBA).\n- Synthetic Auxins: NAA (Naphthalene Acetic Acid), 2,4-D (2,4-Dichlorophenoxyacetic acid).",
+      "hint": "Avena curvature test is the classic biological bioassay for auxins."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Key Physiological Functions and Applications of Auxins?",
+      "a": "1. Apical Dominance: Apical bud inhibits lateral axillary bud growth (removal of shoot apex / decapitation promotes bushy lateral growth in tea estates and hedges).\n2. Root initiation: Induces adventitious root formation in stem cuttings (IBA, NAA).\n3. Prevents premature abscission of young leaves/fruits, but promotes abscission of older parts.\n4. Parthenocarpy: Induces seedless fruits in tomatoes.\n5. Weedicide / Herbicide: 2,4-D selectively kills broad-leaved dicot weeds without harming monocot cereals.",
+      "hint": "2,4-D is widely used as a selective lawn weedkiller because monocot grasses are insensitive to it."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Gibberellins: Discovery (Bakanae disease) and chemical nature?",
+      "a": "Discovered by E. Kurosawa (1926) in rice seedlings suffering from 'Bakanae' (foolish seedling) disease, caused by the pathogenic fungus Gibberella fujikuroi.\nYabuta and Sumiki isolated the crystalline active substance and named it Gibberellin.\nChemical nature: Terpenoids having an ent-gibberellane ring system; $GA_3$ (Gibberellic acid) is the most intensively studied form.",
+      "hint": "Over 100 gibberellins have been isolated from fungi and higher plants, designated $GA_1, GA_2, GA_3$, etc."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Key Physiological Functions and Applications of Gibberellins?",
+      "a": "1. Stem Elongation: Increases internode length in genetically dwarf plants (Dwarf pea, Maize) and increases stalk length of Grapes.\n2. Bolting: Promotes rapid internode elongation prior to flowering in rosette plants (Cabbage, Beet).\n3. Overcoming Seed Dormancy: Induces synthesis of $\\alpha$-amylase and hydrolytic enzymes in aleurone layer of barley seeds to mobilize starch.\n4. Brewing Industry: Accelerates the Malting process in barley.\n5. Sugarcane Yield: Spraying $GA_3$ increases stem length, raising cane yield by ~20 tonnes per acre.",
+      "hint": "Gibberellin is the primary hormone that triggers $\\alpha$-amylase production during seed germination."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Cytokinins: Discovery (Kinetin, Zeatin) and chemical nature?",
+      "a": "Discovered by Skoog and Miller (1955) as Kinetin (6-furfurylaminopurine) from autoclaved herring sperm DNA.\nLetham (1964) isolated the first natural cytokinin called Zeatin from immature corn (Zea mays) kernels.\nChemical nature: Basic adenine (purine) derivatives; synthesized predominantly in root apices and developing endosperm.",
+      "hint": "Kinetin does not occur naturally in plant tissues; Zeatin and Isopentenyl adenine (IPA) are natural plant cytokinins."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Key Functions of Cytokinins: Richmond-Lang effect and Morphogenesis?",
+      "a": "1. Promotes Cell Division (Cytokinesis) in presence of auxin.\n2. Overcomes Apical Dominance: Promotes lateral shoot and bud development.\n3. Richmond-Lang Effect: Delays leaf senescence by preserving chlorophyll, RNA, and protein content.\n4. Organogenesis / Morphogenesis in Tissue Culture:\n- High Cytokinin to Auxin ratio $\\rightarrow$ Induces SHOOT formation.\n- High Auxin to Cytokinin ratio $\\rightarrow$ Induces ROOT formation.\n- Balanced ratio $\\rightarrow$ Promotes undifferentiated Callus growth.",
+      "hint": "To keep cut flowers and green vegetables fresh for days, florists spray them with cytokinins!"
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Ethylene: The Gaseous Hormone: Discovery and synthesis?",
+      "a": "The ONLY gaseous plant growth regulator.\nH.H. Cousins (1910) confirmed that volatile gases released from ripe oranges accelerated the ripening of green bananas stored nearby.\nSynthesized in large amounts by ripening fruits and senescent tissues from the amino acid Methionine.",
+      "hint": "Ethephon (2-chloroethylphosphonic acid) is an aqueous chemical that releases ethylene slowly inside plant tissues."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Key Physiological Functions and Applications of Ethylene?",
+      "a": "1. Fruit Ripening: Triggers climacteric respiratory rise and accelerates ripening in bananas, mangoes, tomatoes, apples.\n2. Promotes Abscission and Senescence of leaves and flowers.\n3. Epinasty: Downward curling of leaves.\n4. Triple Response in seedlings: Inhibits stem elongation, promotes horizontal growth, and causes radial swelling of hypocotyl.\n5. Breaks seed and bud dormancy in peanut and potato tubers; initiates flowering in Pineapple and Mango.",
+      "hint": "Respiratory Climacteric: Sudden sharp spike in rate of respiration during fruit ripening triggered by ethylene."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Abscisic Acid (ABA): The 'Stress Hormone': Discovery and functions?",
+      "a": "Isolated independently as Dormin (Wareing) and Abscisin II (Addicott); chemical identity established as Abscisic Acid.\nFunctions:\n1. Stress Hormone: During water deficiency, ABA induces rapid closing of stomata to prevent transpiration.\n2. Induces Seed and Bud Dormancy: Enables seeds to survive harsh winter/desiccation.\n3. Promotes Leaf Abscission and senescence.\n4. Acts as a General Growth Inhibitor; physiological ANTAGONIST to Gibberellins (Anti-GA).",
+      "hint": "ABA promotes seed dormancy, whereas Gibberellins break seed dormancy (classic antagonistic hormone pair)."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Photoperiodism: Discovery and Classification of Plants (Garner & Allard, 1920)?",
+      "a": "Response of plants to relative lengths of day (light period) and night (dark period) for inducing flowering.\nDiscovered in Maryland Mammoth tobacco.\nClassification:\n1. Short Day Plants (SDP / Long Night Plants): Flower when day length is SHORTER than critical photoperiod (e.g. Tobacco, Soybean, Xanthium, Chrysanthemum).\n2. Long Day Plants (LDP / Short Night Plants): Flower when day length is LONGER than critical photoperiod (e.g. Wheat, Radish, Spinach, Sugar beet).\n3. Day Neutral Plants (DNP): Flowering is independent of day length (e.g. Tomato, Sunflower, Pea, Maize).",
+      "hint": "SDPs strictly require an uninterrupted dark night; a momentary flash of red light during the night completely prevents flowering in SDPs!"
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Phytochrome: Pigment structure and $P_r$ vs $P_{fr}$ interconversion?",
+      "a": "Phytochrome: Photoreceptive chromoprotein pigment discovered by Borthwick and Hendricks.\nExists in 2 interconvertible forms:\n1. $P_r$ (Inactivated form): Absorbs Red light (660 nm) and rapidly converts to $P_{fr}$.\n2. $P_{fr}$ (Active physiological form): Absorbs Far-Red light (730 nm) and reverts to $P_r$ (also reverts slowly in dark).\n- In LDPs: High $P_{fr}$ stimulates flowering.\n- In SDPs: High $P_{fr}$ INHIBITS flowering ($P_{fr}$ must drop low during long dark period to allow flowering).",
+      "hint": "Florigen is the hypothetical flowering hormone synthesized in leaves and translocated through phloem to shoot apex."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Vernalization: Definition, discovery, and practical benefits?",
+      "a": "Vernalization (Lysenko, 1928): Induction of flowering by a low-temperature (chilling) pre-treatment (1°C to 10°C) given to imbibed seeds or seedlings.\nSite of perception: Shoot apical meristem (perceived by hypothetical hormone Vernalin).\nBenefits:\n1. Shortens vegetative phase and accelerates early flowering.\n2. Converts winter crops (e.g. Winter Wheat, Rye) into spring crops, preventing freeze damage.",
+      "hint": "Devernalization: Reversal of the vernalized state by subsequent exposure to high temperatures."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Define Seed Dormancy and methods to break it.",
+      "a": "Seed Dormancy: Inability of viable seeds to germinate even under favorable environmental conditions (moisture, temperature, oxygen).\nCauses: Impermeable hard seed coat, presence of chemical inhibitors (ABA, phenolics), immature embryo.\nMethods to Break Dormancy:\n1. Scarification: Mechanical abrasion or chemical weakening of hard seed coat using sandpaper or concentrated $H_2SO_4$.\n2. Stratification: Moist chilling at low temperature (2-5°C).\n3. Hormonal treatment: Soaking in Gibberellic acid ($GA_3$) or Cytokinins.\n4. Exposure to light / Potassium nitrate ($KNO_3$).",
+      "hint": "Gibberellins break dormancy by inducing hydrolytic enzymes; ABA reinforces dormancy."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Senescence vs Abscission in plants?",
+      "a": "1. Senescence: Genetically programmed metabolic decline, degradation of chlorophyll, loss of proteins/RNA, and eventual death of plant tissues or organs.\n2. Abscission: Natural detachment of senescent leaves, flowers, or ripe fruits from the mother plant along a specialized, pre-formed Abscission Zone / layer at the base of the petiole or pedicel.",
+      "hint": "Cytokinins delay senescence; Ethylene and ABA accelerate senescence and trigger abscission."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Critical Day Length (CDL): How does it govern SDP and LDP flowering?",
+      "a": "Critical Day Length is the specific threshold photoperiod duration:\n- SDP flowers ONLY when day length < CDL (or dark period > critical night length).\n- LDP flowers ONLY when day length > CDL (or dark period < critical night length).\nExample: If CDL is 12 hours:\n- SDP flowers under 10 hr light / 14 hr dark.\n- LDP flowers under 14 hr light / 10 hr dark.",
+      "hint": "Leaves are the sole organs that perceive the photoperiodic light stimulus."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "Summary of Phytohormone Interactions: Synergistic vs Antagonistic pairs?",
+      "a": "1. Synergistic (work together):\n- Auxin + Cytokinin: Cell division, organogenesis in tissue culture.\n- Auxin + Gibberellin: Parthenocarpy and fruit development.\n2. Antagonistic (oppose each other):\n- Auxin vs Cytokinin: Auxin promotes apical dominance; Cytokinin overcomes it.\n- Gibberellin vs ABA: GA breaks seed dormancy; ABA induces and maintains dormancy.\n- Cytokinin vs Ethylene/ABA: Cytokinin delays senescence; Ethylene/ABA accelerate senescence.",
+      "hint": "Plant growth is an orchestrated interplay of balanced hormone ratios rather than single hormone action."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Nitrogen Cycle: 4 key stages and their specific bacteria?",
+      "a": "1. Nitrogen Fixation: Atmospheric $N_2 \\rightarrow NH_3$ (Rhizobium, Azotobacter, Clostridium, Nostoc).\n2. Ammonification: Organic nitrogen of dead matter $\\rightarrow NH_3$ (Bacillus vulgaris, Bacillus mycoides).\n3. Nitrification (2 steps):\n- Step 1: $2 NH_3 + 3 O_2 \\rightarrow 2 NO_2^- + 2 H^+ + 2 H_2O$ (Nitrosomonas, Nitrococcus).\n- Step 2: $2 NO_2^- + O_2 \\rightarrow 2 NO_3^-$ (Nitrobacter, Nitrocystis).\n4. Denitrification: $NO_3^- \\rightarrow N_2$ gas returned to atmosphere (Pseudomonas denitrificans, Thiobacillus denitrificans).",
+      "hint": "Nitrifying bacteria are obligate chemoautotrophs; they obtain energy by oxidizing nitrogen compounds."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Nodule Formation in Legume Roots: Sequence of events?",
+      "a": "1. Rhizobia multiply and colonize rhizosphere around root hairs.\n2. Root hair secrets flavonoids attracting rhizobia; bacteria produce Nod factors causing root hair curling.\n3. Rhizobia invade root hair through an Infection Thread made of cell wall material.\n4. Infection thread extends to root cortex; bacteria are released into cortical cells, differentiating into swollen bacteroids.\n5. Cortical and pericycle cells undergo rapid division forming root nodules with vascular connections.",
+      "hint": "The nodule vascular system integrates directly with host xylem and phloem for nutrient exchange."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Reductive Amination vs Transamination in plant nitrogen assimilation?",
+      "a": "Plants convert toxic ammonia ($NH_3$) into non-toxic amino acids:\n1. Reductive Amination: $\\alpha$-ketoglutaric acid + $NH_4^+ + NADPH \\xrightarrow{\\text{Glutamate dehydrogenase}} \\text{Glutamic acid} + H_2O + NADP^+$.\n2. Transamination: Transfer of amino group ($-NH_2$) from glutamic acid to the keto group of another keto acid, catalyzed by Transaminase enzyme, synthesizing all other amino acids.",
+      "hint": "Glutamic acid is the primary amino acid from which all other amino acids are synthesized via transamination."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Amides (Glutamine and Asparagine): Why do plants transport nitrogen as amides?",
+      "a": "Amides are formed by adding an extra amino group ($-NH_2$) to dicarboxylic amino acids:\n- Glutamic acid + $NH_4^+ + ATP \\rightarrow$ Glutamine + ADP + Pi\n- Aspartic acid + $NH_4^+ + ATP \\rightarrow$ Asparagine + ADP + Pi\nWhy transported: Amides have a much HIGHER nitrogen-to-carbon ratio than amino acids and are chemically non-toxic, allowing safe, concentrated xylem transport to growing shoots.",
+      "hint": "Nodulated legumes like Soybean transport fixed nitrogen predominantly as Ureides."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Trap: Which hormone causes Bolting in cabbage vs Fruit ripening in apples vs Stomatal closure in drought?",
+      "a": "- Bolting in cabbage / rosette plants $\\rightarrow$ GIBBERELLINS ($GA_3$).\n- Climacteric fruit ripening in apples/bananas $\\rightarrow$ ETHYLENE.\n- Rapid stomatal closure under drought stress $\\rightarrow$ ABSCISIC ACID (ABA).\n- Inducing root formation on stem cuttings $\\rightarrow$ AUXIN (IBA / NAA).\n- Overcoming apical dominance & delaying senescence $\\rightarrow$ CYTOKININ.",
+      "hint": "High-yield matching question guaranteed in HSC Board and MHT-CET exams!"
+    }
+  ]
+}

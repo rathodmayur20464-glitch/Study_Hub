@@ -1,0 +1,183 @@
+{
+  "title": "Human Health and Diseases",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "WHO Definition of Health and 4 Pillars of Immunity?",
+      "a": "WHO Definition: Health is a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity.\nImmunity: The body's defense ability to resist and neutralize pathogens and toxic foreign molecules.\n4 Pillars of Acquired Immunity:\n1. Specificity (targets distinct antigens).\n2. Diversity (recognizes billions of diverse antigens).\n3. Discrimination between Self and Non-self (prevents auto-destruction).\n4. Immunological Memory (rapid, massive secondary anamnestic response).",
+      "hint": "Memory cells enable anamnestic responses upon subsequent re-exposure to the same pathogen."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Innate Immunity: 4 Defense Barriers with examples?",
+      "a": "Non-specific immunity present from birth:\n1. Physical Barriers: Intact skin (stratum corneum with keratin blocks microbes); Mucus membranes trapping pathogens in respiratory and digestive tracts.\n2. Physiological Barriers: Acid ($HCl$) in stomach, Lysozyme in saliva and tears, body temperature, sebum containing fatty acids.\n3. Cellular Barriers: Phagocytic cells: PMNL-Neutrophils, Monocytes, Macrophages, and Natural Killer (NK) cells.\n4. Cytokine Barriers: Interferons (glycoproteins secreted by virus-infected cells that protect neighboring uninfected cells).",
+      "hint": "Interferons do not cure infected cells; they alert neighboring cells to synthesize antiviral proteins (AVPs)."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Active Immunity vs Passive Immunity: Core differences?",
+      "a": "1. Active Immunity: Produced actively by host immune system when exposed to antigen; long-lasting with immunological memory; slow to develop.\n- Natural active: Surviving natural infection (e.g. Chickenpox).\n- Artificial active: Vaccines (e.g. Polio, MMR, BCG).\n2. Passive Immunity: Readymade antibodies directly transferred to host; immediate protection but short-lived with ZERO memory.\n- Natural passive: Maternal IgG crossing placenta; secretory IgA in colostrum.\n- Artificial passive: Anti-tetanus serum (ATS), Anti-snake venom (ASV).",
+      "hint": "Anti-venom for snake bites is artificial passive immunity providing immediate neutralization of toxin."
+    },
+    {
+      "id": "c4",
+      "tag": "imp",
+      "q": "Structure of an Antibody Molecule ($H_2L_2$ Immunoglobulin)?",
+      "a": "Y-shaped glycoprotein molecule produced by plasma cells:\n- 4 Polypeptide chains: 2 identical Heavy (H) chains (~440 amino acids) and 2 identical Light (L) chains (~220 amino acids) connected by Disulfide bonds ($-S-S-$).\n- Variable Region (Fab - Fragment antigen-binding): Tips of the Y arms; forms the Paratope that binds specifically to the Epitope of the antigen (lock and key).\n- Constant Region (Fc - Fragment crystallizable): Stem of the Y; determines antibody class and binds complement/macrophages.",
+      "hint": "An individual antibody monomer has two identical antigen-binding sites (Bivalent)."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "5 Classes of Immunoglobulins (IgG, IgA, IgM, IgE, IgD) and specific features?",
+      "a": "Mnemonic: 'GAMED'\n1. IgG (~80%): Most abundant monomer; ONLY antibody that crosses placenta to protect fetus.\n2. IgA (10-15%): Dimer held by J-chain; secretory antibody in Colostrum, saliva, tears, mucus; mucosal defense.\n3. IgM (5-10%): Largest pentamer (10 binding sites); first antibody synthesized during primary immune response; potent agglutinator.\n4. IgE (<1%): Monomer; binds to mast cells and basophils; triggers Histamine release during allergic reactions and parasitic worm infections.\n5. IgD (<1%): Monomer on B-cell surfaces acting as antigen receptor.",
+      "hint": "IgG crosses placenta; IgA protects mucosa; IgM is the largest pentamer; IgE mediates allergy."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Cell-Mediated Immunity (CMI) vs Humoral Immunity (AMI)?",
+      "a": "1. Humoral Immunity (Antibody-Mediated AMI): Mediated by B-lymphocytes (bone marrow derived); differentiate into Plasma cells that secrete circulating antibodies into blood/lymph; defends against extracellular bacteria and viruses.\n2. Cell-Mediated Immunity (CMI): Mediated by T-lymphocytes (mature in Thymus); targets intracellular pathogens, virus-infected cells, and cancer cells.\n- T-cell subsets: Helper T ($T_H$ / $CD_4^+$), Cytotoxic / Killer T ($T_C$ / $CD_8^+$ releases perforins), Suppressor T ($T_S$), and Memory T ($T_M$).\n- CMI is directly responsible for GRAFT REJECTION in organ transplants.",
+      "hint": "Tissue matching and immunosuppressants (e.g. Cyclosporin A) are mandatory to prevent graft rejection mediated by CMI."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Autoimmune Diseases: Definition and 3 clinical examples?",
+      "a": "Condition where the immune system loses immunological tolerance (self-tolerance) and mistakenly attacks host's own healthy tissues.\nExamples:\n1. Rheumatoid Arthritis: Autoantibodies (Rheumatoid factor) attack synovial membranes of joints, causing chronic painful inflammation and deformities.\n2. Myasthenia Gravis: Autoantibodies destroy nicotinic acetylcholine receptors at neuromuscular junctions, causing progressive skeletal muscle weakness and paralysis.\n3. Hashimoto's Thyroiditis: Autoantibodies destroy thyroid follicles, leading to hypothyroidism.\n4. Multiple Sclerosis: Attack on myelin sheath of CNS neurons.",
+      "hint": "Loss of discrimination between self and non-self antigens causes autoimmune disorders."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Bacterial Diseases: Typhoid and Pneumonia (Pathogen, symptoms, test)?",
+      "a": "1. Typhoid (Enteric Fever):\n- Pathogen: Salmonella typhi (Gram-negative bacterium).\n- Transmission: Contaminated food and water.\n- Symptoms: Sustained high fever (39-40°C), stomach pain, constipation, headache, intestinal perforation in severe cases.\n- Diagnostic Test: WIDAL TEST (agglutination test).\n2. Pneumonia:\n- Pathogen: Streptococcus pneumoniae and Haemophilus influenzae.\n- Pathology: Alveoli get filled with inflammatory fluid, causing severe respiratory compromise.\n- Symptoms: Chills, productive cough, fever, lips/fingernails turn grayish-blue in severe hypoxia.",
+      "hint": "Typhoid Mary (Mary Mallon) was a classic asymptomatic carrier who spread typhoid for years through food preparation."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Viral Diseases: Common Cold, Dengue, and Chikungunya?",
+      "a": "1. Common Cold: Rhinovirus; infects nose and upper respiratory tract (never infects lungs); symptoms last 3-7 days.\n2. Dengue Fever ('Breakbone fever'): Flavivirus (Flavi-arbo virus) transmitted by female Aedes aegypti mosquito; severe headache, retro-orbital pain, muscle/joint pain; Dengue Hemorrhagic Fever causes dangerous drop in blood platelets (Thrombocytopenia).\n3. Chikungunya: Chikungunya virus transmitted by Aedes aegypti; severe crippling, persistent joint arthritis.",
+      "hint": "Aedes aegypti mosquitoes breed in clean stagnant water and bite aggressively during daytime."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Malaria: Causative agents, vector, and clinical paroxysms?",
+      "a": "Pathogen: Plasmodium species (P. vivax, P. malariae, P. ovale, P. falciparum).\n- P. falciparum causes Malignant Tertian Malaria (fatal cerebral malaria).\nVector: Female Anopheles mosquito.\nClinical Paroxysm (every 48-72 hours):\n1. Cold Stage: Intense shivering and chills (~1 hr).\n2. Hot Stage: High burning fever up to 104-106°F (~2-6 hr).\n3. Sweating Stage: Profuse sweating, temperature normalizes.\nCause of Chills & Fever: Rupture of erythrocytic schizonts releases toxic HEMOZOIN granules (iron-pigment byproduct) into bloodstream.",
+      "hint": "Hemozoin is released when schizonts rupture RBCs, triggering chills and fever paroxysms."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Life Cycle of Plasmodium: Asexual (in Human) vs Sexual (in Mosquito)?",
+      "a": "Digenetic parasite (requires 2 hosts):\n1. In Human Host (Asexual / Secondary host):\n- Mosquito bite injects SPOROZOITES (infective stage).\n- Liver Schizogony: Sporozoites multiply in hepatocytes into merozoites.\n- Erythrocytic Schizogony: Merozoites infect RBCs $\\rightarrow$ Trophozoite $\\rightarrow$ Signet ring stage $\\rightarrow$ Schizont $\\rightarrow$ Rupture releases hemozoin and merozoites.\n- Some merozoites develop into Gametocytes.\n2. In Female Anopheles Mosquito (Sexual / Primary host):\n- Ingests gametocytes with blood meal $\\rightarrow$ Fertilization in gut forming Ookinete $\\rightarrow$ Oocyst $\\rightarrow$ Sporozoites migrate to Salivary Glands.",
+      "hint": "The infective stage of Plasmodium for humans is SPOROZOITE; for mosquitoes it is GAMETOCYTE."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Amoebiasis and Ascariasis: Pathogens, pathology, and transmission?",
+      "a": "1. Amoebiasis (Amoebic Dysentery):\n- Pathogen: Entamoeba histolytica (protozoan in large intestine).\n- Pathology: Secretes histolysin, eroding mucosal lining and causing flask-shaped ulcers; stool with mucous and blood clots.\n- Vector: Housefly (Musca domestica) transmits tetranucleate cysts via fecal-oral route.\n2. Ascariasis:\n- Pathogen: Ascaris lumbricoides (Common roundworm, monogenetic endoparasite of small intestine).\n- Symptoms: Internal bleeding, muscular pain, fever, intestinal blockage; eggs passed in feces contaminate soil and vegetables.",
+      "hint": "Tetranucleate cyst is the infective stage of Entamoeba histolytica."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Filariasis (Elephantiasis) and Ringworm: Vectors and characteristic symptoms?",
+      "a": "1. Filariasis:\n- Pathogen: Wuchereria bancrofti and Wuchereria malayi (filarial worms).\n- Vector: Female Culex mosquito.\n- Symptoms: Chronic progressive inflammation and blockage of lymphatic vessels of lower limbs and scrotum, causing massive swelling resembling elephant leg (Elephantiasis).\n2. Ringworm (Dermatophytosis):\n- Fungi: Genera Microsporum, Trichophyton, Epidermophyton.\n- Symptoms: Dry, scaly, intensely itchy lesions on skin, nails, and scalp; thrive in heat and moisture (groin, skin folds).",
+      "hint": "Wuchereria worms live inside the lymphatic system of humans for years."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Cancer: Definition, Neoplasm, Benign vs Malignant tumors?",
+      "a": "Cancer is uncontrolled, unregulated cell proliferation with loss of Contact Inhibition.\n- Neoplasm: Abnormal mass of proliferating cells.\n1. Benign Tumors: Remain confined to their original site; encapsulated; do not invade adjacent tissues; slow growth; non-fatal.\n2. Malignant Tumors: Cancerous; unencapsulated; rapidly growing cells invade and destroy adjacent healthy tissues; exhibit METASTASIS (cancer cells detach, travel via blood/lymph, and establish secondary tumors at distant sites).",
+      "hint": "Metastasis is the most dreaded and diagnostic property of malignant tumors."
+    },
+    {
+      "id": "c15",
+      "tag": "formula",
+      "q": "Classification of Cancers: Carcinoma, Sarcoma, Leukemia, Lymphoma?",
+      "a": "1. Carcinoma (~85% of all cancers): Originates from EPITHELIAL tissues (e.g. skin cancer, breast cancer, lung cancer, stomach cancer).\n2. Sarcoma (~1-2%): Originates from MESODERMAL connective tissues (e.g. bone cancer - osteosarcoma, cartilage - chondrosarcoma, muscle - myosarcoma).\n3. Leukemia: Cancer of hematopoietic blood-forming tissues; excessive production of immature abnormal WBCs (blood cancer).\n4. Lymphoma: Cancer of lymphatic tissue, spleen, and lymph nodes (e.g. Hodgkin's disease).",
+      "hint": "Carcinomas arise from epithelium (ectoderm/endoderm); Sarcomas arise from mesoderm."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Carcinogens and Molecular Basis of Cancer (Oncogenes)?",
+      "a": "Carcinogens (agents inducing cancer):\n1. Physical: Ionizing radiation (X-rays, gamma rays) and non-ionizing radiation (UV rays damaging DNA).\n2. Chemical: Tobacco smoke (contains N-nitrosodimethylethane causing lung cancer), coal tar, asbestos, aflatoxin.\n3. Biological: Oncogenic viruses (e.g. HPV, Epstein-Barr virus).\nMolecular Basis:\n- Normal cells contain Proto-Oncogenes (c-onc) and Tumor Suppressor Genes (p53 - 'Guardian of the Genome').\n- Mutations transform proto-oncogenes into active Cellular Oncogenes, triggering neoplastic transformation.",
+      "hint": "Mutation or inactivation of the p53 tumor suppressor gene is found in over 50% of all human cancers."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Cancer Detection, Diagnosis, and Treatment Modalities?",
+      "a": "Detection & Diagnosis: Biopsy and histopathological examination, Bone marrow aspiration, CT scan, MRI (magnetic resonance imaging), PET scan, Monoclonal antibody tests.\nTreatment:\n1. Surgery: En bloc excision of localized tumor.\n2. Radiotherapy: Tumor cells irradiated with gamma rays from Cobalt-60.\n3. Chemotherapy: Anticancer drugs (Vincristine, Vinblastine from Catharanthus roseus, Cisplatin); side effects: hair loss, anemia.\n4. Immunotherapy: Biological response modifiers like $\\alpha$-Interferon to activate immune response.",
+      "hint": "Vincristine and Vinblastine are plant-derived alkaloids from Periwinkle (Vinca rosea) used in chemotherapy."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Structure of Human Immunodeficiency Virus (HIV)?",
+      "a": "Causative agent of AIDS; spherical enveloped Retrovirus (~100-140 nm):\n1. Envelope: Bilipid membrane with glycoprotein spikes made of gp120 (outer head) and gp41 (transmembrane stalk).\n2. Protein Coats: Outer matrix shell of p17 and inner cone-shaped capsid of p24.\n3. Core Genome: Two identical copies of single-stranded RNA ($ssRNA$) associated with viral enzymes:\n- Reverse Transcriptase (synthesizes cDNA from viral RNA).\n- Integrase (integrates viral DNA into host genome).\n- Protease.",
+      "hint": "gp120 glycoprotein specifically binds to the $CD_4$ receptor on Helper T-cells and macrophages."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Pathogenesis of HIV: Macrophages as 'HIV Factory' and Helper T-cell depletion?",
+      "a": "1. Entry: HIV binds to $CD_4$ receptors and CCR5 co-receptors on Helper T-cells and Macrophages.\n2. Reverse Transcription: Viral RNA converts into double-stranded viral DNA via Reverse Transcriptase.\n3. Integration: Viral DNA incorporates into host chromosome via Integrase.\n4. Replication: Host cell transcribes viral RNA and translates viral proteins; Macrophages continue producing virus without dying, acting as an 'HIV FACTORY'.\n5. Helper T-cell Depletion: HIV attacks and lyses $CD_4^+$ T-helper cells $\\rightarrow$ count falls from normal 900-1200/$\\mu$L to below 200/$\\mu$L $\\rightarrow$ full-blown AIDS characterized by opportunistic infections (Mycobacterium, Toxoplasma, Pneumocystis carinii).",
+      "hint": "Full-blown AIDS is diagnosed when peripheral $CD_4^+$ T-cell count falls below 200 cells/$\\mu$L."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Diagnosis and Treatment of AIDS (ELISA, Western Blot, ART)?",
+      "a": "Diagnosis:\n1. Screening Test: ELISA (Enzyme-Linked Immunosorbent Assay) detecting anti-HIV antibodies.\n2. Confirmatory Test: WESTERN BLOT test detecting specific viral protein bands (gp120, gp41, p24).\nTreatment: Antiretroviral Therapy (ART):\n- Nucleoside Reverse Transcriptase Inhibitors (NRTIs, e.g. Zidovudine / AZT).\n- Non-nucleosides (NNRTIs) and Protease inhibitors.\n- ART is only life-prolonging; it CANNOT completely eradicate the virus.",
+      "hint": "ELISA is the screening test; Western Blot is the gold standard confirmatory test for HIV."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Drug Abuse: Opioids (Heroin / Smack) - Source, receptors, and effects?",
+      "a": "Source: Obtained from white latex of unripe capsules of Opium Poppy (Papaver somniferum).\nReceptors: Specific opioid receptors in Central Nervous System (CNS) and Gastrointestinal tract.\nHeroin (Smack / Diacetylmorphine):\n- Chemically synthesized by acetylation of Morphine; white, odorless, bitter crystalline compound.\n- Mode of intake: Snorting and intravenous injection.\n- Physiological effects: Depressant; slows down body functions, causes analgesia, drowsiness, respiratory depression, and severe physical addiction.",
+      "hint": "Morphine is a powerful clinical sedative and painkiller for postoperative surgery patients."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Cannabinoids: Source, receptors, products, and cardiovascular effects?",
+      "a": "Source: Inflorescences, leaves, and resins of Indian Hemp plant (Cannabis sativa).\nReceptors: Interacts with specific cannabinoid receptors located predominantly in the BRAIN.\nProducts: Marijuana, Hashish, Charas, and Ganja.\nMode of intake: Inhalation (smoking) and oral ingestion.\nPhysiological effects: Produces euphoria, altered sensory perception, hallucination, and critically affects the CARDIOVASCULAR SYSTEM (tachycardia / rapid heart rate).",
+      "hint": "Cannabinoids are frequently abused by certain athletes to reduce anxiety and stress."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Cocaine / Crack: Source, mechanism of action, and clinical consequences?",
+      "a": "Source: Extracted from leaves of South American coca bush (Erythroxylum coca).\nMechanism: Blocks the re-uptake of the neurotransmitter DOPAMINE at nerve synapses, causing potent stimulation of the CNS.\nSymptoms & Effects:\n- Produces intense euphoria and increased energy (rush).\n- Excessive dosage causes severe tremors, paranoia, and vivid HALLUCINATIONS.\n- Common street name: Coke or Crack; commonly snorted.",
+      "hint": "Other plants with hallucinogenic properties: Atropa belladonna and Datura."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Adolescence and Drug/Alcohol Addiction: Dependence and Withdrawal Syndrome?",
+      "a": "Addiction: Psychological attachment to certain effects (euphoria, temporary relief from stress).\nDependence: The tendency of the body to manifest a characteristic and unpleasant WITHDRAWAL SYNDROME if the regular dose of drugs/alcohol is abruptly discontinued.\nWithdrawal Symptoms:\n- Shakiness, severe tremors, anxiety, sweating, nausea, vomiting, muscle cramps, and insomnia.\n- Relieved immediately when drug administration is resumed, creating a vicious cycle of physical dependence.",
+      "hint": "Chronic alcohol abuse causes Liver Cirrhosis (replacement of hepatocytes by fibrous scar tissue)."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Drug Match Matrix: Match active alkaloid to source plant and effect.",
+      "a": "1. Morphine / Heroin $\\rightarrow$ Papaver somniferum $\\rightarrow$ Opioid depressant, slows body functions.\n2. Charas / Ganja / Hashish $\\rightarrow$ Cannabis sativa $\\rightarrow$ Cannabinoid, cardiovascular effects.\n3. Cocaine $\\rightarrow$ Erythroxylum coca $\\rightarrow$ Dopamine uptake inhibitor, stimulant & hallucinations.\n4. LSD (Lysergic acid diethylamide) $\\rightarrow$ Claviceps purpurea (Ergot fungus) $\\rightarrow$ Potent psychedelic hallucinogen.\n5. Nicotine $\\rightarrow$ Nicotiana tabacum $\\rightarrow$ Stimulates adrenal gland to release adrenaline.",
+      "hint": "High-yield matching question frequently repeated in Maharashtra HSC Board and MHT-CET!"
+    }
+  ]
+}

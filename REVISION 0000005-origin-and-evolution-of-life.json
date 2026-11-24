@@ -1,0 +1,183 @@
+{
+  "title": "Origin and Evolution of Life",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Theories of Origin of Life: Spontaneous Generation vs Biogenesis?",
+      "a": "1. Theory of Spontaneous Generation (Abiogenesis): Living organisms originated spontaneously from non-living matter like mud, straw, and decaying meat (supported by Aristotle, van Helmont).\n2. Theory of Biogenesis: Omnis cellula e cellula / life arises only from pre-existing life.\nLouis Pasteur disproved spontaneous generation using swan-neck flasks (killed yeast in unsealed curved flask did not produce microbes; broken neck flask produced microbial growth).",
+      "hint": "Pasteur disproved spontaneous generation, but did not explain how the very first life originated."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Oparin-Haldane Theory of Chemical Evolution (1924-1929)?",
+      "a": "Life originated through spontaneous chemical evolution of organic molecules under reducing primordial Earth conditions.\n1. Primitive atmosphere was REDUCING (rich in $CH_4, NH_3, H_2, H_2O$ vapour; ZERO free molecular $O_2$).\n2. Lightnings, UV radiation, and volcanic heat catalyzed inorganic gases $\\rightarrow$ simple organic compounds (sugars, amino acids, purines, pyrimidines) $\\rightarrow$ complex polymers in primitive ocean ('Hot Dilute Soup' / Haldane's Prebiotic Broth).",
+      "hint": "Absence of free oxygen ($O_2$) was essential; oxygen would have oxidized and destroyed prebiotic organic molecules."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Urey and Miller's Experiment (1953): Setup, conditions, and findings?",
+      "a": "Experimental simulation of prebiotic Earth:\n- Closed glass apparatus with a spark chamber having two tungsten electrodes.\n- Gases used: Methane ($CH_4$), Ammonia ($NH_3$), and Hydrogen ($H_2$) in ratio 2 : 1 : 2, with boiling water supplying steam.\n- Temperature: ~800°C; continuous electric discharge of 75,000 volts for 1 week.\n- Analysis: Condenser collected reddish-brown liquid containing Amino acids (Glycine, Alanine, Aspartic acid), urea, and organic acids.",
+      "hint": "Proven laboratory validation that abiogenic synthesis of biological monomers was feasible on primitive Earth."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "What are Protobionts? Compare Coacervates and Microspheres.",
+      "a": "Protobionts: Prebiotic cell-like non-living colloidal aggregates that maintained internal chemical environment.\n1. Coacervates (Oparin): Colloidal droplets formed by hydrophobic interactions of proteins and polysaccharides; had boundary layer, could grow and absorb materials, but lacked lipid membrane and reproduction.\n2. Microspheres (Sidney Fox): Formed by heating dry amino acids into 'protenoids' and cooling; had double-layered boundary, showed budding and osmosis.",
+      "hint": "Protobionts could not reproduce accurately until RNA/DNA genetic machinery evolved ('RNA World')."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Lamarck's Theory of Evolution (Inheritance of Acquired Characters) & its disproof?",
+      "a": "Jean-Baptiste de Lamarck (1809, Philosophie Zoologique):\n- Use and disuse of organs: Used organs develop; disused organs degenerate (e.g. elongation of giraffe neck).\n- Inheritance of acquired traits: Physical modifications acquired in lifetime pass to offspring.\nDisproof by August Weismann (Germplasm Theory): Cut tails of mice for 22 generations; newborn mice always had full-length tails. Proved somatoplasm changes are NOT inherited; only germplasm changes are passed.",
+      "hint": "Acquired somatic changes are never transmitted to subsequent generations."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Darwin's Theory of Natural Selection: Core principles and limitations?",
+      "a": "Charles Darwin (1859, Origin of Species by Natural Selection):\n1. Rapid multiplication / Overproduction.\n2. Limited food and space $\\rightarrow$ Struggle for existence (intraspecific, interspecific, environmental).\n3. Universal variations: Useful variations are favored.\n4. Survival of the fittest (Herbert Spencer phrase) & Natural selection $\\rightarrow$ origin of new species.\nLimitation: Could not explain the source/origin of variations or distinguish between heritable and environmental variations.",
+      "hint": "Darwin considered small, continuous variations as the primary basis of evolution."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Hugo de Vries Mutation Theory (1901) on Oenothera lamarckiana?",
+      "a": "Conducted breeding on Evening Primrose (Oenothera lamarckiana):\n1. Mutations (discontinuous variations) are the raw material of evolution.\n2. Mutations arise suddenly, are random and directionless (unlike Darwin's directional variations).\n3. Speciation occurs in a single step through large, sudden mutations, termed Saltation (single-step large mutation).",
+      "hint": "Darwin's variations: small, gradual, directional. De Vries' mutations: sudden, large, random, directionless."
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Modern Synthetic Theory of Evolution: 5 basic evolutionary factors?",
+      "a": "Integrates Darwinian natural selection with Mendelian population genetics (Dobzhansky, Mayr, Huxley, Stebbins):\n1. Gene Mutations: Changes in nucleotide sequences.\n2. Chromosomal Aberrations: Structural changes (deletion, duplication, inversion, translocation) and numerical changes (aneuploidy, polyploidy).\n3. Genetic Recombination: Crossing over, independent assortment during meiosis.\n4. Natural Selection: Differential reproduction of advantageous genotypes.\n5. Reproductive Isolation: Pre-zygotic and post-zygotic barriers preventing interbreeding.",
+      "hint": "Evolution occurs at the POPULATION level (gene pool changes), not in isolated individuals."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Hardy-Weinberg Principle and Mathematical Equations?",
+      "a": "Allele and genotype frequencies in a large, randomly mating diploid population remain CONSTANT from generation to generation in absence of evolutionary forces.\nEquations:\n- Allele frequencies: $p + q = 1$ (where $p$ = frequency of dominant allele A, $q$ = recessive allele a).\n- Genotype frequencies: $(p + q)^2 = p^2 + 2pq + q^2 = 1$\n  - $p^2$ = frequency of homozygous dominant (AA)\n  - $2pq$ = frequency of heterozygous (Aa)\n  - $q^2$ = frequency of homozygous recessive (aa).",
+      "hint": "Any deviation from Hardy-Weinberg equilibrium indicates that evolution is actively occurring."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "MHT-CET Hardy-Weinberg Calculation: If frequency of recessive phenotype is 9%, find carrier frequency.",
+      "a": "1. Recessive genotype ($q^2$) = 9% = 0.09 $\\Rightarrow q = \\sqrt{0.09} = 0.3$.\n2. Dominant allele frequency ($p$) = $1 - q = 1 - 0.3 = 0.7$.\n3. Carrier frequency ($2pq$) = $2 \\times 0.7 \\times 0.3 = 0.42 = 42\\%$.\n4. Homozygous dominant ($p^2$) = $0.7^2 = 0.49 = 49\\%$.",
+      "hint": "Always solve for $q$ first by taking square root of homozygous recessive phenotype frequency ($q^2$)."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "5 Factors that disrupt Hardy-Weinberg Equilibrium?",
+      "a": "1. Gene Migration / Gene Flow: Addition or removal of alleles as individuals migrate between populations.\n2. Genetic Drift: Random fluctuations in allele frequencies in small populations by chance.\n3. Mutation: Introduces new alleles into the gene pool.\n4. Genetic Recombination: New allelic combinations during crossing over.\n5. Natural Selection: Differential survival and reproduction of specific genotypes.",
+      "hint": "Genetic drift operates strongly ONLY in small, isolated populations."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Genetic Drift: Founder Effect and Bottleneck Effect?",
+      "a": "Discovered by Sewall Wright (Sewall Wright Effect):\n1. Founder Effect: A small group separates from parental population and colonizes a new area; their limited gene pool forms a new distinct population with different allele frequencies (e.g. Darwin's finches on Galapagos).\n2. Bottleneck Effect: Sudden drastic reduction in population size due to natural catastrophes (earthquake, flood, epidemic); surviving few individuals rebuild population with drastically skewed allele frequencies.",
+      "hint": "In both cases, chance—not fitness—determines which alleles survive in the population."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Types of Natural Selection: Stabilizing, Directional, and Disruptive?",
+      "a": "1. Stabilizing Selection (Balancing): Favors intermediate/mean phenotype; eliminates both extremes; narrows bell curve (e.g. human birth weight ~3 kg favored).\n2. Directional Selection (Progressive): Favors one extreme phenotype; shifts peak in one direction (e.g. Industrial Melanism in Biston betularia; DDT resistance in mosquitoes).\n3. Disruptive Selection (Diversifying): Favors both extreme phenotypes; eliminates intermediate mean; produces two peaks / bimodal curve (e.g. beak sizes in black-bellied seedcrackers).",
+      "hint": "Industrial melanism is a classic example of directional natural selection."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Industrial Melanism in Peppered Moth (Biston betularia): Natural selection in action?",
+      "a": "In pre-industrial England (before 1850):\n- Tree trunks covered with white lichens; white-winged moths (Biston betularia typica) were camouflaged from predatory birds; dark melanic moths (carbonaria) were heavily predated.\nIn post-industrial England (after 1850):\n- Smoke and soot killed lichens and darkened tree barks; dark melanic moths blended with soot and survived; white moths were easily predated $\\rightarrow$ population of dark moths rose to ~99%!\nReversed after clean air acts: white moths returned as lichens regrew.",
+      "hint": "Proof of natural selection acting on phenotypic variation; no moth became mutant in response to soot."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Homologous Organs and Divergent Evolution: Definition and examples?",
+      "a": "Homologous Organs: Organs having SAME fundamental anatomical plan and embryonic origin, but adapted to perform DIFFERENT functions.\nIndicates DIVERGENT EVOLUTION and common ancestry.\nExamples:\n1. Forelimbs of vertebrates: Cheetah (running), Whale (swimming), Bat (flying), Human (grasping) all share humerus, radius, ulna, carpals, metacarpals, phalanges.\n2. Plant thorns of Bougainvillea and tendrils of Cucurbita (both are modified axillary buds).",
+      "hint": "Homology = Same origin + Different functions $\\rightarrow$ Divergent evolution."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Analogous Organs and Convergent Evolution: Definition and examples?",
+      "a": "Analogous Organs: Organs having DIFFERENT anatomical origin and basic structure, but adapted to perform SIMILAR functions due to similar habitat pressures.\nIndicates CONVERGENT EVOLUTION.\nExamples:\n1. Wings of Butterfly (chitinous fold) vs Wings of Bird (feathered forelimb).\n2. Eye of Octopus (retina from skin) vs Eye of Mammal (retina from brain outgrowth).\n3. Flippers of Penguins (birds) vs Flippers of Dolphins (mammals).\n4. Sweet potato (root tuber) vs Potato (stem tuber) for food storage.",
+      "hint": "Analogy = Different origin + Similar function $\\rightarrow$ Convergent evolution."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Adaptive Radiation: Darwin's Finches and Australian Marsupials?",
+      "a": "Evolution of different species starting from a common ancestral point and radiating to various geographical niches.\n1. Darwin's Finches (Galapagos Islands): From ancestral seed-eating ground finches, radiated into vegetarian tree finches, insectivorous finches, and cactus-eating finches with specialized beaks.\n2. Australian Marsupials: Radiated from ancestral stock into kangaroo, koala, Tasmanian wolf, wombat within isolated Australian continent.",
+      "hint": "When more than one adaptive radiation occurs in an isolated geographical area, it results in Convergent Evolution."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Vestigial Organs in Humans: Definition and 5 key examples?",
+      "a": "Rudimentary, non-functional remnants of organs that were well-developed and functional in ancestors.\nExamples in humans:\n1. Vermiform appendix (cellulose digestion in herbivorous ancestors).\n2. Nictitating membrane / Plica semilunaris (third eyelid in eye corner).\n3. Wisdom teeth (3rd molars used for grinding coarse plant food).\n4. Coccyx (reduced tail vertebrae).\n5. Auricular muscles of pinna.",
+      "hint": "Presence of vestigial organs provides compelling anatomical evidence of evolutionary ancestry."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Connecting Links vs Missing Links with examples?",
+      "a": "1. Connecting Link: Living organisms that possess intermediate characteristics of two distinct taxonomic groups.\n- Peripatus (between Annelida and Arthropoda).\n- Platypus / Echidna (between Reptiles and Mammals: lay shelled eggs yet suckle young).\n2. Missing Link: Extinct fossil organisms intermediate between two groups.\n- Archaeopteryx lithographica: Jurassic fossil link between Reptiles (teeth in jaws, long bony tail, clawed digits) and Birds (feathers, wings, beak).",
+      "hint": "Huxley called birds 'glorified reptiles' based on the reptilian anatomy of Archaeopteryx."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Ernst Haeckel's Biogenetic Law (Recapitulation Theory) & von Baer's correction?",
+      "a": "Haeckel (1866): 'Ontogeny Recapitulates Phylogeny' (an organism in its individual embryonic development repeats evolutionary history of its ancestral race).\nVon Baer's observation: Embryos never pass through the ADULT stages of other animals; they merely share common early generalized embryonic features (e.g. pharyngeal gill clefts in human embryos).",
+      "hint": "Von Baer refuted Haeckel's claim that embryos pass through adult ancestral stages."
+    },
+    {
+      "id": "c21",
+      "tag": "imp",
+      "q": "Human Evolution Timeline: Dryopithecus and Ramapithecus?",
+      "a": "Time: ~15 million years ago (Miocene epoch):\n1. Dryopithecus (African ape-like ancestor): More ape-like, hairy, arms longer than legs, walked on knuckles (quadrupedal), arboreal.\n2. Ramapithecus (Shivalik hills, India / Kenya): More man-like, walked more erect, had shorter face and smaller canines, ground dweller.",
+      "hint": "Ramapithecus represents the first hominid-like evolutionary lineage distinct from apes."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Australopithecus and Homo habilis: Cranial capacity and habits?",
+      "a": "1. Australopithecus (~2-3 mya, East African grasslands; 'Lucy'): Bipedal locomotion with fully erect posture; cranial capacity 450-600 cc; used stone weapons but essentially ate fruits.\n2. Homo habilis (~2 mya; 'Handyman' / First human-like hominid): Cranial capacity 650-800 cc; first tool maker; did NOT eat meat.",
+      "hint": "Homo habilis is the first species assigned to the genus Homo."
+    },
+    {
+      "id": "c23",
+      "tag": "imp",
+      "q": "Homo erectus: Fossil discovery, cranial capacity, and milestone features?",
+      "a": "Fossils found in Java (1891; Java Man - Pithecanthropus erectus) and Peking (~1.5 mya).\nCranial capacity: ~900 cc.\nMilestones:\n1. Fully upright, robust bipedal walking.\n2. Definitely ATE MEAT.\n3. Discovered and used FIRE for cooking and protection.\n4. Made standardized Acheulean stone tools (hand axes).",
+      "hint": "Homo erectus was the first hominid species to migrate out of Africa into Asia and Europe."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Homo neanderthalensis vs Homo sapiens: Cranial capacity and culture?",
+      "a": "1. Neanderthal Man (~100,000 to 40,000 years ago, Neander Valley, Germany): Cranial capacity 1400 cc; heavy brow ridges, stooped posture; used animal hides for clothing; first to BURIED THEIR DEAD with flowers and rituals.\n2. Homo sapiens fossilis (Cro-Magnon, ~34,000 years ago): Cranial capacity 1600 cc (larger than modern man); cave art.\n3. Homo sapiens sapiens (Modern Man, ~75,000-10,000 years ago): Cranial capacity 1350-1450 cc; developed agriculture (~10,000 years ago) and modern human settlements.",
+      "hint": "Neanderthals had large cranial capacity (~1400 cc) and practiced ritualistic burial of dead."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "Cranial Capacity Evolution Ladder (Summary for MHT-CET)?",
+      "a": "Order of increasing cranial capacity:\n1. Chimpanzee: ~400 cc\n2. Australopithecus: 450-600 cc\n3. Homo habilis: 650-800 cc\n4. Homo erectus: ~900 cc\n5. Modern Man (Homo sapiens sapiens): 1350-1450 cc\n6. Neanderthal Man: ~1400 cc\n7. Cro-Magnon Man: ~1600 cc.",
+      "hint": "Cro-Magnon man had the highest cranial capacity (~1600 cc) among all hominids!"
+    }
+  ]
+}

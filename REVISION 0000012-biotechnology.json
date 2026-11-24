@@ -1,0 +1,183 @@
+{
+  "title": "Biotechnology",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Recombinant DNA Technology? Who constructed the first recombinant DNA?",
+      "a": "rDNA Technology (Genetic Engineering): Techniques to alter the chemistry of genetic material (DNA/RNA) and introduce it into a host organism to change its phenotype.\nFirst Recombinant DNA:\n- Constructed by Stanley Cohen and Herbert Boyer in 1972.\n- Isolated an antibiotic resistance gene by cutting plasmid of Salmonella typhimurium using restriction enzyme, and linked it with a plasmid vector using DNA ligase, creating the first chimeric DNA.",
+      "hint": "EFB (European Federation of Biotechnology) defines biotechnology as the integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Restriction Endonucleases: Discovery, nomenclature, and Palindromic recognition?",
+      "a": "Molecular Scissors: Discovered by Arber, Smith, and Nathans (Hind II was the first isolated restriction endonuclease).\nNomenclature (e.g. EcoRI):\n- E: Genus Escherichia\n- co: Species coli\n- R: Strain RY13\n- I: First endonuclease isolated from this strain.\nPalindromic Recognition Sequence:\n- Reads the same on both strands in $5' \\rightarrow 3'$ direction.\n- EcoRI recognizes: $5'-GAATTC-3'$ and cuts between G and A, producing sticky (cohesive) staggered ends.",
+      "hint": "Restriction endonucleases cut phosphodiester bonds at specific internal sites; exonucleases remove nucleotides from the ends."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Features of a standard Cloning Vector (e.g. Plasmid pBR322)?",
+      "a": "Essential features:\n1. Origin of Replication (Ori): Sequence where replication starts; controls copy number of linked DNA.\n2. Selectable Markers: Genes conferring antibiotic resistance (e.g. $amp^R$ and $tet^R$ in pBR322) to identify and select transformants from non-transformants.\n3. Unique Cloning / Restriction Sites: Single recognition site for a restriction enzyme within a marker gene (e.g. BamHI and SalI in $tet^R$; PvuI and PstI in $amp^R$).\n4. Small size for easy handling and host entry.",
+      "hint": "pBR322 was constructed by Bolivar and Rodriguez (p = plasmid, BR = Bolivar and Rodriguez, 322 = numerical designation)."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Insertional Inactivation: Principle and Blue-White Screening?",
+      "a": "Insertional Inactivation: Introduction of foreign gene of interest inside the coding sequence of a selectable marker or enzyme gene, inactivating that gene.\nBlue-White Screening ($\\beta$-galactosidase / LacZ system):\n- Foreign gene inserted into $lacZ$ gene on plasmid.\n- Non-recombinant bacteria: Active $\\beta$-galactosidase hydrolyzes chromogenic substrate X-Gal $\\rightarrow$ BLUE colonies.\n- Recombinant bacteria: $lacZ$ gene disrupted (insertional inactivation) $\\rightarrow$ no enzyme produced $\\rightarrow$ WHITE colonies.",
+      "hint": "White colonies are recombinant transformants; eliminates cumbersome dual-antibiotic replica plating."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Plant and Animal Vectors: Agrobacterium tumefaciens and Retroviruses?",
+      "a": "1. Agrobacterium tumefaciens ('Natural Genetic Engineer of Plants'): Soil bacterium carrying Ti (Tumor-inducing) plasmid; naturally transfers T-DNA causing crown gall tumors in dicots. Disarmed Ti plasmid (tumor genes removed) is modified into an ideal vector to deliver foreign genes into plant cells.\n2. Retroviruses in animals: Disarmed retroviruses used to deliver foreign therapeutic genes into mammalian/human cells (e.g. for gene therapy).",
+      "hint": "Agrobacterium is widely used to transform dicotyledonous plants."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Methods of Gene Transfer into Host Cells: Chemical and Physical methods?",
+      "a": "1. Chemical Method (Competent Host Cells): Incubation with divalent cations (e.g. $Ca^{2+}$) increases membrane permeability; followed by Heat Shock (ice $\\rightarrow 42^\\circ$C $\\rightarrow$ ice) pushes rDNA into bacteria.\n2. Microinjection: Direct mechanical injection of foreign DNA into the nucleus of an animal egg/cell using a glass micropipette.\n3. Biolistics / Gene Gun: Plant cells bombarded with high-velocity microscopic gold or tungsten microprojectiles coated with DNA.\n4. Electroporation: Transient high-voltage electric pulses creating micro-pores in host plasma membrane.",
+      "hint": "Microinjection is standard for animal cells; Gene Gun (Biolistics) is standard for plant cells."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Agarose Gel Electrophoresis: Principle, visualization, and Elution?",
+      "a": "Separation of DNA fragments based on size:\n- Principle: Negatively charged DNA fragments migrate towards the positive ANODE through porous agarose gel matrix (derived from seaweed); smaller fragments migrate faster and farther.\n- Visualization: DNA is invisible; stained with Ethidium Bromide (EtBr) and exposed to Ultraviolet (UV) light $\\rightarrow$ appears as bright ORANGE colored fluorescent bands.\n- Elution: The separated DNA band is cut out from the agarose gel slice and extracted into solution.",
+      "hint": "DNA fragments separate according to size due to the sieving effect of the agarose gel."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Polymerase Chain Reaction (PCR): Principle, 3 steps, and Taq Polymerase?",
+      "a": "Invented by Kary Mullis (1985); in vitro enzymatic amplification of a specific DNA segment by a factor of billions ($2^n$ copies).\n3 Sequential Steps:\n1. Denaturation (94° - 96°C, ~1 min): High temperature breaks H-bonds, separating dsDNA into two single template strands.\n2. Annealing (50° - 60°C): Two sets of synthetic oligonucleotide primers bind to complementary regions at 3'-ends of single strands.\n3. Extension (72°C): Thermostable Taq DNA Polymerase (isolated from thermophilic bacterium Thermus aquaticus) synthesizes new DNA strands using dNTPs and $Mg^{2+}$.",
+      "hint": "Taq polymerase remains active during the high-temperature denaturation step (94°C) without getting denatured."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Bioreactors: Structure and function of Stirred-Tank Bioreactor?",
+      "a": "Large cylindrical vessels (100 to 1000 Litres) providing optimal biologically active growth conditions (temperature, pH, substrate, oxygen, salts) to convert raw materials into specific products using recombinant microbes/cells.\nFeatures of Stirred-Tank Bioreactor:\n- Curved base for thorough mixing.\n- Agitator / Impeller system ensuring uniform mixing and oxygen availability throughout.\n- Oxygen delivery sparger system.\n- Foam control, temperature control (cooling jacket), and pH control systems.\n- Sampling ports to withdraw culture broth periodically.",
+      "hint": "Sparged stirred-tank bioreactors have sterile air bubbles sparged through the broth to increase oxygen transfer surface area."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Downstream Processing in Recombinant DNA Technology?",
+      "a": "The series of post-biosynthetic processes that prepare the product before it is ready for commercial marketing:\n1. Separation: Isolating product from microbial biomass and culture broth (filtration, centrifugation).\n2. Purification: High-performance chromatography, crystallization.\n3. Addition of suitable preservatives.\n4. Formulation and rigorous Clinical Trials (for medical drugs).\n5. Quality Control (QC) testing for purity and safety.",
+      "hint": "Downstream processing and quality control testing vary from product to product."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Bt Cotton: Cry genes, insect targets, and mechanism of action?",
+      "a": "Genetically engineered cotton expressing endotoxin from soil bacterium Bacillus thuringiensis:\n- Cry genes: $cryIAc$ and $cryIIAb$ control Cotton Bollworms; $cryIAb$ controls Corn Borer.\nMechanism of action:\n1. Bacterium produces inactive, non-toxic protoxin protein crystals.\n2. Ingested by insect pest $\\rightarrow$ ALKALINE pH of insect midgut solubilizes crystals into active toxin.\n3. Activated toxin binds to surface of midgut epithelial cells, creates pores $\\rightarrow$ causes cell swelling, osmotic lysis, gut perforation, and death of insect pest.",
+      "hint": "Bt toxin is harmless to humans and mammals because our acidic stomach pH inactives it and we lack the specific midgut epithelial receptors."
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "RNA Interference (RNAi): Mechanism and Meloidogyne incognita in tobacco?",
+      "a": "Pioneered by Andrew Fire and Craig Mello in C. elegans (Nobel Prize 2006):\n- A natural eukaryotic cellular defense mechanism causing gene silencing.\nApplication in Tobacco:\n- Root-knot nematode Meloidogyne incognita infects tobacco roots causing severe yield loss.\n- Using Agrobacterium vectors, nematode-specific genes were introduced producing BOTH Sense and Antisense RNA in host plant cells.\n- Sense and antisense RNAs anneal to form double-stranded RNA (dsRNA).\n- dsRNA triggers RNAi mechanism: Dicer enzyme chops dsRNA into siRNAs $\\rightarrow$ RISC complex specifically degrades and silences the corresponding nematode mRNA $\\rightarrow$ nematode cannot survive in transgenic tobacco host.",
+      "hint": "RNAi is post-transcriptional gene silencing mediated by complementary double-stranded RNA (dsRNA)."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Genetically Engineered Insulin (Humulin): Eli Lilly, 1983 breakthrough?",
+      "a": "Human insulin consists of 2 polypeptide chains: Chain A (21 amino acids) and Chain B (30 amino acids) linked by 2 Disulfide bonds.\n- Proinsulin: Inactive precursor produced by human pancreas containing an extra C-peptide (33 amino acids) connecting chains A and B; C-peptide is cleaved during maturation.\nEli Lilly's Breakthrough (1983):\n- Prepared two separate DNA sequences corresponding to Chain A and Chain B.\n- Introduced them into plasmids of E. coli to produce chains A and B separately.\n- Extracted and purified chains A and B, then combined them by forming DISULFIDE BONDS in vitro to create active Humulin.",
+      "hint": "Mature active human insulin contains ZERO C-peptide."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "First Clinical Gene Therapy (1990): ADA Deficiency (SCID)?",
+      "a": "Performed by W. French Anderson on a 4-year-old girl suffering from Adenosine Deaminase (ADA) deficiency, causing Severe Combined Immunodeficiency (SCID).\nProcedure:\n1. Lymphocytes collected from patient's peripheral blood and cultured in vitro.\n2. Functional human $ADA$ cDNA incorporated into a disarmed Retroviral vector.\n3. Retroviral vector transferred into cultured patient lymphocytes.\n4. Genetically engineered lymphocytes infused back into patient.\nLimitation: Lymphocytes are not immortal; requires periodic repeated transfusions.\nPermanent Cure: Introducing functional $ADA$ gene into Bone Marrow Stem Cells at early embryonic stages.",
+      "hint": "ADA enzyme is crucial for the survival and proper functioning of the human immune system."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Transgenic Animals: Definitions, purposes, and famous examples?",
+      "a": "Animals whose genome has been deliberately altered by introducing a foreign gene (transgene).\nPurposes: Normal physiology research, disease models, biological products, vaccine safety testing, toxicity testing.\nFamous Examples:\n1. Rosie Cow (1997): Produced human protein-enriched milk (2.4 g/L) containing human $\\alpha$-lactalbumin (nutritionally more balanced for human babies than natural cow milk).\n2. Tracy Sheep: Produced human protein $\\alpha$-1-antitrypsin used to treat Emphysema.\n3. Transgenic Mice: Developed to test the safety of Polio vaccines before human use.",
+      "hint": "Over 95% of all existing transgenic laboratory animals are mice."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Golden Rice: Genetic engineering, source genes, and nutritional benefit?",
+      "a": "Transgenic rice (Oryza sativa) biofortified with Provitamin A ($\\beta$-Carotene) developed by Ingo Potrykus and Peter Beyer.\nGenetically engineered by introducing 3 genes:\n1. Phytoene synthase ($psy$) from daffodil (Narcissus pseudonarcissus) or maize.\n2. Phytoene desaturase ($crtl$) from bacterium Erwinia uredovora.\nProduces yellow/golden endosperm rich in $\\beta$-carotene (precursor of Vitamin A).\nBenefit: Combats Vitamin A deficiency, preventing childhood blindness and mortality in rice-dependent developing nations.",
+      "hint": "Golden rice is genetically engineered specifically to produce $\\beta$-carotene in the edible grain endosperm."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Bioethics and GEAC (Genetic Engineering Appraisal Committee)?",
+      "a": "Bioethics: Set of moral standards and guidelines governing human interactions with transgenic biological systems and genetic manipulation.\nGEAC (under Ministry of Environment, Forest and Climate Change, Govt. of India):\n- Statutory body responsible for appraising proposals involving release of genetically modified organisms (GMOs) into the environment.\n- Evaluates biosafety, ecological hazards, and commercial release of GM crops (e.g. Bt Cotton, GM Mustard).",
+      "hint": "GEAC approval is mandatory in India before conducting any field trials or commercial release of GM organisms."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "What is Biopiracy? Discuss the Basmati Rice and Turmeric patent cases.",
+      "a": "Biopiracy: The commercial exploitation and patenting of biological resources and traditional indigenous knowledge of developing nations by foreign corporations without authorization or equitable compensation.\nCases:\n1. Basmati Rice (1997): American company RiceTec was granted a US patent on 'Basmati rice lines and grains'. The patent was based on crossing traditional Indian Basmati with semi-dwarf varieties. India legally contested it with historical evidence, forcing revocation of major patent claims.\n2. Turmeric (Curcuma longa): US patent granted for wound healing was successfully challenged and revoked based on ancient Ayurvedic texts proving prior art.\n3. Neem (Azadirachta indica): Patent on fungicidal properties revoked after legal challenge.",
+      "hint": "Traditional knowledge documented in ancient texts (e.g. Charaka Samhita) was used as proof of prior art to overturn biopiracy patents."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Biopatents: Definition, criteria, and economic significance?",
+      "a": "A government-granted intellectual property right giving an inventor the exclusive right to exclude others from commercially making, using, or selling a biological invention for a limited period (usually 20 years).\n3 Mandatory Criteria:\n1. Novelty (must be genuinely new, not previously published/known).\n2. Inventive Step / Non-obviousness (cannot be obvious to a person skilled in the art).\n3. Industrial Applicability / Utility (must have real, tangible practical use).",
+      "hint": "Natural discoveries cannot be patented; only human-engineered novel modifications are patentable."
+    },
+    {
+      "id": "c20",
+      "tag": "formula",
+      "q": "PCR Calculation: Number of DNA copies produced after n cycles?",
+      "a": "Number of DNA copies = $2^n$, where $n$ is the number of cycles.\n- After 10 cycles: $2^{10} = 1,024$ copies\n- After 20 cycles: $2^{20} \\approx 1.05 \\times 10^6$ (~1 million copies)\n- After 30 cycles: $2^{30} \\approx 1.07 \\times 10^9$ (~1 billion copies!).",
+      "hint": "30 cycles of PCR amplify a single DNA fragment over a billion-fold in under 2 hours."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Enzymes used for Isolation of Pure DNA from diverse organisms?",
+      "a": "Cell wall lysis enzymes:\n1. Bacterial cells $\\rightarrow$ Lysozyme (digests peptidoglycan).\n2. Plant cells $\\rightarrow$ Cellulase and Pectinase.\n3. Fungal cells $\\rightarrow$ Chitinase.\nPurification enzymes:\n- RNase (digests RNA contaminants).\n- Protease (digests histone and non-histone proteins).\nFinal precipitation: Addition of ice-cold chilled Ethanol causes pure DNA to precipitate as fine white threads (Spooling).",
+      "hint": "DNA spooling is the physical winding of precipitated DNA threads onto a glass rod."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Molecular Diagnosis in Medicine: PCR and ELISA vs Conventional Methods?",
+      "a": "Conventional diagnostic methods (serum analysis, urine analysis, culture) detect pathogens only when they have multiplied to high levels, losing critical early treatment window.\nMolecular Methods:\n1. PCR: Can detect minute traces of bacterial or viral DNA/RNA (even single pathogen copies) before clinical symptoms appear (e.g. early HIV detection, cancer oncogene mutations).\n2. ELISA: Highly sensitive detection of antigen or antibody based on antigen-antibody reaction catalyzed by enzyme (e.g. Horseradish peroxidase / Alkaline phosphatase) generating colorimetric signal.",
+      "hint": "PCR enables pathogen detection in asymptomatic patients long before physical symptoms develop."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Flavr Savr Tomato: Genetic alteration and commercial benefit?",
+      "a": "First commercially grown genetically engineered food crop (Calgene, 1994):\n- Modified using Antisense RNA technology to block expression of the gene coding for Polygalacturonase (enzyme that digests pectin in cell walls causing softening and rotting).\nBenefits:\n- Significantly delayed fruit softening and spoilage.\n- Increased shelf life, allowing tomatoes to stay vine-ripe longer, enhancing flavor and resisting transport damage.",
+      "hint": "Flavr Savr tomato prevents rot by inhibiting polygalacturonase enzyme synthesis via antisense technology."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Bioremediation and Superbug (Pseudomonas putida)?",
+      "a": "Bioremediation: Use of living microorganisms to clean up and detoxify environmental pollutants in soil and water.\nSuperbug (Pseudomonas putida):\n- Genetically engineered by Indian-American scientist Dr. Ananda Mohan Chakrabarty (1971).\n- Carried 4 distinct plasmids enabling it to break down and digest major hydrocarbon components of crude oil (octane, hexane, xylene, camphor).\n- Used to clean up disastrous marine petroleum oil spills.",
+      "hint": "Pseudomonas putida was the subject of the landmark 1980 US Supreme Court patent case (Diamond v. Chakrabarty) allowing patents on genetically modified living organisms."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Match Table: Transgenic product to intended therapeutic use.",
+      "a": "1. $\\alpha$-1-Antitrypsin $\\rightarrow$ Treatment of Emphysema.\n2. Humulin $\\rightarrow$ Diabetes mellitus treatment.\n3. $\\alpha$-Lactalbumin (Rosie milk) $\\rightarrow$ Humanized protein-rich infant formula.\n4. Tissue Plasminogen Activator (tPA) $\\rightarrow$ Dissolving coronary thrombosis.\n5. Adenosine Deaminase (ADA) $\\rightarrow$ SCID gene therapy.\n6. Cry1Ac / Cry2Ab $\\rightarrow$ Cotton bollworm resistance in Bt cotton.\n7. $\\beta$-Carotene $\\rightarrow$ Vitamin A biofortified Golden Rice.",
+      "hint": "Super high-yield matching question consistently asked in HSC Board and MHT-CET!"
+    }
+  ]
+}

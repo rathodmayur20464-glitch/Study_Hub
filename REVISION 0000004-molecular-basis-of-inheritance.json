@@ -1,0 +1,183 @@
+{
+  "title": "Molecular Basis of Inheritance",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Frederick Griffith's Transformation Experiment (1928) on Streptococcus pneumoniae?",
+      "a": "Used two strains:\n- S-strain (Smooth): Virulent, encapsulated with mucous polysaccharide coat; kills mice.\n- R-strain (Rough): Non-virulent, non-capsulated; mice survive.\nObservations:\n1. Heat-killed S-strain $\\rightarrow$ Mice live.\n2. Heat-killed S-strain + Live R-strain $\\rightarrow$ Mice DIE (live virulent S-strain recovered).\nConclusion: A 'Transforming Principle' transferred from dead S-strain transformed live R-strain into virulent S-strain.",
+      "hint": "Griffith proved genetic transformation occurred, but did NOT identify the biochemical nature of the transforming agent."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Avery, MacLeod, and McCarty Experiment (1944): Biochemical characterization?",
+      "a": "Purified biochemical components (proteins, RNA, DNA) from heat-killed S cells:\n1. Protease + Heat-killed S + Live R $\\rightarrow$ Transformation occurred.\n2. RNase + Heat-killed S + Live R $\\rightarrow$ Transformation occurred.\n3. DNase + Heat-killed S + Live R $\\rightarrow$ Transformation INHIBITED.\nConclusion: DNA is the transforming principle (the hereditary material).",
+      "hint": "DNase specifically digested DNA and destroyed the transforming activity, proving DNA is genetic."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Hershey-Chase (1952) Blender Experiment: Unequivocal proof of DNA as genetic material?",
+      "a": "Used Bacteriophage T2 and E. coli:\n1. Phage labeled with $^{35}S$ (labeled protein coat, since sulfur is in methionine/cysteine).\n2. Phage labeled with $^{32}P$ (labeled DNA core, since phosphorus is in nucleic acids).\nSteps: Infection $\\rightarrow$ Blending (sheared coats) $\\rightarrow$ Centrifugation.\nResults:\n- Supernatant contained $^{35}S$ (protein coats remained outside).\n- Pellet (bacteria) contained $^{32}P$ (DNA entered bacterial cells).\nConclusion: DNA, not protein, is the genetic material.",
+      "hint": "Unequivocal, universally accepted proof that DNA is the genetic material."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Chargaff's Rules of DNA Base Equivalence?",
+      "a": "Applies strictly to double-stranded DNA (dsDNA):\n1. Purines = Pyrimidines: $[A] + [G] = [C] + [T]$.\n2. Amount of Adenine = Thymine: $[A] / [T] = 1$.\n3. Amount of Guanine = Cytosine: $[G] / [C] = 1$.\n4. Base ratio $(A + T) / (G + C)$ is constant for a given species, but varies between species.",
+      "hint": "If a dsDNA has 20% Cytosine, then Guanine = 20%, total G+C = 40%, so A+T = 60%, meaning Adenine = 30% and Thymine = 30%."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "Salient features of Watson-Crick B-DNA Double Helix Model?",
+      "a": "1. Two antiparallel polynucleotide chains ($5' \\rightarrow 3'$ and $3' \\rightarrow 5'$).\n2. Sugar-phosphate backbone outside; bases project inside paired via H-bonds: A=T (2 H-bonds) and G≡C (3 H-bonds).\n3. Pitch of helix = 3.4 nm (34 Å) with ~10 base pairs per turn.\n4. Distance between consecutive base pairs = 0.34 nm (3.4 Å).\n5. Diameter of double helix = 2.0 nm (20 Å).",
+      "hint": "Right-handed coiled B-DNA is the predominant physiological form."
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Packaging of DNA in Eukaryotes: Structure of a Nucleosome?",
+      "a": "Proposed by Roger Kornberg (1974):\n- Histone Octamer core (2 molecules each of $H_2A, H_2B, H_3, H_4$; rich in basic amino acids Lysine and Arginine).\n- Negatively charged DNA wrapped ~1.75 turns around octamer (~146 base pairs).\n- $H_1$ histone seals the entry/exit point of DNA (linker DNA has ~54 bp).\n- Total DNA per nucleosome bead = ~200 base pairs.",
+      "hint": "Under electron microscopy, chromatin appears as 'beads-on-a-string'."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Euchromatin vs Heterochromatin: Core differences?",
+      "a": "1. Euchromatin: Loosely packed, lightly staining regions; replicates early in S-phase; transcriptionally ACTIVE.\n2. Heterochromatin: Densely packed, darkly staining regions (found near centromeres and telomeres); replicates late in S-phase; transcriptionally INACTIVE / silent.",
+      "hint": "Heterochromatin is transcriptionally inert due to high methylation and tight chromatin compaction."
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Meselson and Stahl Experiment (1958): Semi-Conservative DNA Replication?",
+      "a": "Grew E. coli in $^{15}NH_4Cl$ (heavy isotope) medium for generations $\\rightarrow$ all DNA was heavy ($^{15}N/^{15}N$).\nTransferred to normal $^{14}NH_4Cl$ medium:\n- Generation 1 (after 20 min): 100% Hybrid intermediate density ($^{15}N/^{14}N$).\n- Generation 2 (after 40 min): 50% Hybrid ($^{15}N/^{14}N$) and 50% Light ($^{14}N/^{14}N$).\nDensity measured using CsCl equilibrium density gradient centrifugation.",
+      "hint": "Taylor (1958) proved semi-conservative replication in eukaryotes using radioactive tritiated thymidine ($^3H$-thymidine) on Vicia faba."
+    },
+    {
+      "id": "c9",
+      "tag": "imp",
+      "q": "Enzymes of DNA Replication and their specific functions?",
+      "a": "1. Helicase: Unwinds the double helix by breaking H-bonds at Ori.\n2. Topoisomerase (DNA Gyrase): Relieves supercoiling and torsional strain ahead of replication fork.\n3. SSBP: Prevents single strands from re-annealing.\n4. RNA Primase: Synthesizes short RNA primer (5-10 nt) providing free 3'-OH group.\n5. DNA Polymerase III: Synthesizes new DNA strand in strictly $5' \\rightarrow 3'$ direction.\n6. DNA Polymerase I: Removes RNA primer (5'->3' exonuclease) and fills gaps.\n7. DNA Ligase: Joins Okazaki fragments via phosphodiester bonds.",
+      "hint": "DNA polymerase cannot initiate synthesis de novo; it strictly requires a free 3'-OH primer."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Leading Strand vs Lagging Strand synthesis at the Replication Fork?",
+      "a": "1. Leading Strand: Synthesized continuously towards the replication fork on the $3' \\rightarrow 5'$ template strand; requires only 1 RNA primer.\n2. Lagging Strand: Synthesized discontinuously away from the replication fork on the $5' \\rightarrow 3'$ template strand as short Okazaki fragments (1000-2000 nt in prokaryotes); requires multiple RNA primers.",
+      "hint": "Okazaki fragments are joined into a continuous strand by DNA Ligase."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Structure of a Transcription Unit: Promoter, Structural Gene, Terminator?",
+      "a": "1. Promoter: DNA sequence located upstream at 5'-end (with respect to coding strand) where RNA polymerase and transcription factors bind (TATA box / Pribnow box).\n2. Structural gene: Flanked by promoter and terminator; contains Template strand ($3' \\rightarrow 5'$) and Coding strand ($5' \\rightarrow 3'$).\n3. Terminator: Sequence located downstream at 3'-end where transcription stops.",
+      "hint": "All reference coordinates (upstream/downstream) in a transcription unit are defined with respect to the CODING strand!"
+    },
+    {
+      "id": "c12",
+      "tag": "imp",
+      "q": "Eukaryotic RNA Polymerases and their transcribed products?",
+      "a": "1. RNA Polymerase I: Transcribes 28S, 18S, and 5.8S rRNAs.\n2. RNA Polymerase II: Transcribes precursor of mRNA, called heterogeneous nuclear RNA (hnRNA).\n3. RNA Polymerase III: Transcribes tRNA, 5S rRNA, and snRNAs (small nuclear RNAs).",
+      "hint": "Prokaryotes have only ONE single RNA polymerase that synthesizes all types of RNA."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Post-Transcriptional Processing of Eukaryotic hnRNA: Capping, Tailing, Splicing?",
+      "a": "1. Capping: Addition of unusual nucleotide 7-methylguanosine triphosphate ($m^7Gppp$) to the 5'-end of hnRNA.\n2. Tailing: Addition of Poly-A tail (200-300 adenylate residues) to the 3'-end in a template-independent manner.\n3. Splicing: Removal of non-coding intervening sequences (Introns) and joining of coding sequences (Exons) by spliceosome complex (snRNPs).",
+      "hint": "Split-gene arrangement (presence of introns) is an ancient, diagnostic characteristic of eukaryotes."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Key properties of the Genetic Code?",
+      "a": "1. Triplet: 3 consecutive nucleotides form a codon ($4^3 = 64$ codons for 20 amino acids).\n2. Universal: Codon codes for same amino acid from bacteria to humans (e.g. UUU codes for Phenylalanine).\n3. Degenerate: Some amino acids are coded by more than one codon (e.g. Leucine coded by 6 codons).\n4. Commaless & Non-overlapping: Read continuously without punctuation.\n5. Non-ambiguous & Specific: 1 codon codes for ONLY 1 specific amino acid.",
+      "hint": "AUG has dual functions: acts as Start/Initiator codon AND codes for Methionine."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Start and Stop Codons: Triplet sequences?",
+      "a": "Start Codon: AUG (codes for Methionine in eukaryotes; N-formylmethionine in prokaryotes).\nStop (Nonsense / Termination) Codons:\n1. UAA (Ochre)\n2. UAG (Amber)\n3. UGA (Opal)\nThese 3 codons do not code for any amino acid and have no corresponding tRNAs (recognized by Release Factors).",
+      "hint": "Out of 64 total codons, exactly 61 are sense codons and 3 are nonsense/stop codons."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Structure of tRNA (Transfer RNA): Cloverleaf vs L-shaped model?",
+      "a": "Secondary structure is Cloverleaf model (Robert Holley); Tertiary structure is compact 3D inverted L-shape (Kim & Klug).\nKey arms:\n1. Acceptor stem: 3'-end with CCA-OH sequence where specific amino acid binds.\n2. Anticodon loop: Contains 3 bases complementary to mRNA codon.\n3. D-loop (DHU loop): Binds Aminoacyl-tRNA synthetase enzyme.\n4. T$\\psi$C loop: Binds ribosome.",
+      "hint": "Francis Crick termed tRNA the 'Adapter Molecule'."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Translation: Activation of Amino Acid and Aminoacylation of tRNA?",
+      "a": "1. Activation: Amino acid + ATP $\\rightarrow$ Aminoacyl-AMP-Enzyme complex + PPi (catalyzed by Aminoacyl-tRNA synthetase in presence of $Mg^{2+}$).\n2. Charging (Aminoacylation): Activated amino acid is transferred to the 3'-CCA end of its cognate tRNA, releasing AMP and enzyme:\nAminoacyl-AMP-Enzyme + tRNA $\\rightarrow$ Aminoacyl-tRNA (charged tRNA) + AMP + Enzyme.",
+      "hint": "Charging of tRNA requires ATP energy and ensures fidelity of protein translation."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Steps of Translation Elongation: Peptidyl transferase and Translocation?",
+      "a": "1. Ribosome sites: A-site (Aminoacyl/entry), P-site (Peptidyl/peptidyl-tRNA), E-site (Exit).\n2. Peptide bond formation: Catalyzed by Peptidyl transferase (in bacteria, the 23S rRNA acts as a ribozyme) between amino acid on P-site and A-site.\n3. Translocation: Ribosome shifts 1 codon along mRNA ($5' \\rightarrow 3'$) via Elongation Factor G (EF-G) and GTP, moving uncharged tRNA to E-site.",
+      "hint": "23S rRNA in prokaryotes is a ribozyme (RNA acting as an enzyme)."
+    },
+    {
+      "id": "c19",
+      "tag": "imp",
+      "q": "Lac Operon: Structure and components (Jacob & Monod, 1961)?",
+      "a": "Inducible catabolic operon in E. coli:\n1. Regulatory gene ($i$ gene): Constitutively synthesizes Lac Repressor protein.\n2. Promoter ($P$): Binding site for RNA polymerase.\n3. Operator ($O$): Binding site for active repressor protein.\n4. Structural genes:\n- $lacZ$: Codes for $\\beta$-galactosidase (hydrolyzes lactose into glucose + galactose).\n- $lacY$: Codes for $\\beta$-galactoside Permease (increases cell permeability to lactose).\n- $lacA$: Codes for $\\beta$-galactoside Transacetylase.",
+      "hint": "All three structural genes are transcribed as a single polycistronic mRNA in prokaryotes."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Lac Operon Regulation: Switched OFF vs Switched ON mechanism?",
+      "a": "1. In ABSENCE of Inducer (Lactose):\nRepressor protein binds tightly to Operator ($O$) site $\\rightarrow$ blocks RNA polymerase from transcribing structural genes $\\rightarrow$ Operon is OFF (no enzymes synthesized).\n2. In PRESENCE of Inducer (Allolactose/Lactose):\nInducer binds to repressor protein causing conformational change (inactivating it) $\\rightarrow$ Repressor cannot bind to operator $\\rightarrow$ RNA polymerase transcribes $lacZ, lacY, lacA$ $\\rightarrow$ Operon is ON.",
+      "hint": "Lac operon is under NEGATIVE INDUCIBLE control (repressor prevents transcription unless inactivated by inducer)."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Human Genome Project (HGP): Key goals and methodologies?",
+      "a": "13-year mega-project (1990-2003) coordinated by US DOE and NIH, Wellcome Trust.\nGoals: Sequence all 3 billion base pairs of human DNA, identify all ~20,000-25,000 genes, store data in bioinformatics databases.\nMethodologies:\n1. ESTs (Expressed Sequence Tags): Identifying all genes expressed as RNA.\n2. Sequence Annotation: Sequencing blind entire genome and assigning functions later using BAC and YAC vectors and automated Sanger sequencers.",
+      "hint": "Chromosome 1 was the last chromosome to be completely sequenced (completed May 2006)."
+    },
+    {
+      "id": "c22",
+      "tag": "formula",
+      "q": "Salient findings of the Human Genome Project?",
+      "a": "1. Human genome contains 3.1647 billion base pairs (3164.7 Mb).\n2. Average gene contains 3000 bases; largest human gene is Dystrophin on X chromosome (2.4 million bases).\n3. Total estimated genes = ~25,000 (much fewer than earlier expected ~100,000).\n4. Less than 2% of the genome codes for proteins.\n5. Over 50% discovered genes have unknown functions.\n6. Repeated sequences make up very large portion of genome.\n7. ~1.4 million locations have single nucleotide polymorphisms (SNPs).",
+      "hint": "Any two individuals share 99.9% identical nucleotide base sequences (only 0.1% accounts for all phenotypic variation)."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "DNA Fingerprinting: Principle and VNTRs (Sir Alec Jeffreys)?",
+      "a": "Technique developed by Sir Alec Jeffreys (1984); Dr. Lalji Singh and Dr. V.K. Kashyap pioneered it in India.\nPrinciple: Based on DNA polymorphism in non-coding satellite DNA (repetitive DNA).\nUses VNTRs (Variable Number of Tandem Repeats / Minisatellites: 11-60 bp repeats) which show high degree of individual polymorphism and are inherited from parents.",
+      "hint": "Monozygotic (identical) twins have 100% identical DNA fingerprints."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Steps of DNA Fingerprinting Protocol?",
+      "a": "1. DNA Isolation: Extraction from blood, semen, hair root, saliva.\n2. Restriction Digestion: DNA cut into fragments by restriction endonuclease.\n3. Agarose Gel Electrophoresis: Separation of fragments based on size.\n4. Southern Blotting: Denaturation and transfer of separated DNA fragments from gel to nitrocellulose/nylon membrane.\n5. Hybridization: Incubation with radiolabeled radioactive $^{32}P$-VNTR probes.\n6. Autoradiography: Visualization of hybrid bands on X-ray film.",
+      "hint": "Southern blotting transfers DNA; Northern blotting transfers RNA; Western blotting transfers proteins."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Numerical Trap: Calculate length of DNA in a human diploid cell.",
+      "a": "Total base pairs in human diploid cell = $6.6 \\times 10^9$ bp.\nDistance between consecutive base pairs = $0.34 \\times 10^{-9}$ m.\nTotal DNA length = $(6.6 \\times 10^9) \\times (0.34 \\times 10^{-9}\\text{ m}) \\approx 2.24$ metres!\nThis 2.24 m DNA is packaged into a nucleus of diameter only $\\approx 10^{-6}$ m via nucleosomal winding.",
+      "hint": "E. coli DNA has $4.6 \\times 10^6$ bp; its length is $\\approx 1.36$ mm."
+    }
+  ]
+}

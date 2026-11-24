@@ -1,0 +1,183 @@
+{
+  "title": "Control and Coordination",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Structure of a Multipolar Neuron: Cyton, Dendrites, and Axon?",
+      "a": "1. Cyton (Soma / Cell Body): Contains neuroplasm, nucleus, and Nissl's granules (ribosomes and rough ER for protein synthesis; absent in axon).\n2. Dendrites: Short, branched protoplasmic extensions carrying afferent impulses TOWARDS the cyton.\n3. Axon: Long, single efferent process carrying impulses AWAY from cyton; originates from Axon Hillock; enclosed in axolemma and terminates in telodendria with synaptic knobs.",
+      "hint": "Nissl's granules are present in the cyton and dendrites, but completely absent in the axon hillock and axon."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Myelinated vs Non-myelinated Nerve Fibers and Saltatory Conduction?",
+      "a": "1. Myelinated fibers: Axon surrounded by concentric myelin sheath (lipoprotein) formed by Schwann cells (PNS) or Oligodendrocytes (CNS); interrupted at Nodes of Ranvier.\n- Saltatory Conduction: Action potential jumps from one Node of Ranvier to the next, increasing conduction velocity up to 120 m/s (50 times faster than unmyelinated) and saving ATP energy.\n2. Non-myelinated fibers: Schwann cells surround axon but do not form myelin sheath; continuous wave conduction (e.g. autonomous nerves).",
+      "hint": "Schwann cells myelinate PNS neurons; Oligodendrocytes myelinate CNS neurons."
+    },
+    {
+      "id": "c3",
+      "tag": "imp",
+      "q": "Mechanism of Nerve Impulse Conduction: Polarization, Depolarization, Repolarization?",
+      "a": "1. Resting State (Polarization): Inside is -70 mV. Axolemma is more permeable to $K^+$ than $Na^+$. Active $Na^+/K^+$ ATPase pump expels 3 $Na^+$ out for every 2 $K^+$ in, maintaining negative interior.\n2. Depolarization: Stimulus opens voltage-gated $Na^+$ channels $\\rightarrow$ rapid influx of $Na^+ \\rightarrow$ interior reverses to +30 mV (Action Potential).\n3. Repolarization: $Na^+$ channels inactivate; voltage-gated $K^+$ channels open $\\rightarrow$ rapid efflux of $K^+ \\rightarrow$ inside returns to -70 mV.\n4. Hyperpolarization: Excess $K^+$ exit drops potential to -80 mV; restored by $Na^+/K^+$ pump.",
+      "hint": "Refractory period prevents the backward travel of nerve impulses along an axon."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Synaptic Transmission: Chemical Synapse vs Electrical Synapse?",
+      "a": "1. Chemical Synapse: Separated by Synaptic Cleft (20-30 nm). Action potential triggers $Ca^{2+}$ influx into pre-synaptic knob $\\rightarrow$ exocytosis of Neurotransmitter (e.g. Acetylcholine) into cleft $\\rightarrow$ binds to post-synaptic receptors $\\rightarrow$ opens ion channels. Shows synaptic delay (~0.5 ms) and is UNIDIRECTIONAL.\n2. Electrical Synapse: Membranes separated by only 0.2 nm; connected by Gap Junctions (connexons); direct ionic flow; extremely fast; bidirectional (rare in humans; found in heart/reflex circuits).",
+      "hint": "Acetylcholinesterase enzyme rapidly breaks down acetylcholine in the cleft to allow subsequent firing."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Human Brain Meninges and Cerebrospinal Fluid (CSF)?",
+      "a": "Covered by 3 protective cranial meninges (outer to inner):\n1. Duramater: Tough, fibrous, non-vascular outermost membrane lining skull.\n2. Arachnoid mater: Delicate, web-like middle membrane.\n3. Piamater: Highly vascular, thin innermost membrane closely adhering to brain surface.\nCerebrospinal Fluid (CSF): Secreted by Choroid Plexuses in brain ventricles; circulates in Subarachnoid space and central canal. Functions as shock absorber, provides buoyancy, and maintains intracranial pressure.",
+      "hint": "Subarachnoid space lies between Arachnoid mater and Piamater and is filled with CSF."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Structure and Functional Areas of the Cerebrum (Cerebral Cortex)?",
+      "a": "Largest part of brain (80-85%); two cerebral hemispheres connected by Corpus Callosum (transverse white nerve tract).\nFour lobes:\n1. Frontal Lobe: Motor cortex (voluntary movements), Broca's motor speech area, intelligence, decision making.\n2. Parietal Lobe: Somatosensory area (touch, pain, pressure, temperature), gustatory (taste).\n3. Temporal Lobe: Auditory area (hearing), olfactory (smell), Wernicke's speech comprehension area.\n4. Occipital Lobe: Visual cortex (sight, pattern recognition).",
+      "hint": "Broca's area controls motor speech production; Wernicke's area controls speech understanding."
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Functions of Diencephalon: Thalamus and Hypothalamus?",
+      "a": "1. Thalamus: Major relay center for all sensory inputs (except smell) ascending to the cerebral cortex; coordinates motor and sensory signals.\n2. Hypothalamus: Master controller of ANS and endocrine system:\n- Thermoregulation (body's thermostat).\n- Centers for Hunger, Satiety, and Thirst (osmoreceptors).\n- Emotional behavior (part of Limbic System with amygdala and hippocampus).\n- Secretes neurohormones (GnRH, TRH, CRH, and synthesizes Oxytocin & ADH).",
+      "hint": "Hypothalamus directly regulates the pituitary gland via the hypophyseal portal system."
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Midbrain and Hindbrain Components: Cerebellum, Pons, and Medulla?",
+      "a": "Midbrain: Corpora Quadrigemina (4 optic/auditory lobes: superior colliculi for visual reflexes, inferior for auditory reflexes).\nHindbrain:\n1. Cerebellum ('Little Brain'): Highly folded surface with arbor vitae; coordinates voluntary muscle movements, maintains equilibrium, posture, and balance.\n2. Pons Varolii: Transverse fiber bridge connecting cerebrum and cerebellum; contains Pneumotaxic center (regulates breathing rhythm).\n3. Medulla Oblongata: Continues into spinal cord; contains vital autonomic reflex centers: Cardiac center, Vasomotor center, Respiratory rhythmicity center, and swallowing/coughing/vomiting centers.",
+      "hint": "Alcohol impairs the Cerebellum, causing ataxia, loss of motor coordination, and uncoordinated stumbling gait."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Spinal Cord Anatomy and Reflex Arc?",
+      "a": "Extends from medulla to L1-L2 vertebra; ends in Conus medullaris and thread-like Filum terminale.\nCross-section: Butterfly-shaped GREY MATTER inside (sensory dorsal horn, motor ventral horn) surrounded by WHITE MATTER tracts outside.\nReflex Arc (pathway of involuntary automatic reflex action):\nReceptor $\\rightarrow$ Sensory (afferent) neuron $\\rightarrow$ Interneuron / Dorsal horn of spinal cord $\\rightarrow$ Motor (efferent) neuron $\\rightarrow$ Effector organ (muscle/gland).",
+      "hint": "In brain: grey matter is outside, white is inside. In spinal cord: white matter is outside, grey is inside!"
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Autonomic Nervous System (ANS): Sympathetic vs Parasympathetic division?",
+      "a": "1. Sympathetic ('Fight or Flight'):\n- Outflow: Thoracolumbar ($T_1$ to $L_3$).\n- Ganglia: Near spinal cord (sympathetic chain); short preganglionic, long postganglionic fibers.\n- Neurotransmitter: Noradrenaline (Adrenergic).\n- Action: Increases HR, dilates bronchi, dilates pupils, inhibits digestion.\n2. Parasympathetic ('Rest and Digest'):\n- Outflow: Craniosacral (Cranial nerves III, VII, IX, X + $S_2-S_4$).\n- Ganglia: Near or within target organs; long preganglionic, short postganglionic fibers.\n- Neurotransmitter: Acetylcholine (Cholinergic).\n- Action: Slows HR, constricts bronchi, constricts pupils, stimulates digestive secretions.",
+      "hint": "Sympathetic and parasympathetic systems act antagonistically to maintain visceral homeostasis."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Structure of Human Eye: Retina, Photoreceptors, and Visual Pigments?",
+      "a": "Wall consists of 3 coats: Sclera (cornea in front), Choroid (ciliary body and iris), and Retina.\nRetina has 3 cellular layers (outer to inner): Photoreceptor cells $\\rightarrow$ Bipolar cells $\\rightarrow$ Ganglion cells (axons form Optic Nerve).\nPhotoreceptors:\n1. Rods: Contain Rhodopsin (visual purple: Opsin + Retinal / Vitamin A); sensitive to dim light (scotopic / twilight vision); no color perception.\n2. Cones: Contain Iodopsin (photopsin); sensitive to bright light (photopic vision) and color vision (Red, Green, Blue cones).\n- Fovea Centralis (Yellow spot / Macula lutea): Contains ONLY packed cones; point of sharpest visual resolution.\n- Blind Spot (Optic disc): Zero photoreceptors; exit of optic nerve.",
+      "hint": "Vitamin A deficiency causes Night Blindness (Nyctalopia) due to impaired rhodopsin regeneration."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Structure of Human Ear: Hearing (Organ of Corti) and Balance (Vestibular Apparatus)?",
+      "a": "3 divisions: External ear (pinna, auditory canal), Middle ear (tympanic membrane, ear ossicles: Malleus, Incus, Stapes), Inner ear (Labyrinth).\n1. Hearing Organ: Cochlea (coiled 2.75 turns); contains Organ of Corti on Basilar membrane in scala media with sensory hair cells covered by Tectorial membrane.\n2. Balance Organ (Vestibular Apparatus):\n- 3 Semicircular Canals: Contain ampullary Cristae with hair cells in cupula; detect dynamic balance and rotational head movements.\n- Otolith Organs (Utricle and Saccule): Contain Maculae with otoliths ($CaCO_3$ stones); detect static balance and linear acceleration.",
+      "hint": "Stapes is the smallest bone in the human body; it fits into the Fenestra Ovalis (oval window)."
+    },
+    {
+      "id": "c13",
+      "tag": "concept",
+      "q": "Endocrine System: Mechanism of Hormone Action (Peptide vs Steroid hormones)?",
+      "a": "1. Membrane-Bound Receptors (Peptide/Protein/Amine hormones: Insulin, Glucagon, Adrenaline, TSH):\n- Cannot cross lipid bilayer; bind to cell-surface receptor $\\rightarrow$ activates G-protein $\\rightarrow$ Adenylyl Cyclase converts ATP to cAMP (Second Messenger) $\\rightarrow$ cascades activate enzymes (fast response).\n2. Intracellular Nuclear Receptors (Steroid hormones: Estrogen, Progesterone, Testosterone, Cortisol; and Thyroxine):\n- Lipid-soluble; diffuse across plasma membrane $\\rightarrow$ bind to intracellular receptor $\\rightarrow$ Hormone-Receptor complex enters nucleus $\\rightarrow$ binds DNA to alter gene expression and protein synthesis (slow, sustained response).",
+      "hint": "$cAMP, cGMP, IP_3, Ca^{2+}$ act as second messengers for non-steroid hormones."
+    },
+    {
+      "id": "c14",
+      "tag": "imp",
+      "q": "Pituitary Gland: Anterior Pituitary (Adenohypophysis) hormones?",
+      "a": "Master gland residing in Sella Turcica of sphenoid bone; controlled by hypothalamus.\nAnterior Pituitary secretes:\n1. Growth Hormone (GH / STH): Stimulates somatic growth.\n2. Thyroid Stimulating Hormone (TSH): Stimulates thyroid gland.\n3. Adrenocorticotropic Hormone (ACTH): Stimulates adrenal cortex.\n4. Prolactin (PRL): Stimulates mammary gland milk production.\n5. Follicle Stimulating Hormone (FSH): Follicular growth in females, spermatogenesis in males.\n6. Luteinizing Hormone (LH): Triggers ovulation and corpus luteum in females; stimulates Leydig cells in males (ICSH).",
+      "hint": "Hypersecretion of GH: Gigantism in children; Acromegaly in adults. Hyposecretion: Pituitary Dwarfism in children."
+    },
+    {
+      "id": "c15",
+      "tag": "imp",
+      "q": "Posterior Pituitary (Neurohypophysis) hormones: ADH and Oxytocin?",
+      "a": "Synthesized by hypothalamic nuclei (Supraoptic and Paraventricular) and stored/released by neurohypophysis:\n1. ADH (Antidiuretic Hormone / Vasopressin):\n- Stimulates water reabsorption from distal tubules and collecting ducts of nephrons.\n- Deficiency causes DIABETES INSIPIDUS (excretion of massive volumes of dilute urine, severe dehydration, polydipsia; NO glucose in urine).\n2. Oxytocin ('Pitocin' / Birth Hormone):\n- Stimulates vigorous uterine contractions during labor (parturition).\n- Triggers milk ejection ('milk letdown') reflex in lactating mothers.",
+      "hint": "Diabetes Insipidus is caused by ADH deficiency; Diabetes Mellitus is caused by Insulin deficiency."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Thyroid Gland: Hormones, synthesis, and clinical disorders?",
+      "a": "Bilateral endocrine gland in neck connected by isthmus; composed of thyroid follicles and parafollicular C-cells.\nHormones:\n- Thyroxine ($T_4$) and Triiodothyronine ($T_3$): Require Iodine; regulate Basal Metabolic Rate (BMR), thermogenesis, and RBC production.\n- Thyrocalcitonin (TCT): Lowers blood $Ca^{2+}$ levels (hypocalcemic).\nDisorders:\n1. Cretinism: Congenital hypothyroidism in children (stunted physical growth, severe mental retardation, deaf-mutism).\n2. Myxedema (Gull's disease): Hypothyroidism in adults (puffiness, sluggishness, low BMR).\n3. Simple Goiter: Iodine deficiency causing thyroid enlargement.\n4. Graves' Disease (Exophthalmic Goiter): Hyperthyroidism with protruding eyeballs.",
+      "hint": "Calcitonin lowers blood calcium by depositing calcium into bones (antagonist to Parathyroid hormone PTH)."
+    },
+    {
+      "id": "c17",
+      "tag": "concept",
+      "q": "Parathyroid Glands: Parathormone (PTH) and Calcium Homeostasis?",
+      "a": "4 tiny glands embedded in posterior surface of thyroid.\nSecretes Parathormone (PTH / Collip's Hormone):\n- HYPERCALCEMIC hormone: Increases blood $Ca^{2+}$ concentration by:\n1. Stimulating osteoclasts to dissolve bone matrix (bone resorption).\n2. Increasing reabsorption of $Ca^{2+}$ in renal tubules.\n3. Promoting absorption of dietary $Ca^{2+}$ in intestine via active Vitamin D (Calcitriol).\nDisorder:\n- Hypoparathyroidism causes Tetany (sustained painful muscle spasms due to low blood $Ca^{2+}$).",
+      "hint": "Blood calcium homeostasis is maintained by antagonistic interplay: PTH raises blood calcium, Calcitonin lowers it."
+    },
+    {
+      "id": "c18",
+      "tag": "imp",
+      "q": "Adrenal Gland: Cortex vs Medulla hormones and functions?",
+      "a": "Located on superior pole of kidneys (suprarenal glands):\n1. Adrenal Cortex (Mesodermal):\n- Zona Glomerulosa: Mineralocorticoids (Aldosterone: stimulates $Na^+$ and water reabsorption in distal nephron, expels $K^+$).\n- Zona Fasciculata: Glucocorticoids (Cortisol: stimulates gluconeogenesis, lipolysis; anti-inflammatory and immunosuppressive).\n- Zona Reticularis: Sex corticoids (Androgens).\n2. Adrenal Medulla (Ectodermal):\n- Secretes Catecholamines: Adrenaline (Epinephrine) and Noradrenaline (Emergency / 3F hormones: Fight, Flight, Fright).",
+      "hint": "Aldosterone maintains electrolyte and blood pressure homeostasis; Cortisol is the body's primary anti-stress hormone."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Clinical Disorders of Adrenal Cortex: Addison's Disease vs Cushing's Syndrome?",
+      "a": "1. Addison's Disease: Hyposecretion of adrenal cortex (glucocorticoids & aldosterone);\nSymptoms: Severe hypoglycemia, hyponatremia, hyperkalemia, acute weakness, hypotension, and characteristic bronze skin pigmentation.\n2. Cushing's Syndrome: Hypersecretion of cortisol (often due to adrenal tumor);\nSymptoms: Hyperglycemia, hypertension, breakdown of muscle proteins, 'Moon face', 'Buffalo hump' fat accumulation on upper back, and osteoporosis.",
+      "hint": "Bronze pigmentation in Addison's disease is caused by compensatory high ACTH acting like MSH."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Endocrine Pancreas (Islets of Langerhans): Cell types and Diabetes Mellitus?",
+      "a": "Islets of Langerhans (~1-2% of pancreas):\n- $\\alpha$-cells (~20%): Glucagon (HYPERGLYCEMIC; promotes glycogenolysis and gluconeogenesis in liver).\n- $\\beta$-cells (~70%): Insulin (HYPOGLYCEMIC; stimulates cellular glucose uptake by GLUT-4 and glycogenesis).\n- $\\delta$-cells (~5%): Somatostatin (inhibits both insulin and glucagon release).\nDiabetes Mellitus: Caused by deficiency or resistance of Insulin $\\rightarrow$ prolonged Hyperglycemia, Glycosuria (glucose in urine), Polyuria (frequent urination), Polydipsia (excessive thirst), and toxic Ketone body formation.",
+      "hint": "Insulin is the ONLY hormone that lowers blood glucose levels; multiple hormones (glucagon, adrenaline, cortisol, GH) raise it."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Pineal Gland and Thymus Gland: Hormones and specific roles?",
+      "a": "1. Pineal Gland (Epithalamus):\n- Secretes Melatonin (derived from tryptophan).\n- Regulates 24-hour Diurnal Circadian Rhythm (sleep-wake cycle, body temperature, pigmentation, menstrual cycle).\n2. Thymus Gland (Mediastinum behind sternum):\n- Secretes Thymosins.\n- Provides micro-environment for T-lymphocyte differentiation and maturation, governing Cell-Mediated Immunity.\n- Undergoes progressive atrophy after puberty, leading to weakened immunity in elderly.",
+      "hint": "Melatonin secretion peaks in darkness at night; light exposure suppresses it."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Hormones of Heart, Kidney, and Gastrointestinal Tract?",
+      "a": "1. Heart (Atrial myocardium): Atrial Natriuretic Factor (ANF / ANP) released upon high BP; dilates vessels and promotes natriuresis $\\rightarrow$ LOWERS blood pressure (antagonist to RAAS).\n2. Kidney (JGA): Erythropoietin (stimulates erythropoiesis in bone marrow); Calcitriol (active Vitamin D).\n3. GI Tract:\n- Gastrin: Stimulates gastric juice ($HCl$ and pepsinogen).\n- Secretin: Stimulates pancreatic juice rich in water and bicarbonate.\n- Cholecystokinin (CCK): Stimulates gall bladder contraction (bile release) and pancreatic enzyme secretion.",
+      "hint": "ANF is the body's primary emergency hypotensive hormone acting against the vasoconstrictive RAAS axis."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Renin-Angiotensin-Aldosterone System (RAAS Axis)?",
+      "a": "Homeostatic feedback mechanism to restore low blood pressure:\n1. Drop in GFR / renal BP stimulates Juxtaglomerular (JG) cells to secrete RENIN.\n2. Renin converts plasma Angiotensinogen (from liver) into Angiotensin I.\n3. Angiotensin Converting Enzyme (ACE in lungs) converts Angiotensin I into Angiotensin II (potent vasoconstrictor).\n4. Angiotensin II constricts arterioles (elevates BP) AND stimulates Adrenal Cortex to secrete ALDOSTERONE.\n5. Aldosterone promotes $Na^+$ and water reabsorption in DCT $\\rightarrow$ blood volume and GFR restored.",
+      "hint": "ACE inhibitor drugs are widely prescribed to treat hypertension by blocking the RAAS pathway."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Pheromones: Definition, types, and behavioral significance in animals?",
+      "a": "Pheromones (Ectohormones): Chemical substances secreted outside the body by an organism into the environment, perceived by members of the SAME species via olfactory/vomeronasal receptors, modifying their physiology or behavior.\nTypes:\n1. Sex Pheromones: Attract mates (e.g. Bombykol released by female silkworm moth Bombyx mori).\n2. Trail Pheromones: Guide nest mates along food paths (e.g. Formic acid trails laid by worker ants).\n3. Alarm Pheromones: Alert colony of danger (e.g. Honeybees).",
+      "hint": "Bombykol can attract male silkworms from several kilometers away even at minute dilution."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Trap: Differentiate Diabetes Mellitus vs Diabetes Insipidus.",
+      "a": "1. Diabetes Mellitus:\n- Deficient hormone: INSULIN (from pancreas).\n- Symptoms: Hyperglycemia, Glycosuria (sugar in urine), presence of Ketone bodies, osmotic polyuria.\n2. Diabetes Insipidus:\n- Deficient hormone: ADH / VASOPRESSIN (from posterior pituitary).\n- Symptoms: Massive dilute polyuria (up to 15-20 L/day), extreme thirst (polydipsia), normal blood glucose, ZERO sugar in urine.",
+      "hint": "The word 'Mellitus' means honey/sweet (sugar in urine); 'Insipidus' means tasteless (no sugar in urine)."
+    }
+  ]
+}

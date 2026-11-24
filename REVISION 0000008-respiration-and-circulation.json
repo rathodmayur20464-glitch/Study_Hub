@@ -1,0 +1,183 @@
+{
+  "title": "Respiration and Circulation",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Cellular Respiration: Aerobic vs Anaerobic pathway overview?",
+      "a": "Aerobic Respiration ($C_6H_{12}O_6 + 6 O_2 \\rightarrow 6 CO_2 + 6 H_2O + 38\\text{ ATP}$):\nOccurs in presence of $O_2$; completes in Cytoplasm (Glycolysis) and Mitochondria (Link reaction, Krebs cycle, ETS); yields 36 or 38 ATP per glucose.\nAnaerobic Respiration (Fermentation):\nOccurs in absence of $O_2$ in cytoplasm; incomplete oxidation into Ethanol + $CO_2$ (yeast) or Lactic acid (muscles); yields net ONLY 2 ATP (<7% energy).",
+      "hint": "Glycolysis is common to BOTH aerobic and anaerobic respiration and requires zero $O_2$."
+    },
+    {
+      "id": "c2",
+      "tag": "imp",
+      "q": "Glycolysis (EMP Pathway): Location, phases, and net products?",
+      "a": "Discovered by Embden, Meyerhof, and Parnas in cytoplasm.\n10-step enzymatic sequence:\n- Preparatory Phase (Steps 1-5): Phosphorylation consumes 2 ATP (Hexokinase & Phosphofructokinase PFK).\n- Payoff Phase (Steps 6-10): Cleavage into 2 molecules of Triose phosphate; oxidation and substrate-level phosphorylation produce 4 ATP and 2 $NADH + H^+$.\nNet yield per glucose = 2 Pyruvate (3C) + 2 ATP + 2 $NADH + H^+$.",
+      "hint": "Phosphofructokinase (PFK) is the pacemaker / rate-limiting allosteric enzyme of glycolysis."
+    },
+    {
+      "id": "c3",
+      "tag": "formula",
+      "q": "Link Reaction (Gateway Step / Oxidative Decarboxylation of Pyruvate)?",
+      "a": "Location: Mitochondrial matrix.\nCatalyzed by Pyruvate Dehydrogenase multienzyme complex (requires $Mg^{2+}$, TPP, lipoic acid, CoA, NAD$^+$):\n$2 \\text{ Pyruvate } (3C) + 2 \\text{ Co-A } + 2 NAD^+ \\rightarrow 2 \\text{ Acetyl-CoA } (2C) + 2 CO_2 + 2 (NADH + H^+)$\nConnects cytoplasmic glycolysis with mitochondrial Krebs cycle.",
+      "hint": "Acetyl-CoA is the common metabolic intersection between carbohydrate, fat, and protein breakdown."
+    },
+    {
+      "id": "c4",
+      "tag": "imp",
+      "q": "Krebs Cycle (TCA Cycle / Citric Acid Cycle): Key steps and net products?",
+      "a": "Discovered by Hans Krebs in mitochondrial matrix:\n1. Condensation: Acetyl-CoA (2C) + Oxaloacetate (4C) $+ H_2O \\rightarrow$ Citrate (6C) by Citrate synthase.\n2. Citrate $\\rightarrow$ Isocitrate $\\rightarrow \\alpha$-ketoglutarate (5C) $+ CO_2 + NADH$.\n3. $\\alpha$-ketoglutarate $\\rightarrow$ Succinyl-CoA (4C) $+ CO_2 + NADH$.\n4. Succinyl-CoA $\\rightarrow$ Succinate + 1 GTP (substrate-level phosphorylation).\n5. Succinate $\\rightarrow$ Fumarate $+ FADH_2$ (via Succinate dehydrogenase).\n6. Fumarate $\\rightarrow$ Malate $\\rightarrow$ Oxaloacetate $+ NADH$.\nPer glucose (2 turns): 4 $CO_2$, 6 $NADH + H^+$, 2 $FADH_2$, 2 GTP/ATP.",
+      "hint": "Succinate dehydrogenase is the ONLY Krebs cycle enzyme bound to the inner mitochondrial membrane (Complex II of ETS)."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Electron Transport System (ETS): Complexes I through V in Inner Mitochondrial Membrane?",
+      "a": "1. Complex I: NADH Dehydrogenase (oxidizes NADH $\\rightarrow NAD^+$).\n2. Complex II: Succinate Dehydrogenase (oxidizes $FADH_2$).\n3. Complex III: Cytochrome $bc_1$ complex.\n4. Complex IV: Cytochrome $c$ Oxidase (contains Cytochromes $a$ and $a_3$ and two copper centers $Cu_A, Cu_B$; transfers electrons to terminal acceptor $O_2$ forming $H_2O$).\n5. Complex V: $F_0-F_1$ ATP Synthase ($F_0$ is transmembrane proton channel; $F_1$ headpiece synthesizes ATP).",
+      "hint": "Oxygen is the terminal electron acceptor in aerobic respiration, forming metabolic water."
+    },
+    {
+      "id": "c6",
+      "tag": "formula",
+      "q": "Chemiosmotic ATP Yield and Total ATP Balance Sheet per Glucose?",
+      "a": "Peter Mitchell Chemiosmotic Hypothesis:\n- Oxidation of 1 $NADH + H^+ \\rightarrow$ pumps $10 H^+ \\rightarrow$ yields 3 ATP (or 2.5 ATP).\n- Oxidation of 1 $FADH_2 \\rightarrow$ pumps $6 H^+ \\rightarrow$ yields 2 ATP (or 1.5 ATP).\nTotal ATP yield per glucose in aerobic respiration:\n- Glycolysis: 2 ATP + 2 NADH (= 6 or 4 ATP)\n- Link reaction: 2 NADH (= 6 ATP)\n- Krebs cycle: 2 GTP + 6 NADH (= 18 ATP) + 2 $FADH_2$ (= 4 ATP)\nTotal = 36 or 38 ATP (depending on malate-aspartate vs glycerol-phosphate shuttle).",
+      "hint": "38 ATP in heart, liver, kidney (malate shuttle); 36 ATP in skeletal muscle and brain (glycerol-P shuttle)."
+    },
+    {
+      "id": "c7",
+      "tag": "formula",
+      "q": "Respiratory Quotient (RQ): Definition and values for Carbohydrates, Fats, Proteins, and Organic Acids?",
+      "a": "$RQ = [\\text{Volume of } CO_2 \\text{ evolved}] / [\\text{Volume of } O_2 \\text{ consumed}]$\n1. Carbohydrates: $RQ = 1.0$ ($C_6H_{12}O_6 + 6 O_2 \\rightarrow 6 CO_2 + 6 H_2O$; $6/6 = 1.0$).\n2. Fats / Lipids (e.g. Tripalmitin): $RQ = 0.7$ ($2 C_{51}H_{98}O_6 + 145 O_2 \\rightarrow 102 CO_2 + 98 H_2O$; $102/145 \\approx 0.7$).\n3. Proteins: $RQ \\approx 0.8 - 0.9$.\n4. Organic acids (e.g. Malic acid): $RQ > 1.0$ (~1.33).\n5. Anaerobic respiration: $RQ = \\infty$ ($2 CO_2 / 0 O_2 = \\infty$).",
+      "hint": "In succulent xerophytic plants (CAM) at night, incomplete oxidation yields organic acids with zero $CO_2$ release, so $RQ = 0$!"
+    },
+    {
+      "id": "c8",
+      "tag": "concept",
+      "q": "Mechanism of Human Breathing: Inspiration vs Expiration?",
+      "a": "1. Inspiration (Active process, ~2 sec):\n- Diaphragm contracts $\\rightarrow$ flattens $\\rightarrow$ increases thoracic volume antero-posteriorly.\n- External Intercostal Muscles contract $\\rightarrow$ ribs and sternum lift upward and outward $\\rightarrow$ increases volume dorso-ventrally.\n- Intra-pulmonary pressure drops below atmospheric pressure (-1 to -3 mmHg) $\\rightarrow$ Air rushes IN.\n2. Expiration (Passive process, ~3 sec):\n- Diaphragm and external intercostals relax $\\rightarrow$ thoracic cage recoils $\\rightarrow$ Intra-pulmonary pressure rises above atmospheric (+1 to +3 mmHg) $\\rightarrow$ Air expelled OUT.",
+      "hint": "Forced expiration is active, utilizing internal intercostal muscles and abdominal wall muscles."
+    },
+    {
+      "id": "c9",
+      "tag": "formula",
+      "q": "Respiratory Volumes and Capacities (Standard Human Values)?",
+      "a": "1. Tidal Volume (TV): 500 mL (normal breath).\n2. Inspiratory Reserve Volume (IRV): 2500 - 3000 mL.\n3. Expiratory Reserve Volume (ERV): 1000 - 1100 mL.\n4. Residual Volume (RV): 1100 - 1200 mL (air remaining after maximal expiration; cannot be measured by spirometer).\nCapacities:\n- Vital Capacity (VC): $TV + IRV + ERV = 4000 - 4600$ mL.\n- Total Lung Capacity (TLC): $VC + RV = 5000 - 6000$ mL.",
+      "hint": "Residual Volume (RV) prevents complete collapse of alveoli between breaths."
+    },
+    {
+      "id": "c10",
+      "tag": "imp",
+      "q": "Transport of Oxygen in Blood: Oxyhemoglobin and Bohr Effect?",
+      "a": "Transport: 3% dissolved in plasma; 97% bound to Hemoglobin as Oxyhemoglobin ($Hb_4 + 4 O_2 \\rightleftharpoons Hb_4(O_2)_4$).\nEach gram of Hb binds 1.34 mL of $O_2$; 100 mL oxygenated blood delivers ~5 mL $O_2$ to tissues under resting conditions.\nOxygen Dissociation Curve: S-shaped (Sigmoid).\nBohr Effect: High $pCO_2$, low pH (high $H^+$), high temperature, and high 2,3-DPG in tissues SHIFT THE CURVE TO THE RIGHT, decreasing Hb affinity for $O_2$ and facilitating oxygen unloading at tissues.",
+      "hint": "In alveoli, high $pO_2$, low $pCO_2$, lower temperature, and alkaline pH shift curve to the LEFT (favoring $O_2$ binding)."
+    },
+    {
+      "id": "c11",
+      "tag": "imp",
+      "q": "Transport of Carbon Dioxide ($CO_2$) in Blood: 3 modes and Chloride Shift?",
+      "a": "1. Dissolved in Plasma (~7%): As carbonic acid ($H_2CO_3$).\n2. Carbaminohemoglobin (~23%): Bound to amino groups of globin ($Hb-NHCOOH$).\n3. Bicarbonate Ions ($HCO_3^-$, ~70%): Catalyzed by Carbonic Anhydrase inside RBCs ($CO_2 + H_2O \\rightleftharpoons H_2CO_3 \\rightleftharpoons H^+ + HCO_3^-$).\nHamburger's Phenomenon (Chloride Shift): $HCO_3^-$ diffuses out of RBCs into plasma; to maintain electrical neutrality, $Cl^-$ ions diffuse from plasma into RBCs.",
+      "hint": "Haldane Effect: Deoxygenation of hemoglobin in tissues increases its capacity to carry $CO_2$."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Composition of Human Blood: Formed elements and Plasma proteins?",
+      "a": "Blood = 55% Plasma + 45% Formed Elements.\nPlasma: 90-92% water; 7-8% proteins:\n- Albumin (osmotic balance), Globulins (immunoglobulins/defense), Fibrinogen (blood clotting).\nFormed Elements:\n1. Erythrocytes (RBCs): 5-5.5 million/$\\mu$L, biconcave, enucleated, 120-day lifespan.\n2. Leukocytes (WBCs): 6000-8000/$\\mu$L (Neutrophils, Lymphocytes, Monocytes, Eosinophils, Basophils).\n3. Thrombocytes (Platelets): 1.5 - 3.5 lakh/$\\mu$L, derived from megakaryocytes; initiate clotting.",
+      "hint": "Neutrophils are the most abundant WBCs (60-65%); Basophils are the least abundant (0.5-1%)."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Blood Groups: ABO system, Rh Factor, and Erythroblastosis Fetalis?",
+      "a": "ABO system: Based on antigens A and B on RBC surface; O is universal donor, AB is universal recipient.\nRh Factor: D-antigen present on RBCs in Rh+ individuals (85-93% Indians).\nErythroblastosis Fetalis (Hemolytic Disease of Newborn):\n- Occurs when an $Rh^-$ mother carries an $Rh^+$ fetus.\n- During 1st delivery, fetal $Rh^+$ blood enters maternal circulation $\\rightarrow$ mother produces anti-Rh IgG antibodies.\n- In 2nd pregnancy with $Rh^+$ fetus, maternal anti-Rh IgG antibodies cross placenta, destroying fetal RBCs $\\rightarrow$ severe anemia, jaundice, death.\nPrevention: Administering Anti-Rh antibodies (Rhogam) to mother within 72 hours of first delivery.",
+      "hint": "Rhogam injection destroys entering fetal Rh+ RBCs before maternal immune system is sensitized."
+    },
+    {
+      "id": "c14",
+      "tag": "concept",
+      "q": "Mechanism of Blood Coagulation: Cascade theory of blood clotting?",
+      "a": "Enzymatic cascade at site of injury:\n1. Injured tissue releases Thromboplastin; platelets release Platelet Thromboplastin (Factor III).\n2. Thromboplastin + Calcium ($Ca^{2+}$) + clotting factors activate Prothrombinase (Thrombokinase) enzyme complex.\n3. Prothrombinase neutralizes heparin and converts inactive Prothrombin into active Thrombin in presence of $Ca^{2+}$.\n4. Thrombin converts soluble Fibrinogen into insoluble Fibrin monomers, which polymerize into a meshwork trapping blood cells to form the clot (coagulum).",
+      "hint": "Calcium ($Ca^{2+}$, Factor IV) and Vitamin K (required for liver synthesis of prothrombin) are strictly essential for clotting."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Conducting System of the Human Heart: Pacemaker and impulse route?",
+      "a": "Specialized auto-rhythmic nodal musculature:\n1. SA Node (Sinoatrial Node / Pacemaker): Located in right atrium near superior vena cava opening; generates highest rate of action potentials (70-72 beats/min).\n2. AV Node (Atrioventricular Node / Pacesetter): Located in lower interatrial septum; delays impulse by 0.1 sec allowing atria to empty.\n3. Bundle of His (AV Bundle): Passes through interventricular septum and divides into right and left bundle branches.\n4. Purkinje Fibers: Network in ventricular myocardium conducting impulse rapidly causing ventricular systole.",
+      "hint": "Impulse path: SA Node $\\rightarrow$ AV Node $\\rightarrow$ Bundle of His $\\rightarrow$ Purkinje Fibers."
+    },
+    {
+      "id": "c16",
+      "tag": "formula",
+      "q": "Cardiac Cycle: Phases, durations, Stroke Volume, and Cardiac Output?",
+      "a": "Duration of 1 cardiac cycle at 75 bpm = $60 / 75 = 0.8$ seconds:\n1. Atrial Systole: 0.1 sec (atria contract, pumping remaining 30% blood into ventricles).\n2. Ventricular Systole: 0.3 sec (ventricles contract, pumping blood into aorta and pulmonary artery).\n3. Joint Diastole: 0.4 sec (all 4 chambers relaxed, passive ventricular filling).\nCalculations:\n- Stroke Volume ($SV$): Volume pumped per ventricle per beat = End Diastolic Volume (120 mL) - End Systolic Volume (50 mL) = 70 mL.\n- Cardiac Output ($CO$): $SV \\times HR = 70\\text{ mL} \\times 72\\text{ bpm} \\approx 5040\\text{ mL/min} \\approx 5\\text{ Litres/min}$.",
+      "hint": "During severe exercise, cardiac output can increase 4 to 5 times (up to 25 L/min) in athletes!"
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Heart Sounds: Differentiate 'Lubb' (S1) and 'Dubb' (S2).",
+      "a": "1. First Heart Sound ('Lubb' / S1):\n- Cause: Closure of Atrioventricular valves (Bicuspid/Mitral and Tricuspid) at the beginning of Ventricular Systole.\n- Characteristics: Low-pitched, dull, longer duration (~0.12 sec).\n2. Second Heart Sound ('Dubb' / S2):\n- Cause: Closure of Semilunar valves (Aortic and Pulmonary) at the beginning of Ventricular Diastole.\n- Characteristics: High-pitched, sharp, shorter duration (~0.08 sec).",
+      "hint": "Heart murmurs are abnormal rushing/gurgling sounds caused by leaking or stenotic defective heart valves."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Human Blood Pressure: Systolic, Diastolic, and Pulse Pressure?",
+      "a": "Measured in brachial artery using a Sphygmomanometer.\n- Systolic BP: Peak arterial pressure during ventricular contraction = 120 mmHg.\n- Diastolic BP: Minimum resting arterial pressure during ventricular relaxation = 80 mmHg.\n- Normal notation: 120 / 80 mmHg.\n- Pulse Pressure = $\\text{Systolic} - \\text{Diastolic} = 120 - 80 = 40$ mmHg.\n- Mean Arterial Pressure ($MAP$) = $\\text{Diastolic} + (1/3 \\times \\text{Pulse Pressure}) = 80 + 13.3 = 93.3$ mmHg.",
+      "hint": "Hypertension is diagnosed when resting BP consistently exceeds 140/90 mmHg."
+    },
+    {
+      "id": "c19",
+      "tag": "formula",
+      "q": "Electrocardiogram (ECG): Waves and clinical interpretation?",
+      "a": "Pioneered by Willem Einthoven:\n1. P Wave: Atrial depolarization (spread of impulse from SA node leading to atrial contraction).\n2. QRS Complex: Ventricular depolarization (spread of impulse through ventricles leading to ventricular contraction).\n3. T Wave: Ventricular repolarization (recovery and relaxation of ventricles).\nCounting QRS complexes in a given time interval gives the exact Heart Rate.",
+      "hint": "Enlarged P wave indicates atrial enlargement; elevated S-T segment indicates acute Myocardial Infarction (heart attack)."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Human Circulatory Routes: Systemic, Pulmonary, and Hepatic Portal Circulation?",
+      "a": "Human circulation is a COMPLETE DOUBLE CIRCULATION (no mixing of oxygenated and deoxygenated blood):\n1. Pulmonary Circulation: Right ventricle $\\rightarrow$ Pulmonary trunk $\\rightarrow$ Lungs $\\rightarrow$ Pulmonary veins $\\rightarrow$ Left atrium.\n2. Systemic Circulation: Left ventricle $\\rightarrow$ Aorta $\\rightarrow$ Tissues $\\rightarrow$ Vena cava $\\rightarrow$ Right atrium.\n3. Hepatic Portal System: Veins from digestive tract (stomach, intestine) drain into Hepatic Portal Vein $\\rightarrow$ Liver $\\rightarrow$ Hepatic vein $\\rightarrow$ Inferior vena cava.",
+      "hint": "The hepatic portal system allows the liver to detoxify absorbed substances and regulate glucose before blood enters general circulation."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Histology: Arteries vs Veins vs Capillaries?",
+      "a": "Vessel wall has 3 tunics: Tunica externa (connective tissue), Tunica media (smooth muscle & elastic fibers), Tunica intima (endothelium).\n- Arteries: Thick muscular tunica media, narrow lumen, high pressure, no internal valves; carry blood AWAY from heart.\n- Veins: Thin tunica media, wide lumen, low pressure, have semilunar valves to prevent backflow; carry blood TOWARDS heart.\n- Capillaries: Single layer of endothelium only; site of nutrient and gas exchange.",
+      "hint": "Pulmonary artery carries deoxygenated blood; Pulmonary vein carries oxygenated blood (exceptions)."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Cardiovascular Disorders: Atherosclerosis, Arteriosclerosis, and Angina Pectoris?",
+      "a": "1. Atherosclerosis (Coronary Artery Disease CAD): Deposition of cholesterol plaques (atheromas), calcium, and fibrous tissue inside arterial lumen, narrowing coronary blood supply.\n2. Arteriosclerosis: Loss of elasticity and hardening of arterial walls due to calcium deposition with age, causing high BP.\n3. Angina Pectoris: Acute crushing chest pain radiating to left shoulder and arm caused by transient cardiac ischemia (insufficient oxygen delivery to myocardium during exertion).",
+      "hint": "Angina is relieved by sublingual Nitroglycerin, which dilates coronary blood vessels."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Heart Attack (Myocardial Infarction) vs Heart Failure vs Cardiac Arrest?",
+      "a": "1. Myocardial Infarction (Heart Attack): Sudden death/necrosis of heart muscle tissue due to acute blockage of coronary artery by a thrombus.\n2. Heart Failure: The heart cannot pump enough blood to meet the metabolic demands of the body (congestion of lungs is common symptom; also called congestive heart failure).\n3. Cardiac Arrest: The heart completely stops pumping/beating altogether (zero cardiac output; fatal within minutes without CPR).",
+      "hint": "Crucial MHT-CET distinction: Heart Attack = tissue damage; Heart Failure = weak pumping; Cardiac Arrest = heart stops completely."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Structure and Functions of the Lymphatic System?",
+      "a": "Consists of Lymph, lymphatic capillaries, vessels, and lymph nodes (spleen, tonsils, Peyer's patches).\n- Lymph (tissue fluid): Colorless interstitial fluid containing plasma and lymphocytes, but devoid of RBCs, platelets, and large proteins.\nFunctions:\n1. Returns excess interstitial fluid and proteins back to venous circulation.\n2. Absorbs and transports dietary fats (chylomicrons) through specialized lacteals in intestinal villi.\n3. Immune defense via filtration of microbes and foreign antigens in lymph nodes.",
+      "hint": "Lacteals are specialized lymphatic capillaries in intestinal villi tailored to absorb dietary lipids."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Calculation: If a patient has a heart rate of 80 bpm and stroke volume of 65 mL, calculate cardiac output.",
+      "a": "Cardiac Output ($CO$) = Stroke Volume ($SV$) $\\times$ Heart Rate ($HR$)\n$CO = 65\\text{ mL} \\times 80\\text{ beats/min} = 5200\\text{ mL/min} = 5.2\\text{ Litres/min}$.\nIf end-diastolic volume is 135 mL, then end-systolic volume = $135 - 65 = 70$ mL.",
+      "hint": "Formula: $CO = SV \\times HR$ and $SV = EDV - ESV$. Frequently tested in MHT-CET!"
+    }
+  ]
+}

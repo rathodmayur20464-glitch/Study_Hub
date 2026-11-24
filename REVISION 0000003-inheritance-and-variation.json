@@ -1,0 +1,183 @@
+{
+  "title": "Inheritance and Variation",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "Why did Gregor Mendel select Garden Pea (Pisum sativum) for his experiments?",
+      "a": "1. Annual plant with a short life cycle (fast results).\n2. Bisexual, naturally self-pollinating flowers, but easily cross-pollinated manually (emasculation & dusting).\n3. Showed distinct, well-defined contrasting traits.\n4. Highly fertile hybrids producing numerous offspring per cross.",
+      "hint": "Mendel studied 7 pairs of contrasting traits located on 4 chromosomes (1, 4, 5, 7) of Pisum sativum."
+    },
+    {
+      "id": "c2",
+      "tag": "formula",
+      "q": "List Mendel's 7 contrasting character pairs (Dominant vs Recessive).",
+      "a": "1. Stem height: Tall (T) vs Dwarf (t)\n2. Flower color: Purple/Violet (P) vs White (p)\n3. Flower position: Axial (A) vs Terminal (a)\n4. Pod shape: Inflated (I) vs Constricted (i)\n5. Pod color: Green (G) vs Yellow (g)\n6. Seed shape: Round (R) vs Wrinkled (r)\n7. Seed color (cotyledon): Yellow (Y) vs Green (y)",
+      "hint": "MHT-CET Trap: For pod color, GREEN is dominant! For seed/cotyledon color, YELLOW is dominant!"
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "State Mendel's 3 Principles / Laws of Inheritance.",
+      "a": "1. Law of Dominance: In a heterozygote, one allele masks the expression of the other (recessive allele).\n2. Law of Segregation (Purity of Gametes): Alleles separate during gamete formation so each gamete carries only one allele (universal law without exceptions).\n3. Law of Independent Assortment: When two pairs of traits combine in a hybrid, segregation of one pair is independent of the other (valid only for unlinked genes).",
+      "hint": "Law of Segregation is universal; Law of Independent Assortment fails when genes are linked on the same chromosome."
+    },
+    {
+      "id": "c4",
+      "tag": "formula",
+      "q": "Monohybrid vs Dihybrid cross phenotypic and genotypic ratios?",
+      "a": "Monohybrid Cross (F2):\n- Phenotypic ratio = 3 : 1 (Tall : Dwarf)\n- Genotypic ratio = 1 : 2 : 1 (TT : Tt : tt)\nDihybrid Cross (F2):\n- Phenotypic ratio = 9 : 3 : 3 : 1 (Round Yellow : Round Green : Wrinkled Yellow : Wrinkled Green)\n- Genotypic ratio = 1:2:2:4:1:2:1:2:1",
+      "hint": "Dihybrid test cross ratio is strictly 1 : 1 : 1 : 1."
+    },
+    {
+      "id": "c5",
+      "tag": "formula",
+      "q": "What is a Test Cross and Back Cross? How is Test Cross used?",
+      "a": "Back Cross: Crossing F1 individual with either parent (dominant or recessive).\nTest Cross: Crossing an individual of unknown genotype showing dominant phenotype with a homozygous RECESSIVE parent.\n- If all progeny dominant $\\rightarrow$ parent was homozygous (TT).\n- If 1:1 dominant:recessive $\\rightarrow$ parent was heterozygous (Tt).",
+      "hint": "All test crosses are back crosses, but all back crosses are NOT test crosses!"
+    },
+    {
+      "id": "c6",
+      "tag": "concept",
+      "q": "Incomplete Dominance: Mechanism and ratios with Mirabilis jalapa?",
+      "a": "Neither allele is completely dominant over the other; heterozygous F1 exhibits an intermediate blended phenotype.\nCross: Red ($RR$) $\\times$ White ($rr$) $\\rightarrow$ F1 Pink ($Rr$).\nF2 Phenotypic ratio = 1 Red : 2 Pink : 1 White (1 : 2 : 1).\nF2 Genotypic ratio = 1 $RR$ : 2 $Rr$ : 1 $rr$ (1 : 2 : 1).\nAlso seen in Antirrhinum majus (Snapdragon).",
+      "hint": "In incomplete dominance and co-dominance, F2 phenotypic and genotypic ratios are identical (1:2:1)."
+    },
+    {
+      "id": "c7",
+      "tag": "concept",
+      "q": "Co-dominance: Mechanism and examples in cattle and humans?",
+      "a": "Both alleles express themselves equally and independently in heterozygous condition without blending.\n1. Coat color in cattle: Red hair ($R^1R^1$) $\\times$ White hair ($R^2R^2$) $\\rightarrow$ Roan ($R^1R^2$) having both red and white patches. F2 ratio = 1 Red : 2 Roan : 1 White (1:2:1).\n2. Human AB Blood Group: Both $I^A$ and $I^B$ alleles express sugar antigens A and B on RBCs.",
+      "hint": "Roan cattle do not have pink hairs; individual red and white hairs coexist side-by-side."
+    },
+    {
+      "id": "c8",
+      "tag": "formula",
+      "q": "Multiple Alleles: Genetics of ABO Blood Groups in humans?",
+      "a": "Determined by Gene $I$ on chromosome 9 with 3 alleles: $I^A, I^B, i$.\n$I^A$ and $I^B$ are codominant to each other, and both are dominant over $i$.\nNumber of Genotypes = $n(n+1)/2 = 3(4)/2 = 6$ genotypes:\n- Blood A: $I^AI^A, I^Ai$\n- Blood B: $I^BI^B, I^Bi$\n- Blood AB: $I^AI^B$\n- Blood O: $ii$\nTotal Phenotypes = 4 (A, B, AB, O).",
+      "hint": "An individual diploid organism can carry only 2 alleles of a multiple allelic series."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Pleiotropy: Definition and the Sickle Cell Anemia lethal ratio?",
+      "a": "A single gene influences multiple phenotypic traits.\nSickle cell anemia gene $Hb^S$:\n- $Hb^A Hb^A$: Normal\n- $Hb^A Hb^S$: Sickle cell trait (carrier, resistant to Falciparum malaria)\n- $Hb^S Hb^S$: Dies of severe hemolytic anemia (lethal).\nCross between two carriers ($Hb^A Hb^S \\times Hb^A Hb^S$) gives 1 Normal : 2 Carriers : 0 Lethal $\\Rightarrow$ Modified ratio is 2 : 1.",
+      "hint": "Normal 3:1 monohybrid ratio is modified to 2:1 in lethal pleiotropic inheritance."
+    },
+    {
+      "id": "c10",
+      "tag": "concept",
+      "q": "Polygenic (Quantitative) Inheritance: Wheat kernel color and Human skin color?",
+      "a": "Trait governed by additive cumulative effects of multiple gene pairs.\n1. Wheat kernel color (Nilsson-Ehle): 2 gene pairs (AaBb) $\\rightarrow$ F2 ratio = 1 Dark Red : 4 Medium Red : 6 Red : 4 Light Red : 1 White (1 : 4 : 6 : 4 : 1).\n2. Human skin color (C.B. Davenport): 3 gene pairs (AABBCC) $\\rightarrow$ continuous variation with bell-shaped curve; mulatto intermediate.",
+      "hint": "Phenotypic expression is directly proportional to the total number of dominant alleles."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Chromosomal Theory of Inheritance: Formulators and core tenets?",
+      "a": "Proposed by Walter Sutton and Theodor Boveri (1902).\n1. Chromosomes and genes exist in pairs in diploid cells.\n2. Homologous chromosomes separate during meiosis (anaphase I), just like alleles segregate during gametogenesis.\n3. Independent assortment of chromosomes parallels Mendel's independent assortment of factors.\n4. Fertilization restores diploid chromosomal and genetic complement.",
+      "hint": "Thomas Hunt Morgan experimentally verified the theory using Drosophila melanogaster."
+    },
+    {
+      "id": "c12",
+      "tag": "concept",
+      "q": "Why was Drosophila melanogaster the ideal model organism for Morgan?",
+      "a": "1. Easy to culture in laboratory on simple synthetic medium (ripe banana agar).\n2. Short life cycle of about 2 weeks.\n3. Single mating produces hundreds of progeny.\n4. Clear sexual dimorphism (females are larger; males have sex combs).\n5. Has only 4 pairs of easily distinguishable chromosomes, including giant polytene chromosomes.",
+      "hint": "Morgan won the Nobel Prize in 1933 for discoveries concerning the role of chromosomes in heredity."
+    },
+    {
+      "id": "c13",
+      "tag": "imp",
+      "q": "Linkage and Crossing Over: Complete vs Incomplete Linkage?",
+      "a": "Linkage: Tendency of genes located on the same chromosome to be inherited together.\n- Complete Linkage: Closely located genes show zero crossing over; parental types = 100%, recombinants = 0% (e.g. Male Drosophila, female silkworm).\n- Incomplete Linkage: Distantly located genes show crossing over; recombinant frequency < 50% (e.g. Female Drosophila, Zea mays).",
+      "hint": "Strength of linkage is inversely proportional to the physical distance between genes on a chromosome."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Genetic Mapping: Alfred Sturtevant's principle of Recombination Frequency?",
+      "a": "Recombination Frequency ($RF$) = [Total Recombinants / Total Progeny] $\\times$ 100.\n1% recombination frequency = 1 map unit = 1 Centimorgan (cM).\nMorgan's Drosophila results:\n- Yellow body & White eye ($y-w$): 1.3% recombination (very tight linkage).\n- White eye & Miniature wing ($w-m$): 37.2% recombination (loose linkage).",
+      "hint": "Maximum possible recombination frequency between two linked genes never exceeds 50%."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Sex Determination Mechanisms: XX-XY, XX-XO, and ZW-ZZ?",
+      "a": "1. XX-XY: Female homogametic (XX), male heterogametic (XY) $\\rightarrow$ Humans, Drosophila.\n2. XX-XO: Female homogametic (XX), male heterogametic with 1 X chromosome (XO) $\\rightarrow$ Grasshopper, bugs.\n3. ZW-ZZ: Female heterogametic (ZW), male homogametic (ZZ) $\\rightarrow$ Birds, reptiles, butterflies.\n4. ZO-ZZ: Female heterogametic (ZO), male homogametic (ZZ) $\\rightarrow$ Moths.",
+      "hint": "In birds, the female determines the sex of the offspring because she produces two types of eggs (Z and W)."
+    },
+    {
+      "id": "c16",
+      "tag": "concept",
+      "q": "Haplodiploid Sex Determination in Honeybees: Mechanism and drone genetics?",
+      "a": "Sex is determined by the number of chromosome sets:\n- Females (Queen & Workers): Develop from fertilized diploid eggs ($2n = 32$).\n- Males (Drones): Develop from unfertilized haploid eggs ($n = 16$) by Parthenogenesis.\nDrones produce sperms by MITOSIS (not meiosis).",
+      "hint": "A male drone has no father and cannot have sons, but has a grandfather and can have grandsons!"
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "X-linked Recessive Inheritance: Criss-Cross inheritance pattern with Hemophilia?",
+      "a": "X-linked genes pass from father to daughter (who becomes carrier) and from carrier mother to grandson (Criss-Cross / Skip-generation inheritance).\nHemophilia (Royal Disease): Deficiency of Clotting Factor VIII (Hemophilia A) or Factor IX (Hemophilia B).\nGenotypes: Normal female $X^H X^H$, Carrier female $X^H X^h$, Hemophilic male $X^h Y$, Hemophilic female $X^h X^h$ (extremely rare/fatal).",
+      "hint": "A hemophilic father CANNOT pass the disease to his son (father gives Y chromosome to son)."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Color Blindness: Genetics and crossing outcomes?",
+      "a": "X-linked recessive trait causing inability to distinguish red and green colors (defect in red/green cone cells of retina).\n- Gene: $X^C$ (normal), $X^c$ (color blind).\n- Marriage: Carrier woman ($X^C X^c$) $\\times$ Normal man ($X^C Y$) $\\rightarrow$ 50% daughters normal, 50% daughters carriers; 50% sons normal, 50% sons color blind.",
+      "hint": "Males are hemizygous ($X^c Y$) for X-linked traits, so a single recessive allele causes the disease in males."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Y-linked (Holandric) Genes: Characteristics and examples?",
+      "a": "Genes located exclusively on the non-homologous region of the Y chromosome.\nInherited strictly from father to son (patroclinous inheritance); females never possess or transmit them.\nClassic example: Hypertrichosis of ear pinna (excessive coarse hair on ear margins), TDF (Testis Determining Factor / SRY gene).",
+      "hint": "Holandric traits never skip generations and affect 100% of the sons of an affected father."
+    },
+    {
+      "id": "c20",
+      "tag": "imp",
+      "q": "Thalassemia: $\\alpha$-Thalassemia vs $\\beta$-Thalassemia?",
+      "a": "Autosomal recessive quantitative blood disorder characterized by reduced synthesis of globin chains of hemoglobin.\n1. $\\alpha$-Thalassemia: Defective $\\alpha$-globin synthesis; governed by 2 closely linked genes ($HBA1, HBA2$) on chromosome 16 (4 alleles total). Mutation/deletion of alleles causes severity.\n2. $\\beta$-Thalassemia (Cooley's anemia): Defective $\\beta$-globin synthesis; controlled by single gene ($HBB$) on chromosome 11.",
+      "hint": "Thalassemia is a QUANTITATIVE defect (reduced quantity of globin chains); Sickle Cell is a QUALITATIVE defect (abnormal globin shape)."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Phenylketonuria (PKU): Biochemical defect and clinical manifestation?",
+      "a": "Autosomal recessive metabolic disorder on chromosome 12.\nDeficiency of liver enzyme Phenylalanine Hydroxylase, which normally converts phenylalanine to tyrosine.\nPhenylalanine accumulates and converts into Phenylpyruvic acid, causing severe mental retardation, microcephaly, hypopigmentation of skin/hair, and excretion in urine.",
+      "hint": "PKU is an inborn error of metabolism; managed effectively by a strict phenylalanine-restricted diet from infancy."
+    },
+    {
+      "id": "c22",
+      "tag": "imp",
+      "q": "Down Syndrome (Trisomy 21): Karyotype, cause, and diagnostic symptoms?",
+      "a": "Karyotype: $47, XX, +21$ or $47, XY, +21$ (47 chromosomes total).\nCause: Non-disjunction of 21st chromosome pair during maternal oogenesis (correlated with advanced maternal age).\nSymptoms: Rounded flat face, broad forehead, epicanthic eye folds, protruding furrowed tongue, flat nasal bridge, broad palm with single simian crease, short stature, and mental retardation.",
+      "hint": "First described by John Langdon Down in 1866; the most common autosomal chromosomal trisomy."
+    },
+    {
+      "id": "c23",
+      "tag": "concept",
+      "q": "Turner Syndrome: Karyotype, cause, and clinical features?",
+      "a": "Karyotype: $45, XO$ (monosomy of X chromosome; 44 autosomes + single X).\nCause: Non-disjunction of sex chromosomes during gametogenesis.\nFeatures: Phenotypically female with sterile, rudimentary streak ovaries, lack of secondary sexual characters, short stature, webbed neck, broad shield-shaped chest with widely spaced nipples, and primary amenorrhea.",
+      "hint": "The only viable human monosomy. Barr body is ABSENT (0 Barr bodies)."
+    },
+    {
+      "id": "c24",
+      "tag": "concept",
+      "q": "Klinefelter Syndrome: Karyotype, cause, and clinical features?",
+      "a": "Karyotype: $47, XXY$ (44 autosomes + XXY).\nCause: Fertilization of abnormal XX ovum by normal Y sperm, or normal X ovum by abnormal XY sperm.\nFeatures: Phenotypically male with tall stature, disproportionately long legs, eunuchoid proportions, sterile testes with azoospermia, sparse body hair, and Gynecomastia (breast development in males).",
+      "hint": "Klinefelter males possess 1 Barr body in their somatic cell nuclei ($n - 1 = 2 - 1 = 1$)."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "Barr Body Formula and calculations for Normal vs Syndromic individuals?",
+      "a": "Barr Body count = Total number of X chromosomes - 1.\n- Normal male (XY): $1 - 1 = 0$\n- Normal female (XX): $2 - 1 = 1$\n- Turner syndrome (XO): $1 - 1 = 0$\n- Klinefelter syndrome (XXY): $2 - 1 = 1$\n- Super female (XXX): $3 - 1 = 2$",
+      "hint": "Barr body is the condensed, inactivated heterochromatic X chromosome (Lyon hypothesis)."
+    }
+  ]
+}

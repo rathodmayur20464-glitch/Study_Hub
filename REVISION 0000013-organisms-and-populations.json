@@ -1,0 +1,183 @@
+{
+  "title": "Organisms and Populations",
+  "subject": "Biology",
+  "type": "flashcards",
+  "subtitle": "Class 12 HSC & MHT-CET • Rapid Revision Deck",
+  "cards": [
+    {
+      "id": "c1",
+      "tag": "concept",
+      "q": "What is Ecology? Define the 4 hierarchical ecological levels of organization.",
+      "a": "Ecology (term coined by Ernst Haeckel, 1869): Study of interactions between living organisms and their physical abiotic environment.\n4 Levels:\n1. Organism: Basic fundamental ecological unit.\n2. Population: Group of interbreeding individuals of the same species occupying a specific geographical area at a given time.\n3. Community: Assemblage of interacting populations of different species living in a defined area.\n4. Biome: Large regional terrestrial unit characterized by major vegetation type and distinct climate (e.g. Tropical rainforest, Desert, Tundra).",
+      "hint": "Ramdeo Misra is revered as the Father of Ecology in India."
+    },
+    {
+      "id": "c2",
+      "tag": "concept",
+      "q": "Abiotic Environmental Factors: Temperature and Thermal tolerance?",
+      "a": "Temperature is the most ecologically relevant factor:\n- Governs enzyme kinetics, BMR, and geographic distribution.\nThermal Tolerance:\n1. Eurythermal: Organisms capable of tolerating and thriving in a WIDE range of temperatures (e.g. Mammals, birds, dogs, man).\n2. Stenothermal: Organisms restricted to a NARROW range of temperatures (e.g. Corals, polar bears, lizards, deep-sea organisms).",
+      "hint": "Eurythermal organisms have broad geographic distributions; stenothermal organisms have restricted ranges."
+    },
+    {
+      "id": "c3",
+      "tag": "concept",
+      "q": "Water as an Abiotic Factor: Euryhaline vs Stenohaline organisms?",
+      "a": "Water availability and salinity dictate aquatic life:\nSalinity measured in parts per thousand (ppt):\n- Inland freshwater: < 5 ppt\n- Sea water: 30 - 35 ppt\n- Hypersaline lagoons: > 100 ppt\nOrganisms:\n1. Euryhaline: Can tolerate a WIDE range of salinities (e.g. Salmon, Mollienesia).\n2. Stenohaline: Restricted to a NARROW range of salinity (e.g. Freshwater goldfish dies in seawater; marine shark dies in freshwater due to osmotic shock).",
+      "hint": "Osmoregulation and salinity tolerance determine species distributions across aquatic habitats."
+    },
+    {
+      "id": "c4",
+      "tag": "concept",
+      "q": "Organismic Responses to Abiotic Stress: Regulate vs Conform?",
+      "a": "1. Regulators: Maintain constant internal physiological homeostasis (thermoregulation and osmoregulation) regardless of external fluctuations (e.g. all Birds and Mammals; endotherms / homeotherms). Achieve this via sweating, shivering.\n2. Conformers: Cannot maintain constant internal environment; body temperature and osmolarity change passively with external environment (e.g. 99% animals and nearly all plants; ectotherms / poikilotherms).",
+      "hint": "Thermoregulation is energetically expensive, especially for small animals (shrews, hummingbirds) with high surface-area-to-volume ratios."
+    },
+    {
+      "id": "c5",
+      "tag": "concept",
+      "q": "Organismic Responses: Migrate vs Suspend?",
+      "a": "1. Migrate: Temporary escape from stressful habitat to a hospitable area, returning when favorable conditions return (e.g. Siberian Cranes migrate thousands of kilometers to Keoladeo National Park, Bharatpur, Rajasthan every winter).\n2. Suspend: Inactive survival phase:\n- Spores in bacteria, fungi, algae.\n- Dormancy in seeds.\n- Hibernation (Winter sleep): Bears escaping extreme cold.\n- Aestivation (Summer sleep): Snails and lungfish escaping summer heat and desiccation.\n- Diapause: Stage of suspended development in zooplankton in lakes.",
+      "hint": "Hibernation = Winter sleep; Aestivation = Summer sleep; Diapause = Suspended development in zooplankton."
+    },
+    {
+      "id": "c6",
+      "tag": "imp",
+      "q": "Adaptations in Desert Animals: Kangaroo Rat and Camel?",
+      "a": "1. Kangaroo Rat (Dipodomys spectabilis) of North American deserts:\n- Meets 100% of water requirement through internal METABOLIC WATER (byproduct of internal fat oxidation).\n- Concentrates its urine to a semi-solid paste so minimal water is lost via excretion.\n- Lives in cool underground burrows during day (no sweat glands).\n2. Camel: Can withstand up to 40% body water loss; produces dry feces and highly concentrated urine; stores fat in hump.",
+      "hint": "Kangaroo rat can live its entire lifespan without drinking a single drop of liquid water!"
+    },
+    {
+      "id": "c7",
+      "tag": "imp",
+      "q": "Adaptations in Xerophytic Plants: Opuntia and Sunken Stomata?",
+      "a": "Morphological and physiological adaptations to conserve water:\n1. Thick waxy cuticle on epidermal surface.\n2. Sunken Stomata arranged in deep pits to reduce transpiration losses (e.g. Nerium).\n3. CAM (Crassulacean Acid Metabolism) Pathway: Stomata open ONLY at night (scotoactive) and remain closed during daytime.\n4. Leaves reduced to spines to minimize surface area; green flattened stems perform photosynthesis (Phylloclade in Opuntia; cladode in Ruscus).",
+      "hint": "Scotoactive stomata open in darkness and close during bright sunlight."
+    },
+    {
+      "id": "c8",
+      "tag": "imp",
+      "q": "Allen's Rule and Bergmann's Rule in cold climates?",
+      "a": "1. Allen's Rule: Mammals living in colder climates have SHORTER EARS, shorter snouts, and shorter limbs (extremities) compared to their warm-climate relatives to minimize heat loss from surface area (e.g. Arctic fox vs Desert fennec fox).\n2. Bergmann's Rule: Warm-blooded animals in colder climates tend to have LARGER overall body size (lower surface-area-to-volume ratio) to conserve core heat.",
+      "hint": "Thick insulating layer of subcutaneous fat (Blubber) in seals and whales prevents heat loss in frigid polar oceans."
+    },
+    {
+      "id": "c9",
+      "tag": "concept",
+      "q": "Physiological Adaptation to High Altitude: Altitude Sickness?",
+      "a": "Occurs at altitudes >3,500 m (e.g. Rohtang Pass, Leh) due to low atmospheric pressure and resulting low arterial $pO_2$.\nSymptoms: Nausea, fatigue, dizziness, heart palpitations, headache.\nPhysiological Acclimatization by Body:\n1. Stimulates kidney to secrete Erythropoietin $\\rightarrow$ increases RBC count.\n2. Increases breathing rate.\n3. Decreases the binding affinity of hemoglobin for oxygen, accelerating oxygen unloading at tissues.",
+      "hint": "People living permanently at high altitudes have higher hematocrit (RBC count) and total hemoglobin than plains dwellers."
+    },
+    {
+      "id": "c10",
+      "tag": "formula",
+      "q": "Population Attributes: Natality, Mortality, Sex Ratio, and Density?",
+      "a": "Populations have attributes that individual organisms do not possess:\n1. Natality ($B$): Number of births per unit population per unit time.\n2. Mortality ($D$): Number of deaths per unit population per unit time.\n3. Sex Ratio: Ratio of males to females in a population (e.g. 940 females per 1000 males).\n4. Population Density ($N$): Number of individuals per unit area or volume ($N = \\text{Total individuals} / \\text{Unit area}$).",
+      "hint": "An individual organism has births and deaths, but only a POPULATION has birth rates and death rates."
+    },
+    {
+      "id": "c11",
+      "tag": "concept",
+      "q": "Age Pyramids: Expanding, Stable, and Declining populations?",
+      "a": "Graph displaying proportion of pre-reproductive, reproductive, and post-reproductive age groups in a population:\n1. Triangular Pyramid (Expanding): Broad base of pre-reproductive individuals > reproductive > post-reproductive (rapidly growing population; developing nations).\n2. Bell-shaped Pyramid (Stable): Pre-reproductive and reproductive age groups are nearly equal (zero growth; steady population).\n3. Urn-shaped Pyramid (Declining): Pre-reproductive group is smaller than reproductive group; base is narrow (negative growth; e.g. Japan, Germany).",
+      "hint": "An urn-shaped pyramid has a narrow base indicating shrinking numbers of young individuals."
+    },
+    {
+      "id": "c12",
+      "tag": "formula",
+      "q": "Population Growth Equation: Natality, Mortality, Immigration, Emigration?",
+      "a": "Equation:\n$N_{t+1} = N_t + [ (B + I) - (D + E) ]$\nWhere:\n- $N_t$: Population density at time $t$\n- $B$: Natality (births)\n- $I$: Immigration (individuals entering from outside)\n- $D$: Mortality (deaths)\n- $E$: Emigration (individuals departing to outside)\nPopulation INCREASES if $(B + I) > (D + E)$; DECREASES if $(B + I) < (D + E)$.",
+      "hint": "Under normal conditions, births and deaths govern density; under colonization of a new habitat, immigration ($I$) plays the dominant role."
+    },
+    {
+      "id": "c13",
+      "tag": "formula",
+      "q": "Exponential (Geometric) Population Growth: Formula and J-shaped curve?",
+      "a": "Occurs when resources (food and space) are UNLIMITED:\nDifferential form: $dN / dt = rN = (b - d) N$\nIntegral form: $N_t = N_0 e^{rt}$\nWhere:\n- $N$: Population size\n- $r$: Intrinsic rate of natural increase (measure of biotic potential)\n- $e$: Base of natural logarithms (2.71828)\nCurve: J-shaped exponential curve, ending in a sudden crash when resources collapse.",
+      "hint": "For human population in India in 1981, $r$ value was 0.0205."
+    },
+    {
+      "id": "c14",
+      "tag": "formula",
+      "q": "Logistic Population Growth (Verhulst-Pearl): Formula and S-shaped curve?",
+      "a": "Realistic growth model in nature where resources are FINITE and LIMITED:\nEquation:\n$dN / dt = rN \\left[ \\frac{K - N}{K} \\right]$\nWhere:\n- $K$: Carrying Capacity (maximum population size the environment can sustainably support)\n- $[(K - N) / K]$: Environmental Resistance\nCurve: Sigmoid / S-shaped curve showing: Lag phase $\\rightarrow$ Phase of acceleration/log $\\rightarrow$ Deceleration $\\rightarrow$ Asymptote ($N = K$).",
+      "hint": "When $N = K$, $[(K - N) / K] = 0$, meaning population growth rate becomes zero ($dN/dt = 0$)."
+    },
+    {
+      "id": "c15",
+      "tag": "concept",
+      "q": "Population Interactions Overview: Nature of interactions (+, -, 0)?",
+      "a": "1. Mutualism: (+ / +) Both species benefit.\n2. Competition: (- / -) Both species suffer detrimental effects.\n3. Predation: (+ / -) Predator benefits, prey is killed.\n4. Parasitism: (+ / -) Parasite benefits, host is harmed.\n5. Commensalism: (+ / 0) One species benefits, other is unaffected.\n6. Amensalism: (- / 0) One species is harmed/inhibited, other is unaffected.",
+      "hint": "Predation, parasitism, and commensalism share a common feature: the interacting species live closely together."
+    },
+    {
+      "id": "c16",
+      "tag": "imp",
+      "q": "Mutualism (+ / +): 4 classic biological examples?",
+      "a": "1. Lichens: Intimate mutualism between Phycobiont (photosynthetic alga/cyanobacterium provides food) and Mycobiont (fungus provides anchor, water, and minerals).\n2. Mycorrhiza: Association between fungi (Glomus) and roots of higher plants.\n3. Fig Tree and Fig Wasp: Obligate mutualism; female wasp pollinates internal inflorescence (hypanthodium) while laying eggs inside ovaries; developing larvae feed on seeds.\n4. Pseudocopulation in Mediterranean Orchid (Ophrys): Petal mimics female Colletes bee in color, shape, and scent; male bee 'pseudocopulates' with flower, carrying out cross-pollination.",
+      "hint": "If the female bee's color patterns change during evolution, Ophrys must co-evolve to maintain its pseudocopulatory deception."
+    },
+    {
+      "id": "c17",
+      "tag": "imp",
+      "q": "Competition (- / -): Gause's Competitive Exclusion Principle?",
+      "a": "Gause's Principle: Two closely related species competing for the EXACT SAME limited resource cannot coexist indefinitely; the competitively inferior species will be eliminated.\nClassic evidence:\n- Paramecium aurelia completely eliminates Paramecium caudatum when cultured together.\n- Introduction of goats on Galapagos Islands outcompeted and caused extinction of the native Abingdon Giant Tortoise due to greater browsing efficiency.",
+      "hint": "Gause's principle holds true only when resources are strictly limited and competing species cannot partition them."
+    },
+    {
+      "id": "c18",
+      "tag": "concept",
+      "q": "Resource Partitioning: MacArthur's Warblers experiment?",
+      "a": "Mechanism facilitating coexistence rather than competitive exclusion among competing species:\nRobert MacArthur (1958) showed that 5 closely related species of Warbler birds lived and coexisted peacefully on the same spruce tree:\n- They avoided direct competition by developing behavioral differences in their foraging times and feeding on different micro-zones/branches of the tree.",
+      "hint": "Resource partitioning allows closely related species to share a habitat without outcompeting each other."
+    },
+    {
+      "id": "c19",
+      "tag": "concept",
+      "q": "Predation (+ / -): Ecological roles and prey defense mechanisms?",
+      "a": "Roles:\n1. Energy conduit transferring energy from producers to higher trophic levels.\n2. Keeps prey populations under check (Paine's experiment: removal of predator starfish Pisaster from intertidal community caused extinction of >10 invertebrate species due to unchecked competition).\nPrey Defenses:\n- Camouflage / Cryptic coloration (insects, frogs).\n- Monarch butterfly: Highly distasteful to birds due to toxic cardiac glycosides acquired during caterpillar stage feeding on poisonous milkweed.\n- Spines and thorns (Acacia, Cactus); poisonous chemicals (Calotropis produces cardiac glycosides; nicotine, caffeine, strychnine).",
+      "hint": "Predators are 'prudent' in nature; they never overexploit their prey to extinction, or they would starve."
+    },
+    {
+      "id": "c20",
+      "tag": "concept",
+      "q": "Parasitism (+ / -): Ectoparasites, Endoparasites, and Brood Parasitism?",
+      "a": "Parasites obtain nourishment and shelter at the expense of host:\n1. Ectoparasites: Live on external surface of host (e.g. Lice on humans, ticks on dogs, marine copepods on fish, Cuscuta / Amarbel on hedge plants).\n2. Endoparasites: Live inside host body/organs (Liver fluke, Plasmodium, Taenia); have specialized suckers/hooks and simple morphology, but complex life cycles.\n3. Brood Parasitism: Parasitic bird lays its eggs in the nest of a host bird, leaving host to incubate and rear chicks (e.g. Asian Koel / Cuckoo lays eggs in Crow's nest; cuckoo eggs mimic crow eggs in color and pattern).",
+      "hint": "Cuscuta is a parasitic angiosperm that has lost its chlorophyll and leaves, absorbing nutrients via haustoria."
+    },
+    {
+      "id": "c21",
+      "tag": "concept",
+      "q": "Commensalism (+ / 0): 4 classic examples?",
+      "a": "One species benefits, the other is neither harmed nor benefited:\n1. Orchid growing as an Epiphyte on a mango tree branch (orchid gains physical support and sunlight; mango tree unaffected).\n2. Barnacles (Coronula) growing on the back of a Whale (barnacles gain transport to plankton-rich feeding grounds; whale unaffected).\n3. Cattle Egret bird foraging close to grazing cattle (grazing cattle flush out hidden insects from grass, which egrets readily catch).\n4. Sea Anemone and Clown Fish (clown fish gets protection from predators within stinging tentacles; anemone unaffected).",
+      "hint": "Epiphytes are non-parasitic; they use host trees purely for physical anchorage, not for nourishment."
+    },
+    {
+      "id": "c22",
+      "tag": "concept",
+      "q": "Amensalism (- / 0): Definition and biological examples (Allelopathy)?",
+      "a": "Interaction where one species is inhibited or destroyed, while the other remains completely unaffected:\nExamples:\n1. Penicillium notatum produces Penicillin antibiotic, inhibiting and killing surrounding bacteria without any benefit or harm to the fungus.\n2. Black Walnut tree (Juglans nigra) roots secrete a toxic chemical called Juglone into soil, which completely inhibits growth of nearby apple and tomato plants (Allelopathy).",
+      "hint": "Allelopathy in plants is a classic ecological manifestation of Amensalism."
+    },
+    {
+      "id": "c23",
+      "tag": "formula",
+      "q": "MHT-CET Calculation: Growth rate of a population of 50 lotus plants that becomes 60 in one year?",
+      "a": "Birth rate ($b$) = [Number of new individuals added] / [Initial population]\n$b = (60 - 50) / 50 = 10 / 50 = 0.2$ offspring per lotus per year.\nIf in a laboratory population of 40 fruit flies, 4 die in a week:\nDeath rate ($d$) = $4 / 40 = 0.1$ deaths per fruit fly per week.",
+      "hint": "Always divide new births or deaths by the INITIAL starting population to get per capita rate."
+    },
+    {
+      "id": "c24",
+      "tag": "imp",
+      "q": "Connell's Elegant Field Experiment on Barnacles (Competitive Release)?",
+      "a": "Conducted on the rocky sea coasts of Scotland:\n- Larger, competitively superior barnacle Balanus dominates the lower intertidal zone.\n- Smaller barnacle Chthamalus is restricted to the upper intertidal zone.\n- When Balanus was experimentally removed from the intertidal zone, Chthamalus expanded rapidly into the lower zone.\nConclusion: Demonstrates Competitive Release (a species expands its distributional range when its superior competitor is removed).",
+      "hint": "Competitive release proves that a species' realized niche is smaller than its fundamental niche due to competition."
+    },
+    {
+      "id": "c25",
+      "tag": "formula",
+      "q": "MHT-CET Population Interaction Matrix: Quick Recall Key?",
+      "a": "- Mutualism: (+, +) e.g. Lichens, Fig-Wasp, Mycorrhiza.\n- Competition: (-, -) e.g. Balanus & Chthamalus, Abingdon tortoise & goats.\n- Predation: (+, -) e.g. Tiger & deer, Pisaster starfish & invertebrates.\n- Parasitism: (+, -) e.g. Cuscuta & host hedge, Ticks & dog, Koel & crow.\n- Commensalism: (+, 0) e.g. Epiphytic orchid on mango, Barnacle on whale.\n- Amensalism: (-, 0) e.g. Penicillium & bacteria, Black walnut & nearby plants.",
+      "hint": "Essential 6-point matrix tested every year in MHT-CET and HSC Board!"
+    }
+  ]
+}
